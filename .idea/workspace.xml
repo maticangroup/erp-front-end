@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f335fd-7c76-4025-bce6-615687ec2e5e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/pages/deal-overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Register.html" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deal-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deal-add.html" afterDir="false" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor" />
+<<<<<<< HEAD
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -30,6 +36,57 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="655" column="79" selection-start-line="655" selection-start-column="79" selection-end-line="655" selection-end-column="79" />
+=======
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/main_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/deal-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="707" column="35" lean-forward="true" selection-start-line="707" selection-start-column="35" selection-end-line="707" selection-end-column="35" />
+              <folding>
+                <element signature="n#form#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leftmenu-Icon-LightSidebar-Light/index4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="407" column="51" lean-forward="true" selection-start-line="407" selection-start-column="51" selection-end-line="407" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leftmenu-Icon-LightSidebar-Light/modal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
             </state>
           </provider>
         </entry>
@@ -45,6 +102,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>page-header</find>
       <find>profile</find>
       <find>header</find>
@@ -53,6 +111,10 @@
       <find>data table</find>
       <find>dataTables_length</find>
       <find>&lt;/tr&gt;</find>
+=======
+      <find>modal</find>
+      <find>side-app</find>
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,18 +124,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/Login page.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pages/Register.html" />
         <option value="$PROJECT_DIR$/pages/Profile.html" />
         <option value="$PROJECT_DIR$/assets/css/dashboard.css" />
         <option value="$PROJECT_DIR$/pages/deal-overview.html" />
+=======
+        <option value="$PROJECT_DIR$/pages/login.html" />
+        <option value="$PROJECT_DIR$/pages/deal-add.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/farima.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="60" />
-    <option name="width" value="3780" />
-    <option name="height" value="1920" />
+    <option name="x" value="1987" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -84,23 +161,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="farima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farima" type="462c0819:PsiDirectoryNode" />
+              <item name="Farima" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Farima" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="farima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farima" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="farima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farima" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="farima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="farima" type="462c0819:PsiDirectoryNode" />
+              <item name="Farima" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Farima" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -141,12 +207,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564587867637</updated>
+<<<<<<< HEAD
       <workItem from="1564587872238" duration="27544000" />
       <workItem from="1564672570461" duration="1723000" />
+=======
+      <workItem from="1564587872238" duration="4514000" />
+      <workItem from="1564642111998" duration="662000" />
+      <workItem from="1564652578121" duration="2088000" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="29267000" />
   </component>
   <component name="TodoView">
@@ -157,12 +230,19 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+=======
+    <option name="totallyTimeSpent" value="7264000" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1553398" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15605977" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,12 +251,21 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32978722" />
+=======
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286638" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -189,6 +278,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/yek" />
     <entry file="file://$PROJECT_DIR$/pages/Login page.html" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pages/Register.html" />
     <entry file="file://$PROJECT_DIR$/pages/Profile.html" />
     <entry file="file://$PROJECT_DIR$/assets/css/dashboard.css">
@@ -225,6 +315,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="655" column="79" selection-start-line="655" selection-start-column="79" selection-end-line="655" selection-end-column="79" />
+=======
+    <entry file="file://$PROJECT_DIR$/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leftmenu-Icon-LightSidebar-Light/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="407" column="51" lean-forward="true" selection-start-line="407" selection-start-column="51" selection-end-line="407" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leftmenu-Icon-LightSidebar-Light/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/deal-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="707" column="35" lean-forward="true" selection-start-line="707" selection-start-column="35" selection-end-line="707" selection-end-column="35" />
+          <folding>
+            <element signature="n#form#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+>>>>>>> 99b069a02d116d435904da3f9ede598efaa37cc1
         </state>
       </provider>
     </entry>
