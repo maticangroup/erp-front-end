@@ -652,7 +652,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title mr-2">Projects</div>
-                                <a href="deal-add.html" class="btn btn-outline-primary"><i class="fas  fa-plus"></i></a>
+                                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal3"><i class="fas  fa-plus"></i></button>
                                 <div class="card-options d-none d-sm-block mr-1">
                                     <a href="#" class="btn btn-outline-primary">Export  <i class="fas fa-file-export"></i></a>
                                 </div>
@@ -788,7 +788,127 @@
                     </div>
                 </div>
 
-            </div>
+                <!-- Message Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="example-Modal3">New Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form autocomplete="off">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Project Title" class="form-control-label mr-1 font-weight-bold">Project Title: </label>
+                                                <input type="text" class="form-control" id="Project Title" step="0">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Customer" class="form-control-label mr-1 font-weight-bold">Customer:</label>
+                                                <input type="text" class="form-control " id="Customer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Owner" class="form-control-label mr-1 font-weight-bold">Owner: </label>
+                                                <input type="text" class="form-control" id="Owner" step="0">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Responsible Person" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
+                                                <input type="text" class="form-control " id="Responsible Person">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Service:</label>
+                                                <select class="form-control" id="address">
+                                                    <option>......</option>
+                                                    <option>......</option>
+                                                    <option>......</option>
+                                                    <option>......</option>
+                                                    <option>......</option>
+                                                    <option>......</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Budget Indication" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
+                                                <input type="number" class="form-control" id="Budget Indication" placeholder="0 ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Estimation Datetime" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
+                                                <input type="date" class="form-control " id="Estimation Datetime">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Deadline Datetime" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
+                                                <input type="date" class="form-control " id="Deadline Datetime">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
+                                                <input type="date" class="form-control " id="Start Date">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="End Date" class="form-control-label mr-1 font-weight-bold">End Date: </label>
+                                                <input type="date" class="form-control" id="End Date" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Duration Time" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
+                                                <input type="date" class="form-control " id="Duration Time">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Delivery Date" class="form-control-label mr-1 font-weight-bold">Delivery Date: </label>
+                                                <input type="date" class="form-control" id="Delivery Date" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">Contract</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             <!--Sidebar-right-->
             <div class="sidebar sidebar-right sidebar-animate">
                 <div class="panel panel-primary">
