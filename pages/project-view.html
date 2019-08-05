@@ -35,6 +35,9 @@
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
+    <!-- jvectormap css-->
+    <link href="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+
     <!-- morris Charts Plugin -->
     <link href="../assets/plugins/morris/morris.css" rel="stylesheet" />
 
@@ -43,6 +46,7 @@
 
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
 
 </head>
 
@@ -648,11 +652,8 @@
             <div class="side-app">
 
                 <div class="row">
-                    <div class="col-4">
+                    <div id="project card" class="col-4">
                         <div class="card">
-                            <div class="card-header">
-                                <h3 class="card-title">Project</h3>
-                            </div>
                             <div class="card-body text-center">
                                 <h3 class="font-weight-semibold">Project Name</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum lorem sed risus ultricies tristique nulla aliquet. Sed pulvinar proin gravida hendrerit lectus.</p>
@@ -662,86 +663,714 @@
                                     <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/29.jpg"></span>
                                     <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/2.jpg"></span>
                                     <span class="avatar brround cover-image" data-image-src="../assets/images/users/male/34.jpg"></span>
-                                    <span class="avatar brround cover-image">+23</span>
+                                    <span class="avatar brround cover-image">+29</span>
                                 </div>
                                 <label class="font-weight-semibold">Project Status</label>
                                 <div class="progress progress-md mb-6">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70">70%</div>
                                 </div>
-                                <a class="text-center btn btn-primary" href="#"><i class="fas fa-pen"></i> Update</a>
+                                <a class="text-center btn btn-outline-primary" href="#"><i class="fas fa-pen"></i> Update</a>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-2">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="../assets/images/svgs/png/017-clipboard.png" alt="img" class="w-8 h-8 mb-4">
-                                <div class="svg-btn">
-                                    <a class="btn btn-primary btn-pill" href="#">Milestones</a>
+                    <div id="project items" class="col-8">
+                        <div id="horizontal-scroll" class="card">
+                            <div class="card-header">
+                                <div class="card-title font-weight-bold">Project Items</div>
+                            </div>
+                            <div class="card-body">
+                                <div id="demo2" class="showcase">
+                                    <div id="content-5" class="horizontal-images light">
+                                        <ul>
+                                            <li><div id="milestones" class="card">
+                                                    <div class="card-body text-center">
+                                                        <img src="../assets/images/svgs/png/017-clipboard.png" alt="img" class="w-8 h-8 mb-4">
+                                                        <div class="svg-btn">
+                                                            <a class="btn btn-primary btn-pill" href="#">Milestones</a>
+                                                        </div>
+                                                        <h3 class="mt-4">9</h3>
+                                                    </div>
+                                            </div></li>
+                                            <li><div id="tasks" class="card">
+                                                    <div class="card-body text-center">
+                                                        <img src="../assets/images/svgs/png/018-clipboard-1.png" alt="img" class="w-8 h-8 mb-4">
+                                                        <div class="svg-btn">
+                                                            <a class="btn btn-primary btn-pill" href="#">Tasks</a>
+                                                        </div>
+                                                        <h3 class="mt-4">53</h3>
+                                                    </div>
+                                                </div></li>
+                                            <li><div id="equipment" class="card">
+                                                    <div class="card-body text-center">
+                                                        <img src="../assets/images/svgs/png/064-logistic-6.png" alt="img" class="w-8 h-8 mb-4">
+                                                        <div class="svg-btn">
+                                                            <a class="btn btn-primary btn-pill" href="#">Equipment</a>
+                                                        </div>
+                                                        <h3 class="mt-4">71</h3>
+                                                    </div>
+                                            </div></li>
+                                            <li><div id="invoice" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/096-parcel.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Invoice</a>
+                                                    </div>
+                                                    <h3 class="mt-4">$7,256</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="services" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/049-global-1.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Services</a>
+                                                    </div>
+                                                    <h3 class="mt-4">10</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="vendors" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/081-on-time.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Vendors</a>
+                                                    </div>
+                                                    <h3 class="mt-4">16</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="polls" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/026-customer-service.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Polls</a>
+                                                    </div>
+                                                    <h3 class="mt-4">6</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="Files" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/058-logistic.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Files</a>
+                                                    </div>
+                                                    <h3 class="mt-4">41</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="groups" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/116-support.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Groups</a>
+                                                    </div>
+                                                    <h3 class="mt-4">5</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="letters" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/019-clipboard-2.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Letters</a>
+                                                    </div>
+                                                    <h3 class="mt-4">19</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="catering" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/027-delivery.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Catering</a>
+                                                    </div>
+                                                    <h3 class="mt-4">2</h3>
+                                                </div>
+                                            </div></li>
+                                            <li><div id="timings" class="card">
+                                                <div class="card-body text-center">
+                                                    <img src="../assets/images/svgs/png/001-24-hours.png" alt="img" class="w-8 h-8 mb-4">
+                                                    <div class="svg-btn">
+                                                        <a class="btn btn-primary btn-pill" href="#">Timings</a>
+                                                    </div>
+                                                    <h3 class="mt-4">6</h3>
+                                                </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <h3 class="mt-4">27</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="../assets/images/svgs/png/018-clipboard-1.png" alt="img" class="w-8 h-8 mb-4">
-                                <div class="svg-btn">
-                                    <a class="btn btn-primary btn-pill" href="#">Tasks</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="Project Value" class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="dash-2">
+                                        <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">89,385</span></h2>
+                                        <span>Project Value</span>
+                                    </div>
                                 </div>
-                                <h3 class="mt-4">365</h3>
+                                <div class="col col-auto">
+                                    <span class="sparkline_bar1"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="../assets/images/svgs/png/064-logistic-6.png" alt="img" class="w-8 h-8 mb-4">
-                                <div class="svg-btn">
-                                    <a class="btn btn-primary btn-pill" href="#">Equipment</a>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 10%</span>  Orders Incresed </p>
                                 </div>
-                                <h3 class="mt-4">613</h3>
+                                <div class="col col-auto">
+                                    <a class="btn btn-sm btn-white border">View Details</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="../assets/images/svgs/png/096-parcel.png" alt="img" class="w-8 h-8 mb-4">
-                                <div class="svg-btn">
-                                    <a class="btn btn-primary btn-pill" href="#">Invoice</a>
+                <div id="Total Expenses" class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="dash-2">
+                                        <h2 class="text-orange mb-2">$<span class="counter font-weight-extrabold">83,547</span></h2>
+                                        <span>Total Expenses</span>
+                                    </div>
                                 </div>
-                                <h3 class="mt-4">$7,256</h3>
+                                <div class="col col-auto">
+                                    <span class="sparkline_bar"></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="../assets/images/svgs/png/018-clipboard-1.png" alt="img" class="w-8 h-8 mb-4">
-                                <div class="svg-btn">
-                                    <a class="btn btn-primary btn-pill" href="#">Tasks</a>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-down text-danger"></i> 5%</span>  Expences Decresed </p>
                                 </div>
-                                <h3 class="mt-4">365</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="../assets/images/svgs/png/064-logistic-6.png" alt="img" class="w-8 h-8 mb-4">
-                                <div class="svg-btn">
-                                    <a class="btn btn-primary btn-pill" href="#">Equipment</a>
+                                <div class="col col-auto">
+                                    <a class="btn btn-sm btn-white border">View Details</a>
                                 </div>
-                                <h3 class="mt-4">613</h3>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div id="Total Net Profit" class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="dash-2">
+                                        <h2 class="text-success mb-2">$<span class="counter font-weight-extrabold">99,425</span></h2>
+                                        <span>Total Net Profit</span>
+                                    </div>
+                                </div>
+                                <div class="col col-auto">
+                                    <span class="sparkline22 w-100"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 13%</span>  Net Profit Incresed </p>
+                                </div>
+                                <div class="col col-auto">
+                                    <a class="btn btn-sm btn-white border">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="tasks section" class="col-8">
+                <div class="card overflow-hidden">
+                    <div class="card-header">
+                        <h5 class="card-title m-b-0 font-weight-bold">Tasks Status</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="dash4 d-none d-sm-block">
+                            <p class="fs-16 float-right ml-4 text-danger">Pending Tasks: <b>3</b></p>
+                            <p class="fs-16 float-right text-lime">Completed Tasks: <b>3</b></p>
+                            <p class="fs-16">Total Tasks: <b>6</b></p>
+                        </div>
+                        <div class="chart-wrapper ">
+                            <canvas id="team-chart" class="chart-height chart-dropshadow"></canvas>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="text-muted"><i class="si si-clock mr-1"></i>Campaign 1 hour ago</span>
+                    </div>
+                </div>
+            </div>
+                <div id="people section" class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title font-weight-bold">Project People</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- content -->
+                            <div class="content vscroll mh-300">
+                                <div class="table-responsive">
+                                    <table class="table card-table mt-2 mb-2 text-nowrap">
+                                        <tr>
+                                            <td class="align-middle w-1" >
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/42.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Hugo Slavia</strong>
+                                                <small class="d-block text-muted">@fat</small>
+                                            </td>
+                                            <td class="align-middle w-1" >
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle w-1">
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/2.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Cara Larm</strong>
+                                                <small class="d-block text-muted">@dhg</small>
+                                            </td>
+                                            <td class="align-middle w-1">
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle w-1" >
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/female/24.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Cooke Edoh</strong>
+                                                <small class="d-block text-muted">@mdo</small>
+                                            </td>
+                                            <td class="align-middle w-1" >
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle w-1" >
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/23.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Gio Metric</strong>
+                                                <small class="d-block text-muted">@mdo</small>
+                                            </td>
+                                            <td class="align-middle w-1" >
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle w-1">
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/42.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Vinny Gret</strong>
+                                                <small class="d-block text-muted">@cwt</small>
+                                            </td>
+                                            <td class="align-middle w-1">
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle w-1">
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/female/7.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Stewart	King</strong>
+                                                <small class="d-block text-muted">@cwt</small>
+                                            </td>
+                                            <td class="align-middle w-1">
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle w-1">
+                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/female/31.jpg"></span>
+                                            </td>
+                                            <td>
+                                                <strong>Claire	Kerr</strong>
+                                                <small class="d-block text-muted">@cwt</small>
+                                            </td>
+                                            <td class="align-middle w-1">
+                                                <button class="btn btn-indigo btn-sm">
+                                                    <span class="fe fe-user"></span> Profile
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="circle chart" class="col-6">
+                    <div class="card overflow-hidden">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">Units Traffic</h3>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="pieChart" class="donutShadow h-350 overflow-hidden"></canvas>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-4">
+                                <h4 class="mb-5 d-block">
+                                    <span class="fs-16">TQM Unit</span>
+                                    <span class="float-right p-1 badge badge-info text-white">
+												15,635</span>
+                                </h4>
+                                <div class="progress progress-md h-1">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info w-30"></div>
+                                </div>
+                            </div>
+                            <div class="mb-5">
+                                <h4 class="mb-4">
+                                    <span class="fs-16">CRM Unit</span>
+                                    <span class="float-right p-1 badge badge-danger text-white">
+												97,356</span>
+                                </h4>
+                                <div class="progress progress-md h-1">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
+                                </div>
+                            </div>
+                            <div class="mb-5">
+                                <h4 class="mb-4">
+                                    <span class="fs-16">Operational Unit</span>
+                                    <span class="float-right p-1 badge badge-primary text-white">
+												28,425</span>
+                                </h4>
+                                <div class="progress progress-md h-1">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-40"></div>
+                                </div>
+                            </div>
+                            <div class="mb-0">
+                                <h4 class="mb-4">
+                                    <span class="fs-16">Financial Unit</span>
+                                    <span class="float-right p-1 badge badge-warning text-white">
+												20,245</span>
+                                </h4>
+                                <div class="progress progress-md h-1">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning w-35"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="progress section" class="col-6">
+                    <div class="card overflow-hidden">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">Progress Rate</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="card-body overflow-hidden">
+                                        <h4>Activites</h4>
+                                        <canvas id="lineChart" class="chart-dropshadow h-350 overflow-hidden"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row website-section">
+                                <div class="col-xl-3 text-center mb-5 mb-lg-0">
+                                    <p class="mb-1">Daily Visitors</p>
+                                    <h2 class="text-success mb-3 font-weight-extrabold">6,254</h2>
+                                    <div class="progress progress-md h-1">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 text-center border-left mb-5 mb-lg-0">
+                                    <p class="mb-1">Returning Visitors</p>
+                                    <h2 class="text-danger mb-3 font-weight-extrabold">1254</h2>
+                                    <div class="progress progress-md h-1">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 text-center border-left mb-5 mb-lg-0">
+                                    <p class="mb-1">Page Views</p>
+                                    <h2 class="text-primary mb-3 font-weight-extrabold">24,325</h2>
+                                    <div class="progress progress-md h-1">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-70"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 text-center border-left">
+                                    <p class="mb-1">Today Subscribers</p>
+                                    <h2 class="text-info mb-3 font-weight-extrabold">357</h2>
+                                    <div class="progress progress-md h-1">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info w-70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="map" class="col-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">Route Map</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="map">
+                                <div class="map-content" id="map4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calls section" class="col-4">
+                    <div class="card card-collapsed">
+                        <div class="card-header">
+                            <h3 class="card-title font-weight-bold">Calls</h3>
+                            <div class="card-options">
+                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
+                                        class="fe fe-chevron-up"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+
+                            <div class="table-responsive">
+                                <table class="table card-table table-vcenter table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>From</th>
+                                        <th>To</th>
+                                        <th>Time</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Ehsan Rezvanian</td>
+                                        <td>Hossein Azimi</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Ehsan Rezvanian</td>
+                                        <td>Hossein Azimi</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Ehsan Rezvanian</td>
+                                        <td>Hossein Azimi</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Ehsan Rezvanian</td>
+                                        <td>Hossein Azimi</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Ehsan Rezvanian</td>
+                                        <td>Hossein Azimi</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- table-responsive -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!--Modals-->
+            <div class="modal fade" id="invoice-modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="example-Modal3-1">Invoice List</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">Invoice List</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive border-top mb-0">
+                                        <table class="table table-bordered table-hover mb-0 text-nowrap">
+                                            <thead>
+                                            <tr>
+                                                <th>Invoice ID</th>
+                                                <th>Category</th>
+                                                <th>Purchase Date</th>
+                                                <th>Price</th>
+                                                <th>Due Date</th>
+                                                <th>Action</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>#INV-348</td>
+                                                <td>Resturant</td>
+                                                <td>07-12-2018</td>
+                                                <td class="font-weight-semibold fs-16">$89</td>
+                                                <td>17-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-186</td>
+                                                <td>Rela Estate</td>
+                                                <td>02-12-2018</td>
+                                                <td class="font-weight-semibold fs-16">$14,276</td>
+                                                <td>14-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-831</td>
+                                                <td>Jobs</td>
+                                                <td>30-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$25,000</td>
+                                                <td>04-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-672</td>
+                                                <td>Education</td>
+                                                <td>25-18-2018</td>
+                                                <td class="font-weight-semibold fs-16">$50.00</td>
+                                                <td>07-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-428</td>
+                                                <td>Electornics</td>
+                                                <td>24-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$99.99</td>
+                                                <td>11-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-543</td>
+                                                <td>Vechicle</td>
+                                                <td>22-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$145</td>
+                                                <td>12-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-986</td>
+                                                <td>Pet &amp; Animals</td>
+                                                <td>18-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$378</td>
+                                                <td>07-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-867</td>
+                                                <td>Cloting</td>
+                                                <td>17-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$509.00</td>
+                                                <td>06-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-893</td>
+                                                <td>Computer</td>
+                                                <td>16-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$347</td>
+                                                <td>30-11-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-267</td>
+                                                <td>Health &amp; Fitness</td>
+                                                <td>12-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$895</td>
+                                                <td>27-11-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>#INV-931</td>
+                                                <td>Beauty &amp; Spa</td>
+                                                <td>11-11-2018</td>
+                                                <td class="font-weight-semibold fs-16">$765</td>
+                                                <td>25-12-2018</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
+                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!--Sidebar-right-->
             <div class="sidebar sidebar-right sidebar-animate">
@@ -1149,7 +1778,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- Back to top -->
 <a href="#top" id="back-to-top"><i class="fas fa-angle-up "></i></a>
 
@@ -1204,6 +1833,7 @@
 
 <!-- custom js -->
 <script src="../assets/js/custom.js"></script>
+
 
 </body>
 </html>
