@@ -33,6 +33,15 @@
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
+    <!-- Time picker Plugin -->
+    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
+
+    <!-- Date Picker Plugin -->
+    <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
+
+    <!--mutipleselect css-->
+    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
+
     <!-- Data table css -->
     <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
@@ -46,6 +55,7 @@
 
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
 </head>
 <body class="app sidebar-mini rtl">
 
@@ -815,119 +825,115 @@
                             </div>
                             <div class="modal-body">
                                 <form autocomplete="off">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Project Title" class="form-control-label mr-1 font-weight-bold">Project Title: </label>
-                                                <input type="text" class="form-control" id="Project Title" step="0">
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Project Title" class="form-control-label mr-1 font-weight-bold">Title: </label>
+                                                    <input type="text" class="form-control" id="Project Title" step="0">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Customer" class="form-control-label mr-1 font-weight-bold">Customer:</label>
-                                                <input type="text" class="form-control " id="Customer">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label class="form-label font-weight-bold">Owner:</label>
-                                                <select class="form-control select2" data-placeholder="Choose Browser" multiple>
-                                                    <option value="Owner1">
-                                                        Owner1
-                                                    </option>
-                                                    <option value="Owner2 selected">
-                                                        Owner2
-                                                    </option>
-                                                    <option value="Owner3">
-                                                        Owner3
-                                                    </option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Responsible Person" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
-                                                <input type="text" class="form-control " id="Responsible Person">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Service" class="form-control-label mr-1 font-weight-bold">Service:</label>
-                                                <select class="form-control" id="Service">
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Budget Indication" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
-                                                <input type="number" class="form-control" id="Budget Indication" placeholder="0 ">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="contract" class="form-control-label mr-1 font-weight-bold">Contract:</label>
-                                                <select class="form-control" id="contract">
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                        </div>
-                                                    </div>
-                                                    <input class="form-control" id="Start Date" type="date">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="form-label font-weight-bold">Owner:</label>
+                                                    <select class="form-control select2" data-placeholder="Choose Browser" multiple>
+                                                        <option value="Owner1">
+                                                            Owner1
+                                                        </option>
+                                                        <option value="Owner2 selected">
+                                                            Owner2
+                                                        </option>
+                                                        <option value="Owner3">
+                                                            Owner3
+                                                        </option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Deadline Datetime" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                        </div>
-                                                    </div>
-                                                    <input class="form-control" id="Deadline Datetime" type="date">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Responsible Person" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
+                                                    <input type="text" class="form-control " id="Responsible Person">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Service" class="form-control-label mr-1 font-weight-bold">Service:</label>
+                                                    <select class="form-control" id="Service">
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Budget Indication" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
+                                                    <input type="number" class="form-control" id="Budget Indication" placeholder="0 ">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="contract" class="form-control-label mr-1 font-weight-bold">Contract:</label>
+                                                    <select class="form-control" id="contract">
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row mt-4">
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Estimation Datetime" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                    <div class="card p-3 mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
                                                         </div>
+                                                        <input class="form-control" id="Start Date" type="date">
                                                     </div>
-                                                    <input class="form-control" id="Estimation Datetime" type="date">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Deadline Datetime" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Deadline Datetime" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Estimation Datetime" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Estimation Datetime" type="date">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -951,162 +957,157 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form autocomplete="off">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Project Title2" class="form-control-label mr-1 font-weight-bold">Project Title: </label>
-                                                <input type="text" class="form-control" id="Project Title2" step="0">
+                                <form method="post" autocomplete="off">
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Project Title2" class="form-control-label mr-1 font-weight-bold">Title: </label>
+                                                    <input type="text" class="form-control" id="Project Title2" step="0">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Customer2" class="form-control-label mr-1 font-weight-bold">Customer:</label>
-                                                <input type="text" class="form-control " id="Customer2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label class="form-label font-weight-bold">Owner:</label>
-                                                <select class="form-control select2"  multiple>
-                                                    <option value="Owner1">
-                                                        Owner1
-                                                    </option>
-                                                    <option value="Owner2 selected">
-                                                        Owner2
-                                                    </option>
-                                                    <option value="Owner3">
-                                                        Owner3
-                                                    </option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Responsible Person2" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
-                                                <input type="text" class="form-control " id="Responsible Person2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Service2" class="form-control-label mr-1 font-weight-bold">Service:</label>
-                                                <select class="form-control" id="Service2">
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="Budget Indication2" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
-                                                <input type="number" class="form-control" id="Budget Indication2" placeholder="0 ">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="contract2" class="form-control-label mr-1 font-weight-bold">Contract:</label>
-                                                <select class="form-control" id="contract2">
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                    <option>......</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Start Date2" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                        </div>
-                                                    </div>
-                                                    <input class="form-control" id="Start Date2" type="date">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="form-label font-weight-bold">Owner:</label>
+                                                    <select class="form-control select2" data-placeholder="Choose Owner"  multiple>
+                                                        <option value="Owner1">
+                                                            Owner1
+                                                        </option>
+                                                        <option value="Owner2 ">
+                                                            Owner2
+                                                        </option>
+                                                        <option value="Owner3">
+                                                            Owner3
+                                                        </option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Deadline Datetime2" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                        </div>
-                                                    </div>
-                                                    <input class="form-control" id="Deadline Datetime2" type="date">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Responsible Person2" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
+                                                    <input type="text" class="form-control " id="Responsible Person2">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Service2" class="form-control-label mr-1 font-weight-bold">Service:</label>
+                                                    <select class="form-control" id="Service2">
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Budget Indication2" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
+                                                    <input type="number" class="form-control" id="Budget Indication2" placeholder="0 ">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="contract2" class="form-control-label mr-1 font-weight-bold">Contract:</label>
+                                                    <select class="form-control" id="contract2">
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row mt-4">
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="End Date2" class="form-control-label mr-1 font-weight-bold">End Date:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Start Date2" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
                                                         </div>
+                                                        <input class="form-control" id="Start Date2" type="date">
                                                     </div>
-                                                    <input class="form-control" id="End Date2" type="date">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Deadline Datetime2" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Deadline Datetime2" type="date">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Estimation Datetime2" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                        <div class="row mt-4">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="End Date2" class="form-control-label mr-1 font-weight-bold">End Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
                                                         </div>
+                                                        <input class="form-control" id="End Date2" type="date">
                                                     </div>
-                                                    <input class="form-control" id="Estimation Datetime2" type="date">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Estimation Datetime2" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Estimation Datetime2" type="date">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row mt-4">
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-clock tx-16 lh-0 op-6"></i>
+                                        <div class="row mt-4">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-clock tx-16 lh-0 op-6"></i>
+                                                            </div>
                                                         </div>
+                                                        <input class="form-control" id="Duration Time2" type="number">
                                                     </div>
-                                                    <input class="form-control" id="Duration Time2" type="number">
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="wd-200">
-                                                <label for="Delivery Date2" class="form-control-label mr-1 font-weight-bold">Delivery Date:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Delivery Date2" class="form-control-label mr-1 font-weight-bold">Delivery Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
                                                         </div>
+                                                        <input class="form-control" id="Delivery Date2" type="date">
                                                     </div>
-                                                    <input class="form-control" id="Delivery Date2" type="date">
                                                 </div>
                                             </div>
                                         </div>
@@ -1548,8 +1549,27 @@
 <!-- Custom scroll bar Js-->
 <script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
 
+<!--Select2 js -->
+<script src="../assets/plugins/select2/select2.full.min.js"></script>
+
 <!-- peitychart -->
 <script src="../assets/plugins/peitychart/jquery.peity.min.js"></script>
+
+<!-- Timepicker js -->
+<script src="../assets/plugins/time-picker/jquery.timepicker.js"></script>
+<script src="../assets/plugins/time-picker/toggles.min.js"></script>
+
+<!-- Datepicker js -->
+<script src="../assets/plugins/date-picker/spectrum.js"></script>
+<script src="../assets/plugins/date-picker/jquery-ui.js"></script>
+<script src="../assets/plugins/input-mask/jquery.maskedinput.js"></script>
+
+<!--MutipleSelect js-->
+<script src="../assets/plugins/multipleselect/multiple-select.js"></script>
+<script src="../assets/plugins/multipleselect/multi-select.js"></script>
+
+<!-- Inline js -->
+<script src="../assets/js/select2.js"></script>
 
 <!-- Data tables -->
 <script src="../assets/plugins/Datatable/js/jquery.dataTables.js"></script>
