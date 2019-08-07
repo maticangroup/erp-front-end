@@ -647,6 +647,14 @@
         <div class=" app-content my-3 my-md-5">
             <div class="side-app">
 
+                <!--Page Header-->
+                <div class="mb-5">
+                    <div class="page-header  mb-0">
+                        <h4 class="page-title">Letter Overview</h4>
+                    </div>
+                </div>
+                <!--page header-->
+
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -686,7 +694,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -700,7 +708,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -714,7 +722,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -728,7 +736,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -742,7 +750,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -756,7 +764,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -770,7 +778,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -784,7 +792,7 @@
                                             <td class="text-center">............</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="project-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
+                                                <a href="letter-view.html"  class="btn btn-dark btn-sm"><i class="si si-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -798,7 +806,6 @@
                 </div>
 
                 <!-- Message Modal -->
-
                 <div class="modal fade" id="add-modal" tabindex="-1" role="dialog"  aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
@@ -886,16 +893,32 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="card p-3 mb-1">
-                                                                <div class="form-group mt-2">
-                                                                    <label for="description" class="form-control-label mr-1 font-weight-bold">Descriptions:</label>
-                                                                    <textarea class="form-control" id="description" name="example-textarea-input" rows="6" placeholder="text here ..."></textarea>
+                                                            <div class="row ">
+                                                                <div class="col-12">
+                                                                    <div class="card mb-0">
+                                                                        <div class="card-header">
+                                                                            <div class="card-title">Letter Text:</div>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <textarea id="elm1" name="area">Hello!....</textarea>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="form-group">
-                                                                    <div class="form-label">Attachment:</div>
-                                                                    <div class="custom-file">
-                                                                        <input type="file" class="custom-file-input" name="example-file-input-custom">
-                                                                        <label class="custom-file-label">Choose File</label>
+                                                            </div>
+                                                            <div class="row mt-1">
+                                                                <div class="col-12">
+                                                                    <div class="card p-3 mt-0 mb-0 ">
+                                                                        <div class="form-group mt-2">
+                                                                            <label for="description" class="form-control-label mr-1 font-weight-bold">Descriptions:</label>
+                                                                            <textarea class="form-control" id="description" name="example-textarea-input" rows="6" placeholder="text here ..."></textarea>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <div class="form-label">Attachment:</div>
+                                                                            <div class="custom-file">
+                                                                                <input type="file" class="custom-file-input" name="example-file-input-custom">
+                                                                                <label class="custom-file-label">Choose File</label>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1353,6 +1376,13 @@
 
 <!-- peitychart -->
 <script src="../assets/plugins/peitychart/jquery.peity.min.js"></script>
+
+<!--ckeditor js-->
+<script src="../assets/plugins/tinymce/tinymce.min.js"></script>
+
+<!-- Richtext js -->
+<script src="../assets/js/richtext.js"></script>
+
 
 <!--Accordion-Wizard-Form js-->
 <script src="../assets/plugins/accordion-Wizard-Form/jquery.accordion-wizard.min.js"></script>
