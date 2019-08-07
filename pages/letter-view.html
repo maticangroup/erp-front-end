@@ -15,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
 
     <!-- Title -->
-    <title>Farima | project-view</title>
+    <title>Farima | Letter-View</title>
 
     <!--Bootstrap.min css-->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -35,20 +35,17 @@
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
-    <!-- jvectormap css-->
-    <link href="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <!-- timeline Plugin -->
+    <link href="../assets/plugins/timeline/timeline.min.css" rel="stylesheet" />
 
     <!-- morris Charts Plugin -->
     <link href="../assets/plugins/morris/morris.css" rel="stylesheet" />
 
     <!---Font icons-->
     <link href="../assets/plugins/iconfonts/plugin.css" rel="stylesheet" />
-    <link href="../assets/plugins/iconfonts/icons.css" rel="stylesheet" />
-
 
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
-
 
 </head>
 
@@ -653,770 +650,319 @@
         <div class=" app-content my-3 my-md-5">
             <div class="side-app">
 
-            <!--Page Header-->
-            <div class="mb-5">
-                <div class="page-header  mb-0">
-                    <h4 class="page-title">Project View</h4>
-                    <div class="float-right ml-auto">
-                        <a href="#" class="btn btn-primary btn-sm bg-primary"><i class="fas fa-pen mr-1"></i>Update</a>
-                    </div>
-                    <div class="float-right ml-1">
-                        <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
+                <!--Page Header-->
+                <div class="mb-5">
+                    <div class="page-header  mb-0">
+                        <h4 class="page-title">Letter View</h4>
+                        <div class="float-right ml-auto">
+                            <a href="#" class="btn btn-primary btn-sm bg-primary"><i class="fas fa-pen mr-1"></i>Update</a>
+                        </div>
+                        <div class="float-right ml-1">
+                            <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--page header-->
+                <!--page header-->
 
-            <div class="row">
-                <div id="project card" class="col-4">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <h3 class="font-weight-semibold">Project Title</h3>
-                            <div class="p-3 text-left">
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-user  text-primary"></i>  Owner:  <span class="font-weight-light">Ali Hatami</span></h5>
-                                            </div>
+                <div class="row">
+                    <div id="letter card" class="col-4">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <div class="card-title text-center">Letter Information</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="media-list">
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-hashtag" aria-hidden="true"></i>
                                         </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-user-cog text-primary"></i>  Responsible Person:  <span class="font-weight-light">Nazanin Bayat</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-clipboard-list text-primary"></i>  Service:  <span class="font-weight-light">portrait photography</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-file-alt  text-primary"></i>  Contract:  <span class="font-weight-light">Signed</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="far fa-calendar text-primary"></i>  Start Date:  <span class="font-weight-light">07 October 2019</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="far fa-calendar text-primary"></i><i class="fas fa-calendar-day"></i>  Deadline Date:  <span class="font-weight-light">29 June 2020</span></h5>
-                                            </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">........</span>
                                         </div>
                                     </div>
-
-                            <div class="avatar-list avatar-list-stacked mb-3">
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/12.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/21.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/29.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/2.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/male/34.jpg"></span>
-                                <span class="avatar brround cover-image">+29</span>
-                            </div>
-                            <label class="font-weight-semibold">Project Status</label>
-                            <div class="progress progress-md mb-6">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70">70%</div>
-                            </div>
-                            <a class="text-center btn btn-outline-primary" href="#"><i class="fas fa-pen"></i> Update</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div id="project items" class="col-8">
-                    <div id="horizontal-scroll" class="card">
-                        <div class="card-header">
-                            <div class="card-title font-weight-bold">Project Items</div>
-                        </div>
-                        <div class="card-body pb-7 pt-7">
-                            <div id="demo2" class="showcase">
-                                <div id="content-5" class="horizontal-images light">
-                                    <ul>
-                                        <li><div id="milestones" class="card">
-                                                <div class="card-body text-center">
-                                                    <img src="../assets/images/svgs/png/017-clipboard.png" alt="img" class="w-8 h-8 mb-4">
-                                                    <div class="svg-btn">
-                                                        <a class="btn btn-primary btn-pill" href="#">Milestones</a>
-                                                    </div>
-                                                    <h3 class="mt-4">9</h3>
-                                                </div>
-                                        </div></li>
-                                        <li><div id="tasks" class="card">
-                                                <div class="card-body text-center">
-                                                    <img src="../assets/images/svgs/png/018-clipboard-1.png" alt="img" class="w-8 h-8 mb-4">
-                                                    <div class="svg-btn">
-                                                        <a class="btn btn-primary btn-pill" href="#">Tasks</a>
-                                                    </div>
-                                                    <h3 class="mt-4">53</h3>
-                                                </div>
-                                            </div></li>
-                                        <li><div id="equipment" class="card">
-                                                <div class="card-body text-center">
-                                                    <img src="../assets/images/svgs/png/064-logistic-6.png" alt="img" class="w-8 h-8 mb-4">
-                                                    <div class="svg-btn">
-                                                        <a class="btn btn-primary btn-pill" href="#">Equipment</a>
-                                                    </div>
-                                                    <h3 class="mt-4">71</h3>
-                                                </div>
-                                        </div></li>
-                                        <li><div id="invoice" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/096-parcel.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Invoice</a>
-                                                </div>
-                                                <h3 class="mt-4">$7,256</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="services" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/049-global-1.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Services</a>
-                                                </div>
-                                                <h3 class="mt-4">10</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="vendors" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/081-on-time.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Vendors</a>
-                                                </div>
-                                                <h3 class="mt-4">16</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="polls" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/026-customer-service.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Polls</a>
-                                                </div>
-                                                <h3 class="mt-4">6</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="Files" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/058-logistic.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Files</a>
-                                                </div>
-                                                <h3 class="mt-4">41</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="groups" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/116-support.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Groups</a>
-                                                </div>
-                                                <h3 class="mt-4">5</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="letters" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/019-clipboard-2.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Letters</a>
-                                                </div>
-                                                <h3 class="mt-4">19</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="catering" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/027-delivery.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Catering</a>
-                                                </div>
-                                                <h3 class="mt-4">2</h3>
-                                            </div>
-                                        </div></li>
-                                        <li><div id="timings" class="card">
-                                            <div class="card-body text-center">
-                                                <img src="../assets/images/svgs/png/001-24-hours.png" alt="img" class="w-8 h-8 mb-4">
-                                                <div class="svg-btn">
-                                                    <a class="btn btn-primary btn-pill" href="#">Timings</a>
-                                                </div>
-                                                <h3 class="mt-4">6</h3>
-                                            </div>
-                                        </div></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            </div>
-
-            <div class="row">
-                <div id="Project Value" class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="dash-2">
-                                        <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">89,385</span></h2>
-                                        <span>Project Value</span>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-map-signs" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Type</h6><span class="d-block">.........</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col col-auto">
-                                    <span class="sparkline_bar1"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 10%</span>  Orders Incresed </p>
-                                </div>
-                                <div class="col col-auto">
-                                    <a class="btn btn-sm btn-white border">View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="Total Expenses" class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="dash-2">
-                                        <h2 class="text-orange mb-2">$<span class="counter font-weight-extrabold">83,547</span></h2>
-                                        <span>Total Expenses</span>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-grip-horizontal" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">.........</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col col-auto">
-                                    <span class="sparkline_bar"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-down text-danger"></i> 5%</span>  Expences Decresed </p>
-                                </div>
-                                <div class="col col-auto">
-                                    <a class="btn btn-sm btn-white border">View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="Total Net Profit" class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="dash-2">
-                                        <h2 class="text-success mb-2">$<span class="counter font-weight-extrabold">99,425</span></h2>
-                                        <span>Total Net Profit</span>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">From</h6><span class="d-block">..........</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col col-auto">
-                                    <span class="sparkline22 w-100"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 13%</span>  Net Profit Incresed </p>
-                                </div>
-                                <div class="col col-auto">
-                                    <a class="btn btn-sm btn-white border">View Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div id="tasks section" class="col-8">
-                <div class="card overflow-hidden">
-                    <div class="card-header">
-                        <h5 class="card-title m-b-0 font-weight-bold">Tasks Status</h5>
-                    </div>
-                    <div class="card-body">
-                        <div class="dash4 d-none d-sm-block">
-                            <p class="fs-16 float-right ml-4 text-danger">Pending Tasks: <b>3</b></p>
-                            <p class="fs-16 float-right text-lime">Completed Tasks: <b>3</b></p>
-                            <p class="fs-16">Total Tasks: <b>6</b></p>
-                        </div>
-                        <div class="chart-wrapper ">
-                            <canvas id="team-chart" class="chart-height chart-dropshadow"></canvas>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <span class="text-muted"><i class="si si-clock mr-1"></i>Campaign 1 hour ago</span>
-                    </div>
-                </div>
-            </div>
-                <div id="people section" class="col-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-title font-weight-bold">Project People</div>
-                        </div>
-                        <div class="card-body">
-                            <!-- content -->
-                            <div class="content vscroll mh-300">
-                                <div class="table-responsive">
-                                    <table class="table card-table mt-2 mb-2 text-nowrap">
-                                        <tr>
-                                            <td class="align-middle w-1" >
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/42.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Hugo Slavia</strong>
-                                                <small class="d-block text-muted">@fat</small>
-                                            </td>
-                                            <td class="align-middle w-1" >
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle w-1">
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/2.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Cara Larm</strong>
-                                                <small class="d-block text-muted">@dhg</small>
-                                            </td>
-                                            <td class="align-middle w-1">
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle w-1" >
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/female/24.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Cooke Edoh</strong>
-                                                <small class="d-block text-muted">@mdo</small>
-                                            </td>
-                                            <td class="align-middle w-1" >
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle w-1" >
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/23.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Gio Metric</strong>
-                                                <small class="d-block text-muted">@mdo</small>
-                                            </td>
-                                            <td class="align-middle w-1" >
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle w-1">
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/male/42.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Vinny Gret</strong>
-                                                <small class="d-block text-muted">@cwt</small>
-                                            </td>
-                                            <td class="align-middle w-1">
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle w-1">
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/female/7.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Stewart	King</strong>
-                                                <small class="d-block text-muted">@cwt</small>
-                                            </td>
-                                            <td class="align-middle w-1">
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle w-1">
-                                                <span class="avatar brround avatar-md cover-image" data-image-src="../assets/images/users/female/31.jpg"></span>
-                                            </td>
-                                            <td>
-                                                <strong>Claire	Kerr</strong>
-                                                <small class="d-block text-muted">@cwt</small>
-                                            </td>
-                                            <td class="align-middle w-1">
-                                                <button class="btn btn-indigo btn-sm">
-                                                    <span class="fe fe-user"></span> Profile
-                                                </button>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div id="circle chart" class="col-6">
-                    <div class="card overflow-hidden">
-                        <div class="card-header">
-                            <h3 class="card-title font-weight-bold">Units Traffic</h3>
-                        </div>
-                        <div class="card-body">
-                            <canvas id="pieChart" class="donutShadow h-350 overflow-hidden"></canvas>
-
-                        </div>
-                        <div class="card-body">
-                            <div class="mb-4">
-                                <h4 class="mb-5 d-block">
-                                    <span class="fs-16">TQM Unit</span>
-                                    <span class="float-right p-1 badge badge-info text-white">
-												15,635</span>
-                                </h4>
-                                <div class="progress progress-md h-1">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info w-30"></div>
-                                </div>
-                            </div>
-                            <div class="mb-5">
-                                <h4 class="mb-4">
-                                    <span class="fs-16">CRM Unit</span>
-                                    <span class="float-right p-1 badge badge-danger text-white">
-												97,356</span>
-                                </h4>
-                                <div class="progress progress-md h-1">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
-                                </div>
-                            </div>
-                            <div class="mb-5">
-                                <h4 class="mb-4">
-                                    <span class="fs-16">Operational Unit</span>
-                                    <span class="float-right p-1 badge badge-primary text-white">
-												28,425</span>
-                                </h4>
-                                <div class="progress progress-md h-1">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-40"></div>
-                                </div>
-                            </div>
-                            <div class="mb-0">
-                                <h4 class="mb-4">
-                                    <span class="fs-16">Financial Unit</span>
-                                    <span class="float-right p-1 badge badge-warning text-white">
-												20,245</span>
-                                </h4>
-                                <div class="progress progress-md h-1">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning w-35"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div id="progress section" class="col-6">
-                    <div class="card overflow-hidden">
-                        <div class="card-header">
-                            <h3 class="card-title font-weight-bold">Progress Rate</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="card-body overflow-hidden">
-                                        <h4>Activites</h4>
-                                        <canvas id="lineChart" class="chart-dropshadow h-350 overflow-hidden"></canvas>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">To</h6><span class="d-block">..........</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="row website-section">
-                                <div class="col-xl-3 text-center mb-5 mb-lg-0">
-                                    <p class="mb-1">Daily Visitors</p>
-                                    <h2 class="text-success mb-3 font-weight-extrabold">6,254</h2>
-                                    <div class="progress progress-md h-1">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70"></div>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-award" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Priority</h6><span class="d-block">...........</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-3 text-center border-left mb-5 mb-lg-0">
-                                    <p class="mb-1">Returning Visitors</p>
-                                    <h2 class="text-danger mb-3 font-weight-extrabold">1254</h2>
-                                    <div class="progress progress-md h-1">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 text-center border-left mb-5 mb-lg-0">
-                                    <p class="mb-1">Page Views</p>
-                                    <h2 class="text-primary mb-3 font-weight-extrabold">24,325</h2>
-                                    <div class="progress progress-md h-1">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-70"></div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 text-center border-left">
-                                    <p class="mb-1">Today Subscribers</p>
-                                    <h2 class="text-info mb-3 font-weight-extrabold">357</h2>
-                                    <div class="progress progress-md h-1">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info w-70"></div>
+                                    <div class="media mt-1 pb-2 ">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Description</h6><div class="card p-3 d-block mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div id="map" class="col-8">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title font-weight-bold">Route Map</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="map">
-                                <div class="map-content" id="map4"></div>
+                    <div id="text section" class="col-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title"><i class="fas fa-feather-alt text-primary  text-center"></i>  Letter Text</div>
+                            </div>
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0 card-body">
+                                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper feugiat nibh sed. Neque aliquam vestibulum morbi blandit. Ipsum consequat nisl vel pretium lectus quam id leo in. Quam elementum pulvinar etiam non quam lacus. Rhoncus dolor purus non enim praesent. Euismod in pellentesque massa placerat duis. Pellentesque habitant morbi tristique senectus et. Posuere morbi leo urna molestie. Quam elementum pulvinar etiam non quam lacus. Quam pellentesque nec nam aliquam. Quam nulla porttitor massa id neque aliquam vestibulum morbi.  </p>
+                                    <footer class="blockquote-footer">
+                                        <small class="text-muted font-weight-bold mb-3">
+                                            Saghar Nikpoor <cite title="Source Title">public relations expert</cite>
+                                        </small>
+                                        <div class="dropdown-list-footer bd-t mt-7 mb-7">
+                                            <p href="" class="text-primary "><i class="fas fa-angle-down mg-r-5"></i>  Attached Files</p>
+                                        </div>
+                                        <div>
+                                            <!--
+                                                .
+                                                .
+                                                attached files
+                                                .
+                                                .
+                                                -->
+                                        </div>
+                                    </footer>
+                                </blockquote>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="calls section" class="col-4">
-                    <div class="card card-collapsed">
-                        <div class="card-header">
-                            <h3 class="card-title font-weight-bold">Calls</h3>
-                            <div class="card-options">
-                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
-                                        class="fe fe-chevron-up"></i></a>
+
+                <div class="row">
+                    <div id="status" class="col-4">
+                        <div class="card card-collapsed">
+                            <div class="card-header">
+                                <h3 class="card-title">Status</h3>
+                                <div class="card-options">
+                                    <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
+                                            class="fe fe-chevron-up"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <!--
+                                .
+                                .
+                                status section elements
+                                .
+                                .
+                                -->
                             </div>
                         </div>
-                        <div class="card-body">
-
-
+                    </div>
+                    <div id="tesks section" class="col-8">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Tasks</h3>
+                            </div>
                             <div class="table-responsive">
-                                <table class="table card-table table-vcenter table-hover">
+                                <table class="table card-table table-vcenter text-nowrap">
                                     <thead>
                                     <tr>
-                                        <th>ID</th>
-                                        <th>From</th>
-                                        <th>To</th>
-                                        <th>Time</th>
+                                        <th>Task Name</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                        <th>Price</th>
+                                        <th></th>
                                     </tr>
                                     </thead>
                                     <tbody>
+
                                     <tr>
-                                        <th scope="row">1</th>
-                                        <td>Ehsan Rezvanian</td>
-                                        <td>Hossein Azimi</td>
-                                        <td>3:10</td>
+                                        <td><a href="store.html" class="text-inherit">Untrammelled prevents </a></td>
+                                        <td>28 May 2018</td>
+                                        <td><span class="status-icon bg-success"></span> Completed</td>
+                                        <td>$56,908</td>
+                                        <td class="text-right">
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-green btn-sm"><i class="fas fa-link"></i> Update</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-secondary btn-sm"><i class="fas fa-trash"></i> Delete</a>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">2</th>
-                                        <td>Ehsan Rezvanian</td>
-                                        <td>Hossein Azimi</td>
-                                        <td>3:10</td>
+                                        <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                        <td>12 June 2018</td>
+                                        <td><span class="status-icon bg-danger"></span> On going</td>
+                                        <td>$45,087</td>
+                                        <td class="text-right">
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-green btn-sm"><i class="fas fa-link"></i> Update</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-secondary btn-sm"><i class="fas fa-trash"></i> Delete</a>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">3</th>
-                                        <td>Ehsan Rezvanian</td>
-                                        <td>Hossein Azimi</td>
-                                        <td>3:10</td>
+                                        <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                        <td>12 July 2018</td>
+                                        <td><span class="status-icon bg-warning"></span> Pending</td>
+                                        <td>$60,123</td>
+                                        <td class="text-right">
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-green btn-sm"><i class="fas fa-link"></i> Update</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-secondary btn-sm"><i class="fas fa-trash"></i> Delete</a>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">4</th>
-                                        <td>Ehsan Rezvanian</td>
-                                        <td>Hossein Azimi</td>
-                                        <td>3:10</td>
+                                        <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                        <td>14 June 2018</td>
+                                        <td><span class="status-icon bg-warning"></span> Pending</td>
+                                        <td>$70,435</td>
+                                        <td class="text-right">
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-green btn-sm"><i class="fas fa-link"></i> Update</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-secondary btn-sm"><i class="fas fa-trash"></i> Delete</a>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">5</th>
-                                        <td>Ehsan Rezvanian</td>
-                                        <td>Hossein Azimi</td>
-                                        <td>3:10</td>
+                                        <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                        <td>25 June 2018</td>
+                                        <td><span class="status-icon bg-success"></span> Completed</td>
+                                        <td>$15,987</td>
+                                        <td class="text-right">
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-green btn-sm"><i class="fas fa-link"></i> Update</a>
+
+                                            <a class="icon" href="javascript:void(0)"></a>
+                                            <a href="javascript:void(0)" class="btn btn-secondary btn-sm"><i class="fas fa-trash"></i> Delete</a>
+                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <!-- table-responsive -->
-
                         </div>
+
                     </div>
                 </div>
-            </div>
 
-
-
-            <!--Modals-->
-            <div class="modal fade" id="invoice-modal" tabindex="-1" role="dialog"  aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="example-Modal3-1">Invoice List</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h3 class="card-title">Invoice List</h3>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive border-top mb-0">
-                                        <table class="table table-bordered table-hover mb-0 text-nowrap">
-                                            <thead>
-                                            <tr>
-                                                <th>Invoice ID</th>
-                                                <th>Category</th>
-                                                <th>Purchase Date</th>
-                                                <th>Price</th>
-                                                <th>Due Date</th>
-                                                <th>Action</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>#INV-348</td>
-                                                <td>Resturant</td>
-                                                <td>07-12-2018</td>
-                                                <td class="font-weight-semibold fs-16">$89</td>
-                                                <td>17-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-186</td>
-                                                <td>Rela Estate</td>
-                                                <td>02-12-2018</td>
-                                                <td class="font-weight-semibold fs-16">$14,276</td>
-                                                <td>14-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-831</td>
-                                                <td>Jobs</td>
-                                                <td>30-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$25,000</td>
-                                                <td>04-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-672</td>
-                                                <td>Education</td>
-                                                <td>25-18-2018</td>
-                                                <td class="font-weight-semibold fs-16">$50.00</td>
-                                                <td>07-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-428</td>
-                                                <td>Electornics</td>
-                                                <td>24-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$99.99</td>
-                                                <td>11-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-543</td>
-                                                <td>Vechicle</td>
-                                                <td>22-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$145</td>
-                                                <td>12-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-986</td>
-                                                <td>Pet &amp; Animals</td>
-                                                <td>18-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$378</td>
-                                                <td>07-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-867</td>
-                                                <td>Cloting</td>
-                                                <td>17-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$509.00</td>
-                                                <td>06-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-893</td>
-                                                <td>Computer</td>
-                                                <td>16-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$347</td>
-                                                <td>30-11-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-267</td>
-                                                <td>Health &amp; Fitness</td>
-                                                <td>12-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$895</td>
-                                                <td>27-11-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>#INV-931</td>
-                                                <td>Beauty &amp; Spa</td>
-                                                <td>11-11-2018</td>
-                                                <td class="font-weight-semibold fs-16">$765</td>
-                                                <td>25-12-2018</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                    <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                <div class="row">
+                    <div id="tracking status section" class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Tracking Status</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="timeline">
+                                    <div class="timeline__wrap">
+                                        <div class="timeline__items">
+                                            <div class="timeline__item">
+                                                <div class="timeline__content  ">
+                                                    <h2>15th Jan 2019</h2>
+                                                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</p>
+                                                    <a href="#" class="btn btn-primary btn-sm mt-2">View More</a>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item">
+                                                <div class="timeline__content ">
+                                                    <h2>18th Jan 2019</h2>
+                                                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure .</p>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item">
+                                                <div class="timeline__content">
+                                                    <h2>23rd Jan 2019</h2>
+                                                    <img src="../assets/images/photos/2.jpg" alt="img">
+                                                    <p class="mt-2">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur</p>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item">
+                                                <div class="timeline__content ">
+                                                    <h2>25th Jan 2019</h2>
+                                                    <img src="../assets/images/photos/4.jpg" alt="img">
+                                                    <p class="mt-2">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms</p>
+                                                    <a href="#" class="btn btn-outline-success btn-sm mt-2 mb-0">View More</a>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item ">
+                                                <div class="timeline__content">
+                                                    <h2>28th Jan 2019</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus.</p>
+                                                    <a href="#" class="btn btn-info btn-sm mt-2">More info</a>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item">
+                                                <div class="timeline__content">
+                                                    <h2>01st Feb 2019</h2>
+                                                    <img src="../assets/images/photos/5.jpg" alt="img">
+                                                    <p class="mt-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item">
+                                                <div class="timeline__content">
+                                                    <h2>03rd Feb 2019</h2>
+                                                    <img src="../assets/images/photos/12.jpg" alt="img">
+                                                    <a href="#" class="btn btn-danger btn-sm mt-2">More info</a>
+                                                </div>
+                                            </div>
+                                            <div class="timeline__item">
+                                                <div class="timeline__content">
+                                                    <h2>06th Feb 2019</h2>
+                                                    <img src="../assets/images/photos/21.jpg" alt="img">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <!--Sidebar-right-->
@@ -1825,7 +1371,7 @@
         </div>
     </div>
 </div>
-</div>
+
 <!-- Back to top -->
 <a href="#top" id="back-to-top"><i class="fas fa-angle-up "></i></a>
 
@@ -1847,6 +1393,7 @@
 <!-- Custom scroll bar Js-->
 <script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
 
+
 <!-- Input Mask Plugin -->
 <script src="../assets/plugins/input-mask/jquery.mask.min.js"></script>
 
@@ -1856,10 +1403,6 @@
 <!-- Chart js -->
 <script src="../assets/plugins/chart.js/chart.min.js"></script>
 <script src="../assets/plugins/chart.js/chart.extension.js"></script>
-
-<!--Morris.js Charts Plugin -->
-<script src="../assets/plugins/morris/morris.min.js"></script>
-<script src="../assets/plugins/morris/raphael.min.js"></script>
 
 <!--Jquery.knob js-->
 <script src="../assets/plugins/othercharts/jquery.knob.js"></script>
@@ -1878,12 +1421,15 @@
 <!-- Sidebar js -->
 <script src="../assets/plugins/sidebar/sidebar.js"></script>
 
+<!-- Timeline js -->
+<script src="../assets/plugins/timeline/timeline.min.js"></script>
+<script src="../assets/js/timeline.js"></script>
+
 <!--Index js -->
 <script src="../assets/js/index.js"></script>
 
 <!-- custom js -->
 <script src="../assets/js/custom.js"></script>
-
 
 </body>
 </html>
