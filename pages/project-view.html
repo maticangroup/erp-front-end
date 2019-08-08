@@ -658,7 +658,8 @@
                 <div class="page-header  mb-0">
                     <h4 class="page-title">Project View</h4>
                     <div class="float-right ml-auto">
-                        <a href="#" class="btn btn-primary btn-sm bg-primary"><i class="fas fa-pen mr-1"></i>Update</a>
+                        <a class="icon" href="javascript:void(0)"></a>
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                     </div>
                     <div class="float-right ml-1">
                         <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
@@ -671,53 +672,67 @@
                 <div id="project card" class="col-4">
                     <div class="card">
                         <div class="card-body text-center">
-                            <h3 class="font-weight-semibold">Project Title</h3>
+                            <h3 class="font-weight-semibold">Project Info</h3>
                             <div class="p-3 text-left">
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-user  text-primary"></i>  Owner:  <span class="font-weight-light">Ali Hatami</span></h5>
-                                            </div>
+                                <div class="media-list">
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-hashtag" aria-hidden="true"></i>
                                         </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-user-cog text-primary"></i>  Responsible Person:  <span class="font-weight-light">Nazanin Bayat</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-clipboard-list text-primary"></i>  Service:  <span class="font-weight-light">portrait photography</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="fas fa-file-alt  text-primary"></i>  Contract:  <span class="font-weight-light">Signed</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="far fa-calendar text-primary"></i>  Start Date:  <span class="font-weight-light">07 October 2019</span></h5>
-                                            </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <h5><i class="far fa-calendar text-primary"></i><i class="fas fa-calendar-day"></i>  Deadline Date:  <span class="font-weight-light">29 June 2020</span></h5>
-                                            </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Wedding Photography</span>
                                         </div>
                                     </div>
-
-                            <div class="avatar-list avatar-list-stacked mb-3">
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/12.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/21.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/29.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/female/2.jpg"></span>
-                                <span class="avatar brround cover-image" data-image-src="../assets/images/users/male/34.jpg"></span>
-                                <span class="avatar brround cover-image">+29</span>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-user" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Ali Hatami</span>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-user-check" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Responsible Person</h6><span class="d-block">Nazanin Bayat</span>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-concierge-bell" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Service</h6><span class="d-block">photography </span>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Contract</h6><span class="d-block">Signed</span>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-1 pb-2">
+                                        <div class="mediaicon">
+                                            <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="media-body ml-5 mt-1">
+                                            <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <label class="font-weight-semibold">Project Status</label>
-                            <div class="progress progress-md mb-6">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70">70%</div>
-                            </div>
-                            <a class="text-center btn btn-outline-primary" href="#"><i class="fas fa-pen"></i> Update</a>
                         </div>
                     </div>
 
@@ -727,7 +742,7 @@
                         <div class="card-header">
                             <div class="card-title font-weight-bold">Project Items</div>
                         </div>
-                        <div class="card-body pb-7 pt-7">
+                        <div class="card-body pb-8 pt-8">
                             <div id="demo2" class="showcase">
                                 <div id="content-5" class="horizontal-images light">
                                     <ul>
@@ -1070,7 +1085,7 @@
             </div>
 
             <div class="row">
-                <div id="circle chart" class="col-6">
+                <div id="circle chart" class="col-8">
                     <div class="card overflow-hidden">
                         <div class="card-header">
                             <h3 class="card-title font-weight-bold">Units Traffic</h3>
@@ -1124,7 +1139,7 @@
                     </div>
 
                 </div>
-                <div id="progress section" class="col-6">
+                <div id="progress section" class="col-4">
                     <div class="card overflow-hidden">
                         <div class="card-header">
                             <h3 class="card-title font-weight-bold">Progress Rate</h3>
@@ -1177,7 +1192,7 @@
             </div>
 
             <div class="row">
-                <div id="map" class="col-8">
+                <div id="map section" class="col-8">
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title font-weight-bold">Route Map</h3>
@@ -1190,17 +1205,11 @@
                     </div>
                 </div>
                 <div id="calls section" class="col-4">
-                    <div class="card card-collapsed">
+                    <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title font-weight-bold">Calls</h3>
-                            <div class="card-options">
-                                <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
-                                        class="fe fe-chevron-up"></i></a>
-                            </div>
+                            <div class="card-title font-weight-bold">Project Calls</div>
                         </div>
                         <div class="card-body">
-
-
                             <div class="table-responsive">
                                 <table class="table card-table table-vcenter table-hover">
                                     <thead>
@@ -1245,8 +1254,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <!-- table-responsive -->
-
                         </div>
                     </div>
                 </div>
@@ -1255,6 +1262,180 @@
 
 
             <!--Modals-->
+            <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="editmodal">Edit Project</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form method="post" autocomplete="off">
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Project Title2" class="form-control-label mr-1 font-weight-bold">Title: </label>
+                                                    <input type="text" class="form-control" id="Project Title2" step="0">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="form-label font-weight-bold">Owner:</label>
+                                                    <select class="form-control select2" data-placeholder="Choose Owner"  multiple>
+                                                        <option value="Owner1">
+                                                            Owner1
+                                                        </option>
+                                                        <option value="Owner2 ">
+                                                            Owner2
+                                                        </option>
+                                                        <option value="Owner3">
+                                                            Owner3
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Responsible Person2" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
+                                                    <input type="text" class="form-control " id="Responsible Person2">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Service2" class="form-control-label mr-1 font-weight-bold">Service:</label>
+                                                    <select class="form-control" id="Service2">
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Budget Indication2" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
+                                                    <input type="number" class="form-control" id="Budget Indication2" placeholder="0 ">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="contract2" class="form-control-label mr-1 font-weight-bold">Contract:</label>
+                                                    <select class="form-control" id="contract2">
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                        <option>......</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Start Date2" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Start Date2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Deadline Datetime2" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Deadline Datetime2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="End Date2" class="form-control-label mr-1 font-weight-bold">End Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="End Date2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Estimation Datetime2" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Estimation Datetime2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-clock tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Duration Time2" type="number">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Delivery Date2" class="form-control-label mr-1 font-weight-bold">Delivery Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Delivery Date2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div class="modal fade" id="invoice-modal" tabindex="-1" role="dialog"  aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
