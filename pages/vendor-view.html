@@ -32,6 +32,12 @@
     <!-- Custom scroll bar css-->
     <link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
+    <!-- select2 Plugin -->
+    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+    <!--mutipleselect css-->
+    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
+
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
@@ -668,7 +674,7 @@
                 <!--page header-->
 
                 <div class="row">
-                    <div  id="project card" class="col-4">
+                    <div  id="main card" class="col-4">
                         <div class="card">
                             <div class="flexbox align-items-center px-20 pt-20">
                                 <div class="dropdown">
@@ -688,7 +694,7 @@
 										</span>
                                 </a>
                                 <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Majnoon Wedding Hall</a></h5>
-                                <span>Ceremony Hall</span>
+                                <span>Wedding Hall</span>
                                 <div class="mt-20">
                                     <span class="badge badge-default">Wedding </span>
                                     <span class="badge badge-default">Engagement</span>
@@ -760,7 +766,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="project items" class="col-8">
+                    <div id="items" class="col-8">
                         <div id="horizontal-scroll" class="card">
                             <div class="card-header">
                                 <div class="card-title font-weight-bold">Vendor Items</div>
@@ -875,7 +881,7 @@
                                             </div>
                                             <div class="dash3">
                                                 <h5 class="text-muted">Positive Comments</h5>
-                                                <h4 class="counter text-lime font-weight-extrabold">168</h4>
+                                                <h4 class="counter text-lime font-weight-extrabold">556</h4>
                                             </div>
                                         </div>
                                         <div class="chart-wrapper chart-wraper-absolute">
@@ -889,7 +895,7 @@
                                             </div>
                                             <div class="dash3">
                                                 <h5 class="text-muted">Negative Comments</h5>
-                                                <h4 class="counter text-danger font-weight-extrabold">593</h4>
+                                                <h4 class="counter text-danger font-weight-extrabold">193</h4>
                                             </div>
                                         </div>
                                         <div class="chart-wrapper chart-wraper-absolute">
@@ -1095,34 +1101,30 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="editmodal">Edit Project</h5>
+                                <h5 class="modal-title" id="example-Modal3-2">Edit Vendor</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form method="post" autocomplete="off">
+                                <form autocomplete="off">
                                     <div class="card p-3  mb-1 ">
                                         <div class="row">
                                             <div class="col-6">
                                                 <div class="form-group">
-                                                    <label for="Project Title2" class="form-control-label mr-1 font-weight-bold">Title: </label>
-                                                    <input type="text" class="form-control" id="Project Title2" step="0">
+                                                    <label for="Brand Name2" class="form-control-label mr-1 font-weight-bold">Brand Name: </label>
+                                                    <input type="text" class="form-control" id="Brand Name2" step="0">
                                                 </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="form-group">
-                                                    <label class="form-label font-weight-bold">Owner:</label>
-                                                    <select class="form-control select2" data-placeholder="Choose Owner"  multiple>
-                                                        <option value="Owner1">
-                                                            Owner1
-                                                        </option>
-                                                        <option value="Owner2 ">
-                                                            Owner2
-                                                        </option>
-                                                        <option value="Owner3">
-                                                            Owner3
-                                                        </option>
+                                                    <label class="font-weight-bold">Owner</label>
+                                                    <select multiple="multiple" class="multi-select">
+                                                        <option value="1">owner 1</option>
+                                                        <option value="2">owner 2</option>
+                                                        <option value="3">owner 3</option>
+                                                        <option value="4">owner 4</option>
+                                                        <option value="5">owner 5</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -1130,296 +1132,77 @@
                                         <div class="row">
                                             <div class="col-6">
                                                 <div class="form-group">
-                                                    <label for="Responsible Person2" class="form-control-label mr-1 font-weight-bold">Responsible Person:</label>
-                                                    <input type="text" class="form-control " id="Responsible Person2">
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="form-group">
-                                                    <label for="Service2" class="form-control-label mr-1 font-weight-bold">Service:</label>
-                                                    <select class="form-control" id="Service2">
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
+                                                    <label for="type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
+                                                    <select class="form-control" id="type2">
+                                                        <option class="active">Wedding Hall</option>
+                                                        <option>Natural Place</option>
+                                                        <option>Hairdresser</option>
+                                                        <option>Wedding Accessories</option>
+                                                        <option>Car Decoration</option>
                                                     </select>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
                                             <div class="col-6">
                                                 <div class="form-group">
-                                                    <label for="Budget Indication2" class="form-control-label mr-1 font-weight-bold">Budget Indication: </label>
-                                                    <input type="number" class="form-control" id="Budget Indication2" placeholder="0 ">
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="form-group">
-                                                    <label for="contract2" class="form-control-label mr-1 font-weight-bold">Contract:</label>
-                                                    <select class="form-control" id="contract2">
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                        <option>......</option>
-                                                    </select>
+                                                    <label for="Place2" class="form-control-label mr-1 font-weight-bold">Place:</label>
+                                                    <input type="text" class="form-control " id="Place2">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card p-3  mb-1 ">
+                                    <div class="card p-3 mb-1 ">
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="wd-200">
-                                                    <label for="Start Date2" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                            </div>
-                                                        </div>
-                                                        <input class="form-control" id="Start Date2" type="date">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="Capacity2" class="form-control-label mr-1 font-weight-bold">Capacity:</label>
+                                                    <input type="text" class="form-control " id="Capacity2">
                                                 </div>
                                             </div>
                                             <div class="col-6">
-                                                <div class="wd-200">
-                                                    <label for="Deadline Datetime2" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                            </div>
-                                                        </div>
-                                                        <input class="form-control" id="Deadline Datetime2" type="date">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="Professional Staff2" class="form-control-label mr-1 font-weight-bold">Professional Staff:</label>
+                                                    <input type="text" class="form-control " id="Professional Staff2">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row mt-4">
+                                        <div class="row">
                                             <div class="col-6">
-                                                <div class="wd-200">
-                                                    <label for="End Date2" class="form-control-label mr-1 font-weight-bold">End Date:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                            </div>
-                                                        </div>
-                                                        <input class="form-control" id="End Date2" type="date">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="Decoration2" class="form-control-label mr-1 font-weight-bold">Decoration:</label>
+                                                    <input type="text" class="form-control " id="Decoration2">
                                                 </div>
                                             </div>
                                             <div class="col-6">
-                                                <div class="wd-200">
-                                                    <label for="Estimation Datetime2" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                            </div>
-                                                        </div>
-                                                        <input class="form-control" id="Estimation Datetime2" type="date">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="Cleaning & Maintenance2" class="form-control-label mr-1 font-weight-bold">Cleaning & Maintenance:</label>
+                                                    <input type="text" class="form-control " id="Cleaning & Maintenance2">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row mt-4">
+                                        <div class="row">
                                             <div class="col-6">
-                                                <div class="wd-200">
-                                                    <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="si si-clock tx-16 lh-0 op-6"></i>
-                                                            </div>
-                                                        </div>
-                                                        <input class="form-control" id="Duration Time2" type="number">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="Easy Catering Service2" class="form-control-label mr-1 font-weight-bold">Easy Catering Service:</label>
+                                                    <input type="text" class="form-control " id="Easy Catering Service2">
                                                 </div>
                                             </div>
                                             <div class="col-6">
-                                                <div class="wd-200">
-                                                    <label for="Delivery Date2" class="form-control-label mr-1 font-weight-bold">Delivery Date:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="si si-calendar tx-16 lh-0 op-6"></i>
-                                                            </div>
-                                                        </div>
-                                                        <input class="form-control" id="Delivery Date2" type="date">
-                                                    </div>
+                                                <div class="form-group">
+                                                    <label for="Workflow Of Management2" class="form-control-label mr-1 font-weight-bold">Workflow Of Management:</label>
+                                                    <input type="text" class="form-control " id="Workflow Of Management2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Convenient Location & Parking2" class="form-control-label mr-1 font-weight-bold">Convenient Location & Parking:</label>
+                                                    <input type="text" class="form-control " id="Convenient Location & Parking2">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="invoice-modal" tabindex="-1" role="dialog"  aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="example-Modal3-1">Invoice List</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Invoice List</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="table-responsive border-top mb-0">
-                                            <table class="table table-bordered table-hover mb-0 text-nowrap">
-                                                <thead>
-                                                <tr>
-                                                    <th>Invoice ID</th>
-                                                    <th>Category</th>
-                                                    <th>Purchase Date</th>
-                                                    <th>Price</th>
-                                                    <th>Due Date</th>
-                                                    <th>Action</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>#INV-348</td>
-                                                    <td>Resturant</td>
-                                                    <td>07-12-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$89</td>
-                                                    <td>17-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-186</td>
-                                                    <td>Rela Estate</td>
-                                                    <td>02-12-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$14,276</td>
-                                                    <td>14-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-831</td>
-                                                    <td>Jobs</td>
-                                                    <td>30-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$25,000</td>
-                                                    <td>04-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-672</td>
-                                                    <td>Education</td>
-                                                    <td>25-18-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$50.00</td>
-                                                    <td>07-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-428</td>
-                                                    <td>Electornics</td>
-                                                    <td>24-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$99.99</td>
-                                                    <td>11-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-543</td>
-                                                    <td>Vechicle</td>
-                                                    <td>22-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$145</td>
-                                                    <td>12-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-986</td>
-                                                    <td>Pet &amp; Animals</td>
-                                                    <td>18-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$378</td>
-                                                    <td>07-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-867</td>
-                                                    <td>Cloting</td>
-                                                    <td>17-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$509.00</td>
-                                                    <td>06-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-893</td>
-                                                    <td>Computer</td>
-                                                    <td>16-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$347</td>
-                                                    <td>30-11-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-267</td>
-                                                    <td>Health &amp; Fitness</td>
-                                                    <td>12-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$895</td>
-                                                    <td>27-11-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>#INV-931</td>
-                                                    <td>Beauty &amp; Spa</td>
-                                                    <td>11-11-2018</td>
-                                                    <td class="font-weight-semibold fs-16">$765</td>
-                                                    <td>25-12-2018</td>
-                                                    <td>
-                                                        <a class="btn btn-primary btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="View"><i class="fas fa-eye"></i></a>
-                                                        <a class="btn btn-danger btn-sm text-white mb-1" data-toggle="tooltip" data-original-title="Delete"><i class="far fa-trash-alt"></i></a><br>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -1888,8 +1671,19 @@
 <script src="../assets/plugins/counters/counterup.min.js"></script>
 <script src="../assets/plugins/counters/waypoints.min.js"></script>
 
+<!--Select2 js -->
+<script src="../assets/plugins/select2/select2.full.min.js"></script>
+
 <!-- Sidebar js -->
 <script src="../assets/plugins/sidebar/sidebar.js"></script>
+
+<!--MutipleSelect js-->
+<script src="../assets/plugins/multipleselect/multiple-select.js"></script>
+<script src="../assets/plugins/multipleselect/multi-select.js"></script>
+
+<!-- Inline js -->
+<script src="../assets/js/select2.js"></script>
+
 
 <!--Index js -->
 <script src="../assets/js/index.js"></script>

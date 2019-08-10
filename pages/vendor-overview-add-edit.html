@@ -855,125 +855,108 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="example-Modal3-1">New Project</h5>
+                                <h5 class="modal-title" id="example-Modal3-1">New Vendor</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="card mb-1">
-                                        <div class="card-header bg-indigo-lighter br-tr-3 br-tl-3">
-                                            <div class="card-title">Basic Info</div>
+                                <form autocomplete="off">
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Brand Name" class="form-control-label mr-1 font-weight-bold">Brand Name: </label>
+                                                    <input type="text" class="form-control" id="Brand Name" step="0">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="font-weight-bold">Owner</label>
+                                                    <select multiple="multiple" class="multi-select">
+                                                        <option value="1">owner 1</option>
+                                                        <option value="2">owner 2</option>
+                                                        <option value="3">owner 3</option>
+                                                        <option value="4">owner 4</option>
+                                                        <option value="5">owner 5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="card-body">
-                                            <form autocomplete="off">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Brand Name" class="form-control-label mr-1 font-weight-bold">Brand Name: </label>
-                                                            <input type="text" class="form-control" id="Brand Name" step="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label class="font-weight-bold">Owner</label>
-                                                            <select multiple="multiple" class="multi-select">
-                                                                <option value="1">owner 1</option>
-                                                                <option value="2">owner 2</option>
-                                                                <option value="3">owner 3</option>
-                                                                <option value="4">owner 4</option>
-                                                                <option value="5">owner 5</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="type" class="form-control-label mr-1 font-weight-bold">Type:</label>
+                                                    <select class="form-control" id="type">
+                                                        <option class="active">Wedding Hall</option>
+                                                        <option>Natural Place</option>
+                                                        <option>Hairdresser</option>
+                                                        <option>Wedding Accessories</option>
+                                                        <option>Car Decoration</option>
+                                                    </select>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Type" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                                            <input type="text" class="form-control " id="Type">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Place" class="form-control-label mr-1 font-weight-bold">Place:</label>
-                                                            <input type="text" class="form-control " id="Place">
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Place" class="form-control-label mr-1 font-weight-bold">Place:</label>
+                                                    <input type="text" class="form-control " id="Place">
                                                 </div>
-                                            </form>
+                                            </div>
                                         </div>
                                     </div>
-                                <div class="card mb-1">
-                                    <div class="card-header bg-indigo-lighter br-tr-3 br-tl-3">
-                                        <div class="card-title">Features</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <form autocomplete="off">
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Capacity" class="form-control-label mr-1 font-weight-bold">Capacity:</label>
-                                                        <input type="text" class="form-control " id="Capacity">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Professional Staff" class="form-control-label mr-1 font-weight-bold">Professional Staff:</label>
-                                                        <input type="text" class="form-control " id="Professional Staff">
-                                                    </div>
+                                    <div class="card p-3 mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Capacity" class="form-control-label mr-1 font-weight-bold">Capacity:</label>
+                                                    <input type="text" class="form-control " id="Capacity">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Decoration" class="form-control-label mr-1 font-weight-bold">Decoration:</label>
-                                                        <input type="text" class="form-control " id="Decoration">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Cleaning & Maintenance" class="form-control-label mr-1 font-weight-bold">Cleaning & Maintenance:</label>
-                                                        <input type="text" class="form-control " id="Cleaning & Maintenance">
-                                                    </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Professional Staff" class="form-control-label mr-1 font-weight-bold">Professional Staff:</label>
+                                                    <input type="text" class="form-control " id="Professional Staff">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Easy Catering Service" class="form-control-label mr-1 font-weight-bold">Easy Catering Service:</label>
-                                                        <input type="text" class="form-control " id="Easy Catering Service">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Workflow Of Management" class="form-control-label mr-1 font-weight-bold">Workflow Of Management:</label>
-                                                        <input type="text" class="form-control " id="Workflow Of Management">
-                                                    </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Decoration" class="form-control-label mr-1 font-weight-bold">Decoration:</label>
+                                                    <input type="text" class="form-control " id="Decoration">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Convenient Location & Parking" class="form-control-label mr-1 font-weight-bold">Convenient Location & Parking:</label>
-                                                        <input type="text" class="form-control " id="Convenient Location & Parking">
-                                                    </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Cleaning & Maintenance" class="form-control-label mr-1 font-weight-bold">Cleaning & Maintenance:</label>
+                                                    <input type="text" class="form-control " id="Cleaning & Maintenance">
                                                 </div>
                                             </div>
-                                        </form>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Easy Catering Service" class="form-control-label mr-1 font-weight-bold">Easy Catering Service:</label>
+                                                    <input type="text" class="form-control " id="Easy Catering Service">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Workflow Of Management" class="form-control-label mr-1 font-weight-bold">Workflow Of Management:</label>
+                                                    <input type="text" class="form-control " id="Workflow Of Management">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Convenient Location & Parking" class="form-control-label mr-1 font-weight-bold">Convenient Location & Parking:</label>
+                                                    <input type="text" class="form-control " id="Convenient Location & Parking">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="card mb-1">
-                                    <div class="card-header bg-indigo-lighter br-tr-3 br-tl-3">
-                                        <div class="card-title">Advantage Points</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <form autocomplete="off">
-                                            
-                                        </form>
-                                    </div>
-                                </div>
-
+                                </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -986,125 +969,108 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="example-Modal3-2">New Project</h5>
+                                <h5 class="modal-title" id="example-Modal3-2">Edit Vendor</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="card mb-1">
-                                    <div class="card-header bg-primary br-tr-3 br-tl-3">
-                                        <div class="card-title">Basic Info</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <form autocomplete="off">
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Brand Name2" class="form-control-label mr-1 font-weight-bold">Brand Name: </label>
-                                                        <input type="text" class="form-control" id="Brand Name2" step="0">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label class="font-weight-bold">Owner</label>
-                                                        <select multiple="multiple" class="multi-select">
-                                                            <option value="1">owner 1</option>
-                                                            <option value="2">owner 2</option>
-                                                            <option value="3">owner 3</option>
-                                                            <option value="4">owner 4</option>
-                                                            <option value="5">owner 5</option>
-                                                        </select>
-                                                    </div>
+                                <form autocomplete="off">
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Brand Name2" class="form-control-label mr-1 font-weight-bold">Brand Name: </label>
+                                                    <input type="text" class="form-control" id="Brand Name2" step="0">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                                        <input type="text" class="form-control " id="Type2">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Place2" class="form-control-label mr-1 font-weight-bold">Place:</label>
-                                                        <input type="text" class="form-control " id="Place2">
-                                                    </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="font-weight-bold">Owner</label>
+                                                    <select multiple="multiple" class="multi-select">
+                                                        <option value="1">owner 1</option>
+                                                        <option value="2">owner 2</option>
+                                                        <option value="3">owner 3</option>
+                                                        <option value="4">owner 4</option>
+                                                        <option value="5">owner 5</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="card mb-1">
-                                    <div class="card-header bg-primary br-tr-3 br-tl-3">
-                                        <div class="card-title">Features</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <form autocomplete="off">
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Capacity2" class="form-control-label mr-1 font-weight-bold">Capacity:</label>
-                                                        <input type="text" class="form-control " id="Capacity2">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Professional Staff2" class="form-control-label mr-1 font-weight-bold">Professional Staff:</label>
-                                                        <input type="text" class="form-control " id="Professional Staff2">
-                                                    </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
+                                                    <select class="form-control" id="type2">
+                                                        <option class="active">Wedding Hall</option>
+                                                        <option>Natural Place</option>
+                                                        <option>Hairdresser</option>
+                                                        <option>Wedding Accessories</option>
+                                                        <option>Car Decoration</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Decoration2" class="form-control-label mr-1 font-weight-bold">Decoration:</label>
-                                                        <input type="text" class="form-control " id="Decoration2">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Cleaning & Maintenance2" class="form-control-label mr-1 font-weight-bold">Cleaning & Maintenance:</label>
-                                                        <input type="text" class="form-control " id="Cleaning & Maintenance2">
-                                                    </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Place2" class="form-control-label mr-1 font-weight-bold">Place:</label>
+                                                    <input type="text" class="form-control " id="Place2">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Easy Catering Service2" class="form-control-label mr-1 font-weight-bold">Easy Catering Service:</label>
-                                                        <input type="text" class="form-control " id="Easy Catering Service2">
-                                                    </div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Workflow Of Management2" class="form-control-label mr-1 font-weight-bold">Workflow Of Management:</label>
-                                                        <input type="text" class="form-control " id="Workflow Of Management2">
-                                                    </div>
+                                        </div>
+                                    </div>
+                                    <div class="card p-3 mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Capacity2" class="form-control-label mr-1 font-weight-bold">Capacity:</label>
+                                                    <input type="text" class="form-control " id="Capacity2">
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="form-group">
-                                                        <label for="Convenient Location & Parking2" class="form-control-label mr-1 font-weight-bold">Convenient Location & Parking:</label>
-                                                        <input type="text" class="form-control " id="Convenient Location & Parking2">
-                                                    </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Professional Staff2" class="form-control-label mr-1 font-weight-bold">Professional Staff:</label>
+                                                    <input type="text" class="form-control " id="Professional Staff2">
                                                 </div>
                                             </div>
-                                        </form>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Decoration2" class="form-control-label mr-1 font-weight-bold">Decoration:</label>
+                                                    <input type="text" class="form-control " id="Decoration2">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Cleaning & Maintenance2" class="form-control-label mr-1 font-weight-bold">Cleaning & Maintenance:</label>
+                                                    <input type="text" class="form-control " id="Cleaning & Maintenance2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Easy Catering Service2" class="form-control-label mr-1 font-weight-bold">Easy Catering Service:</label>
+                                                    <input type="text" class="form-control " id="Easy Catering Service2">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Workflow Of Management2" class="form-control-label mr-1 font-weight-bold">Workflow Of Management:</label>
+                                                    <input type="text" class="form-control " id="Workflow Of Management2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Convenient Location & Parking2" class="form-control-label mr-1 font-weight-bold">Convenient Location & Parking:</label>
+                                                    <input type="text" class="form-control " id="Convenient Location & Parking2">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="card mb-1">
-                                    <div class="card-header bg-primary br-tr-3 br-tl-3">
-                                        <div class="card-title">Advantage Points</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <form autocomplete="off">
-
-                                        </form>
-                                    </div>
-                                </div>
-
+                                </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
