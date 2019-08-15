@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
 
     <!-- Title -->
-    <title>Farima | Contact-Overview</title>
+    <title>Farima | Contact Overview</title>
 
     <!--Bootstrap.min css-->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -27,17 +27,23 @@
     <!-- Dashboard Css -->
     <link href="../assets/css/dashboard.css" rel="stylesheet" />
 
+    <!-- Tabs Style -->
+    <link href="../assets/plugins/tabs/style.css" rel="stylesheet" />
+
     <!-- Custom scroll bar css-->
     <link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
-    <!--mutipleselect css-->
-    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
+    <!-- Time picker Plugin -->
+    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
 
     <!-- Date Picker Plugin -->
     <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
+
+    <!--multipleselect css-->
+    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
 
     <!-- Data table css -->
     <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
@@ -52,6 +58,7 @@
 
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
 </head>
 
 <body class="app sidebar-mini rtl">
@@ -719,8 +726,6 @@
                                     <button type="button" class="btn btn-outline-primary" data-toggle="modal"
                                         data-target="#exampleModal3"><i class="fas  fa-user-plus"></i></button>
                                     <div class="card-options d-none d-sm-block mr-1">
-                                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-file-import"></i>
-                                            Import</a>
                                         <a href="#" class="btn btn-outline-primary">Export <i
                                                 class="fas fa-file-export"></i></a>
                                     </div>
@@ -1217,6 +1222,7 @@
                                                         <option>English</option>
                                                         <option>French</option>
                                                         <option>Russian</option>
+                                                        <option>Turkish</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -1240,7 +1246,12 @@
                                                     <label for="mobile"
                                                         class="form-control-label mr-1 font-weight-bold">Mobile:
                                                     </label>
-                                                    <input type="tel" class="form-control" id="mobile" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-mobile-alt"></i>
+                                                        </div>
+                                                        <input type="tel" class="form-control" id="mobile" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-6">
@@ -1248,7 +1259,12 @@
                                                     <label for="fax"
                                                         class="form-control-label mr-1 font-weight-bold">Fax:
                                                     </label>
-                                                    <input type="text" class="form-control" id="fax" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-fax"></i>
+                                                        </div>
+                                                        <input type="text" class="form-control" id="fax" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1258,7 +1274,12 @@
                                                     <label for="phone"
                                                         class="form-control-label mr-1 font-weight-bold">Phone:
                                                     </label>
-                                                    <input type="text" class="form-control" id="phone" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-phone"></i>
+                                                        </div>
+                                                        <input type="text" class="form-control" id="phone" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-6">
@@ -1266,7 +1287,12 @@
                                                     <label for="email"
                                                         class="form-control-label mr-1 font-weight-bold">Email:
                                                     </label>
-                                                    <input type="Email" class="form-control" id="email" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-at"></i>
+                                                        </div>
+                                                        <input type="Email" class="form-control" id="email" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1314,43 +1340,14 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
-                                Save</button>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
+                                    Save</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <div class="modal fade" id="exampleModal3-2" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
@@ -1612,7 +1609,12 @@
                                                     <label for="mobile"
                                                         class="form-control-label mr-1 font-weight-bold">Mobile:
                                                     </label>
-                                                    <input type="tel" class="form-control" id="mobile" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-mobile-alt"></i>
+                                                        </div>
+                                                        <input type="tel" class="form-control" id="mobile" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-6">
@@ -1620,7 +1622,12 @@
                                                     <label for="fax"
                                                         class="form-control-label mr-1 font-weight-bold">Fax:
                                                     </label>
-                                                    <input type="text" class="form-control" id="fax" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-fax"></i>
+                                                        </div>
+                                                        <input type="text" class="form-control" id="fax" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1630,7 +1637,12 @@
                                                     <label for="phone"
                                                         class="form-control-label mr-1 font-weight-bold">Phone:
                                                     </label>
-                                                    <input type="text" class="form-control" id="phone" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-phone"></i>
+                                                        </div>
+                                                        <input type="text" class="form-control" id="phone" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-6">
@@ -1638,7 +1650,12 @@
                                                     <label for="email"
                                                         class="form-control-label mr-1 font-weight-bold">Email:
                                                     </label>
-                                                    <input type="Email" class="form-control" id="email" step="0">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-at"></i>
+                                                        </div>
+                                                        <input type="Email" class="form-control" id="email" step="0">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1779,11 +1796,11 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
-                                Save Changes</button>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
+                                    Save Changes</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2245,27 +2262,10 @@
 
 
 
-    <!-- Data tables -->
-    <script src="../assets/plugins/Datatable/js/jquery.dataTables.js"></script>
-    <script src="../assets/plugins/Datatable/js/dataTables.bootstrap4.js"></script>
-    <script src="../assets/plugins/Datatable/js/dataTables.buttons.min.js"></script>
-    <script src="../assets/plugins/Datatable/js/buttons.bootstrap4.min.js"></script>
-    <script src="../assets/plugins/Datatable/js/jszip.min.js"></script>
-    <script src="../assets/plugins/Datatable/js/pdfmake.min.js"></script>
-    <script src="../assets/plugins/Datatable/js/vfs_fonts.js"></script>
-    <script src="../assets/plugins/Datatable/js/buttons.html5.min.js"></script>
-    <script src="../assets/plugins/Datatable/js/buttons.print.min.js"></script>
-    <script src="../assets/plugins/Datatable/js/buttons.colVis.min.js"></script>
-    <script src="../assets/plugins/datatable/dataTables.responsive.min.js"></script>
-    <script src="../assets/plugins/datatable/responsive.bootstrap4.min.js"></script>
-
-    <!-- Data table js -->
-    <script src="../assets/js/datatable.js"></script>
-
-    <!-- Back to top -->
+    <!--Back to top-->
     <a href="#top" id="back-to-top"><i class="fas fa-angle-up "></i></a>
 
-    <!-- Dashboard Css -->
+    <!-- Dashboard js -->
     <script src="../assets/js/vendors/jquery-3.2.1.min.js"></script>
     <script src="../assets/js/vendors/jquery.sparkline.min.js"></script>
     <script src="../assets/js/vendors/selectize.min.js"></script>
@@ -2283,9 +2283,6 @@
     <!-- Custom scroll bar Js-->
     <script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
 
-    <!--Select2 js -->
-    <script src="../assets/plugins/select2/select2.full.min.js"></script>
-
     <!-- peitychart -->
     <script src="../assets/plugins/peitychart/jquery.peity.min.js"></script>
 
@@ -2298,12 +2295,35 @@
     <script src="../assets/plugins/date-picker/jquery-ui.js"></script>
     <script src="../assets/plugins/input-mask/jquery.maskedinput.js"></script>
 
-    <!--MutipleSelect js-->
+    <!--MultipleSelect js-->
     <script src="../assets/plugins/multipleselect/multiple-select.js"></script>
     <script src="../assets/plugins/multipleselect/multi-select.js"></script>
 
+    <!--Select2 js -->
+    <script src="../assets/plugins/select2/select2.full.min.js"></script>
+
+    <!---Tabs JS-->
+    <script src="../assets/plugins/tabs/jquery.multipurpose_tabcontent.js"></script>
+
     <!-- Inline js -->
     <script src="../assets/js/select2.js"></script>
+
+    <!-- Data tables -->
+    <script src="../assets/plugins/Datatable/js/jquery.dataTables.js"></script>
+    <script src="../assets/plugins/Datatable/js/dataTables.bootstrap4.js"></script>
+    <script src="../assets/plugins/Datatable/js/dataTables.buttons.min.js"></script>
+    <script src="../assets/plugins/Datatable/js/buttons.bootstrap4.min.js"></script>
+    <script src="../assets/plugins/Datatable/js/jszip.min.js"></script>
+    <script src="../assets/plugins/Datatable/js/pdfmake.min.js"></script>
+    <script src="../assets/plugins/Datatable/js/vfs_fonts.js"></script>
+    <script src="../assets/plugins/Datatable/js/buttons.html5.min.js"></script>
+    <script src="../assets/plugins/Datatable/js/buttons.print.min.js"></script>
+    <script src="../assets/plugins/Datatable/js/buttons.colVis.min.js"></script>
+    <script src="../assets/plugins/datatable/dataTables.responsive.min.js"></script>
+    <script src="../assets/plugins/datatable/responsive.bootstrap4.min.js"></script>
+
+    <!-- Data table js -->
+    <script src="../assets/js/datatable.js"></script>
 
     <!--Counters -->
     <script src="../assets/plugins/counters/counterup.min.js"></script>
@@ -2312,8 +2332,9 @@
     <!-- Sidebar js -->
     <script src="../assets/plugins/sidebar/sidebar.js"></script>
 
-    <!-- Custom js -->
+    <!-- custom js -->
     <script src="../assets/js/custom.js"></script>
+
 
 </body>
 
