@@ -9,7 +9,15 @@ $(function(e) {
 		
 	//sample datatable	
 	$('#example-2').DataTable();
-	
+	$('#example-3').DataTable();
+	$('#example-4').DataTable();
+	$('#example-5').DataTable();
+	$('#example-6').DataTable();
+	$('#example-7').DataTable();
+	$('#example-8').DataTable();
+	$('#example-9').DataTable();
+	$('#example-10').DataTable();
+
 	//Details display datatable
 	$('#example-1').DataTable( {
 		responsive: {
