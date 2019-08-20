@@ -1,11 +1,10 @@
-
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="msapplication-TileColor" content="#0670f0">
+    <meta name="msapplication-TileColor" content="#0061da">
     <meta name="theme-color" content="#1643a3">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
 
     <!-- Title -->
-    <title>Farima | Transaction-Overview</title>
+    <title>Farima | Equipment Supply Deed-view</title>
 
     <!--Bootstrap.min css-->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -27,29 +26,36 @@
     <!-- Dashboard Css -->
     <link href="../assets/css/dashboard.css" rel="stylesheet" />
 
+    <!-- vector-map -->
+    <link href="../assets/plugins/vector-map/jqvmap.min.css" rel="stylesheet">
+
     <!-- Custom scroll bar css-->
     <link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
-    <!-- Tabs Style -->
-    <link href="../assets/plugins/tabs/style.css" rel="stylesheet" />
+    <!-- jvectormap css-->
+    <link href="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
 
     <!-- Data table css -->
     <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
     <link href="../assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet" />
 
-    <!-- Slect2 css -->
-    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+    <!-- morris Charts Plugin -->
+    <link href="../assets/plugins/morris/morris.css" rel="stylesheet" />
 
     <!---Font icons-->
     <link href="../assets/plugins/iconfonts/plugin.css" rel="stylesheet" />
+    <link href="../assets/plugins/iconfonts/icons.css" rel="stylesheet" />
 
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+
 </head>
+
 <body class="app sidebar-mini rtl">
 
 <!-- Global Loader-->
@@ -57,6 +63,7 @@
 
 <div class="page">
     <div class="page-main">
+
         <!-- Navbar-->
         <header class="app-header header">
             <!-- Navbar Right Menu-->
@@ -326,7 +333,7 @@
             </div>
             <ul class="side-menu">
                 <li class="slide">
-                    <a class="side-menu__item " data-toggle="slide" href="#"><i class="side-menu__icon si si-screen-desktop"></i><span class="side-menu__label">Dashboard</span><i class="angle fas fa-angle-right"></i></a>
+                    <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon si si-screen-desktop"></i><span class="side-menu__label">Dashboard</span><i class="angle fas fa-angle-right"></i></a>
                     <ul class="slide-menu">
                         <li><a class="slide-item" href="index.html">Dashboard 01</a></li>
                         <li><a class="slide-item" href="index2.html">Dashboard 02</a></li>
@@ -506,7 +513,7 @@
                     </ul>
                 </li>
                 <li class="slide">
-                    <a class="side-menu__item active" data-toggle="slide" href="#"><i class="side-menu__icon si si-calculator"></i><span class="side-menu__label">Tables</span><i class="angle fas fa-angle-right"></i></a>
+                    <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon si si-calculator"></i><span class="side-menu__label">Tables</span><i class="angle fas fa-angle-right"></i></a>
                     <ul class="slide-menu">
                         <li>
                             <a href="tables.html" class="slide-item">Default table</a>
@@ -653,119 +660,257 @@
                 <!--Page Header-->
                 <div class="mb-5">
                     <div class="page-header  mb-0">
-                        <h4 class="page-title">Transaction Overview</h4>
+                        <h4 class="page-title">Equipment Supply Deed View</h4>
+                        <div class="float-right ml-auto">
+                            <a class="icon" href="javascript:void(0)"></a>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                        </div>
+                        <div class="float-right ml-1">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#print-modal"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                        </div>
                     </div>
                 </div>
                 <!--page header-->
 
+
                 <div class="row">
+                    <div class="col-xl-4 col-lg-12 col-md-12">
+                        <div id="card1" class="card pb-5">
+                            <div class="flexbox align-items-center px-20 pt-20">
+                                <div class="dropdown">
+                                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
+                                            class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
+                                            Message</a> <a class="dropdown-item" href="#"><i
+                                            class="fa fa-fw fa-phone"></i> Call</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body text-center pt-1 ">
+                                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
+                                                  data-image-src="../assets/images/users/male/20.jpg">
+                                    <span class="avatar-status bg-green"></span>
+                                </span>
+                                </a>
+                                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Requester</a></h5>
+                                <span>Simin Behbahani</span>
+                                <div class="mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="mt-4">
+                                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
+                                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i> Massage</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-12 col-md-12">
+                        <div id="transfer deed Info" class="card">
+                            <div class="card-header">
+                                <h3 class="card-title font-weight-bold">Supply Deed Info</h3>
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="panel panel-primary">
+                                    <div class=" tab-menu-heading">
+                                        <div class="tabs-menu1 ">
+                                            <!-- Tabs -->
+                                            <ul class="nav panel-tabs">
+                                                <li class=""><a href="#tab5" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                                <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Times</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body tabs-menu-body">
+                                        <div class="tab-content">
+                                            <div class="tab-pane active " id="tab5">
+                                                <div id="basic info" class="p-3 text-left">
+                                                    <div class="media-list">
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Supply Deed Serial</h6><span class="d-block">TD 566</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="fas fa-user-check" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Simin Behbahani</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane " id="tab6">
+                                                <div id="task time" class="p-3 text-left">
+                                                    <div class="media-list">
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="far fa-calendar" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Transfer Date</h6><span class="d-block">07 October 2019</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="far fa-clock" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Transfer Time</h6><span class="d-block">10:00:00 AM</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="far fa-clock" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Delivery Time</h6><span class="d-block">11:30:00 PM</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
                     <div class="col-md-12 col-lg-12">
                         <div class="card">
                             <div class="card-header">
-                                <div class="card-title mr-2">Transactions</div>
-                                <div class="card-options d-none d-sm-block mr-1">
-                                    <a href="#" class="btn btn-outline-primary">Export  <i class="fas fa-file-export"></i></a>
-                                </div>
+                                <div class="card-title mr-2 font-weight-bold">Equipment List</div>
+                                <button type="button" class="btn btn-outline-primary float-right" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive ">
-                                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                                    <table id="example-5" class="table table-striped table-bordered">
                                         <thead>
                                         <tr>
-                                            <th class="wd-15p border-bottom-0 ">Type</th>
-                                            <th class="wd-15p border-bottom-0 text-center">Amount</th>
-                                            <th class="wd-10p border-bottom-0 text-center">Date</th>
-                                            <th class="wd-10p border-bottom-0 text-center">Time</th>
-                                            <th class="wd-10p border-bottom-0 text-center">For</th>
-                                            <th class="wd-15p border-bottom-0 text-center">From</th>
-                                            <th class="wd-20p border-bottom-0 text-center">To</th>
-                                            <th class="wd-25p border-bottom-0 text-center">Branch</th>
-                                            <th class="wd-25p border-bottom-0 text-center">Status</th>
-                                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
+                                            <th class="wd-15p border-bottom-0 text-left"></th>
+                                            <th class="wd-15p border-bottom-0 text-center">EQUIPMENT</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Category</th>
+                                            <th class="wd-15p border-bottom-0 text-center">From Date</th>
+                                            <th class="wd-10p border-bottom-0 text-center">To Date</th>
+                                            <th class="wd-15p border-bottom-0 text-center">From time</th>
+                                            <th class="wd-15p border-bottom-0 text-center">To Time</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Status</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Options</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Withdraw</td>
-                                            <td class="text-center">1,200 $</td>
-                                            <td class="text-center">12 February 2020</td>
-                                            <td class="text-center">08:40 PM</td>
-                                            <td class="text-center">Project commission</td>
-                                            <td class="text-center">Somaieh Gholami</td>
-                                            <td class="text-center">Kosar Naiemi</td>
-                                            <td class="text-center">Shariati</td>
-                                            <td class="text-center"><span class="status-icon bg-success"></span> </td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Heli shot NI370</td>
+                                            <td class="text-center">Camera</td>
+                                            <td class="text-center">25/08/2019 </td>
+                                            <td class="text-center">26/08/2019 </td>
+                                            <td class="text-center">12:00:00 AM</td>
+                                            <td class="text-center">10:00:00 PM</td>
+                                            <td class="text-center">Requested</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                                <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                                <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Withdraw</td>
-                                            <td class="text-center">3,400 $</td>
-                                            <td class="text-center">29 July 2020</td>
-                                            <td class="text-center">00:20 PM</td>
-                                            <td class="text-center">Wage</td>
-                                            <td class="text-center">Omid Jahan</td>
-                                            <td class="text-center">Mahdi Alavi</td>
-                                            <td class="text-center">Valiasr</td>
-                                            <td class="text-center"><span class="status-icon bg-danger"></span> </td>
+                                            <td class="text-center">2</td>
+                                            <td class="text-center">Heli shot NI400 </td>
+                                            <td class="text-center">Camera</td>
+                                            <td class="text-center">25/08/2019 </td>
+                                            <td class="text-center">26/08/2019 </td>
+                                            <td class="text-center">12:00:00 AM </td>
+                                            <td class="text-center">10:00:00 PM</td>
+                                            <td class="text-center">Requested</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                                <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Deposit</td>
-                                            <td class="text-center">660 $</td>
-                                            <td class="text-center">08 February 2018</td>
-                                            <td class="text-center">05:35 PM</td>
-                                            <td class="text-center">Invoice</td>
-                                            <td class="text-center">Hafez Asadi</td>
-                                            <td class="text-center">Nasrin Maghami</td>
-                                            <td class="text-center">Velenjak</td>
-                                            <td class="text-center"><span class="status-icon bg-success"></span> </td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-center">Camera Nikon D3400 </td>
+                                            <td class="text-center">Camera</td>
+                                            <td class="text-center">25/08/2019 </td>
+                                            <td class="text-center">26/08/2019 </td>
+                                            <td class="text-center">12:00:00 AM </td>
+                                            <td class="text-center">10:00:00 PM</td>
+                                            <td class="text-center">Rejected</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                                <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Withdraw</td>
-                                            <td class="text-center">4,000 $</td>
-                                            <td class="text-center">23 January 2015</td>
-                                            <td class="text-center">10:50 AM</td>
-                                            <td class="text-center">Invoice</td>
-                                            <td class="text-center">ُShahab Hoseini</td>
-                                            <td class="text-center">Shahla Arasteh</td>
-                                            <td class="text-center">Bazar</td>
-                                            <td class="text-center"><span class="status-icon bg-success"></span> </td>
+                                            <td class="text-center">4</td>
+                                            <td class="text-center">Camera Nikon Z6 </td>
+                                            <td class="text-center">Camera</td>
+                                            <td class="text-center">25/08/2019 </td>
+                                            <td class="text-center">26/08/2019 </td>
+                                            <td class="text-center">12:00:00 AM </td>
+                                            <td class="text-center">10:00:00 PM</td>
+                                            <td class="text-center">Ready To Delivery</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                                <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Deposit</td>
-                                            <td class="text-center"> 7,300 $</td>
-                                            <td class="text-center">27 January 2019</td>
-                                            <td class="text-center">06:55 AM</td>
-                                            <td class="text-center">Fund</td>
-                                            <td class="text-center">Sami Yuosefi</td>
-                                            <td class="text-center">Nasir Bashir</td>
-                                            <td class="text-center">Valiasr</td>
-                                            <td class="text-center"><span class="status-icon bg-danger"></span> </td>
+                                            <td class="text-center">5</td>
+                                            <td class="text-center">Tripod stand F50 </td>
+                                            <td class="text-center">Stand</td>
+                                            <td class="text-center">25/08/2019 </td>
+                                            <td class="text-center">26/08/2019 </td>
+                                            <td class="text-center">12:00:00 AM </td>
+                                            <td class="text-center">10:00:00 PM</td>
+                                            <td class="text-center">Supply Inventory </td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                                <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
                                             </td>
                                         </tr>
+                                        <tr>
+                                            <td class="text-center">6</td>
+                                            <td class="text-center">Crane 0200 </td>
+                                            <td class="text-center">Stand</td>
+                                            <td class="text-center">25/08/2019 </td>
+                                            <td class="text-center">26/08/2019 </td>
+                                            <td class="text-center">12:00:00 AM </td>
+                                            <td class="text-center">10:00:00 PM</td>
+                                            <td class="text-center">Ready To Delivery</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                                <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
+                                            </td>
+                                        </tr>
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -776,96 +921,378 @@
                     </div>
                 </div>
 
-                <!-- Message Modal -->
-                <div class="modal fade bd-example-modal-xl" id="transaction-modal" tabindex="-1" role="dialog"  aria-hidden="true">
-                    <div class="modal-dialog modal-lg " role="document">
+                <!--Modals-->
+                <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="example-Modal3-1">Transaction</h5>
+                                <h5 class="modal-title" id="example-Modal3-1">Edit Equipment Supply Deed</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body table-responsive">
-                                                <table class="table card-table table-vcenter text-nowrap table-bordered">
-                                                    <thead class="border-top">
-                                                    <tr>
-                                                        <td cclass="col-4"  class="text-center font-weight-bold bg-indigo-lighter"><strong class="font-weight-bold">#Transaction Number :</strong>  167</td>
-                                                        <td cclass="col-4" >
-                                                            <div class="border-bottom pb-2"><strong class="font-weight-bold">Date :</strong> 25 December 2019 <br></div>
-                                                            <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49 AM </div>
-                                                        </td>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr>
-                                                        <td colspan="4"><strong class="font-weight-bold">For :</strong>  Monthly Salary</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="4"><strong class="font-weight-bold">Type :</strong>   Withdraw</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">From</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">To</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Amount</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Status</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="7" class="text-center">
-                                                            <div class="font-weight-bold mb-1">Farima Atelier</div><br>
-                                                            <div class="mb-3">285 - 8000 -11166656 -1 <br>
-                                                                Bank: Pasargad</div>
-                                                            <img src="../assets/images/photos/Bank_Pasargad_logo.png">
-                                                        </td>
-                                                        <td rowspan="7" class="text-center">
-                                                            <div class="font-weight-bold mb-1">Rezvanian Ehsan</div><br>
-                                                            <div class="mb-3">5022 - 2910 - 2362 - 4479 <br>
-                                                                Bank: Melli</div>
-                                                            <img src="../assets/images/photos/Melli-logo-LimooGraphic.png" >
-                                                        </td>
-                                                        <td class="text-center">15,000,000 Rial </td>
-                                                        <td class="text-center">Success </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Payment Method</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Payment Request Num</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">Internet bank</td>
-                                                        <td class="text-center">98 </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">functor</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Confirmation status</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3" class="text-center">
-                                                            <div class="font-weight-bold mb-1">Azimi Hossein</div>
-                                                            <div>Org Code: EM 001233  <br>
-                                                                Role: Financial Expert </div>
-                                                        </td>
-                                                        <td rowspan="3" class="text-center">
-                                                            <div>Approved By Financial Unit </div><br>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                    </tr>
-                                                    <tr>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
+                                <form autocomplete="off">
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row ">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="form-label font-weight-bold">Equipment Category:</label>
+                                                    <div class="row gutters-xs">
+                                                        <div class="col">
+                                                            <input type="text" class="form-control" >
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="form-label font-weight-bold">Meeting:</label>
+                                                    <div class="row gutters-xs">
+                                                        <div class="col">
+                                                            <input type="text" class="form-control" >
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label class="form-control-label mr-1 font-weight-bold">Related to:</label>
+                                                    <div class="card-body p-0">
+                                                        <div class="panel panel-primary">
+                                                            <div class=" tab-menu-heading">
+                                                                <div class="tabs-menu1 ">
+                                                                    <!-- Tabs -->
+                                                                    <ul class="nav panel-tabs">
+                                                                        <li class=""><a href="#tab1" class="active text-dark" data-toggle="tab">Project</a></li>
+                                                                        <li><a href="#tab2"  data-toggle="tab" class="text-dark">Deal</a></li>
+                                                                        <li><a href="#tab3"  data-toggle="tab" class="text-dark">Organization</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body tabs-menu-body">
+                                                                <div class="tab-content">
+                                                                    <!--
+                                                                    <div class="tab-pane active " id="tab1">
+                                                                        <div id="basic info" class="p-3 text-left">
+                                                                            <div class="media-list">
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-link" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-user-edit" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane " id="tab2">
+                                                                        <div id="task time" class="p-3 text-left">
+                                                                            <div class="media-list">
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane " id="tab3">
+                                                                        <div id="descriptions" class="p-3 text-left">
+                                                                            <div class="media-list">
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="card p-3 mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="From Date2" class="form-control-label mr-1 font-weight-bold">From Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="From Date2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="To Date2" class="form-control-label mr-1 font-weight-bold">To Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="To Date2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4 mb-5">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="From Time2" class="form-control-label mr-1 font-weight-bold">From Time:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="From Time2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="To Time2" class="form-control-label mr-1 font-weight-bold">To Time:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="To Time2" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="print-modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="example-Modal3-2">Print Equipment Supply Deed</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Equipment Supply Deed</h3>
+                                    </div>
+                                    <div class="card-body table-responsive border-bottom-0 mb-5">
+                                        <table class="table card-table table-vcenter text-nowrap table-bordered">
+                                            <thead class="border-top">
+                                            <tr>
+                                                <td colspan="4"  class="text-center font-weight-bold "><strong class="font-weight-bold">#Supply deed serial : </strong>  TD 566 </td>
+                                                <td colspan="34" >
+                                                    <div class="border-bottom pb-2"><strong class="font-weight-bold">Date :</strong> 25 December 2019 <br></div>
+                                                    <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49:20 PM </div>
+                                                </td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th colspan="4" class="text-center font-weight-bold bg-indigo-lighter"><strong class="font-weight-bold">Requester</strong></th>
+                                                <th colspan="4" class="text-center font-weight-bold bg-indigo-lighter"><strong class="font-weight-bold">Related To</strong></th>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4" rowspan="4"  class="text-center">
+                                                    <div><span class="avatar avatar-xxl brround cover-image m-4" data-image-src="../assets/images/photos/exe1.jpg"></span></div>
+                                                    <div class="font-weight-bold ">Simin Behbahani</div>
+                                                    <div ><span class="font-weight-bold">Org Code :</span> EM 001233  </div>
+                                                    <div ><span class="font-weight-bold">Role : </span>TQM expert unit </div>
+                                                    <div class="mb-3"><span class="font-weight-bold">Branch :</span> pasdaran </div>
+                                                </td>
+                                                <td colspan="4" rowspan="4"  class="text-center">
+                                                    <div ><span class="font-weight-bold">Project :</span> F 34500 </div>
+                                                    <div><span class="font-weight-bold">Milestone :</span> F 34500 design </div>
+                                                    <div><span class="font-weight-bold">Meeting : </span>ME 125  </div>
+                                                </td>
+                                            </tr>
+                                            <tr></tr>
+                                            <tr></tr>
+                                            <tr></tr>
+                                            <tr></tr>
+                                            <tr>
+                                                <td colspan="8" class="text-center bg-indigo-lighter"><strong class="font-weight-bold text-b">Equipment list </strong></td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold"></th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">Equipment </th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">Category</th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">From Date</th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">To Date</th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">From Time</th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">To Time</th>
+                                                <th class="text-center bg-indigo-lighter font-weight-bold">Status </th>
+                                            </tr>
+                                            <tr>
+                                                <td  class="text-center">1</td>
+                                                <td  class="text-center">Heli shot NI370</td>
+                                                <td  class="text-center">Camera </td>
+                                                <td  class="text-center">25/08/2019</td>
+                                                <td  class="text-center">26/08/2019</td>
+                                                <td  class="text-center">12:00:00 AM</td>
+                                                <td  class="text-center">10:00:00 PM </td>
+                                                <td  class="text-center">Send To Supplier</td>
+                                            </tr>
+                                            <tr>
+                                                <td  class="text-center">2</td>
+                                                <td  class="text-center">Heli shot NI400</td>
+                                                <td  class="text-center">Camera </td>
+                                                <td  class="text-center">25/08/2019</td>
+                                                <td  class="text-center">26/08/2019</td>
+                                                <td  class="text-center">12:00:00 AM</td>
+                                                <td  class="text-center">10:00:00 PM </td>
+                                                <td  class="text-center">Requested</td>
+                                            </tr>
+                                            <tr>
+                                                <td  class="text-center">3</td>
+                                                <td  class="text-center">Camera Nikon D3400</td>
+                                                <td  class="text-center">Camera </td>
+                                                <td  class="text-center">25/08/2019</td>
+                                                <td  class="text-center">26/08/2019</td>
+                                                <td  class="text-center">12:00:00 AM</td>
+                                                <td  class="text-center">10:00:00 PM </td>
+                                                <td  class="text-center">Requested</td>
+                                            </tr>
+                                            <tr>
+                                                <td  class="text-center">4</td>
+                                                <td  class="text-center">Camera Nikon Z6</td>
+                                                <td  class="text-center">Camera </td>
+                                                <td  class="text-center">25/08/2019</td>
+                                                <td  class="text-center">26/08/2019</td>
+                                                <td  class="text-center">12:00:00 AM</td>
+                                                <td  class="text-center">10:00:00 PM </td>
+                                                <td  class="text-center">Rady To Delivery</td>
+                                            </tr>
+                                            <tr>
+                                                <td  class="text-center">5</td>
+                                                <td  class="text-center">Tripod stand F50</td>
+                                                <td  class="text-center">Stand </td>
+                                                <td  class="text-center">25/08/2019</td>
+                                                <td  class="text-center">26/08/2019</td>
+                                                <td  class="text-center">12:00:00 AM</td>
+                                                <td  class="text-center">10:00:00 PM </td>
+                                                <td  class="text-center">Send To Supplier</td>
+                                            </tr>
+                                            <tr>
+                                                <td  class="text-center">6</td>
+                                                <td  class="text-center">Crane 0200</td>
+                                                <td  class="text-center">Stand </td>
+                                                <td  class="text-center">25/08/2019</td>
+                                                <td  class="text-center">26/08/2019</td>
+                                                <td  class="text-center">12:00:00 AM</td>
+                                                <td  class="text-center">10:00:00 PM </td>
+                                                <td  class="text-center">Rady To Delivery</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-print"></i> Print</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
 
                 <!--Sidebar-right-->
@@ -1264,7 +1691,9 @@
                 <footer class="footer">
                     <div class="container">
                         <div class="row align-items-center flex-row-reverse text-white-50">
-
+                            <div class="col-md-12 col-sm-12 text-center">
+                                Copyright © 2019 <a href="#">Getren</a>. Designed by <a href="#">Spruko</a> All rights reserved.
+                            </div>
                         </div>
                     </div>
                 </footer>
@@ -1273,11 +1702,10 @@
         </div>
     </div>
 </div>
-
-<!--Back to top-->
+<!-- Back to top -->
 <a href="#top" id="back-to-top"><i class="fas fa-angle-up "></i></a>
 
-<!-- Dashboard js -->
+<!-- Dashboard Core -->
 <script src="../assets/js/vendors/jquery-3.2.1.min.js"></script>
 <script src="../assets/js/vendors/jquery.sparkline.min.js"></script>
 <script src="../assets/js/vendors/selectize.min.js"></script>
@@ -1295,14 +1723,29 @@
 <!-- Custom scroll bar Js-->
 <script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
 
+<!-- Input Mask Plugin -->
+<script src="../assets/plugins/input-mask/jquery.mask.min.js"></script>
+
+<!-- Progress -->
+<script src="../assets/js/vendors/circle-progress.min.js"></script>
+
+<!-- Chart js -->
+<script src="../assets/plugins/chart.js/chart.min.js"></script>
+<script src="../assets/plugins/chart.js/chart.extension.js"></script>
+
+<!--Morris.js Charts Plugin -->
+<script src="../assets/plugins/morris/morris.min.js"></script>
+<script src="../assets/plugins/morris/raphael.min.js"></script>
+
+<!--Jquery.knob js-->
+<script src="../assets/plugins/othercharts/jquery.knob.js"></script>
+<script src="../assets/plugins/othercharts/othercharts.js"></script>
+
+<!--Jquery.sparkline js-->
+<script src="../assets/plugins/othercharts/jquery.sparkline.min.js"></script>
+
 <!-- peitychart -->
 <script src="../assets/plugins/peitychart/jquery.peity.min.js"></script>
-
-<!--ckeditor js-->
-<script src="../assets/plugins/tinymce/tinymce.min.js"></script>
-
-<!-- Richtext js -->
-<script src="../assets/js/richtext.js"></script>
 
 <!-- Data tables -->
 <script src="../assets/plugins/Datatable/js/jquery.dataTables.js"></script>
@@ -1325,13 +1768,15 @@
 <script src="../assets/plugins/counters/counterup.min.js"></script>
 <script src="../assets/plugins/counters/waypoints.min.js"></script>
 
-<!---Tabs scripts-->
-<script src="../assets/js/tabs.js"></script>
-
 <!-- Sidebar js -->
 <script src="../assets/plugins/sidebar/sidebar.js"></script>
 
+<!--Index js -->
+<script src="../assets/js/index.js"></script>
+
 <!-- custom js -->
 <script src="../assets/js/custom.js"></script>
+
+
 </body>
 </html>

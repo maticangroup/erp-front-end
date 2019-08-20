@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
 
     <!-- Title -->
-    <title>Farima | Transaction-Overview</title>
+    <title>Farima | Call-Overview</title>
 
     <!--Bootstrap.min css-->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -27,14 +27,23 @@
     <!-- Dashboard Css -->
     <link href="../assets/css/dashboard.css" rel="stylesheet" />
 
+    <!-- Tabs Style -->
+    <link href="../assets/plugins/tabs/style.css" rel="stylesheet" />
+
     <!-- Custom scroll bar css-->
     <link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
-    <!-- Tabs Style -->
-    <link href="../assets/plugins/tabs/style.css" rel="stylesheet" />
+    <!-- Time picker Plugin -->
+    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
+
+    <!-- Date Picker Plugin -->
+    <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
+
+    <!--multipleselect css-->
+    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
 
     <!-- Data table css -->
     <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
@@ -49,6 +58,7 @@
 
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
 </head>
 <body class="app sidebar-mini rtl">
 
@@ -653,16 +663,17 @@
                 <!--Page Header-->
                 <div class="mb-5">
                     <div class="page-header  mb-0">
-                        <h4 class="page-title">Transaction Overview</h4>
+                        <h4 class="page-title">Call Overview</h4>
                     </div>
                 </div>
-                <!--page header-->
+                <!--page header end-->
 
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
                         <div class="card">
                             <div class="card-header">
-                                <div class="card-title mr-2">Transactions</div>
+                                <div class="card-title mr-2">Calls</div>
+                                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
                                 <div class="card-options d-none d-sm-block mr-1">
                                     <a href="#" class="btn btn-outline-primary">Export  <i class="fas fa-file-export"></i></a>
                                 </div>
@@ -672,98 +683,86 @@
                                     <table id="example-2" class="table table-striped table-bordered nowrap">
                                         <thead>
                                         <tr>
-                                            <th class="wd-15p border-bottom-0 ">Type</th>
-                                            <th class="wd-15p border-bottom-0 text-center">Amount</th>
-                                            <th class="wd-10p border-bottom-0 text-center">Date</th>
-                                            <th class="wd-10p border-bottom-0 text-center">Time</th>
-                                            <th class="wd-10p border-bottom-0 text-center">For</th>
-                                            <th class="wd-15p border-bottom-0 text-center">From</th>
-                                            <th class="wd-20p border-bottom-0 text-center">To</th>
+                                            <th class="wd-15p border-bottom-0 text-left">Call ID</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Topic</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Date</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Time</th>
+                                            <th class="wd-25p border-bottom-0 text-center">From</th>
+                                            <th class="wd-25p border-bottom-0 text-center">To</th>
                                             <th class="wd-25p border-bottom-0 text-center">Branch</th>
-                                            <th class="wd-25p border-bottom-0 text-center">Status</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Result Satisfaction Track</th>
                                             <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Withdraw</td>
-                                            <td class="text-center">1,200 $</td>
-                                            <td class="text-center">12 February 2020</td>
-                                            <td class="text-center">08:40 PM</td>
-                                            <td class="text-center">Project commission</td>
-                                            <td class="text-center">Somaieh Gholami</td>
-                                            <td class="text-center">Kosar Naiemi</td>
-                                            <td class="text-center">Shariati</td>
-                                            <td class="text-center"><span class="status-icon bg-success"></span> </td>
+                                            <td>CID 2008201903 </td>
+                                            <td class="text-center">Topic 1</td>
+                                            <td class="text-center">12 Septamber 2019</td>
+                                            <td class="text-center">01:20:36 PM</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">Shahrak Gharb</td>
+                                            <td class="text-center">Positive</td>
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                                <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#view-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Withdraw</td>
-                                            <td class="text-center">3,400 $</td>
-                                            <td class="text-center">29 July 2020</td>
-                                            <td class="text-center">00:20 PM</td>
-                                            <td class="text-center">Wage</td>
-                                            <td class="text-center">Omid Jahan</td>
-                                            <td class="text-center">Mahdi Alavi</td>
-                                            <td class="text-center">Valiasr</td>
-                                            <td class="text-center"><span class="status-icon bg-danger"></span> </td>
+                                            <td>CID 20082012111 </td>
+                                            <td class="text-center">Topic 2</td>
+                                            <td class="text-center">02 May 2020</td>
+                                            <td class="text-center">10:20:42 AM</td>
+                                            <td class="text-center">Maani Rahnama</td>
+                                            <td class="text-center">Soosan Fahim</td>
+                                            <td class="text-center">shapoor street</td>
+                                            <td class="text-center">Neutral</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#view-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Deposit</td>
-                                            <td class="text-center">660 $</td>
-                                            <td class="text-center">08 February 2018</td>
-                                            <td class="text-center">05:35 PM</td>
-                                            <td class="text-center">Invoice</td>
-                                            <td class="text-center">Hafez Asadi</td>
-                                            <td class="text-center">Nasrin Maghami</td>
-                                            <td class="text-center">Velenjak</td>
-                                            <td class="text-center"><span class="status-icon bg-success"></span> </td>
+                                            <td>CID 2013478903 </td>
+                                            <td class="text-center">Topic 3</td>
+                                            <td class="text-center">16 April 2019</td>
+                                            <td class="text-center">03:14:36 PM</td>
+                                            <td class="text-center">Sadaf Khadem</td>
+                                            <td class="text-center">Shirin Salman</td>
+                                            <td class="text-center">Afrigha street</td>
+                                            <td class="text-center">Negative</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#view-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Withdraw</td>
-                                            <td class="text-center">4,000 $</td>
-                                            <td class="text-center">23 January 2015</td>
-                                            <td class="text-center">10:50 AM</td>
-                                            <td class="text-center">Invoice</td>
-                                            <td class="text-center">ُShahab Hoseini</td>
-                                            <td class="text-center">Shahla Arasteh</td>
-                                            <td class="text-center">Bazar</td>
-                                            <td class="text-center"><span class="status-icon bg-success"></span> </td>
+                                            <td>CID 2008001903 </td>
+                                            <td class="text-center">Topic 4</td>
+                                            <td class="text-center">12 April 2019</td>
+                                            <td class="text-center">09:20:36 AM</td>
+                                            <td class="text-center">Amir Nojooki</td>
+                                            <td class="text-center">Naser Mohtasham</td>
+                                            <td class="text-center">Daneshgah street</td>
+                                            <td class="text-center">Neutral</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#view-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Deposit</td>
-                                            <td class="text-center"> 7,300 $</td>
-                                            <td class="text-center">27 January 2019</td>
-                                            <td class="text-center">06:55 AM</td>
-                                            <td class="text-center">Fund</td>
-                                            <td class="text-center">Sami Yuosefi</td>
-                                            <td class="text-center">Nasir Bashir</td>
-                                            <td class="text-center">Valiasr</td>
-                                            <td class="text-center"><span class="status-icon bg-danger"></span> </td>
+                                            <td>CID 20346777983 </td>
+                                            <td class="text-center">Topic 5</td>
+                                            <td class="text-center">05 May 2019</td>
+                                            <td class="text-center">10:43:31 AM</td>
+                                            <td class="text-center">Zahra Sadegh</td>
+                                            <td class="text-center">Maryam Jalali</td>
+                                            <td class="text-center">Valiasr street</td>
+                                            <td class="text-center">Positive</td>
                                             <td class="text-center">
-                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#transaction-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                <a href="#"  class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#view-modal"  class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -777,97 +776,347 @@
                 </div>
 
                 <!-- Message Modal -->
-                <div class="modal fade bd-example-modal-xl" id="transaction-modal" tabindex="-1" role="dialog"  aria-hidden="true">
-                    <div class="modal-dialog modal-lg " role="document">
+                <div class="modal fade" id="add-modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="example-Modal3-1">Transaction</h5>
+                                <h5 class="modal-title" id="example-Modal3-1">New Call</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="card">
-                                            <div class="card-body table-responsive">
-                                                <table class="table card-table table-vcenter text-nowrap table-bordered">
-                                                    <thead class="border-top">
-                                                    <tr>
-                                                        <td cclass="col-4"  class="text-center font-weight-bold bg-indigo-lighter"><strong class="font-weight-bold">#Transaction Number :</strong>  167</td>
-                                                        <td cclass="col-4" >
-                                                            <div class="border-bottom pb-2"><strong class="font-weight-bold">Date :</strong> 25 December 2019 <br></div>
-                                                            <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49 AM </div>
-                                                        </td>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr>
-                                                        <td colspan="4"><strong class="font-weight-bold">For :</strong>  Monthly Salary</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="4"><strong class="font-weight-bold">Type :</strong>   Withdraw</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">From</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">To</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Amount</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Status</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="7" class="text-center">
-                                                            <div class="font-weight-bold mb-1">Farima Atelier</div><br>
-                                                            <div class="mb-3">285 - 8000 -11166656 -1 <br>
-                                                                Bank: Pasargad</div>
-                                                            <img src="../assets/images/photos/Bank_Pasargad_logo.png">
-                                                        </td>
-                                                        <td rowspan="7" class="text-center">
-                                                            <div class="font-weight-bold mb-1">Rezvanian Ehsan</div><br>
-                                                            <div class="mb-3">5022 - 2910 - 2362 - 4479 <br>
-                                                                Bank: Melli</div>
-                                                            <img src="../assets/images/photos/Melli-logo-LimooGraphic.png" >
-                                                        </td>
-                                                        <td class="text-center">15,000,000 Rial </td>
-                                                        <td class="text-center">Success </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Payment Method</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Payment Request Num</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">Internet bank</td>
-                                                        <td class="text-center">98 </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">functor</th>
-                                                        <th class="text-center bg-indigo-lighter font-weight-bold">Confirmation status</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td rowspan="3" class="text-center">
-                                                            <div class="font-weight-bold mb-1">Azimi Hossein</div>
-                                                            <div>Org Code: EM 001233  <br>
-                                                                Role: Financial Expert </div>
-                                                        </td>
-                                                        <td rowspan="3" class="text-center">
-                                                            <div>Approved By Financial Unit </div><br>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                    </tr>
-                                                    <tr>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
+                                <form autocomplete="off">
+                                    <div class="card p-3  mb-1 ">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="Topic" class="form-control-label mr-1 font-weight-bold">Topic: </label>
+                                                <input type="text" class="form-control" id="Topic" step="0">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="From" class="form-control-label mr-1 font-weight-bold">From: </label>
+                                                <input type="text" class="form-control" id="From" step="0">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="to" class="form-control-label mr-1 font-weight-bold">To:</label>
+                                                <input type="text" class="form-control " id="to">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Start Date" type="date">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Time" class="form-control-label mr-1 font-weight-bold">Time:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Time" type="time">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-4 mb-3">
+                                            <div class="col-6">
+                                                <div class="wd-200">
+                                                    <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control" id="Duration Time2" type="time">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label class="form-control-label mr-1 font-weight-bold">Related to:</label>
+                                                    <div class="card-body p-0">
+                                                        <div class="panel panel-primary">
+                                                            <div class=" tab-menu-heading">
+                                                                <div class="tabs-menu1 ">
+                                                                    <!-- Tabs -->
+                                                                    <ul class="nav panel-tabs">
+                                                                        <li class=""><a href="#tab1" class="active text-dark" data-toggle="tab">Project</a></li>
+                                                                        <li><a href="#tab2"  data-toggle="tab" class="text-dark">Deal</a></li>
+                                                                        <li><a href="#tab3"  data-toggle="tab" class="text-dark">Organization</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body tabs-menu-body">
+                                                                <div class="tab-content">
+                                                                    <!--
+                                                                    <div class="tab-pane active " id="tab1">
+                                                                        <div id="basic info" class="p-3 text-left">
+                                                                            <div class="media-list">
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-link" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-user-edit" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane " id="tab2">
+                                                                        <div id="task time" class="p-3 text-left">
+                                                                            <div class="media-list">
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane " id="tab3">
+                                                                        <div id="descriptions" class="p-3 text-left">
+                                                                            <div class="media-list">
+                                                                                <div class="media mt-1 pb-2">
+                                                                                    <div class="mediaicon">
+                                                                                        <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                    <div class="media-body ml-5 mt-1">
+                                                                                        <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card p-3  mb-1 ">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="Type" class="form-control-label mr-1 font-weight-bold">Result Satisfaction Track :</label>
+                                                    <select class="form-control" id="Type">
+                                                        <option>Positive</option>
+                                                        <option>Neutral</option>
+                                                        <option>Negative</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label class="form-label font-weight-bold">Description:</label>
+                                                    <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
+                <div class="modal fade" id="view-modal" tabindex="-1" role="dialog"  aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="example-Modal3-2">Call View</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card">
+                                    <div class="card-body table-responsive border-bottom-0 mb-5">
+                                        <table class="table card-table table-vcenter text-nowrap table-bordered">
+                                            <thead class="border-top">
+                                            <tr>
+                                                <td colspan="3"  class="text-center font-weight-bold "><strong class="font-weight-bold">Topic :  </strong>Track equipment transfer</td>
+                                                <td colspan="3" >
+                                                    <div class="border-bottom pb-2"><strong class="font-weight-bold">Date :</strong> 25 December 2019 <br></div>
+                                                    <div class="border-bottom pb-2 pt-2"><strong class="font-weight-bold">Time :</strong> 09:49:20 PM </div>
+                                                    <div class="pt-2"><strong class="font-weight-bold">Call ID :</strong> CID 2008201903 </div>
+                                                </td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter"><strong class="font-weight-bold">From</strong></th>
+                                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter"><strong class="font-weight-bold">To</strong></th>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3" rowspan="4"  class="text-center">
+                                                    <div><span class="avatar avatar-xxl brround cover-image m-4" data-image-src="../assets/images/photos/exe1.jpg"></span></div>
+                                                    <div class="font-weight-bold ">Simin Behbahani</div>
+                                                    <div ><span class="font-weight-bold">Org Code :</span> EM 001233  </div>
+                                                    <div ><span class="font-weight-bold">Role : </span>TQM expert unit </div>
+                                                    <div class="mb-3"><span class="font-weight-bold">Branch :</span> pasdaran </div>
+                                                </td>
+                                                <td colspan="3" rowspan="4"  class="text-center">
+                                                    <div><span class="avatar avatar-xxl brround cover-image m-4" data-image-src="../assets/images/photos/exe4.jpg"></span></div>
+                                                    <div class="font-weight-bold "> Ehsan Rezvanian</div>
+                                                    <div ><span class="font-weight-bold">Org code :</span> EM 0010506 </div>
+                                                    <div ><span class="font-weight-bold">Role :</span> driver </div>
+                                                    <div class="mb-3"><span class="font-weight-bold">Inventory :</span> pasdaran</div>
+                                                </td>
+                                            </tr>
+                                            <tr></tr>
+                                            <tr></tr>
+                                            <tr></tr>
+                                            <tr></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-body table-responsive border-top-0 mb-5">
+                                        <table class="table card-table table-vcenter text-nowrap table-bordered">
+                                            <tbody>
+                                            <tr>
+                                                <th colspan="2" class="text-center bg-indigo-lighter font-weight-bold "><strong class="font-weight-bold">Call Info</strong></th>
+                                                <th colspan="4" class="text-center bg-indigo-lighter font-weight-bold "><strong class="font-weight-bold">Description </strong></th>
+                                            </tr>
+                                            <tr>
+                                                <th class="bg-indigo-lighter font-weight-bold ">Transfer date</th>
+                                                <td class="text-center">23/08/2019</td>
+                                                <td  rowspan="6" class="pb-0"></td>
+                                            </tr>
+                                            <tr>
+                                                <th class="bg-indigo-lighter font-weight-bold ">Satisfaction Track </th>
+                                                <td class="text-center">Positive</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="bg-indigo-lighter font-weight-bold ">Related To</th>
+                                                <td class="text-center">Project F 34500</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="bg-indigo-lighter font-weight-bold ">Milestone</th>
+                                                <td class="text-center">F 34500 design </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="bg-indigo-lighter font-weight-bold ">Task </th>
+                                                <td class="text-center">TK 1256 </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="bg-indigo-lighter font-weight-bold ">Meeting</th>
+                                                <td class="text-center"> - </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fas fa-check"></i> Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <!--Sidebar-right-->
                 <div class="sidebar sidebar-right sidebar-animate">
                     <div class="panel panel-primary">
@@ -1298,11 +1547,27 @@
 <!-- peitychart -->
 <script src="../assets/plugins/peitychart/jquery.peity.min.js"></script>
 
-<!--ckeditor js-->
-<script src="../assets/plugins/tinymce/tinymce.min.js"></script>
+<!-- Timepicker js -->
+<script src="../assets/plugins/time-picker/jquery.timepicker.js"></script>
+<script src="../assets/plugins/time-picker/toggles.min.js"></script>
 
-<!-- Richtext js -->
-<script src="../assets/js/richtext.js"></script>
+<!-- Datepicker js -->
+<script src="../assets/plugins/date-picker/spectrum.js"></script>
+<script src="../assets/plugins/date-picker/jquery-ui.js"></script>
+<script src="../assets/plugins/input-mask/jquery.maskedinput.js"></script>
+
+<!--MultipleSelect js-->
+<script src="../assets/plugins/multipleselect/multiple-select.js"></script>
+<script src="../assets/plugins/multipleselect/multi-select.js"></script>
+
+<!--Select2 js -->
+<script src="../assets/plugins/select2/select2.full.min.js"></script>
+
+<!---Tabs JS-->
+<script src="../assets/plugins/tabs/jquery.multipurpose_tabcontent.js"></script>
+
+<!-- Inline js -->
+<script src="../assets/js/select2.js"></script>
 
 <!-- Data tables -->
 <script src="../assets/plugins/Datatable/js/jquery.dataTables.js"></script>
@@ -1324,9 +1589,6 @@
 <!--Counters -->
 <script src="../assets/plugins/counters/counterup.min.js"></script>
 <script src="../assets/plugins/counters/waypoints.min.js"></script>
-
-<!---Tabs scripts-->
-<script src="../assets/js/tabs.js"></script>
 
 <!-- Sidebar js -->
 <script src="../assets/plugins/sidebar/sidebar.js"></script>
