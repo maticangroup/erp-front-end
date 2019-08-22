@@ -938,11 +938,6 @@
                         <div class="card">
                             <div class="card-header">
                                 <h3 class="card-title">Payment Request Info</h3>
-                                <div class="float-right ml-auto">
-                                    <a class="icon" href="javascript:void(0)"></a>
-                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#add-modal"
-                                       class="btn btn-primary btn-success"><i class="fas fa-pen"></i>Add Payment</a>
-                                </div>
                             </div>
 
                             <div class="card-body p-3">
@@ -1035,6 +1030,9 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title mr-2">Transactions</div>
+                                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+
                                 <div class="card-options d-none d-sm-block mr-1">
                                     <a href="#" class="btn btn-outline-primary">Export <i
                                             class="fas fa-file-export"></i></a>
@@ -1273,14 +1271,12 @@
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label
-                                                    class="form-control-label mr-1 font-weight-bold">Total Price:
+                                                    class="form-control-label mr-1 font-weight-bold">Amount:
                                             </label>
                                             <input type="number" class="form-control" step="0">
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card p-3  mb-1 ">
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
@@ -1299,16 +1295,96 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label
+                                                    class="form-control-label mr-1 font-weight-bold">From Bank:</label>
+                                            <select class="form-control">
+                                                <option>Passargard</option>
+                                                <option>Melli</option>
+                                                <option>Parsian</option>
+                                                <option>Mellat</option>
+                                                <option>Sepah</option>
+                                                <option>Tejarat</option>
+                                                <option>Saderat</option>
+                                                <option>Sarmaie</option>
+                                                <option>Keshavarzi</option>
+                                                <option>Saman</option>
+                                                <option>Maskan</option>
+                                                <option>Eghtesade Novin</option>
+                                                <option>Post Bank</option>
+                                                <option>Ayandeh</option>
+                                                <option>Hekmat Iranian</option>
+                                                <option>Tourism Bank</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label
+                                                    class="form-control-label mr-1 font-weight-bold">To Bank:</label>
+                                            <select class="form-control">
+                                                <option>Passargard</option>
+                                                <option>Melli</option>
+                                                <option>Parsian</option>
+                                                <option>Mellat</option>
+                                                <option>Sepah</option>
+                                                <option>Tejarat</option>
+                                                <option>Saderat</option>
+                                                <option>Sarmaie</option>
+                                                <option>Keshavarzi</option>
+                                                <option>Saman</option>
+                                                <option>Maskan</option>
+                                                <option>Eghtesade Novin</option>
+                                                <option>Post Bank</option>
+                                                <option>Ayandeh</option>
+                                                <option>Hekmat Iranian</option>
+                                                <option>Tourism Bank</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                             <div class="card p-3  mb-1 ">
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="form-group">
                                             <label
-                                                    class="form-control-label mr-1 font-weight-bold">Inform:
+                                                    class="form-control-label mr-1 font-weight-bold">Transaction For:
                                             </label>
                                             <input type="text" class="form-control" step="0">
                                         </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label
+                                                    class="form-control-label mr-1 font-weight-bold">Payment
+                                                Method:</label>
+                                            <select class="form-control">
+                                                <option>Cash</option>
+                                                <option>Check</option>
+                                                <option>Pos</option>
+                                                <option>ATM</option>
+                                                <option>Mobile Bank</option>
+                                                <option>Bank</option>
+                                                <option>Internet Bank</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card p-3  mb-1 ">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Description <span
+                                                    class="form-label-small">0/100</span></label>
+                                            <textarea class="form-control" name="example-textarea-input" rows="6"
+                                                      placeholder="Description here ..."></textarea>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
