@@ -48,67 +48,9 @@
 
     <link href="../assets/plugins/iconfonts/plugin.css" rel="stylesheet"/>
 
-<<<<<<< HEAD
-    <!-- Time picker Plugin -->
-    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet"/>
-
-    <!-- Date Picker Plugin -->
-    <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet"/>
-
-    <!--mutipleselect css-->
-    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
-
-    <!--Chartist css-->
-    <link rel="stylesheet" href="../assets/plugins/chartist/chartist.css">
-    <link rel="stylesheet" href="../assets/plugins/chartist/chartist-plugin-tooltip.css">
-
-
-    <!-- Notifications  css -->
-    <link href="../assets/plugins/notify/css/jquery.growl.css" rel="stylesheet"/>
-
-    <!-- Horizontal-menu Css -->
-    <link href="../assets/plugins/horizontal-menu/dropdown-effects/fade-down.css" rel="stylesheet">
-    <link href="../assets/plugins/horizontal-menu/webslidemenu.css" rel="stylesheet">
-
-    <!-- c3 Charts css -->
-    <link href="../assets/plugins/charts-c3/c3-chart.css" rel="stylesheet"/>
-
-    <!-- Tabs Style -->
-    <link href="../assets/plugins/tabs/style.css" rel="stylesheet"/>
-
-    <!-- Calendar Plugin -->
-    <link href="../assets/plugins/calendar/clndr.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar/stylesheet.css" rel="stylesheet"/>
-
-    <!--Calendar Css -->
-    <link href="../assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/tui-date-picker.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/tui-calendar.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/default.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/icons.css" rel="stylesheet"/>
-
-    <!-- timeline Plugin -->
-    <link href="../assets/plugins/timeline/timeline.min.css" rel="stylesheet"/>
-
-=======
     <!-- Sidebar css -->
     <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
-</head>
->>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
 
-    <!-- Accordion Css -->
-    <link href="../assets/plugins/accordion/accordion.css" rel="stylesheet"/>
-
-    <!-- WYSIWYG Editor css -->
-    <link href="../assets/plugins/wysiwyag/richtext.min.css" rel="stylesheet"/>
-
-    <!--Rangeslider css-->
-    <link href="../assets/plugins/rangeslider/ion.rangeSlider.css" rel="stylesheet"/>
-    <link href="../assets/plugins/rangeslider/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
-
-    <!-- Sidebar css -->
-    <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
-</head>
 <body class="app sidebar-mini rtl">
 
 <!-- Global Loader-->
@@ -887,41 +829,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
-                    <div class="col-xl-8 col-lg-12 col-md-12">
-                        <div id="project Info" class="card">
-                            <div class="card-header">
-                                <h3 class="card-title font-weight-bold">Project Info</h3>
-                            </div>
-                            <div class="card-body p-3">
-                                <div class="panel panel-primary">
-                                    <div class=" tab-menu-heading">
-                                        <div class="tabs-menu1 ">
-                                            <!-- Tabs -->
-                                            <ul class="nav panel-tabs">
-                                                <li class=""><a href="#tab5" class="active font-weight-bold"
-                                                                data-toggle="tab">Basic Info</a></li>
-                                                <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Project
-                                                    Times</a></li>
-                                                <li><a href="#tab7" class="font-weight-bold" data-toggle="tab">Descriptions</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="panel-body tabs-menu-body">
-                                        <div class="tab-content">
-                                            <div class="tab-pane active " id="tab5">
-                                                <div id="basic info" class="p-3 text-left">
-                                                    <div class="media-list">
-                                                        <div class="media mt-1 pb-2">
-                                                            <div class="mediaicon">
-                                                                <i class="fas fa-hashtag" aria-hidden="true"></i>
-                                                            </div>
-                                                            <div class="media-body ml-5 mt-1">
-                                                                <h6 class="mediafont text-dark mb-1">Title</h6><span
-                                                                    class="d-block">Wedding</span>
-                                                            </div>
-=======
                 </div>
                 <div class="col-xl-8 col-lg-12 col-md-12">
                     <div id="project Info" class="card">
@@ -964,7 +871,6 @@
                                                     <div class="media mt-1 pb-2">
                                                         <div class="mediaicon">
                                                             <i class="fas fa-phone-volume" aria-hidden="true"></i>
->>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
                                                         </div>
                                                         <div class="media mt-1 pb-2">
                                                             <div class="mediaicon">
@@ -1007,19 +913,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
-                                            <div class="tab-pane " id="tab6">
-                                                <div id="task time" class="p-3 text-left">
-                                                    <div class="media-list">
-                                                        <div class="media mt-1 pb-2">
-                                                            <div class="mediaicon">
-                                                                <i class="far fa-calendar" aria-hidden="true"></i>
-                                                            </div>
-                                                            <div class="media-body ml-5 mt-1">
-                                                                <h6 class="mediafont text-dark mb-1">Start Date</h6>
-                                                                <span class="d-block">07 October 2019</span>
-                                                            </div>
-=======
                                         </div>
                                         <div class="tab-pane " id="tab2">
                                             <div id="task time" class="p-3 text-left">
@@ -1054,7 +947,6 @@
                                                         </div>
                                                         <div class="media-body ml-5 mt-1">
                                                             <h6 class="mediafont text-dark mb-1">Hold Date</h6><span class="d-block">02 January 2020</span>
->>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
                                                         </div>
                                                         <div class="media mt-1 pb-2">
                                                             <div class="mediaicon">
@@ -1114,19 +1006,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
-                                            <div class="tab-pane " id="tab7">
-                                                <div id="descriptions" class="p-3 text-left">
-                                                    <div class="media-list">
-                                                        <div class="media mt-1 pb-2">
-                                                            <div class="mediaicon">
-                                                                <i class="fas fa-file-medical" aria-hidden="true"></i>
-                                                            </div>
-                                                            <div class="media-body ml-5 mt-1">
-                                                                <h6 class="mediafont text-dark mb-1">Descriptions</h6>
-                                                                <span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                                                            </div>
-=======
                                         </div>
                                         <div class="tab-pane " id="tab3">
                                             <div id="descriptions" class="p-3 text-left">
@@ -1137,7 +1016,6 @@
                                                         </div>
                                                         <div class="media-body ml-5 mt-1">
                                                             <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
->>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1217,19 +1095,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-<<<<<<< HEAD
-                                                </li>
-                                                <li>
-                                                    <div id="vendors" class="card">
-                                                        <div class="card-body text-center">
-                                                            <img src="../assets/images/svgs/png/081-on-time.png"
-                                                                 alt="img" class="w-8 h-8 mb-4">
-                                                            <div class="svg-btn">
-                                                                <a class="btn btn-primary btn-pill" href="#">Vendors</a>
-                                                            </div>
-                                                            <h3 class="mt-4">16</h3>
-                                                        </div>
-=======
                                                     <h3 class="mt-4">6</h3>
                                                 </div>
                                             </div>
@@ -1239,7 +1104,6 @@
                                                     <img src="../assets/images/svgs/png/081-on-time.png" alt="img" class="w-8 h-8 mb-4">
                                                     <div class="svg-btn">
                                                         <a class="btn btn-primary btn-pill" href="#">Vendors</a>
->>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
                                                     </div>
                                                 </li>
                                                 <li>
@@ -1405,70 +1269,6 @@
                     </div>
                 </div>
 
-<<<<<<< HEAD
-                <div class="row">
-                    <div id="calls section" class="col-xl-4 col-lg-12 col-md-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="card-title font-weight-bold">Calls</div>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table card-table table-vcenter table-hover">
-                                        <thead>
-                                        <tr>
-                                            <th></th>
-                                            <th>From</th>
-                                            <th>To</th>
-                                            <th>Time</th>
-                                            <th></th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Ehsan Rezvanian</td>
-                                            <td>Hossein Azimi</td>
-                                            <td>3:10</td>
-                                            <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Ehsan Rezvanian</td>
-                                            <td>Hossein Azimi</td>
-                                            <td>3:10</td>
-                                            <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Ehsan Rezvanian</td>
-                                            <td>Hossein Azimi</td>
-                                            <td>3:10</td>
-                                            <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">4</th>
-                                            <td>Ehsan Rezvanian</td>
-                                            <td>Hossein Azimi</td>
-                                            <td>3:10</td>
-                                            <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">5</th>
-                                            <td>Ehsan Rezvanian</td>
-                                            <td>Hossein Azimi</td>
-                                            <td>3:10</td>
-                                            <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-=======
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div id="milestone" class="card">
@@ -1764,7 +1564,6 @@
                                     </tr>
                                     </tbody>
                                 </table>
->>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
                             </div>
                         </div>
                     </div>

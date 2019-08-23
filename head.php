@@ -31,32 +31,40 @@
     <link href="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
 
     <!-- Font Family -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+    <link href="../assets/copy-font.css" rel="stylesheet">
 
     <!-- Sidemenu Css -->
     <link href="../assets/plugins/toggle-sidebar/css/sidemenu-light.css" rel="stylesheet">
 
-    <!-- Data table css -->
-    <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
-    <link href="../assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
-
-    <!-- Slect2 css -->
-    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet"/>
-
     <!---Font icons-->
     <link href="../assets/plugins/sweet-alert/sweetalert.css" rel="stylesheet"/>
-
     <link href="../assets/plugins/iconfonts/plugin.css" rel="stylesheet"/>
 
-    <!-- Time picker Plugin -->
-    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet"/>
+    <!-- Sidebar css -->
+    <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
 
-    <!-- Date Picker Plugin -->
-    <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet"/>
+    <!--Rangeslider css-->
+    <link href="../assets/plugins/rangeslider/ion.rangeSlider.css" rel="stylesheet"/>
+    <link href="../assets/plugins/rangeslider/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
 
-    <!--mutipleselect css-->
-    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
+    <?php
+    $current_page = ['/test', '/tasks'];
+
+    if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
+
+    <!-- Calendar Plugin -->
+    <link href="../assets/plugins/calendar/clndr.css" rel="stylesheet"/>
+    <link href="../assets/plugins/calendar/stylesheet.css" rel="stylesheet"/>
+
+    <!--Calendar Css -->
+    <link href="../assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet"/>
+    <link href="../assets/plugins/calendar2/css/tui-date-picker.css" rel="stylesheet"/>
+    <link href="../assets/plugins/calendar2/css/tui-calendar.css" rel="stylesheet"/>
+    <link href="../assets/plugins/calendar2/css/default.css" rel="stylesheet"/>
+    <link href="../assets/plugins/calendar2/css/icons.css" rel="stylesheet"/>
+
+    <?php endif?>
+
 
     <!--Chartist css-->
     <link rel="stylesheet" href="../assets/plugins/chartist/chartist.css">
@@ -76,16 +84,6 @@
     <!-- Tabs Style -->
     <link href="../assets/plugins/tabs/style.css" rel="stylesheet"/>
 
-    <!-- Calendar Plugin -->
-    <link href="../assets/plugins/calendar/clndr.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar/stylesheet.css" rel="stylesheet"/>
-
-    <!--Calendar Css -->
-    <link href="../assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/tui-date-picker.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/tui-calendar.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/default.css" rel="stylesheet"/>
-    <link href="../assets/plugins/calendar2/css/icons.css" rel="stylesheet"/>
 
     <!-- timeline Plugin -->
     <link href="../assets/plugins/timeline/timeline.min.css" rel="stylesheet"/>
@@ -97,10 +95,5 @@
     <!-- WYSIWYG Editor css -->
     <link href="../assets/plugins/wysiwyag/richtext.min.css" rel="stylesheet"/>
 
-    <!--Rangeslider css-->
-    <link href="../assets/plugins/rangeslider/ion.rangeSlider.css" rel="stylesheet"/>
-    <link href="../assets/plugins/rangeslider/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
 
-    <!-- Sidebar css -->
-    <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
 </head>
