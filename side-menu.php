@@ -1,10 +1,23 @@
 <?php $menuItems =
     [
-        ['link' => '/adasdasdsad', 'title' => 'Project', 'icon' => 'side-menu__icon si si-layers'],
-        ['link' => '/adasdasdsad', 'title' => 'Menu Item', 'icon' => 'side-menu__icon si si-layers'],
-        ['link' => '/adasdasdsad', 'title' => 'Menu Item', 'icon' => 'side-menu__icon si si-layers'],
-        ['link' => '/adasdasdsad', 'title' => 'Menu Item', 'icon' => 'side-menu__icon si si-layers'],
-        ['link' => '/adasdasdsad', 'title' => 'Menu Item', 'icon' => 'side-menu__icon si si-layers'],
+        [
+            'link' => '/adasdasdsad',
+            'title' => 'drop down',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '#', 'title' => 'A drop down item'],
+                ['url' => '#', 'title' => 'A drop down item'],
+                ['url' => '#', 'title' => 'A drop down item'],
+                ['url' => '#', 'title' => 'A drop down item'],
+            ]
+        ],
+        [
+            'link' => '/adasdasdsad',
+            'title' => 'no drop down',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
 
     ];
 ?>
@@ -26,11 +39,27 @@
     </div>
     <ul class="side-menu">
         <?php foreach ($menuItems as $menuItem) : ?>
-            <li>
-                <a class="side-menu__item" href="<?= $menuItem['link'] ?>">
+        
+
+            <li <?= ($menuItem['drop_down_items']) ? "class=\"slide\"" : "" ?>>
+                <a class="side-menu__item" <?= ($menuItem['drop_down_items']) ? "data-toggle=\"slide\"" : "" ?>
+                   href="#">
                     <i class="<?= $menuItem['icon'] ?>"></i>
                     <span class="side-menu__label"><?= $menuItem['title'] ?></span>
+                    <?php if ($menuItem['drop_down_items']): ?>
+                        <i class="angle fas fa-angle-right"></i>
+                    <?php endif; ?>
                 </a>
+
+                <?php if ($menuItem['drop_down_items']): ?>
+                    <ul class="slide-menu">
+                        <?php foreach ($menuItem['drop_down_items'] as $drop_down_item): ?>
+                            <li>
+                                <a class="slide-item" href="<?= $drop_down_item['url'] ?>"><?= $drop_down_item ?></a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
             </li>
         <?php endforeach; ?>
     </ul>
