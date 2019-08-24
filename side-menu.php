@@ -57,7 +57,7 @@
             ]
         ],
         [
-            'link' => '',
+            'link' => 'asdasd',
             'title' => 'Templates',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
@@ -194,7 +194,7 @@
 
             <li <?= ($menuItem['drop_down_items']) ? "class=\"slide\"" : "" ?>>
                 <a class="side-menu__item" <?= ($menuItem['drop_down_items']) ? "data-toggle=\"slide\"" : "" ?>
-                   href="#">
+                   href="<?= ($menuItem['drop_down_items']) ? "#" : $menuItem['link'] ?>">
                     <i class="<?= $menuItem['icon'] ?>"></i>
                     <span class="side-menu__label"><?= $menuItem['title'] ?></span>
                     <?php if ($menuItem['drop_down_items']): ?>
@@ -206,7 +206,8 @@
                     <ul class="slide-menu">
                         <?php foreach ($menuItem['drop_down_items'] as $drop_down_item): ?>
                             <li>
-                                <a class="slide-item" href="<?= $drop_down_item['url'] ?>"><?= $drop_down_item ?></a>
+                                <a class="slide-item"
+                                   href="<?= $drop_down_item['url'] ?>"><?= $drop_down_item['title'] ?></a>
                             </li>
                         <?php endforeach; ?>
                     </ul>
