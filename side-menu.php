@@ -132,7 +132,7 @@
         ],
         [
             'link' => '',
-            'title' => 'Human resources & permission',
+            'title' => 'HR,permission',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
                 ['url' => '/top-employees', 'title' => 'Top employees'],
@@ -163,11 +163,55 @@
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
                 ['url' => '/delivery-method', 'title' => 'Delivery method'],
-                ['url' => '/inventory-overview-add-edit', 'title' => 'Inventories'],
-                ['url' => '/transfer-deed', 'title' => 'Transfer Deed'],
-                ['url' => '/supply-deed', 'title' => 'Supply Deed'],
-                ['url' => '/purchase-deed', 'title' => 'Purchase Deed'],
-                ['url' => '/transfer-deed', 'title' => 'Transfer deed'],
+                ['url' => '/vehicles', 'title' => 'Vehicles'],
+                ['url' => '/delivery-person', 'title' => 'Delivery person'],
+            ]
+        ],
+        [
+            'link' => '/business-overview',
+            'title' => 'Business',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Financial',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/invoice-overview-add-edit', 'title' => 'Invoices'],
+                ['url' => '/payment-request-overview-add-edit', 'title' => 'Payment Requests'],
+                ['url' => '/transaction-overview', 'title' => 'Transactions'],
+                ['url' => '/bank-account-overview-add-edit', 'title' => 'Bank accounts'],
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Setting',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/currency', 'title' => 'Currency'],
+                ['url' => '/bank-overview-add-edit', 'title' => 'Banks'],
+                ['url' => '/Languages', 'title' => 'Languages'],
+                ['url' => '/alerts', 'title' => 'Alerts Notifications'],
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Notification Template',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/sms-overview', 'title' => 'SMS'],
+                ['url' => '/email-overview', 'title' => 'Email'],
+                ['url' => '/letter-overview-add-edit', 'title' => 'Letter Headers'],
+                ['url' => '/business-card', 'title' => 'Business Card'],
+            ]
+        ],
+        [
+            'link' => '/storage',
+            'title' => 'Storage',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
             ]
         ],
     ];
