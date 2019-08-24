@@ -4,7 +4,7 @@
             <div class="card-header">
                 <div class="card-title mr-2">Bank Account Overview</div>
                 <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                        data-target="#exampleModal3"><i class="fas  fa-user-plus"></i></button>
+                        data-target="#exampleModal3"><i class="fas fa-user-plus"></i></button>
                 <div class="card-options d-none d-sm-block mr-1">
                     <a href="#" class="btn btn-outline-primary">Export <i
                                 class="fas fa-file-export"></i></a>

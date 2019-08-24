@@ -24,16 +24,12 @@
 <script src="/assets/plugins/counters/counterup.min.js"></script>
 <script src="/assets/plugins/counters/waypoints.min.js"></script>
 
-<!-- Scripts -->
-<script src="/assets/js/index2.js"></script>
-<script src="/assets/js/index3.js"></script>
 
 <!-- Sidebar js -->
 <script src="/assets/plugins/sidebar/sidebar.js"></script>
 
 <!-- Custom js -->
 <script src="/assets/js/custom.js"></script>
-<script src="/assets/js/index3.js"></script>
 
 <!---Tabs JS-->
 <script src="/assets/plugins/tabs/jquery.multipurpose_tabcontent.js"></script>
@@ -55,8 +51,7 @@
 <!--Rating js-->
 <script src="/assets/plugins/rating/jquery.rating-stars.js"></script>
 
-<!-- Inline js -->
-<script src="/assets/js/select2.js"></script>
+
 
 <!--Horizontalmenu js-->
 <script src="/assets/plugins/horizontal-menu/webslidemenu.js"></script>
@@ -116,6 +111,20 @@
 <!--Rang slider js-->
 <script src="/assets/plugins/rangeslider/ion.rangeSlider.js"></script>
 <script src="/assets/js/rangeslider.js"></script>
+<?php
+
+if (false):?>
+    <!-- ApexChart -->
+    <script src="/assets/js/apexcharts.js"></script>
+
+    <!-- Scripts -->
+    <script src="/assets/js/index2.js"></script>
+    <script src="/assets/js/index3.js"></script>
+
+    <!-- Inline js -->
+    <script src="/assets/js/select2.js"></script>
+
+<?php endif; ?>
 
 <?php
 $current_page = ['/branch-view', '/tasks'];
@@ -222,8 +231,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/plugins/chart/utils.js"></script>
     <script src="/assets/js/chart.js"></script>
 
-    <!-- ApexChart -->
-    <script src="/assets/js/apexcharts.js"></script>
+
 
 <?php endif; ?>
 

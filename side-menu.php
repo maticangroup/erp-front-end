@@ -1,24 +1,175 @@
 <?php $menuItems =
     [
         [
-            'link' => '/adasdasdsad',
-            'title' => 'drop down',
+            'link' => '/dashboard',
+            'title' => 'Dashboard',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
-                ['url' => '#', 'title' => 'A drop down item'],
-                ['url' => '#', 'title' => 'A drop down item'],
-                ['url' => '#', 'title' => 'A drop down item'],
-                ['url' => '#', 'title' => 'A drop down item'],
             ]
         ],
         [
-            'link' => '/adasdasdsad',
-            'title' => 'no drop down',
+            'link' => '/task-overview-add-edit',
+            'title' => 'Task',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/meeting-overview',
+            'title' => 'Meeting',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/call-overview-view',
+            'title' => 'Calls',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/letter-overview-add',
+            'title' => 'Letters',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/calendar-view',
+            'title' => 'Calendar',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/project-overview-add-edit',
+            'title' => 'Projects',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/team-overview-add-edit',
+            'title' => 'Teams',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Templates',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/meetings-temp', 'title' => 'Meetings'],
+                ['url' => '/calls-temp', 'title' => 'Calls'],
+                ['url' => '/tasks-temp', 'title' => 'Tasks'],
+                ['url' => '/letters-temp', 'title' => 'Letters'],
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Peoples',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/customers', 'title' => 'Customet'],
+                ['url' => '/customers-group', 'title' => 'Customer Group'],
+                ['url' => '/vendors', 'title' => 'Vendors'],
+            ]
+        ],
+        [
+            'link' => '/services-overview',
+            'title' => 'Services',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/deal-overview',
+            'title' => 'Deals',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/contract-overview-add-edit',
+            'title' => 'Contracts',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/companies-overview',
+            'title' => 'Companies',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/poll-overview',
+            'title' => 'Polls',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+        [
+            'link' => '/branch-overview-add-edit',
+            'title' => 'Branches',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
             ]
         ],
 
+        [
+            'link' => '',
+            'title' => 'Catering',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/catering-request', 'title' => 'Catering Request'],
+                ['url' => '/catering-purchase-deed', 'title' => 'Catering Purchase Deed'],
+                ['url' => '/catering-reservation', 'title' => 'Reservation '],
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Human resources & permission',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/top-employees', 'title' => 'Top employees'],
+                ['url' => '/employee-overview', 'title' => 'Employees'],
+                ['url' => '/expertises', 'title' => 'Expertises'],
+                ['url' => '/mentalities', 'title' => 'Mentalities'],
+                ['url' => '/roles', 'title' => 'Roles'],
+                ['url' => '/units', 'title' => 'Units'],
+                ['url' => '/duties', 'title' => 'Duties'],
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Wearhouse',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/equipment-overview-add-edit', 'title' => 'Equipment'],
+                ['url' => '/inventory-overview-add-edit', 'title' => 'Inventories'],
+                ['url' => '/transfer-deed', 'title' => 'Transfer Deed'],
+                ['url' => '/supply-deed', 'title' => 'Supply Deed'],
+                ['url' => '/purchase-deed', 'title' => 'Purchase Deed'],
+                ['url' => '/transfer-deed', 'title' => 'Transfer deed'],
+            ]
+        ],
+        [
+            'link' => '',
+            'title' => 'Transportation',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+                ['url' => '/delivery-method', 'title' => 'Delivery method'],
+                ['url' => '/inventory-overview-add-edit', 'title' => 'Inventories'],
+                ['url' => '/transfer-deed', 'title' => 'Transfer Deed'],
+                ['url' => '/supply-deed', 'title' => 'Supply Deed'],
+                ['url' => '/purchase-deed', 'title' => 'Purchase Deed'],
+                ['url' => '/transfer-deed', 'title' => 'Transfer deed'],
+            ]
+        ],
     ];
 ?>
 
@@ -39,7 +190,7 @@
     </div>
     <ul class="side-menu">
         <?php foreach ($menuItems as $menuItem) : ?>
-        
+
 
             <li <?= ($menuItem['drop_down_items']) ? "class=\"slide\"" : "" ?>>
                 <a class="side-menu__item" <?= ($menuItem['drop_down_items']) ? "data-toggle=\"slide\"" : "" ?>
