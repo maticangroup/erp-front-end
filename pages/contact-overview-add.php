@@ -42,7 +42,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -61,7 +61,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -80,7 +80,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -99,7 +99,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -118,7 +118,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -137,7 +137,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -156,7 +156,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -175,7 +175,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -194,7 +194,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -213,7 +213,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -232,7 +232,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -251,7 +251,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/contact-view.html"
+                                <a href="/contact-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -727,12 +727,13 @@
                     </div>
                 </form>
             </div>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
-                Save
-            </button>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
+                    Save
+                </button>
+            </div>
         </div>
     </div>
 </div>

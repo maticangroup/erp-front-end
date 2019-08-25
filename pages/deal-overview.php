@@ -50,7 +50,7 @@
                             <td class="text-center">New</td>
                             <td class="text-center">
 
-                                <a href="../pages/deal-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
                                             class="si si-eye"></i> View</a>
 
 
@@ -74,7 +74,7 @@
                             <td class="text-center">New</td>
                             <td class="text-center">
 
-                                <a href="../pages/deal-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
                                             class="si si-eye"></i> View</a>
 
 
@@ -98,7 +98,7 @@
                             <td class="text-center">New</td>
                             <td class="text-center">
 
-                                <a href="../pages/deal-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
                                             class="si si-eye"></i> View</a>
 
 
@@ -122,7 +122,7 @@
                             <td class="text-center">New</td>
                             <td class="text-center">
 
-                                <a href="../pages/deal-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
                                             class="si si-eye"></i> View</a>
 
 
@@ -146,7 +146,7 @@
                             <td class="text-center">New</td>
                             <td class="text-center">
 
-                                <a href="../pages/deal-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
                                             class="si si-eye"></i> View</a>
 
 

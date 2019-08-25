@@ -19,10 +19,10 @@
                 <table class="table card-table table-vcenter text-nowrap table-bordered">
                     <thead class="border-top">
                     <tr>
-                        <td cclass="col-4" class="text-center font-weight-bold bg-indigo-lighter">
+                        <td class="col-4" class="text-center font-weight-bold bg-indigo-lighter">
                             <strong class="font-weight-bold">#Transaction Number :</strong> 167
                         </td>
-                        <td cclass="col-4">
+                        <td class="col-4">
                             <div class="border-bottom pb-2"><strong class="font-weight-bold">Date
                                     :</strong> 25 December 2019 <br></div>
                             <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49 AM

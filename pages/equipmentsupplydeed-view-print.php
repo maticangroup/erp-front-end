@@ -691,7 +691,7 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="eqlist-modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="eqlist-modal" tabindex="-1" role="dialog"  aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -707,23 +707,21 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label class="form-label">Equipment Category:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with optgroup)">
-                                        <option>Digital</option>
-                                        <option>Electronic</option>
-                                        <option>Foodstuffs</option>
-                                        <option>Paper & Cardboard</option>
+                                    <select class="form-control select2-show-search" data-placeholder="Choose one (with optgroup)">
+                                        <option >Digital</option>
+                                        <option >Electronic</option>
+                                        <option >Foodstuffs</option>
+                                        <option >Paper & Cardboard</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <<<<<<< HEAD
                             <div class="col-md-12 col-lg-12">
                                 <div class="card">
                                     <div class="table-responsive rounded-top">
-                                        <table class="table card-table table-vcenter text-nowrap table-primary">
-                                            <thead class="bg-primary text-white">
+                                        <table class="table card-table table-vcenter text-nowrap table-primary" >
+                                            <thead  class="bg-primary text-white">
                                             <tr>
                                                 <th class="text-white">ID</th>
                                                 <th class="text-white">Name</th>
@@ -738,9 +736,7 @@
                                                 <td>Zone 1, Shelf 4</td>
                                                 <td>
                                                     <a class="icon" href="javascript:void(0)"></a>
-                                                    <a href="inventory-view.html"
-                                                       class="btn btn-outline-secondary btn-sm"><i
-                                                                class="fas fa-check"></i> Select</a>
+                                                    <a href="inventory-view.html"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -749,82 +745,26 @@
                                                 <td>Zone 1, Shelf 4</td>
                                                 <td>
                                                     <a class="icon" href="javascript:void(0)"></a>
-                                                    <a href="inventory-view.html"
-                                                       class="btn btn-outline-secondary btn-sm"><i
-                                                                class="fas fa-check"></i> Select</a>
+                                                    <a href="inventory-view.html"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
-                                                <td>Tripod stand F50</td>
+                                                <td>Tripod stand F50 </td>
                                                 <td>Zone 1, Shelf 4</td>
                                                 <td>
                                                     <a class="icon" href="javascript:void(0)"></a>
-                                                    <a href="inventory-view.html"
-                                                       class="btn btn-outline-secondary btn-sm"><i
-                                                                class="fas fa-check"></i> Select</a>
+                                                    <a href="inventory-view.html"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
                                                 </td>
                                             </tr>
                                             </tbody>
                                         </table>
-                                        =======
-                                        <div class="col-md-12 col-lg-12">
-                                            <div class="card rounded-0">
-                                                <div class="table-responsive rounded-0">
-                                                    <table class="table card-table table-vcenter text-nowrap table-primary">
-                                                        <thead class="bg-primary text-white">
-                                                        <tr>
-                                                            <th class="text-white">ID</th>
-                                                            <th class="text-white">Name</th>
-                                                            <th class="text-white">Status</th>
-                                                            <th class="text-white"></th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <tr>
-                                                            <th scope="row">1</th>
-                                                            <td>Heli shot NI370</td>
-                                                            <td>Intact</td>
-                                                            <td>
-                                                                <button href="inventory-view.html"
-                                                                        class="btn-pill btn-outline-secondary btn-sm">
-                                                                    Select
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">2</th>
-                                                            <td>Camera Nikon D3400</td>
-                                                            <td>Destroyed</td>
-                                                            <td>
-                                                                <button href="inventory-view.html"
-                                                                        class="btn-pill btn-outline-secondary btn-sm">
-                                                                    Select
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">3</th>
-                                                            <td>Tripod stand F50</td>
-                                                            <td>Ready to use</td>
-                                                            <td>
-                                                                <button href="inventory-view.html"
-                                                                        class="btn-pill btn-outline-secondary btn-sm">
-                                                                    Select
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <!-- table-responsive -->
-                                                >>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
-                                            </div>
-                                            <!-- table-responsive -->
-                                        </div>
                                     </div>
+                                    <!-- table-responsive -->
                                 </div>
                             </div>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">
@@ -834,3 +774,4 @@
         </div>
     </div>
 </div>
+

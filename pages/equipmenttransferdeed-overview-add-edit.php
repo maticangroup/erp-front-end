@@ -48,7 +48,7 @@
                             <td class="text-center">On The Way</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -68,7 +68,7 @@
                             <td class="text-center">Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -88,7 +88,7 @@
                             <td class="text-center">Delivered</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -108,7 +108,7 @@
                             <td class="text-center">Requested</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -128,7 +128,7 @@
                             <td class="text-center">List accepted</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -148,7 +148,7 @@
                             <td class="text-center">On The Way</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -168,7 +168,7 @@
                             <td class="text-center">Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -188,7 +188,7 @@
                             <td class="text-center">Delivered</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -208,7 +208,7 @@
                             <td class="text-center">Requested</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -228,7 +228,7 @@
                             <td class="text-center">List accepted</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmenttransferdeed-view-print.html"
+                                <a href="/equipmenttransferdeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -485,20 +485,14 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <<<<<<< HEAD
                                     <label for="Transportation Way"
                                            class="form-control-label mr-1 font-weight-bold">Transportation
                                         Way:</label>
                                     <select class="form-control" id="Transportation Way">
-                                        =======
-                                        <label for="Delivery Method" class="form-control-label mr-1 font-weight-bold">Delivery
-                                            Method:</label>
-                                        <select class="form-control" id="Delivery Method">
-                                            >>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
-                                            <option>Car</option>
-                                            <option>Pickup Truck</option>
-                                            <option>Truck</option>
-                                        </select>
+                                        <option>Car</option>
+                                        <option>Pickup Truck</option>
+                                        <option>Truck</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-6">
@@ -555,7 +549,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-2">New Equipment Transfer Deed</h5>
+                <h5 class="modal-title" id="example-Modal3-2">Edit Equipment Transfer Deed</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -790,20 +784,14 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <<<<<<< HEAD
                                     <label for="Transportation Way2"
                                            class="form-control-label mr-1 font-weight-bold">Transportation
                                         Way:</label>
                                     <select class="form-control" id="Transportation Way2">
-                                        =======
-                                        <label for="Delivery Method2" class="form-control-label mr-1 font-weight-bold">Delivery
-                                            Method:</label>
-                                        <select class="form-control" id="Delivery Method2">
-                                            >>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
-                                            <option>Car</option>
-                                            <option>Pickup Truck</option>
-                                            <option>Truck</option>
-                                        </select>
+                                        <option>Car</option>
+                                        <option>Pickup Truck</option>
+                                        <option>Truck</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-6">

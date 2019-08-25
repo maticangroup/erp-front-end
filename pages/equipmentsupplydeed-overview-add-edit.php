@@ -46,7 +46,7 @@
                             <td class="text-center"> Requested</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -65,7 +65,7 @@
                             <td class="text-center">Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -84,7 +84,7 @@
                             <td class="text-center">Send To Supplier</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -103,7 +103,7 @@
                             <td class="text-center">Ready For Transfer</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -122,7 +122,7 @@
                             <td class="text-center"> Send To Supplier</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -141,7 +141,7 @@
                             <td class="text-center"> Requested</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -160,7 +160,7 @@
                             <td class="text-center">Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -179,7 +179,7 @@
                             <td class="text-center">Send To Supplier</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -198,7 +198,7 @@
                             <td class="text-center">Ready For Transfer</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -217,7 +217,7 @@
                             <td class="text-center"> Send To Supplier</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="equipmentsupplydeed-view-print.html"
+                                <a href="/equipmentsupplydeed-view-print"
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"

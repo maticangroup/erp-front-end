@@ -45,9 +45,9 @@
                             <td class="text-center">2/3/93</td>
                             <td class="text-center">Teh, Enqelab Square</td>
                             <td class="text-center">65165</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -68,9 +68,9 @@
                             <td class="text-center">2/5/97</td>
                             <td class="text-center">Teh, Shariati</td>
                             <td class="text-center">98798</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -91,9 +91,9 @@
                             <td class="text-center">21/3/98</td>
                             <td class="text-center">Turkey , Istanbul</td>
                             <td class="text-center">32132</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -114,9 +114,9 @@
                             <td class="text-center">5/5/98</td>
                             <td class="text-center">Teh, Enqelab Square</td>
                             <td class="text-center">11591</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -137,9 +137,9 @@
                             <td class="text-center">6/5/97</td>
                             <td class="text-center">Qom</td>
                             <td class="text-center">25682</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -160,9 +160,9 @@
                             <td class="text-center">6/9/97</td>
                             <td class="text-center">Teh, Enqelab Square</td>
                             <td class="text-center">85213</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -183,9 +183,9 @@
                             <td class="text-center">5/6/94</td>
                             <td class="text-center">Teh, Shariati</td>
                             <td class="text-center">96651</td>
-                            <td class="text-center" cclass="col-4">
+                            <td class="text-center col-4">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="contract-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/contract-view" class="btn btn-dark btn-sm"><i
                                         class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
