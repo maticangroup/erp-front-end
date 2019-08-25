@@ -18,6 +18,7 @@
     <!-- Title -->
     <title>Farima Atelier</title>
 
+
     <!--Bootstrap.min css-->
     <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
 
@@ -43,9 +44,14 @@
     <!-- Sidebar css -->
     <link href="/assets/plugins/sidebar/sidebar.css" rel="stylesheet">
 
-    <!--Rangeslider css-->
-    <link href="/assets/plugins/rangeslider/ion.rangeSlider.css" rel="stylesheet"/>
-    <link href="/assets/plugins/rangeslider/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
+    <!-- Data table css -->
+    <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
+    <link href="../assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
+
+    <!-- Slect2 css -->
+    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
 
     <?php
     $current_page = ['/test', '/tasks'];
@@ -94,6 +100,21 @@
 
     <!-- WYSIWYG Editor css -->
     <link href="/assets/plugins/wysiwyag/richtext.min.css" rel="stylesheet"/>
+
+    <!--Rangeslider css-->
+    <link href="/assets/plugins/rangeslider/ion.rangeSlider.css" rel="stylesheet"/>
+    <link href="/assets/plugins/rangeslider/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
+
+
+    <!-- Time picker Plugin -->
+    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
+
+    <!-- Date Picker Plugin -->
+    <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
+
+    <!--multipleselect css-->
+    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
+
 
 
 </head>

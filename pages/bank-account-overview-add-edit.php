@@ -32,10 +32,9 @@
                             <td class="text-center">6097 2684 6541 6545</td>
                             <td class="text-center">6097 2684 6541 6545</td>
                             <td class="text-center">35649643468</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -51,10 +50,9 @@
                             <td class="text-center">4654 6575 6854 9768</td>
                             <td class="text-center">4654 6575 6854 9768</td>
                             <td class="text-center">257432168</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -70,10 +68,9 @@
                             <td class="text-center">6854 6854 6352 6844</td>
                             <td class="text-center">6854 6854 6352 6844</td>
                             <td class="text-center">357435241</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -89,10 +86,9 @@
                             <td class="text-center">6545 6875 2357 9762</td>
                             <td class="text-center">6545 6875 2357 9762</td>
                             <td class="text-center">352132354</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -108,10 +104,9 @@
                             <td class="text-center">5424 6854 6874 5374</td>
                             <td class="text-center">5424 6854 6874 5374</td>
                             <td class="text-center">5435468765</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -127,10 +122,9 @@
                             <td class="text-center">6412 6854 5122 6854</td>
                             <td class="text-center">6412 6854 5122 6854</td>
                             <td class="text-center">6513216541</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -146,10 +140,9 @@
                             <td class="text-center">6548 6848 6543 6854</td>
                             <td class="text-center">6548 6848 6543 6854</td>
                             <td class="text-center">65132168451</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -165,10 +158,9 @@
                             <td class="text-center">6854 6854 6532 9842</td>
                             <td class="text-center">6854 6854 6532 9842</td>
                             <td class="text-center">6545654354</td>
-                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/bank-account-view.html"
+                                <a href="/bank-account-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>

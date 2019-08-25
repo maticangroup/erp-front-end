@@ -398,7 +398,7 @@
                 <h3 class="card-title font-weight-bold">Route Map</h3>
             </div>
             <div class="card-body">
-                <img src="../assets/images/photos/Screenshot (143).png">
+                <img src="../assets/images/photos/Screenshot (143).png" alt="map">
             </div>
         </div>
     </div>

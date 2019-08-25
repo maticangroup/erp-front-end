@@ -41,7 +41,7 @@
                             <td class="text-center">Shahrak Gharb</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -58,7 +58,7 @@
                             <td class="text-center">shapoor street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -75,7 +75,7 @@
                             <td class="text-center">Afrigha street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -92,7 +92,7 @@
                             <td class="text-center">Daneshgah street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -109,7 +109,7 @@
                             <td class="text-center">Valiasr street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -126,7 +126,7 @@
                             <td class="text-center">Bahar street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -143,7 +143,7 @@
                             <td class="text-center">Taleghani street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -160,7 +160,7 @@
                             <td class="text-center">Shariati street</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="branch-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/branch-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"

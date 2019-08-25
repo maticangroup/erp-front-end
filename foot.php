@@ -1,3 +1,6 @@
+<!--Back to top-->
+<a href="#top" id="back-to-top"><i class="fas fa-angle-up "></i></a>
+
 <!-- Dashboard js -->
 <script src="/assets/js/vendors/jquery-3.2.1.min.js"></script>
 <script src="/assets/js/vendors/jquery.sparkline.min.js"></script>
@@ -24,7 +27,6 @@
 <script src="/assets/plugins/counters/counterup.min.js"></script>
 <script src="/assets/plugins/counters/waypoints.min.js"></script>
 
-
 <!-- Sidebar js -->
 <script src="/assets/plugins/sidebar/sidebar.js"></script>
 
@@ -50,8 +52,6 @@
 
 <!--Rating js-->
 <script src="/assets/plugins/rating/jquery.rating-stars.js"></script>
-
-
 
 <!--Horizontalmenu js-->
 <script src="/assets/plugins/horizontal-menu/webslidemenu.js"></script>
@@ -127,7 +127,7 @@ if (false):?>
 <?php endif; ?>
 
 <?php
-$current_page = ['/branch-view', '/tasks'];
+$current_page = ['/', '/tasks'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
@@ -195,7 +195,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
 <?php endif; ?>
 <?php
-$current_page = ['/branch-view', '/tasks'];
+$current_page = ['/', '/tasks'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
