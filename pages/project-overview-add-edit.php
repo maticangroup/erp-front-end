@@ -204,18 +204,17 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Project Title"
-                                           class="form-control-label mr-1 font-weight-bold">Title:</label>
-                                    <input type="text" class="form-control" id="Project Title" step="0">
+                                    <label for="Title" class="form-control-label mr-1 font-weight-bold">Title:</label>
+                                    <input type="text" class="form-control" id="Title" step="0">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label class="font-weight-bold">Owner:</label>
-                                    <select multiple="multiple" class="multi-select">
-                                        <option value="1">Owner 1</option>
-                                        <option value="2">Owner 2</option>
-                                        <option value="3">Owner 3</option>
+                                    <label for="branch" class="form-control-label mr-1 font-weight-bold">Branch:</label>
+                                    <select class="form-control" id="branch">
+                                        <option>Pasdaran</option>
+                                        <option>Shariati</option>
+                                        <option>Shoosh</option>
                                     </select>
                                 </div>
                             </div>
@@ -223,10 +222,8 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Responsible Person"
-                                           class="form-control-label mr-1 font-weight-bold">Responsible
-                                        Person:</label>
-                                    <select class="form-control" id="Responsible Person">
+                                    <label for="ProductOwner" class="form-control-label mr-1 font-weight-bold">Product Owner:</label>
+                                    <select class="form-control" id="ProductOwner">
                                         <option>Nazanin Bayat</option>
                                         <option>Shadi Amini</option>
                                         <option>Shahram Sooratpanah</option>
@@ -235,37 +232,298 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Service"
-                                           class="form-control-label mr-1 font-weight-bold">Service:</label>
-                                    <select class="form-control" id="Service">
-                                        <option>Marriage ceremony</option>
-                                        <option>Wedding reception</option>
-                                        <option>Formality</option>
-                                        <option>Birthday</option>
-                                        <option>Funeral</option>
-                                        <option>Family party</option>
-                                        <option>Newborn</option>
+                                    <label for="ProjectManager" class="form-control-label mr-1 font-weight-bold">Project Manager:</label>
+                                    <select class="form-control" id="ProjectManager">
+                                        <option>Abbas Ghaderi</option>
+                                        <option>Shadi Amini</option>
+                                        <option>Shahram Sooratpanah</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12">
                                 <div class="form-group">
-                                    <label for="Budget Indication"
-                                           class="form-control-label mr-1 font-weight-bold">Budget
-                                        Indication: </label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                    <label class="font-weight-bold">Operational Team:</label>
+                                    <select multiple="multiple" class="multi-select">
+                                        <option value="1">Ali Javadi</option>
+                                        <option value="2">Mohsen Salami</option>
+                                        <option value="3">Amir Ghane</option>
+                                        <option value="4">Sahar Salimi</option>
+                                        <option value="5">Rima mahan</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-control-label mr-1 font-weight-bold">Owner:</label>
+                                    <div class="card-body p-0">
+                                        <div class="panel panel-primary">
+                                            <div class=" tab-menu-heading">
+                                                <div class="tabs-menu1 ">
+                                                    <!-- Tabs -->
+                                                    <ul class="nav panel-tabs">
+                                                        <li><a href="#tab2" data-toggle="tab" class="active text-dark">Customer</a></li>
+                                                        <li class=""><a href="#tab1" class="text-dark" data-toggle="tab">Employee</a></li>
+                                                        <li><a href="#tab3" data-toggle="tab" class="text-dark">Branch</a></li>
+                                                        <li><a href="#tab3" data-toggle="tab" class="text-dark">Companies</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body tabs-menu-body">
+                                                <div class="tab-content">
+                                                    <!--
+                                                    <div class="tab-pane active " id="tab1">
+                                                        <div id="basic info" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-link" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-user-edit" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab2">
+                                                        <div id="task time" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab3">
+                                                        <div id="descriptions" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    -->
+                                                </div>
                                             </div>
                                         </div>
-                                        <input type="number" class="form-control" id="Budget Indication"
-                                               placeholder="0 ">
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-control-label mr-1 font-weight-bold">People In Project:</label>
+                                    <div class="card-body p-0">
+                                        <div class="panel panel-primary">
+                                            <div class=" tab-menu-heading">
+                                                <div class="tabs-menu1 ">
+                                                    <!-- Tabs -->
+                                                    <ul class="nav panel-tabs">
+                                                        <li class=""><a href="#tab1" class="active text-dark" data-toggle="tab">Employees</a></li>
+                                                        <li><a href="#tab3" data-toggle="tab" class="text-dark">Units</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body tabs-menu-body">
+                                                <div class="tab-content">
+                                                    <!--
+                                                    <div class="tab-pane active " id="tab1">
+                                                        <div id="basic info" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-link" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-user-edit" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab2">
+                                                        <div id="task time" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab3">
+                                                        <div id="descriptions" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3  mb-1 ">
+                        <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="contract"
@@ -280,15 +538,25 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="Budget" class="form-control-label mr-1 font-weight-bold">Budget:</label>
+                                    <input type="text" class="form-control" id="Budget" step="0">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="Value" class="form-control-label mr-1 font-weight-bold">Value:</label>
+                                    <input type="text" class="form-control" id="Value" step="0">
+                                </div>
+                            </div>
+                    </div>
                     </div>
                     <div class="card p-3 mb-1 ">
                         <div class="row">
                             <div class="col-6">
                                 <div class="wd-200">
-                                    <label for="Start Date"
-                                           class="form-control-label mr-1 font-weight-bold">Start
-                                        Date:</label>
+                                    <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
@@ -301,9 +569,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="wd-200">
-                                    <label for="Deadline Datetime"
-                                           class="form-control-label mr-1 font-weight-bold">Deadline
-                                        Datetime:</label>
+                                    <label for="Deadline Datetime" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
@@ -318,25 +584,20 @@
                         <div class="row mt-4 mb-4">
                             <div class="col-6">
                                 <div class="wd-200">
-                                    <label for="Estimation Datetime"
-                                           class="form-control-label mr-1 font-weight-bold">Estimation
-                                        Datetime:</label>
+                                    <label for="Estimation Datetime" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
                                                 <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                             </div>
                                         </div>
-                                        <input class="form-control" id="Estimation Datetime"
-                                               type="date">
+                                        <input class="form-control" id="Estimation Datetime" type="date">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="wd-200">
-                                    <label for="Hold Date"
-                                           class="form-control-label mr-1 font-weight-bold">Hold
-                                        Date:</label>
+                                    <label for="Hold Date" class="form-control-label mr-1 font-weight-bold">Hold Date:</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
                                             <div class="input-group-text">
@@ -345,6 +606,23 @@
                                         </div>
                                         <input class="form-control" id="Hold Date" type="date">
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3  mb-1 ">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="font-weight-bold">Inform</label>
+                                    <select multiple="multiple"
+                                            class="multi-select">
+                                        <option value="1">Ali Javadi</option>
+                                        <option value="2">Mohsen Salami</option>
+                                        <option value="3">Amir Ghane</option>
+                                        <option value="4">Sahar Salimi</option>
+                                        <option value="5">Rima mahan</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -362,31 +640,28 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editmodal">Edit Project</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Project</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form method="post" autocomplete="off">
+                <form autocomplete="off">
                     <div class="card p-3  mb-1 ">
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Project Title2"
-                                           class="form-control-label mr-1 font-weight-bold">Title:
-                                    </label>
-                                    <input type="text" class="form-control" id="Project Title2"
-                                           step="0">
+                                    <label for="Title2" class="form-control-label mr-1 font-weight-bold">Title:</label>
+                                    <input type="text" class="form-control" id="Title2" step="0">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label class="font-weight-bold">Owner:</label>
-                                    <select multiple="multiple" class="multi-select">
-                                        <option value="1">Owner 1</option>
-                                        <option value="2">Owner 2</option>
-                                        <option value="3">Owner 3</option>
+                                    <label for="branch2" class="form-control-label mr-1 font-weight-bold">Branch:</label>
+                                    <select class="form-control" id="branch2">
+                                        <option>Pasdaran</option>
+                                        <option>Shariati</option>
+                                        <option>Shoosh</option>
                                     </select>
                                 </div>
                             </div>
@@ -394,10 +669,8 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Responsible Person2"
-                                           class="form-control-label mr-1 font-weight-bold">Responsible
-                                        Person:</label>
-                                    <select class="form-control" id="Responsible Person2">
+                                    <label for="ProductOwner2" class="form-control-label mr-1 font-weight-bold">Product Owner:</label>
+                                    <select class="form-control" id="ProductOwner2">
                                         <option>Nazanin Bayat</option>
                                         <option>Shadi Amini</option>
                                         <option>Shahram Sooratpanah</option>
@@ -406,48 +679,397 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="Service2"
-                                           class="form-control-label mr-1 font-weight-bold">Service:</label>
-                                    <select class="form-control" id="Service2">
-                                        <option>Marriage ceremony</option>
-                                        <option>Wedding reception</option>
-                                        <option>Formality</option>
-                                        <option>Birthday</option>
-                                        <option>Funeral</option>
-                                        <option>Family party</option>
-                                        <option>Newborn</option>
+                                    <label for="ProjectManager2" class="form-control-label mr-1 font-weight-bold">Project Manager:</label>
+                                    <select class="form-control" id="ProjectManager2">
+                                        <option>Abbas Ghaderi</option>
+                                        <option>Shadi Amini</option>
+                                        <option>Shahram Sooratpanah</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12">
                                 <div class="form-group">
-                                    <label for="Budget Indication2"
-                                           class="form-control-label mr-1 font-weight-bold">Budget
-                                        Indication: </label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                    <label class="font-weight-bold">Operational Team:</label>
+                                    <select multiple="multiple"
+                                            class="multi-select">
+                                        <option value="1">Ali Javadi</option>
+                                        <option value="2">Mohsen Salami</option>
+                                        <option value="3">Amir Ghane</option>
+                                        <option value="4">Sahar Salimi</option>
+                                        <option value="5">Rima mahan</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-control-label mr-1 font-weight-bold">Owner:</label>
+                                    <div class="card-body p-0">
+                                        <div class="panel panel-primary">
+                                            <div class=" tab-menu-heading">
+                                                <div class="tabs-menu1 ">
+                                                    <!-- Tabs -->
+                                                    <ul class="nav panel-tabs">
+                                                        <li><a href="#tab2" data-toggle="tab" class="active text-dark">Customer</a></li>
+                                                        <li class=""><a href="#tab1" class="text-dark" data-toggle="tab">Employee</a></li>
+                                                        <li><a href="#tab3" data-toggle="tab" class="text-dark">Branch</a></li>
+                                                        <li><a href="#tab3" data-toggle="tab" class="text-dark">Companies</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body tabs-menu-body">
+                                                <div class="tab-content">
+                                                    <!--
+                                                    <div class="tab-pane active " id="tab1">
+                                                        <div id="basic info" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-link" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-user-edit" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab2">
+                                                        <div id="task time" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab3">
+                                                        <div id="descriptions" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    -->
+                                                </div>
                                             </div>
                                         </div>
-                                        <input type="number" class="form-control"
-                                               id="Budget Indication2" placeholder="0 ">
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="form-control-label mr-1 font-weight-bold">People In Project:</label>
+                                    <div class="card-body p-0">
+                                        <div class="panel panel-primary">
+                                            <div class=" tab-menu-heading">
+                                                <div class="tabs-menu1 ">
+                                                    <!-- Tabs -->
+                                                    <ul class="nav panel-tabs">
+                                                        <li class=""><a href="#tab1" class="active text-dark" data-toggle="tab">Employees</a></li>
+                                                        <li><a href="#tab3" data-toggle="tab" class="text-dark">Units</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="panel-body tabs-menu-body">
+                                                <div class="tab-content">
+                                                    <!--
+                                                    <div class="tab-pane active " id="tab1">
+                                                        <div id="basic info" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-link" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-user-edit" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab2">
+                                                        <div id="task time" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane " id="tab3">
+                                                        <div id="descriptions" class="p-3 text-left">
+                                                            <div class="media-list">
+                                                                <div class="media mt-1 pb-2">
+                                                                    <div class="mediaicon">
+                                                                        <i class="fas fa-file-medical" aria-hidden="true"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-5 mt-1">
+                                                                        <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3  mb-1 ">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="contract"
+                                           class="form-control-label mr-1 font-weight-bold">Contract:</label>
+                                    <select class="form-control" id="contract">
+                                        <option>......</option>
+                                        <option>......</option>
+                                        <option>......</option>
+                                        <option>......</option>
+                                        <option>......</option>
+                                        <option>......</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label for="contract2"
-                                           class="form-control-label mr-1 font-weight-bold">Contract:</label>
-                                    <select class="form-control" id="contract2">
-                                        <option>......</option>
-                                        <option>......</option>
-                                        <option>......</option>
-                                        <option>......</option>
-                                        <option>......</option>
-                                        <option>......</option>
+                                    <label for="Budget" class="form-control-label mr-1 font-weight-bold">Budget:</label>
+                                    <input type="text" class="form-control" id="Budget" step="0">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="Value" class="form-control-label mr-1 font-weight-bold">Value:</label>
+                                    <input type="text" class="form-control" id="Value" step="0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3 mb-1 ">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="wd-200">
+                                    <label for="Start Date" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                            </div>
+                                        </div>
+                                        <input class="form-control" id="Start Date" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="wd-200">
+                                    <label for="Deadline Datetime" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                            </div>
+                                        </div>
+                                        <input class="form-control" id="Deadline Datetime" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4 mb-4">
+                            <div class="col-6">
+                                <div class="wd-200">
+                                    <label for="Estimation Datetime" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                            </div>
+                                        </div>
+                                        <input class="form-control" id="Estimation Datetime" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="wd-200">
+                                    <label for="Hold Date" class="form-control-label mr-1 font-weight-bold">Hold Date:</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                            </div>
+                                        </div>
+                                        <input class="form-control" id="Hold Date" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3  mb-1 ">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label class="font-weight-bold">Inform</label>
+                                    <select multiple="multiple"
+                                            class="multi-select">
+                                        <option value="1">Ali Javadi</option>
+                                        <option value="2">Mohsen Salami</option>
+                                        <option value="3">Amir Ghane</option>
+                                        <option value="4">Sahar Salimi</option>
+                                        <option value="5">Rima mahan</option>
                                     </select>
                                 </div>
                             </div>
@@ -456,115 +1078,21 @@
                     <div class="card p-3  mb-1 ">
                         <div class="row">
                             <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Start Date2"
-                                           class="form-control-label mr-1 font-weight-bold">Start
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="Start Date2" type="date">
-                                    </div>
+                                <div class="form-group">
+                                    <label for="Services" class="form-control-label mr-1 font-weight-bold">Services:</label>
+                                    <select class="form-control" id="Services">
+                                        <option>.....................</option>
+                                        <option>.....................</option>
+                                        <option>.....................</option>
+                                        <option>.....................</option>
+                                        <option>.....................</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Deadline Datetime2"
-                                           class="form-control-label mr-1 font-weight-bold">Deadline
-                                        Datetime:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="Deadline Datetime2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Estimation Datetime2"
-                                           class="form-control-label mr-1 font-weight-bold">Estimation
-                                        Datetime:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="Estimation Datetime2"
-                                               type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="End Date2"
-                                           class="form-control-label mr-1 font-weight-bold">End
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="End Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Hold Date2"
-                                           class="form-control-label mr-1 font-weight-bold">Hold
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="Hold Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Delivery Date2"
-                                           class="form-control-label mr-1 font-weight-bold">Delivery
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="Delivery Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4 mb-4">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Duration Time2"
-                                           class="form-control-label mr-1 font-weight-bold">Duration
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="Duration Time2" type="time">
-                                    </div>
+                                <div class="form-group">
+                                    <label for="Table" class="form-control-label mr-1 font-weight-bold">Table:</label>
+                                    <input type="text" class="form-control" id="Table" step="0">
                                 </div>
                             </div>
                         </div>
@@ -573,7 +1101,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>Save</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
     </div>
