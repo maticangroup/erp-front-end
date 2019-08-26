@@ -84,8 +84,7 @@
                                                 <i class="fas fa-hashtag" aria-hidden="true"></i>
                                             </div>
                                             <div class="media-body ml-5 mt-1">
-                                                <h6 class="mediafont text-dark mb-1">Supply Deed
-                                                    Serial</h6><span class="d-block">TD 566</span>
+                                                <h6 class="mediafont text-dark mb-1">Supply Deed Serial</h6><span class="d-block">TD 566</span>
                                             </div>
                                         </div>
                                         <div class="media mt-1 pb-2">

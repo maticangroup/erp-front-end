@@ -100,10 +100,8 @@
                         <div class="tabs-menu1 ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
-                                <li class=""><a href="#tab5" class="active font-weight-bold"
-                                                data-toggle="tab">Basic Info</a></li>
-                                <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Task
-                                        Times</a></li>
+                                <li class=""><a href="#tab5" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Task Times</a></li>
                                 <li><a href="#tab7" class="font-weight-bold" data-toggle="tab">Descriptions</a>
                                 </li>
                             </ul>
@@ -235,7 +233,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="row">
     <div id="items" class="col-xl-4 col-lg-12 col-md-12">
@@ -758,7 +755,6 @@
     </div>
 </div>
 
-
 <!--Modals-->
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -777,10 +773,8 @@
                                 <div class="tabs-menu1 ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
-                                        <li class=""><a href="#tab1" class="active font-weight-bold"
-                                                        data-toggle="tab">New Task</a></li>
-                                        <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Ready
-                                                To Use</a></li>
+                                        <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">New Task</a></li>
+                                        <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Ready To Use</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -792,16 +786,13 @@
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="form-group">
-                                                            <label for="Project Title2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Title: </label>
-                                                            <input type="text" class="form-control"
-                                                                   id="Project Title2" step="0">
+                                                            <label for="Project Title2" class="form-control-label mr-1 font-weight-bold">Title: </label>
+                                                            <input type="text" class="form-control" id="Project Title2" step="0">
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="form-group">
-                                                            <label for="Type2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Type:</label>
+                                                            <label for="Type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
                                                             <select class="form-control" id="Type2">
                                                                 <option>................</option>
                                                                 <option>................</option>
@@ -814,17 +805,13 @@
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="form-group">
-                                                            <label for="Execution Place2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Execution
-                                                                Place:</label>
-                                                            <input type="text" class="form-control "
-                                                                   id="Execution Place2">
+                                                            <label for="Execution Place2" class="form-control-label mr-1 font-weight-bold">Execution Place:</label>
+                                                            <input type="text" class="form-control " id="Execution Place2">
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="form-group">
-                                                            <label for="Priority2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Priority:</label>
+                                                            <label for="Priority2" class="form-control-label mr-1 font-weight-bold">Priority:</label>
                                                             <select class="form-control" id="Priority2">
                                                                 <option>A</option>
                                                                 <option>B</option>
@@ -837,26 +824,18 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="form-group">
-                                                            <label class="form-control-label mr-1 font-weight-bold">Related
-                                                                to:</label>
+                                                            <label class="form-control-label mr-1 font-weight-bold">Related to:</label>
                                                             <div class="card-body p-0">
                                                                 <div class="panel panel-primary">
                                                                     <div class=" tab-menu-heading">
                                                                         <div class="tabs-menu1 ">
                                                                             <!-- Tabs -->
                                                                             <ul class="nav panel-tabs">
-                                                                                <li class=""><a
-                                                                                            href="#tab1"
-                                                                                            class="active text-dark"
-                                                                                            data-toggle="tab">Project</a>
+                                                                                <li class=""><a href="#tab1" class="active text-dark" data-toggle="tab">Project</a>
                                                                                 </li>
-                                                                                <li><a href="#tab2"
-                                                                                       data-toggle="tab"
-                                                                                       class="text-dark">Deal</a>
+                                                                                <li><a href="#tab2" data-toggle="tab" class="text-dark">Deal</a>
                                                                                 </li>
-                                                                                <li><a href="#tab3"
-                                                                                       data-toggle="tab"
-                                                                                       class="text-dark">Organization</a>
+                                                                                <li><a href="#tab3" data-toggle="tab" class="text-dark">Organization</a>
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -1127,34 +1106,27 @@
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="wd-200">
-                                                            <label for="Start Date2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Start
-                                                                Date:</label>
+                                                            <label for="Start Date2" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
                                                                     <div class="input-group-text">
                                                                         <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div>
-                                                                <input class="form-control"
-                                                                       id="Start Date2" type="date">
+                                                                <input class="form-control" id="Start Date2" type="date">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="wd-200">
-                                                            <label for="Deadline Datetime2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Deadline
-                                                                Datetime:</label>
+                                                            <label for="Deadline Datetime2" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
                                                                     <div class="input-group-text">
                                                                         <i class="far fa-calendar-check  tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div>
-                                                                <input class="form-control"
-                                                                       id="Deadline Datetime2"
-                                                                       type="date">
+                                                                <input class="form-control" id="Deadline Datetime2" type="date">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1162,34 +1134,27 @@
                                                 <div class="row mt-4 mb-3">
                                                     <div class="col-6">
                                                         <div class="wd-200">
-                                                            <label for="Estimation Datetime2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Estimation
-                                                                Datetime:</label>
+                                                            <label for="Estimation Datetime2" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
                                                                     <div class="input-group-text">
                                                                         <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div>
-                                                                <input class="form-control"
-                                                                       id="Estimation Datetime2"
-                                                                       type="date">
+                                                                <input class="form-control" id="Estimation Datetime2" type="date">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="wd-200">
-                                                            <label for="End Date2"
-                                                                   class="form-control-label mr-1 font-weight-bold">End
-                                                                Date:</label>
+                                                            <label for="End Date2" class="form-control-label mr-1 font-weight-bold">End Date:</label>
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
                                                                     <div class="input-group-text">
                                                                         <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div>
-                                                                <input class="form-control"
-                                                                       id="End Date2" type="date">
+                                                                <input class="form-control" id="End Date2" type="date">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1197,33 +1162,27 @@
                                                 <div class="row mt-4 mb-3">
                                                     <div class="col-6">
                                                         <div class="wd-200">
-                                                            <label for="Duration Time2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Duration
-                                                                Time:</label>
+                                                            <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
                                                                     <div class="input-group-text">
                                                                         <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div>
-                                                                <input class="form-control"
-                                                                       id="Duration Time2" type="time">
+                                                                <input class="form-control" id="Duration Time2" type="time">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6">
                                                         <div class="wd-200">
-                                                            <label for="Delivery Date2"
-                                                                   class="form-control-label mr-1 font-weight-bold">Delivery
-                                                                Date:</label>
+                                                            <label for="Delivery Date2" class="form-control-label mr-1 font-weight-bold">Delivery Date:</label>
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
                                                                     <div class="input-group-text">
                                                                         <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div>
-                                                                <input class="form-control"
-                                                                       id="Delivery Date2" type="date">
+                                                                <input class="form-control" id="Delivery Date2" type="date">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1234,25 +1193,17 @@
                                                     <div class="col-12">
                                                         <div class="form-group">
                                                             <label class="form-label font-weight-bold">Description:</label>
-                                                            <textarea class="form-control"
-                                                                      name="example-textarea-input"
-                                                                      rows="6"
-                                                                      placeholder="text here.."></textarea>
+                                                            <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.."></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="form-group mt-1">
-                                                            <div class="form-label ml-1 font-weight-bold">
-                                                                Attachment:
-                                                            </div>
+                                                            <div class="form-label ml-1 font-weight-bold">Attachment:</div>
                                                             <div class="custom-file">
-                                                                <input type="file"
-                                                                       class="custom-file-input"
-                                                                       name="example-file-input-custom">
-                                                                <label class="custom-file-label">Choose
-                                                                    File</label>
+                                                                <input type="file" class="custom-file-input" name="example-file-input-custom">
+                                                                <label class="custom-file-label">Choose File</label>
                                                             </div>
                                                         </div>
                                                     </div>
