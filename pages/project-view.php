@@ -1254,13 +1254,23 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
+<<<<<<< HEAD
+                                    <label>Owner</label>
+                                    <select  class="multi-select">
+                                        <option value="1">Owner 1</option>
+                                        <option value="2">Owner 2</option>
+                                        <option value="3">Owner 3</option>
+=======
                                     <label for="branch2" class="form-control-label mr-1 font-weight-bold">Branch:</label>
                                     <select class="form-control" id="branch2">
                                         <option>Pasdaran</option>
                                         <option>Shariati</option>
                                         <option>Shoosh</option>
+>>>>>>> 5b300a92fa1fa1cb859823e8c47f0c7deecc013b
                                     </select>
                                 </div>
+
+
                             </div>
                         </div>
                         <div class="row">

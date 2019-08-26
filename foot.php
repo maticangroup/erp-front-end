@@ -30,6 +30,16 @@
 <!-- Sidebar js -->
 <script src="/assets/plugins/sidebar/sidebar.js"></script>
 
+
+<!--Select2 js -->
+<script src="/assets/plugins/select2/select2.full.min.js"></script>
+
+
+<!--MutipleSelect js-->
+<script src="/assets/plugins/multipleselect/multiple-select.js"></script>
+<script src="/assets/plugins/multipleselect/multi-select.js"></script>
+
+
 <!-- Custom js -->
 <script src="/assets/js/custom.js"></script>
 
@@ -42,9 +52,6 @@
 <!-- Input Mask Plugin -->
 <script src="/assets/plugins/input-mask/jquery.mask.min.js"></script>
 
-<!--MutipleSelect js-->
-<script src="/assets/plugins/multipleselect/multiple-select.js"></script>
-<script src="/assets/plugins/multipleselect/multi-select.js"></script>
 
 <!-- Timeline js -->
 <script src="/assets/plugins/timeline/timeline.min.js"></script>
@@ -92,25 +99,18 @@
 <script src="/assets/plugins/date-picker/spectrum.js"></script>
 <script src="/assets/plugins/date-picker/jquery-ui.js"></script>
 <script src="/assets/plugins/input-mask/jquery.maskedinput.js"></script>
+<?php
+$current_page = ['/letter-overview-add'];
 
-<!-- Richtext js -->
-<script src="/assets/js/richtext.js"></script>
+if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
+    <!--ckeditor js-->
+    <script src="/assets/plugins/tinymce/tinymce.min.js"></script>
 
-<!--ckeditor js-->
-<script src="/assets/plugins/tinymce/tinymce.min.js"></script>
+    <!-- Richtext js -->
+    <script src="/assets/js/richtext.js"></script>
 
-<!-- WYSIWYG Editor js -->
-<script src="/assets/plugins/wysiwyag/jquery.richtext.js"></script>
-<script src="/assets/plugins/wysiwyag/richText1.js"></script>
+<?php endif; ?>
 
-<!--Accordion-Wizard-Form js-->
-<script src="/assets/plugins/accordion-Wizard-Form/jquery.accordion-wizard.min.js"></script>
-<script src="/assets/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
-<script src="/assets/js/wizard.js"></script>
-
-<!--Rang slider js-->
-<script src="/assets/plugins/rangeslider/ion.rangeSlider.js"></script>
-<script src="/assets/js/rangeslider.js"></script>
 <?php
 
 if (false):?>
@@ -195,7 +195,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
 <?php endif; ?>
 <?php
-$current_page = ['/', '/tasks'];
+$current_page = ['/ad', '/tasks'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
@@ -217,7 +217,6 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/plugins/chartist/chartist-plugin-tooltip.js"></script>
 
 
-
     <!--Highcharts Plugin -->
     <script src="/assets/plugins/highcharts/highcharts.js"></script>
     <script src="/assets/plugins/highcharts/highcharts-3d.js"></script>
@@ -232,7 +231,6 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/js/chart.js"></script>
 
 
-
 <?php endif; ?>
 
 <?php
@@ -243,6 +241,24 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/plugins/sweet-alert/sweetalert.min.js"></script>
     <script src="/assets/js/sweet-alert.js"></script>
 
+<?php endif; ?>
+<?php
+$current_page = ['/mmm'];
+if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
+
+
+    <!-- WYSIWYG Editor js -->
+    <script src="/assets/plugins/wysiwyag/jquery.richtext.js"></script>
+    <script src="/assets/plugins/wysiwyag/richText1.js"></script>
+
+    <!--Accordion-Wizard-Form js-->
+    <script src="/assets/plugins/accordion-Wizard-Form/jquery.accordion-wizard.min.js"></script>
+    <script src="/assets/plugins/bootstrap-wizard/jquery.bootstrap.wizard.js"></script>
+    <script src="/assets/js/wizard.js"></script>
+
+    <!--Rang slider js-->
+    <script src="/assets/plugins/rangeslider/ion.rangeSlider.js"></script>
+    <script src="/assets/js/rangeslider.js"></script>
 <?php endif; ?>
 
 

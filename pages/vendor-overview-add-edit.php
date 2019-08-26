@@ -49,7 +49,7 @@
                             <td class="text-center"><span class="status-icon bg-warning"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="vendor-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/vendor-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -73,7 +73,7 @@
                             <td class="text-center"><span class="status-icon bg-warning"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="vendor-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/vendor-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -97,7 +97,7 @@
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="vendor-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/vendor-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -121,7 +121,7 @@
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="vendor-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/vendor-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -145,7 +145,7 @@
                             <td class="text-center"><span class="status-icon bg-warning"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="vendor-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/vendor-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"

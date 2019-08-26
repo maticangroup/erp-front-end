@@ -47,7 +47,7 @@
                             <td class="text-center">Seen</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="letter-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/letter-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
@@ -62,7 +62,7 @@
                             <td class="text-center">Delivered</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="letter-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/letter-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
@@ -77,7 +77,7 @@
                             <td class="text-center">Answered</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="letter-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/letter-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
@@ -92,7 +92,7 @@
                             <td class="text-center">Seen</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="letter-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/letter-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
@@ -107,7 +107,7 @@
                             <td class="text-center">Delivered</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="letter-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/letter-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>

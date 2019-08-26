@@ -53,7 +53,12 @@
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -76,7 +81,12 @@
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -99,7 +109,12 @@
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -122,7 +137,12 @@
                             <td class="text-center">Completed</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -145,7 +165,12 @@
                             <td class="text-center">Completed</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -168,7 +193,12 @@
                             <td class="text-center">On going</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -191,7 +221,12 @@
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -214,7 +249,12 @@
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
+<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+=======
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                            class="fas fa-eye"></i> View</a>
+>>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>

@@ -46,7 +46,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="inventory-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -67,7 +67,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="inventory-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -88,7 +88,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="inventory-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -109,7 +109,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="inventory-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -130,7 +130,7 @@
                             </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="inventory-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
