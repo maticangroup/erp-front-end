@@ -376,7 +376,7 @@
                 <div class="card-header">
                     <div class="card-title font-weight-bold">Project Items</div>
                 </div>
-                <div class="card-body pb-8 pt-8">
+                <div class="card-body ">
                     <div id="demo2" class="showcase">
                         <div id="content-5" class="horizontal-images light">
                             <ul>
