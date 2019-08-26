@@ -50,7 +50,7 @@
                             <td>Done</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -69,7 +69,7 @@
                             <td>Undone</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -88,7 +88,7 @@
                             <td>Done</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -107,7 +107,7 @@
                             <td>Undone</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -126,7 +126,7 @@
                             <td>Done</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -145,7 +145,7 @@
                             <td>Undone</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -164,7 +164,7 @@
                             <td>Done</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
@@ -183,7 +183,7 @@
                             <td>Undone</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="../pages/meeting-view.php"
+                                <a href="/meeting-view"
                                    class="btn btn-dark btn-sm"><i class="si si-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>

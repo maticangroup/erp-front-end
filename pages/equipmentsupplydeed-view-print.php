@@ -737,7 +737,7 @@
                                                 <td>Zone 1, Shelf 4</td>
                                                 <td>
                                                     <a class="icon" href="javascript:void(0)"></a>
-                                                    <a href="inventory-view.html"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
+                                                    <a href="/inventory-view"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -746,7 +746,7 @@
                                                 <td>Zone 1, Shelf 4</td>
                                                 <td>
                                                     <a class="icon" href="javascript:void(0)"></a>
-                                                    <a href="inventory-view.html"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
+                                                    <a href="/inventory-view"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -755,7 +755,7 @@
                                                 <td>Zone 1, Shelf 4</td>
                                                 <td>
                                                     <a class="icon" href="javascript:void(0)"></a>
-                                                    <a href="inventory-view.html"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
+                                                    <a href="/inventory-view"  class="btn btn-outline-secondary btn-sm"><i class="fas fa-check"></i> Select</a>
                                                 </td>
                                             </tr>
                                             </tbody>

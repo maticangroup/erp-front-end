@@ -1023,11 +1023,11 @@
                                                             <td>
                                                                 <<<<<<< HEAD
                                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                                <a href="inventory-view.html"
+                                                                <a href="/inventory-view"
                                                                    class="btn btn-outline-secondary btn-sm"><i
                                                                             class="fas fa-check"></i> Select</a>
                                                                 =======
-                                                                <button href="inventory-view.html"
+                                                                <button href="/inventory-view"
                                                                         class="btn-pill btn-outline-secondary btn-sm">
                                                                     Select
                                                                 </button>
@@ -1041,11 +1041,11 @@
                                                             <td>
                                                                 <<<<<<< HEAD
                                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                                <a href="inventory-view.html"
+                                                                <a href="/inventory-view"
                                                                    class="btn btn-outline-secondary btn-sm"><i
                                                                             class="fas fa-check"></i> Select</a>
                                                                 =======
-                                                                <button href="inventory-view.html"
+                                                                <button href="/inventory-view"
                                                                         class="btn-pill btn-outline-secondary btn-sm">
                                                                     Select
                                                                 </button>
@@ -1059,14 +1059,14 @@
                                                             <td>Zone 1, Shelf 4</td>
                                                             <td>
                                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                                <a href="inventory-view.html"
+                                                                <a href="/inventory-view"
                                                                    class="btn btn-outline-secondary btn-sm"><i
                                                                             class="fas fa-check"></i> Select</a>
                                                                 =======
                                                             <td>Tripod stand F50</td>
                                                             <td>Ready to use</td>
                                                             <td>
-                                                                <button href="inventory-view.html"
+                                                                <button href="/inventory-view"
                                                                         class="btn-pill btn-outline-secondary btn-sm">
                                                                     Select
                                                                 </button>

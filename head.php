@@ -19,6 +19,10 @@
     <title>Farima Atelier</title>
 
 
+    <!-- select2 Plugin -->
+    <link href="/assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+
     <!--Bootstrap.min css-->
     <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
 
@@ -45,12 +49,10 @@
     <link href="/assets/plugins/sidebar/sidebar.css" rel="stylesheet">
 
     <!-- Data table css -->
-    <link href="../assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="../assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
-    <link href="../assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
+    <link href="/assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
+    <link href="/assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
 
-    <!-- Slect2 css -->
-    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
 
 
     <?php
@@ -113,7 +115,7 @@
     <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
 
     <!--multipleselect css-->
-    <link rel="stylesheet" href="../assets/plugins/multipleselect/multiple-select.css">
+    <link rel="stylesheet" href="/assets/plugins/multipleselect/multiple-select.css">
 
 
 

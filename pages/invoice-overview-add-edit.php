@@ -48,7 +48,7 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="invoice-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -69,7 +69,7 @@
                             <td class="text-center">Valiasr</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="invoice-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -90,7 +90,7 @@
                             <td class="text-center">Velenjak</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="invoice-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -111,7 +111,7 @@
                             <td class="text-center">Valiasr</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="invoice-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -132,7 +132,7 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="invoice-view.html" class="btn btn-dark btn-sm"><i
+                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"

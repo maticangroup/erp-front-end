@@ -44,7 +44,7 @@
                             <td class="text-center">$4,087</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -62,7 +62,7 @@
                             <td class="text-center">$9,087</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -80,7 +80,7 @@
                             <td class="text-center">$11,050</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -98,7 +98,7 @@
                             <td class="text-center">$3,220</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -116,7 +116,7 @@
                             <td class="text-center">$10,800</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -134,7 +134,7 @@
                             <td class="text-center">$6,320</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -152,7 +152,7 @@
                             <td class="text-center">$12,050</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -170,7 +170,7 @@
                             <td class="text-center">$1,150</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="project-view.php" class="btn btn-dark btn-sm"><i
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i
                                             class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"

@@ -1249,19 +1249,15 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <label class="form-label font-weight-bold">Owner:</label>
-                                    <select class="form-control select2" data-placeholder="Choose Owner" multiple>
-                                        <option value="Owner1">
-                                            Owner1
-                                        </option>
-                                        <option value="Owner2 ">
-                                            Owner2
-                                        </option>
-                                        <option value="Owner3">
-                                            Owner3
-                                        </option>
+                                    <label>Owner</label>
+                                    <select  class="multi-select">
+                                        <option value="1">Owner 1</option>
+                                        <option value="2">Owner 2</option>
+                                        <option value="3">Owner 3</option>
                                     </select>
                                 </div>
+
+
                             </div>
                         </div>
                         <div class="row">
