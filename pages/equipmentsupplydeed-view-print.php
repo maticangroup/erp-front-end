@@ -347,14 +347,9 @@
                                                 <div class="tabs-menu1 ">
                                                     <!-- Tabs -->
                                                     <ul class="nav panel-tabs">
-                                                        <li class=""><a href="#tab1-1"
-                                                                        class="active text-dark"
-                                                                        data-toggle="tab">Project</a>
-                                                        </li>
-                                                        <li><a href="#tab2-2" data-toggle="tab"
-                                                               class="text-dark">Deal</a></li>
-                                                        <li><a href="#tab3-3" data-toggle="tab"
-                                                               class="text-dark">Organization</a></li>
+                                                        <li class=""><a href="#tab1-1" class="active text-dark" data-toggle="tab">Project</a></li>
+                                                        <li><a href="#tab2-2" data-toggle="tab" class="text-dark">Deal</a></li>
+                                                        <li><a href="#tab3-3" data-toggle="tab" class="text-dark">Organization</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
