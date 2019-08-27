@@ -20,7 +20,7 @@
 
 
     <!-- select2 Plugin -->
-    <link href="/assets/plugins/select2/select2.min.css" rel="stylesheet" />
+    <link href="/assets/plugins/select2/select2.min.css" rel="stylesheet"/>
 
 
     <!--Bootstrap.min css-->
@@ -52,7 +52,6 @@
     <link href="/assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
     <link href="/assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
-
 
 
     <?php
@@ -109,14 +108,24 @@
 
 
     <!-- Time picker Plugin -->
-    <link href="/assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
+    <link href="/assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet"/>
 
     <!-- Date Picker Plugin -->
-    <link href="/assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
+    <link href="/assets/plugins/date-picker/spectrum.css" rel="stylesheet"/>
 
     <!--multipleselect css-->
     <link rel="stylesheet" href="/assets/plugins/multipleselect/multiple-select.css">
 
+    <style>
+        .page-title {
+            color: white !important;
+        }
 
+        .side-app {
+
+            padding-top: 58px !important;
+
+        }
+    </style>
 
 </head>
