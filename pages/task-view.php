@@ -760,495 +760,432 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-2">Edit Task</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Task</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="panel panel-primary">
-                            <div class=" tab-menu-heading">
-                                <div class="tabs-menu1 ">
-                                    <!-- Tabs -->
-                                    <ul class="nav panel-tabs">
-                                        <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">New Task</a></li>
-                                        <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Ready To Use</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="panel-body tabs-menu-body">
-                                <div class="tab-content">
-                                    <div class="tab-pane active " id="tab1">
-                                        <form autocomplete="off">
-                                            <div class="card p-3  mb-1 ">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Project Title2" class="form-control-label mr-1 font-weight-bold">Title: </label>
-                                                            <input type="text" class="form-control" id="Project Title2" step="0">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                                            <select class="form-control" id="Type2">
-                                                                <option>................</option>
-                                                                <option>................</option>
-                                                                <option>................</option>
-                                                                <option>................</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Execution Place2" class="form-control-label mr-1 font-weight-bold">Execution Place:</label>
-                                                            <input type="text" class="form-control " id="Execution Place2">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label for="Priority2" class="form-control-label mr-1 font-weight-bold">Priority:</label>
-                                                            <select class="form-control" id="Priority2">
-                                                                <option>A</option>
-                                                                <option>B</option>
-                                                                <option>C</option>
-                                                                <option>D</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label mr-1 font-weight-bold">Related to:</label>
-                                                            <div class="card-body p-0">
-                                                                <div class="panel panel-primary">
-                                                                    <div class=" tab-menu-heading">
-                                                                        <div class="tabs-menu1 ">
-                                                                            <!-- Tabs -->
-                                                                            <ul class="nav panel-tabs">
-                                                                                <li class=""><a href="#tab1" class="active text-dark" data-toggle="tab">Project</a>
-                                                                                </li>
-                                                                                <li><a href="#tab2" data-toggle="tab" class="text-dark">Deal</a>
-                                                                                </li>
-                                                                                <li><a href="#tab3" data-toggle="tab" class="text-dark">Organization</a>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="panel-body tabs-menu-body">
-                                                                        <div class="tab-content">
-                                                                            <!--
-                                                                            <div class="tab-pane active " id="tab1">
-                                                                                <div id="basic info" class="p-3 text-left">
-                                                                                    <div class="media-list">
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-hashtag" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-link" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-user-edit" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-shield-alt" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-file-alt" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tab-pane " id="tab2">
-                                                                                <div id="task time" class="p-3 text-left">
-                                                                                    <div class="media-list">
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="far fa-calendar" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-clock" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="far fa-calendar" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-clock" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="far fa-calendar-check" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tab-pane " id="tab3">
-                                                                                <div id="descriptions" class="p-3 text-left">
-                                                                                    <div class="media-list">
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-file-medical" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            -->
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label mr-1 font-weight-bold">Owner:</label>
-                                                            <div class="card-body p-0">
-                                                                <div class="panel panel-primary">
-                                                                    <div class=" tab-menu-heading">
-                                                                        <div class="tabs-menu1 ">
-                                                                            <!-- Tabs -->
-                                                                            <ul class="nav panel-tabs">
-                                                                                <li class=""><a
-                                                                                            href="#tab1"
-                                                                                            class="active text-dark"
-                                                                                            data-toggle="tab">Employee</a>
-                                                                                </li>
-                                                                                <li><a href="#tab2"
-                                                                                       data-toggle="tab"
-                                                                                       class="text-dark">Operation
-                                                                                        Team</a></li>
-                                                                                <li><a href="#tab3"
-                                                                                       data-toggle="tab"
-                                                                                       class="text-dark">Unit</a>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="panel-body tabs-menu-body">
-                                                                        <div class="tab-content">
-                                                                            <!--
-                                                                            <div class="tab-pane active " id="tab1">
-                                                                                <div id="basic info" class="p-3 text-left">
-                                                                                    <div class="media-list">
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-hashtag" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Title</h6><span class="d-block">Coordination Meeting</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-link" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Related To</h6><span class="d-block">Project</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-user-edit" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Requester</h6><span class="d-block">Nazanin Bayat</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-shield-alt" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Owner</h6><span class="d-block">Operational Team</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-file-alt" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Execution Place</h6><span class="d-block">Majnon Reception Hall</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tab-pane " id="tab2">
-                                                                                <div id="task time" class="p-3 text-left">
-                                                                                    <div class="media-list">
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="far fa-calendar" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Start Date</h6><span class="d-block">07 October 2019</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-clock" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Start Time</h6><span class="d-block">09:00 AM</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="far fa-calendar" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">End Date</h6><span class="d-block">07 October 2019</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-clock" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">End Time</h6><span class="d-block">10:45 AM</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="far fa-calendar-check" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Deadline Date</h6><span class="d-block">12 February 2020</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tab-pane " id="tab3">
-                                                                                <div id="descriptions" class="p-3 text-left">
-                                                                                    <div class="media-list">
-                                                                                        <div class="media mt-1 pb-2">
-                                                                                            <div class="mediaicon">
-                                                                                                <i class="fas fa-file-medical" aria-hidden="true"></i>
-                                                                                            </div>
-                                                                                            <div class="media-body ml-5 mt-1">
-                                                                                                <h6 class="mediafont text-dark mb-1">Descriptions</h6><span class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            -->
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="card p-3 mb-1 ">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label for="Start Date2" class="form-control-label mr-1 font-weight-bold">Start Date:</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">
-                                                                        <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <input class="form-control" id="Start Date2" type="date">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label for="Deadline Datetime2" class="form-control-label mr-1 font-weight-bold">Deadline Datetime:</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">
-                                                                        <i class="far fa-calendar-check  tx-16 lh-0 op-6"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <input class="form-control" id="Deadline Datetime2" type="date">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-4 mb-3">
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label for="Estimation Datetime2" class="form-control-label mr-1 font-weight-bold">Estimation Datetime:</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">
-                                                                        <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <input class="form-control" id="Estimation Datetime2" type="date">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label for="End Date2" class="form-control-label mr-1 font-weight-bold">End Date:</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">
-                                                                        <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <input class="form-control" id="End Date2" type="date">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-4 mb-3">
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label for="Duration Time2" class="form-control-label mr-1 font-weight-bold">Duration Time:</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">
-                                                                        <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <input class="form-control" id="Duration Time2" type="time">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label for="Delivery Date2" class="form-control-label mr-1 font-weight-bold">Delivery Date:</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">
-                                                                        <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                                                    </div>
-                                                                </div>
-                                                                <input class="form-control" id="Delivery Date2" type="date">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card p-3 mb-1">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group">
-                                                            <label class="form-label font-weight-bold">Description:</label>
-                                                            <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.."></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group mt-1">
-                                                            <div class="form-label ml-1 font-weight-bold">Attachment:</div>
-                                                            <div class="custom-file">
-                                                                <input type="file" class="custom-file-input" name="example-file-input-custom">
-                                                                <label class="custom-file-label">Choose File</label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card p-3  mb-1 ">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group">
-                                                            <label class="font-weight-bold">Inform</label>
-                                                            <select multiple="multiple"
-                                                                    class="multi-select">
-                                                                <option value="1">Ali Javadi</option>
-                                                                <option value="2">Mohsen Salami</option>
-                                                                <option value="3">Amir Ghane</option>
-                                                                <option value="4">Sahar Salimi</option>
-                                                                <option value="5">Rima mahan</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="tab-menu-heading border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1-1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2-2-2" class="font-weight-bold"  data-toggle="tab">Timing</a></li>
+                                            <li><a href="#tab3-3-3" class="font-weight-bold"  data-toggle="tab">Execution Place</a></li>
+                                            <li><a href="#tab4-4-4" class="font-weight-bold"  data-toggle="tab">Relation</a></li>
+                                            <li><a href="#tab5-5-5" class="font-weight-bold"  data-toggle="tab">Requirements</a></li>
+                                            <li><a href="#tab6-6-6" class="font-weight-bold"  data-toggle="tab">Notification</a></li>
+                                        </ul>
                                     </div>
-                                    <div class="tab-pane " id="tab2">
-                                        <!--
-                                        .
-                                        .
-                                        tab2 content
-                                        .
-                                        .
-                                        -->
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1-1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="title">Title :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title" name="title" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="Priority">Priority :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control" id="Priority">
+                                                                    <option>High</option>
+                                                                    <option>Medium</option>
+                                                                    <option>Low</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="branch">Branch :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control" id="branch">
+                                                                    <option>Pasdaran</option>
+                                                                    <option>Shariati</option>
+                                                                    <option>Shoosh</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="Owner">Owner :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0" data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Customer</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search " data-placeholder="Choose one">
+                                                                                    <option value="p1">project 1</option>
+                                                                                    <option value="p2">project 2</option>
+                                                                                    <option value="p3">project 3</option>
+                                                                                    <option value="p4">project 4</option>
+                                                                                    <option value="p5">project 5</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Employee</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Branch</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 4 -->
+                                                                    <li>
+                                                                        <div><h3>Companies</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab2-2-2">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="FromDate">From Date :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker" id="FromDate" placeholder="MM/DD/YYYY" type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="DeadlineDate">Deadline Date :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar-check tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required" id="DeadlineDate" name="DeadlineDate" type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="FromTime">From Time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required" id="FromTime" name="FromTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="toTime">To Time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required" id="toTime" name="toTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="EstimationTime">Estimation Time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required" id="EstimationTime" name="EstimationTime" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab3-3-3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="Address">Address :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-map-signs tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker" id="Address" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="Location">Location :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-map-marker-alt tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker" id="Location" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab4-4-4">
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="relation">Related To :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0" data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search " id="relation" data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1</option>
+                                                                                    <option value="p2">Deal 2</option>
+                                                                                    <option value="p3">Deal 3</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab5-5-5">
+                                            <div class="row ">
+                                                <div class="col-12">
+                                                    <div class="form-group  clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" >Bloker :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option></option>
+                                                                    <option></option>
+                                                                    <option></option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" >Equipment Category :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control select2-show-search" data-placeholder="Choose one (with optgroup)">
+                                                                    <option >Digital</option>
+                                                                    <option >Electronic</option>
+                                                                    <option >Foodstuffs</option>
+                                                                    <option >Paper & Cardboard</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-5">
+                                                        <div class="col-md-12 col-lg-12">
+                                                            <div class="table-responsive ">
+                                                                <table class="table card-table table-vcenter text-nowrap table-primary border" >
+                                                                    <thead class="bg-primary text-white">
+                                                                    <tr>
+                                                                        <th class="text-white">ID</th>
+                                                                        <th class="text-white">Name</th>
+                                                                        <th class="text-white">Status</th>
+                                                                        <th class="text-white"></th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <th scope="row">1</th>
+                                                                        <td>Heli shot NI370</td>
+                                                                        <td>Intact</td>
+                                                                        <td>
+                                                                            <button href="#" class="btn-pill btn-outline-secondary btn-sm">Select</button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row">2</th>
+                                                                        <td>Camera Nikon D3400</td>
+                                                                        <td>Destroyed</td>
+                                                                        <td>
+                                                                            <button href="#" class="btn-pill btn-outline-secondary btn-sm">Select</button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row">3</th>
+                                                                        <td>Tripod stand F50</td>
+                                                                        <td>Ready to use</td>
+                                                                        <td>
+                                                                            <button href="#" class="btn-pill btn-outline-secondary btn-sm">Select</button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix mt-5">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" >File Attachment :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="custom-file">
+                                                                    <input type="file" class="custom-file-input" name="example-file-input-custom">
+                                                                    <label class="custom-file-label">Choose file</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab6-6-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="Inform">Inform :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select" id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save &
-                    Scheduling
-                </button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
     </div>

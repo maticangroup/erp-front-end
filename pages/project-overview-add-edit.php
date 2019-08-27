@@ -1,3 +1,4 @@
+
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
@@ -254,7 +255,7 @@
                                                 <li><a href="#tab3" class="font-weight-bold"  data-toggle="tab">Financial</a></li>
                                                 <li><a href="#tab4" class="font-weight-bold"  data-toggle="tab">Timing</a></li>
                                                 <li><a href="#tab5" class="font-weight-bold"  data-toggle="tab">Services</a></li>
-                                                <li><a href="#tab6" class="font-weight-bold"  data-toggle="tab">Inform</a></li>
+                                                <li><a href="#tab6" class="font-weight-bold"  data-toggle="tab">Notification</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -689,7 +690,7 @@
                                             <li><a href="#tab3-3" class="font-weight-bold"  data-toggle="tab">Financial</a></li>
                                             <li><a href="#tab4-4" class="font-weight-bold"  data-toggle="tab">Timing</a></li>
                                             <li><a href="#tab5-5" class="font-weight-bold"  data-toggle="tab">Services</a></li>
-                                            <li><a href="#tab6-6" class="font-weight-bold"  data-toggle="tab">Inform</a></li>
+                                            <li><a href="#tab6-6" class="font-weight-bold"  data-toggle="tab">Notification</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -943,7 +944,7 @@
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control fc-datepicker" id="StartDate" placeholder="MM/DD/YYYY" type="text">
+                                                                    <input class="form-control required" id="StartDate" name="StartDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1018,11 +1019,11 @@
                                                                     <tr>
                                                                         <th scope="row">Service One</th>
                                                                         <td class="text-center">
-                                                                            <button href="inventory-view.html" class=" btn-pill btn-outline-secondary btn-sm">Select</button>
+                                                                            <button href="#" class=" btn-pill btn-outline-secondary btn-sm">Select</button>
                                                                         </td>
                                                                         <td>
-                                                                            <div class="form-group text-center">
-                                                                                <label class="custom-switch">
+                                                                            <div class="form-group text-center ">
+                                                                                <label class="custom-switch  ">
                                                                                     <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
@@ -1032,7 +1033,7 @@
                                                                     <tr>
                                                                         <th scope="row">Service Two</th>
                                                                         <td class="text-center">
-                                                                            <button href="inventory-view.html" class=" btn-pill btn-outline-secondary btn-sm">Select</button>
+                                                                            <button href="#" class=" btn-pill btn-outline-secondary btn-sm">Select</button>
                                                                         </td>
                                                                         <td class="text-center">
                                                                             <div class="form-group">
@@ -1046,7 +1047,7 @@
                                                                     <tr>
                                                                         <th scope="row">Service Three</th>
                                                                         <td class="text-center">
-                                                                            <button href="inventory-view.html" class=" btn-pill btn-outline-secondary btn-sm">Select</button>
+                                                                            <button href="#" class=" btn-pill btn-outline-secondary btn-sm">Select</button>
                                                                         </td>
                                                                         <td class="text-center">
                                                                             <div class="form-group">

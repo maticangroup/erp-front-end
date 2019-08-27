@@ -124,6 +124,9 @@ if (false):?>
     <script src="/assets/js/index2.js"></script>
     <script src="/assets/js/index3.js"></script>
 
+    <!-- Inline js -->
+    <script src="/assets/js/select2.js"></script>
+
 <?php endif; ?>
 
 <?php
@@ -261,8 +264,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/js/rangeslider.js"></script>
 <?php endif; ?>
 
-<!-- Inline js -->
-<script src="/assets/js/select2.js"></script>
+
 
 </body>
 
