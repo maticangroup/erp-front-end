@@ -127,7 +127,7 @@ if (false):?>
 <?php endif; ?>
 
 <?php
-$current_page = ['/', '/tasks'];
+$current_page = ['/meeting-overview'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
@@ -136,14 +136,14 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/plugins/maps-google/jquery.googlemap.js"></script>
     <script src="/assets/plugins/maps-google/map.js"></script>
     <!-- Vector Map js-->
-    <script src="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="/assets/plugins/jvectormap/gdp-data.js"></script>
-    <script src="/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
-    <script src="/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js"></script>
-    <script src="/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js"></script>
-    <script src="/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js"></script>
-    <script src="/assets/js/jvectormap.js"></script>
+<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>-->
+<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>-->
+<!--    <script src="/assets/plugins/jvectormap/gdp-data.js"></script>-->
+<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>-->
+<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js"></script>-->
+<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js"></script>-->
+<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js"></script>-->
+<!--    <script src="/assets/js/jvectormap.js"></script>-->
 
 <?php endif; ?>
 
