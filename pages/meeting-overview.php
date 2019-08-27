@@ -496,13 +496,112 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab4">
-
+                                            <div class="form-group clearfix">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="Descriptions">Address :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="4"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="Descriptions">Location :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="map-header">
+                                                            <div class="map-header-layer" id="map2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-pane" id="tab5">
 
                                         </div>
                                         <div class="tab-pane" id="tab6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Inform :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label class="form-label">Notifying :</label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group m-0">
 
+                                                                <div class="row gutters-xs">
+                                                                    <div class="col-5">
+                                                                        <select multiple="multiple"
+                                                                                class="multi-select">
+                                                                            <option value="1">Notification</option>
+                                                                            <option value="2">SMS</option>
+                                                                            <option value="3">Email</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <select name="user[day]"
+                                                                                class="form-control custom-select">
+                                                                            <option value="1">Minutes</option>
+                                                                            <option value="2">Hour</option>
+                                                                            <option value="3">Day</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <select name="user[year]"
+                                                                                class="form-control custom-select">
+                                                                            <option value="15">15</option>
+                                                                            <option value="30">30</option>
+                                                                            <option value="45">45</option>
+                                                                            <option value="60">60</option>
+                                                                            <option value="120">120</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mt-3">
+                                                                    <div class="col-4"></div>
+                                                                    <div class="col-4"></div>
+                                                                    <div class="col-4">
+                                                                        <button type="button"
+                                                                                class="btn btn-outline-primary mr-auto"
+                                                                                data-toggle="modal"
+                                                                                data-target="#exampleModal3">Add
+                                                                            Notification
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -547,10 +646,13 @@
                                             </li>
                                             <li><a href="#tab4-4" class="font-weight-bold" data-toggle="tab">place</a>
                                             </li>
-                                            <li><a href="#tab5-5" class="font-weight-bold" data-toggle="tab">relation</a>
+                                            <li><a href="#tab5-5" class="font-weight-bold"
+                                                   data-toggle="tab">relation</a>
                                             </li>
                                             <li><a href="#tab6-6" class="font-weight-bold"
-                                                   data-toggle="tab">notification</a></li>
+                                                   data-toggle="tab">Notification</a></li>
+                                            <li><a href="#tab7-7" class="font-weight-bold"
+                                                   data-toggle="tab">Cancelation</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -646,7 +748,8 @@
                                                                         <div><h3>Customers</h3></div>
                                                                         <div>
                                                                             <p>
-                                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quia!
+                                                                                Lorem ipsum dolor sit amet, consectetur
+                                                                                adipisicing elit. Labore, quia!
                                                                             </p>
                                                                         </div>
                                                                     </li>
@@ -655,9 +758,10 @@
                                                                         <div><h3>Branch</h3></div>
                                                                         <div>
 
-                                                                                <p>
-                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, quia!
-                                                                                </p>
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet, consectetur
+                                                                                adipisicing elit. Labore, quia!
+                                                                            </p>
 
                                                                         </div>
                                                                     </li>
@@ -727,11 +831,11 @@
                                         <div class="tab-pane" id="tab3-3">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="form-group clearfix mt-3">
+                                                    <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="StartDate">Date :</label>
+                                                                       for="HoldDate">Date :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -740,13 +844,13 @@
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control fc-datepicker"
-                                                                           id="StartDate" placeholder="MM/DD/YYYY"
-                                                                           type="text">
+                                                                    <input class="form-control required" id="HoldDate"
+                                                                           name="HoldDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
@@ -796,13 +900,139 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab4-4">
-
+                                            <div class="form-group clearfix">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="Descriptions">Address :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="4"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="Descriptions">Location :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="map-header">
+                                                            <div class="map-header-layer" id="map2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-pane" id="tab5-5">
 
                                         </div>
                                         <div class="tab-pane" id="tab6-6">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Inform :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label class="form-label">Notifying :</label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group m-0">
 
+                                                                <div class="row gutters-xs">
+                                                                    <div class="col-5">
+                                                                        <select multiple="multiple"
+                                                                                class="multi-select">
+                                                                            <option value="1">Notification</option>
+                                                                            <option value="2">SMS</option>
+                                                                            <option value="3">Email</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <select name="user[day]"
+                                                                                class="form-control custom-select">
+                                                                            <option value="1">Minutes</option>
+                                                                            <option value="2">Hour</option>
+                                                                            <option value="3">Day</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <select name="user[year]"
+                                                                                class="form-control custom-select">
+                                                                            <option value="15">15</option>
+                                                                            <option value="30">30</option>
+                                                                            <option value="45">45</option>
+                                                                            <option value="60">60</option>
+                                                                            <option value="120">120</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mt-3">
+                                                                    <div class="col-4"></div>
+                                                                    <div class="col-4"></div>
+                                                                    <div class="col-4">
+                                                                        <button type="button"
+                                                                                class="btn btn-outline-primary mr-auto"
+                                                                                data-toggle="modal"
+                                                                                data-target="#exampleModal3">Add
+                                                                            Notification
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab7-7">
+                                            <div class="row ">
+                                                <div class="col-lg-3">
+                                                    <label class="control-label form-label font-weight-bold"
+                                                           for="Descriptions">Reason :</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <textarea class="form-control"
+                                                              name="example-textarea-input" rows="6"
+                                                              placeholder="text here.."
+                                                              id="Descriptions"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-3">
+                                                <div class="col-lg-6">Inform all the attendant's involved :</div>
+                                                <div class="col-lg-3">
+                                                    <div class="form-group text-center">
+                                                        <label class="custom-switch">
+                                                            <input type="checkbox" name="custom-switch-checkbox"
+                                                                   class="custom-switch-input">
+                                                            <span class="custom-switch-indicator"></span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
