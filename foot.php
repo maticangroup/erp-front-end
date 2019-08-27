@@ -88,8 +88,11 @@
 <!-- Data table js -->
 <script src="/assets/js/datatable.js"></script>
 
-<!--Datepicker Js-->
-<script src="/assets/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<!-- Datepicker js -->
+<script src="/assets/plugins/date-picker/spectrum.js"></script>
+<script src="/assets/plugins/date-picker/jquery-ui.js"></script>
+<script src="/assets/plugins/input-mask/jquery.maskedinput.js"></script>
+
 
 <!-- Timepicker js -->
 <script src="/assets/plugins/time-picker/jquery.timepicker.js"></script>
@@ -120,9 +123,6 @@ if (false):?>
     <!-- Scripts -->
     <script src="/assets/js/index2.js"></script>
     <script src="/assets/js/index3.js"></script>
-
-    <!-- Inline js -->
-    <script src="/assets/js/select2.js"></script>
 
 <?php endif; ?>
 
@@ -261,6 +261,8 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/js/rangeslider.js"></script>
 <?php endif; ?>
 
+<!-- Inline js -->
+<script src="/assets/js/select2.js"></script>
 
 </body>
 

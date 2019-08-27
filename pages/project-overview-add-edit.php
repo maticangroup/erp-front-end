@@ -46,19 +46,14 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-95 font-weight-bold ">95%
+                                    <div class="progress-bar bg-info w-95 font-weight-bold ">95%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -74,19 +69,14 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-35 font-weight-bold ">35%
+                                    <div class="progress-bar bg-info w-35 font-weight-bold ">35%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -102,19 +92,14 @@
                             <td class="text-center">Valiasr</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-40 font-weight-bold ">40%
+                                    <div class="progress-bar bg-info w-40 font-weight-bold ">40%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -130,19 +115,14 @@
                             <td class="text-center">Khaghani</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-15 font-weight-bold ">15%
+                                    <div class="progress-bar bg-info w-15 font-weight-bold ">15%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Completed</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -158,19 +138,14 @@
                             <td class="text-center">Khaghani</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-70 font-weight-bold ">70%
+                                    <div class="progress-bar bg-info w-70 font-weight-bold ">70%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Completed</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -186,19 +161,14 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-85 font-weight-bold ">85%
+                                    <div class="progress-bar bg-info w-85 font-weight-bold ">85%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">On going</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -214,19 +184,14 @@
                             <td class="text-center">valiasr</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-30 font-weight-bold ">30%
+                                    <div class="progress-bar bg-info w-30 font-weight-bold ">30%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -242,19 +207,14 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-65 font-weight-bold ">65%
+                                    <div class="progress-bar bg-info w-65 font-weight-bold ">65%
                                     </div>
                                 </div>
                             </td>
                             <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-<<<<<<< HEAD
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-=======
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
->>>>>>> f6292ee64d7678695a8b048f7f042ca1b44538f2
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
                             </td>
@@ -548,7 +508,7 @@
                                                                                 <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div>
-                                                                        <input class="form-control required" id="StartDate" name="StartDate" type="date">
+                                                                        <input class="form-control fc-datepicker" id="StartDate" placeholder="MM/DD/YYYY" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -724,37 +684,37 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1.1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2.2" class="font-weight-bold" data-toggle="tab">People</a></li>
-                                            <li><a href="#tab3.3" class="font-weight-bold"  data-toggle="tab">Financial</a></li>
-                                            <li><a href="#tab4.4" class="font-weight-bold"  data-toggle="tab">Timing</a></li>
-                                            <li><a href="#tab5.5" class="font-weight-bold"  data-toggle="tab">Services</a></li>
-                                            <li><a href="#tab6.6" class="font-weight-bold"  data-toggle="tab">Inform</a></li>
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">People</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold"  data-toggle="tab">Financial</a></li>
+                                            <li><a href="#tab4-4" class="font-weight-bold"  data-toggle="tab">Timing</a></li>
+                                            <li><a href="#tab5-5" class="font-weight-bold"  data-toggle="tab">Services</a></li>
+                                            <li><a href="#tab6-6" class="font-weight-bold"  data-toggle="tab">Inform</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
                                     <div class="tab-content">
-                                        <div class="tab-pane active " id="tab1.1">
+                                        <div class="tab-pane active " id="tab1-1">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Name2">Name :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="Name">Name :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name2" name="userName" type="text">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="branch2">Branch :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="branch">Branch :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select class="form-control" id="branch2">
+                                                                <select class="form-control" id="branch">
                                                                     <option>Pasdaran</option>
                                                                     <option>Shariati</option>
                                                                     <option>Shoosh</option>
@@ -765,10 +725,10 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Contract2">Contract :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="Contract">Contract :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select class="form-control" id="contract2">
+                                                                <select class="form-control" id="contract">
                                                                     <option>......</option>
                                                                     <option>......</option>
                                                                     <option>......</option>
@@ -782,26 +742,26 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Descriptions2">Descriptions :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions2"></textarea>
+                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab2.2">
+                                        <div class="tab-pane" id="tab2-2">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="ProjectManager2">Project Manager :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="ProjectManager">Project Manager :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager2">
+                                                                <select class="form-control" id="ProjectManager">
                                                                     <option>Abbas Ghaderi</option>
                                                                     <option>Shadi Amini</option>
                                                                     <option>Shahram Sooratpanah</option>
@@ -812,10 +772,10 @@
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="ProductOwner2">Product Owner :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="ProductOwner">Product Owner :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select class="form-control" id="ProductOwner2">
+                                                                <select class="form-control" id="ProductOwner">
                                                                     <option>Nazanin Bayat</option>
                                                                     <option>Shadi Amini</option>
                                                                     <option>Shahram Sooratpanah</option>
@@ -826,10 +786,10 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="OperationalTeam2">Operational Team :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="OperationalTeam">Operational Team :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select" id="OperationalTeam2">
+                                                                <select multiple="multiple" class="multi-select" id="OperationalTeam">
                                                                     <option value="1">Team 1</option>
                                                                     <option value="1">Team 2</option>
                                                                     <option value="1">Team 3</option>
@@ -843,7 +803,7 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Owner2">Owner :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="Owner">Owner :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <!-- Accordion begin -->
@@ -892,7 +852,7 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Other People :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="Owner">Other People :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <!-- Accordion begin -->
@@ -928,13 +888,13 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab3.3">
+                                        <div class="tab-pane" id="tab3-3">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="ProjectValue2">Project Value :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="ProjectValue">Project Value :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -943,7 +903,7 @@
                                                                             <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="ProjectValue2" name="ProjectValue2" type="text" placeholder="000,000,000">
+                                                                    <input class="form-control required" id="ProjectValue" name="ProjectValue" type="text" placeholder="000,000,000">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -968,13 +928,13 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab4.4">
+                                        <div class="tab-pane" id="tab4-4">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="StartDate2">Start Date :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="StartDate">Start Date :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -983,7 +943,7 @@
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="StartDate2" name="StartDate2" type="date">
+                                                                    <input class="form-control fc-datepicker" id="StartDate" placeholder="MM/DD/YYYY" type="text">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -991,7 +951,7 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="HoldDate2">Hold Date :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">Hold Date :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -1000,7 +960,7 @@
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="HoldDate2" name="HoldDate2" type="date">
+                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1008,7 +968,7 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="DeadlineDate2">Deadline Date :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="DeadlineDate">Deadline Date :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -1017,7 +977,7 @@
                                                                             <i class="far fa-calendar-check tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="DeadlineDate2" name="DeadlineDate2" type="date">
+                                                                    <input class="form-control required" id="DeadlineDate" name="DeadlineDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1025,16 +985,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab5.5">
+                                        <div class="tab-pane" id="tab5-5">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="ServiceCategory2">Service Category :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="ServiceCategory">Service Category :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select class="form-control select2-show-search" id="ServiceCategory2" data-placeholder="Choose one (with optgroup)">
+                                                                <select class="form-control select2-show-search" id="ServiceCategory" data-placeholder="Choose one (with optgroup)">
                                                                     <option >Service Category 1</option>
                                                                     <option >Service Category 2</option>
                                                                     <option >Service Category 3</option>
@@ -1105,16 +1065,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab6.6">
+                                        <div class="tab-pane" id="tab6-6">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Inform2">Inform :</label>
+                                                                <label class="control-label form-label font-weight-bold" for="Inform">Inform :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select" id="Inform2">
+                                                                <select multiple="multiple" class="multi-select" id="Inform">
                                                                     <option value="1">Ali Javadi</option>
                                                                     <option value="2">Mohsen Salami</option>
                                                                     <option value="3">Amir Ghane</option>

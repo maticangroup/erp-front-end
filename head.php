@@ -109,10 +109,10 @@
 
 
     <!-- Time picker Plugin -->
-    <link href="../assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
+    <link href="/assets/plugins/time-picker/jquery.timepicker.css" rel="stylesheet" />
 
     <!-- Date Picker Plugin -->
-    <link href="../assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
+    <link href="/assets/plugins/date-picker/spectrum.css" rel="stylesheet" />
 
     <!--multipleselect css-->
     <link rel="stylesheet" href="/assets/plugins/multipleselect/multiple-select.css">
