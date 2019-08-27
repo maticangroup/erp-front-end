@@ -227,8 +227,8 @@
         </div>
         <div class="user-info">
             <a href="#" class="ml-2"><span
-                        class="text-dark app-sidebar__user-name font-weight-semibold">Jenna Side</span><br>
-                <span class="text-muted app-sidebar__user-name text-sm"> Web Designer</span>
+                        class="text-dark app-sidebar__user-name font-weight-semibold">Majid Salehi</span><br>
+                <span class="text-muted app-sidebar__user-name text-sm"> CEO</span>
             </a>
         </div>
     </div>

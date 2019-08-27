@@ -50,7 +50,7 @@
         <div class="card box-widget widget-user">
             <div class="widget-user-header bg-primary">
                 <h3 class="widget-user-username">Neil Jackson</h3>
-                <h5 class="widget-user-desc">Web Designer</h5>
+                <h5 class="widget-user-desc">CEO</h5>
             </div>
             <div class="widget-user-image"><img alt="User Avatar" class="rounded-circle"
                                                 src="../assets/images/users/male/20.jpg"></div>

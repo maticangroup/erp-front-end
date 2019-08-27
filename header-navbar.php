@@ -128,7 +128,7 @@
                                     <span class="avatar avatar-md brround cover-image"
                                           data-image-src="../assets/images/users/female/25.jpg"></span>
                         <span class="ml-2 d-none d-lg-block">
-                                        <span class="text-dark">Jenna Side</span>
+                                        <span class="text-dark">Majid Salehi</span>
                                     </span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
