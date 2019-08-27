@@ -356,12 +356,12 @@
 /* ================== Desktop Mega Menus CSS  ================== */
 .horizontalMenu>.horizontalMenu-list>li>a.active {
     color: #fff;
-    background: #53127F;
+    background: #5C6C7C;
     text-decoration: none;
 }
 .horizontalMenu>.horizontalMenu-list>li>a:hover{
     color: #fff;
-    background: #53127F;
+    background: #5C6C7C;
     text-decoration: none;
 }
 .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu .sub-menu-sub:after {
@@ -375,15 +375,15 @@
 }
 .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a:hover {
 	text-decoration: none;
-	color:#53127F;
+	color:#5C6C7C;
 }
 .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{
 	text-decoration: none;
-	color:#53127F;
+	color:#5C6C7C;
 }
 .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li a:hover{
 	text-decoration: none;
-	color:#53127F;
+	color:#5C6C7C;
 }
 .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu {
 	width: 100%;
@@ -632,7 +632,7 @@
 		height: auto;
 		min-height: 100%;
 		width: 240px;
-		background:#7c18ac;
+		background:#B3BBC1;
 		padding-bottom: 0;
 		margin-left: -240px;
 		display: block;
@@ -1130,15 +1130,15 @@
 	}
 	.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a:hover {
 		background: #fff;
-		color:#53127F;
+		color:#5C6C7C;
 		text-decoration: none;
 	}
 	.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu li:hover>a {
-		background:#53127F;
+		background:#5C6C7C;
 		color: #fff !important;
 	}
 	.horizontalMenu>.horizontalMenu-list>li:hover>a {
-		background:#53127F;
+		background:#5C6C7C;
 		color:#fff !important;
 		text-decoration: none;
 	}
@@ -1223,7 +1223,7 @@
     border-radius: 12px;
 }
 .horizontalMenucontainer .app-header{
-	background:#53127f;
+	background:#5C6C7C;
 }
 @media (min-width:992px){
 	.horizontalMenucontainer .app-header .header-brand{

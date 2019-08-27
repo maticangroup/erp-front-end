@@ -356,12 +356,12 @@
 /* ================== Desktop Mega Menus CSS  ================== */
 .horizontalMenu>.horizontalMenu-list>li>a.active {
     color: #fff;
-    background: #53127F;
+    background: #5C6C7C;
     text-decoration: none;
 }
 .horizontalMenu>.horizontalMenu-list>li>a:hover{
     color: #fff;
-    background: #53127F;
+    background: #5C6C7C;
     text-decoration: none;
 }
 .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu .sub-menu-sub:after {
@@ -1132,11 +1132,11 @@
 		text-decoration: none;
 	}
 	.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu li:hover>a {
-		background:#53127F;
+		background:#5C6C7C;
 		color: #fff !important;
 	}
 	.horizontalMenu>.horizontalMenu-list>li:hover>a {
-		background:#53127F;
+		background:#5C6C7C;
 		color:#fff !important;
 		text-decoration: none;
 	}
@@ -1221,7 +1221,7 @@
     border-radius: 12px;
 }
 .horizontalMenucontainer .app-header{
-	background:#53127f;
+	background:#5C6C7C;
 }
 @media (min-width:992px){
 	.horizontalMenucontainer .app-header .header-brand{

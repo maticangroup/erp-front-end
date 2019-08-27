@@ -9,13 +9,13 @@
             datasets: [ {
                 data: [ 9187, 3654, 7319, 1875 ],
                 backgroundColor: [
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#4cf257",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ],
                 hoverBackgroundColor: [
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#4cf257",
                                     "#f2574c",
                                     "#f2aa4c"
@@ -79,7 +79,7 @@
                 opacity: 1
 
             },
-			colors: ['#f2574c', '#53127F', '#f2aa4c'],
+			colors: ['#f2574c', '#5C6C7C', '#f2aa4c'],
             tooltip: {
                 y: {
                     formatter: function (val) {
@@ -120,7 +120,7 @@
 		yaxis: {
 
 		},
-		colors: ['#53127F'],
+		colors: ['#5C6C7C'],
 		tooltip: {
 
 		}

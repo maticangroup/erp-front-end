@@ -31,7 +31,7 @@ $(function() {
 				verticalLines:false,
 				horizontalLines:false
 			},
-			colors: ["#53127F", "#f2574c"],
+			colors: ["#5C6C7C", "#f2574c"],
 			yaxis: {
 				min: -1.2,
 				max: 1.2,
@@ -73,7 +73,7 @@ $(function() {
 				verticalLines:false,
 				horizontalLines:false
 			},
-			colors: ["#f2574c", "#53127F"],
+			colors: ["#f2574c", "#5C6C7C"],
 			yaxis: {
 				min: -1.2,
 				max: 1.2,
@@ -304,7 +304,7 @@ $(function() {
 				grid: {
 					borderColor: "rgba(255,255,255,0.05)",
 				},
-				colors: ["#f2574c", "#53127F"],
+				colors: ["#f2574c", "#5C6C7C"],
 				yaxis: {
 					tickLength: 0
 				},
@@ -360,7 +360,7 @@ $(function() {
 					}
 
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 
 			});
 
@@ -379,7 +379,7 @@ $(function() {
 						show: true
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -409,7 +409,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -438,7 +438,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -468,7 +468,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -498,7 +498,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -526,7 +526,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -551,7 +551,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -578,7 +578,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}
@@ -613,7 +613,7 @@ $(function() {
 						}
 					}
 				},
-				colors: ["#f2574c", "#53127F", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
+				colors: ["#f2574c", "#5C6C7C", "#f2aa4c", "#4cf257","#4c94f2", "#e7f24c"],
 				legend: {
 					show: false
 				}

@@ -27,7 +27,7 @@
 	})
 	
 	// ______________Updated Chart
-    var updatingChart = $(".updating-chart").peity("line", { width: "100%",height:100 ,fill: "#53127F",  stroke: "#531270"})
+    var updatingChart = $(".updating-chart").peity("line", { width: "100%",height:100 ,fill: "#5C6C7C",  stroke: "#531270"})
     setInterval(function() {
         var random = Math.round(Math.random() * 30)
         var values = updatingChart.text().split(",")
@@ -75,7 +75,7 @@
 		type: 'line',
 		height: '50',
 		width: '110',
-		lineColor: '#53127F',
+		lineColor: '#5C6C7C',
 		fillColor: '#ffffff',
 		lineWidth: 3,
 		spotColor: '#ffb209',

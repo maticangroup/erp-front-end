@@ -3,9 +3,9 @@
     <!-- Navbar Right Menu-->
     <div class="container-fluid">
         <div class="d-flex">
-            <a class="header-brand" href="index.html">
-                <img alt="logo" class="header-brand-img main-logo" src="../assets/images/brand/logo1.png">
-                <img alt="logo" class="header-brand-img mobile-logo" src="../assets/images/brand/icon.png">
+            <a class="header-brand text-center" href="/">
+                <img alt="logo" class="header-brand-img main-logo" src="/assets/Untitled-1.png">
+                <img alt="logo" class="header-brand-img mobile-logo" src="/assets/Untitled-1.png">
             </a>
             <div class="d-none d-sm-flex">
                 <a href="#" data-toggle="search" class="icon navsearch">
@@ -23,20 +23,7 @@
                     </div>
                 </form>
             </div>
-            <div class="dropdown d-sm-flex d-none header-message">
-                <a class="nav-link icon" data-toggle="dropdown">
-                    <i class="fe fe-grid mr-2"></i><span class="lay-outstyle">Layout styles</span>
-                    <span class="pulse2 bg-danger" aria-hidden="true"></span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                    <a class="dropdown-item d-flex pb-3" href="index.html">Icon Layout</a>
-                    <a class="dropdown-item d-flex pb-3" href="sidemenu.html">Icon Closed Layout</a>
-                    <a class="dropdown-item d-flex pb-3" href="overlay2.html">Icon Overlay Layout</a>
-                    <a class="dropdown-item d-flex pb-3" href="overlay.html">Closed Overlay Layout</a>
-                    <a class="dropdown-item d-flex pb-3" href="horizontal.html">Horizontal Layout</a>
-                    <a class="dropdown-item d-flex pb-3" href="sidemenu-2.html">Light Layout</a>
-                </div>
-            </div>
+
             <div class="d-flex order-lg-2 ml-auto">
                 <div class="d-sm-flex d-none">
                     <a href="#" class="nav-link icon full-screen-link">
@@ -105,8 +92,8 @@
                             </div>
                         </a>
                         <a class="dropdown-item d-flex pb-3" href="#"><span
-                                class="avatar brround mr-3 align-self-center cover-image"
-                                data-image-src="../assets/images/users/female/1.jpg"></span>
+                                    class="avatar brround mr-3 align-self-center cover-image"
+                                    data-image-src="../assets/images/users/female/1.jpg"></span>
                             <div>
                                 <strong>Anthony</strong> New product Launching...
                                 <div class="small text-muted">
@@ -115,8 +102,8 @@
                             </div>
                         </a>
                         <a class="dropdown-item d-flex pb-3" href="#"><span
-                                class="avatar brround mr-3 align-self-center cover-image"
-                                data-image-src="../assets/images/users/female/18.jpg"></span>
+                                    class="avatar brround mr-3 align-self-center cover-image"
+                                    data-image-src="../assets/images/users/female/18.jpg"></span>
                             <div>
                                 <strong>Olivia</strong> New Schedule Realease......
                                 <div class="small text-muted">
@@ -162,7 +149,7 @@
                     <a href="#" class="nav-link icon" data-toggle="sidebar-right"
                        data-target=".sidebar-right">
                         <i class="fe fe-bell"></i><span
-                            class=" nav-unread badge badge-info  badge-pill">6</span>
+                                class=" nav-unread badge badge-info  badge-pill">6</span>
                     </a>
                 </div>
             </div>
@@ -242,8 +229,8 @@
                         </div>
                     </a>
                     <a class="dropdown-item d-flex pb-3" href="#"><span
-                            class="avatar brround mr-3 align-self-center cover-image"
-                            data-image-src="../assets/images/users/female/1.jpg"></span>
+                                class="avatar brround mr-3 align-self-center cover-image"
+                                data-image-src="../assets/images/users/female/1.jpg"></span>
                         <div>
                             <strong>Anthony</strong> New product Launching...
                             <div class="small text-muted">
@@ -252,8 +239,8 @@
                         </div>
                     </a>
                     <a class="dropdown-item d-flex pb-3" href="#"><span
-                            class="avatar brround mr-3 align-self-center cover-image"
-                            data-image-src="../assets/images/users/female/18.jpg"></span>
+                                class="avatar brround mr-3 align-self-center cover-image"
+                                data-image-src="../assets/images/users/female/18.jpg"></span>
                         <div>
                             <strong>Olivia</strong> New Schedule Realease......
                             <div class="small text-muted">

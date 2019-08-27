@@ -285,13 +285,13 @@
                 data: [ 45, 25, 20, 10 ],
                 backgroundColor: [
                                     "#4cf257",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ],
                 hoverBackgroundColor: [
                                     "#4cf257",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ]
@@ -320,13 +320,13 @@
                 data: [ 45, 25, 20, 10 ],
                 backgroundColor: [
                                     "#4cf257",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ],
                 hoverBackgroundColor: [
                                     "#4cf257",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ]
@@ -354,7 +354,7 @@
                 data: [ 15, 18, 9, 6, 19 ],
                 backgroundColor: [
                                     "#4cf257",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c",
 									"#67e095"

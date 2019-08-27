@@ -72,7 +72,7 @@ $(function(e){
 					26662, 26956, 27912, 28999, 28965, 27826, 25579, 25722, 24826, 24605,
 					24304, 23464, 23708, 24099, 24357, 24237, 24401,2500
 				],
-				color:'#53127F'
+				color:'#5C6C7C'
 			}, {
 				name: 'PROFIT',
 				data: [
@@ -164,7 +164,7 @@ $(function(e){
 			name: 'data2',
 			type: 'scatter',
 			data: data,
-			color:'#53127F',
+			color:'#5C6C7C',
 			marker: {
 				radius: 2.5
 			}
@@ -224,7 +224,7 @@ $(function(e){
 				['Opera', 6.2],
 				['Others', 2]
 			],
-			colors: ['#f2574c', '#53127F', '#4ce7f2', '#4c94f2', '#94f24c', '#e7f24c', '#aa4cf2', '#4ce7f2']
+			colors: ['#f2574c', '#5C6C7C', '#4ce7f2', '#4c94f2', '#94f24c', '#e7f24c', '#aa4cf2', '#4ce7f2']
 		}]
 	});
 
@@ -270,7 +270,7 @@ $(function(e){
 				['Profit', 40.8],
 				['Growth', 20.5]
 			],
-			colors: ['#f2574c', '#53127F', '#4c94f2']
+			colors: ['#f2574c', '#5C6C7C', '#4c94f2']
 		}]
 	});
 
@@ -341,7 +341,7 @@ $(function(e){
 			backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
 			shadow: true
 		},
-		colors: ['#e7f24c', '#4c94f2' ,'#4ce7f2', '#f2574c', '#53127F' ],
+		colors: ['#e7f24c', '#4c94f2' ,'#4ce7f2', '#f2574c', '#5C6C7C' ],
 		credits: {
 			enabled: false
 		},
@@ -428,7 +428,7 @@ $(function(e){
 			name: 'Project Development',
 			data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
 		}],
-		colors: ['#e7f24c', '#4c94f2' ,'#4ce7f2', '#f2574c', '#53127F' ],
+		colors: ['#e7f24c', '#4c94f2' ,'#4ce7f2', '#f2574c', '#5C6C7C' ],
 		responsive: {
 			rules: [{
 				condition: {
@@ -479,7 +479,7 @@ $(function(e){
 		},
 		gridLineColor: 'rgba(255,255,255,0.05)'
     },
-	colors: ['#f2574c', '#53127F', '#4c94f2', '#00bcd4', '#5e5baa', '#FF9655', '#f1c40f', '#6AF9C4'],
+	colors: ['#f2574c', '#5C6C7C', '#4c94f2', '#00bcd4', '#5e5baa', '#FF9655', '#f1c40f', '#6AF9C4'],
     series: [{
         type: 'column',
         colorByPoint: true,

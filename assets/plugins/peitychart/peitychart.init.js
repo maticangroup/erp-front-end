@@ -17,8 +17,8 @@ $(function() {
 
 
     $(".peity-line").peity("line",{
-		fill: "#53127F",
-		stroke: "#53127F",
+		fill: "#5C6C7C",
+		stroke: "#5C6C7C",
         width: '100%',
         height: '100'
     })
@@ -29,14 +29,14 @@ $(function() {
     })
 
     $(".bar-colours-1").peity("bar", {
-        fill: ["#53127F", "#f2574c", "#f2aa4c"],
+        fill: ["#5C6C7C", "#f2574c", "#f2aa4c"],
         width: '100',
         height: '100'
     })
 
     $(".bar-colours-2").peity("bar", {
         fill: function(value) {
-            return value > 0 ? "#f2574c" : "#53127F"
+            return value > 0 ? "#f2574c" : "#5C6C7C"
         },
         width: '100',
         height: '100'
@@ -45,14 +45,14 @@ $(function() {
     $(".bar-colours-3").peity("bar", {
         fill: function(_, i, all) {
             var g = parseInt((i / all.length) * 255)
-            return "#53127F"
+            return "#5C6C7C"
         },
         width: '100',
         height: '100'
     })
 
     $(".pie-colours-1").peity("pie", {
-        fill: ["#53127F", "#f2574c", "#f2aa4c", "#4c94f2"],
+        fill: ["#5C6C7C", "#f2574c", "#f2aa4c", "#4c94f2"],
         width: '100',
         height: '100'
     })
@@ -84,7 +84,7 @@ $(function() {
     $("span.graph").peity("pie")
 
     // Updating charts.
-    var updatingChart = $(".updating-chart").peity("line", { width: "100%",height:100 ,fill: "#53127f",  stroke: "#53127f"})
+    var updatingChart = $(".updating-chart").peity("line", { width: "100%",height:100 ,fill: "#5C6C7C",  stroke: "#5C6C7C"})
 
     setInterval(function() {
         var random = Math.round(Math.random() * 10)

@@ -40,7 +40,7 @@
 	}
 	.app .app-sidebar {
 		left: -230px;
-		background: linear-gradient(125deg, #53127F 35%, #7c18ac 65%);
+		background: linear-gradient(125deg, #5C6C7C 35%, #B3BBC1 65%);
 	}
 	.app .app-sidebar__overlay {
 		visibility: hidden;
@@ -50,7 +50,7 @@
 	}
 	.app.sidenav-toggled .app-sidebar {
 		left: 0;
-		background: linear-gradient(125deg, #53127F 35%, #7c18ac 65%);
+		background: linear-gradient(125deg, #5C6C7C 35%, #B3BBC1 65%);
 		margin: 0;
 	}
 	.app.sidenav-toggled .app-sidebar__overlay {
@@ -64,7 +64,7 @@
 	-webkit-transition: margin-left 0.1s ease;
 	-o-transition: margin-left 0.1s ease;
 	transition: margin-left 0.1s ease;
-	background: linear-gradient(125deg, #53127F 0%, #7c18ac 100%);
+	background: linear-gradient(125deg, #5C6C7C 0%, #B3BBC1 100%);
 }
 .app-content .side-app {
 	padding: 40px 40px 23px 40px;
@@ -124,7 +124,7 @@
 	z-index: 1030;
 	padding: 10px 0;
 	box-shadow: none;
-	background: linear-gradient(125deg, #53127F 35%, #7c18ac 65%);
+	background: linear-gradient(125deg, #5C6C7C 35%, #B3BBC1 65%);
 	max-width:1170px;
 	margin:0 auto;
 }
@@ -136,7 +136,7 @@
 */
 
 .app-header.header.fixed-header {
-	background: linear-gradient(125deg, #53127F 35%, #7c18ac 65%);
+	background: linear-gradient(125deg, #5C6C7C 35%, #B3BBC1 65%);
 }
 @media print {
 	.app-header {
@@ -169,7 +169,7 @@
 }
 .app-sidebar__toggle {
 	padding: 0 15px;
-	color: #e5cdf1;
+	color: #ECECEE;
 	-webkit-transition: background-color 0.3s ease;
 	-o-transition: background-color 0.3s ease;
 	transition: background-color 0.3s ease;
@@ -417,7 +417,7 @@
 	color: #65688c;
 }
 .slide.is-expanded a:hover {
-	color: #53127F;
+	color: #5C6C7C;
 }
 .slide-menu li.active>a {
 	font-weight: 400;
@@ -436,7 +436,7 @@
 	flex: 1 1 auto;
 }
 .slide.is-expanded [data-toggle='slide'] {
-	color: #53127F;
+	color: #5C6C7C;
 	font-weight: 400;
 }
 .slide.is-expanded .slide-menu li a:hover {
@@ -481,7 +481,7 @@
 }
 .slide-item:hover {
 	background: #f1f1ff;
-	color: #53127F;
+	color: #5C6C7C;
 }
 .slide-item .icon {
 	margin-right: 5px;
@@ -609,27 +609,27 @@
 	background: #f1f1ff;
 }
 .header .nav-link span.text-dark {
-	color: #e5cdf1 !important;
+	color: #ECECEE !important;
 }
 .slide.is-expanded [data-toggle='slide'] span, .slide .side-menu__item.active span{
-	background: #53127F !important;
+	background: #5C6C7C !important;
 	color: #fff !important;
 }
 .side-menu .side-menu__item:hover span {
-	background: #53127F !important;
-	color: #e5cdf1 !important;
+	background: #5C6C7C !important;
+	color: #ECECEE !important;
 }
 .side-menu .side-menu__item:hover .side-menu__icon {
 	background: rgb(245, 54, 92) !important;
-	color: #e5cdf1 !important;
+	color: #ECECEE !important;
 }
 .app-sidebar .side-menu li a.active .side-menu__icon{
 	background: rgb(245, 54, 92) !important;
     color: #ffF !important;
 }
 .app-sidebar .side-menu li a.active span{
-	background: #53127F !important;
-	color: #e5cdf1 !important;
+	background: #5C6C7C !important;
+	color: #ECECEE !important;
 }
 .app-sidebar .side-menu .slide-menu li a.active {
 	background: #f1f1ff !important;
@@ -660,10 +660,10 @@
 	transition: left 0.1 ease, width 0.1s ease;
 }
 .app-sidebar .side-menu .side-menu__item:hover .side-menu__icon {
-	color: #e5cdf1;
+	color: #ECECEE;
 }
 .app-sidebar .side-menu .side-menu__item.active .side-menu__icon {
-	color: #e5cdf1;
+	color: #ECECEE;
 }
 .app-sidebar .user-info .text-dark {
 	color: #151948 !important;

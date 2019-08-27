@@ -39,7 +39,7 @@
 		type: 'line',
 		height: '50',
 		width: '110',
-		lineColor: '#53127F',
+		lineColor: '#5C6C7C',
 		fillColor: '#1f082b',
 		lineWidth: 3,
 		spotColor: '#ffb209',
@@ -136,13 +136,13 @@
                 data: [ 25, 48, 89, 37 ],
                 backgroundColor: [
                                     "#4c94f2",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ],
                 hoverBackgroundColor: [
                                     "#4c94f2",
-                                    "#53127F",
+                                    "#5C6C7C",
                                     "#f2574c",
                                     "#f2aa4c"
                                 ]
@@ -200,7 +200,7 @@
 		xkey: 'x',
 		ykeys: ['y', 'z'],
 		labels: ['Expenses', 'Earning'],
-		barColors: ['#53127F', '#f2574c']
+		barColors: ['#5C6C7C', '#f2574c']
 	});
 	/*---Morris (#graph5) closed---*/
 

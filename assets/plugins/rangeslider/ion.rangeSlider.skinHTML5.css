@@ -33,18 +33,18 @@
 .irs-bar {
 	height: 10px;
 	top: 33px;
-	border-top: 1px solid #53127F;
-	background: #53127F;
-	background: #53127F;
+	border-top: 1px solid #5C6C7C;
+	background: #5C6C7C;
+	background: #5C6C7C;
 }
 .irs-bar-edge {
 	height: 10px;
 	top: 33px;
 	width: 14px;
-	border: 1px solid #53127F;
+	border: 1px solid #5C6C7C;
 	border-right: 0;
-	background: #53127F;
-	background: #53127F;
+	background: #5C6C7C;
+	background: #5C6C7C;
 	border-radius: 16px 0 0 16px;
 	-moz-border-radius: 16px 0 0 16px;
 }
@@ -93,7 +93,7 @@
 	line-height: 1.333;
 	text-shadow: none;
 	padding: 1px 5px;
-	background: #53127F;
+	background: #5C6C7C;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 }
@@ -105,7 +105,7 @@
 }
 .irs-grid-pol {
 	opacity: 0.5;
-	background: #53127F;
+	background: #5C6C7C;
 }
 .irs-grid-pol.small {
 	background: #999;

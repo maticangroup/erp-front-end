@@ -8,10 +8,10 @@
   text-align: center;
 }
 .wrapper > h1 span {
-  border-bottom: 2px solid #53127F;
+  border-bottom: 2px solid #5C6C7C;
   display: inline-block;
   padding: 0 10px 10px;
-  color: #53127F;
+  color: #5C6C7C;
   transition: all 0.5s linear;
 }
 
@@ -45,8 +45,8 @@
     margin: 0 5px 0 0;
 }
 .tab_wrapper > ul li.active {
-  border-color: #53127F;
-  background: #53127F;
+  border-color: #5C6C7C;
+  background: #5C6C7C;
   color:#fff;
 }
 .tab_wrapper > ul li.active:after {
@@ -68,7 +68,7 @@
 }
 .tab_wrapper .controller span {
   padding: 8px 22px;
-  background: #53127F;
+  background: #5C6C7C;
   color: #fff;
   text-transform: uppercase;
   display: inline-block;
@@ -105,7 +105,7 @@
   cursor: pointer;
 }
 .tab_wrapper .content_wrapper .accordian_header.active {
-  color: #53127F;
+  color: #5C6C7C;
   border: 1px solid #eaedff;
 }
 .tab_wrapper .content_wrapper .accordian_header.active:after {
@@ -115,7 +115,7 @@
   content: "";
   width: 5px;
   height: 100%;
-  background: #53127F;
+  background: #5C6C7C;
 }
 .tab_wrapper .content_wrapper .accordian_header .arrow {
   float: right;
@@ -143,8 +143,8 @@
 .tab_wrapper .content_wrapper .accordian_header.active .arrow {
   transform: rotate(45deg);
   margin-top: 5px;
-  border-top: 3px solid #53127F;
-  border-left: 3px solid #53127F;
+  border-top: 3px solid #5C6C7C;
+  border-left: 3px solid #5C6C7C;
 }
 .tab_wrapper.left_side > ul {
   width: 25%;
@@ -177,7 +177,7 @@
   top: 0;
   width: 5px;
   height: 100%;
-  background: #53127F;
+  background: #5C6C7C;
 }
 .tab_wrapper.left_side > ul li.active:before {
   right: -1px;
@@ -231,7 +231,7 @@
   width: 5px;
   height: 100%;
   content: "";
-  background: #53127F;
+  background: #5C6C7C;
 }
 .tab_wrapper.right_side > ul li.active:before {
   left: -2px;

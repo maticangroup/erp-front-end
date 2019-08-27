@@ -53,7 +53,7 @@
 				type: 'line', // default type of chart
 				colors: {
 					data1:'#867efc',
-					data2: '#6574cd'
+					data2: '#B3BBC1'
 				},
 				names: {
 					// name of each serie
@@ -271,7 +271,7 @@
 			],
 			type: 'spline', // default type of chart
 			colors: {
-				data1: '#6574cd',
+				data1: '#B3BBC1',
 				data2: '#4ecc48'
 			},
 			names: {
@@ -582,7 +582,7 @@
 				data3:'#f66d9b',
 				data4:'#c21a1a',
 				data5:'#4ecc48',
-				data6:'#6574cd',
+				data6:'#B3BBC1',
 			},
 			names: {
 				// name of each serie
@@ -765,7 +765,7 @@
 				type: 'donut', // default type of chart
 				colors: {
 					data1: '#4ecc48',
-					data2: '#6574cd',
+					data2: '#B3BBC1',
 				},
 				names: {
 					// name of each serie

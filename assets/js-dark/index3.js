@@ -46,7 +46,7 @@
 			opacity: 1
 
 		},
-		colors: ['#45aaf2', '#53127F', '#f2574c' ],
+		colors: ['#45aaf2', '#5C6C7C', '#f2574c' ],
 		tooltip: {
 			y: {
 				formatter: function (val) {
