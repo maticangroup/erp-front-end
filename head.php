@@ -54,14 +54,15 @@
     <link href="/assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
 
 
+    <!-- Calendar Plugin -->
+    <link href="/assets/plugins/calendar/clndr.css" rel="stylesheet" />
+    <link href="/assets/plugins/calendar/stylesheet.css" rel="stylesheet" />
+
     <?php
-    $current_page = ['/test', '/tasks'];
+    $current_page = ['/test', '/tasks', ];
 
     if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
-        <!-- Calendar Plugin -->
-        <link href="/assets/plugins/calendar/clndr.css" rel="stylesheet"/>
-        <link href="/assets/plugins/calendar/stylesheet.css" rel="stylesheet"/>
 
         <!--Calendar Css -->
         <link href="/assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet"/>

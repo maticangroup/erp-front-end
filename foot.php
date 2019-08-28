@@ -98,10 +98,26 @@
 <script src="/assets/plugins/time-picker/jquery.timepicker.js"></script>
 <script src="/assets/plugins/time-picker/toggles.min.js"></script>
 
-<!-- Datepicker js -->
-<script src="/assets/plugins/date-picker/spectrum.js"></script>
-<script src="/assets/plugins/date-picker/jquery-ui.js"></script>
-<script src="/assets/plugins/input-mask/jquery.maskedinput.js"></script>
+<!--Counters -->
+<script src="/assets/plugins/counters/counterup.min.js"></script>
+<script src="/assets/plugins/counters/waypoints.min.js"></script>
+
+<?php
+$current_page = ['/task-view'];
+
+if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
+
+    <!-- Default calendar -->
+    <script src="/assets/plugins/calendar/underscore-min.js"></script>
+    <script src="/assets/plugins/calendar/moment.js"></script>
+    <script src="/assets/plugins/calendar/clndr.js"></script>
+    <script src="/assets/plugins/calendar/demo.js"></script>
+    <script src="/assets/plugins/rating/jquery.rating-stars.js"></script>
+    <script src='/assets/plugins/calendar/calendar.min.js'></script>
+    <script src='/assets/plugins/calendar/defalutcal.js'></script>
+
+<?php endif; ?>
+
 <?php
 $current_page = ['/letter-overview-add'];
 
