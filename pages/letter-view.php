@@ -26,10 +26,9 @@
             </div>
             <div class="card-body text-center pt-1 ">
                 <a href="#">
-                                <span class="avatar avatar-xxl brround cover-image m-2"
-                                      data-image-src="../assets/images/users/male/20.jpg">
-                                <span class="avatar-status bg-green"></span>
-                                </span>
+                    <span class="avatar avatar-xxl brround cover-image m-2" data-image-src="../assets/images/users/male/20.jpg">
+                        <span class="avatar-status bg-green"></span>
+                    </span>
                 </a>
                 <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">From</a></h5>
                 <span>Saghar Nikpoor</span>
