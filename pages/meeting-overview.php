@@ -523,8 +523,55 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab5">
-
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1</option>
+                                                                                    <option value="p2">Deal 2</option>
+                                                                                    <option value="p3">Deal 3</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+
                                         <div class="tab-pane" id="tab6">
                                             <div class="row">
                                                 <div class="col-12">
@@ -590,9 +637,8 @@
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4">
                                                                         <button type="button"
-                                                                                class="btn btn-outline-primary mr-auto"
-                                                                                data-toggle="modal"
-                                                                                data-target="#exampleModal3">Add
+                                                                                class="btn btn-outline-primary mr-auto">
+                                                                            Add
                                                                             Notification
                                                                         </button>
                                                                     </div>
@@ -927,7 +973,53 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab5-5">
-
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1</option>
+                                                                                    <option value="p2">Deal 2</option>
+                                                                                    <option value="p3">Deal 3</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-pane" id="tab6-6">
                                             <div class="row">
@@ -994,9 +1086,8 @@
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4">
                                                                         <button type="button"
-                                                                                class="btn btn-outline-primary mr-auto"
-                                                                                data-toggle="modal"
-                                                                                data-target="#exampleModal3">Add
+                                                                                class="btn btn-outline-primary mr-auto">
+                                                                            Add
                                                                             Notification
                                                                         </button>
                                                                     </div>
