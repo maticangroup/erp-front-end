@@ -101,98 +101,65 @@
                             </div>
 
 
-
-
-
-
                             <div class="tab-pane " id="tab2">
-                                <div class="row mt-5">
-                                    <div id="Project Value" class="col-xl-4 col-lg-12 col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="dash-2">
-                                                            <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">89,385</span></h2>
-                                                            <span>Project Value</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col col-auto">
-                                                        <span class="sparkline_bar1"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                                                        class="fas fa-arrow-circle-up text-success"></i> 10%</span> Orders Incresed </p>
-                                                    </div>
-                                                    <div class="col col-auto">
-                                                        <a class="btn btn-sm btn-white border">View Details</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="media mt-1 pb-2">
+                                    <div class="mediaicon">
+                                        <i class="far fa-calendar" aria-hidden="true"></i>
                                     </div>
-                                    <div id="Total Expenses" class="col-xl-4 col-lg-12 col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="dash-2">
-                                                            <h2 class="text-orange mb-2">$<span class="counter font-weight-extrabold">83,547</span></h2>
-                                                            <span>Total Expenses</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col col-auto">
-                                                        <span class="sparkline_bar"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                                                        class="fas fa-arrow-circle-down text-danger"></i> 5%</span> Expences Decresed
-                                                        </p>
-                                                    </div>
-                                                    <div class="col col-auto">
-                                                        <a class="btn btn-sm btn-white border">View Details</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="media-body ml-5 mt-1">
+                                        <h6 class="mediafont text-dark mb-1">From Date</h6>
+                                        <span class="d-block">07 October 2019</span>
                                     </div>
-                                    <div id="Total Net Profit" class="col-xl-4 col-lg-12 col-md-12">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="dash-2">
-                                                            <h2 class="text-success mb-2">$<span class="counter font-weight-extrabold">99,425</span>
-                                                            </h2>
-                                                            <span>Total Net Profit</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col col-auto">
-                                                        <span class="sparkline22 w-100"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                                                        class="fas fa-arrow-circle-up text-success"></i> 13%</span> Net Profit Incresed
-                                                        </p>
-                                                    </div>
-                                                    <div class="col col-auto">
-                                                        <a class="btn btn-sm btn-white border">View Details</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="media mt-1 pb-2">
+                                    <div class="mediaicon">
+                                        <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body ml-5 mt-1">
+                                        <h6 class="mediafont text-dark mb-1">Deadline Date</h6>
+                                        <span class="d-block">12 February 2020</span>
+                                    </div>
+                                </div>
+                                <div class="media mt-1 pb-2">
+                                    <div class="mediaicon">
+                                        <i class="far fa-clock" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body ml-5 mt-1">
+                                        <h6 class="mediafont text-dark mb-1">From Time</h6>
+                                        <span class="d-block">09:00 AM</span>
+                                    </div>
+                                </div>
+                                <div class="media mt-1 pb-2">
+                                    <div class="mediaicon">
+                                        <i class="far fa-clock" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body ml-5 mt-1">
+                                        <h6 class="mediafont text-dark mb-1">To Time</h6><span
+                                                class="d-block">09:15 PM</span>
+                                    </div>
+                                </div>
+                                <div class="media mt-1 pb-2">
+                                    <div class="mediaicon">
+                                        <i class="fas fa-clock" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body ml-5 mt-1">
+                                        <h6 class="mediafont text-dark mb-1">Estimation Time</h6><span class="d-block">12h 15m</span>
+                                    </div>
+                                </div>
+                                <div class="media mt-1 pb-2">
+                                    <div class="mediaicon">
+                                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body ml-5 mt-1">
+                                        <h6 class="mediafont text-dark mb-1">Progress</h6><div class="progress-bar bg-dark w-35 font-weight-bold">35%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-7 mb-5">
+                                    <div id="timer-countup" class="p-4 bg-gradient-primary text-white br-7 text-center h4"></div>
+                                    <div class="text-center">
+                                        <button class=" btn-outline-dark btn-sm font-weight-bold w-20">Start</button>
+                                        <button class=" btn-outline-dark btn-sm font-weight-bold w-20">Paused</button>
+                                        <button class="btn-outline-dark btn-sm font-weight-bold w-20">Finished</button>
                                     </div>
                                 </div>
                             </div>
@@ -202,9 +169,6 @@
             </div>
         </div>
     </div>
-
-
-
     <div class="col-xl-3 col-lg-6 col-md-12">
         <div class="card ">
             <div class="card-body text-center pt-3 ">
