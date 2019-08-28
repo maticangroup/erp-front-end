@@ -9,629 +9,959 @@
 
     </div>
 </div>
-<div class="row">
-    <div class="col-8">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">HR Meeting</h3>
-            </div>
-            <div class="card-body p-6">
-                <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
-                        <div class="tabs-menu1 ">
-                            <!-- Tabs -->
-                            <ul class="nav panel-tabs">
-                                <li><a href="#tab7" class="active" data-toggle="tab">Timelines</a></li>
-                                <li><a href="#tab6" data-toggle="tab">List Of People</a></li>
-                                <li><a href="#tab8" data-toggle="tab">Locations</a></li>
-                                <li class=""><a href="#tab5"
-                                                data-toggle="tab">Meeting
-                                        Topics</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="panel-body tabs-menu-body">
-                        <div class="tab-content">
-                            <div class="tab-pane active " id="tab5">
-                                <div class="table-responsive">
-                                    <table class="table card-table table-vcenter table-hover">
-                                        <thead>
-                                        <tr>
-                                            <th>Title</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Project Management</td>
-                                            <td>Done</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Project Management</td>
-                                            <td>Undone</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Project Management</td>
-                                            <td>Done</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Project Management</td>
-                                            <td>Done</td>
-                                        </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="tab-pane " id="tab6">
-                                <div class="table-responsive">
-                                    <table class="table card-table table-vcenter table-hover">
-                                        <tbody>
-                                        <tr>
-                                            <td>Responsible</td>
-                                            <td>Mr. Rezvanian</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Guest</td>
-                                            <td>Mr. Azimi</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Responsible</td>
-                                            <td>Mr. Rezvanian</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Responsible</td>
-                                            <td>Mr. Rezvanian</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Responsible</td>
-                                            <td>Mr. Rezvanian</td>
-                                        </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="tab-pane " id="tab7">
-                                <div class="table-responsive">
-                                    <table class="table card-table table-vcenter table-hover">
-                                        <tbody>
-                                        <tr>
-                                            <td>Begin</td>
-                                            <td>12:00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>End</td>
-                                            <td>13:00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Duration</td>
-                                            <td>1 Hour</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Rest Time</td>
-                                            <td>None</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Real Time Begin</td>
-                                            <td>12:02</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Real Time End</td>
-                                            <td>14:00</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="tab-pane " id="tab8">
-                                <div class="table-responsive">
-                                    <table class="table card-table table-vcenter table-hover">
-                                        <tbody>
-                                        <tr>
-                                            <td>Room</td>
-                                            <td>Num 3</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Branch</td>
-                                            <td>Teh, Enqelab</td>
-                                        </tr>
-                                        <tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Comments</h3>
-            </div>
-            <div class="card-body">
-                <div>
-                    <div class="chips">
-                        <div class="team">
-                            <a href="javascript:void(0)" class="chip">
-													<span class="avatar cover-image"
-                                                          data-image-src="../assets/images/users/female/16.jpg"></span>
-                                Victoria
-                            </a>
-                            <p>On the other hand, we denounce with right indignation and
-                                dislike
-                                imagesralized</p>
-                        </div>
-                        <div class="team">
-                            <a href="javascript:void(0)" class="chip">
-													<span class="avatar cover-image"
-                                                          data-image-src="../assets/images/users/male/41.jpg"></span>
-                                Nathan
-                            </a>
-                            <p>On the other hand, we denounce with right indignation and
-                                dislike
-                                imagesralized</p>
-                        </div>
-                        <div class="team">
-                            <a href="javascript:void(0)" class="chip">
-													<span class="avatar cover-image"
-                                                          data-image-src="../assets/images/users/female/1.jpg"></span>
-                                Alice
-                            </a>
-                            <p>On the other hand, we denounce with right indignation and
-                                dislike
-                                imagesralized</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-4">
-        <div class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-											<span class="avatar-status bg-green"></span>
-										</span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Inventory Keeper</a>
-                </h5>
-                <span>Abbas Amiri</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i>
-                        Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
-        </div>
+<div id="information" class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-12 col-xl-12">
                 <div class="card">
-                    <div class="card-body text-center">
-                        <img src="../assets/images/svgs/png/088-package.png" alt="img"
-                             class="w-8 h-8 mb-4">
-                        <div class="svg-btn">
-                            <a class="btn btn-primary btn-pill" href="#">Equipments</a>
-                        </div>
-                        <h3 class="mt-4">4</h3>
+                    <div class="card-header">
+                        <h3 class="card-title font-weight-bold">Information</h3>
                     </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <img src="../assets/images/svgs/png/062-logistic-4.png" alt="img"
-                             class="w-8 h-8 mb-4">
-                        <div class="svg-btn">
-                            <a class="btn btn-primary btn-pill" href="#">Reports</a>
+                    <div class="card-body p-5">
+                        <div class="panel panel-primary">
+                            <div class="tab-menu-heading p-3 ">
+                                <div class="tabs-menu ">
+                                    <!-- Tabs -->
+                                    <ul class="nav panel-tabs">
+                                        <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">People</a>
+                                        </li>
+                                        <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Meeting Info</a>
+                                        </li>
+                                        <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">File</a></li>
+                                        <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Task</a></li>
+                                        <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Equipment</a>
+                                        </li>
+                                        <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Catering</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="panel-body tabs-menu-body ">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab1">
+                                        <div class="row mt-5">
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro1.jpg">
+                                                            <span class="avatar-status bg-green"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Nazanin
+                                                                Bayat</a></h5>
+                                                        <span>Product Owner</span>
+                                                        <div>
+                                                            <span class="badge badge-default">manager</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro14.jpg">
+                                                            <span class="avatar-status bg-green"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Ali
+                                                                Hatami</a></h5>
+                                                        <span>Owner 1</span>
+                                                        <div>
+                                                            <span class="badge badge-default">Religious</span>
+                                                            <span class="badge badge-default">sullen</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro13.jpg">
+                                                            <span class="avatar-status bg-red"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sara
+                                                                Nazparvar</a></h5>
+                                                        <span>Owner 2</span>
+                                                        <div>
+                                                            <span class="badge badge-default">religious</span>
+                                                            <span class="badge badge-default">energetic</span>
+                                                            <span class="badge badge-default">joyful</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro9.jpg">
+                                                            <span class="avatar-status bg-green"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
+                                                                Ghaderi</a></h5>
+                                                        <span>Project Manager</span>
+                                                        <div>
+                                                            <span class="badge badge-default">manager</span>
+                                                            <span class="badge badge-default">supervisor</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro8.jpg">
+                                                            <span class="avatar-status bg-green"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hashem
+                                                                Safaie</a></h5>
+                                                        <span>Photo Designer</span>
+                                                        <div>
+                                                            <span class="badge badge-default">photo</span>
+                                                            <span class="badge badge-default">design</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro11.jpg">
+                                                            <span class="avatar-status bg-red"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal
+                                                                Moghadam</a></h5>
+                                                        <span>Photographer</span>
+                                                        <div>
+                                                            <span class="badge badge-default">photo</span>
+                                                            <span class="badge badge-default">edit</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro3.jpg">
+                                                            <span class="avatar-status bg-green"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sobhan
+                                                                Shafati</a></h5>
+                                                        <span>Designer</span>
+                                                        <div>
+                                                            <span class="badge badge-default">design</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-6 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-body text-center pt-3 ">
+                                                        <a href="#">
+                                                        <span class="avatar avatar-xl brround cover-image m-2"
+                                                              data-image-src="../assets/images/photos/pro7.jpg">
+                                                            <span class="avatar-status bg-red"></span>
+                                                        </span>
+                                                        </a>
+                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Alireza
+                                                                Badran</a></h5>
+                                                        <span>Quality Supervisor</span>
+                                                        <div>
+                                                            <span class="badge badge-default">check</span>
+                                                            <span class="badge badge-default">supervisor</span>
+                                                        </div>
+                                                        <div class="mt-4">
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
+                                                                <i class="fas fa-eye"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                <i class="fas fa-phone"></i></button>
+                                                            <button href="#"
+                                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                <i class="fas fa-envelope"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab2">
+                                        <div class="row mt-5">
+                                            <div class="col-6">
+                                                <div class="card">
+                                                    <div class="card-header bg-primary">
+                                                        <div class="card-title">
+                                                            Timing
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="table-responsive">
+                                                            <table class="table card-table table-vcenter table-hover">
+
+                                                                <tbody>
+                                                                <tr>
+                                                                    <th><i class="far fa-calendar"></i></th>
+                                                                    <th scope="row">Date :</th>
+                                                                    <td>12/8/97</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">From Time :</th>
+                                                                    <td>12:00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">Duration Time :</th>
+                                                                    <td>13:00</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">Relation :</th>
+                                                                    <td>Project FH3400 <br>
+                                                                        Editing Milestone
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <!-- table-responsive -->
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card">
+                                                    <div class="card-header bg-primary">
+                                                        <div class="card-title">Description</div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h4 class="mb-0">HR Meeting:</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                                            beatae distinctio dolores fugiat inventore molestias sit.
+                                                            Beatae cum dignissimos eos hic labore minus quaerat quam
+                                                            sapiente sequi voluptas! A commodi corporis distinctio ea
+                                                            incidunt, ipsam itaque maiores modi molestiae, nam natus,
+                                                            obcaecati odit porro quae quas qui rem tempore voluptate?
+                                                            Alias corporis culpa dolor dolorem enim, et exercitationem
+                                                            facere fuga fugiat hic id illo impedit labore, libero
+                                                            maiores minima nemo nesciunt numquam officiis porro quae
+                                                            quam, quidem quo reprehenderit sed soluta suscipit ullam
+                                                            unde voluptate voluptatem? Ad aperiam architecto corporis
+                                                            debitis et nesciunt omnis pariatur, porro qui ratione
+                                                            suscipit vero.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card">
+                                                    <div class="card-header bg-primary">
+                                                        <div class="card-title">Hold Place</div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h4 class="mb-0">Address:</h4>
+                                                        <p>Lorem ipsum dolor sit amet.</p>
+                                                        <h4 class="mb-0">Compass:</h4>
+                                                        <p>12.548.685.78</p>
+                                                        <h4 class="mb-0">Map:</h4>
+                                                        <div class="map-header">
+                                                            <div class="map-header-layer" id="map2"></div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab3">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <div class="card">
+                                                    <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                     src="../assets/images/photos/2.jpg"
+                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                    <div class="card-body d-flex flex-column">
+                                                        <h4><a href="#">Wireframe.PDF</a>
+                                                        </h4>
+                                                        <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="card">
+                                                    <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                     src="../assets/images/photos/2.jpg"
+                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                    <div class="card-body d-flex flex-column">
+                                                        <h4><a href="#">Photos.JPG</a>
+                                                        </h4>
+                                                        <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="card">
+                                                    <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                     src="../assets/images/photos/2.jpg"
+                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                    <div class="card-body d-flex flex-column">
+                                                        <h4><a href="#">Videos.MKV</a>
+                                                        </h4>
+                                                        <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="card">
+                                                    <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                     src="../assets/images/photos/2.jpg"
+                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                    <div class="card-body d-flex flex-column">
+                                                        <h4><a href="#">Movies.MKV</a>
+                                                        </h4>
+                                                        <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane " id="tab4">
+                                        <div class="row">
+                                            <div class="col-md-12 col-lg-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-title mr-2">Tasks</div>
+                                                        <button type="button" class="btn btn-outline-primary"
+                                                                data-toggle="modal"
+                                                                data-target="#add-modal"><i
+                                                                    class="fas  fa-plus"></i>
+                                                        </button>
+                                                        <div class="card-options d-none d-sm-block mr-1">
+                                                            <a href="#" class="btn btn-outline-primary">Export <i
+                                                                        class="fas fa-file-export"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="table-responsive ">
+                                                            <table id="example-2"
+                                                                   class="table table-striped table-bordered nowrap">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th class="wd-15p border-bottom-0 text-left">
+                                                                        Title
+                                                                    </th>
+                                                                    <th class="wd-15p border-bottom-0 text-center">
+                                                                        Type
+                                                                    </th>
+                                                                    <th class="wd-10p border-bottom-0 text-center">
+                                                                        Requester
+                                                                    </th>
+                                                                    <th class="wd-15p border-bottom-0 text-center">
+                                                                        Owner
+                                                                    </th>
+                                                                    <th class="wd-20p border-bottom-0 text-center">
+                                                                        From
+                                                                        Date
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Deadline
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Estimation Time
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Priority
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Progress
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Status
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Actions
+                                                                    </th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>Sending attachments</td>
+                                                                    <td class="text-center">Solo</td>
+                                                                    <td class="text-center">Majid Salehi</td>
+                                                                    <td class="text-center">Nikoo Gharib</td>
+                                                                    <td class="text-center">12 December 2019</td>
+                                                                    <td class="text-center">04 February 2020</td>
+                                                                    <td class="text-center">8h 45m</td>
+                                                                    <td class="text-center">Medium</td>
+                                                                    <td class="text-center">
+                                                                        <div class="progress progress-md mb-3">
+                                                                            <div class="progress-bar bg-info w-0 font-weight-bold ">
+                                                                                0%
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="text-center">Not Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/task-view"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm">
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Training Meeting</td>
+                                                                    <td class="text-center">Meeting</td>
+                                                                    <td class="text-center">Javad Motala</td>
+                                                                    <td class="text-center">Yasaman Taghvaie</td>
+                                                                    <td class="text-center">12 December 2019</td>
+                                                                    <td class="text-center">04 February 2020</td>
+                                                                    <td class="text-center">4h</td>
+                                                                    <td class="text-center">Low</td>
+                                                                    <td class="text-center">
+                                                                        <div class="progress progress-md mb-3">
+                                                                            <div class="progress-bar bg-info w-5 font-weight-bold ">
+                                                                                5%
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="text-center">Accepted</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/task-view"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Coordination Meeting</td>
+                                                                    <td class="text-center">Meeting</td>
+                                                                    <td class="text-center">Nezam Zaker</td>
+                                                                    <td class="text-center">Mahdi Ardalan</td>
+                                                                    <td class="text-center">12 December 2019</td>
+                                                                    <td class="text-center">04 February 2020</td>
+                                                                    <td class="text-center">16h 30m</td>
+                                                                    <td class="text-center">High</td>
+                                                                    <td class="text-center">
+                                                                        <div class="progress progress-md mb-3">
+                                                                            <div class="progress-bar bg-info w-45 font-weight-bold ">
+                                                                                45%
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="text-center">Rejected</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/task-view"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Video Editing</td>
+                                                                    <td class="text-center">Edit</td>
+                                                                    <td class="text-center">Majid Salehi</td>
+                                                                    <td class="text-center">Shamsi Saberi</td>
+                                                                    <td class="text-center">12 December 2019</td>
+                                                                    <td class="text-center">04 February 2020</td>
+                                                                    <td class="text-center">7h 15m</td>
+                                                                    <td class="text-center">Medium</td>
+                                                                    <td class="text-center">
+                                                                        <div class="progress progress-md mb-3">
+                                                                            <div class="progress-bar bg-info w-100 font-weight-bold ">
+                                                                                100%
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="text-center">Finished</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/task-view"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Birthday filming</td>
+                                                                    <td class="text-center">filming</td>
+                                                                    <td class="text-center">Alireza Dabir</td>
+                                                                    <td class="text-center">Motahareh Moalem</td>
+                                                                    <td class="text-center">12 December 2019</td>
+                                                                    <td class="text-center">04 February 2020</td>
+                                                                    <td class="text-center">10h</td>
+                                                                    <td class="text-center">High</td>
+                                                                    <td class="text-center">
+                                                                        <div class="progress progress-md mb-3">
+                                                                            <div class="progress-bar bg-info w-25 font-weight-bold ">
+                                                                                25%
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td class="text-center">Paused</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/task-view"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <!-- table-wrapper -->
+                                                </div>
+                                                <!-- section-wrapper -->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane " id="tab5">
+
+                                        <div class="row">
+                                            <div class="col-md-12 col-lg-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-title mr-2">Equipment Supply Deeds</div>
+                                                        <button type="button" class="btn btn-outline-primary"
+                                                                data-toggle="modal"
+                                                                data-target="#add-modal"><i
+                                                                    class="fas  fa-plus"></i>
+                                                        </button>
+                                                        <div class="card-options d-none d-sm-block mr-1">
+                                                            <a href="#" class="btn btn-outline-primary">Export <i
+                                                                        class="fas fa-file-export"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="table-responsive ">
+                                                            <table id="example-2"
+                                                                   class="table table-striped table-bordered nowrap">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th class="wd-15p border-bottom-0 text-left">
+                                                                        Deed
+                                                                        Serial
+                                                                    </th>
+                                                                    <th class="wd-15p border-bottom-0 text-center">
+                                                                        Supplier
+                                                                    </th>
+                                                                    <th class="wd-20p border-bottom-0 text-center">
+                                                                        Num
+                                                                        of equipment
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Request date
+                                                                    </th>
+                                                                    <th class="wd-10p border-bottom-0 text-center">
+                                                                        From
+                                                                        time
+                                                                    </th>
+                                                                    <th class="wd-15p border-bottom-0 text-center">
+                                                                        To
+                                                                        time
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Related To
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Status
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">
+                                                                        Actions
+                                                                    </th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>1354v18</td>
+                                                                    <td class="text-center">Jahan Shop</td>
+                                                                    <td class="text-center">03</td>
+                                                                    <td class="text-center">12 February 2019</td>
+                                                                    <td class="text-center">10:26 AM</td>
+                                                                    <td class="text-center">06:26 PM</td>
+                                                                    <td class="text-center">Organization</td>
+                                                                    <td class="text-center"> Requested</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/equipmentsupplydeed-view-print"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>243sx235</td>
+                                                                    <td class="text-center">Novin Shop</td>
+                                                                    <td class="text-center">23</td>
+                                                                    <td class="text-center">01 May 2021</td>
+                                                                    <td class="text-center">08:06 AM</td>
+                                                                    <td class="text-center">08:46 PM</td>
+                                                                    <td class="text-center">Deal</td>
+                                                                    <td class="text-center">Rejected</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/equipmentsupplydeed-view-print"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>23adc4544</td>
+                                                                    <td class="text-center">Bartar Company</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">18 March 2020</td>
+                                                                    <td class="text-center">09:16 AM</td>
+                                                                    <td class="text-center">10:15 PM</td>
+                                                                    <td class="text-center">Project</td>
+                                                                    <td class="text-center">Send To Supplier</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/equipmentsupplydeed-view-print"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2134as235</td>
+                                                                    <td class="text-center">First Shop</td>
+                                                                    <td class="text-center">09</td>
+                                                                    <td class="text-center">28 April 2018</td>
+                                                                    <td class="text-center">02:01 PM</td>
+                                                                    <td class="text-center">11:00 PM</td>
+                                                                    <td class="text-center">Project</td>
+                                                                    <td class="text-center">Ready For Transfer</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="/equipmentsupplydeed-view-print"
+                                                                           class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                        <a class="icon"
+                                                                           href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)"
+                                                                           data-toggle="modal"
+                                                                           data-target="#edit-modal"
+                                                                           class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-pen"></i>
+                                                                            Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <!-- table-wrapper -->
+                                                </div>
+                                                <!-- section-wrapper -->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane " id="tab6">
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="mt-4">2</h3>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title font-weight-bold">Calls</div>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table card-table table-vcenter table-hover">
-                        <thead>
-                        <tr>
-                            <th></th>
-                            <th>From</th>
-                            <th>To</th>
-                            <th>Time</th>
-                            <th></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Ehsan Rezvanian</td>
-                            <td>Hossein Azimi</td>
-                            <td>3:10</td>
-                            <td><a href="#" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i>
-                                    View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Ehsan Rezvanian</td>
-                            <td>Hossein Azimi</td>
-                            <td>3:10</td>
-                            <td><a href="#" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i>
-                                    View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Ehsan Rezvanian</td>
-                            <td>Hossein Azimi</td>
-                            <td>3:10</td>
-                            <td><a href="#" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i>
-                                    View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Ehsan Rezvanian</td>
-                            <td>Hossein Azimi</td>
-                            <td>3:10</td>
-                            <td><a href="#" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i>
-                                    View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>Ehsan Rezvanian</td>
-                            <td>Hossein Azimi</td>
-                            <td>3:10</td>
-                            <td><a href="#" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i>
-                                    View</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div id="people" class="card col-12">
-    <div class="card-header">
-        <h3 class="card-title">People In Meeting</h3>
-    </div>
-    <div class="card-body">
+<div id="information" class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="row">
-            <div class="col-3">
+            <div class="col-md-12 col-xl-12">
                 <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-red"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Jalal Hemati</h4>
-                        <p class="mb-1">Graphic designer</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
+                    <div class="card-header">
+                        <h3 class="card-title font-weight-bold">Meeting Item</h3>
                     </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-red"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Hamid Safinejad</h4>
-                        <p class="mb-1">Cameraman</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
+                    <div class="card-body p-5">
+                        <div class="panel panel-primary">
+                            <div class="tab-menu-heading p-3 ">
+                                <div class="tabs-menu ">
+                                    <!-- Tabs -->
+                                    <ul class="nav panel-tabs">
+                                        <li class=""><a href="#tab1-1" class="active font-weight-bold"
+                                                        data-toggle="tab">Cards</a>
+                                        </li>
+                                        <li><a href="#tab2-2" class="font-weight-bold"
+                                               data-toggle="tab">Timeline</a>
+                                        </li>
+                                        <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Chart</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="panel-body tabs-menu-body ">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab1-1">
+
+                                    </div>
+                                    <div class="tab-pane " id="tab2-2">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h3 class="card-title">Horizontal Time Line</h3>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="timeline">
+                                                            <div class="timeline__wrap">
+                                                                <div class="timeline__items">
+                                                                    <div class="timeline__item">
+                                                                        <div class="timeline__content  ">
+                                                                            <h2>15th Jan 2019</h2>
+                                                                            <p>Nam libero tempore, cum soluta nobis
+                                                                                est
+                                                                                eligendi optio cumque placeat facere
+                                                                                possimus, omnis voluptas assumenda
+                                                                                est,
+                                                                                omnis dolor repellendus</p>
+                                                                            <a href="#"
+                                                                               class="btn btn-primary btn-sm mt-2">View
+                                                                                More</a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="timeline__items">
+                                                                    <div class="timeline__item">
+                                                                        <div class="timeline__content  ">
+                                                                            <h2>15th Jan 2019</h2>
+                                                                            <p>Nam libero tempore, cum soluta nobis
+                                                                                est
+                                                                                eligendi optio cumque placeat facere
+                                                                                possimus, omnis voluptas assumenda
+                                                                                est,
+                                                                                omnis dolor repellendus</p>
+                                                                            <a href="#"
+                                                                               class="btn btn-primary btn-sm mt-2">View
+                                                                                More</a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="timeline__items">
+                                                                    <div class="timeline__item">
+                                                                        <div class="timeline__content  ">
+                                                                            <h2>15th Jan 2019</h2>
+                                                                            <p>Nam libero tempore, cum soluta nobis
+                                                                                est
+                                                                                eligendi optio cumque placeat facere
+                                                                                possimus, omnis voluptas assumenda
+                                                                                est,
+                                                                                omnis dolor repellendus</p>
+                                                                            <a href="#"
+                                                                               class="btn btn-primary btn-sm mt-2">View
+                                                                                More</a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="timeline__items">
+                                                                    <div class="timeline__item">
+                                                                        <div class="timeline__content  ">
+                                                                            <h2>15th Jan 2019</h2>
+                                                                            <p>Nam libero tempore, cum soluta nobis
+                                                                                est
+                                                                                eligendi optio cumque placeat facere
+                                                                                possimus, omnis voluptas assumenda
+                                                                                est,
+                                                                                omnis dolor repellendus</p>
+                                                                            <a href="#"
+                                                                               class="btn btn-primary btn-sm mt-2">View
+                                                                                More</a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab3-3">
+                                        <div id="highchart3"></div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Shamim Aghaie</h4>
-                        <p class="mb-1">Photo Editor</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-red"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Hosein Shojaie</h4>
-                        <p class="mb-1">Cameraman</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Saghar Kasiri</h4>
-                        <p class="mb-1">Film Editor</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Baran Azimi</h4>
-                        <p class="mb-1">Photo Editor</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-red"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Alireza Badran</h4>
-                        <p class="mb-1">Quality Supervisor</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Sobhan Shafati</h4>
-                        <p class="mb-1">Designer</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Asal Moghadam</h4>
-                        <p class="mb-1">Designer</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Tina Soleimani</h4>
-                        <p class="mb-1">Film Editor</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Hashem Safaie</h4>
-                        <p class="mb-1">Photo Designer</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <a href="#">
-												<span class="avatar avatar-xxl brround cover-image m-2"
-                                                      data-image-src="../assets/images/users/male/20.jpg">
-													<span class="avatar-status bg-green"></span>
-												</span>
-                        </a>
-                        <h4 class=" mb-1">Sasan Saberi</h4>
-                        <p class="mb-1">Quality Supervisor</p>
-                        <div class="mt-1 mb-4">
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-warning"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary"><i class="fas fa-star"></i></span>
-                        </div>
-                        <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                            View</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        <ul id="people pagination" class="pagination justify-content-center mb-5">
-            <li class="page-item page-prev disabled">
-                <a class="page-link" href="#" tabindex="-1">Prev</a>
-            </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-            <li class="page-item page-next">
-                <a class="page-link" href="#">Next</a>
-            </li>
-        </ul>
     </div>
 </div>
+
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">

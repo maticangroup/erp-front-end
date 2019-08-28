@@ -54,8 +54,8 @@
 
 
 <!-- Timeline js -->
-<script src="/assets/plugins/timeline/timeline.min.js"></script>
 <script src="/assets/js/timeline.js"></script>
+<script src="/assets/plugins/timeline/timeline.min.js"></script>
 
 <!--Rating js-->
 <script src="/assets/plugins/rating/jquery.rating-stars.js"></script>
@@ -198,7 +198,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
 <?php endif; ?>
 <?php
-$current_page = ['/ad', '/tasks'];
+$current_page = ['/meeting-view', '/tasks'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
