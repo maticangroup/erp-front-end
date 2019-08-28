@@ -15,17 +15,6 @@
 
 <div class="row">
     <div class="col-xl-4 col-lg-6 col-md-12">
-        <div id="milestones" class="card">
-            <div class="card-body d-flex">
-                <img src="../assets/images/svgs/png/001-24-hours.png" alt="img" class="w-8 h-8">
-                <div class="svg-icons float-right text-right ml-auto">
-                    <h2>16</h2>
-                    <button href="#" class=" btn-pill btn-outline-primary btn-sm font-weight-bold">Milestones</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-4 col-lg-6 col-md-12">
         <div id="tasks" class="card">
             <div class="card-body d-flex">
                 <img src="../assets/images/svgs/png/018-clipboard-1.png" alt="img" class="w-8 h-8">
@@ -70,28 +59,6 @@
         </div>
     </div>
     <div class="col-xl-4 col-lg-6 col-md-12">
-        <div id="Services" class="card">
-            <div class="card-body d-flex">
-                <img src="../assets/images/svgs/png/095-box-14.png" alt="img" class="w-8 h-8">
-                <div class="svg-icons float-right text-right ml-auto">
-                    <h2>8</h2>
-                    <button href="#" class=" btn-pill btn-outline-primary btn-sm font-weight-bold">Services</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-4 col-lg-6 col-md-12">
-        <div id="Vendors" class="card">
-            <div class="card-body d-flex">
-                <img src="../assets/images/svgs/png/081-on-time.png" alt="img" class="w-8 h-8">
-                <div class="svg-icons float-right text-right ml-auto">
-                    <h2>20</h2>
-                    <button href="#" class=" btn-pill btn-outline-primary btn-sm font-weight-bold">Vendors</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-4 col-lg-6 col-md-12">
         <div id="Polls" class="card">
             <div class="card-body d-flex">
                 <img src="../assets/images/svgs/png/026-customer-service.png" alt="img" class="w-8 h-8">
@@ -113,13 +80,266 @@
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-6 col-md-12">
-        <div id="ShopItem" class="card">
-            <div class="card-body d-flex">
-                <img src="../assets/images/svgs/png/115-shopping-cart.png" alt="img" class="w-8 h-8">
-                <div class="svg-icons float-right text-right ml-auto">
-                    <h2>19</h2>
-                    <button href="#" class=" btn-pill btn-outline-primary btn-sm font-weight-bold">Shop Item Request</button>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <div id="milestone" class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Milestone & Tasks</h3>
+            </div>
+            <div class="card-body p-3">
+                <div class="panel panel-primary">
+                    <div class=" tab-menu-heading">
+                        <div class="tabs-menu1 ">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li class=""><a href="#tab5" class="active font-weight-bold " data-toggle="tab">Preparation</a>
+                                </li>
+                                <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Look & Feel</a></li>
+                                <li><a href="#tab7" class="font-weight-bold" data-toggle="tab">Completion</a></li>
+                                <li class="ml-auto">
+                                    <button type="button" class="btn btn-outline-primary " data-toggle="modal" data-target="#milestone-add-modal"><i class="fas  fa-plus"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel-body tabs-menu-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab5">
+                                <div id="jumbotron" class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="jumbotron d-print-inline-block rounded-0">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-xl-4 col-lg-12 col-md-12">
+                                                        <div class="form-group row">
+                                                            <div class="media-body ml-5">
+                                                                <h6 class="mediafont text-dark mt-3 mb-3 ">Budget Usage
+                                                                    :</h6>
+                                                                <span class="d-block">
+                                                                                <div class="progress progress-md mb-1">
+                                                                                    <div class="progress-bar bg-success w-20 font-weight-bold">20%</div>
+                                                                                </div>
+                                                                            </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-12 col-md-12">
+                                                        <div class="form-group row">
+                                                            <div class="media-body ml-5 mt-3">
+                                                                <h6 class="mediafont text-dark mb-1">Total Estimate
+                                                                    :</h6>
+                                                                <p class="d-block text-muted">9h 25m</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-3 col-lg-12 col-md-12">
+                                                        <div class="form-group row">
+                                                            <div class="media-body ml-5 mt-3">
+                                                                <h6 class="mediafont text-danger mb-1">Estimate
+                                                                    Overflow:</h6>
+                                                                <p class="d-block text-muted">1h 50m</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-1 col-lg-12 col-md-12 text-right ">
+                                                        <button href="javascript:void(0)" data-toggle="modal"
+                                                                data-target="#edit-modal"
+                                                                class="btn btn-outline-primary btn-sm mt-2"><i
+                                                                    class="fas fa-pen"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="card-1" class="col-xl-4 col-lg-12 col-md-12">
+                                        <div class="card rounded-0">
+                                            <div class="card-header d-flex justify-content-center">
+                                                <h3 class="row card-title font-weight-bold ">To Be Scheduled &nbsp;
+                                                    <div class="text-muted">5h 25m</div>
+                                                </h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div id="sec1.1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h5 class="font-weight-bold">Administration</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="form-group row">
+                                                                <div class="media-body ml-3">
+                                                                    <p class="text-info mb-0">2h remaining</p>
+                                                                    <span class="d-block pr-5">
+                                                                                <div class="progress progress-md mt-0 mb-1">
+                                                                                    <div class="progress-bar bg-info w-100 font-weight-bold"></div>
+                                                                                </div>
+                                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="font-weight-bold mb-0 mt-1">Ehsan Rezvanian</p>
+                                                            <p>Develop first wireframes of new company page</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sec1.2">
+                                                    <div class="row mt-4">
+                                                        <div class="col-12">
+                                                            <h5 class="font-weight-bold">Development</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-5 ">
+                                                            <div class="form-group row">
+                                                                <div class="media-body ml-3">
+                                                                    <p class=" text-info mb-0">1h 25m remaining</p>
+                                                                    <span class="d-block pr-5">
+                                                                                <div class="progress progress-md mt-0 mb-1 ">
+                                                                                    <div class="progress-bar bg-info w-100 font-weight-bold"></div>
+                                                                                </div>
+                                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="font-weight-bold mt-1 mb-0">Ehsan Rezvanian</p>
+                                                            <p>Fix bugs in company page</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sec1.3">
+                                                    <div class="row mt-4">
+                                                        <div class="col-12">
+                                                            <h5 class="font-weight-bold">Design</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="form-group row">
+                                                                <div class="media-body ml-3">
+                                                                    <p class="text-info mb-0">1h remaining</p>
+                                                                    <span class="d-block pr-5">
+                                                                                <div class="progress progress-md mt-0 mb-1">
+                                                                                    <div class="progress-bar bg-info w-100 font-weight-bold"></div>
+                                                                                </div>
+                                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="font-weight-bold mt-1 mb-0">Ehsan Rezvanian</p>
+                                                            <p>Images for mobile reservation app</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sec1.4">
+                                                    <div class="row mt-6">
+                                                        <div class="col-6 p-0">
+                                                            <button type="button"
+                                                                    class="btn-pill btn-outline-primary ml-3"><i
+                                                                        class="fas  fa-plus"></i> New Task
+                                                            </button>
+                                                        </div>
+                                                        <div class="col-6 p-0">
+                                                            <button type="button"
+                                                                    class="btn-pill btn-outline-primary ml-0"><i
+                                                                        class="fas  fa-plus"></i> New Meeting
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="card-2" class="col-xl-4 col-lg-12 col-md-12">
+                                        <div class="card rounded-0">
+                                            <div class="card-header d-flex justify-content-center">
+                                                <h3 class="row card-title font-weight-bold ">Scheduled &nbsp;
+                                                    <div class="text-muted">3h</div>
+                                                </h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div id="sec2.1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h5 class="font-weight-bold">Meetings</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="form-group row">
+                                                                <div class="media-body ml-3">
+                                                                    <p class="text-info mb-0">3h remaining</p>
+                                                                    <span class="d-block pr-5">
+                                                                            <div class="progress progress-md mt-0 mb-1">
+                                                                                <div class="progress-bar bg-info w-100 font-weight-bold"></div>
+                                                                            </div>
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="font-weight-bold mb-0 mt-1">Ehsan Rezvanian</p>
+                                                            <p>29/07/19 - Status meeting on delivery of the project</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="card-3" class="col-xl-4 col-lg-12 col-md-12">
+                                        <div class="card rounded-0">
+                                            <div class="card-header d-flex justify-content-center">
+                                                <h3 class="row card-title font-weight-bold ">Timetracking &nbsp;
+                                                    <div class="text-muted">5h 50m</div>
+                                                </h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div id="sec3.1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h5 class="font-weight-bold">Administration</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <div class="form-group row">
+                                                                <div class="media-body ml-3">
+                                                                    <p class="text-danger mb-0">Total 5h 50m</p>
+                                                                    <span class="d-block pr-5">
+                                                                            <div class="progress progress-md mt-0 mb-1">
+                                                                                <div class="progress-bar bg-danger w-50 font-weight-bold"></div>
+                                                                            </div>
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="font-weight-bold mb-0 mt-1">Ehsan Rezvanian</p>
+                                                            <p>
+                                                                <del>Create logo for Peterson</del>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab6">
+
+                            </div>
+                            <div class="tab-pane " id="tab7">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,25 +360,25 @@
                                 <div class="tabs-menu ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
-                                        <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">People</a></li>
-                                        <li><a href="#tab2" class="font-weight-bold"  data-toggle="tab">Analytics</a></li>
-                                        <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Scheduling & Timing</a></li>
-                                        <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Calls</a></li>
-                                        <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Meeting</a></li>
-                                        <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                        <li><a href="#tab7" class="font-weight-bold" data-toggle="tab">Financial</a></li>
-                                        <li><a href="#tab8" class="font-weight-bold" data-toggle="tab">Deed</a></li>
-                                        <li><a href="#tab9" class="font-weight-bold" data-toggle="tab">Notification & Alert</a></li>
-                                        <li><a href="#tab10" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
-                                        <li><a href="#tab11" class="font-weight-bold" data-toggle="tab">Files</a></li>
-                                        <li><a href="#tab12" class="font-weight-bold" data-toggle="tab">Quality Control</a></li>
-                                        <li><a href="#tab13" class="font-weight-bold" data-toggle="tab">Services</a></li>
+                                        <li class=""><a href="#tab1111" class="active font-weight-bold" data-toggle="tab">People</a></li>
+                                        <li><a href="#tab2222" class="font-weight-bold"  data-toggle="tab">Analytics</a></li>
+                                        <li><a href="#tab3333" class="font-weight-bold" data-toggle="tab">Scheduling & Timing</a></li>
+                                        <li><a href="#tab4444" class="font-weight-bold" data-toggle="tab">Calls</a></li>
+                                        <li><a href="#tab5555" class="font-weight-bold" data-toggle="tab">Meeting</a></li>
+                                        <li><a href="#tab6666" class="font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                        <li><a href="#tab7777" class="font-weight-bold" data-toggle="tab">Financial</a></li>
+                                        <li><a href="#tab8888" class="font-weight-bold" data-toggle="tab">Deed</a></li>
+                                        <li><a href="#tab9999" class="font-weight-bold" data-toggle="tab">Notification & Alert</a></li>
+                                        <li><a href="#tab1010" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
+                                        <li><a href="#tab11111" class="font-weight-bold" data-toggle="tab">Files</a></li>
+                                        <li><a href="#tab1212" class="font-weight-bold" data-toggle="tab">Quality Control</a></li>
+                                        <li><a href="#tab1313" class="font-weight-bold" data-toggle="tab">Services</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="panel-body tabs-menu-body ">
                                 <div class="tab-content">
-                                    <div class="tab-pane active " id="tab1">
+                                    <div class="tab-pane active " id="tab1111">
                                         <div class="row mt-5">
                                             <div class="col-xl-3 col-lg-6 col-md-12">
                                                 <div class="card ">
@@ -474,7 +694,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane " id="tab2">
+                                    <div class="tab-pane " id="tab2222">
                                         <div class="row mt-5">
                                             <div id="Project Value" class="col-xl-4 col-lg-12 col-md-12">
                                                 <div class="card">
@@ -565,70 +785,484 @@
                                             </div>
                                         </div>
                                      </div>
-                                    <div class="tab-pane " id="tab3"></div>
-                                    <div class="tab-pane " id="tab4">
-                                        <div id="calls section" class="col-xl-12 col-lg-12 col-md-12">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <div class="card-title font-weight-bold">Calls</div>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="table-responsive">
-                                                        <table class="table card-table table-vcenter table-hover">
-                                                            <thead>
-                                                            <tr>
-                                                                <th></th>
-                                                                <th>From</th>
-                                                                <th>To</th>
-                                                                <th>Time</th>
-                                                                <th></th>
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                            <tr>
-                                                                <th scope="row">1</th>
-                                                                <td>Ehsan Rezvanian</td>
-                                                                <td>Hossein Azimi</td>
-                                                                <td>3:10</td>
-                                                                <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th scope="row">2</th>
-                                                                <td>Ehsan Rezvanian</td>
-                                                                <td>Hossein Azimi</td>
-                                                                <td>3:10</td>
-                                                                <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th scope="row">3</th>
-                                                                <td>Ehsan Rezvanian</td>
-                                                                <td>Hossein Azimi</td>
-                                                                <td>3:10</td>
-                                                                <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th scope="row">4</th>
-                                                                <td>Ehsan Rezvanian</td>
-                                                                <td>Hossein Azimi</td>
-                                                                <td>3:10</td>
-                                                                <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th scope="row">5</th>
-                                                                <td>Ehsan Rezvanian</td>
-                                                                <td>Hossein Azimi</td>
-                                                                <td>3:10</td>
-                                                                <td><a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a></td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
+                                    <div class="tab-pane " id="tab3333">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="border p-0">
+                                                            <div class="row m-0">
+                                                                <div id="lnb" class="col-lg-3 col-md-12 col-12">
+                                                                    <div class="lnb-new-schedule">
+                                                                        <button id="btn-new-schedule" type="button" class="btn btn-secondary btn-block lnb-new-schedule-btn" data-toggle="modal">
+                                                                            New schedule</button>
+                                                                    </div>
+                                                                    <div id="lnb-calendars" class="lnb-calendars">
+                                                                        <div>
+                                                                            <div class="lnb-calendars-item">
+                                                                                <label>
+                                                                                    <input class="tui-full-calendar-checkbox-square" type="checkbox" value="all" checked>
+                                                                                    <span></span>
+                                                                                    <strong>View all</strong>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="calendarList" class="lnb-calendars-d1">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="right" class="col-lg-9 col-md-12 col-12">
+                                                                    <div id="menu">
+                                                                        <div class="dropdown">
+                                                                            <button id="dropdownMenu-calendarType" class="btn btn-primary btn-sm btn-pill dropdown-toggle" type="button" data-toggle="dropdown"
+                                                                                    aria-haspopup="true" aria-expanded="true">
+                                                                                <i id="calendarTypeIcon" class="calendar-icon ic_view_month"></i>
+                                                                                <span id="calendarTypeName">Dropdown</span>&nbsp;
+                                                                                <i class="calendar-icon tui-full-calendar-dropdown-arrow"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu-calendarType">
+                                                                                <li role="presentation">
+                                                                                    <a class="dropdown-menu-title" role="menuitem" data-action="toggle-daily">
+                                                                                        <i class="calendar-icon ic_view_day"></i>Daily
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation">
+                                                                                    <a class="dropdown-menu-title" role="menuitem" data-action="toggle-weekly">
+                                                                                        <i class="calendar-icon ic_view_week"></i>Weekly
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation">
+                                                                                    <a class="dropdown-menu-title" role="menuitem" data-action="toggle-monthly">
+                                                                                        <i class="calendar-icon ic_view_month"></i>Month
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation">
+                                                                                    <a class="dropdown-menu-title" role="menuitem" data-action="toggle-weeks2">
+                                                                                        <i class="calendar-icon ic_view_week"></i>2 weeks
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation">
+                                                                                    <a class="dropdown-menu-title" role="menuitem" data-action="toggle-weeks3">
+                                                                                        <i class="calendar-icon ic_view_week"></i>3 weeks
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation" class="dropdown-divider"></li>
+                                                                                <li role="presentation">
+                                                                                    <a role="menuitem" data-action="toggle-workweek">
+                                                                                        <input type="checkbox" class="tui-full-calendar-checkbox-square" value="toggle-workweek" checked>
+                                                                                        <span class="checkbox-title"></span>Show weekends
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation">
+                                                                                    <a role="menuitem" data-action="toggle-start-day-1">
+                                                                                        <input type="checkbox" class="tui-full-calendar-checkbox-square" value="toggle-start-day-1">
+                                                                                        <span class="checkbox-title"></span>Start Week on Monday
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li role="presentation">
+                                                                                    <a role="menuitem" data-action="toggle-narrow-weekend">
+                                                                                        <input type="checkbox" class="tui-full-calendar-checkbox-square" value="toggle-narrow-weekend">
+                                                                                        <span class="checkbox-title"></span>Narrower than weekdays
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <span id="menu-navi">
+															<button type="button" class="btn btn-success btn-sm btn-pill move-today" data-action="move-today">Today</button>
+															<button type="button" class="btn btn-primary btn-pill btn-sm move-day" data-action="move-prev">
+																<i class="calendar-icon ic-arrow-line-left" data-action="move-prev"></i>
+															</button>
+															<button type="button" class="btn btn-primary btn-pill btn-sm move-day " data-action="move-next">
+																<i class="calendar-icon ic-arrow-line-right" data-action="move-next"></i>
+															</button>
+														</span>
+                                                                        <span id="renderRange" class="render-range"></span>
+                                                                    </div>
+                                                                    <div id="calendar"  class="table-responsive h-800"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
-                                    <div class="tab-pane " id="tab5"></div>
-                                    <div class="tab-pane " id="tab6">
+                                    <div class="tab-pane " id="tab4444">
+                                        <div class="row">
+                                            <div class="col-md-12 col-lg-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-title mr-2">Calls</div>
+                                                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                                                                data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                                                        <div class="card-options d-none d-sm-block mr-1">
+                                                            <a href="#" class="btn btn-outline-primary">Export <i
+                                                                        class="fas fa-file-export"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="table-responsive ">
+                                                            <table id="example-2" class="table table-striped table-bordered nowrap">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th class="wd-15p border-bottom-0">Topic</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Call Method</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">From</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">To</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Date</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Time</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Result
+                                                                    </th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Status</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center"></th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">Positive</td>
+                                                                    <td class="text-center">Done</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">-</td>
+                                                                    <td class="text-center">Waiting to be made</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">Positive</td>
+                                                                    <td class="text-center">Done</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">-</td>
+                                                                    <td class="text-center">Waiting to be made</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">Positive</td>
+                                                                    <td class="text-center">Done</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">-</td>
+                                                                    <td class="text-center">Waiting to be made</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">Positive</td>
+                                                                    <td class="text-center">Done</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                                                    class="fas fa-eye"></i> View</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Mr. Rezvanian's Wedding</td>
+                                                                    <td class="text-center">Telephone</td>
+                                                                    <td class="text-center">Ghobad abbasi</td>
+                                                                    <td class="text-center">Samir Nasir</td>
+                                                                    <td class="text-center">12/3/97</td>
+                                                                    <td class="text-center">11:04</td>
+                                                                    <td class="text-center">-</td>
+                                                                    <td class="text-center">Waiting to be made</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    </td>
+                                                                </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <!-- table-wrapper -->
+                                                </div>
+                                                <!-- section-wrapper -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab5555">
+                                        <div class="row">
+                                            <div class="col-md-12 col-lg-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-title mr-2">Meetings</div>
+                                                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                                                                data-target="#exampleModal3"><i class="fas fa-plus"></i></button>
+
+                                                        <div class="card-options d-none d-sm-block mr-1">
+                                                            <a href="#" class="btn btn-outline-primary">Export <i
+                                                                        class="fas fa-file-export"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="table-responsive ">
+                                                            <table id="example-2" class="table table-striped table-bordered">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th class="wd-15p border-bottom-0 text-center">Title</th>
+                                                                    <th class="wd-15p border-bottom-0 text-center">Type</th>
+                                                                    <th class="wd-10p border-bottom-0 text-center">Date</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">From time</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Duration Time</th>
+                                                                    <th class="wd-15p border-bottom-0 text-center">Meeting Leader</th>
+                                                                    <th class="wd-25p border-bottom-0 text-center">Place</th>
+                                                                    <th class="border-bottom-0 text-center">Status</th>
+                                                                    <th></th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Rezvanian's wedding</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>2/3/93</td>
+                                                                    <td>13:00</td>
+                                                                    <td>2 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Not Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Ahmadi's Formality</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>6/4/97</td>
+                                                                    <td>15:00</td>
+                                                                    <td>1 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Rezvanian's wedding</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>2/3/93</td>
+                                                                    <td>13:00</td>
+                                                                    <td>2 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Not Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Ahmadi's Formality</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>6/4/97</td>
+                                                                    <td>15:00</td>
+                                                                    <td>1 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Rezvanian's wedding</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>2/3/93</td>
+                                                                    <td>13:00</td>
+                                                                    <td>2 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Not Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Ahmadi's Formality</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>6/4/97</td>
+                                                                    <td>15:00</td>
+                                                                    <td>1 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Rezvanian's wedding</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>2/3/93</td>
+                                                                    <td>13:00</td>
+                                                                    <td>2 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Not Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td>Mr. Ahmadi's Formality</td>
+                                                                    <td>Client ordering advice</td>
+                                                                    <td>6/4/97</td>
+                                                                    <td>15:00</td>
+                                                                    <td>1 Hours</td>
+                                                                    <td>Mr. Azimi</td>
+                                                                    <td>Tehran, Enqelab Square</td>
+                                                                    <td>Planned</td>
+                                                                    <td class="text-center">
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a href="/meeting-view"
+                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                            View</a>
+                                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                                    class="si si-pencil"></i> Update</a>
+                                                                    </td>
+                                                                </tr>
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <!-- table-wrapper -->
+                                                </div>
+                                                <!-- section-wrapper -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab6666">
                                         <div class="panel panel-primary">
                                             <div class=" tab-menu-heading">
                                                 <div class="tabs-menu1 ">
@@ -838,24 +1472,75 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane " id="tab7"></div>
-                                    <div class="tab-pane " id="tab8"></div>
-                                    <div class="tab-pane " id="tab9"></div>
-                                    <div class="tab-pane " id="tab10">
+                                    <div class="tab-pane " id="tab7777"></div>
+                                    <div class="tab-pane " id="tab8888"></div>
+                                    <div class="tab-pane " id="tab9999"></div>
+                                    <div class="tab-pane " id="tab1010">
                                         <div id="map section" class="col-xl-12 col-lg-12 col-md-12">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <h3 class="card-title font-weight-bold">Route Map</h3>
+                                                    <h3 class="card-title font-weight-bold">World Map</h3>
                                                 </div>
                                                 <div class="card-body">
-                                                    <img src="../assets/images/photos/Screenshot (143).png">
+                                                    <div id="world-map-markers" class="vector-map" ></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane " id="tab11"></div>
-                                    <div class="tab-pane " id="tab12"></div>
-                                    <div class="tab-pane " id="tab13"></div>
+                                    <div class="tab-pane " id="tab11111">
+                                        <div class="row">
+                                                <div class="col-3">
+                                                    <div class="card">
+                                                        <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                         src="../assets/images/photos/2.jpg"
+                                                                         alt="Well, I didn&#39;t vote for you."></a>
+                                                        <div class="card-body d-flex flex-column">
+                                                            <h4><a href="#">Wireframe.PDF</a>
+                                                            </h4>
+                                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="card">
+                                                        <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                         src="../assets/images/photos/2.jpg"
+                                                                         alt="Well, I didn&#39;t vote for you."></a>
+                                                        <div class="card-body d-flex flex-column">
+                                                            <h4><a href="#">Photos.JPG</a>
+                                                            </h4>
+                                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="card">
+                                                        <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                         src="../assets/images/photos/2.jpg"
+                                                                         alt="Well, I didn&#39;t vote for you."></a>
+                                                        <div class="card-body d-flex flex-column">
+                                                            <h4><a href="#">Videos.MKV</a>
+                                                            </h4>
+                                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="card">
+                                                        <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
+                                                                         src="../assets/images/photos/2.jpg"
+                                                                         alt="Well, I didn&#39;t vote for you."></a>
+                                                        <div class="card-body d-flex flex-column">
+                                                            <h4><a href="#">Movies.MKV</a>
+                                                            </h4>
+                                                            <a href="#" class="btn btn-primary btn-sm">View</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab1212"></div>
+                                    <div class="tab-pane " id="tab1313"></div>
                                 </div>
                             </div>
                         </div>
@@ -867,269 +1552,7 @@
 </div>
 
 
-<div class="row">
-    <div class="col-lg-12 col-md-12">
-        <div id="milestone" class="card">
-            <div class="card-header">
-                <h3 class="card-title font-weight-bold">Milestone & Tasks</h3>
-            </div>
-            <div class="card-body p-3">
-                <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
-                        <div class="tabs-menu1 ">
-                            <!-- Tabs -->
-                            <ul class="nav panel-tabs">
-                                <li class=""><a href="#tab5" class="active font-weight-bold " data-toggle="tab">Preparation</a>
-                                </li>
-                                <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Look & Feel</a></li>
-                                <li><a href="#tab7" class="font-weight-bold" data-toggle="tab">Completion</a></li>
-                                <li class="ml-auto">
-                                    <button type="button" class="btn btn-outline-primary " data-toggle="modal" data-target="#milestone-add-modal"><i class="fas  fa-plus"></i></button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="panel-body tabs-menu-body">
-                        <div class="tab-content">
-                            <div class="tab-pane active " id="tab5">
-                                <div id="jumbotron" class="row">
-                                    <div class="col-md-12 col-lg-12">
-                                        <div class="jumbotron d-print-inline-block rounded-0">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-xl-4 col-lg-12 col-md-12">
-                                                        <div class="form-group row">
-                                                            <div class="media-body ml-5">
-                                                                <h6 class="mediafont text-dark mt-3 mb-3 ">Budget Usage
-                                                                    :</h6>
-                                                                <span class="d-block">
-                                                                                <div class="progress progress-md mb-1">
-                                                                                    <div class="progress-bar bg-success w-20 font-weight-bold">20%</div>
-                                                                                </div>
-                                                                            </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-12 col-md-12">
-                                                        <div class="form-group row">
-                                                            <div class="media-body ml-5 mt-3">
-                                                                <h6 class="mediafont text-dark mb-1">Total Estimate
-                                                                    :</h6>
-                                                                <p class="d-block text-muted">9h 25m</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-lg-12 col-md-12">
-                                                        <div class="form-group row">
-                                                            <div class="media-body ml-5 mt-3">
-                                                                <h6 class="mediafont text-danger mb-1">Estimate
-                                                                    Overflow:</h6>
-                                                                <p class="d-block text-muted">1h 50m</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-1 col-lg-12 col-md-12 text-right ">
-                                                        <button href="javascript:void(0)" data-toggle="modal"
-                                                                data-target="#edit-modal"
-                                                                class="btn btn-outline-primary btn-sm mt-2"><i
-                                                                    class="fas fa-pen"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div id="card-1" class="col-xl-4 col-lg-12 col-md-12">
-                                        <div class="card rounded-0">
-                                            <div class="card-header d-flex justify-content-center">
-                                                <h3 class="row card-title font-weight-bold ">To Be Scheduled &nbsp;
-                                                    <div class="text-muted">5h 25m</div>
-                                                </h3>
-                                            </div>
-                                            <div class="card-body">
-                                                <div id="sec1.1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h5 class="font-weight-bold">Administration</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-5">
-                                                            <div class="form-group row">
-                                                                <div class="media-body ml-3">
-                                                                    <p class="text-info mb-0">2h remaining</p>
-                                                                    <span class="d-block pr-5">
-                                                                                <div class="progress progress-md mt-0 mb-1">
-                                                                                    <div class="progress-bar bg-info w-100 font-weight-bold"></div>
-                                                                                </div>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="font-weight-bold mb-0 mt-1">Ehsan Rezvanian</p>
-                                                            <p>Develop first wireframes of new company page</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id="sec1.2">
-                                                    <div class="row mt-4">
-                                                        <div class="col-12">
-                                                            <h5 class="font-weight-bold">Development</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-5 ">
-                                                            <div class="form-group row">
-                                                                <div class="media-body ml-3">
-                                                                    <p class=" text-info mb-0">1h 25m remaining</p>
-                                                                    <span class="d-block pr-5">
-                                                                                <div class="progress progress-md mt-0 mb-1 ">
-                                                                                    <div class="progress-bar bg-info w-100 font-weight-bold"></div>
-                                                                                </div>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="font-weight-bold mt-1 mb-0">Ehsan Rezvanian</p>
-                                                            <p>Fix bugs in company page</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id="sec1.3">
-                                                    <div class="row mt-4">
-                                                        <div class="col-12">
-                                                            <h5 class="font-weight-bold">Design</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-5">
-                                                            <div class="form-group row">
-                                                                <div class="media-body ml-3">
-                                                                    <p class="text-info mb-0">1h remaining</p>
-                                                                    <span class="d-block pr-5">
-                                                                                <div class="progress progress-md mt-0 mb-1">
-                                                                                    <div class="progress-bar bg-info w-100 font-weight-bold"></div>
-                                                                                </div>
-                                                                            </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="font-weight-bold mt-1 mb-0">Ehsan Rezvanian</p>
-                                                            <p>Images for mobile reservation app</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id="sec1.4">
-                                                    <div class="row mt-6">
-                                                        <div class="col-6 p-0">
-                                                            <button type="button"
-                                                                    class="btn-pill btn-outline-primary ml-3"><i
-                                                                        class="fas  fa-plus"></i> New Task
-                                                            </button>
-                                                        </div>
-                                                        <div class="col-6 p-0">
-                                                            <button type="button"
-                                                                    class="btn-pill btn-outline-primary ml-0"><i
-                                                                        class="fas  fa-plus"></i> New Meeting
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="card-2" class="col-xl-4 col-lg-12 col-md-12">
-                                        <div class="card rounded-0">
-                                            <div class="card-header d-flex justify-content-center">
-                                                <h3 class="row card-title font-weight-bold ">Scheduled &nbsp;
-                                                    <div class="text-muted">3h</div>
-                                                </h3>
-                                            </div>
-                                            <div class="card-body">
-                                                <div id="sec2.1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h5 class="font-weight-bold">Meetings</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-5">
-                                                            <div class="form-group row">
-                                                                <div class="media-body ml-3">
-                                                                    <p class="text-info mb-0">3h remaining</p>
-                                                                    <span class="d-block pr-5">
-                                                                            <div class="progress progress-md mt-0 mb-1">
-                                                                                <div class="progress-bar bg-info w-100 font-weight-bold"></div>
-                                                                            </div>
-                                                                        </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="font-weight-bold mb-0 mt-1">Ehsan Rezvanian</p>
-                                                            <p>29/07/19 - Status meeting on delivery of the project</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="card-3" class="col-xl-4 col-lg-12 col-md-12">
-                                        <div class="card rounded-0">
-                                            <div class="card-header d-flex justify-content-center">
-                                                <h3 class="row card-title font-weight-bold ">Timetracking &nbsp;
-                                                    <div class="text-muted">5h 50m</div>
-                                                </h3>
-                                            </div>
-                                            <div class="card-body">
-                                                <div id="sec3.1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <h5 class="font-weight-bold">Administration</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-5">
-                                                            <div class="form-group row">
-                                                                <div class="media-body ml-3">
-                                                                    <p class="text-danger mb-0">Total 5h 50m</p>
-                                                                    <span class="d-block pr-5">
-                                                                            <div class="progress progress-md mt-0 mb-1">
-                                                                                <div class="progress-bar bg-danger w-50 font-weight-bold"></div>
-                                                                            </div>
-                                                                        </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-7">
-                                                            <p class="font-weight-bold mb-0 mt-1">Ehsan Rezvanian</p>
-                                                            <p>
-                                                                <del>Create logo for Peterson</del>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane " id="tab6">
 
-                            </div>
-                            <div class="tab-pane " id="tab7">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!--Modals-->

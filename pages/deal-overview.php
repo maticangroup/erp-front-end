@@ -14,8 +14,7 @@
                 <button type="button" class="btn btn-outline-primary" data-toggle="modal"
                         data-target="#exampleModal3"><i class="fas  fa-user-plus"></i></button>
                 <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
+                    <a href="#" class="btn btn-outline-primary">Export <i class="fas fa-file-export"></i></a>
                 </div>
             </div>
             <div class="card-body">
@@ -25,7 +24,7 @@
                         <tr>
                             <th class="border-bottom-0 text-center">Create Date</th>
                             <th class="border-bottom-0 text-center">Title</th>
-                            <th class="border-bottom-0 text-centerSSS">Customer</th>
+                            <th class="border-bottom-0 text-center">Customer</th>
                             <th class="border-bottom-0 text-center">Tag</th>
                             <th class="border-bottom-0 text-center">Value</th>
                             <th class="border-bottom-0 text-center">Source</th>
@@ -317,6 +316,26 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="ServiceCategory">Source :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control select2-show-search" id="ServiceCategory" data-placeholder="Choose one (with optgroup)">
+                                                                    <option>Instagram</option>
+                                                                    <option>Website</option>
+                                                                    <option>Telegram</option>
+                                                                    <option>E-mail</option>
+                                                                    <option>Advertisement</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="tab-pane" id="tab2">
                                             <div class="form-group clearfix mt-3">
@@ -371,7 +390,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 <div class="modal fade" id="exampleModal3-2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -436,8 +454,7 @@
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
-                                                        <select class="form-control custom-select"
-                                                                data-placeholder="">
+                                                        <select class="form-control custom-select" data-placeholder="">
                                                             <option> Ali Azimi</option>
                                                             <option> Hossein Azimi</option>
                                                             <option> Ehsan Rezvanian</option>
@@ -468,6 +485,26 @@
                                                         <input type="number" class="form-control"
                                                                name="example-text-input"
                                                                placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="ServiceCategory">Source :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control select2-show-search" id="ServiceCategory" data-placeholder="Choose one (with optgroup)">
+                                                                    <option>Instagram</option>
+                                                                    <option>Website</option>
+                                                                    <option>Telegram</option>
+                                                                    <option>E-mail</option>
+                                                                    <option>Advertisement</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
