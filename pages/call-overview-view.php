@@ -365,6 +365,50 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab4">
+                                            <div class="form-group clearfix">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="HoldDate">Duration Time :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="wd-150 mg-b-30">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text">
+                                                                        <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                    </div>
+                                                                </div><!-- input-group-prepend -->
+                                                                <input class="form-control" id="tpBasic"
+                                                                       placeholder="Set time" type="text">
+                                                            </div>
+                                                        </div><!-- wd-150 -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <label class="form-label">Result satisfaction track :</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="form-group ">
+
+                                                        <select class="form-control custom-select" data-placeholder="">
+                                                            <option value=""></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-lg-3">
+                                                    <label class="control-label form-label font-weight-bold"
+                                                           for="Descriptions">Result Descriptions :</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                    <textarea class="form-control" name="example-textarea-input" rows="6"
+                                              placeholder="text here.." id="Descriptions"></textarea>
+                                                </div>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -585,7 +629,50 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab4-4">
+                                            <div class="form-group clearfix">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="HoldDate">Duration Time :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="wd-150 mg-b-30">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text">
+                                                                        <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                    </div>
+                                                                </div><!-- input-group-prepend -->
+                                                                <input class="form-control" id="tpBasic"
+                                                                       placeholder="Set time" type="text">
+                                                            </div>
+                                                        </div><!-- wd-150 -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <label class="form-label">Result satisfaction track :</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="form-group ">
 
+                                                        <select class="form-control custom-select" data-placeholder="">
+                                                            <option value=""></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-lg-3">
+                                                    <label class="control-label form-label font-weight-bold"
+                                                           for="Descriptions">Result Descriptions :</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                    <textarea class="form-control" name="example-textarea-input" rows="6"
+                                              placeholder="text here.." id="Descriptions"></textarea>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -645,7 +732,7 @@
                             <tr>
                                 <td colspan="3" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe1.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro1.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold ">Simin Behbahani</div>
                                     <div><span class="font-weight-bold">Org Code :</span> EM 001233
@@ -658,7 +745,7 @@
                                 </td>
                                 <td colspan="3" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe4.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro3.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold "> Ehsan Rezvanian</div>
                                     <div><span class="font-weight-bold">Org code :</span> EM 0010506
@@ -669,10 +756,6 @@
                                     </div>
                                 </td>
                             </tr>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
                             </tbody>
                         </table>
                     </div>
@@ -686,15 +769,20 @@
                                     <strong class="font-weight-bold">Description </strong></th>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Duration time</th>
-                                <td class="text-center">00:04:30</td>
-                                <td rowspan="6" class="pb-0">
+                                <th class="bg-indigo-lighter font-weight-bold ">Call method</th>
+                                <td class="text-center">Skype</td>
+                                <td rowspan="7" class="pb-0">
                                     Lorem ipsum dolor sit amet, consectetur,<br>
                                     sed do eiusmod tempor incididunt ut labore<br>
                                     et dolore magna aliqua. Ut enim ad minim<br>
                                     veniam, quis nostrud exercitation ullamco<br>
                                     laboris nisi ut aliquip ex ea desta.
                                 </td>
+                            </tr>
+                            <tr>
+                                <th class="bg-indigo-lighter font-weight-bold ">Duration time</th>
+                                <td class="text-center">00:04:30</td>
+
                             </tr>
                             <tr>
                                 <th class="bg-indigo-lighter font-weight-bold ">Satisfaction Track</th>
