@@ -102,6 +102,7 @@
 <script src="/assets/plugins/counters/counterup.min.js"></script>
 <script src="/assets/plugins/counters/waypoints.min.js"></script>
 
+
 <?php
 $current_page = ['/task-view'];
 
@@ -214,7 +215,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
 <?php endif; ?>
 <?php
-$current_page = ['/meeting-view', '/tasks'];
+$current_page = ['/meeting-view', '/tasks', '/deal-view'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
