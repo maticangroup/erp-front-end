@@ -496,32 +496,63 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab4">
-                                            <div class="form-group clearfix">
-                                                <div class="row ">
-                                                    <div class="col-lg-3">
-                                                        <label class="control-label form-label font-weight-bold"
-                                                               for="Descriptions">Address :</label>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Address">Address :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-map-signs tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="Address" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="col-lg-9">
-                                                                <textarea class="form-control"
-                                                                          name="example-textarea-input" rows="4"
-                                                                          placeholder="text here.."
-                                                                          id="Descriptions"></textarea>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Location">Location :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-map-marker-alt tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="Location" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-3">
-                                                        <label class="control-label form-label font-weight-bold"
-                                                               for="Descriptions">Location :</label>
-                                                    </div>
-                                                    <div class="col-lg-9">
-                                                        <div class="map-header">
-                                                            <div class="map-header-layer" id="map2"></div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Map :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="map-header">
+                                                                    <div class="map-header-layer" id="map2"></div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="tab-pane" id="tab5">
                                             <div class="row mt-3">
                                                 <div class="col-12">
