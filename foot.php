@@ -168,7 +168,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 <?php endif; ?>
 
 <?php
-$current_page = ['/test', '/tasks'];
+$current_page = ['/test', '/tasks' , '/project-view'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
