@@ -1476,13 +1476,27 @@
                                     <div class="tab-pane " id="tab8888"></div>
                                     <div class="tab-pane " id="tab9999"></div>
                                     <div class="tab-pane " id="tab1010">
-                                        <div id="map section" class="col-xl-12 col-lg-12 col-md-12">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <h3 class="card-title font-weight-bold">World Map</h3>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div id="world-map-markers" class="vector-map" ></div>
+<!--                                        <div id="map section" class="col-xl-12 col-lg-12 col-md-12">-->
+<!--                                            <div class="card">-->
+<!--                                                <div class="card-header">-->
+<!--                                                    <h3 class="card-title font-weight-bold">World Map</h3>-->
+<!--                                                </div>-->
+<!--                                                <div class="card-body">-->
+<!--                                                    <div id="world-map-markers" class="vector-map" ></div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+                                        <div class="row">
+                                            <div class="col-md-12 col-lg-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h3 class="card-title">Custom Map</h3>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="map-header">
+                                                            <div class="map-header-layer" id="map2"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

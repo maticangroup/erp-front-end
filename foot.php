@@ -147,7 +147,7 @@ if (false):?>
 <?php endif; ?>
 
 <?php
-$current_page = ['/meeting-overview'];
+$current_page = ['/meeting-overview' , '/project-view'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
