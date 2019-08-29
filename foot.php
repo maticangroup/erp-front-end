@@ -123,6 +123,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 $current_page = ['/letter-overview-add'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
+
     <!--ckeditor js-->
     <script src="/assets/plugins/tinymce/tinymce.min.js"></script>
 
@@ -245,10 +246,7 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/plugins/highcharts/histogram-bellcurve.js"></script>
     <script src="/assets/js/highcharts.js"></script>
 
-    <!-- Chart js -->
-    <script src="/assets/plugins/chart/chart.bundle.js"></script>
-    <script src="/assets/plugins/chart/utils.js"></script>
-    <script src="/assets/js/chart.js"></script>
+
 
 
 <?php endif; ?>
@@ -281,7 +279,10 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/js/rangeslider.js"></script>
 <?php endif; ?>
 
-
+<!-- Chart js -->
+<script src="/assets/plugins/chart/chart.bundle.js"></script>
+<script src="/assets/plugins/chart/utils.js"></script>
+<script src="/assets/js/chart.js"></script>
 
 </body>
 

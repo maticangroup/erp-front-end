@@ -3,7 +3,7 @@
         <h4 class="page-title">Deal View</h4>
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal3-2"
                class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
         </div>
         <div class="float-right ml-1">
@@ -97,7 +97,7 @@
     <div class="col-xl-12 col-md-12 col-lg-12">
         <div class="card">
             <div class="card-header ">
-                <h2 class="card-title font-weight-bold">Deal Info</h2>
+                <h2 class="card-title font-weight-bold">Information</h2>
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
@@ -116,6 +116,128 @@
                     <div class="panel-body tabs-menu-body ">
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab1">
+                                <div class="row mt-5">
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-header bg-primary">
+                                                <div class="card-title">
+                                                    Deal Info
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table card-table table-vcenter table-hover">
+                                                        <tbody>
+                                                        <tr>
+                                                            <th scope="row" class="font-weight-bold">Title :</th>
+                                                            <td>Wedding</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="font-weight-bold">Owner :</th>
+                                                            <td>Shams Asadbeigi</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="font-weight-bold">Value :</th>
+                                                            <td>$ 21,000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row" class="font-weight-bold">Probability :</th>
+                                                            <td>
+                                                                <div class="progress-bar bg-dark w-35 font-weight-bold">35%</div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <!-- table-responsive -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-header bg-primary">
+                                                <div class="card-title">Description</div>
+                                            </div>
+                                            <div class="card-body">
+                                                <blockquote class="blockquote mb-0 card-body">
+                                                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper
+                                                        feugiat nibh sed. Neque aliquam vestibulum morbi blandit. Ipsum consequat nisl
+                                                        vel pretium lectus quam id leo in. </p>
+                                                    <footer class="blockquote-footer">
+                                                        <small class="text-muted font-weight-bold mb-3">Saghar Nikpoor <cite title="Source Title">public relations expert</cite></small>
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-header bg-primary">
+                                                <div class="card-title">Company Activity</div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="feature-1">
+                                                                    <div class="fs-40 mb-3">
+                                                                        <i class="si si-grid text-pink"></i>
+                                                                    </div>
+                                                                    <h4>Developing</h4>
+                                                                    <p class="mb-0">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="feature-1">
+                                                                    <div class="fs-40 mb-3">
+                                                                        <i class="si si-picture text-teal"></i>
+                                                                    </div>
+                                                                    <h4>Designing</h4>
+                                                                    <p class="mb-0">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="feature-1">
+                                                                    <div class="fs-40 mb-3">
+                                                                        <i class="si si-basket-loaded text-danger"></i>
+                                                                    </div>
+                                                                    <h4>Marketing</h4>
+                                                                    <p class="mb-0">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="feature-1">
+                                                                    <div class="fs-40 mb-3">
+                                                                        <i class="si si-screen-smartphone text-warning"></i>
+                                                                    </div>
+                                                                    <h4>Mobile Apps</h4>
+                                                                    <p class="mb-0">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane " id="tab2">
                                 <div class="row">
@@ -785,10 +907,17 @@
 </div>
 
 <div class="row">
+<<<<<<< HEAD
+    <div class="col-xl-7 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Line Chart</h3>
+=======
     <div class="col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Line Chart</h3>
+>>>>>>> 18e5da8e837054796078dcee43c0301c5473c537
             </div>
             <div class="card-body">
                 <canvas id="sales-chart" class="h-300"></canvas>
@@ -805,7 +934,50 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+    <div class="col-xl-5 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Recent Activity</h3>
+            </div>
+            <div class="card-body">
+                <div class="activity">
+                    <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Adam	Berry</b> Add a new projects <b> AngularJS Template</b></p>
+                            <small class="text-info">30 mins ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/users/female/10.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Irene Hunter</b> Add a new projects <b>Free HTML Template</b></p>
+                            <small class="text-danger">1 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/users/male/4.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>John	Payne</b> Add a new projects <b>Free PSD Template</b></p>
+                            <small class="text-warning">3 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/users/female/8.jpg" alt="" class="img-activity">
+                    <div class="time-activity mb-0">
+                        <div class="item-activity mb-0">
+                            <p class="mb-0"><b>Julia Hardacre</b> Add a new projects <b>Free UI Template</b></p>
+                            <small class="text-success">5 days ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+=======
+>>>>>>> 18e5da8e837054796078dcee43c0301c5473c537
 </div>
+
 
 
 <!--modal-->
