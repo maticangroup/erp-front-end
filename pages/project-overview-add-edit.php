@@ -230,6 +230,248 @@
     </div>
 </div>
 
+<div class="row">
+    <div class="col-xl-3 col-lg-6 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">89,385</span></h2>
+                            <span>Total Orders</span>
+                        </div>
+                    </div>
+                    <div class="col col-auto">
+                        <span class="sparkline_bar1"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 10%</span>  Orders Incresed </p>
+                    </div>
+                    <div class="col col-auto">
+                        <a class="btn btn-sm btn-white border">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-6 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-primary mb-2">$<span class="counter font-weight-extrabold">92,254</span></h2>
+                            <span>Total Income</span>
+                        </div>
+                    </div>
+                    <div class="col col-auto">
+                        <span class="sparkline23"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 15%</span>  Income Incresed </p>
+                    </div>
+                    <div class="col col-auto">
+                        <a class="btn btn-sm btn-white border">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-6 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-orange mb-2">$<span class="counter font-weight-extrabold">83,547</span></h2>
+                            <span>Total Expenses</span>
+                        </div>
+                    </div>
+                    <div class="col col-auto">
+                        <span class="sparkline_bar"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-down text-danger"></i> 5%</span>  Expences Decresed </p>
+                    </div>
+                    <div class="col col-auto">
+                        <a class="btn btn-sm btn-white border">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-6 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-success mb-2">$<span class="counter font-weight-extrabold">99,425</span></h2>
+                            <span>Total Net Profit</span>
+                        </div>
+                    </div>
+                    <div class="col col-auto">
+                        <span class="sparkline22 w-100"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i class="fas fa-arrow-circle-up text-success"></i> 13%</span>  Net Profit Incresed </p>
+                    </div>
+                    <div class="col col-auto">
+                        <a class="btn btn-sm btn-white border">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-7 col-lg-12 col-md-12">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h3 class="card-title">Website Activities</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card-body overflow-hidden">
+                            <h4>Activites</h4>
+                            <canvas id="lineChart" class="chart-dropshadow h-350 overflow-hidden"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row website-section">
+                    <div class="col-xl-3 text-center mb-5 mb-lg-0">
+                        <p class="mb-1">Marriage Ceremony</p>
+                        <h2 class="text-success mb-3 font-weight-extrabold">6,254</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 text-center border-left mb-5 mb-lg-0">
+                        <p class="mb-1">Wedding Reception</p>
+                        <h2 class="text-danger mb-3 font-weight-extrabold">1254</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 text-center border-left mb-5 mb-lg-0">
+                        <p class="mb-1">Formality</p>
+                        <h2 class="text-primary mb-3 font-weight-extrabold">24,325</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-70"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 text-center border-left">
+                        <p class="mb-1">Birthday</p>
+                        <h2 class="text-info mb-3 font-weight-extrabold">357</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info w-70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-5 col-md-12 col-lg-12">
+        <div class="row">
+            <div class="col-xl-12 col-md-12 col-lg-12">
+                <div class="card overflow-hidden">
+                    <div class="card-body">
+                        <div class="dash4">
+                            <h3>Monthly Projects <span class="btn btn-outline-primary float-right d-none d-sm-block">View Details</span></h3>
+                            <p><i class="fas fa-arrow-up text-green mr-1"></i>15% increase in last Month</p>
+                        </div>
+                        <div class="chart-wrapper ">
+                            <canvas id="chart" class="chart-height chart-dropshadow"></canvas>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="text-muted"><i class="si si-clock mr-1"></i>Updated 2 mins ago</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-box tilebox-one">
+                            <i class="icon-layers float-right text-muted"><i class="fas fa-cubes text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">marketing</h6>
+                            <h2 class="m-b-20">123</h2>
+                            <span class="badge badge-info"> +12% </span> <span class="text-muted">From previous period</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-box tilebox-one">
+                            <i class="icon-layers float-right text-muted"><i class="fas fa-chart-bar text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">design</h6>
+                            <h2 class="m-b-20">1,458</h2>
+                            <span class="badge badge-dark"> +56% </span> <span class="text-muted">Last year</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-box tilebox-one">
+                            <i class="icon-layers float-right text-muted"><i class="fas fa-cubes text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">marketing</h6>
+                            <h2 class="m-b-20">123</h2>
+                            <span class="badge badge-info"> +12% </span> <span class="text-muted">From previous period</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-box tilebox-one">
+                            <i class="icon-layers float-right text-muted"><i class="fas fa-chart-bar text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">design</h6>
+                            <h2 class="m-b-20">1,458</h2>
+                            <span class="badge badge-dark"> +56% </span> <span class="text-muted">Last year</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-box tilebox-one">
+                            <i class="icon-layers float-right text-muted"><i class="fas fa-cubes text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">marketing</h6>
+                            <h2 class="m-b-20">123</h2>
+                            <span class="badge badge-info"> +12% </span> <span class="text-muted">From previous period</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="row">
+
+</div>
+
+
+
+
 <!-- Message Modal -->
 
 <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-hidden="true">
