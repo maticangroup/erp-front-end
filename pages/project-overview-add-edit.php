@@ -390,6 +390,14 @@
                 </div>
             </div>
         </div>
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Horizontal Bar Chart</h4>
+            </div>
+            <div class="card-body">
+                <div id="echart6" class="chartsh overflow-hidden"></div>
+            </div>
+        </div>
     </div>
     <div class="col-xl-5 col-md-12 col-lg-12">
         <div class="row">
