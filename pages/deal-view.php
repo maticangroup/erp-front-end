@@ -907,10 +907,17 @@
 </div>
 
 <div class="row">
+<<<<<<< HEAD
     <div class="col-xl-7 col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title font-weight-bold">Line Chart</h3>
+=======
+    <div class="col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Line Chart</h3>
+>>>>>>> 18e5da8e837054796078dcee43c0301c5473c537
             </div>
             <div class="card-body">
                 <canvas id="sales-chart" class="h-300"></canvas>
@@ -927,6 +934,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <div class="col-xl-5 col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
@@ -966,6 +974,8 @@
             </div>
         </div>
     </div>
+=======
+>>>>>>> 18e5da8e837054796078dcee43c0301c5473c537
 </div>
 
 
