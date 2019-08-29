@@ -25,7 +25,7 @@
                             <th class="wd-15p border-bottom-0 text-center">Amount</th>
                             <th class="wd-10p border-bottom-0 text-center">Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Time</th>
-                            <th class="wd-10p border-bottom-0 text-center">For</th>
+                            <th class="wd-10p border-bottom-0 text-center">Payment Request</th>
                             <th class="wd-15p border-bottom-0 text-center">From</th>
                             <th class="wd-20p border-bottom-0 text-center">To</th>
                             <th class="wd-25p border-bottom-0 text-center">Branch</th>
@@ -39,7 +39,7 @@
                             <td class="text-center">1,200 $</td>
                             <td class="text-center">12 February 2020</td>
                             <td class="text-center">08:40 PM</td>
-                            <td class="text-center">Project commission</td>
+                            <td class="text-center">54654</td>
                             <td class="text-center">Somaieh Gholami</td>
                             <td class="text-center">Kosar Naiemi</td>
                             <td class="text-center">Shariati</td>
@@ -59,7 +59,7 @@
                             <td class="text-center">3,400 $</td>
                             <td class="text-center">29 July 2020</td>
                             <td class="text-center">00:20 PM</td>
-                            <td class="text-center">Wage</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">Omid Jahan</td>
                             <td class="text-center">Mahdi Alavi</td>
                             <td class="text-center">Valiasr</td>
@@ -78,7 +78,7 @@
                             <td class="text-center">660 $</td>
                             <td class="text-center">08 February 2018</td>
                             <td class="text-center">05:35 PM</td>
-                            <td class="text-center">Invoice</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">Hafez Asadi</td>
                             <td class="text-center">Nasrin Maghami</td>
                             <td class="text-center">Velenjak</td>
@@ -97,7 +97,7 @@
                             <td class="text-center">4,000 $</td>
                             <td class="text-center">23 January 2015</td>
                             <td class="text-center">10:50 AM</td>
-                            <td class="text-center">Invoice</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">ُShahab Hoseini</td>
                             <td class="text-center">Shahla Arasteh</td>
                             <td class="text-center">Bazar</td>
@@ -116,7 +116,7 @@
                             <td class="text-center"> 7,300 $</td>
                             <td class="text-center">27 January 2019</td>
                             <td class="text-center">06:55 AM</td>
-                            <td class="text-center">Fund</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">Sami Yuosefi</td>
                             <td class="text-center">Nasir Bashir</td>
                             <td class="text-center">Valiasr</td>

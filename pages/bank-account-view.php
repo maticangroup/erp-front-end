@@ -12,44 +12,27 @@
 <!--page header-->
 <div class="row">
     <div class="col-4">
-        <div class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                            <span class="avatar-status bg-green"></span>
-                                        </span>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro14.jpg">
+                        <span class="avatar-status bg-green"></span>
+                    </span>
                 </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Inventory Keeper</a></h5>
-                <span>Abbas Amiri</span>
-                <div class="mt-20">
-                    <span class="badge badge-default">Photographer</span> <span
-                            class="badge badge-default">Editor</span> <span
-                            class="badge badge-default">Producer</span>
-                </div>
-
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Ali Hatami</a></h5>
+                <span>Owner</span>
+                <div>
+                    <span class="badge badge-default">Religious</span>
+                    <span class="badge badge-default">sullen</span>
                 </div>
                 <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
@@ -63,7 +46,7 @@
             <div class="card-body p-3">
                 <div class="panel panel-primary">
                     <div class=" tab-menu-heading">
-                        <div class="tabs-menu1 ">
+                        <div class="tabs-menu">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
                                 <li><a href="#tab6" class="font-weight-bold active"
@@ -147,14 +130,14 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive ">
-                    <table id="example-2" class="table table-striped table-bordered">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
                             <th class="wd-15p border-bottom-0 ">Type</th>
                             <th class="wd-15p border-bottom-0 text-center">Amount</th>
                             <th class="wd-10p border-bottom-0 text-center">Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Time</th>
-                            <th class="wd-10p border-bottom-0 text-center">For</th>
+                            <th class="wd-10p border-bottom-0 text-center">Payment Request</th>
                             <th class="wd-15p border-bottom-0 text-center">From</th>
                             <th class="wd-20p border-bottom-0 text-center">To</th>
                             <th class="wd-25p border-bottom-0 text-center">Branch</th>
@@ -168,7 +151,7 @@
                             <td class="text-center">1,200 $</td>
                             <td class="text-center">12 February 2020</td>
                             <td class="text-center">08:40 PM</td>
-                            <td class="text-center">Project commission</td>
+                            <td class="text-center">54654</td>
                             <td class="text-center">Somaieh Gholami</td>
                             <td class="text-center">Kosar Naiemi</td>
                             <td class="text-center">Shariati</td>
@@ -188,7 +171,7 @@
                             <td class="text-center">3,400 $</td>
                             <td class="text-center">29 July 2020</td>
                             <td class="text-center">00:20 PM</td>
-                            <td class="text-center">Wage</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">Omid Jahan</td>
                             <td class="text-center">Mahdi Alavi</td>
                             <td class="text-center">Valiasr</td>
@@ -207,7 +190,7 @@
                             <td class="text-center">660 $</td>
                             <td class="text-center">08 February 2018</td>
                             <td class="text-center">05:35 PM</td>
-                            <td class="text-center">Invoice</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">Hafez Asadi</td>
                             <td class="text-center">Nasrin Maghami</td>
                             <td class="text-center">Velenjak</td>
@@ -226,7 +209,7 @@
                             <td class="text-center">4,000 $</td>
                             <td class="text-center">23 January 2015</td>
                             <td class="text-center">10:50 AM</td>
-                            <td class="text-center">Invoice</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">ُShahab Hoseini</td>
                             <td class="text-center">Shahla Arasteh</td>
                             <td class="text-center">Bazar</td>
@@ -245,7 +228,7 @@
                             <td class="text-center"> 7,300 $</td>
                             <td class="text-center">27 January 2019</td>
                             <td class="text-center">06:55 AM</td>
-                            <td class="text-center">Fund</td>
+                            <td class="text-center">456456</td>
                             <td class="text-center">Sami Yuosefi</td>
                             <td class="text-center">Nasir Bashir</td>
                             <td class="text-center">Valiasr</td>

@@ -1,8 +1,19 @@
+<!--Page Header-->
+<div class="mb-5">
+    <div class="page-header  mb-0">
+        <h4 class="page-title">Bank Account Overview</h4>
+        <div class="float-right ml-1 d-print-none">
+            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>Print</a>
+        </div>
+    </div>
+</div>
+<!--page header-->
+
 <div class="row">
     <div class="col-12 col-lg-12">
         <div class="card">
             <div class="card-header">
-                <div class="card-title mr-2">Bank Account Overview</div>
+                <div class="card-title mr-2">Bank Account</div>
                 <button type="button" class="btn btn-outline-primary" data-toggle="modal"
                         data-target="#exampleModal3"><i class="fas fa-user-plus"></i></button>
                 <div class="card-options d-none d-sm-block mr-1">
@@ -31,7 +42,7 @@
                             <td class="text-center">Saving Accout</td>
                             <td class="text-center">6097 2684 6541 6545</td>
                             <td class="text-center">6097 2684 6541 6545</td>
-                            <td class="text-center">35649643468</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -49,7 +60,7 @@
                             <td class="text-center">Checking Account</td>
                             <td class="text-center">4654 6575 6854 9768</td>
                             <td class="text-center">4654 6575 6854 9768</td>
-                            <td class="text-center">257432168</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -67,7 +78,7 @@
                             <td class="text-center">Checking Account</td>
                             <td class="text-center">6854 6854 6352 6844</td>
                             <td class="text-center">6854 6854 6352 6844</td>
-                            <td class="text-center">357435241</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -85,7 +96,7 @@
                             <td class="text-center">Saving Account</td>
                             <td class="text-center">6545 6875 2357 9762</td>
                             <td class="text-center">6545 6875 2357 9762</td>
-                            <td class="text-center">352132354</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -103,7 +114,7 @@
                             <td class="text-center">Checking Account</td>
                             <td class="text-center">5424 6854 6874 5374</td>
                             <td class="text-center">5424 6854 6874 5374</td>
-                            <td class="text-center">5435468765</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -121,7 +132,7 @@
                             <td class="text-center">Saving Account</td>
                             <td class="text-center">6412 6854 5122 6854</td>
                             <td class="text-center">6412 6854 5122 6854</td>
-                            <td class="text-center">6513216541</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -139,7 +150,7 @@
                             <td class="text-center">Checking Account</td>
                             <td class="text-center">6548 6848 6543 6854</td>
                             <td class="text-center">6548 6848 6543 6854</td>
-                            <td class="text-center">65132168451</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -157,7 +168,7 @@
                             <td class="text-center">Checking Account</td>
                             <td class="text-center">6854 6854 6532 9842</td>
                             <td class="text-center">6854 6854 6532 9842</td>
-                            <td class="text-center">6545654354</td>
+                            <td class="text-center">285 - 8000 -11166656 -1</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/bank-account-view"
@@ -189,124 +200,190 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="first-name"
-                                       class="form-control-label mr-1 font-weight-bold">Employee:
-                                </label>
-                                <input type="text" class="form-control" step="0">
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="gender"
-                                       class="form-control-label mr-1 font-weight-bold">Bank:</label>
-                                <select class="form-control" id="gender">
-                                    <option>Passargard</option>
-                                    <option>Melli</option>
-                                    <option>Parsian</option>
-                                    <option>Mellat</option>
-                                    <option>Sepah</option>
-                                    <option>Tejarat</option>
-                                    <option>Saderat</option>
-                                    <option>Sarmaie</option>
-                                    <option>Keshavarzi</option>
-                                    <option>Saman</option>
-                                    <option>Maskan</option>
-                                    <option>Eghtesade Novin</option>
-                                    <option>Post Bank</option>
-                                    <option>Ayandeh</option>
-                                    <option>Hekmat Iranian</option>
-                                    <option>Tourism Bank</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="gender" class="form-control-label mr-1 font-weight-bold">Account
-                                    Type:</label>
-                                <select class="form-control" id="gender">
-                                    <option>Checking Account</option>
-                                    <option>Saving Account</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="first-name"
-                                       class="form-control-label mr-1 font-weight-bold">Account
-                                    Number:
-                                </label>
-                                <input type="text" class="form-control" step="0">
-                            </div>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="tab-menu-heading border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Employee :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="type">Bank :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Passargard</option>
+                                                                    <option>Melli</option>
+                                                                    <option>Parsian</option>
+                                                                    <option>Mellat</option>
+                                                                    <option>Sepah</option>
+                                                                    <option>Tejarat</option>
+                                                                    <option>Saderat</option>
+                                                                    <option>Sarmaie</option>
+                                                                    <option>Keshavarzi</option>
+                                                                    <option>Saman</option>
+                                                                    <option>Maskan</option>
+                                                                    <option>Eghtesade Novin</option>
+                                                                    <option>Post Bank</option>
+                                                                    <option>Ayandeh</option>
+                                                                    <option>Hekmat Iranian</option>
+                                                                    <option>Tourism Bank</option>
 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="first-name"
-                                       class="form-control-label mr-1 font-weight-bold">Credit Card
-                                    Number:
-                                </label>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="type">Account Type :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Checking Account</option>
+                                                                    <option>Saving Account</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Account Num :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Credit Card Num. :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="row">
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                </div>
 
-                                <div class="row">
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
-                                    </div>
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
-                                    </div>
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
-                                    </div>
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Iban :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                                <!--                                                                <div class="form-group">-->
+                                                                <!--                                                                    <div class="row">-->
+                                                                <!--                                                                        <div class="col-4">-->
+                                                                <!--                                                                            <div class="row">-->
+                                                                <!--                                                                                <div class="col-4"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <!-- this column empty -->
+                                                                <!--                                                                                <div class="col-4"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-4"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                            </div>-->
+                                                                <!--                                                                        </div>-->
+                                                                <!---->
+                                                                <!--                                                                        <div class="col-8">-->
+                                                                <!--                                                                            <div class="row">-->
+                                                                <!--                                                                                <div class="col-2"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-2"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-2"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-1"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-1"></div>-->
+                                                                <!--                                                                                <div class="col-2"></div>-->
+                                                                <!--                                                                                <div class="col-2"></div>-->
+                                                                <!--                                                                                <!-- this column empty -->
+                                                                <!--                                                                            </div>-->
+                                                                <!--                                                                        </div>-->
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="iban" class="form-control-label mr-1 font-weight-bold">Iban:
-                                </label>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="row">
-                                            <div class="col-4"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <!-- this column empty -->
-                                            <div class="col-4"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-4"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-8">
-                                        <div class="row">
-                                            <div class="col-2"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-2"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-2"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-1"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-1"></div>
-                                            <div class="col-2"></div>
-                                            <div class="col-2"></div> <!-- this column empty -->
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -327,124 +404,190 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="first-name"
-                                       class="form-control-label mr-1 font-weight-bold">Employee:
-                                </label>
-                                <input type="text" class="form-control" step="0">
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="gender"
-                                       class="form-control-label mr-1 font-weight-bold">Bank:</label>
-                                <select class="form-control" id="gender">
-                                    <option>Passargard</option>
-                                    <option>Melli</option>
-                                    <option>Parsian</option>
-                                    <option>Mellat</option>
-                                    <option>Sepah</option>
-                                    <option>Tejarat</option>
-                                    <option>Saderat</option>
-                                    <option>Sarmaie</option>
-                                    <option>Keshavarzi</option>
-                                    <option>Saman</option>
-                                    <option>Maskan</option>
-                                    <option>Eghtesade Novin</option>
-                                    <option>Post Bank</option>
-                                    <option>Ayandeh</option>
-                                    <option>Hekmat Iranian</option>
-                                    <option>Tourism Bank</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="gender" class="form-control-label mr-1 font-weight-bold">Account
-                                    Type:</label>
-                                <select class="form-control" id="gender">
-                                    <option>Checking Account</option>
-                                    <option>Saving Account</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="first-name"
-                                       class="form-control-label mr-1 font-weight-bold">Account
-                                    Number:
-                                </label>
-                                <input type="text" class="form-control" step="0">
-                            </div>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="tab-menu-heading border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Employee :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="type">Bank :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Passargard</option>
+                                                                    <option>Melli</option>
+                                                                    <option>Parsian</option>
+                                                                    <option>Mellat</option>
+                                                                    <option>Sepah</option>
+                                                                    <option>Tejarat</option>
+                                                                    <option>Saderat</option>
+                                                                    <option>Sarmaie</option>
+                                                                    <option>Keshavarzi</option>
+                                                                    <option>Saman</option>
+                                                                    <option>Maskan</option>
+                                                                    <option>Eghtesade Novin</option>
+                                                                    <option>Post Bank</option>
+                                                                    <option>Ayandeh</option>
+                                                                    <option>Hekmat Iranian</option>
+                                                                    <option>Tourism Bank</option>
 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="first-name"
-                                       class="form-control-label mr-1 font-weight-bold">Credit Card
-                                    Number:
-                                </label>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="type">Account Type :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Checking Account</option>
+                                                                    <option>Saving Account</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Account Num :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Credit Card Num. :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="row">
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                    <div class="col-3"><input type="text"
+                                                                                              class="form-control"
+                                                                                              step="0">
+                                                                    </div>
+                                                                </div>
 
-                                <div class="row">
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
-                                    </div>
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
-                                    </div>
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
-                                    </div>
-                                    <div class="col-3"><input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Iban :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                                <!--                                                                <div class="form-group">-->
+                                                                <!--                                                                    <div class="row">-->
+                                                                <!--                                                                        <div class="col-4">-->
+                                                                <!--                                                                            <div class="row">-->
+                                                                <!--                                                                                <div class="col-4"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <!-- this column empty -->
+                                                                <!--                                                                                <div class="col-4"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-4"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                            </div>-->
+                                                                <!--                                                                        </div>-->
+                                                                <!---->
+                                                                <!--                                                                        <div class="col-8">-->
+                                                                <!--                                                                            <div class="row">-->
+                                                                <!--                                                                                <div class="col-2"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-2"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-2"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-1"><input type="text"-->
+                                                                <!--                                                                                                          class="form-control"-->
+                                                                <!--                                                                                                          step="0">-->
+                                                                <!--                                                                                </div>-->
+                                                                <!--                                                                                <div class="col-1"></div>-->
+                                                                <!--                                                                                <div class="col-2"></div>-->
+                                                                <!--                                                                                <div class="col-2"></div>-->
+                                                                <!--                                                                                <!-- this column empty -->
+                                                                <!--                                                                            </div>-->
+                                                                <!--                                                                        </div>-->
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="iban" class="form-control-label mr-1 font-weight-bold">Iban:
-                                </label>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="row">
-                                            <div class="col-4"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <!-- this column empty -->
-                                            <div class="col-4"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-4"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-8">
-                                        <div class="row">
-                                            <div class="col-2"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-2"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-2"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-1"><input type="text" class="form-control"
-                                                                      step="0"></div>
-                                            <div class="col-1"></div>
-                                            <div class="col-2"></div>
-                                            <div class="col-2"></div> <!-- this column empty -->
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>

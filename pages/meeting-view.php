@@ -1426,7 +1426,8 @@
                                             <div class="card-body">
                                                 <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2">
                                                     <div class="wrapper ml-1">
-                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                        <h4 class="mb-0"><i
+                                                                    class="zmdi zmdi-collection-item-1 mr-3"></i>
                                                             <b>Changing Photographer </b></h4>
                                                     </div>
                                                     <div class="float-right">
@@ -1440,7 +1441,8 @@
                                                 </div>
                                                 <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2 bg-primary">
                                                     <div class="wrapper ml-1">
-                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                        <h4 class="mb-0"><i
+                                                                    class="zmdi zmdi-collection-item-2 mr-3"></i>
                                                             <b>Changing Photographer </b></h4>
                                                     </div>
                                                     <div class="float-right">
@@ -1454,7 +1456,8 @@
                                                 </div>
                                                 <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2">
                                                     <div class="wrapper ml-1">
-                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                        <h4 class="mb-0"><i
+                                                                    class="zmdi zmdi-collection-item-3 mr-3"></i>
                                                             <b>Changing Photographer </b></h4>
                                                     </div>
                                                     <div class="float-right">
@@ -1468,7 +1471,8 @@
                                                 </div>
                                                 <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2 bg-primary">
                                                     <div class="wrapper ml-1">
-                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                        <h4 class="mb-0"><i
+                                                                    class="zmdi zmdi-collection-item-4 mr-3"></i>
                                                             <b>Changing Photographer </b></h4>
                                                     </div>
                                                     <div class="float-right">
@@ -1482,7 +1486,8 @@
                                                 </div>
                                                 <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2">
                                                     <div class="wrapper ml-1">
-                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                        <h4 class="mb-0"><i
+                                                                    class="zmdi zmdi-collection-item-5 mr-3"></i>
                                                             <b>Changing Photographer </b></h4>
                                                     </div>
                                                     <div class="float-right">
@@ -1496,7 +1501,8 @@
                                                 </div>
                                                 <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2 bg-primary">
                                                     <div class="wrapper ml-1">
-                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                        <h4 class="mb-0"><i
+                                                                    class="zmdi zmdi-collection-item-6 mr-3"></i>
                                                             <b>Changing Photographer </b></h4>
                                                     </div>
                                                     <div class="float-right">
@@ -1519,7 +1525,7 @@
                                         <div class="card">
                                             <div class="card-header">
                                                 <div class="card-title">
-                                                    Duration
+                                                    Meeting Duration
                                                 </div>
                                             </div>
                                             <div class="card-body">
@@ -1544,17 +1550,20 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
-
                                 </div>
-                            </div>
 
-                            <div class="tab-pane " id="tab3-3-3">
-                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                    beguiled and demoralized by the charms of pleasure of the moment, so blinded by
-                                    desire, that they cannot foresee the pain and trouble that are bound to ensue; and
-                                    equal blame belongs to those who fail in their duty through weakness of will, which
-                                    is the same as saying through shrinking from toil and pain.</p>
+                                <div class="tab-pane " id="tab3-3-3">
+                                    <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                                        so
+                                        beguiled and demoralized by the charms of pleasure of the moment, so blinded by
+                                        desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                                        and
+                                        equal blame belongs to those who fail in their duty through weakness of will,
+                                        which
+                                        is the same as saying through shrinking from toil and pain.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1562,435 +1571,434 @@
             </div>
         </div>
     </div>
-</div>
 
 
-<div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+    <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="panel panel-primary">
+                                <div class=" tab-menu-heading">
+                                    <div class="tabs-menu1 ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab5" class="active font-weight-bold"
+                                                            data-toggle="tab">New Meeting</a></li>
+                                            <li><a href="#tab6" class="font-weight-bold"
+                                                   data-toggle="tab">Ready
+                                                    To Use</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab5">
+                                            <form autocomplete="off">
+                                                <div class="card p-3  mb-1 ">
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label>Title:</label>
+                                                                <input type="text" name="title"
+                                                                       class="form-control"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label">Type:</label>
+                                                                <select name="type" id="select-type"
+                                                                        class="form-control custom-select">
+                                                                    <option>
+                                                                        Client ordering advice
+                                                                    </option>
+                                                                    <option>
+                                                                        Close Contract
+                                                                    </option>
+                                                                    <option>
+                                                                        B to B
+                                                                    </option>
+                                                                    <option>
+                                                                        Planning meeting before hold
+                                                                        project
+                                                                    </option>
+                                                                    <option>
+                                                                        Daily stand up meeting
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label>Organizer:</label>
+                                                                <input type="text" name="text"
+                                                                       class="form-control"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label">Related
+                                                                    To:</label>
+                                                                <select name="type" id="select-type"
+                                                                        class="form-control custom-select">
+                                                                    <option>
+                                                                        Deal
+                                                                    </option>
+                                                                    <option>
+                                                                        Project
+                                                                    </option>
+                                                                    <option>
+                                                                        Within Organization
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label">Choose
+                                                                    Branch</label>
+                                                                <select name="branch" id="select-branch"
+                                                                        class="form-control custom-select">
+                                                                    <option>
+                                                                        Teh
+                                                                    </option>
+                                                                    <option>
+                                                                        Qom
+                                                                    </option>
+                                                                    <option>
+                                                                        Tabriz
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label class="form-label">Room</label>
+                                                                <select name="branch" id="select-branch"
+                                                                        class="form-control custom-select">
+                                                                    <option>
+                                                                        1
+                                                                    </option>
+                                                                    <option>
+                                                                        2
+                                                                    </option>
+                                                                    <option>
+                                                                        3
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card p-3 mb-1 ">
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="wd-200">
+                                                                <label>From Time:</label>
+                                                                <div class="wd-150 mg-b-30">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">
+                                                                                <i
+                                                                                        class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- input-group-prepend -->
+                                                                        <input class="form-control"
+                                                                               id="tpBasic"
+                                                                               placeholder="Set time"
+                                                                               type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="wd-200">
+                                                                <label>Duration:</label>
+                                                                <div class="wd-150 mg-b-30">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">
+                                                                                <i
+                                                                                        class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- input-group-prepend -->
+                                                                        <input class="form-control"
+                                                                               id="tpBasic"
+                                                                               placeholder="Set time"
+                                                                               type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-4 mb-3">
+                                                        <div class="col-6">
+                                                            <div class="wd-200">
+                                                                <label>Date:</label>
+                                                                <div class="wd-200 mb-3">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">
+                                                                                <i
+                                                                                        class="fas fa-calendar tx-16 lh-0 op-6"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <input
+                                                                                class="form-control fc-datepicker"
+                                                                                placeholder="MM/DD/YYYY"
+                                                                                type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card p-3 mb-1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label
+                                                                        class="form-label font-weight-bold">Description:</label>
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group mt-1">
+                                                                <div
+                                                                        class="form-label ml-1 font-weight-bold">
+                                                                    Attachment:
+                                                                </div>
+                                                                <div class="custom-file">
+                                                                    <input type="file"
+                                                                           class="custom-file-input"
+                                                                           name="example-file-input-custom">
+                                                                    <label class="custom-file-label">Choose
+                                                                        File</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-1">
+                                                    <div class="col-12">
+                                                        <div class="card  mt-0 mb-0 ">
+                                                            <div class="card-header">
+                                                                <div class="card-title">Equipments:
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="wd-200">
+                                                                    <div class="form-group ">
+                                                                        <label class="form-label">Equipments
+                                                                            Needed:</label>
+                                                                        <div
+                                                                                class="selectgroup selectgroup-pills">
+                                                                            <label class="selectgroup-item">
+                                                                                <input type="checkbox"
+                                                                                       name="value"
+                                                                                       value="Tablet"
+                                                                                       class="selectgroup-input"
+                                                                                       checked="">
+                                                                                <span
+                                                                                        class="selectgroup-button">Tablet</span>
+                                                                            </label>
+                                                                            <label class="selectgroup-item">
+                                                                                <input type="checkbox"
+                                                                                       name="value"
+                                                                                       value="Phone"
+                                                                                       class="selectgroup-input">
+                                                                                <span
+                                                                                        class="selectgroup-button">Phone</span>
+                                                                            </label>
+                                                                            <label class="selectgroup-item">
+                                                                                <input type="checkbox"
+                                                                                       name="value"
+                                                                                       value="Computer"
+                                                                                       class="selectgroup-input">
+                                                                                <span
+                                                                                        class="selectgroup-button">Computer</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="tab-pane " id="tab6">
+                                            <!--
+                                                                .
+                                                                .
+                                                                tab2 content
+                                                                .
+                                                                .
+                                                                -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-12">
+        </div>
+    </div>
+    <div class="modal fade" id="add-meeting-item" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
                         <div class="panel panel-primary">
-                            <div class=" tab-menu-heading">
-                                <div class="tabs-menu1 ">
+                            <div class="tab-menu-heading">
+                                <div class="tabs-menu ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
-                                        <li class=""><a href="#tab5" class="active font-weight-bold"
-                                                        data-toggle="tab">New Meeting</a></li>
-                                        <li><a href="#tab6" class="font-weight-bold"
-                                               data-toggle="tab">Ready
-                                                To Use</a></li>
+                                        <li class=""><a href="#tab1" class="active" data-toggle="tab">Tab 1</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="panel-body tabs-menu-body">
                                 <div class="tab-content">
-                                    <div class="tab-pane active " id="tab5">
-                                        <form autocomplete="off">
-                                            <div class="card p-3  mb-1 ">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label>Title:</label>
-                                                            <input type="text" name="title"
-                                                                   class="form-control"/>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label class="form-label">Type:</label>
-                                                            <select name="type" id="select-type"
-                                                                    class="form-control custom-select">
-                                                                <option>
-                                                                    Client ordering advice
-                                                                </option>
-                                                                <option>
-                                                                    Close Contract
-                                                                </option>
-                                                                <option>
-                                                                    B to B
-                                                                </option>
-                                                                <option>
-                                                                    Planning meeting before hold
-                                                                    project
-                                                                </option>
-                                                                <option>
-                                                                    Daily stand up meeting
-                                                                </option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label>Organizer:</label>
-                                                            <input type="text" name="text"
-                                                                   class="form-control"/>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label class="form-label">Related
-                                                                To:</label>
-                                                            <select name="type" id="select-type"
-                                                                    class="form-control custom-select">
-                                                                <option>
-                                                                    Deal
-                                                                </option>
-                                                                <option>
-                                                                    Project
-                                                                </option>
-                                                                <option>
-                                                                    Within Organization
-                                                                </option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label class="form-label">Choose
-                                                                Branch</label>
-                                                            <select name="branch" id="select-branch"
-                                                                    class="form-control custom-select">
-                                                                <option>
-                                                                    Teh
-                                                                </option>
-                                                                <option>
-                                                                    Qom
-                                                                </option>
-                                                                <option>
-                                                                    Tabriz
-                                                                </option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group">
-                                                            <label class="form-label">Room</label>
-                                                            <select name="branch" id="select-branch"
-                                                                    class="form-control custom-select">
-                                                                <option>
-                                                                    1
-                                                                </option>
-                                                                <option>
-                                                                    2
-                                                                </option>
-                                                                <option>
-                                                                    3
-                                                                </option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
+                                    <div class="tab-pane active " id="tab1">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label class="form-label">Topic</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="example-text-input"
+                                                           placeholder="">
                                                 </div>
                                             </div>
-                                            <div class="card p-3 mb-1 ">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label>From Time:</label>
-                                                            <div class="wd-150 mg-b-30">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i
-                                                                                    class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- input-group-prepend -->
-                                                                    <input class="form-control"
-                                                                           id="tpBasic"
-                                                                           placeholder="Set time"
-                                                                           type="text">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label>Duration:</label>
-                                                            <div class="wd-150 mg-b-30">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i
-                                                                                    class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- input-group-prepend -->
-                                                                    <input class="form-control"
-                                                                           id="tpBasic"
-                                                                           placeholder="Set time"
-                                                                           type="text">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-4 mb-3">
-                                                    <div class="col-6">
-                                                        <div class="wd-200">
-                                                            <label>Date:</label>
-                                                            <div class="wd-200 mb-3">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i
-                                                                                    class="fas fa-calendar tx-16 lh-0 op-6"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                    <input
-                                                                            class="form-control fc-datepicker"
-                                                                            placeholder="MM/DD/YYYY"
-                                                                            type="text">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card p-3 mb-1">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group">
-                                                            <label
-                                                                    class="form-label font-weight-bold">Description:</label>
-                                                            <textarea class="form-control"
-                                                                      name="example-textarea-input" rows="6"
-                                                                      placeholder="text here.."></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="form-group mt-1">
-                                                            <div
-                                                                    class="form-label ml-1 font-weight-bold">
-                                                                Attachment:
-                                                            </div>
-                                                            <div class="custom-file">
-                                                                <input type="file"
-                                                                       class="custom-file-input"
-                                                                       name="example-file-input-custom">
-                                                                <label class="custom-file-label">Choose
-                                                                    File</label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mt-1">
-                                                <div class="col-12">
-                                                    <div class="card  mt-0 mb-0 ">
-                                                        <div class="card-header">
-                                                            <div class="card-title">Equipments:
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body">
-                                                            <div class="wd-200">
-                                                                <div class="form-group ">
-                                                                    <label class="form-label">Equipments
-                                                                        Needed:</label>
-                                                                    <div
-                                                                            class="selectgroup selectgroup-pills">
-                                                                        <label class="selectgroup-item">
-                                                                            <input type="checkbox"
-                                                                                   name="value"
-                                                                                   value="Tablet"
-                                                                                   class="selectgroup-input"
-                                                                                   checked="">
-                                                                            <span
-                                                                                    class="selectgroup-button">Tablet</span>
-                                                                        </label>
-                                                                        <label class="selectgroup-item">
-                                                                            <input type="checkbox"
-                                                                                   name="value"
-                                                                                   value="Phone"
-                                                                                   class="selectgroup-input">
-                                                                            <span
-                                                                                    class="selectgroup-button">Phone</span>
-                                                                        </label>
-                                                                        <label class="selectgroup-item">
-                                                                            <input type="checkbox"
-                                                                                   name="value"
-                                                                                   value="Computer"
-                                                                                   class="selectgroup-input">
-                                                                            <span
-                                                                                    class="selectgroup-button">Computer</span>
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="tab-pane " id="tab6">
-                                        <!--
-                                                            .
-                                                            .
-                                                            tab2 content
-                                                            .
-                                                            .
-                                                            -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="add-meeting-item" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="card">
-                    <div class="panel panel-primary">
-                        <div class="tab-menu-heading">
-                            <div class="tabs-menu ">
-                                <!-- Tabs -->
-                                <ul class="nav panel-tabs">
-                                    <li class=""><a href="#tab1" class="active" data-toggle="tab">Tab 1</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="panel-body tabs-menu-body">
-                            <div class="tab-content">
-                                <div class="tab-pane active " id="tab1">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <label class="form-label">Topic</label>
                                         </div>
-                                        <div class="col-lg-9">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="example-text-input"
-                                                       placeholder="">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label class="form-label">Duration :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="wd-150 mg-b-30">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                            </div><!-- input-group-text -->
+                                                        </div><!-- input-group-prepend -->
+                                                        <input class="form-control" id="tp2" placeholder="Set time"
+                                                               type="text">
+                                                    </div>
+                                                </div><!-- wd-150 -->
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <label class="form-label">Duration :</label>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <div class="wd-150 mg-b-30">
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <div class="input-group-text">
-                                                            <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                        </div><!-- input-group-text -->
-                                                    </div><!-- input-group-prepend -->
-                                                    <input class="form-control" id="tp2" placeholder="Set time"
-                                                           type="text">
-                                                </div>
-                                            </div><!-- wd-150 -->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <label class="form-label">Description :</label>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label class="form-label">Description :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
                                                     <textarea class="form-control" name="example-textarea-input"
                                                               rows="6" placeholder="text here.."></textarea>
+                                                </div>
+
                                             </div>
-
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="form-label">File Attach :</div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="form-label">File Attach :</div>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
 
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input"
-                                                           name="example-file-input-custom">
-                                                    <label class="custom-file-label">Choose file</label>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input"
+                                                               name="example-file-input-custom">
+                                                        <label class="custom-file-label">Choose file</label>
+                                                    </div>
                                                 </div>
                                             </div>
+
+
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
+
                 </div>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Done</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Done</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="modal fade" id="read-more" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="edit-modal">More</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="table-responsive">
-                    <table class="table card-table table-vcenter table-hover table-bordered">
-                        <thead>
-                        <tr>
-                            <th>Topic</th>
-                            <th>Duration</th>
-                            <th>Description</th>
-                            <th>File Attached</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td rowspan="4">Changing Photographer</td>
-                            <td rowspan="4">20 minutes</td>
-                            <td rowspan="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi,
-                                et
-                                exercitationem laboriosam, magni, nobis obcaecati praesentium quaerat quis quod
-                                reprehenderit sequi voluptates. Architecto est fuga ipsum quisquam voluptatum. Quis.
-                            </td>
-                            <td rowspan="4"><a href="#">Wireframe.pdf <br>photo.jpg <br>Video.mkv <br>Movies.mkv</a>
-                            </td>
-                        </tr>
-
-                        </tbody>
-                    </table>
+    <div class="modal fade" id="read-more" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="edit-modal">More</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <!-- table-responsive -->
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Done</button>
-            </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table card-table table-vcenter table-hover table-bordered">
+                            <thead>
+                            <tr>
+                                <th>Topic</th>
+                                <th>Duration</th>
+                                <th>Description</th>
+                                <th>File Attached</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td rowspan="4">Changing Photographer</td>
+                                <td rowspan="4">20 minutes</td>
+                                <td rowspan="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi,
+                                    et
+                                    exercitationem laboriosam, magni, nobis obcaecati praesentium quaerat quis quod
+                                    reprehenderit sequi voluptates. Architecto est fuga ipsum quisquam voluptatum. Quis.
+                                </td>
+                                <td rowspan="4"><a href="#">Wireframe.pdf <br>photo.jpg <br>Video.mkv <br>Movies.mkv</a>
+                                </td>
+                            </tr>
 
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- table-responsive -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Done</button>
+                </div>
+
+            </div>
         </div>
-    </div>

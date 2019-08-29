@@ -210,7 +210,77 @@
         <!-- section-wrapper -->
     </div>
 </div>
+<div class="row">
+    <div class="col">
+        <div class="card text-center">
+            <div class="card-body">
+                <img src="../assets/images/svgs/png/098-premium-1.png" alt="img" class="w-9">
+                <p class="mt-4">Time Spent</p>
+                <h2 class="mb-0 font-weight-extrabold">54562</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-center">
+            <div class="card-body">
+                <img src="../assets/images/svgs/png/017-clipboard.png" alt="img" class="w-9">
+                <p class="mt-4">Meeting For Projects</p>
+                <h2 class="mb-0 font-weight-extrabold">651</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-center">
+            <div class="card-body">
+                <img src="../assets/images/svgs/png/114-share.png" alt="img" class="w-9">
+                <p class="mt-4">Meeting For Deals</p>
+                <h2 class="mb-0 font-weight-extrabold">726</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-center">
+            <div class="card-body">
+                <img src="../assets/images/svgs/png/075-logistic-17.png" alt="img" class="w-9">
+                <p class="mt-4">Meetings For Organization</p>
+                <h2 class="mb-0 font-weight-extrabold">1023</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card text-center">
+            <div class="card-body">
+                <img src="../assets/images/svgs/png/081-on-time.png" alt="img" class="w-9">
+                <p class="mt-4">Meeting For Company Vendor</p>
+                <h2 class="mb-0 font-weight-extrabold">652</h2>
+            </div>
+        </div>
+    </div>
 
+
+</div>
+<div class="row">
+    <div class="col-md-12 col-xl-5 col-lg-5">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h3 class="card-title">Impression</h3>
+            </div>
+            <div class="card-body">
+                <div id="chart" class="overflow-hidden chart-dropshadow"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 col-xl-7 col-lg-7">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h3 class="card-title">Monthly Social Action</h3>
+            </div>
+            <div class="card-body">
+                <div id="social" class="overflow-hidden chart-dropshadow"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Message Modal -->
 <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-hidden="true">

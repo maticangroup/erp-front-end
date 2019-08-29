@@ -12,130 +12,79 @@
 <!--page header-->
 <div class="row">
     <div class="col-4">
-        <div class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                            <span class="avatar-status bg-green"></span>
-                                        </span>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro9.jpg">
+                        <span class="avatar-status bg-green"></span>
+                    </span>
                 </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Requester</a></h5>
-                <span>Mr. Azimi</span>
-                <div class="mt-20">
-                    <span class="badge badge-default">Photographer</span> <span
-                            class="badge badge-default">Editor</span> <span
-                            class="badge badge-default">Producer</span>
-                </div>
-
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas Ghaderi</a></h5>
+                <span>Requester</span>
+                <div>
+                    <span class="badge badge-default">manager</span>
+                    <span class="badge badge-default">supervisor</span>
                 </div>
                 <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-4">
-        <div class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                            <span class="avatar-status bg-green"></span>
-                                        </span>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro9.jpg">
+                        <span class="avatar-status bg-green"></span>
+                    </span>
                 </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">From</a></h5>
-                <span>Ehsan Rezvanian</span>
-                <div class="mt-20">
-                    <span class="badge badge-default">Photographer</span> <span
-                            class="badge badge-default">Editor</span> <span
-                            class="badge badge-default">Producer</span>
-                </div>
-
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Ehsan Rezvanian</a></h5>
+                <span>From</span>
+                <div>
+                    <span class="badge badge-default">manager</span>
+                    <span class="badge badge-default">supervisor</span>
                 </div>
                 <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-4">
-        <div class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                            <span class="avatar-status bg-green"></span>
-                                        </span>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro9.jpg">
+                        <span class="avatar-status bg-green"></span>
+                    </span>
                 </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">To</a></h5>
-                <span>Farima</span>
-                <div class="mt-20">
-                    <span class="badge badge-default">Photographer</span> <span
-                            class="badge badge-default">Editor</span> <span
-                            class="badge badge-default">Producer</span>
-                </div>
-
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hossein Azimi</a></h5>
+                <span>To</span>
+                <div>
+                    <span class="badge badge-default">manager</span>
+                    <span class="badge badge-default">supervisor</span>
                 </div>
                 <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
@@ -231,7 +180,7 @@
             <div class="card-body p-3">
                 <div class="panel panel-primary">
                     <div class=" tab-menu-heading">
-                        <div class="tabs-menu1 ">
+                        <div class="tabs-menu">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
                                 <li><a href="#tab6" class="font-weight-bold active"
@@ -267,40 +216,7 @@
                                             <td>2,000,000</td>
                                             <td>Ehsan Rezvanian</td>
                                             <td>Farima</td>
-                                            <td>2,000,000</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab7">
-
-                                <div class="card">
-                                    <table class="table table-striped" style="width;100%">
-                                        <thead>
-                                        <tr>
-                                            <th class="wd-15p border-bottom-0 text-center">Serial</th>
-                                            <th class="wd-15p border-bottom-0 text-center">Type</th>
-                                            <th class="wd-15p border-bottom-0 text-center">Requester
-                                            </th>
-                                            <th class="wd-15p border-bottom-0 text-center">Date</th>
-                                            <th class="wd-15p border-bottom-0 text-center">Total Price
-                                            </th>
-                                            <th class="wd-15p border-bottom-0 text-center">From</th>
-                                            <th class="wd-15p border-bottom-0 text-center">To</th>
-                                            <th class="wd-15p border-bottom-0 text-center">Invoice</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr class="text-center">
-                                            <td>9856</td>
-                                            <td>Withdraw</td>
-                                            <td>Mr. Azimi</td>
-                                            <td>2/3/97</td>
-                                            <td>2,000,000</td>
-                                            <td>Ehsan Rezvanian</td>
-                                            <td>Farima</td>
-                                            <td>2,000,000</td>
+                                            <td>65465</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -335,7 +251,7 @@
                             <th class="wd-15p border-bottom-0 text-center">Amount</th>
                             <th class="wd-10p border-bottom-0 text-center">Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Time</th>
-                            <th class="wd-10p border-bottom-0 text-center">For</th>
+                            <th class="wd-10p border-bottom-0 text-center">Payment Request</th>
                             <th class="wd-15p border-bottom-0 text-center">From</th>
                             <th class="wd-20p border-bottom-0 text-center">To</th>
                             <th class="wd-25p border-bottom-0 text-center">Branch</th>
@@ -349,7 +265,7 @@
                             <td class="text-center">1,200 $</td>
                             <td class="text-center">12 February 2020</td>
                             <td class="text-center">08:40 PM</td>
-                            <td class="text-center">Project commission</td>
+                            <td class="text-center">65468</td>
                             <td class="text-center">Somaieh Gholami</td>
                             <td class="text-center">Kosar Naiemi</td>
                             <td class="text-center">Shariati</td>
@@ -369,7 +285,7 @@
                             <td class="text-center">3,400 $</td>
                             <td class="text-center">29 July 2020</td>
                             <td class="text-center">00:20 PM</td>
-                            <td class="text-center">Wage</td>
+                            <td class="text-center">5465</td>
                             <td class="text-center">Omid Jahan</td>
                             <td class="text-center">Mahdi Alavi</td>
                             <td class="text-center">Valiasr</td>
@@ -388,7 +304,7 @@
                             <td class="text-center">660 $</td>
                             <td class="text-center">08 February 2018</td>
                             <td class="text-center">05:35 PM</td>
-                            <td class="text-center">Invoice</td>
+                            <td class="text-center">854654</td>
                             <td class="text-center">Hafez Asadi</td>
                             <td class="text-center">Nasrin Maghami</td>
                             <td class="text-center">Velenjak</td>
@@ -407,7 +323,7 @@
                             <td class="text-center">4,000 $</td>
                             <td class="text-center">23 January 2015</td>
                             <td class="text-center">10:50 AM</td>
-                            <td class="text-center">Invoice</td>
+                            <td class="text-center">684651</td>
                             <td class="text-center">ُShahab Hoseini</td>
                             <td class="text-center">Shahla Arasteh</td>
                             <td class="text-center">Bazar</td>
@@ -426,7 +342,7 @@
                             <td class="text-center"> 7,300 $</td>
                             <td class="text-center">27 January 2019</td>
                             <td class="text-center">06:55 AM</td>
-                            <td class="text-center">Fund</td>
+                            <td class="text-center">968465</td>
                             <td class="text-center">Sami Yuosefi</td>
                             <td class="text-center">Nasir Bashir</td>
                             <td class="text-center">Valiasr</td>
@@ -538,141 +454,254 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                    <select class="form-control" id="type">
-                                        <option>Withdraw</option>
-                                        <option>Despoit</option>
-                                    </select>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Pill Tabs</h3>
+                    </div>
+                    <div class="card-body p-6">
+                        <div class="panel panel-primary">
+                            <div class="tab-menu-heading">
+                                <div class="tabs-menu ">
+                                    <!-- Tabs -->
+                                    <ul class="nav panel-tabs">
+                                        <li class=""><a href="#tab1" class="active" data-toggle="tab">Basic Info</a>
+                                        </li>
+                                        <li><a href="#tab2" data-toggle="tab">People</a></li>
+                                        <li><a href="#tab3" data-toggle="tab">Bank</a></li>
+                                        <li><a href="#tab4" data-toggle="tab">Notification</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">Amount:
-                                    </label>
-                                    <input type="number" class="form-control" step="0">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">From:
-                                    </label>
-                                    <input type="text" class="form-control" step="0">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">To:
-                                    </label>
-                                    <input type="text" class="form-control" step="0">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">From Bank:</label>
-                                    <select class="form-control">
-                                        <option>Passargard</option>
-                                        <option>Melli</option>
-                                        <option>Parsian</option>
-                                        <option>Mellat</option>
-                                        <option>Sepah</option>
-                                        <option>Tejarat</option>
-                                        <option>Saderat</option>
-                                        <option>Sarmaie</option>
-                                        <option>Keshavarzi</option>
-                                        <option>Saman</option>
-                                        <option>Maskan</option>
-                                        <option>Eghtesade Novin</option>
-                                        <option>Post Bank</option>
-                                        <option>Ayandeh</option>
-                                        <option>Hekmat Iranian</option>
-                                        <option>Tourism Bank</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">To Bank:</label>
-                                    <select class="form-control">
-                                        <option>Passargard</option>
-                                        <option>Melli</option>
-                                        <option>Parsian</option>
-                                        <option>Mellat</option>
-                                        <option>Sepah</option>
-                                        <option>Tejarat</option>
-                                        <option>Saderat</option>
-                                        <option>Sarmaie</option>
-                                        <option>Keshavarzi</option>
-                                        <option>Saman</option>
-                                        <option>Maskan</option>
-                                        <option>Eghtesade Novin</option>
-                                        <option>Post Bank</option>
-                                        <option>Ayandeh</option>
-                                        <option>Hekmat Iranian</option>
-                                        <option>Tourism Bank</option>
-                                    </select>
-                                </div>
-                            </div>
+                            <div class="panel-body tabs-menu-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active " id="tab1">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">Type :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
 
+                                                    <select class="form-control" id="type">
+                                                        <option>Withdraw</option>
+                                                        <option>Despoit</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">Amount :
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <input type="number" class="form-control" step="0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">Payment
+                                                    Method :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <select class="form-control">
+                                                        <option>Cash</option>
+                                                        <option>Check</option>
+                                                        <option>Pos</option>
+                                                        <option>ATM</option>
+                                                        <option>Mobile Bank</option>
+                                                        <option>Bank</option>
+                                                        <option>Internet Bank</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">Token :
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" step="0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label class="form-label">Description :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <textarea class="form-control" name="example-textarea-input"
+                                                              rows="6"
+                                                              placeholder="Description here ..."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane  " id="tab2">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">From :
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" step="0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">To :
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" step="0">
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="tab-pane " id="tab3">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">From
+                                                    Bank :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <select class="form-control">
+                                                        <option>Passargard</option>
+                                                        <option>Melli</option>
+                                                        <option>Parsian</option>
+                                                        <option>Mellat</option>
+                                                        <option>Sepah</option>
+                                                        <option>Tejarat</option>
+                                                        <option>Saderat</option>
+                                                        <option>Sarmaie</option>
+                                                        <option>Keshavarzi</option>
+                                                        <option>Saman</option>
+                                                        <option>Maskan</option>
+                                                        <option>Eghtesade Novin</option>
+                                                        <option>Post Bank</option>
+                                                        <option>Ayandeh</option>
+                                                        <option>Hekmat Iranian</option>
+                                                        <option>Tourism Bank</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">To
+                                                    Bank :</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <select class="form-control">
+                                                        <option>Passargard</option>
+                                                        <option>Melli</option>
+                                                        <option>Parsian</option>
+                                                        <option>Mellat</option>
+                                                        <option>Sepah</option>
+                                                        <option>Tejarat</option>
+                                                        <option>Saderat</option>
+                                                        <option>Sarmaie</option>
+                                                        <option>Keshavarzi</option>
+                                                        <option>Saman</option>
+                                                        <option>Maskan</option>
+                                                        <option>Eghtesade Novin</option>
+                                                        <option>Post Bank</option>
+                                                        <option>Ayandeh</option>
+                                                        <option>Hekmat Iranian</option>
+                                                        <option>Tourism Bank</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">From Account:
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" step="0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label
+                                                        class="form-control-label mr-1 font-weight-bold">To Account:
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" step="0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane " id="tab4">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group clearfix mt-3">
+                                                    <div class="row ">
+                                                        <div class="col-lg-3">
+                                                            <label class="control-label form-label font-weight-bold"
+                                                                   for="Inform">Inform :</label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <select multiple="multiple" class="multi-select"
+                                                                    id="Inform">
+                                                                <option value="1">Ali Javadi</option>
+                                                                <option value="2">Mohsen Salami</option>
+                                                                <option value="3">Amir Ghane</option>
+                                                                <option value="4">Sahar Salimi</option>
+                                                                <option value="5">Rima mahan</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">Transaction For:
-                                    </label>
-                                    <input type="text" class="form-control" step="0">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label
-                                            class="form-control-label mr-1 font-weight-bold">Payment
-                                        Method:</label>
-                                    <select class="form-control">
-                                        <option>Cash</option>
-                                        <option>Check</option>
-                                        <option>Pos</option>
-                                        <option>ATM</option>
-                                        <option>Mobile Bank</option>
-                                        <option>Bank</option>
-                                        <option>Internet Bank</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="form-label">Description <span
-                                                class="form-label-small">0/100</span></label>
-                                    <textarea class="form-control" name="example-textarea-input" rows="6"
-                                              placeholder="Description here ..."></textarea>
-                                </div>
+                </div>
 
-                            </div>
-                        </div>
-                    </div>
 
-                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
