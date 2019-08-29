@@ -3,13 +3,13 @@
         <h4 class="page-title">Meeting View</h4>
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+            <a href="javascript:void(0)"
                class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
         </div>
 
     </div>
 </div>
-<div id="information" class="row">
+<div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="row">
             <div class="col-md-12 col-xl-12">
@@ -297,7 +297,6 @@
 
                                                                 <tbody>
                                                                 <tr>
-                                                                    <th><i class="far fa-calendar"></i></th>
                                                                     <th scope="row">Date :</th>
                                                                     <td>12/8/97</td>
                                                                 </tr>
@@ -322,6 +321,35 @@
 
                                                     </div>
                                                 </div>
+                                                <div class="card">
+                                                    <div class="card-header bg-primary">
+                                                        <div class="card-title">Hold Place</div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Address</h6>
+                                                                <span class="d-block">Tehran , Enqelab Square , Street 1</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media mt-1 pb-2">
+                                                            <div class="mediaicon">
+                                                                <i class="far fa-calendar-check" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="media-body ml-5 mt-1">
+                                                                <h6 class="mediafont text-dark mb-1">Location</h6>
+                                                                <span class="d-block">125.546.897</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="map-header">
+                                                            <div class="map-header-layer" id="map2"></div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="card">
@@ -329,38 +357,53 @@
                                                         <div class="card-title">Description</div>
                                                     </div>
                                                     <div class="card-body">
-                                                        <h4 class="mb-0">HR Meeting:</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                                                            beatae distinctio dolores fugiat inventore molestias sit.
-                                                            Beatae cum dignissimos eos hic labore minus quaerat quam
-                                                            sapiente sequi voluptas! A commodi corporis distinctio ea
-                                                            incidunt, ipsam itaque maiores modi molestiae, nam natus,
-                                                            obcaecati odit porro quae quas qui rem tempore voluptate?
-                                                            Alias corporis culpa dolor dolorem enim, et exercitationem
-                                                            facere fuga fugiat hic id illo impedit labore, libero
-                                                            maiores minima nemo nesciunt numquam officiis porro quae
-                                                            quam, quidem quo reprehenderit sed soluta suscipit ullam
-                                                            unde voluptate voluptatem? Ad aperiam architecto corporis
-                                                            debitis et nesciunt omnis pariatur, porro qui ratione
-                                                            suscipit vero.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="card">
-                                                    <div class="card-header bg-primary">
-                                                        <div class="card-title">Hold Place</div>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h4 class="mb-0">Address:</h4>
-                                                        <p>Lorem ipsum dolor sit amet.</p>
-                                                        <h4 class="mb-0">Compass:</h4>
-                                                        <p>12.548.685.78</p>
-                                                        <h4 class="mb-0">Map:</h4>
-                                                        <div class="map-header">
-                                                            <div class="map-header-layer" id="map2"></div>
-
-                                                        </div>
+                                                        <h4>HR Meeting</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                            Consequatur cumque, cupiditate dolor ducimus eligendi enim
+                                                            et illo nam neque non rerum ut! Asperiores assumenda aut
+                                                            blanditiis delectus dolorem doloremque eius enim facere
+                                                            facilis incidunt labore laudantium magni mollitia officia
+                                                            officiis quidem quis quo quos repellendus reprehenderit,
+                                                            rerum, saepe sequi similique sint sit totam voluptates
+                                                            voluptatum? Animi at dicta doloremque ducimus eaque et
+                                                            facilis id impedit minima nesciunt nobis non qui quibusdam
+                                                            quisquam sequi, suscipit ut. Blanditiis commodi, cumque
+                                                            distinctio doloremque earum error esse est et explicabo
+                                                            ipsam maiores molestias necessitatibus nulla obcaecati quia
+                                                            quisquam quod reprehenderit suscipit temporibus, ullam!
+                                                            Alias delectus exercitationem maxime provident rerum?
+                                                            Dolorum harum ipsam maiores quia voluptatum. Fuga neque,
+                                                            nobis pariatur perferendis porro rem totam! Adipisci,
+                                                            aliquam atque commodi consequatur culpa cum cumque debitis
+                                                            deleniti dicta dignissimos doloribus ea esse eum fuga ipsum
+                                                            iste magnam molestiae necessitatibus officia praesentium
+                                                            quam, rem repellendus reprehenderit rerum sapiente similique
+                                                            sint suscipit voluptas voluptate voluptates! Ad, aperiam
+                                                            atque consectetur deleniti eaque eum fugiat id nesciunt odit
+                                                            porro praesentium, quae quasi reprehenderit similique ullam
+                                                            velit vero! Delectus ducimus eaque eius eos ex id in
+                                                            incidunt iure, laboriosam magnam natus nisi odit porro
+                                                            reprehenderit, temporibus. Accusantium, aliquid blanditiis
+                                                            delectus dolor ducimus eius eos ex impedit itaque labore
+                                                            laborum maiores modi molestiae nihil nobis non numquam
+                                                            officiis optio perferendis, possimus quia quis sed sint sit
+                                                            suscipit tempora ullam? Animi eum id neque repudiandae.
+                                                            Accusamus adipisci aliquid atque consequatur cupiditate
+                                                            doloribus dolorum eveniet fugiat, minus, modi odio quam
+                                                            quasi quia soluta tempora, tenetur veniam! Culpa explicabo
+                                                            fuga laudantium porro. Aperiam aspernatur aut doloremque
+                                                            labore, omnis quasi quia sed! Autem eius eligendi hic
+                                                            nesciunt, perferendis perspiciatis voluptas. Accusamus
+                                                            deserunt dolores doloribus molestias obcaecati, recusandae
+                                                            repellat sed vitae? Accusantium aut deleniti enim error illo
+                                                            in, ipsam itaque magnam nemo nisi non perspiciatis,
+                                                            praesentium provident rem veritatis. Lorem ipsum dolor sit
+                                                            amet, consectetur adipisicing elit. Obcaecati, quidem. Lorem
+                                                            ipsum dolor sit amet, consectetur adipisicing elit.
+                                                            Accusamus, voluptates! Lorem ipsum dolor sit amet,
+                                                            consectetur adipisicing elit. Ab, fugit. Lorem ipsum dolor
+                                                            sit amet. Lorem ipsum dolor sit amet, consectetur
+                                                            adipisicing elit. Illum, sit.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -371,8 +414,8 @@
                                             <div class="col-3">
                                                 <div class="card">
                                                     <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
-                                                                     src="../assets/images/photos/2.jpg"
-                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                                     src="../assets/images/photos/adobe-acrobat-pdf-file-document-512.png"
+                                                                     alt="pdf file"></a>
                                                     <div class="card-body d-flex flex-column">
                                                         <h4><a href="#">Wireframe.PDF</a>
                                                         </h4>
@@ -383,10 +426,10 @@
                                             <div class="col-3">
                                                 <div class="card">
                                                     <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
-                                                                     src="../assets/images/photos/2.jpg"
-                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                                     src="../assets/images/photos/Filetype-Docs-icon.png"
+                                                                     alt="doc file"></a>
                                                     <div class="card-body d-flex flex-column">
-                                                        <h4><a href="#">Photos.JPG</a>
+                                                        <h4><a href="#">Photos.doc</a>
                                                         </h4>
                                                         <a href="#" class="btn btn-primary btn-sm">View</a>
                                                     </div>
@@ -395,8 +438,8 @@
                                             <div class="col-3">
                                                 <div class="card">
                                                     <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
-                                                                     src="../assets/images/photos/2.jpg"
-                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                                     src="../assets/images/photos/mkv-512.png"
+                                                                     alt="mkv file"></a>
                                                     <div class="card-body d-flex flex-column">
                                                         <h4><a href="#">Videos.MKV</a>
                                                         </h4>
@@ -407,8 +450,8 @@
                                             <div class="col-3">
                                                 <div class="card">
                                                     <a href="#"><img class="card-img-top br-tr-3 br-tl-3"
-                                                                     src="../assets/images/photos/2.jpg"
-                                                                     alt="Well, I didn&#39;t vote for you."></a>
+                                                                     src="../assets/images/photos/mkv-512.png"
+                                                                     alt="mkv file"></a>
                                                     <div class="card-body d-flex flex-column">
                                                         <h4><a href="#">Movies.MKV</a>
                                                         </h4>
@@ -833,13 +876,18 @@
         </div>
     </div>
 </div>
-<div id="information" class="row">
+<div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="row">
             <div class="col-md-12 col-xl-12">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title font-weight-bold">Meeting Item</h3>
+                        <button type="button" class="btn btn-outline-primary ml-3"
+                                data-toggle="modal"
+                                data-target="#add-meeting-item">
+                            <i class="fas fa-plus"></i>
+                        </button>
                     </div>
                     <div class="card-body p-5">
                         <div class="panel panel-primary">
@@ -861,6 +909,221 @@
                             <div class="panel-body tabs-menu-body ">
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1-1">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <div class="image bg-primary">
+                                                            <i class="zmdi zmdi-collection-item-1"></i>
+                                                        </div>
+                                                        <div class="info card pb-6">
+                                                            <h3 class="title mb-0">Changing Photographer</h3>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Sed in
+                                                                lobortis nisl, vitae iaculis sapien. Phasellus ultrices
+                                                                gravida
+                                                                massa luctus ornare. Suspendisse blandit quam elit, eu
+                                                                imperdiet
+                                                                neque semper.</p>
+                                                            <div class="row">
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            data-toggle="modal"
+                                                                            data-target="#read-more"
+                                                                            title="Title Link">Read More<i
+                                                                                class="fa fa-angle-double-right"
+                                                                        ></i></a></div>
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            title="Title Link">20 minutes</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <div class="image bg-primary">
+                                                            <i class="zmdi zmdi-collection-item-2"></i>
+                                                        </div>
+                                                        <div class="info card pb-6">
+                                                            <h3 class="title mb-0">Project Managing</h3>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Sed in
+                                                                lobortis nisl, vitae iaculis sapien. Phasellus ultrices
+                                                                gravida
+                                                                massa luctus ornare. Suspendisse blandit quam elit, eu
+                                                                imperdiet
+                                                                neque semper.</p>
+                                                            <div class="row">
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            data-toggle="modal"
+                                                                            data-target="#read-more"
+                                                                            title="Title Link">Read More<i
+                                                                                class="fa fa-angle-double-right"
+                                                                        ></i></a></div>
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            title="Title Link">10 minutes</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <div class="image bg-primary">
+                                                            <i class="zmdi zmdi-collection-item-3"></i>
+                                                        </div>
+                                                        <div class="info card pb-6">
+                                                            <h3 class="title mb-0">CEO Advice</h3>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Sed in
+                                                                lobortis nisl, vitae iaculis sapien. Phasellus ultrices
+                                                                gravida
+                                                                massa luctus ornare. Suspendisse blandit quam elit, eu
+                                                                imperdiet
+                                                                neque semper.</p>
+                                                            <div class="row">
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            data-toggle="modal"
+                                                                            data-target="#read-more"
+                                                                            title="Title Link">Read More<i
+                                                                                class="fa fa-angle-double-right"
+                                                                        ></i></a></div>
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            title="Title Link">30 minutes</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <div class="image bg-primary">
+                                                            <i class="zmdi zmdi-collection-item-4"></i>
+                                                        </div>
+                                                        <div class="info card pb-6">
+                                                            <h3 class="title mb-0">Photography issues</h3>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Sed in
+                                                                lobortis nisl, vitae iaculis sapien. Phasellus ultrices
+                                                                gravida
+                                                                massa luctus ornare. Suspendisse blandit quam elit, eu
+                                                                imperdiet
+                                                                neque semper.</p>
+                                                            <div class="row">
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            data-toggle="modal"
+                                                                            data-target="#read-more"
+                                                                            title="Title Link">Read More<i
+                                                                                class="fa fa-angle-double-right"
+                                                                        ></i></a></div>
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            title="Title Link">15 minutes</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <div class="image bg-primary">
+                                                            <i class="zmdi zmdi-collection-item-5"></i>
+                                                        </div>
+                                                        <div class="info card pb-6">
+                                                            <h3 class="title mb-0">Equipment issues</h3>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Sed in
+                                                                lobortis nisl, vitae iaculis sapien. Phasellus ultrices
+                                                                gravida
+                                                                massa luctus ornare. Suspendisse blandit quam elit, eu
+                                                                imperdiet
+                                                                neque semper.</p>
+                                                            <div class="row">
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            data-toggle="modal"
+                                                                            data-target="#read-more"
+                                                                            title="Title Link">Read More<i
+                                                                                class="fa fa-angle-double-right"
+                                                                        ></i></a></div>
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            title="Title Link">10 minutes</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <div class="image bg-primary">
+                                                            <i class="zmdi zmdi-collection-item-6"></i>
+                                                        </div>
+                                                        <div class="info card pb-6">
+                                                            <h3 class="title mb-0">Conclusion</h3>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                Sed in
+                                                                lobortis nisl, vitae iaculis sapien. Phasellus ultrices
+                                                                gravida
+                                                                massa luctus ornare. Suspendisse blandit quam elit, eu
+                                                                imperdiet
+                                                                neque semper.</p>
+                                                            <div class="row">
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            data-toggle="modal"
+                                                                            data-target="#read-more"
+                                                                            title="Title Link">Read More<i
+                                                                                class="fa fa-angle-double-right"
+                                                                        ></i></a></div>
+                                                                <div class="col-6"><a
+                                                                            class="btn btn-primary text-white center-block"
+                                                                            href="#"
+                                                                            title="Title Link">15 minutes</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
 
                                     </div>
                                     <div class="tab-pane " id="tab2-2">
@@ -961,6 +1224,346 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-12 col-xl-12 col-xl-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Meeting Day</h3>
+            </div>
+            <div class="card-body p-6">
+                <div class="panel panel-primary">
+                    <div class="tab-menu-heading">
+                        <div class="tabs-menu ">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li class=""><a href="#tab1-1-1" class="active" data-toggle="tab">Attendant</a></li>
+                                <li><a href="#tab2-2-2" data-toggle="tab">Timing</a></li>
+                                <li><a href="#tab3-3-3" data-toggle="tab">Report</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel-body tabs-menu-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab1-1-1">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title mr-2">Attendants</div>
+                                                <button type="button" class="btn btn-outline-primary"
+                                                        data-toggle="modal"
+                                                        data-target="#add-modal"><i
+                                                            class="fas  fa-plus"></i>
+                                                </button>
+                                                <div class="card-options d-none d-sm-block mr-1">
+                                                    <a href="#" class="btn btn-outline-primary">Register<i
+                                                                class="fas fa-check"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="table-responsive ">
+                                                    <table id="example-2"
+                                                           class="table table-striped table-bordered nowrap">
+                                                        <thead>
+                                                        <tr>
+                                                            <th class="wd-15p border-bottom-0 text-left">
+                                                                Name
+                                                            </th>
+                                                            <th class="wd-15p border-bottom-0 text-center">
+                                                                Type
+                                                            </th>
+                                                            <th class="wd-10p border-bottom-0 text-center">
+                                                                Unit
+                                                            </th>
+                                                            <th class="wd-15p border-bottom-0 text-center">
+                                                                Role
+                                                            </th>
+                                                            <th class="wd-20p border-bottom-0 text-center">
+                                                                Mobile/Ext.
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center">
+                                                                Roll Call
+                                                            </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>Ehsan Rezvanian</td>
+                                                            <td class="text-center">Employee</td>
+                                                            <td class="text-center">TQM</td>
+                                                            <td class="text-center">HR</td>
+                                                            <td class="text-center">09120342211</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Hossein Azimi</td>
+                                                            <td class="text-center">Customer</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">09125488658</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Ehsan Rezvanian</td>
+                                                            <td class="text-center">Employee</td>
+                                                            <td class="text-center">TQM</td>
+                                                            <td class="text-center">HR</td>
+                                                            <td class="text-center">09120342211</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Hossein Azimi</td>
+                                                            <td class="text-center">Customer</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">09125488658</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Ehsan Rezvanian</td>
+                                                            <td class="text-center">Employee</td>
+                                                            <td class="text-center">TQM</td>
+                                                            <td class="text-center">HR</td>
+                                                            <td class="text-center">09120342211</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Hossein Azimi</td>
+                                                            <td class="text-center">Customer</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">09125488658</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Ehsan Rezvanian</td>
+                                                            <td class="text-center">Employee</td>
+                                                            <td class="text-center">TQM</td>
+                                                            <td class="text-center">HR</td>
+                                                            <td class="text-center">09120342211</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Hossein Azimi</td>
+                                                            <td class="text-center">Customer</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">-</td>
+                                                            <td class="text-center">09125488658</td>
+                                                            <td class="text-center">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <!-- table-wrapper -->
+                                        </div>
+                                        <!-- section-wrapper -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane  " id="tab2-2-2">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">
+                                                    Topics
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2">
+                                                    <div class="wrapper ml-1">
+                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                            <b>Changing Photographer </b></h4>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <a href="#" class="btn btn-outline-primary btn-sm"><i
+                                                                    class="far fa-clock mr-1"></i>20 minutes</a>
+                                                    </div>
+                                                    <div class="float-right ml-1 mr-3">
+                                                        <a href="#" class="btn btn-primary btn-sm">Read More <i
+                                                                    class="fas fa-angle-right mr-1"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2 bg-primary">
+                                                    <div class="wrapper ml-1">
+                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                            <b>Changing Photographer </b></h4>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <a href="#" class="btn btn-outline-light btn-sm"><i
+                                                                    class="far fa-clock mr-1"></i>20 minutes</a>
+                                                    </div>
+                                                    <div class="float-right ml-1 mr-3">
+                                                        <a href="#" class="btn btn-light btn-sm">Read More <i
+                                                                    class="fas fa-angle-right mr-1"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2">
+                                                    <div class="wrapper ml-1">
+                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                            <b>Changing Photographer </b></h4>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <a href="#" class="btn btn-outline-primary btn-sm"><i
+                                                                    class="far fa-clock mr-1"></i>20 minutes</a>
+                                                    </div>
+                                                    <div class="float-right ml-1 mr-3">
+                                                        <a href="#" class="btn btn-primary btn-sm">Read More <i
+                                                                    class="fas fa-angle-right mr-1"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2 bg-primary">
+                                                    <div class="wrapper ml-1">
+                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                            <b>Changing Photographer </b></h4>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <a href="#" class="btn btn-outline-light btn-sm"><i
+                                                                    class="far fa-clock mr-1"></i>20 minutes</a>
+                                                    </div>
+                                                    <div class="float-right ml-1 mr-3">
+                                                        <a href="#" class="btn btn-light btn-sm">Read More <i
+                                                                    class="fas fa-angle-right mr-1"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2">
+                                                    <div class="wrapper ml-1">
+                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                            <b>Changing Photographer </b></h4>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <a href="#" class="btn btn-outline-primary btn-sm"><i
+                                                                    class="far fa-clock mr-1"></i>20 minutes</a>
+                                                    </div>
+                                                    <div class="float-right ml-1 mr-3">
+                                                        <a href="#" class="btn btn-primary btn-sm">Read More <i
+                                                                    class="fas fa-angle-right mr-1"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="list d-flex align-items-center border-bottom border-top border-right border-left rounded mb-2 bg-primary">
+                                                    <div class="wrapper ml-1">
+                                                        <h4 class="mb-0"><i class="fas fa-exclamation mr-3"></i>
+                                                            <b>Changing Photographer </b></h4>
+                                                    </div>
+                                                    <div class="float-right">
+                                                        <a href="#" class="btn btn-outline-light btn-sm"><i
+                                                                    class="far fa-clock mr-1"></i>20 minutes</a>
+                                                    </div>
+                                                    <div class="float-right ml-1 mr-3">
+                                                        <a href="#" class="btn btn-light btn-sm">Read More <i
+                                                                    class="fas fa-angle-right mr-1"></i></a>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">
+                                                    Duration
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div id="timer-countercallback"
+                                                     class="p-4 bg-gradient-primary text-white br-7 text-center h4">
+
+                                                </div>
+                                                <div>
+                                                    <div class="row text-center">
+                                                        <div class="col-4">
+                                                            <a href="#" class="btn btn-lg btn-outline-primary">Start</a>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <a href="#" class="btn btn-lg btn-outline-primary">Stop</a>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <a href="#"
+                                                               class="btn btn-lg btn-outline-dark">Finish</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane " id="tab3-3-3">
+                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                    beguiled and demoralized by the charms of pleasure of the moment, so blinded by
+                                    desire, that they cannot foresee the pain and trouble that are bound to ensue; and
+                                    equal blame belongs to those who fail in their duty through weakness of will, which
+                                    is the same as saying through shrinking from toil and pain.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -1251,3 +1854,143 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="add-meeting-item" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="panel panel-primary">
+                        <div class="tab-menu-heading">
+                            <div class="tabs-menu ">
+                                <!-- Tabs -->
+                                <ul class="nav panel-tabs">
+                                    <li class=""><a href="#tab1" class="active" data-toggle="tab">Tab 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body tabs-menu-body">
+                            <div class="tab-content">
+                                <div class="tab-pane active " id="tab1">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label class="form-label">Topic</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="example-text-input"
+                                                       placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label class="form-label">Duration :</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="wd-150 mg-b-30">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                        </div><!-- input-group-text -->
+                                                    </div><!-- input-group-prepend -->
+                                                    <input class="form-control" id="tp2" placeholder="Set time"
+                                                           type="text">
+                                                </div>
+                                            </div><!-- wd-150 -->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label class="form-label">Description :</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="form-group">
+                                                    <textarea class="form-control" name="example-textarea-input"
+                                                              rows="6" placeholder="text here.."></textarea>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="form-label">File Attach :</div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="form-group">
+
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input"
+                                                           name="example-file-input-custom">
+                                                    <label class="custom-file-label">Choose file</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="read-more" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="edit-modal">More</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table card-table table-vcenter table-hover table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Duration</th>
+                            <th>Description</th>
+                            <th>File Attached</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td rowspan="4">Changing Photographer</td>
+                            <td rowspan="4">20 minutes</td>
+                            <td rowspan="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi,
+                                et
+                                exercitationem laboriosam, magni, nobis obcaecati praesentium quaerat quis quod
+                                reprehenderit sequi voluptates. Architecto est fuga ipsum quisquam voluptatum. Quis.
+                            </td>
+                            <td rowspan="4"><a href="#">Wireframe.pdf <br>photo.jpg <br>Video.mkv <br>Movies.mkv</a>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- table-responsive -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+
+        </div>
+    </div>
