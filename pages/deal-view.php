@@ -785,13 +785,23 @@
 </div>
 
 <div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12">
+    <div class="col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Progress Rate</h3>
+                <h3 class="card-title">Line Chart</h3>
             </div>
             <div class="card-body">
                 <canvas id="sales-chart" class="h-300"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-12" style="display: none">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Area Chart</h3>
+            </div>
+            <div class="card-body">
+                <canvas id="team-chart" class="h-300"></canvas>
             </div>
         </div>
     </div>
