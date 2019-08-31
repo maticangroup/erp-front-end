@@ -148,7 +148,7 @@ if (false):?>
 <?php endif; ?>
 
 <?php
-$current_page = ['/meeting-overview' , '/project-view'];
+$current_page = ['/meeting-overview', '/project-view'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
@@ -156,20 +156,21 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyAykAdIIsNMu0V2wyGOMQcguo8zKngWlyM"></script>
     <script src="/assets/plugins/maps-google/jquery.googlemap.js"></script>
     <script src="/assets/plugins/maps-google/map.js"></script>
+    <script src="/assets/js/index5.js"></script>
     <!-- Vector Map js-->
-<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>-->
-<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>-->
-<!--    <script src="/assets/plugins/jvectormap/gdp-data.js"></script>-->
-<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>-->
-<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js"></script>-->
-<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js"></script>-->
-<!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js"></script>-->
-<!--    <script src="/assets/js/jvectormap.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/gdp-data.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js"></script>-->
+    <!--    <script src="/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js"></script>-->
+    <!--    <script src="/assets/js/jvectormap.js"></script>-->
 
 <?php endif; ?>
 
 <?php
-$current_page = ['/test', '/tasks' , '/project-view'];
+$current_page = ['/test', '/tasks', '/project-view'];
 
 if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
@@ -245,8 +246,6 @@ if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
     <script src="/assets/plugins/highcharts/export-data.js"></script>
     <script src="/assets/plugins/highcharts/histogram-bellcurve.js"></script>
     <script src="/assets/js/highcharts.js"></script>
-
-
 
 
 <?php endif; ?>
