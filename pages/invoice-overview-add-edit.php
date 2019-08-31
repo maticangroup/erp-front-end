@@ -161,105 +161,164 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Title" class="form-control-label mr-1 font-weight-bold">Title: </label>
-                                    <input type="text" class="form-control" id="Title" step="0">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="tab-menu-heading border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Relation</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Type" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                    <select class="form-control" id="Type">
-                                        <option>Purchase</option>
-                                        <option>Sale</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Owner" class="form-control-label mr-1 font-weight-bold">Owner:</label>
-                                    <input type="text" class="form-control " id="Owner">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Related To"
-                                           class="form-control-label mr-1 font-weight-bold">Related
-                                        To:</label>
-                                    <input type="text" class="form-control " id="Related To">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold">Description:<span
-                                                class="form-label-small ">56/100</span></label>
-                                    <textarea class="form-control" name="example-textarea-input"
-                                              rows="6" placeholder="text here.."></textarea>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Title
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+
+                                                                <input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row ">
+                                                        <div class="col-lg-3">
+                                                            <label for="Type"
+                                                                   class="form-control-label mr-1 font-weight-bold">Type
+                                                                :</label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+
+                                                                <select class="form-control" id="Type">
+                                                                    <option>Purchase</option>
+                                                                    <option>Sale</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Owner
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+
+                                                                <input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group clearfix">
+                                                        <div class="row mt-4">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix mt-5">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">File
+                                                                    Attachment :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="custom-file">
+                                                                    <input type="file" class="custom-file-input"
+                                                                           name="example-file-input-custom">
+                                                                    <label class="custom-file-label">Choose file</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab2">
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1
+                                                                                    </option>
+                                                                                    <option value="p2">Deal 2
+                                                                                    </option>
+                                                                                    <option value="p3">Deal 3
+                                                                                    </option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card p-3 mb-1 ">
-                        <div class="row ">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Quantity"
-                                           class="form-control-label mr-1 font-weight-bold">Quantity:</label>
-                                    <input type="text" class="form-control " id="Quantity">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Unit Price"
-                                           class="form-control-label mr-1 font-weight-bold">Unit
-                                        Price:</label>
-                                    <input type="text" class="form-control " id="Unit Price">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Total Price"
-                                           class="form-control-label mr-1 font-weight-bold">Total
-                                        Price:</label>
-                                    <input type="text" class="form-control " id="Total Price">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Discount"
-                                           class="form-control-label mr-1 font-weight-bold">Discount:</label>
-                                    <input type="text" class="form-control " id="Discount">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Tax" class="form-control-label mr-1 font-weight-bold">Tax:</label>
-                                    <input type="text" class="form-control " id="Tax">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <button type="button" class="btn btn-outline-dark float-right mb-1"><i
-                                            class="fas fa-check"></i> Edit
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -278,105 +337,162 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Title2"
-                                           class="form-control-label mr-1 font-weight-bold">Title: </label>
-                                    <input type="text" class="form-control" id="Title2" step="0">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="tab-menu-heading border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Relation</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                    <select class="form-control" id="Type2">
-                                        <option>Purchase</option>
-                                        <option>Sale</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Unit2" class="form-control-label mr-1 font-weight-bold">Owner:</label>
-                                    <input type="text" class="form-control " id="Unit2">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Place2"
-                                           class="form-control-label mr-1 font-weight-bold">Related
-                                        To:</label>
-                                    <input type="text" class="form-control " id="Place2">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold">Description:<span
-                                                class="form-label-small ">56/100</span></label>
-                                    <textarea class="form-control" name="example-textarea-input"
-                                              rows="6" placeholder="text here.."></textarea>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Title
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+
+                                                                <input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row ">
+                                                        <div class="col-lg-3">
+                                                            <label for="Type"
+                                                                   class="form-control-label mr-1 font-weight-bold">Type
+                                                                :</label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+
+                                                                <select class="form-control" id="Type">
+                                                                    <option>Purchase</option>
+                                                                    <option>Sale</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Owner
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+
+                                                                <input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group clearfix">
+                                                        <div class="row mt-4">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix mt-5">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">File
+                                                                    Attachment :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="custom-file">
+                                                                    <input type="file" class="custom-file-input"
+                                                                           name="example-file-input-custom">
+                                                                    <label class="custom-file-label">Choose file</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab2-2">
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1
+                                                                                    </option>
+                                                                                    <option value="p2">Deal 2
+                                                                                    </option>
+                                                                                    <option value="p3">Deal 3
+                                                                                    </option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card p-3 mb-1 ">
-                        <div class="row ">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Quantity2"
-                                           class="form-control-label mr-1 font-weight-bold">Quantity:</label>
-                                    <input type="text" class="form-control " id="Quantity2">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Unit Price2"
-                                           class="form-control-label mr-1 font-weight-bold">Unit
-                                        Price:</label>
-                                    <input type="text" class="form-control " id="Unit Price2">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Total Price2"
-                                           class="form-control-label mr-1 font-weight-bold">Total
-                                        Price:</label>
-                                    <input type="text" class="form-control " id="Total Price2">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Discount2"
-                                           class="form-control-label mr-1 font-weight-bold">Discount:</label>
-                                    <input type="text" class="form-control " id="Discount2">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Tax2" class="form-control-label mr-1 font-weight-bold">Tax:</label>
-                                    <input type="text" class="form-control " id="Tax2">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <button type="button" class="btn btn-outline-dark float-right mb-1"><i
-                                            class="fas fa-check"></i> Edit
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>

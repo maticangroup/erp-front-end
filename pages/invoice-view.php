@@ -14,8 +14,8 @@
             <div class="card-body table-responsive">
                 <div class="row mb-2">
                     <div class="col-3">
-                        <img src="..\assets\FarimaLogo.jpg" alt="" class="logo mb-3"
-                             style="width:65%;">
+                        <img src="../assets/Logo-2.jpg" alt="" class="logo"
+                             style="width:100%;">
                     </div>
                     <div class="col-3"></div>
                     <div class="col-3"></div>
@@ -188,25 +188,30 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-4"></div>
+                    <div class="col-4 text-center mt-auto mb-auto">
+                        <div class="float-right ml-1 d-print-none">
+                            <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#add-invoice">Add
+                                Invoice</a>
+                        </div>
+                    </div>
                     <div class="col-4"></div>
                     <div class="col-4">
                         <table
                                 class="table card-table table-vcenter text-nowrap table-bordered mt-5 text-center">
                             <tr>
-                                <td scope="row" class="bg-purple">Total Price</td>
+                                <td scope="row" class="bg-primary">Total Price</td>
                                 <td>43,900,000 Rial</td>
                             </tr>
                             <tr>
-                                <td scope="row" class="bg-purple">Discount</td>
+                                <td scope="row" class="bg-primary">Discount</td>
                                 <td>3,300,000 Rial</td>
                             </tr>
                             <tr>
-                                <td scope="row" class="bg-purple">Tax</td>
+                                <td scope="row" class="bg-primary">Tax</td>
                                 <td>1,000,000 Rial</td>
                             </tr>
                             <tr>
-                                <td scope="row" class="bg-purple">Toral Due</td>
+                                <td scope="row" class="bg-primary">Toral Due</td>
                                 <td>41,600,000 Rial</td>
                             </tr>
                         </table>
@@ -235,5 +240,117 @@
             </div>
         </div>
 
+    </div>
+</div>
+
+<div class="modal fade" id="add-invoice" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="example-Modal3-2">New Invoice</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="tab-menu-heading border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold"
+                                                            data-toggle="tab">Add</a></li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Invoice
+                                                                Item :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Quantity
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+                                                                <input type="number" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Unit
+                                                                Price :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+                                                                <input type="number" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Discount
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+                                                                <input type="number" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label
+                                                                    class="form-control-label mr-1 font-weight-bold">Tax
+                                                                :
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group">
+                                                                <input type="number" class="form-control" step="0">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>Add To List</button>
+            </div>
+        </div>
     </div>
 </div>
