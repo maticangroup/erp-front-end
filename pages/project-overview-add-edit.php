@@ -472,14 +472,6 @@
     </div>
 </div>
 
-
-<div class="row">
-
-</div>
-
-
-
-
 <!-- Message Modal -->
 
 <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-hidden="true">
