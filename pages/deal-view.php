@@ -120,9 +120,7 @@
                                     <div class="col-xl-6 col-lg-12 col-md-12">
                                         <div class="card">
                                             <div class="card-header bg-primary">
-                                                <div class="card-title">
-                                                    Deal Info
-                                                </div>
+                                                <div class="card-title">Basic Info</div>
                                             </div>
                                             <div class="card-body">
                                                 <div class="table-responsive">
@@ -153,26 +151,6 @@
 
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-12 col-md-12">
-                                        <div class="card">
-                                            <div class="card-header bg-primary">
-                                                <div class="card-title">Description</div>
-                                            </div>
-                                            <div class="card-body">
-                                                <blockquote class="blockquote mb-0 card-body">
-                                                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper
-                                                        feugiat nibh sed. Neque aliquam vestibulum morbi blandit. Ipsum consequat nisl
-                                                        vel pretium lectus quam id leo in. </p>
-                                                    <footer class="blockquote-footer">
-                                                        <small class="text-muted font-weight-bold mb-3">Saghar Nikpoor <cite title="Source Title">public relations expert</cite></small>
-                                                    </footer>
-                                                </blockquote>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-12 col-md-12">
                                         <div class="card">
                                             <div class="card-header bg-primary">
                                                 <div class="card-title">Company Activity</div>
@@ -234,6 +212,22 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="card">
+                                            <div class="card-header bg-primary">
+                                                <div class="card-title">Description</div>
+                                            </div>
+                                            <div class="card-body">
+                                                <blockquote class="blockquote mb-0 card-body">
+                                                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Ac turpis egestas sed tempus urna. Massa vitae tortor condimentum lacinia quis vel eros donec. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Nunc scelerisque viverra mauris in aliquam sem fringilla. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Integer quis auctor elit sed vulputate. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Curabitur vitae nunc sed velit dignissim sodales. Aliquam id diam maecenas ultricies mi eget mauris pharetra et. Habitant morbi tristique senectus et netus. Egestas egestas fringilla phasellus faucibus. Tempus imperdiet nulla malesuada pellentesque. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Viverra nibh cras pulvinar mattis nunc. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. At lectus urna duis convallis convallis tellus id. Quisque egestas diam in arcu cursus euismod.
+                                                        Cursus euismod quis viverra nibh cras.sim sodales ut eu sem. Eu non diam phasellus vestibulum lorem sed risus. Aliquam ultrices sagittis orci a scelerisque purus. Sit amet venenatis urna cursus. Quam id leo in vitae turpis massa sed elementum. Quam elementum pulvinar etiam non. </p>
+                                                    <footer class="blockquote-footer">
+                                                        <small class="text-muted font-weight-bold mb-3">Saghar Nikpoor <cite title="Source Title">public relations expert</cite></small>
+                                                    </footer>
+                                                </blockquote>
                                             </div>
                                         </div>
                                     </div>
@@ -907,17 +901,11 @@
 </div>
 
 <div class="row">
-<<<<<<< HEAD
+
     <div class="col-xl-7 col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title font-weight-bold">Line Chart</h3>
-=======
-    <div class="col-lg-12 col-md-12">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Line Chart</h3>
->>>>>>> 18e5da8e837054796078dcee43c0301c5473c537
             </div>
             <div class="card-body">
                 <canvas id="sales-chart" class="h-300"></canvas>
@@ -934,7 +922,6 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
     <div class="col-xl-5 col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
@@ -974,8 +961,6 @@
             </div>
         </div>
     </div>
-=======
->>>>>>> 18e5da8e837054796078dcee43c0301c5473c537
 </div>
 
 
