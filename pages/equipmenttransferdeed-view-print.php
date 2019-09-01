@@ -467,8 +467,7 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="Equipment Supply Deed2"
-                                           class="form-control-label mr-1 font-weight-bold">Equipment
-                                        Supply Deed:</label>
+                                           class="form-control-label mr-1 font-weight-bold">Equipment Supply Deed:</label>
                                     <input type="text" class="form-control "
                                            id="Equipment Supply Deed2">
                                 </div>
@@ -683,16 +682,8 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <<<<<<< HEAD
-                                    <label for="Transportation Way2"
-                                           class="form-control-label mr-1 font-weight-bold">Transportation
-                                        Way:</label>
-                                    <select class="form-control" id="Transportation Way2">
-                                        =======
-                                        <label for="Delivery Method2" class="form-control-label mr-1 font-weight-bold">Delivery
-                                            Method:</label>
+                                        <label for="Delivery Method2" class="form-control-label mr-1 font-weight-bold">Delivery Method:</label>
                                         <select class="form-control" id="Delivery Method2">
-                                            >>>>>>> f41c36347a31ff44cd2458ab433462f63f571961
                                             <option>Car</option>
                                             <option>Pickup Truck</option>
                                             <option>Truck</option>
