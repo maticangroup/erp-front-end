@@ -192,7 +192,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
@@ -449,7 +449,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">

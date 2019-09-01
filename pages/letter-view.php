@@ -97,7 +97,7 @@
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
+                    <div class="  ">
                         <div class="tabs-menu1 ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -106,7 +106,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="panel-body tabs-menu-body">
+                    <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab1">
                                 <div id="basic info" class="p-3 text-left">
@@ -249,7 +249,7 @@
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
@@ -264,7 +264,7 @@
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
@@ -279,7 +279,7 @@
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
@@ -294,7 +294,7 @@
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
@@ -309,7 +309,7 @@
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i

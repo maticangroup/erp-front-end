@@ -5,7 +5,7 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
         </div>
     </div>
 </div>
@@ -127,7 +127,7 @@
                     <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>Adam Berry</b> Add a new projects <b> AngularJS
+                            <p class="mb-0"><b>Ali habibi</b> Add a new projects <b> AngularJS
                                     Template</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
@@ -135,7 +135,7 @@
                     <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>Adam Berry</b> Add a new projects <b> AngularJS
+                            <p class="mb-0"><b>Ali habibi</b> Add a new projects <b> AngularJS
                                     Template</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
@@ -143,7 +143,7 @@
                     <img src="../assets/images/users/female/10.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>Irene Hunter</b> Add a new projects <b>Free HTML
+                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Free HTML
                                     Template</b></p>
                             <small class="text-danger">1 days ago</small>
                         </div>
@@ -151,7 +151,7 @@
                     <img src="../assets/images/users/male/4.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>John Payne</b> Add a new projects <b>Free PSD
+                            <p class="mb-0"><b>Saeed Bakhshi</b> Add a new projects <b>Free PSD
                                     Template</b></p>
                             <small class="text-warning">3 days ago</small>
                         </div>
@@ -159,7 +159,7 @@
                     <img src="../assets/images/users/female/8.jpg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
-                            <p class="mb-0"><b>Julia Hardacre</b> Add a new projects <b>Free UI
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b> Add a new projects <b>Free UI
                                     Template</b></p>
                             <small class="text-success">5 days ago</small>
                         </div>
@@ -179,7 +179,7 @@
 
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
+                    <div class="  ">
                         <div class="tabs-menu">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -188,7 +188,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="panel-body tabs-menu-body">
+                    <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
                             <div class="tab-pane active" id="tab6">
                                 <div class="card mt-4">
@@ -460,7 +460,7 @@
                     </div>
                     <div class="card-body p-6">
                         <div class="panel panel-primary">
-                            <div class="tab-menu-heading">
+                            <div class=" ">
                                 <div class="tabs-menu ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
@@ -472,7 +472,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="panel-body tabs-menu-body">
+                            <div class="panel-body  tabs-menu-body border-0">
                                 <div class="tab-content">
                                     <div class="tab-pane active " id="tab1">
                                         <div class="row">

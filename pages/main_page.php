@@ -760,7 +760,7 @@
             <!--Sidebar-right-->
             <div class="sidebar sidebar-right sidebar-animate">
                 <div class="panel panel-primary">
-                    <div class="tab-menu-heading border-0">
+                    <div class="  border-0">
                         <div class="tabs-menu ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -1008,7 +1008,7 @@
                                                     class="avatar-status bg-green"></span></span>
                                         </div>
                                         <div class="">
-                                            <div class="font-weight-semibold">Mozelle Belt</div>
+                                            <div class="font-weight-semibold">Nazanin Bayati</div>
                                         </div>
                                         <div class="ml-auto">
                                             <a href="#" class="btn btn-sm btn-light"><i
@@ -1076,7 +1076,7 @@
                                                     class="avatar-status bg-green"></span></span>
                                         </div>
                                         <div class="">
-                                            <div class="font-weight-semibold">Mozelle Belt</div>
+                                            <div class="font-weight-semibold">Nazanin Bayati</div>
                                         </div>
                                         <div class="ml-auto">
                                             <a href="#" class="btn btn-sm btn-light"><i

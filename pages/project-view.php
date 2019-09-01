@@ -4,7 +4,7 @@
         <h4 class="page-title">Project View</h4>
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
@@ -90,7 +90,7 @@
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
+                    <div class="  ">
                         <div class="tabs-menu1 ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -104,7 +104,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="panel-body tabs-menu-body">
+                    <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab5">
                                 <div id="jumbotron" class="row">
@@ -356,7 +356,7 @@
                     </div>
                     <div class="card-body p-5">
                         <div class="panel panel-primary">
-                            <div class="tab-menu-heading p-3 ">
+                            <div class="  p-3 ">
                                 <div class="tabs-menu ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
@@ -376,7 +376,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="panel-body tabs-menu-body ">
+                            <div class="panel-body  tabs-menu-body border-0 ">
                                 <div class="tab-content">
                                     <div class="tab-pane active " id="tab1111">
                                         <div class="row mt-5">
@@ -1107,7 +1107,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1127,7 +1127,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1147,7 +1147,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1167,7 +1167,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1187,7 +1187,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1207,7 +1207,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1227,7 +1227,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1247,7 +1247,7 @@
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Update</a>
+                                                                                    class="si si-pencil"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
 
@@ -1264,7 +1264,7 @@
                                     </div>
                                     <div class="tab-pane " id="tab6666">
                                         <div class="panel panel-primary">
-                                            <div class=" tab-menu-heading">
+                                            <div class="  ">
                                                 <div class="tabs-menu1 ">
                                                     <!-- Tabs -->
                                                     <ul class="nav panel-tabs">
@@ -1276,7 +1276,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="panel-body tabs-menu-body">
+                                            <div class="panel-body  tabs-menu-body border-0">
                                                 <div class="tab-content">
                                                     <div class="tab-pane active " id="tab1-1">
                                                         <div id="basic info" class="p-3 text-left">
@@ -1584,7 +1584,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
@@ -2019,7 +2019,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">

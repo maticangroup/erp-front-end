@@ -250,7 +250,7 @@
                                                         class="avatar-status bg-green"></span></span>
                             </div>
                             <div class="">
-                                <div class="font-weight-semibold">Mozelle Belt</div>
+                                <div class="font-weight-semibold">Nazanin Bayati</div>
                             </div>
                             <div class="ml-auto">
                                 <a href="#" class="btn btn-sm btn-light"><i
@@ -318,7 +318,7 @@
                                                         class="avatar-status bg-green"></span></span>
                             </div>
                             <div class="">
-                                <div class="font-weight-semibold">Mozelle Belt</div>
+                                <div class="font-weight-semibold">Nazanin Bayati</div>
                             </div>
                             <div class="ml-auto">
                                 <a href="#" class="btn btn-sm btn-light"><i

@@ -11,7 +11,7 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="#" class="btn btn-primary btn-sm bg-red"><i
@@ -27,7 +27,7 @@
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
+                    <div class="  ">
                         <div class="tabs-menu1 ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -42,7 +42,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="panel-body tabs-menu-body">
+                    <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab5">
                                 <div class="p-3 text-left">

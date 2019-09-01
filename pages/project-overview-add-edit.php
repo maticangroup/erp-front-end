@@ -56,7 +56,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -79,7 +79,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -102,7 +102,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -125,7 +125,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -148,7 +148,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -171,7 +171,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -194,7 +194,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -217,7 +217,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
@@ -488,7 +488,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                    <div class="tab-menu-heading border-0">
+                                    <div class="  border-0">
                                         <div class="tabs-menu ">
                                             <!-- Tabs -->
                                             <ul class="nav panel-tabs">
@@ -923,7 +923,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">

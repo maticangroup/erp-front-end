@@ -48,7 +48,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -67,7 +67,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -86,7 +86,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -105,7 +105,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -124,7 +124,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -143,7 +143,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -162,7 +162,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -181,7 +181,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -200,7 +200,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -219,7 +219,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -238,7 +238,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -257,7 +257,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>

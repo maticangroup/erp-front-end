@@ -53,7 +53,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                             </td>
                         </tr>
@@ -74,7 +74,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                             </td>
                         </tr>
@@ -95,7 +95,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                             </td>
                         </tr>
@@ -116,7 +116,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                             </td>
                         </tr>
@@ -137,7 +137,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
 
                             </td>
                         </tr>

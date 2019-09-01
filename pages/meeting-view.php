@@ -4,7 +4,7 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
         </div>
 
     </div>
@@ -19,7 +19,7 @@
                     </div>
                     <div class="card-body p-5">
                         <div class="panel panel-primary">
-                            <div class="tab-menu-heading p-3 ">
+                            <div class="  p-3 ">
                                 <div class="tabs-menu ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
@@ -35,7 +35,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="panel-body tabs-menu-body ">
+                            <div class="panel-body  tabs-menu-body border-0 ">
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1">
                                         <div class="row mt-5">
@@ -550,7 +550,7 @@
                                                                            data-toggle="modal"
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm">
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -583,7 +583,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -616,7 +616,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -649,7 +649,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -682,7 +682,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 </tbody>
@@ -775,7 +775,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -800,7 +800,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -825,7 +825,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -850,7 +850,7 @@
                                                                            data-target="#edit-modal"
                                                                            class="btn btn-primary btn-sm"><i
                                                                                     class="fas fa-pen"></i>
-                                                                            Update</a>
+                                                                            Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 </tbody>
@@ -891,7 +891,7 @@
                     </div>
                     <div class="card-body p-5">
                         <div class="panel panel-primary">
-                            <div class="tab-menu-heading p-3 ">
+                            <div class="  p-3 ">
                                 <div class="tabs-menu ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
@@ -906,7 +906,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="panel-body tabs-menu-body ">
+                            <div class="panel-body  tabs-menu-body border-0 ">
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1-1">
                                         <div class="row">
@@ -1129,80 +1129,92 @@
                                     <div class="tab-pane " id="tab2-2">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="card">
-                                                    <div class="card-header">
-                                                        <h3 class="card-title">Horizontal Time Line</h3>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="timeline">
-                                                            <div class="timeline__wrap">
-                                                                <div class="timeline__items">
-                                                                    <div class="timeline__item">
-                                                                        <div class="timeline__content  ">
-                                                                            <h2>15th Jan 2019</h2>
-                                                                            <p>Nam libero tempore, cum soluta nobis
-                                                                                est
-                                                                                eligendi optio cumque placeat facere
-                                                                                possimus, omnis voluptas assumenda
-                                                                                est,
-                                                                                omnis dolor repellendus</p>
-                                                                            <a href="#"
-                                                                               class="btn btn-primary btn-sm mt-2">View
-                                                                                More</a>
-                                                                        </div>
-                                                                    </div>
-
+                                                <div class="timeline">
+                                                    <div class="timeline__wrap">
+                                                        <div class="timeline__items">
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content  ">
+                                                                    <h2>15th Jan 2019</h2>
+                                                                    <p>Nam libero tempore, cum soluta nobis est
+                                                                        eligendi optio cumque placeat facere
+                                                                        possimus, omnis voluptas assumenda est,
+                                                                        omnis dolor repellendus</p>
+                                                                    <a href="#"
+                                                                       class="btn btn-primary btn-sm mt-2">View
+                                                                        More</a>
                                                                 </div>
-                                                                <div class="timeline__items">
-                                                                    <div class="timeline__item">
-                                                                        <div class="timeline__content  ">
-                                                                            <h2>15th Jan 2019</h2>
-                                                                            <p>Nam libero tempore, cum soluta nobis
-                                                                                est
-                                                                                eligendi optio cumque placeat facere
-                                                                                possimus, omnis voluptas assumenda
-                                                                                est,
-                                                                                omnis dolor repellendus</p>
-                                                                            <a href="#"
-                                                                               class="btn btn-primary btn-sm mt-2">View
-                                                                                More</a>
-                                                                        </div>
-                                                                    </div>
-
+                                                            </div>
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content ">
+                                                                    <h2>18th Jan 2019</h2>
+                                                                    <p>No one rejects, dislikes, or avoids
+                                                                        pleasure itself, because it is pleasure,
+                                                                        but because those who do not know how to
+                                                                        pursue pleasure .</p>
                                                                 </div>
-                                                                <div class="timeline__items">
-                                                                    <div class="timeline__item">
-                                                                        <div class="timeline__content  ">
-                                                                            <h2>15th Jan 2019</h2>
-                                                                            <p>Nam libero tempore, cum soluta nobis
-                                                                                est
-                                                                                eligendi optio cumque placeat facere
-                                                                                possimus, omnis voluptas assumenda
-                                                                                est,
-                                                                                omnis dolor repellendus</p>
-                                                                            <a href="#"
-                                                                               class="btn btn-primary btn-sm mt-2">View
-                                                                                More</a>
-                                                                        </div>
-                                                                    </div>
-
+                                                            </div>
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content">
+                                                                    <h2>23rd Jan 2019</h2>
+                                                                    <img src="../assets/images/photos/2.jpg"
+                                                                         alt="img">
+                                                                    <p class="mt-2">Itaque earum rerum hic
+                                                                        tenetur a sapiente delectus, ut aut
+                                                                        reiciendis voluptatibus maiores alias
+                                                                        consequatur</p>
                                                                 </div>
-                                                                <div class="timeline__items">
-                                                                    <div class="timeline__item">
-                                                                        <div class="timeline__content  ">
-                                                                            <h2>15th Jan 2019</h2>
-                                                                            <p>Nam libero tempore, cum soluta nobis
-                                                                                est
-                                                                                eligendi optio cumque placeat facere
-                                                                                possimus, omnis voluptas assumenda
-                                                                                est,
-                                                                                omnis dolor repellendus</p>
-                                                                            <a href="#"
-                                                                               class="btn btn-primary btn-sm mt-2">View
-                                                                                More</a>
-                                                                        </div>
-                                                                    </div>
-
+                                                            </div>
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content ">
+                                                                    <h2>25th Jan 2019</h2>
+                                                                    <img src="../assets/images/photos/4.jpg"
+                                                                         alt="img">
+                                                                    <p class="mt-2">On the other hand, we
+                                                                        denounce with righteous indignation and
+                                                                        dislike men who are so beguiled and
+                                                                        demoralized by the charms</p>
+                                                                    <a href="#"
+                                                                       class="btn btn-outline-success btn-sm mt-2 mb-0">View
+                                                                        More</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="timeline__item ">
+                                                                <div class="timeline__content">
+                                                                    <h2>28th Jan 2019</h2>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                                                        adipiscing elit. Integer dignissim neque
+                                                                        condimentum lacus dapibus.</p>
+                                                                    <a href="#"
+                                                                       class="btn btn-info btn-sm mt-2">More
+                                                                        info</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content">
+                                                                    <h2>01st Feb 2019</h2>
+                                                                    <img src="../assets/images/photos/5.jpg"
+                                                                         alt="img">
+                                                                    <p class="mt-2">Duis aute irure dolor in
+                                                                        reprehenderit in voluptate velit esse
+                                                                        cillum dolore eu fugiat nulla
+                                                                        pariatur.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content">
+                                                                    <h2>03rd Feb 2019</h2>
+                                                                    <img src="../assets/images/photos/12.jpg"
+                                                                         alt="img">
+                                                                    <a href="#"
+                                                                       class="btn btn-danger btn-sm mt-2">More
+                                                                        info</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="timeline__item">
+                                                                <div class="timeline__content">
+                                                                    <h2>06th Feb 2019</h2>
+                                                                    <img src="../assets/images/photos/21.jpg"
+                                                                         alt="img">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1232,7 +1244,7 @@
             </div>
             <div class="card-body p-6">
                 <div class="panel panel-primary">
-                    <div class="tab-menu-heading">
+                    <div class=" ">
                         <div class="tabs-menu ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -1242,7 +1254,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="panel-body tabs-menu-body">
+                    <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab1-1-1">
                                 <div class="row">
@@ -1571,434 +1583,444 @@
             </div>
         </div>
     </div>
-
-
-    <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="panel panel-primary">
-                                <div class=" tab-menu-heading">
-                                    <div class="tabs-menu1 ">
-                                        <!-- Tabs -->
-                                        <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab5" class="active font-weight-bold"
-                                                            data-toggle="tab">New Meeting</a></li>
-                                            <li><a href="#tab6" class="font-weight-bold"
-                                                   data-toggle="tab">Ready
-                                                    To Use</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="panel-body tabs-menu-body">
-                                    <div class="tab-content">
-                                        <div class="tab-pane active " id="tab5">
-                                            <form autocomplete="off">
-                                                <div class="card p-3  mb-1 ">
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label>Title:</label>
-                                                                <input type="text" name="title"
-                                                                       class="form-control"/>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label class="form-label">Type:</label>
-                                                                <select name="type" id="select-type"
-                                                                        class="form-control custom-select">
-                                                                    <option>
-                                                                        Client ordering advice
-                                                                    </option>
-                                                                    <option>
-                                                                        Close Contract
-                                                                    </option>
-                                                                    <option>
-                                                                        B to B
-                                                                    </option>
-                                                                    <option>
-                                                                        Planning meeting before hold
-                                                                        project
-                                                                    </option>
-                                                                    <option>
-                                                                        Daily stand up meeting
-                                                                    </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label>Organizer:</label>
-                                                                <input type="text" name="text"
-                                                                       class="form-control"/>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label class="form-label">Related
-                                                                    To:</label>
-                                                                <select name="type" id="select-type"
-                                                                        class="form-control custom-select">
-                                                                    <option>
-                                                                        Deal
-                                                                    </option>
-                                                                    <option>
-                                                                        Project
-                                                                    </option>
-                                                                    <option>
-                                                                        Within Organization
-                                                                    </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label class="form-label">Choose
-                                                                    Branch</label>
-                                                                <select name="branch" id="select-branch"
-                                                                        class="form-control custom-select">
-                                                                    <option>
-                                                                        Teh
-                                                                    </option>
-                                                                    <option>
-                                                                        Qom
-                                                                    </option>
-                                                                    <option>
-                                                                        Tabriz
-                                                                    </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label class="form-label">Room</label>
-                                                                <select name="branch" id="select-branch"
-                                                                        class="form-control custom-select">
-                                                                    <option>
-                                                                        1
-                                                                    </option>
-                                                                    <option>
-                                                                        2
-                                                                    </option>
-                                                                    <option>
-                                                                        3
-                                                                    </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card p-3 mb-1 ">
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <div class="wd-200">
-                                                                <label>From Time:</label>
-                                                                <div class="wd-150 mg-b-30">
-                                                                    <div class="input-group">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">
-                                                                                <i
-                                                                                        class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- input-group-prepend -->
-                                                                        <input class="form-control"
-                                                                               id="tpBasic"
-                                                                               placeholder="Set time"
-                                                                               type="text">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <div class="wd-200">
-                                                                <label>Duration:</label>
-                                                                <div class="wd-150 mg-b-30">
-                                                                    <div class="input-group">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">
-                                                                                <i
-                                                                                        class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- input-group-prepend -->
-                                                                        <input class="form-control"
-                                                                               id="tpBasic"
-                                                                               placeholder="Set time"
-                                                                               type="text">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-4 mb-3">
-                                                        <div class="col-6">
-                                                            <div class="wd-200">
-                                                                <label>Date:</label>
-                                                                <div class="wd-200 mb-3">
-                                                                    <div class="input-group">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">
-                                                                                <i
-                                                                                        class="fas fa-calendar tx-16 lh-0 op-6"></i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <input
-                                                                                class="form-control fc-datepicker"
-                                                                                placeholder="MM/DD/YYYY"
-                                                                                type="text">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card p-3 mb-1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="form-group">
-                                                                <label
-                                                                        class="form-label font-weight-bold">Description:</label>
-                                                                <textarea class="form-control"
-                                                                          name="example-textarea-input" rows="6"
-                                                                          placeholder="text here.."></textarea>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="form-group mt-1">
-                                                                <div
-                                                                        class="form-label ml-1 font-weight-bold">
-                                                                    Attachment:
-                                                                </div>
-                                                                <div class="custom-file">
-                                                                    <input type="file"
-                                                                           class="custom-file-input"
-                                                                           name="example-file-input-custom">
-                                                                    <label class="custom-file-label">Choose
-                                                                        File</label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-1">
-                                                    <div class="col-12">
-                                                        <div class="card  mt-0 mb-0 ">
-                                                            <div class="card-header">
-                                                                <div class="card-title">Equipments:
-                                                                </div>
-                                                            </div>
-                                                            <div class="card-body">
-                                                                <div class="wd-200">
-                                                                    <div class="form-group ">
-                                                                        <label class="form-label">Equipments
-                                                                            Needed:</label>
-                                                                        <div
-                                                                                class="selectgroup selectgroup-pills">
-                                                                            <label class="selectgroup-item">
-                                                                                <input type="checkbox"
-                                                                                       name="value"
-                                                                                       value="Tablet"
-                                                                                       class="selectgroup-input"
-                                                                                       checked="">
-                                                                                <span
-                                                                                        class="selectgroup-button">Tablet</span>
-                                                                            </label>
-                                                                            <label class="selectgroup-item">
-                                                                                <input type="checkbox"
-                                                                                       name="value"
-                                                                                       value="Phone"
-                                                                                       class="selectgroup-input">
-                                                                                <span
-                                                                                        class="selectgroup-button">Phone</span>
-                                                                            </label>
-                                                                            <label class="selectgroup-item">
-                                                                                <input type="checkbox"
-                                                                                       name="value"
-                                                                                       value="Computer"
-                                                                                       class="selectgroup-input">
-                                                                                <span
-                                                                                        class="selectgroup-button">Computer</span>
-                                                                            </label>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="tab-pane " id="tab6">
-                                            <!--
-                                                                .
-                                                                .
-                                                                tab2 content
-                                                                .
-                                                                .
-                                                                -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+</div>
+<div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-        </div>
-    </div>
-    <div class="modal fade" id="add-meeting-item" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="card">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
                         <div class="panel panel-primary">
-                            <div class="tab-menu-heading">
-                                <div class="tabs-menu ">
+                            <div class="  ">
+                                <div class="tabs-menu1 ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
-                                        <li class=""><a href="#tab1" class="active" data-toggle="tab">Tab 1</a></li>
+                                        <li class=""><a href="#tab5" class="active font-weight-bold"
+                                                        data-toggle="tab">New Meeting</a></li>
+                                        <li><a href="#tab6" class="font-weight-bold"
+                                               data-toggle="tab">Ready
+                                                To Use</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="panel-body tabs-menu-body">
+                            <div class="panel-body  tabs-menu-body border-0">
                                 <div class="tab-content">
-                                    <div class="tab-pane active " id="tab1">
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <label class="form-label">Topic</label>
-                                            </div>
-                                            <div class="col-lg-9">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="example-text-input"
-                                                           placeholder="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <label class="form-label">Duration :</label>
-                                            </div>
-                                            <div class="col-lg-9">
-                                                <div class="wd-150 mg-b-30">
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <div class="input-group-text">
-                                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                            </div><!-- input-group-text -->
-                                                        </div><!-- input-group-prepend -->
-                                                        <input class="form-control" id="tp2" placeholder="Set time"
-                                                               type="text">
+                                    <div class="tab-pane active " id="tab5">
+                                        <form autocomplete="off">
+                                            <div class="card p-3  mb-1 ">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label>Title:</label>
+                                                            <input type="text" name="title"
+                                                                   class="form-control"/>
+                                                        </div>
                                                     </div>
-                                                </div><!-- wd-150 -->
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <label class="form-label">Description :</label>
-                                            </div>
-                                            <div class="col-lg-9">
-                                                <div class="form-group">
-                                                    <textarea class="form-control" name="example-textarea-input"
-                                                              rows="6" placeholder="text here.."></textarea>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-3">
-                                                <div class="form-label">File Attach :</div>
-                                            </div>
-                                            <div class="col-lg-9">
-                                                <div class="form-group">
-
-                                                    <div class="custom-file">
-                                                        <input type="file" class="custom-file-input"
-                                                               name="example-file-input-custom">
-                                                        <label class="custom-file-label">Choose file</label>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Type:</label>
+                                                            <select name="type" id="select-type"
+                                                                    class="form-control custom-select">
+                                                                <option>
+                                                                    Client ordering advice
+                                                                </option>
+                                                                <option>
+                                                                    Close Contract
+                                                                </option>
+                                                                <option>
+                                                                    B to B
+                                                                </option>
+                                                                <option>
+                                                                    Planning meeting before hold
+                                                                    project
+                                                                </option>
+                                                                <option>
+                                                                    Daily stand up meeting
+                                                                </option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label>Organizer:</label>
+                                                            <input type="text" name="text"
+                                                                   class="form-control"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Related
+                                                                To:</label>
+                                                            <select name="type" id="select-type"
+                                                                    class="form-control custom-select">
+                                                                <option>
+                                                                    Deal
+                                                                </option>
+                                                                <option>
+                                                                    Project
+                                                                </option>
+                                                                <option>
+                                                                    Within Organization
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Choose
+                                                                Branch</label>
+                                                            <select name="branch" id="select-branch"
+                                                                    class="form-control custom-select">
+                                                                <option>
+                                                                    Teh
+                                                                </option>
+                                                                <option>
+                                                                    Qom
+                                                                </option>
+                                                                <option>
+                                                                    Tabriz
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Room</label>
+                                                            <select name="branch" id="select-branch"
+                                                                    class="form-control custom-select">
+                                                                <option>
+                                                                    1
+                                                                </option>
+                                                                <option>
+                                                                    2
+                                                                </option>
+                                                                <option>
+                                                                    3
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-
-
-                                        </div>
+                                            <div class="card p-3 mb-1 ">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="wd-200">
+                                                            <label>From Time:</label>
+                                                            <div class="wd-150 mg-b-30">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i
+                                                                                    class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- input-group-prepend -->
+                                                                    <input class="form-control"
+                                                                           id="tpBasic"
+                                                                           placeholder="Set time"
+                                                                           type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="wd-200">
+                                                            <label>Duration:</label>
+                                                            <div class="wd-150 mg-b-30">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i
+                                                                                    class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- input-group-prepend -->
+                                                                    <input class="form-control"
+                                                                           id="tpBasic"
+                                                                           placeholder="Set time"
+                                                                           type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-4 mb-3">
+                                                    <div class="col-6">
+                                                        <div class="wd-200">
+                                                            <label>Date:</label>
+                                                            <div class="wd-200 mb-3">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i
+                                                                                    class="fas fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input
+                                                                            class="form-control fc-datepicker"
+                                                                            placeholder="MM/DD/YYYY"
+                                                                            type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card p-3 mb-1">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label
+                                                                    class="form-label font-weight-bold">Description:</label>
+                                                            <textarea class="form-control"
+                                                                      name="example-textarea-input" rows="6"
+                                                                      placeholder="text here.."></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group mt-1">
+                                                            <div
+                                                                    class="form-label ml-1 font-weight-bold">
+                                                                Attachment:
+                                                            </div>
+                                                            <div class="custom-file">
+                                                                <input type="file"
+                                                                       class="custom-file-input"
+                                                                       name="example-file-input-custom">
+                                                                <label class="custom-file-label">Choose
+                                                                    File</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-1">
+                                                <div class="col-12">
+                                                    <div class="card  mt-0 mb-0 ">
+                                                        <div class="card-header">
+                                                            <div class="card-title">Equipments:
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="wd-200">
+                                                                <div class="form-group ">
+                                                                    <label class="form-label">Equipments
+                                                                        Needed:</label>
+                                                                    <div
+                                                                            class="selectgroup selectgroup-pills">
+                                                                        <label class="selectgroup-item">
+                                                                            <input type="checkbox"
+                                                                                   name="value"
+                                                                                   value="Tablet"
+                                                                                   class="selectgroup-input"
+                                                                                   checked="">
+                                                                            <span
+                                                                                    class="selectgroup-button">Tablet</span>
+                                                                        </label>
+                                                                        <label class="selectgroup-item">
+                                                                            <input type="checkbox"
+                                                                                   name="value"
+                                                                                   value="Phone"
+                                                                                   class="selectgroup-input">
+                                                                            <span
+                                                                                    class="selectgroup-button">Phone</span>
+                                                                        </label>
+                                                                        <label class="selectgroup-item">
+                                                                            <input type="checkbox"
+                                                                                   name="value"
+                                                                                   value="Computer"
+                                                                                   class="selectgroup-input">
+                                                                            <span
+                                                                                    class="selectgroup-button">Computer</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane " id="tab6">
+                                        <!--
+                                                            .
+                                                            .
+                                                            tab2 content
+                                                            .
+                                                            .
+                                                            -->
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Done</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="read-more" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="edit-modal">More</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="table-responsive">
-                        <table class="table card-table table-vcenter table-hover table-bordered">
-                            <thead>
-                            <tr>
-                                <th>Topic</th>
-                                <th>Duration</th>
-                                <th>Description</th>
-                                <th>File Attached</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td rowspan="4">Changing Photographer</td>
-                                <td rowspan="4">20 minutes</td>
-                                <td rowspan="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi,
-                                    et
-                                    exercitationem laboriosam, magni, nobis obcaecati praesentium quaerat quis quod
-                                    reprehenderit sequi voluptates. Architecto est fuga ipsum quisquam voluptatum. Quis.
-                                </td>
-                                <td rowspan="4"><a href="#">Wireframe.pdf <br>photo.jpg <br>Video.mkv <br>Movies.mkv</a>
-                                </td>
-                            </tr>
+</div>
+<div class="modal fade" id="add-meeting-item" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="edit-modal">Edit Meeting</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="panel panel-primary">
+                        <div class=" ">
+                            <div class="tabs-menu ">
+                                <!-- Tabs -->
+                                <ul class="nav panel-tabs">
+                                    <li class=""><a href="#tab1" class="active" data-toggle="tab">Tab 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-body  tabs-menu-body border-0">
+                            <div class="tab-content">
+                                <div class="tab-pane active " id="tab1">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label class="form-label">Topic</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="example-text-input"
+                                                       placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label class="form-label">Duration :</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="wd-150 mg-b-30">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text">
+                                                            <i class="fas fa-clock tx-16 lh-0 op-6"></i>
+                                                        </div><!-- input-group-text -->
+                                                    </div><!-- input-group-prepend -->
+                                                    <input class="form-control" id="tp2" placeholder="Set time"
+                                                           type="text">
+                                                </div>
+                                            </div><!-- wd-150 -->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label class="form-label">Description :</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="form-group">
+                                                    <textarea class="form-control" name="example-textarea-input"
+                                                              rows="6" placeholder="text here.."></textarea>
+                                            </div>
 
-                            </tbody>
-                        </table>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="form-label">File Attach :</div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="form-group">
+
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input"
+                                                           name="example-file-input-custom">
+                                                    <label class="custom-file-label">Choose file</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- table-responsive -->
+
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Done</button>
-                </div>
+
 
             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
         </div>
+    </div>
+</div>
+<div class="modal fade" id="read-more" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="edit-modal">More</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table card-table table-vcenter table-hover table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>Duration</th>
+                            <th>Description</th>
+                            <th>File Attached</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td rowspan="4">Changing Photographer</td>
+                            <td rowspan="4">20 minutes</td>
+                            <td rowspan="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi,
+                                et
+                                exercitationem laboriosam, magni, nobis obcaecati praesentium quaerat quis quod
+                                reprehenderit sequi voluptates. Architecto est fuga ipsum quisquam voluptatum. Quis.
+                            </td>
+                            <td rowspan="4"><a href="#">Wireframe.pdf <br>photo.jpg <br>Video.mkv <br>Movies.mkv</a>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- table-responsive -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<?php
+
+$scripts = [
+    '',
+    '',
+];
+
+?>

@@ -5,7 +5,7 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="#" class="btn btn-primary btn-sm bg-red"><i
@@ -111,7 +111,7 @@
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class=" tab-menu-heading">
+                    <div class="  ">
                         <div class="tabs-menu1 ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -230,7 +230,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -249,7 +249,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -268,7 +268,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -287,7 +287,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -306,7 +306,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
@@ -366,7 +366,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -388,7 +388,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -410,7 +410,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -432,7 +432,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -454,7 +454,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
@@ -508,7 +508,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -527,7 +527,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -546,7 +546,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -565,7 +565,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -584,7 +584,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Update</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>

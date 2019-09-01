@@ -57,7 +57,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr><tr>
                             <td class="text-center">12/2/97</td>
@@ -81,7 +81,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr><tr>
                             <td class="text-center">12/2/97</td>
@@ -105,7 +105,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr><tr>
                             <td class="text-center">12/2/97</td>
@@ -129,7 +129,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr><tr>
                             <td class="text-center">12/2/97</td>
@@ -153,7 +153,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr><tr>
                             <td class="text-center">12/2/97</td>
@@ -177,7 +177,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -202,7 +202,7 @@
 
                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                            class="si si-pencil"></i> Update</a>
+                                            class="si si-pencil"></i> Edit</a>
                             </td>
                         </tr>
 
@@ -232,7 +232,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
@@ -405,7 +405,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">

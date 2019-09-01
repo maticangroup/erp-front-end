@@ -44,7 +44,7 @@
     <!---Font icons-->
     <link href="/assets/plugins/sweet-alert/sweetalert.css" rel="stylesheet"/>
     <link href="/assets/plugins/iconfonts/plugin.css" rel="stylesheet"/>
-    <link href="../assets/plugins/iconfonts/icons.css" rel="stylesheet"/>
+    <link href="/assets/plugins/iconfonts/icons.css" rel="stylesheet"/>
 
 
     <!-- Sidebar css -->
@@ -52,29 +52,29 @@
 
     <!-- Data table css -->
     <link href="/assets/plugins/datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/assets/plugins/Datatable/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="/assets/plugins/datatable/css/buttons.bootstrap4.min.css">
     <link href="/assets/plugins/datatable/responsive.bootstrap4.min.css" rel="stylesheet"/>
 
+    <?php if (false): ?>
+        <?php
+        $current_page = ['/test', '/tasks', '/project-view'];
 
-    <?php
-    $current_page = ['/test', '/tasks', '/project-view'];
+        if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
 
-    if (in_array($_SERVER['REQUEST_URI'], $current_page)) :?>
+            <!-- Calendar Plugin -->
+            <link href="/assets/plugins/calendar/clndr.css" rel="stylesheet"/>
+            <link href="/assets/plugins/calendar/stylesheet.css" rel="stylesheet"/>
 
-        <!-- Calendar Plugin -->
-        <link href="/assets/plugins/calendar/clndr.css" rel="stylesheet"/>
-        <link href="/assets/plugins/calendar/stylesheet.css" rel="stylesheet"/>
+            <!--Calendar Css -->
+            <link href="/assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet"/>
+            <link href="/assets/plugins/calendar2/css/tui-date-picker.css" rel="stylesheet"/>
+            <link href="/assets/plugins/calendar2/css/tui-calendar.css" rel="stylesheet"/>
+            <link href="/assets/plugins/calendar2/css/default.css" rel="stylesheet"/>
+            <link href="/assets/plugins/calendar2/css/icons.css" rel="stylesheet"/>
 
-        <!--Calendar Css -->
-        <link href="/assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet"/>
-        <link href="/assets/plugins/calendar2/css/tui-date-picker.css" rel="stylesheet"/>
-        <link href="/assets/plugins/calendar2/css/tui-calendar.css" rel="stylesheet"/>
-        <link href="/assets/plugins/calendar2/css/default.css" rel="stylesheet"/>
-        <link href="/assets/plugins/calendar2/css/icons.css" rel="stylesheet"/>
+        <?php endif ?>
 
-    <?php endif ?>
-
-
+    <?php endif; ?>
     <!--Chartist css-->
     <link rel="stylesheet" href="/assets/plugins/chartist/chartist.css">
     <link rel="stylesheet" href="/assets/plugins/chartist/chartist-plugin-tooltip.css">

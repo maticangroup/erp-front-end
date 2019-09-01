@@ -121,7 +121,7 @@
 	// ______________ PAGE LOADING
 	$(window).on("load", function(e) {
 		$("#global-loader").fadeOut("slow");
-	})
+	});
 	
 	// ______________ CountUp
 	$('.counter').countUp();

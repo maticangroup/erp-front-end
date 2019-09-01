@@ -135,7 +135,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="panel panel-primary">
-                            <div class=" tab-menu-heading">
+                            <div class="  ">
                                 <div class="tabs-menu1 ">
                                     <!-- Tabs -->
                                     <ul class="nav panel-tabs">
@@ -146,7 +146,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="panel-body tabs-menu-body">
+                            <div class="panel-body  tabs-menu-body border-0">
                                 <div class="tab-content">
                                     <div class="tab-pane active " id="tab5">
                                         <form autocomplete="off">
@@ -212,7 +212,7 @@
                                                                 <label class="form-control-label mr-1 font-weight-bold">To:</label>
                                                                 <div class="card-body p-0">
                                                                     <div class="panel panel-primary">
-                                                                        <div class=" tab-menu-heading">
+                                                                        <div class="  ">
                                                                             <div class="tabs-menu1 ">
                                                                                 <!-- Tabs -->
                                                                                 <ul class="nav panel-tabs">
@@ -232,7 +232,7 @@
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="panel-body tabs-menu-body">
+                                                                        <div class="panel-body  tabs-menu-body border-0">
                                                                             <div class="tab-content">
                                                                                 <!--
                                                                                 <div class="tab-pane active " id="tab1">
@@ -356,7 +356,7 @@
                                                                     to:</label>
                                                                 <div class="card-body p-0">
                                                                     <div class="panel panel-primary">
-                                                                        <div class=" tab-menu-heading">
+                                                                        <div class="  ">
                                                                             <div class="tabs-menu1 ">
                                                                                 <!-- Tabs -->
                                                                                 <ul class="nav panel-tabs">
@@ -376,7 +376,7 @@
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="panel-body tabs-menu-body">
+                                                                        <div class="panel-body  tabs-menu-body border-0">
                                                                             <div class="tab-content">
                                                                                 <!--
                                                                                 <div class="tab-pane active " id="tab1">

@@ -4,7 +4,7 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal3-2"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="#" class="btn btn-primary btn-sm bg-red"><i
@@ -101,7 +101,7 @@
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class="tab-menu-heading p-3 ">
+                    <div class="  p-3 ">
                         <div class="tabs-menu ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -291,7 +291,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a href="/task-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                                                 <a class="icon" href="javascript:void(0)"></a>
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"> Update</a>
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -317,7 +317,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                            class="fas fa-pen"></i> Update</a>
+                                                                            class="fas fa-pen"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -343,7 +343,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                            class="fas fa-pen"></i> Update</a>
+                                                                            class="fas fa-pen"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -369,7 +369,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                            class="fas fa-pen"></i> Update</a>
+                                                                            class="fas fa-pen"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -395,7 +395,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                            class="fas fa-pen"></i> Update</a>
+                                                                            class="fas fa-pen"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         </tbody>
@@ -456,7 +456,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -476,7 +476,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -496,7 +496,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -516,7 +516,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -536,7 +536,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -556,7 +556,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -576,7 +576,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
                                                         <tr class="text-center">
@@ -596,7 +596,7 @@
                                                                 <a class="icon" href="javascript:void(0)"></a>
                                                                 <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                    class="btn btn-primary btn-sm text-white"><i
-                                                                            class="si si-pencil"></i> Update</a>
+                                                                            class="si si-pencil"></i> Edit</a>
                                                             </td>
                                                         </tr>
 
@@ -945,14 +945,14 @@
                     <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>Adam	Berry</b> Add a new projects <b> AngularJS Template</b></p>
+                            <p class="mb-0"><b>Adam	Berry</b> Add a new projects <b> <br>Project kick off</b></p>
                             <small class="text-info">30 mins ago</small>
                         </div>
                     </div>
                     <img src="../assets/images/users/female/10.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>Irene Hunter</b> Add a new projects <b>Free HTML Template</b></p>
+                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Free HTML Template</b></p>
                             <small class="text-danger">1 days ago</small>
                         </div>
                     </div>
@@ -966,7 +966,7 @@
                     <img src="../assets/images/users/female/8.jpg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
-                            <p class="mb-0"><b>Julia Hardacre</b> Add a new projects <b>Free UI Template</b></p>
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b> Add a new projects <b>Free UI Template</b></p>
                             <small class="text-success">5 days ago</small>
                         </div>
                     </div>
@@ -995,7 +995,7 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="  border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
