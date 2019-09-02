@@ -132,7 +132,7 @@
         ],
         [
             'link' => '',
-            'title' => 'HR,permission',
+            'title' => 'HR',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
                 ['url' => '/top-employees', 'title' => 'Top employees'],
@@ -159,7 +159,7 @@
         ],
         [
             'link' => '',
-            'title' => 'Transportation',
+            'title' => 'Transport',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
                 ['url' => '/delivery-method', 'title' => 'Delivery method'],
@@ -198,7 +198,7 @@
         ],
         [
             'link' => '',
-            'title' => 'Notification Template',
+            'title' => 'Notification',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
                 ['url' => '/sms-overview', 'title' => 'SMS'],
