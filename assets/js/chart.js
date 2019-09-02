@@ -87,7 +87,7 @@
                 type: 'line',
                 defaultFontFamily: 'Montserrat',
                 datasets: [{
-                    label: "Foods",
+                    label: "Deals",
                     data: [0, 30, 10, 120, 50, 63, 10],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(242,87,76,0.75)',
@@ -97,7 +97,7 @@
                     pointBorderColor: 'transparent',
                     pointBackgroundColor: 'rgba(242,87,76,0.75)',
                 }, {
-                    label: "Electronics",
+                    label: "Contracts",
                     data: [0, 50, 40, 80, 40, 79, 120],
                     backgroundColor: 'transparent',
                     borderColor: 'rgba(83,18,127,0.75)',
@@ -106,7 +106,18 @@
                     pointRadius: 5,
                     pointBorderColor: 'transparent',
                     pointBackgroundColor: 'rgba(83,18,127,0.75)',
-                }]
+                },
+                    {
+                        label: "Projects",
+                        data: [0, 20, 15, 45, 11, 80, 20],
+                        backgroundColor: 'transparent',
+                        borderColor: 'rgba(158,230,84,0.75)',
+                        borderWidth: 3,
+                        pointStyle: 'circle',
+                        pointRadius: 5,
+                        pointBorderColor: 'transparent',
+                        pointBackgroundColor: 'rgba(158,230,84,0.75)',
+                    }]
             },
             options: {
                 responsive: true,

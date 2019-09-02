@@ -2,17 +2,23 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Task Overview</h4>
-        <button type="button" class="btn btn-success" data-toggle="modal"
-                data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#add-modal"><i class="fas fa-play"></i> Ready to use tasks</button>
+
+                <button type="button" class="btn btn-success" data-toggle="modal"
+                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+
+            </div>
+        </div>
+
     </div>
 </div>
 <!--page header end-->
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Tasks</div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
@@ -532,6 +538,13 @@
                                                                             <!-- Your text here. For this demo, the content is generated automatically. -->
                                                                         </div>
                                                                     </li>
+                                                                    <li>
+                                                                        <div><h3>Meeting</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1327,7 +1340,7 @@
                     </div>
                 </div>
                 <div class="row my-3">
-                    <div class="col-3">
+                    <div class="col">
                         <div class="card ">
                             <div class="card-body text-center pt-3 ">
                                 <a href="#">
@@ -1363,7 +1376,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <div class="card ">
                             <div class="card-body text-center pt-3 ">
                                 <a href="#">
@@ -1399,7 +1412,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <div class="card ">
                             <div class="card-body text-center pt-3 ">
                                 <a href="#">
@@ -1445,7 +1458,6 @@
 
     </div>
 </div>
-
 
 
 <?php

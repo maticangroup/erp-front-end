@@ -13,6 +13,7 @@
 <!--Bootstrap.min js-->
 <script src="/assets/plugins/bootstrap/popper.min.js"></script>
 <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/js/vendors/bootstrap.bundle.min.js"></script>
 
 <!-- Side menu js -->
 <script src="/assets/plugins/toggle-sidebar/js/sidemenu.js"></script>
@@ -127,7 +128,7 @@
     <script src="/assets/plugins/counters/waypoints.min.js"></script>
 
 
-    <script src="/assets/js/vendors/bootstrap.bundle.min.js"></script>
+
 
 
 <?php endif; ?>
