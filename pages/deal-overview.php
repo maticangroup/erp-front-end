@@ -347,7 +347,7 @@
                                                 </div>
                                                 <div class="row mt-4">
                                                     <div class="col-lg-3">
-                                                        <label class="form-label">Tag :</label>
+                                                        <label class="form-label font-weight-bold">Tag :</label>
                                                     </div>
                                                     <div class="col-lg-9">
                                                         <div class="form-group">
@@ -519,7 +519,7 @@
                                                 </div>
                                                 <div class="row mt-4">
                                                     <div class="col-lg-3">
-                                                        <label class="form-label">Tag :</label>
+                                                        <label class="form-label font-weight-bold">Tag :</label>
                                                     </div>
                                                     <div class="col-lg-9">
                                                         <div class="form-group">

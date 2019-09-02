@@ -156,7 +156,7 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-95 font-weight-bold ">95%
+                                    <div class="progress-bar bg-success w-95 font-weight-bold ">95%
                                     </div>
                                 </div>
                             </td>
@@ -179,7 +179,7 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-35 font-weight-bold ">35%
+                                    <div class="progress-bar bg-warning w-35 font-weight-bold ">35%
                                     </div>
                                 </div>
                             </td>
@@ -202,7 +202,7 @@
                             <td class="text-center">Valiasr</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-40 font-weight-bold ">40%
+                                    <div class="progress-bar bg-warning w-40 font-weight-bold ">40%
                                     </div>
                                 </div>
                             </td>
@@ -225,7 +225,7 @@
                             <td class="text-center">Khaghani</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-15 font-weight-bold ">15%
+                                    <div class="progress-bar bg-red w-15 font-weight-bold ">15%
                                     </div>
                                 </div>
                             </td>
@@ -248,7 +248,7 @@
                             <td class="text-center">Khaghani</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-70 font-weight-bold ">70%
+                                    <div class="progress-bar bg-success w-70 font-weight-bold ">70%
                                     </div>
                                 </div>
                             </td>
@@ -271,7 +271,7 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-85 font-weight-bold ">85%
+                                    <div class="progress-bar bg-success w-85 font-weight-bold ">85%
                                     </div>
                                 </div>
                             </td>
@@ -294,7 +294,7 @@
                             <td class="text-center">valiasr</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-30 font-weight-bold ">30%
+                                    <div class="progress-bar bg-red w-30 font-weight-bold ">30%
                                     </div>
                                 </div>
                             </td>
@@ -317,7 +317,7 @@
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-65 font-weight-bold ">65%
+                                    <div class="progress-bar bg-warning w-65 font-weight-bold ">65%
                                     </div>
                                 </div>
                             </td>
@@ -957,55 +957,6 @@
                                                                         <option value="4">Sahar Salimi</option>
                                                                         <option value="5">Rima mahan</option>
                                                                     </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="row">
-                                                            <div class="col-lg-3">
-                                                                <label class="form-label font-weight-bold">Notifying </label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="form-group m-0">
-
-                                                                    <div class="row gutters-xs">
-                                                                        <div class="col-5">
-                                                                            <select multiple="multiple"
-                                                                                    class="multi-select">
-                                                                                <option value="1">Notification</option>
-                                                                                <option value="2">SMS</option>
-                                                                                <option value="3">Email</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col-4">
-                                                                            <select name="user[day]"
-                                                                                    class="form-control custom-select">
-                                                                                <option value="1">Minutes</option>
-                                                                                <option value="2">Hour</option>
-                                                                                <option value="3">Day</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col-3">
-                                                                            <select name="user[year]"
-                                                                                    class="form-control custom-select">
-                                                                                <option value="15">15</option>
-                                                                                <option value="30">30</option>
-                                                                                <option value="45">45</option>
-                                                                                <option value="60">60</option>
-                                                                                <option value="120">120</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row mt-3">
-                                                                        <div class="col-4"></div>
-                                                                        <div class="col-4"></div>
-                                                                        <div class="col-4 mt-2 mb-3">
-                                                                            <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>

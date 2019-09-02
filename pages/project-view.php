@@ -1,3 +1,13 @@
+
+
+<!--Calendar Css -->
+<link href="../assets/plugins/calendar2/css/tui-time-picker.css" rel="stylesheet" />
+<link href="../assets/plugins/calendar2/css/tui-date-picker.css" rel="stylesheet" />
+<link href="../assets/plugins/calendar2/css/tui-calendar.css" rel="stylesheet" />
+<link href="../assets/plugins/calendar2/css/default.css" rel="stylesheet" />
+<link href="../assets/plugins/calendar2/css/icons.css" rel="stylesheet" />
+
+
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
@@ -739,29 +749,54 @@
                                                         <h3 class="card-title">Statistics</h3>
                                                     </div>
                                                     <div class="card-body">
-                                                        <canvas id="chart" class="chart-dropshadow chartsh overflow-hidden"></canvas>
+                                                        <canvas id="pieChart" class="donutShadow h-350 overflow-hidden"></canvas>
                                                     </div>
                                                     <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-sm-4 col-12 text-primary text-center">
-                                                                <small class="fs-14">Visitors</small>
-                                                                <h2 class="mb-4 mb-sm-0 counter font-weight-extrabold">69,568</h2>
+                                                        <div class="mb-4">
+                                                            <h4 class="mb-5 d-block">
+                                                                <span class="fs-16">Invoice</span>
+                                                                <span class="float-right p-1 badge badge-success text-white">
+												15,635</span>
+                                                            </h4>
+                                                            <div class="progress progress-md h-1">
+                                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-30"></div>
                                                             </div>
-                                                            <div class="col-sm-4 col-12 text-orange text-center">
-                                                                <small class="fs-14">Page Views</small>
-                                                                <h2 class="mb-4 mb-sm-0 counter font-weight-extrabold">60,475</h2>
+                                                        </div>
+                                                        <div class="mb-5">
+                                                            <h4 class="mb-4">
+                                                                <span class="fs-16">Progress</span>
+                                                                <span class="float-right p-1 badge badge-danger text-white">
+												97,356</span>
+                                                            </h4>
+                                                            <div class="progress progress-md h-1">
+                                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
                                                             </div>
-                                                            <div class="col-sm-4 col-12 text-info text-center">
-                                                                <small class="fs-14">Clients</small>
-                                                                <h2 class="mb-0 mb-sm-0 counter font-weight-extrabold">40,245</h2>
+                                                        </div>
+                                                        <div class="mb-5">
+                                                            <h4 class="mb-4">
+                                                                <span class="fs-16">Deals</span>
+                                                                <span class="float-right p-1 badge badge-primary text-white">
+												28,425</span>
+                                                            </h4>
+                                                            <div class="progress progress-md h-1">
+                                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-40"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mb-0">
+                                                            <h4 class="mb-4">
+                                                                <span class="fs-16">Vendors</span>
+                                                                <span class="float-right p-1 badge badge-warning text-white">245</span>
+                                                            </h4>
+                                                            <div class="progress progress-md h-1">
+                                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning w-35"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-
                                                 </div>
+
+                                            </div>
                                         </div>
-                                        </div>
-                                    </div>
+                                     </div>
                                     <div class="tab-pane " id="tab3333">
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-12">
@@ -871,12 +906,8 @@
                                                 <div class="card">
                                                     <div class="card-header">
                                                         <div class="card-title mr-2">Calls</div>
-                                                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                                                        <button type="button" class="btn btn-success ml-auto" data-toggle="modal"
                                                                 data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                                                        <div class="card-options d-none d-sm-block mr-1">
-                                                            <a href="#" class="btn btn-outline-primary">Export <i
-                                                                        class="fas fa-file-export"></i></a>
-                                                        </div>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="table-responsive ">
@@ -1042,17 +1073,11 @@
                                                 <div class="card">
                                                     <div class="card-header">
                                                         <div class="card-title mr-2">Meetings</div>
-                                                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                                                                data-target="#exampleModal3"><i class="fas fa-plus"></i></button>
-
-                                                        <div class="card-options d-none d-sm-block mr-1">
-                                                            <a href="#" class="btn btn-outline-primary">Export <i
-                                                                        class="fas fa-file-export"></i></a>
-                                                        </div>
+                                                        <button type="button" class="btn btn-success ml-auto" data-toggle="modal" data-target="#exampleModal3"><i class="fas fa-plus"></i></button>
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="table-responsive ">
-                                                            <table id="example-2" class="table table-striped table-bordered">
+                                                            <table id="example-5" class="table table-striped table-bordered">
                                                                 <thead>
                                                                 <tr>
                                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
@@ -1079,12 +1104,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1099,12 +1124,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1119,12 +1144,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1139,12 +1164,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1159,12 +1184,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1179,12 +1204,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1199,12 +1224,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="text-center">
@@ -1219,12 +1244,12 @@
                                                                     <td class="text-center">
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a href="/meeting-view"
-                                                                           class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                                             View</a>
                                                                         <a class="icon" href="javascript:void(0)"></a>
                                                                         <a data-toggle="modal" data-target="#exampleModal3-2"
                                                                            class="btn btn-primary btn-sm text-white"><i
-                                                                                    class="si si-pencil"></i> Edit</a>
+                                                                                    class="fas fa-pen"></i> Edit</a>
                                                                     </td>
                                                                 </tr>
 
@@ -1453,25 +1478,15 @@
                                     <div class="tab-pane " id="tab8888"></div>
                                     <div class="tab-pane " id="tab9999"></div>
                                     <div class="tab-pane " id="tab1010">
-<!--                                        <div id="map section" class="col-xl-12 col-lg-12 col-md-12">-->
-<!--                                            <div class="card">-->
-<!--                                                <div class="card-header">-->
-<!--                                                    <h3 class="card-title font-weight-bold">World Map</h3>-->
-<!--                                                </div>-->
-<!--                                                <div class="card-body">-->
-<!--                                                    <div id="world-map-markers" class="vector-map" ></div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
                                         <div class="row">
                                             <div class="col-md-12 col-lg-12">
                                                 <div class="card">
                                                     <div class="card-header">
-                                                        <h3 class="card-title">Custom Map</h3>
+                                                        <h3 class="card-title font-weight-bold">Map</h3>
                                                     </div>
                                                     <div class="card-body">
-                                                        <div class="map-header">
-                                                            <div class="map-header-layer" id="map2"></div>
+                                                        <div class="col-12 mt-1">
+                                                            <img class="border-dark" src="/assets/images/map-example.png" width="100%" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2225,22 +2240,38 @@
     </div>
 </div>
 
+
 <?php
 $scripts = [
 
+    '/assets/plugins/calendar2/js/tui-code-snippet.min.js',
+    '/assets/plugins/calendar2/js/tui-time-picker.min.js',
+    '/assets/plugins/calendar2/js/tui-date-picker.min.js',
+    '/assets/plugins/calendar2/js/moment.min.js',
+    '/assets/plugins/calendar2/js/chance.min.js',
+    '/assets/plugins/calendar2/js/tui-calendar.js',
+    '/assets/plugins/calendar2/js/calendars.js',
+    '/assets/plugins/calendar2/js/schedules.js',
+    '/assets/plugins/calendar2/js/dooray.js',
+    '/assets/plugins/calendar2/js/default.js',
     '/assets/plugins/accordion/accordion.min.js',
     '/assets/plugins/accordion/accor.js',
+    '/assets/plugins/peitychart/jquery.peity.min.js',
+    '/assets/js/apexcharts.js',
+    '/assets/plugins/input-mask/jquery.mask.min.js',
+    '/assets/plugins/input-mask/jquery.mask.min.js',
+    '/assets/plugins/morris/morris.min.js',
+    '/assets/plugins/morris/raphael.min.js',
+    '/assets/plugins/echart/echart.js',
+    '/assets/js/echarts.js',
+    '/assets/plugins/counters/counterup.min.js',
+    '/assets/plugins/counters/waypoints.min.js',
+    'assets/plugins/chart/chart.bundle.js',
+    '/assets/js/chart.js',
     '/assets/js/index2.js',
     '/assets/plugins/select2/select2.full.min.js',
     '/assets/plugins/multipleselect/multiple-select.js',
     '/assets/plugins/multipleselect/multi-select.js',
-    '/assets/plugins/chart.js/chart.min.js',
-    '/assets/plugins/chart.js/chart.extension.js',
-    '/assets/plugins/othercharts/jquery.knob.js',
-    '/assets/plugins/othercharts/othercharts.js"',
-    '/assets/plugins/othercharts/jquery.sparkline.min.js',
-    '/assets/plugins/peitychart/jquery.peity.min.js',
-
     '/assets/js/custom.js',
     '/assets/js/index4.js',
 ];

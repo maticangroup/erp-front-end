@@ -481,10 +481,6 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Location">Location </label>
-                                                            </div>
                                                             <div class="col-12 mt-1">
                                                                 <img class="border-dark"
                                                                      src="/assets/images/map-example.png" width="100%"
