@@ -2,9 +2,17 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Invoice Print</h4>
-        <div class="float-right ml-1 d-print-none">
-            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>Print</a>
+        <div class="row">
+            <div class="col-12">
+                <div class="float-right ml-1 d-print-none">
+                    <a href="#" class="btn btn-dark "><i class="fas fa-print"></i> Print</a>
+                </div>
+                <div class="float-right ml-1 d-print-none">
+                    <a href="#" class="btn btn-primary "><i class="fas fa-dollar"></i> Open Payment Request</a>
+                </div>
+            </div>
         </div>
+
     </div>
 </div>
 <!--page header-->
@@ -109,7 +117,7 @@
                                 class="table card-table table-vcenter text-nowrap table-striped table-bordered">
                             <thead>
                             <tr>
-                                <td scope="row">1</td>
+                                <td scope="row"></td>
                                 <td class="col-4">Item</td>
                                 <td class="col-2">Unit Price</td>
                                 <td class="col-2">Quantity</td>
@@ -120,7 +128,7 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td scope="row">2</td>
+                                <td scope="row">1</td>
                                 <td class="col-4">Heli Shot NI370</td>
                                 <td class="col-2">2,000,000</td>
                                 <td class="col-2">1</td>
@@ -129,13 +137,22 @@
                                 <td class="col-2">1,700,000</td>
                             </tr>
                             <tr>
-                                <td scope="row">3</td>
+                                <td scope="row">2</td>
                                 <td class="col-4">Heli shot NI400</td>
                                 <td class="col-2">2,400,000</td>
                                 <td class="col-2">1</td>
                                 <td class="col-2">0</td>
                                 <td class="col-2">0</td>
                                 <td class="col-2">0</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3</td>
+                                <td class="col-4">Camera man</td>
+                                <td class="col-2">2,500,000</td>
+                                <td class="col-2">4</td>
+                                <td class="col-2">0</td>
+                                <td class="col-2">1,000,000</td>
+                                <td class="col-2">13,000,000</td>
                             </tr>
                             <tr>
                                 <td scope="row">4</td>
@@ -173,25 +190,16 @@
                                 <td class="col-2">0</td>
                                 <td class="col-2">8,000,000</td>
                             </tr>
-                            <tr>
-                                <td scope="row">8</td>
-                                <td class="col-4">Camera man</td>
-                                <td class="col-2">2,500,000</td>
-                                <td class="col-2">4</td>
-                                <td class="col-2">0</td>
-                                <td class="col-2">1,000,000</td>
-                                <td class="col-2">13,000,000</td>
-                            </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-4 text-center mt-auto mb-auto">
-                        <div class="float-right ml-1 d-print-none">
-                            <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#add-invoice">Add
-                                Invoice</a>
+                    <div class="col-4 text-center mt-3 mb-auto">
+                        <div class="float-left ml-1 d-print-none">
+                            <button href="#" class="btn-pill btn-outline-success font-weight-bold" data-toggle="modal" data-target="#add-invoice">Add
+                                Invoice Item</button>
                         </div>
                     </div>
                     <div class="col-4"></div>
@@ -257,13 +265,11 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0">
+                                <div class="tab-menu-heading border-0 p-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1-1" class="active font-weight-bold"
-                                                            data-toggle="tab">Add</a></li>
-                                            </li>
+                                            <li ><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Add</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -272,12 +278,9 @@
                                         <div class="tab-pane active " id="tab1-1">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="row">
+                                                    <div class="row mt-3">
                                                         <div class="col-lg-3">
-                                                            <label
-                                                                    class="form-control-label mr-1 font-weight-bold">Invoice
-                                                                Item :
-                                                            </label>
+                                                            <label class="form-control-label mr-1 font-weight-bold">Invoice Item :</label>
                                                         </div>
                                                         <div class="col-lg-9">
                                                             <div class="form-group">
@@ -287,10 +290,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-lg-3">
-                                                            <label
-                                                                    class="form-control-label mr-1 font-weight-bold">Quantity
-                                                                :
-                                                            </label>
+                                                            <label class="form-control-label mr-1 font-weight-bold">Quantity :</label>
                                                         </div>
                                                         <div class="col-lg-9">
                                                             <div class="form-group">
@@ -300,41 +300,53 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-lg-3">
-                                                            <label
-                                                                    class="form-control-label mr-1 font-weight-bold">Unit
-                                                                Price :
-                                                            </label>
+                                                            <label class="form-control-label mr-1 font-weight-bold">Unit Price :</label>
                                                         </div>
                                                         <div class="col-lg-9">
-                                                            <div class="form-group">
-                                                                <input type="number" class="form-control" step="0">
-                                                            </div>
+                                                            <div class="wd-150 mg-b-30">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div><!-- input-group-prepend -->
+                                                                    <input class="form-control" placeholder="000,000,000" type="text">
+                                                                </div>
+                                                            </div><!-- wd-150 -->
                                                         </div>
                                                     </div>
-                                                    <div class="row">
+                                                    <div class="row mt-3">
                                                         <div class="col-lg-3">
-                                                            <label
-                                                                    class="form-control-label mr-1 font-weight-bold">Discount
-                                                                :
-                                                            </label>
+                                                            <label class="form-control-label mr-1 font-weight-bold">Discount :</label>
                                                         </div>
                                                         <div class="col-lg-9">
-                                                            <div class="form-group">
-                                                                <input type="number" class="form-control" step="0">
-                                                            </div>
+                                                            <div class="wd-150 mg-b-30">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div><!-- input-group-prepend -->
+                                                                    <input class="form-control" placeholder="000,000,000"  type="text">
+                                                                </div>
+                                                            </div><!-- wd-150 -->
                                                         </div>
                                                     </div>
-                                                    <div class="row">
+                                                    <div class="row mt-3">
                                                         <div class="col-lg-3">
-                                                            <label
-                                                                    class="form-control-label mr-1 font-weight-bold">Tax
-                                                                :
-                                                            </label>
+                                                            <label class="form-control-label mr-1 font-weight-bold">Tax :</label>
                                                         </div>
                                                         <div class="col-lg-9">
-                                                            <div class="form-group">
-                                                                <input type="number" class="form-control" step="0">
-                                                            </div>
+                                                            <div class="wd-150 mg-b-30">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div><!-- input-group-prepend -->
+                                                                    <input class="form-control" placeholder="000,000,000"   type="text">
+                                                                </div>
+                                                            </div><!-- wd-150 -->
                                                         </div>
                                                     </div>
                                                 </div>

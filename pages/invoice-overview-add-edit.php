@@ -2,6 +2,12 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Invoice Overview</h4>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal"
+                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 </div>
 <!--page header end-->
@@ -9,15 +15,6 @@
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Invoices</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
@@ -501,3 +498,13 @@
         </div>
     </div>
 </div>
+
+
+<?php
+$scripts = [
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/plugins/multipleselect/multiple-select.js',
+    '/assets/plugins/multipleselect/multi-select.js'
+];
+?>
