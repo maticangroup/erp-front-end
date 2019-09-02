@@ -46,7 +46,7 @@
             <div class="card-body p-3">
                 <div class="panel panel-primary">
                     <div class="  ">
-                        <div class="tabs-menu">
+                        <div class="tabs-menu mb-3">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
                                 <li><a href="#tab6" class="font-weight-bold active"
