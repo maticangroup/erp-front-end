@@ -21,7 +21,7 @@
                     <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 ">Type</th>
+                            <th class="wd-15p border-bottom-0 text-center">Type</th>
                             <th class="wd-15p border-bottom-0 text-center">Amount</th>
                             <th class="wd-10p border-bottom-0 text-center">Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Time</th>
@@ -35,7 +35,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">1,200 $</td>
                             <td class="text-center">12 February 2020</td>
                             <td class="text-center">08:40 PM</td>
@@ -55,7 +55,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">3,400 $</td>
                             <td class="text-center">29 July 2020</td>
                             <td class="text-center">00:20 PM</td>
@@ -74,7 +74,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Deposit</td>
+                            <td class="text-center">Deposit</td>
                             <td class="text-center">660 $</td>
                             <td class="text-center">08 February 2018</td>
                             <td class="text-center">05:35 PM</td>
@@ -93,7 +93,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">4,000 $</td>
                             <td class="text-center">23 January 2015</td>
                             <td class="text-center">10:50 AM</td>
@@ -111,8 +111,8 @@
                                     Print</a>
                             </td>
                         </tr>
-                        <tr>
-                            <td>Deposit</td>
+                        <tr >
+                            <td class="text-center">Deposit</td>
                             <td class="text-center"> 7,300 $</td>
                             <td class="text-center">27 January 2019</td>
                             <td class="text-center">06:55 AM</td>
@@ -159,44 +159,25 @@
                                 <table class="table card-table table-vcenter text-nowrap table-bordered">
                                     <thead class="border-top">
                                     <tr>
-                                        <td class="col-4"
-                                            class="text-center font-weight-bold bg-indigo-lighter">
-                                            <strong class="font-weight-bold">#Transaction Number
-                                                :</strong> 167
-                                        </td>
-                                        <td class="col-4">
-                                            <div class="border-bottom pb-2"><strong
-                                                        class="font-weight-bold">Date :</strong> 25 December
-                                                2019 <br></div>
-                                            <div class="pt-2"><strong class="font-weight-bold">Time
-                                                    :</strong> 09:49 AM
-                                            </div>
+                                        <td colspan="3" class=" text-center font-weight-bold bg-primary"><strong class="font-weight-bold">#Transaction Number :</strong> 167</td>
+                                        <td colspan="3">
+                                            <div class="border-bottom pb-2"><strong class="font-weight-bold">Date :</strong> 25 December 2019 <br></div>
+                                            <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49 AM</div>
                                         </td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td colspan="4"><strong class="font-weight-bold">For :</strong>
-                                            Monthly Salary
-                                        </td>
+                                        <td colspan="4"><strong class="font-weight-bold">For :</strong>Monthly Salary</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4"><strong class="font-weight-bold">Type :</strong>
-                                            Withdraw
-                                        </td>
+                                        <td colspan="4"><strong class="font-weight-bold">Type :</strong>Withdraw</td>
                                     </tr>
                                     <tr>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
-                                            From
-                                        </th>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">To
-                                        </th>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
-                                            Amount
-                                        </th>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
-                                            Status
-                                        </th>
+                                        <th class="text-center bg-primary font-weight-bold">From</th>
+                                        <th class="text-center bg-primary font-weight-bold">To</th>
+                                        <th class="text-center bg-primary font-weight-bold">Amount</th>
+                                        <th class="text-center bg-primary font-weight-bold">Status</th>
                                     </tr>
                                     <tr>
                                         <td rowspan="7" class="text-center">
@@ -219,10 +200,10 @@
                                         <td class="text-center">Success</td>
                                     </tr>
                                     <tr>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
+                                        <th class="text-center bg-primary font-weight-bold">
                                             Payment Method
                                         </th>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
+                                        <th class="text-center bg-primary font-weight-bold">
                                             Payment Request Num
                                         </th>
                                     </tr>
@@ -231,10 +212,10 @@
                                         <td class="text-center">98</td>
                                     </tr>
                                     <tr>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
+                                        <th class="text-center bg-primary font-weight-bold">
                                             functor
                                         </th>
-                                        <th class="text-center bg-indigo-lighter font-weight-bold">
+                                        <th class="text-center bg-primary font-weight-bold">
                                             Confirmation status
                                         </th>
                                     </tr>
