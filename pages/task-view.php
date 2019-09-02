@@ -158,42 +158,37 @@
                                 </div>
                             </div>
                             <div class="tab-pane" id="tab4">
-
                                 <div class="row img-gallery">
                                     <div class="col-6">
                                         <a href="javascript:void(0)" class="d-block link-overlay">
-                                            <img class="d-block img-fluid rounded"
-                                                 src="../assets/images/photos/4.jpg" alt="">
+                                            <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-2253842.jpeg" alt="">
                                             <span class="link-overlay-bg rounded">
-															<i class="fas fa-search"></i>
-														</span>
+                                                <i class="fas fa-search"></i>
+                                            </span>
                                         </a>
                                     </div>
                                     <div class="col-6">
                                         <a href="javascript:void(0)" class="d-block link-overlay">
-                                            <img class="d-block img-fluid rounded"
-                                                 src="../assets/images/photos/5.jpg" alt="">
+                                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-169190.jpeg" alt="">
                                             <span class="link-overlay-bg rounded">
-															<i class="fas fa-search"></i>
-														</span>
+                                                <i class="fas fa-search"></i>
+                                            </span>
                                         </a>
                                     </div>
                                     <div class="col-6">
                                         <a href="javascript:void(0)" class="d-block link-overlay">
-                                            <img class="d-block img-fluid rounded"
-                                                 src="../assets/images/photos/6.jpg" alt="">
+                                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-256737.jpeg" alt="">
                                             <span class="link-overlay-bg rounded">
-															<i class="fas fa-search"></i>
-														</span>
+                                                <i class="fas fa-search"></i>
+                                            </span>
                                         </a>
                                     </div>
                                     <div class="col-6">
                                         <a href="javascript:void(0)" class="d-block link-overlay">
-                                            <img class="d-block img-fluid rounded"
-                                                 src="../assets/images/photos/7.jpg" alt="">
+                                            <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-1024993.jpeg" alt="">
                                             <span class="link-overlay-bg rounded">
-															<i class="fas fa-search"></i>
-														</span>
+                                                <i class="fas fa-search"></i>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
