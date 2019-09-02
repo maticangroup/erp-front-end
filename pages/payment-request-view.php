@@ -5,7 +5,7 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+               class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
         </div>
     </div>
 </div>
@@ -42,7 +42,7 @@
             <div class="card-body text-center pt-3 ">
                 <a href="#">
                     <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg">
+                          data-image-src="../assets/images/photos/pro7.jpg">
                         <span class="avatar-status bg-green"></span>
                     </span>
                 </a>
@@ -68,7 +68,7 @@
             <div class="card-body text-center pt-3 ">
                 <a href="#">
                     <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg">
+                          data-image-src="../assets/images/photos/pro6.jpg">
                         <span class="avatar-status bg-green"></span>
                     </span>
                 </a>
@@ -124,7 +124,7 @@
             </div>
             <div class="card-body">
                 <div class="activity">
-                    <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro8.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Ali habibi</b> Add a new projects <b> AngularJS
@@ -132,15 +132,15 @@
                             <small class="text-primary">30 mins ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro5.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
-                            <p class="mb-0"><b>Ali habibi</b> Add a new projects <b> AngularJS
+                            <p class="mb-0"><b>Naser Dabagh</b> Add a new projects <b> AngularJS
                                     Template</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/female/10.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro18.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Free HTML
@@ -148,7 +148,7 @@
                             <small class="text-danger">1 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/male/4.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro6.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saeed Bakhshi</b> Add a new projects <b>Free PSD
@@ -156,7 +156,7 @@
                             <small class="text-warning">3 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/female/8.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro13.jpg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
                             <p class="mb-0"><b>Elnaz Shakerdoost</b> Add a new projects <b>Free UI
@@ -234,20 +234,15 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-title mr-2">Transactions</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                <button type="button" class="btn btn-success ml-auto" data-toggle="modal"
                         data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
             </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 ">Type</th>
+                            <th class="wd-15p border-bottom-0  text-center">Type</th>
                             <th class="wd-15p border-bottom-0 text-center">Amount</th>
                             <th class="wd-10p border-bottom-0 text-center">Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Time</th>
@@ -261,7 +256,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">1,200 $</td>
                             <td class="text-center">12 February 2020</td>
                             <td class="text-center">08:40 PM</td>
@@ -269,7 +264,7 @@
                             <td class="text-center">Somaieh Gholami</td>
                             <td class="text-center">Kosar Naiemi</td>
                             <td class="text-center">Shariati</td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                            <td class="text-center">Success</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -281,7 +276,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">3,400 $</td>
                             <td class="text-center">29 July 2020</td>
                             <td class="text-center">00:20 PM</td>
@@ -289,7 +284,7 @@
                             <td class="text-center">Omid Jahan</td>
                             <td class="text-center">Mahdi Alavi</td>
                             <td class="text-center">Valiasr</td>
-                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                            <td class="text-center">Unsuccess</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
@@ -300,7 +295,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Deposit</td>
+                            <td class="text-center">Deposit</td>
                             <td class="text-center">660 $</td>
                             <td class="text-center">08 February 2018</td>
                             <td class="text-center">05:35 PM</td>
@@ -308,7 +303,7 @@
                             <td class="text-center">Hafez Asadi</td>
                             <td class="text-center">Nasrin Maghami</td>
                             <td class="text-center">Velenjak</td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                            <td class="text-center">Success</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
@@ -319,7 +314,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">4,000 $</td>
                             <td class="text-center">23 January 2015</td>
                             <td class="text-center">10:50 AM</td>
@@ -327,7 +322,7 @@
                             <td class="text-center">ُShahab Hoseini</td>
                             <td class="text-center">Shahla Arasteh</td>
                             <td class="text-center">Bazar</td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                            <td class="text-center">Success</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
@@ -338,7 +333,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Deposit</td>
+                            <td class="text-center">Deposit</td>
                             <td class="text-center"> 7,300 $</td>
                             <td class="text-center">27 January 2019</td>
                             <td class="text-center">06:55 AM</td>
@@ -346,7 +341,7 @@
                             <td class="text-center">Sami Yuosefi</td>
                             <td class="text-center">Nasir Bashir</td>
                             <td class="text-center">Valiasr</td>
-                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                            <td class="text-center">Unsuccess</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i

@@ -1,27 +1,16 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Payment Request Overview</h4>
-        <div class="float-right ml-auto">
-            <a class="icon" href="javascript:void(0)"></a>
-            <a href="javascript:void(0)"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+            </div>
         </div>
-
     </div>
 </div>
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Payment Requests</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas fa-plus"></i></button>
-
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered">
@@ -57,12 +46,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -80,12 +69,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
 
@@ -105,12 +94,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -128,12 +117,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -151,12 +140,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -174,12 +163,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -197,12 +186,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -220,12 +209,12 @@
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/payment-request-view"
-                                   class="btn btn-dark btn-sm"><i class="si si-eye"></i>
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                            class="si si-pencil"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
 
@@ -288,17 +277,22 @@
                                                         <div class="col-lg-3">
                                                             <label
                                                                     class="form-control-label mr-1 font-weight-bold">Total
-                                                                Price:
+                                                                Price :
                                                             </label>
                                                         </div>
                                                         <div class="col-lg-9">
-                                                            <div class="form-group">
-
-                                                                <input type="number" class="form-control" step="0">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text">
+                                                                        <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <input class="form-control required" placeholder="000,000,000" name="Date"
+                                                                       type="text">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="row ">
+                                                    <div class="row mt-4">
                                                         <div class="col-lg-3">
                                                             <label class="control-label form-label font-weight-bold"
                                                                    for="type">Payment Request For :</label>
@@ -351,7 +345,7 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">From
+                                                                <label class="control-label form-label font-weight-bold">To
                                                                     :</label>
                                                             </div>
                                                             <div class="col-lg-9">
@@ -425,13 +419,14 @@
                                                             data-toggle="tab">Basic Info</a></li>
                                             <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">People</a>
                                             </li>
+                                            <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Notification</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
                                     <div class="tab-content">
                                         <div class="tab-pane active " id="tab1">
-                                            <div class="row">
+                                            <div class="row mt-3">
                                                 <div class="col-12">
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
@@ -451,17 +446,22 @@
                                                         <div class="col-lg-3">
                                                             <label
                                                                     class="form-control-label mr-1 font-weight-bold">Total
-                                                                Price:
+                                                                Price :
                                                             </label>
                                                         </div>
                                                         <div class="col-lg-9">
-                                                            <div class="form-group">
-
-                                                                <input type="number" class="form-control" step="0">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text">
+                                                                        <i class="fas fa-dollar-sign tx-16 lh-0 op-6"></i>
+                                                                    </div>
+                                                                </div>
+                                                                <input class="form-control required" placeholder="000,000,000" name="Date"
+                                                                       type="text">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="row ">
+                                                    <div class="row mt-4">
                                                         <div class="col-lg-3">
                                                             <label class="control-label form-label font-weight-bold"
                                                                    for="type">Payment Request For :</label>
@@ -514,7 +514,7 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">From
+                                                                <label class="control-label form-label font-weight-bold">To
                                                                     :</label>
                                                             </div>
                                                             <div class="col-lg-9">
@@ -549,6 +549,30 @@
 
                                             </div>
                                         </div>
+                                        <div class="tab-pane" id="tab3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Inform </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -565,3 +589,12 @@
         </div>
     </div>
 </div>
+
+<?php
+$scripts = [
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/plugins/multipleselect/multiple-select.js',
+    '/assets/plugins/multipleselect/multi-select.js'
+];
+?>
