@@ -6,10 +6,8 @@
             <div class="col-12">
                 <button type="button" class="btn btn-primary" data-toggle="modal"
                         data-target="#add-modal"><i class="fas fa-play"></i> Ready to use tasks</button>
-
                 <button type="button" class="btn btn-success" data-toggle="modal"
                         data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-
             </div>
         </div>
 

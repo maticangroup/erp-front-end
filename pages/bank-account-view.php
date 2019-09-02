@@ -11,7 +11,7 @@
 </div>
 <!--page header-->
 <div class="row">
-    <div class="col-4">
+    <div class="col-3">
         <div class="card ">
             <div class="card-body text-center pt-3 ">
                 <a href="#">
@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-    <div class="col-8">
+    <div class="col-9">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Bank Accounts</h3>
@@ -64,21 +64,21 @@
                                     <tr>
                                         <td rowspan="3"><img src="..\assets\Melli-logo-LimooGraphic.png"
                                                              alt="" style="width:120px;"></td>
-                                        <th class="bg-indigo-lighter">Bank</th>
+                                        <th class="bg-primary">Bank</th>
                                         <td>Melli</td>
-                                        <th class="bg-indigo-lighter">Account Num.</th>
+                                        <th class="bg-primary">Account Num.</th>
                                         <td>6579546521684</td>
                                     </tr>
                                     <tr>
-                                        <th class="bg-indigo-lighter">Account Type</th>
+                                        <th class="bg-primary">Account Type</th>
                                         <td>Saving Account</td>
-                                        <th class="bg-indigo-lighter">Credit Card Num.</th>
+                                        <th class="bg-primary">Credit Card Num.</th>
                                         <td>6037 9973 7400 5786</td>
                                     </tr>
                                     <tr>
-                                        <th class="bg-indigo-lighter">Owner</th>
+                                        <th class="bg-primary">Owner</th>
                                         <td>Salehi Majid</td>
-                                        <th class="bg-indigo-lighter">Iban</th>
+                                        <th class="bg-primary">Iban</th>
                                         <td>IR65482348912357865423687443</td>
                                     </tr>
                                     </tbody>
@@ -91,21 +91,21 @@
                                     <tr>
                                         <td rowspan="3"><img src="..\assets\پاسارگاد.jpg"
                                                              alt="" style="width:130px;"></td>
-                                        <th class="bg-indigo-lighter">Bank</th>
+                                        <th class="bg-primary">Bank</th>
                                         <td>Pasargad</td>
-                                        <th class="bg-indigo-lighter">Account Num.</th>
+                                        <th class="bg-primary">Account Num.</th>
                                         <td>6579546521684</td>
                                     </tr>
                                     <tr>
-                                        <th class="bg-indigo-lighter">Account Type</th>
+                                        <th class="bg-primary">Account Type</th>
                                         <td>Saving Account</td>
-                                        <th class="bg-indigo-lighter">Credit Card Num.</th>
+                                        <th class="bg-primary">Credit Card Num.</th>
                                         <td>6037 9973 7400 5786</td>
                                     </tr>
                                     <tr>
-                                        <th class="bg-indigo-lighter">Owner</th>
+                                        <th class="bg-primary">Owner</th>
                                         <td>Salehi Majid</td>
-                                        <th class="bg-indigo-lighter">Iban</th>
+                                        <th class="bg-primary">IBAN</th>
                                         <td>IR65482348912357865423687443</td>
                                     </tr>
                                     </tbody>
@@ -133,7 +133,7 @@
                     <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 ">Type</th>
+                            <th class="wd-15p border-bottom-0 text-center">Type</th>
                             <th class="wd-15p border-bottom-0 text-center">Amount</th>
                             <th class="wd-10p border-bottom-0 text-center">Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Time</th>
@@ -147,7 +147,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">1,200 $</td>
                             <td class="text-center">12 February 2020</td>
                             <td class="text-center">08:40 PM</td>
@@ -155,7 +155,7 @@
                             <td class="text-center">Somaieh Gholami</td>
                             <td class="text-center">Kosar Naiemi</td>
                             <td class="text-center">Shariati</td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                            <td class="text-center">Success</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -167,7 +167,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">3,400 $</td>
                             <td class="text-center">29 July 2020</td>
                             <td class="text-center">00:20 PM</td>
@@ -175,7 +175,7 @@
                             <td class="text-center">Omid Jahan</td>
                             <td class="text-center">Mahdi Alavi</td>
                             <td class="text-center">Valiasr</td>
-                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                            <td class="text-center">Unsuccess</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
@@ -186,7 +186,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Deposit</td>
+                            <td class="text-center">Deposit</td>
                             <td class="text-center">660 $</td>
                             <td class="text-center">08 February 2018</td>
                             <td class="text-center">05:35 PM</td>
@@ -194,7 +194,7 @@
                             <td class="text-center">Hafez Asadi</td>
                             <td class="text-center">Nasrin Maghami</td>
                             <td class="text-center">Velenjak</td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                            <td class="text-center">Success</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
@@ -205,7 +205,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Withdraw</td>
+                            <td class="text-center">Withdraw</td>
                             <td class="text-center">4,000 $</td>
                             <td class="text-center">23 January 2015</td>
                             <td class="text-center">10:50 AM</td>
@@ -213,7 +213,7 @@
                             <td class="text-center">ُShahab Hoseini</td>
                             <td class="text-center">Shahla Arasteh</td>
                             <td class="text-center">Bazar</td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                            <td class="text-center">Success</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
@@ -224,7 +224,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Deposit</td>
+                            <td class="text-center">Deposit</td>
                             <td class="text-center"> 7,300 $</td>
                             <td class="text-center">27 January 2019</td>
                             <td class="text-center">06:55 AM</td>
@@ -232,7 +232,7 @@
                             <td class="text-center">Sami Yuosefi</td>
                             <td class="text-center">Nasir Bashir</td>
                             <td class="text-center">Valiasr</td>
-                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                            <td class="text-center">Unsuccess</td>
                             <td class="text-center">
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
