@@ -2,6 +2,11 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Call Overview</h4>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 </div>
 <!--page header end-->
@@ -9,21 +14,12 @@
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Calls</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0">Topic</th>
+                            <th class="wd-15p border-bottom-0 text-center">Topic</th>
                             <th class="wd-25p border-bottom-0 text-center">Call Method</th>
                             <th class="wd-25p border-bottom-0 text-center">From</th>
                             <th class="wd-25p border-bottom-0 text-center">To</th>
@@ -37,7 +33,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -53,7 +49,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -69,7 +65,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -85,7 +81,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -101,7 +97,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -117,7 +113,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -133,7 +129,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -149,7 +145,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mr. Rezvanian's Wedding</td>
+                            <td class="text-center">Mr. Rezvanian's Wedding</td>
                             <td class="text-center">Telephone</td>
                             <td class="text-center">Ghobad abbasi</td>
                             <td class="text-center">Samir Nasir</td>
@@ -164,8 +160,6 @@
                                             class="fas fa-dot-circle"></i>Action</a>
                             </td>
                         </tr>
-
-
                         </tbody>
                     </table>
                 </div>
@@ -212,9 +206,9 @@
                                 <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
                                     <div class="tab-content">
                                         <div class="tab-pane active " id="tab1">
-                                            <div class="row">
+                                            <div class="row mt-3">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label">Topic :</label>
+                                                    <label class="form-label font-weight-bold">Topic :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
@@ -226,7 +220,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label">Owner :</label>
+                                                    <label class="form-label font-weight-bold">Owner :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
@@ -240,12 +234,10 @@
                                                         </select>
                                                     </div>
                                                 </div>
-
-
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label">Contact :</label>
+                                                    <label class="form-label font-weight-bold">Contact :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
@@ -260,10 +252,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row ">
+                                            <div class="row mb-3">
                                                 <div class="col-lg-3">
-                                                    <label class="control-label form-label font-weight-bold"
-                                                           for="Descriptions">Descriptions :</label>
+                                                    <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                     <textarea class="form-control" name="example-textarea-input" rows="6"
@@ -272,12 +263,11 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab2">
-                                            <div class="form-group clearfix">
+                                            <div class="form-group clearfix mt-3">
                                                 <div class="row ">
                                                     <div class="col-lg-3">
                                                         <label class="control-label form-label font-weight-bold"
-                                                               for="Date">Date
-                                                            :</label>
+                                                               for="Date">Date :</label>
                                                     </div>
                                                     <div class="col-lg-9">
                                                         <div class="input-group">
@@ -316,9 +306,9 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab3">
-                                            <div class="row mt-3">
+                                            <div class="row ">
                                                 <div class="col-12">
-                                                    <div class="form-group clearfix">
+                                                    <div class="form-group clearfix mt-3">
                                                         <div class="row">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
@@ -326,16 +316,13 @@
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <!-- Accordion begin -->
-                                                                <ul class="demo-accordion accordionjs m-0"
-                                                                    data-active-index="false">
+                                                                <ul class="demo-accordion accordionjs m-0" data-active-index="false">
                                                                     <!-- Section 1 -->
                                                                     <li>
                                                                         <div><h3 id="">Deal</h3></div>
                                                                         <div>
                                                                             <div class="form-group ">
-                                                                                <select class="form-control select2-show-search "
-                                                                                        id="relation"
-                                                                                        data-placeholder="Choose one">
+                                                                                <select class="form-control select2-show-search " id="relation" data-placeholder="Choose one">
                                                                                     <option value="p1">Deal 1</option>
                                                                                     <option value="p2">Deal 2</option>
                                                                                     <option value="p3">Deal 3</option>
@@ -365,13 +352,13 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab4">
-                                            <div class="form-group clearfix">
+                                            <div class="form-group clearfix mt-3" >
                                                 <div class="row ">
-                                                    <div class="col-lg-3">
+                                                    <div class="col-lg-4">
                                                         <label class="control-label form-label font-weight-bold"
                                                                for="HoldDate">Duration Time :</label>
                                                     </div>
-                                                    <div class="col-lg-9">
+                                                    <div class="col-lg-8">
                                                         <div class="wd-150 mg-b-30">
                                                             <div class="input-group">
                                                                 <div class="input-group-prepend">
@@ -379,18 +366,17 @@
                                                                         <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                     </div>
                                                                 </div><!-- input-group-prepend -->
-                                                                <input class="form-control" id="tpBasic"
-                                                                       placeholder="Set time" type="text">
+                                                                <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
                                                             </div>
                                                         </div><!-- wd-150 -->
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-3">
-                                                    <label class="form-label">Result satisfaction track :</label>
+                                                <div class="col-lg-4">
+                                                    <label class="form-label font-weight-bold">Result satisfaction track :</label>
                                                 </div>
-                                                <div class="col-lg-9">
+                                                <div class="col-lg-8">
                                                     <div class="form-group ">
 
                                                         <select class="form-control custom-select" data-placeholder="">
@@ -399,17 +385,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row ">
-                                                <div class="col-lg-3">
+                                            <div class="row mb-3">
+                                                <div class="col-lg-4">
                                                     <label class="control-label form-label font-weight-bold"
                                                            for="Descriptions">Result Descriptions :</label>
                                                 </div>
-                                                <div class="col-lg-9">
+                                                <div class="col-lg-8">
                                     <textarea class="form-control" name="example-textarea-input" rows="6"
                                               placeholder="text here.." id="Descriptions"></textarea>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -472,7 +457,7 @@
                                         <div class="tab-pane active " id="tab1-1">
                                             <div class="row">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label">Topic :</label>
+                                                    <label class="form-label font-weight-bold">Topic :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
@@ -484,7 +469,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label">Owner :</label>
+                                                    <label class="form-label font-weight-bold">Owner :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
@@ -504,7 +489,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label">Contact :</label>
+                                                    <label class="form-label font-weight-bold">Contact :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
@@ -724,9 +709,9 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="3" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">From</strong></th>
-                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="3" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">To</strong></th>
                             </tr>
                             <tr>
@@ -763,13 +748,13 @@
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <tbody>
                             <tr>
-                                <th colspan="2" class="text-center bg-indigo-lighter font-weight-bold ">
+                                <th colspan="2" class="text-center bg-primary font-weight-bold ">
                                     <strong class="font-weight-bold">Call Info</strong></th>
-                                <th colspan="4" class="text-center bg-indigo-lighter font-weight-bold ">
+                                <th colspan="4" class="text-center bg-primary font-weight-bold ">
                                     <strong class="font-weight-bold">Description </strong></th>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Call method</th>
+                                <th class="bg-primary font-weight-bold ">Call method</th>
                                 <td class="text-center">Skype</td>
                                 <td rowspan="7" class="pb-0">
                                     Lorem ipsum dolor sit amet, consectetur,<br>
@@ -780,28 +765,28 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Duration time</th>
+                                <th class="bg-primary font-weight-bold ">Duration time</th>
                                 <td class="text-center">00:04:30</td>
 
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Satisfaction Track</th>
+                                <th class="bg-primary font-weight-bold ">Satisfaction Track</th>
                                 <td class="text-center">Positive</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Related To</th>
+                                <th class="bg-primary font-weight-bold ">Related To</th>
                                 <td class="text-center">Project F 34500</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Milestone</th>
+                                <th class="bg-primary font-weight-bold ">Milestone</th>
                                 <td class="text-center">F 34500 design</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Task</th>
+                                <th class="bg-primary font-weight-bold ">Task</th>
                                 <td class="text-center">TK 1256</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Meeting</th>
+                                <th class="bg-primary font-weight-bold ">Meeting</th>
                                 <td class="text-center"> -</td>
                             </tr>
                             </tbody>
@@ -810,7 +795,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" data-dismiss="modal" class="btn btn-primary"><i
+                <button type="button" data-dismiss="modal" class="btn btn-dark"><i
                             class="fas fa-check"></i> Ok
                 </button>
             </div>
@@ -891,3 +876,10 @@
         </div>
     </div>
 </div>
+
+<?php
+$scripts = [
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+];
+?>

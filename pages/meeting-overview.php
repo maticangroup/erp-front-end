@@ -4,16 +4,10 @@
         <h4 class="page-title">Meeting Overview</h4>
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas fa-play"></i> Ready to use meetings
-                </button>
-
-                <button type="button" class="btn btn-success" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-modal"><i class="fas fa-play"></i> Ready to use meetings</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
             </div>
         </div>
-
     </div>
 </div>
 <!--page header end-->
