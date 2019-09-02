@@ -629,7 +629,7 @@
                                                 <div class="card ">
                                                     <div class="card-body text-center pt-3 ">
                                                         <a href="#">
-                                                        <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro12.jpg">
+                                                        <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro18.jpg">
                                                             <span class="avatar-status bg-green"></span>
                                                         </span>
                                                         </a>
@@ -647,56 +647,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-xl-3 col-lg-6 col-md-12">
-                                                <div class="card ">
-                                                    <div class="card-body text-center pt-3 ">
-                                                        <a href="#">
-                                                        <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro5.jpg">
-                                                            <span class="avatar-status bg-red"></span>
-                                                        </span>
-                                                        </a>
-                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hamid Safinejad</a></h5>
-                                                        <span>Cameraman</span>
-                                                        <div >
-                                                            <span class="badge badge-default">film</span>
-                                                            <span class="badge badge-default">camera</span>
-                                                        </div>
-                                                        <div class="mt-4">
-                                                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                                                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                                                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-3 col-lg-6 col-md-12">
-                                                <div class="card ">
-                                                    <div class="card-body text-center pt-3 ">
-                                                        <a href="#">
-                                                        <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro18.jpg">
-                                                            <span class="avatar-status bg-red"></span>
-                                                        </span>
-                                                        </a>
-                                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Jalal Hemati</a></h5>
-                                                        <span>Graphic Designer</span>
-                                                        <div >
-                                                            <span class="badge badge-default">design</span>
-                                                            <span class="badge badge-default">graphic</span>
-                                                        </div>
-                                                        <div class="mt-4">
-                                                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                                                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                                                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="tab-pane " id="tab2222">
                                         <div class="row mt-5">
-                                            <div id="Project Value" class="col-xl-4 col-lg-12 col-md-12">
+                                            <div class="col-xl-4 col-lg-12 col-md-12">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <div class="row">
@@ -723,8 +677,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div id="Total Expenses" class="col-xl-4 col-lg-12 col-md-12">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <div class="row">
@@ -752,8 +704,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div id="Total Net Profit" class="col-xl-4 col-lg-12 col-md-12">
                                                 <div class="card">
                                                     <div class="card-body">
                                                         <div class="row">
@@ -783,8 +733,35 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-xl-8 col-lg-12 col-md-12">
+                                                <div class="card overflow-hidden">
+                                                    <div class="card-header">
+                                                        <h3 class="card-title">Statistics</h3>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <canvas id="chart" class="chart-dropshadow chartsh overflow-hidden"></canvas>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-4 col-12 text-primary text-center">
+                                                                <small class="fs-14">Visitors</small>
+                                                                <h2 class="mb-4 mb-sm-0 counter font-weight-extrabold">69,568</h2>
+                                                            </div>
+                                                            <div class="col-sm-4 col-12 text-orange text-center">
+                                                                <small class="fs-14">Page Views</small>
+                                                                <h2 class="mb-4 mb-sm-0 counter font-weight-extrabold">60,475</h2>
+                                                            </div>
+                                                            <div class="col-sm-4 col-12 text-info text-center">
+                                                                <small class="fs-14">Clients</small>
+                                                                <h2 class="mb-0 mb-sm-0 counter font-weight-extrabold">40,245</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                         </div>
-                                     </div>
+                                        </div>
+                                    </div>
                                     <div class="tab-pane " id="tab3333">
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-12">
@@ -2247,3 +2224,24 @@
         </div>
     </div>
 </div>
+
+<?php
+$scripts = [
+
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/js/index2.js',
+    '/assets/plugins/select2/select2.full.min.js',
+    '/assets/plugins/multipleselect/multiple-select.js',
+    '/assets/plugins/multipleselect/multi-select.js',
+    '/assets/plugins/chart.js/chart.min.js',
+    '/assets/plugins/chart.js/chart.extension.js',
+    '/assets/plugins/othercharts/jquery.knob.js',
+    '/assets/plugins/othercharts/othercharts.js"',
+    '/assets/plugins/othercharts/jquery.sparkline.min.js',
+    '/assets/plugins/peitychart/jquery.peity.min.js',
+
+    '/assets/js/custom.js',
+    '/assets/js/index4.js',
+];
+?>

@@ -1542,6 +1542,4 @@ $scripts = [
     '/assets/plugins/multipleselect/multiple-select.js',
     '/assets/plugins/multipleselect/multi-select.js'
 ];
-
-
 ?>

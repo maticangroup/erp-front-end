@@ -29,14 +29,14 @@
                 <h3 class="font-weight-semibold">Habibi Family wedding</h3>
                 <div class="avatar-list avatar-list-stacked mb-3">
                     <span class="avatar brround cover-image"
-                          data-image-src="../assets/images/users/female/12.jpg"></span>
+                          data-image-src="../assets/images/photos/pro5.jpg"></span>
                     <span class="avatar brround cover-image"
-                          data-image-src="../assets/images/users/female/21.jpg"></span>
+                          data-image-src="../assets/images/photos/pro6.jpg"></span>
                     <span class="avatar brround cover-image"
-                          data-image-src="../assets/images/users/female/29.jpg"></span>
+                          data-image-src="../assets/images/photos/pro9.jpg"></span>
                     <span class="avatar brround cover-image"
-                          data-image-src="../assets/images/users/female/2.jpg"></span>
-                    <span class="avatar brround cover-image" data-image-src="../assets/images/users/male/34.jpg"></span>
+                          data-image-src="../assets/images/photos/pro3.jpg"></span>
+                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro11.jpg"></span>
                     <span class="avatar brround cover-image">+8</span>
                 </div>
                 <label class="font-weight-semibold">Closest to deadline project, status</label>
@@ -52,21 +52,21 @@
             </div>
             <div class="card-body">
                 <div class="activity">
-                    <img src="../assets/images/users/male/24.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro3.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Ali habibi</b> Add a new projects <b><br> Azizi family wedding</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/female/10.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro1.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b><br>Project kick off</b></p>
                             <small class="text-danger">1 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/male/4.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro9.jpg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saeed Bakhshi</b> Add a new projects <b><br>Internal company meeting</b>
@@ -74,7 +74,7 @@
                             <small class="text-warning">3 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/users/female/8.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pro15.jpg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
                             <p class="mb-0"><b>Elnaz Shakerdoost</b> Add a new projects <b><br>Portfolio demo</b></p>
@@ -183,7 +183,7 @@
             <div class="">
                 <div class="list d-flex align-items-center border-bottom p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/users/female/9.jpg"></div>
+                         data-image-src="../assets/images/photos/pro6.jpg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Saber Abar</b>
@@ -202,7 +202,7 @@
                 </div>
                 <div class="list d-flex align-items-center border-bottom p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/users/male/23.jpg"></div>
+                         data-image-src="../assets/images/photos/pro7.jpg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Amirhossein Hajighorbani</b>
@@ -221,7 +221,7 @@
                 </div>
                 <div class="list d-flex align-items-center border-bottom p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/users/female/9.jpg"></div>
+                         data-image-src="../assets/images/photos/pro6.jpg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Saber Abar</b>
@@ -240,7 +240,7 @@
                 </div>
                 <div class="list d-flex align-items-center p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/users/male/23.jpg"></div>
+                         data-image-src="../assets/images/photos/pro7.jpg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Amirhossein Hajighorbani </b>

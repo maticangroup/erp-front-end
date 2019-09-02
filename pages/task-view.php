@@ -265,7 +265,7 @@
                     <div class="media-left">
                         <a href="#">
                             <img class="media-object brround"
-                                 src="../assets/images/photos/media2.jpg" alt="media1">
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
                         </a>
                     </div>
                     <div class="media-body">
@@ -279,7 +279,7 @@
                             <div class="media-left">
                                 <a href="#">
                                     <img class="media-object brround"
-                                         src="../assets/images/photos/media3.jpg" alt="media1">
+                                         src="../assets/images/photos/pro9.jpg" alt="media1">
                                 </a>
                             </div>
                             <div class="media-body">
@@ -296,7 +296,7 @@
                             <div class="media-left">
                                 <a href="#">
                                     <img class="media-object brround"
-                                         src="../assets/images/photos/media2.jpg" alt="media1">
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
                                 </a>
                             </div>
                             <div class="media-body">
@@ -321,7 +321,7 @@
                     <div class="media-left">
                         <a href="#">
                             <img class="media-object brround"
-                                 src="../assets/images/photos/media2.jpg" alt="media1">
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
                         </a>
                     </div>
                     <div class="media-body">
@@ -335,7 +335,7 @@
                             <div class="media-left">
                                 <a href="#">
                                     <img class="media-object brround"
-                                         src="../assets/images/photos/media2.jpg" alt="media1">
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
                                 </a>
                             </div>
                             <div class="media-body">
@@ -360,7 +360,7 @@
                     <div class="media-left">
                         <a href="#">
                             <img class="media-object brround"
-                                 src="../assets/images/photos/media2.jpg" alt="media1">
+                                 src="../assets/images/photos/pro18.jpg" alt="media1">
                         </a>
                     </div>
                     <div class="media-body">

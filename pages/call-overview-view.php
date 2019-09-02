@@ -716,8 +716,7 @@
                             </tr>
                             <tr>
                                 <td colspan="3" rowspan="4" class="text-center">
-                                    <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/pro1.jpg"></span>
+                                    <div><span class="avatar avatar-xxl brround cover-image m-4" data-image-src="../assets/images/photos/pro1.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold ">Simin Behbahani</div>
                                     <div><span class="font-weight-bold">Org Code :</span> EM 001233

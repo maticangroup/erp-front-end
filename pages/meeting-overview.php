@@ -740,16 +740,16 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-3 ">
-                                <div class="card border-success text-lime text-center font-weight-bold">Meeting leader</div>
+                                <div class="card border-success text-center font-weight-bold text-muted">Meeting leader</div>
                             </div>
                             <div class="col-3 ">
-                                <div class="card border-warning text-warning text-center font-weight-bold">Employee</div>
+                                <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
                             </div>
                             <div class="col-3 ">
-                                <div class="card border-secondary text-secondary text-center font-weight-bold">Guest</div>
+                                <div class="card border-secondary text-center font-weight-bold text-muted">Guest</div>
                             </div>
                             <div class="col-3 ">
-                                <div class="card border-info text-info text-center font-weight-bold">Vendor</div>
+                                <div class="card border-info text-center font-weight-bold text-muted">Vendor</div>
                             </div>
                             <div class="col-3">
                                 <div class="card border-success ">

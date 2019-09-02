@@ -686,61 +686,23 @@
                                                         <div class="card mt-2 mb-0">
                                                             <div class="card-body">
                                                                 <div class="row ">
-                                                                    <div class="col-3 ">
-                                                                        <div class="card border-success text-lime text-center font-weight-bold">Meeting leader</div>
+                                                                    <div class="col-6 ">
+                                                                        <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
                                                                     </div>
-                                                                    <div class="col-3 ">
-                                                                        <div class="card border-warning text-warning text-center font-weight-bold">Employee</div>
+                                                                    <div class="col-6 ">
+                                                                        <div class="card border-danger text-center font-weight-bold text-muted">Owner</div>
                                                                     </div>
-                                                                    <div class="col-3 ">
-                                                                        <div class="card border-secondary text-secondary text-center font-weight-bold">Guest</div>
-                                                                    </div>
-                                                                    <div class="col-3 ">
-                                                                        <div class="card border-info text-info text-center font-weight-bold">Vendor</div>
-                                                                    </div>
-                                                                    <div class="col-3">
-                                                                        <div class="card border-success ">
-                                                                            <div class="card-body text-center pt-3 ">
-                                                                                <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
-                                                                                </a>
-                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
-                                                                                <span>Person Position</span>
-                                                                                <div>
-                                                                                    <span class="badge badge-default">manager</span>
-                                                                                </div>
-                                                                                <div class="mt-4">
-
-                                                                                    <button href="#"
-                                                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                                                        <i class="fas fa-phone"></i></button>
-                                                                                    <button href="#"
-                                                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                                                        <i class="fas fa-envelope"></i></button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <div class="col-12 text-center">
-                                                                                <a href="#" class="fas fa-remove text-danger"></a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-3">
+                                                                    <div class="col-6">
                                                                         <div class="card border-warning ">
                                                                             <div class="card-body text-center pt-3 ">
                                                                                 <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro14.jpg"
-                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
+                                                                                    <span class="avatar avatar-xl brround cover-image m-2"
+                                                                                          data-image-src="../assets/images/photos/pro9.jpg"
+                                                                                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                        <span class="avatar-status bg-green"></span>
+                                                                                    </span>
                                                                                 </a>
-                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                                                                        Ghaderi</a></h5>
+                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Behnam Samie</a></h5>
                                                                                 <span>Person Position</span>
                                                                                 <div>
                                                                                     <span class="badge badge-default">supervisor</span>
@@ -762,52 +724,20 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-3">
-                                                                        <div class="card border-secondary ">
+                                                                    <div class="col-6">
+                                                                        <div class="card border-danger ">
                                                                             <div class="card-body text-center pt-3 ">
                                                                                 <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro11.jpg"
-                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
+                                                                                    <span class="avatar avatar-xl brround cover-image m-2"
+                                                                                          data-image-src="../assets/images/photos/pro11.jpg"
+                                                                                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                        <span class="avatar-status bg-green"></span>
+                                                                                    </span>
                                                                                 </a>
                                                                                 <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
                                                                                 <span>Person Position</span>
                                                                                 <div>
-                                                                                    <span class="badge badge-default">designer</span>
-                                                                                </div>
-                                                                                <div class="mt-4">
-
-                                                                                    <button href="#"
-                                                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                                                        <i class="fas fa-phone"></i></button>
-                                                                                    <button href="#"
-                                                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                                                        <i class="fas fa-envelope"></i></button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <div class="col-12 text-center">
-                                                                                <a href="#" class="fas fa-remove text-danger"></a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-3">
-                                                                        <div class="card border-info">
-                                                                            <div class="card-body text-center pt-3 ">
-                                                                                <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro7.jpg"
-                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
-                                                                                </a>
-                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
-                                                                                <span>Person Position</span>
-                                                                                <div>
-                                                                                    <span class="badge badge-default">cameraman</span>
+                                                                                    <span class="badge badge-default">owner</span>
                                                                                 </div>
                                                                                 <div class="mt-4">
 
