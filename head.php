@@ -30,7 +30,8 @@
     <link href="/assets/plugins/fontawesome-free/css/all.css" rel="stylesheet">
 
     <!-- Dashboard Css -->
-    <link href="/assets/css/dashboard.css" rel="stylesheet"/>
+    <link href="/assets/css/dashboard.css" rel="stylesheet" />
+
 
     <!-- Custom scroll bar css-->
     <link href="/assets/plugins/scroll-bar/jquery.mCustomScrollbar.css" rel="stylesheet"/>

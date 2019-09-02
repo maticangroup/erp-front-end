@@ -781,24 +781,24 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1" class="active font-weight-bold"
+                                            <li class=""><a href="#tab111" class="active font-weight-bold"
                                                             data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Timing</a>
+                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing</a>
                                             </li>
-                                            <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Execution
+                                            <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Execution
                                                     Place</a></li>
-                                            <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Relation</a>
+                                            <li><a href="#tab444" class="font-weight-bold" data-toggle="tab">Relation</a>
                                             </li>
-                                            <li><a href="#tab5" class="font-weight-bold"
+                                            <li><a href="#tab555" class="font-weight-bold"
                                                    data-toggle="tab">Requirements</a></li>
-                                            <li><a href="#tab6" class="font-weight-bold"
+                                            <li><a href="#tab666" class="font-weight-bold"
                                                    data-toggle="tab">Notification</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
                                     <div class="tab-content">
-                                        <div class="tab-pane active " id="tab1">
+                                        <div class="tab-pane active " id="tab111">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
@@ -839,19 +839,19 @@
                                                                         <input type="radio" class="custom-control-input"
                                                                                name="example-radios" value="option1"
                                                                                checked="">
-                                                                        <span class="custom-control-label">High</span>
+                                                                        <span class="custom-control-label font-weight-bold">High</span>
                                                                     </label>
                                                                     <label class="custom-control custom-radio col-4">
                                                                         <input type="radio" class="custom-control-input"
                                                                                name="example-radios" value="option1"
                                                                                checked="">
-                                                                        <span class="custom-control-label">Medium</span>
+                                                                        <span class="custom-control-label font-weight-bold">Medium</span>
                                                                     </label>
                                                                     <label class="custom-control custom-radio col-4">
                                                                         <input type="radio" class="custom-control-input"
                                                                                name="example-radios" value="option1"
                                                                                checked="">
-                                                                        <span class="custom-control-label">Low</span>
+                                                                        <span class="custom-control-label font-weight-bold">Low</span>
                                                                     </label>
                                                                 </div>
                                                             </div>
@@ -916,9 +916,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
-                                        <div class="tab-pane" id="tab2">
+                                        <div class="tab-pane" id="tab222">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="row">
@@ -1039,7 +1038,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab3">
+                                        <div class="tab-pane" id="tab333">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
@@ -1078,7 +1077,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab4">
+                                        <div class="tab-pane" id="tab444">
                                             <div class="row mt-3">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix">
@@ -1142,7 +1141,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab5">
+                                        <div class="tab-pane" id="tab555">
                                             <div class="row ">
                                                 <div class="col-12">
                                                     <div class="form-group  clearfix mt-3">
@@ -1244,12 +1243,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-
-
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane" id="tab6">
+                                        <div class="tab-pane" id="tab666">
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
@@ -1272,6 +1269,55 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <label class="form-label font-weight-bold">Notifying </label>
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <div class="form-group m-0">
+
+                                                                <div class="row gutters-xs">
+                                                                    <div class="col-5">
+                                                                        <select multiple="multiple"
+                                                                                class="multi-select">
+                                                                            <option value="1">Notification</option>
+                                                                            <option value="2">SMS</option>
+                                                                            <option value="3">Email</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <select name="user[day]"
+                                                                                class="form-control custom-select">
+                                                                            <option value="1">Minutes</option>
+                                                                            <option value="2">Hour</option>
+                                                                            <option value="3">Day</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <select name="user[year]"
+                                                                                class="form-control custom-select">
+                                                                            <option value="15">15</option>
+                                                                            <option value="30">30</option>
+                                                                            <option value="45">45</option>
+                                                                            <option value="60">60</option>
+                                                                            <option value="120">120</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mt-3">
+                                                                    <div class="col-4"></div>
+                                                                    <div class="col-4"></div>
+                                                                    <div class="col-4 mt-2 mb-3">
+                                                                        <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1279,112 +1325,103 @@
                         </div>
                     </div>
                 </div>
-                <div class="row my-3">
-                    <div class="col-3">
-                        <div class="card ">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
+                <div class="card mt-2 mb-0">
+                    <div class="card-body">
+                        <div class="row ">
+                            <div class="col-4">
+                                <div class="card  ">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">manager</span>
+                                        </div>
+                                        <div class="mt-4">
+
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card ">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
-                                </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card ">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro11.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">designer</span>
+                                        </div>
+                                        <div class="mt-4">
+
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro7.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">cameraman</span>
+                                        </div>
+                                        <div class="mt-4">
+
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

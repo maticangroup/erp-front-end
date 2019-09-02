@@ -608,7 +608,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="tab-pane" id="tab5">
                                             <div class="row mt-3">
                                                 <div class="col-12">
@@ -658,7 +657,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="tab-pane" id="tab6">
                                             <div class="row">
                                                 <div class="col-12">
@@ -686,7 +684,7 @@
                                                 <div class="col-12">
                                                     <div class="row">
                                                         <div class="col-lg-3">
-                                                            <label class="form-label">Notifying </label>
+                                                            <label class="form-label font-weight-bold">Notifying </label>
                                                         </div>
                                                         <div class="col-lg-9">
                                                             <div class="form-group m-0">
@@ -722,12 +720,8 @@
                                                                 <div class="row mt-3">
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4"></div>
-                                                                    <div class="col-4">
-                                                                        <button type="button"
-                                                                                class="btn btn-outline-primary mr-auto">
-                                                                            Add
-                                                                            Notification
-                                                                        </button>
+                                                                    <div class="col-4 mt-2 mb-3">
+                                                                        <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -742,192 +736,148 @@
                         </div>
                     </div>
                 </div>
-                <div class="row my-3">
-                    <div class="col-3 d-flex  flex-column justify-content-center">
+                <div class="card mt-2 mb-0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 ">
+                                <div class="card border-success text-lime text-center font-weight-bold">Meeting leader</div>
+                            </div>
+                            <div class="col-3 ">
+                                <div class="card border-warning text-warning text-center font-weight-bold">Employee</div>
+                            </div>
+                            <div class="col-3 ">
+                                <div class="card border-secondary text-secondary text-center font-weight-bold">Guest</div>
+                            </div>
+                            <div class="col-3 ">
+                                <div class="card border-info text-info text-center font-weight-bold">Vendor</div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card border-success ">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">manager</span>
+                                        </div>
+                                        <div class="mt-4">
 
-                        <div class="card border-success text-center">Meeting leader</div>
-                        <div class="card border-warning text-center">Employee</div>
-                        <div class="card border-secondary text-center">Guest</div>
-                        <div class="card border-info text-center">Vendor</div>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card border-warning ">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro14.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
+                                                Ghaderi</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">supervisor</span>
+                                        </div>
+                                        <div class="mt-4">
 
-                    </div>
-                    <div class="col-3">
-                        <div class="card border-warning ">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card border-warning ">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
+                            <div class="col-3">
+                                <div class="card border-secondary ">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro11.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">designer</span>
+                                        </div>
+                                        <div class="mt-4">
+
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card border-info ">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
+                            <div class="col-3">
+                                <div class="card border-info">
+                                    <div class="card-body text-center pt-3 ">
+                                        <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro7.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                        </a>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
+                                        <span>Person Position</span>
+                                        <div>
+                                            <span class="badge badge-default">cameraman</span>
+                                        </div>
+                                        <div class="mt-4">
+
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                <i class="fas fa-phone"></i></button>
+                                            <button href="#"
+                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                <i class="fas fa-envelope"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <a href="#" class="fas fa-remove text-danger"></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card border-success">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
-                                </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card border-secondary">
-                            <div class="card-body text-center pt-3 ">
-                                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2"
-                          data-image-src="../assets/images/photos/pro9.jpg"
-                          style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                                </a>
-                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
-                                        Ghaderi</a></h5>
-                                <span>Person Position</span>
-                                <div>
-                                    <span class="badge badge-default">manager</span>
-                                    <span class="badge badge-default">supervisor</span>
-                                </div>
-                                <div class="mt-4">
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-dark btn-sm font-weight-bold ">
-                                        <i class="fas fa-eye"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                        <i class="fas fa-phone"></i></button>
-                                    <button href="#"
-                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                        <i class="fas fa-envelope"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <a href="#" class="fas fa-remove text-danger"></a>
                             </div>
                         </div>
                     </div>

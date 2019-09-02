@@ -3,232 +3,14 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Project Overview</h4>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 </div>
 <!--page header end-->
-
-<div class="row">
-    <div class="col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Projects</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i class="fas fa-file-export"></i></a>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive ">
-                    <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
-                        <tr>
-                            <th class="wd-15p border-bottom-0 text-left">Name</th>
-                            <th class="wd-15p border-bottom-0 text-center">Owner</th>
-                            <th class="wd-10p border-bottom-0 text-center">Hold Date</th>
-                            <th class="wd-10p border-bottom-0 text-center">Tags</th>
-                            <th class="wd-15p border-bottom-0 text-center">Project Leader</th>
-                            <th class="wd-15p border-bottom-0 text-center">Product Owner</th>
-                            <th class="wd-25p border-bottom-0 text-center">Current milestone</th>
-                            <th class="wd-20p border-bottom-0 text-center">Branch</th>
-                            <th class="wd-25p border-bottom-0 text-center">Progress</th>
-                            <th class="wd-25p border-bottom-0 text-center">Status</th>
-                            <th class="border-bottom-0 text-center">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Portrait</td>
-                            <td class="text-center">Shamim Talaie</td>
-                            <td class="text-center">12 February 2020</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Ali Hashemi</td>
-                            <td class="text-center">Azam Omidi</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Shariati</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-95 font-weight-bold ">95%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Pending</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Birthday</td>
-                            <td class="text-center">Safura Hajian</td>
-                            <td class="text-center">29 June 2020</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Ali Hashemi</td>
-                            <td class="text-center">Pooneh Saber</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Shariati</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-35 font-weight-bold ">35%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Pending</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Wedding</td>
-                            <td class="text-center">Abbas Rostami</td>
-                            <td class="text-center">12 December 2019</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Ebrahim Nadim</td>
-                            <td class="text-center">Zahra Soleimani</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Valiasr</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-40 font-weight-bold ">40%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Pending</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Wedding</td>
-                            <td class="text-center">Shapoor Banaie</td>
-                            <td class="text-center">22 March 2019</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Ebrahim Nadim</td>
-                            <td class="text-center">Shiva Shahed</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Khaghani</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-15 font-weight-bold ">15%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Completed</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Engagement</td>
-                            <td class="text-center">Akram Mokaram</td>
-                            <td class="text-center">06 May 2019</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Ali Hashemi</td>
-                            <td class="text-center">Homa Roosta</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Khaghani</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-70 font-weight-bold ">70%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Completed</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Maternity</td>
-                            <td class="text-center">Zabih Neshat</td>
-                            <td class="text-center">17 April 2019</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Ali Hashemi</td>
-                            <td class="text-center">Saghar Salami</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Shariati</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-85 font-weight-bold ">85%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">On going</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Newborn</td>
-                            <td class="text-center">Saber Abar</td>
-                            <td class="text-center">10 July 2019</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Neda Soltan</td>
-                            <td class="text-center">Donya Kazemi</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">valiasr</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-30 font-weight-bold ">30%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Pending</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Family</td>
-                            <td class="text-center">Soosan Moharami</td>
-                            <td class="text-center">27 October 2019</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Neda Soltan</td>
-                            <td class="text-center">Taha Shafa</td>
-                            <td class="text-center"></td>
-                            <td class="text-center">Shariati</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-info w-65 font-weight-bold ">65%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Pending</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- table-wrapper -->
-        </div>
-        <!-- section-wrapper -->
-    </div>
-</div>
 
 <div class="row">
     <div class="col-xl-3 col-lg-6 col-md-12">
@@ -342,10 +124,226 @@
 </div>
 
 <div class="row">
+    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive ">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                        <thead>
+                        <tr>
+                            <th class="wd-15p border-bottom-0 text-center">Name</th>
+                            <th class="wd-15p border-bottom-0 text-center">Owner</th>
+                            <th class="wd-10p border-bottom-0 text-center">Hold Date</th>
+                            <th class="wd-10p border-bottom-0 text-center">Tags</th>
+                            <th class="wd-15p border-bottom-0 text-center">Project Leader</th>
+                            <th class="wd-15p border-bottom-0 text-center">Product Owner</th>
+                            <th class="wd-25p border-bottom-0 text-center">Current milestone</th>
+                            <th class="wd-20p border-bottom-0 text-center">Branch</th>
+                            <th class="wd-25p border-bottom-0 text-center">Progress</th>
+                            <th class="wd-25p border-bottom-0 text-center">Status</th>
+                            <th class="border-bottom-0 text-center">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">Portrait</td>
+                            <td class="text-center">Shamim Talaie</td>
+                            <td class="text-center">12 February 2020</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Azam Omidi</td>
+                            <td class="text-center">3 out of 10</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-95 font-weight-bold ">95%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Birthday</td>
+                            <td class="text-center">Safura Hajian</td>
+                            <td class="text-center">29 June 2020</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Pooneh Saber</td>
+                            <td class="text-center">2 out of 15</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-35 font-weight-bold ">35%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Wedding</td>
+                            <td class="text-center">Abbas Rostami</td>
+                            <td class="text-center">12 December 2019</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ebrahim Nadim</td>
+                            <td class="text-center">Zahra Soleimani</td>
+                            <td class="text-center">6 out of 9</td>
+                            <td class="text-center">Valiasr</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-40 font-weight-bold ">40%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Wedding</td>
+                            <td class="text-center">Shapoor Banaie</td>
+                            <td class="text-center">22 March 2019</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ebrahim Nadim</td>
+                            <td class="text-center">Shiva Shahed</td>
+                            <td class="text-center">14 out of 14</td>
+                            <td class="text-center">Khaghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-15 font-weight-bold ">15%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Completed</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Engagement</td>
+                            <td class="text-center">Akram Mokaram</td>
+                            <td class="text-center">06 May 2019</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Homa Roosta</td>
+                            <td class="text-center">9 out of 9</td>
+                            <td class="text-center">Khaghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-70 font-weight-bold ">70%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Completed</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Maternity</td>
+                            <td class="text-center">Zabih Neshat</td>
+                            <td class="text-center">17 April 2019</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Saghar Salami</td>
+                            <td class="text-center">3 out of 21</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-85 font-weight-bold ">85%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">On going</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Newborn</td>
+                            <td class="text-center">Saber Abar</td>
+                            <td class="text-center">10 July 2019</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Neda Soltan</td>
+                            <td class="text-center">Donya Kazemi</td>
+                            <td class="text-center">9 out of 13</td>
+                            <td class="text-center">valiasr</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-30 font-weight-bold ">30%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Family</td>
+                            <td class="text-center">Soosan Moharami</td>
+                            <td class="text-center">27 October 2019</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Neda Soltan</td>
+                            <td class="text-center">Taha Shafa</td>
+                            <td class="text-center">5 out of 15</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-info w-65 font-weight-bold ">65%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- table-wrapper -->
+        </div>
+        <!-- section-wrapper -->
+    </div>
+</div>
+
+<div class="row">
     <div class="col-xl-7 col-lg-12 col-md-12">
         <div class="card overflow-hidden">
             <div class="card-header">
-                <h3 class="card-title">Website Activities</h3>
+                <h3 class="card-title font-weight-bold">Website Activities</h3>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -419,8 +417,8 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-box tilebox-one">
-                            <i class="icon-layers float-right text-muted"><i class="fas fa-cubes text-primary" aria-hidden="true"></i></i>
-                            <h6 class="text-drak text-uppercase mt-0">marketing</h6>
+                            <i class=" float-right text-muted"><i class="fas fa-dollar-sign text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">Transaction</h6>
                             <h2 class="m-b-20">123</h2>
                             <span class="badge badge-info"> +12% </span> <span class="text-muted">From previous period</span>
                         </div>
@@ -429,8 +427,8 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-box tilebox-one">
-                            <i class="icon-layers float-right text-muted"><i class="fas fa-chart-bar text-primary" aria-hidden="true"></i></i>
-                            <h6 class="text-drak text-uppercase mt-0">design</h6>
+                            <i class=" float-right text-muted"><i class="fas fa-file-alt text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">Invoice</h6>
                             <h2 class="m-b-20">1,458</h2>
                             <span class="badge badge-dark"> +56% </span> <span class="text-muted">Last year</span>
                         </div>
@@ -439,8 +437,8 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-box tilebox-one">
-                            <i class="icon-layers float-right text-muted"><i class="fas fa-cubes text-primary" aria-hidden="true"></i></i>
-                            <h6 class="text-drak text-uppercase mt-0">marketing</h6>
+                            <i class=" float-right text-muted"><i class="fas fa-swatchbook text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">Equipment</h6>
                             <h2 class="m-b-20">123</h2>
                             <span class="badge badge-info"> +12% </span> <span class="text-muted">From previous period</span>
                         </div>
@@ -449,20 +447,10 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-box tilebox-one">
-                            <i class="icon-layers float-right text-muted"><i class="fas fa-chart-bar text-primary" aria-hidden="true"></i></i>
-                            <h6 class="text-drak text-uppercase mt-0">design</h6>
+                            <i class=" float-right text-muted"><i class="fas fa-users text-primary" aria-hidden="true"></i></i>
+                            <h6 class="text-drak text-uppercase mt-0">Vendor</h6>
                             <h2 class="m-b-20">1,458</h2>
                             <span class="badge badge-dark"> +56% </span> <span class="text-muted">Last year</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-box tilebox-one">
-                            <i class="icon-layers float-right text-muted"><i class="fas fa-cubes text-primary" aria-hidden="true"></i></i>
-                            <h6 class="text-drak text-uppercase mt-0">marketing</h6>
-                            <h2 class="m-b-20">123</h2>
-                            <span class="badge badge-info"> +12% </span> <span class="text-muted">From previous period</span>
                         </div>
                     </div>
                 </div>
@@ -694,6 +682,154 @@
 
 
                                                     </div>
+                                                    <div class="col-12">
+                                                        <div class="card mt-2 mb-0">
+                                                            <div class="card-body">
+                                                                <div class="row ">
+                                                                    <div class="col-3 ">
+                                                                        <div class="card border-success text-lime text-center font-weight-bold">Meeting leader</div>
+                                                                    </div>
+                                                                    <div class="col-3 ">
+                                                                        <div class="card border-warning text-warning text-center font-weight-bold">Employee</div>
+                                                                    </div>
+                                                                    <div class="col-3 ">
+                                                                        <div class="card border-secondary text-secondary text-center font-weight-bold">Guest</div>
+                                                                    </div>
+                                                                    <div class="col-3 ">
+                                                                        <div class="card border-info text-info text-center font-weight-bold">Vendor</div>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <div class="card border-success ">
+                                                                            <div class="card-body text-center pt-3 ">
+                                                                                <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                                                                </a>
+                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
+                                                                                <span>Person Position</span>
+                                                                                <div>
+                                                                                    <span class="badge badge-default">manager</span>
+                                                                                </div>
+                                                                                <div class="mt-4">
+
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-phone"></i></button>
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-envelope"></i></button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12 text-center">
+                                                                                <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <div class="card border-warning ">
+                                                                            <div class="card-body text-center pt-3 ">
+                                                                                <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro14.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                                                                </a>
+                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
+                                                                                        Ghaderi</a></h5>
+                                                                                <span>Person Position</span>
+                                                                                <div>
+                                                                                    <span class="badge badge-default">supervisor</span>
+                                                                                </div>
+                                                                                <div class="mt-4">
+
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-phone"></i></button>
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-envelope"></i></button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12 text-center">
+                                                                                <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <div class="card border-secondary ">
+                                                                            <div class="card-body text-center pt-3 ">
+                                                                                <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro11.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                                                                </a>
+                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
+                                                                                <span>Person Position</span>
+                                                                                <div>
+                                                                                    <span class="badge badge-default">designer</span>
+                                                                                </div>
+                                                                                <div class="mt-4">
+
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-phone"></i></button>
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-envelope"></i></button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12 text-center">
+                                                                                <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <div class="card border-info">
+                                                                            <div class="card-body text-center pt-3 ">
+                                                                                <a href="#">
+                                            <span class="avatar avatar-xl brround cover-image m-2"
+                                                  data-image-src="../assets/images/photos/pro7.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                <span class="avatar-status bg-green"></span>
+                                            </span>
+                                                                                </a>
+                                                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
+                                                                                <span>Person Position</span>
+                                                                                <div>
+                                                                                    <span class="badge badge-default">cameraman</span>
+                                                                                </div>
+                                                                                <div class="mt-4">
+
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-phone"></i></button>
+                                                                                    <button href="#"
+                                                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                                        <i class="fas fa-envelope"></i></button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-12 text-center">
+                                                                                <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="tab-pane" id="tab3">
@@ -879,16 +1015,67 @@
                                                         <div class="form-group clearfix mt-3">
                                                             <div class="row ">
                                                                 <div class="col-lg-3">
-                                                                    <label class="control-label form-label font-weight-bold" for="Inform">Inform :</label>
+                                                                    <label class="control-label form-label font-weight-bold"
+                                                                           for="Inform">Inform </label>
                                                                 </div>
                                                                 <div class="col-lg-9">
-                                                                    <select multiple="multiple" class="multi-select" id="Inform">
+                                                                    <select multiple="multiple" class="multi-select"
+                                                                            id="Inform">
                                                                         <option value="1">Ali Javadi</option>
                                                                         <option value="2">Mohsen Salami</option>
                                                                         <option value="3">Amir Ghane</option>
                                                                         <option value="4">Sahar Salimi</option>
                                                                         <option value="5">Rima mahan</option>
                                                                     </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="form-label font-weight-bold">Notifying </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="form-group m-0">
+
+                                                                    <div class="row gutters-xs">
+                                                                        <div class="col-5">
+                                                                            <select multiple="multiple"
+                                                                                    class="multi-select">
+                                                                                <option value="1">Notification</option>
+                                                                                <option value="2">SMS</option>
+                                                                                <option value="3">Email</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <select name="user[day]"
+                                                                                    class="form-control custom-select">
+                                                                                <option value="1">Minutes</option>
+                                                                                <option value="2">Hour</option>
+                                                                                <option value="3">Day</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="col-3">
+                                                                            <select name="user[year]"
+                                                                                    class="form-control custom-select">
+                                                                                <option value="15">15</option>
+                                                                                <option value="30">30</option>
+                                                                                <option value="45">45</option>
+                                                                                <option value="60">60</option>
+                                                                                <option value="120">120</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mt-3">
+                                                                        <div class="col-4"></div>
+                                                                        <div class="col-4"></div>
+                                                                        <div class="col-4 mt-2 mb-3">
+                                                                            <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1345,3 +1532,29 @@
     </div>
 </div>
 
+
+<?php
+$scripts = [
+
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/plugins/peitychart/jquery.peity.min.js',
+    '/assets/js/apexcharts.js',
+    '/assets/plugins/input-mask/jquery.mask.min.js',
+    '/assets/plugins/input-mask/jquery.mask.min.js',
+    '/assets/plugins/morris/morris.min.js',
+    '/assets/plugins/morris/raphael.min.js',
+    '/assets/plugins/echart/echart.js',
+    '/assets/js/echarts.js',
+    '/assets/plugins/counters/counterup.min.js',
+    '/assets/plugins/counters/waypoints.min.js',
+    'assets/plugins/chart/chart.bundle.js',
+    '/assets/js/chart.js',
+    '/assets/js/index2.js',
+    '/assets/plugins/select2/select2.full.min.js',
+    '/assets/plugins/multipleselect/multiple-select.js',
+    '/assets/plugins/multipleselect/multi-select.js',
+    '/assets/js/custom.js',
+    '/assets/js/index4.js',
+];
+?>
