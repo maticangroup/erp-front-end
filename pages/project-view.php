@@ -14,10 +14,10 @@
         <h4 class="page-title">Project View</h4>
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
-            <a href="#" class="btn btn-primary btn-sm bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
+            <a href="#" class="btn btn-primary bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
         </div>
     </div>
 </div>

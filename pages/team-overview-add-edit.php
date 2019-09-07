@@ -31,99 +31,122 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td class="text-center">Portrait</td>
+                            <td class="text-center">Ajdar</td>
                             <td class="text-center">Shamim Talaie</td>
-                           <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                           <td class="text-center">16</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">Taleghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-30 font-weight-bold ">55%
+                                    </div>
+                                </div>
+                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Birthday</td>
+                            <td class="text-center">Rad</td>
                             <td class="text-center">Safura Hajian</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                            <td class="text-center">29</td>
+                            <td class="text-center">5</td>
+                            <td class="text-center">Velenjak</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-30 font-weight-bold ">60%
+                                    </div>
+                                </div>
+                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Wedding</td>
+                            <td class="text-center">Tondar</td>
                             <td class="text-center">Abbas Rostami</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                            <td class="text-center">9</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">Taleghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-90 font-weight-bold ">90%
+                                    </div>
+                                </div>
+                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Wedding</td>
+                            <td class="text-center">Shahin</td>
                             <td class="text-center">Shapoor Banaie</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                            <td class="text-center">21</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">Saadi</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
+                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Engagement</td>
+                            <td class="text-center">Oghab</td>
                             <td class="text-center">Akram Mokaram</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                            <td class="text-center">17</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-60 font-weight-bold ">60%
+                                    </div>
+                                </div>
+                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Maternity</td>
+                            <td class="text-center">Saeghe</td>
                             <td class="text-center">Zabih Neshat</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                            <td class="text-center">33</td>
+                            <td class="text-center">9</td>
+                            <td class="text-center">Saad Abad</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-90 font-weight-bold ">90%
+                                    </div>
+                                </div>
+                            </td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Newborn</td>
+                            <td class="text-center">Tondar</td>
                             <td class="text-center">Saber Abar</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
+                            <td class="text-center">12</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">Saad Abad</td>
                             <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-red w-30 font-weight-bold ">30%
+                                    </div>
+                                </div>
                             </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Family</td>
-                            <td class="text-center">Soosan Moharami</td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
-                            <td class="text-center"></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                             </td>
                         </tr>
                         </tbody>
