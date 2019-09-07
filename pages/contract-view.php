@@ -27,11 +27,23 @@
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-6">
                         <div class="form-group">
                             <label class="form-label">Contract Title</label>
                             <input type="text" class="form-control" name="example-text-input"
                                    placeholder="Name" value="This is a title">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="form-label">Deal</label>
+                            <select type="text" class="form-control">
+                                <option value="#">Choose</option>
+                                <option value="#">Deal</option>
+                                <option value="#">Deal</option>
+                                <option value="#">Deal</option>
+                                <option value="#">Deal</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-6">
@@ -82,6 +94,13 @@
                             </select>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="form-label">Description <span class="form-label-small">56/100</span></label>
+                            <textarea class="form-control" name="example-textarea-input" rows="6"
+                                      placeholder="text here.." spellcheck="false"></textarea>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -128,7 +147,9 @@
                             <input type="text" class="form-control" placeholder="Note & Exception here">
                             <span class="input-group-append">
 															<button class="btn btn-success"
-                                                                    type="button">Add new object</button>
+                                                                    type="button">
+                                                                Add new object
+                                                            </button>
 														</span>
                         </div>
                     </div>
