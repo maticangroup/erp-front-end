@@ -49,13 +49,11 @@
                             <div class="card-body">
                                 <div class="form-group">
                                     <label class="form-label">Option 1</label>
-                                    <input type="text" class="form-control" name="example-text-input"
-                                           placeholder="Name" >
+                                    <input type="text" class="form-control" name="example-text-input">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Option 2</label>
-                                    <input type="text" class="form-control" name="example-text-input"
-                                           placeholder="Name" >
+                                    <input type="text" class="form-control" name="example-text-input">
                                 </div>
                             </div>
                         </div>
@@ -78,15 +76,29 @@
             </div>
             <div class="card-body">
                 <div class="panel panel-primary">
-                    <h5 class="mb-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elitm?
-                    </h5>
-                    <ol class="text-muted">
-                        <li><h5 class="text-muted">Agosto flernat</h5></li>
-                        <li><h5 class="text-muted">Baddhek</h5></li>
-                        <li><h5 class="text-muted">Consectetur adipisicing </h5></li>
-                        <li><h5 class="text-muted">Gofiajn baddhek</h5></li>
-                    </ol>
+                    <div class="form-group ">
+                        <h5 class="mb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elitm?
+                        </h5>
+                        <div class="custom-controls-stacked">
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="example-radios" value="option1" checked>
+                                <span class="custom-control-label text-muted font-weight-bold">Option 1</span>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="example-radios" value="option2">
+                                <span class="custom-control-label text-muted font-weight-bold">Option 2</span>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="example-radios" value="option3" >
+                                <span class="custom-control-label text-muted font-weight-bold">Option 3</span>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="example-radios" value="option4">
+                                <span class="custom-control-label text-muted font-weight-bold">Option 4</span>
+                            </label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
