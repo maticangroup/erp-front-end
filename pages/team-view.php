@@ -48,99 +48,102 @@
     <div class="col-xl-9 col-lg-12 col-md-12">
         <div class="row">
                     <div class="col-md-12">
-                        <div class="card rounded-0  border-primary">
-                            <div class="table-responsive">
-                                <table class="table card-table table-vcenter text-nowrap ">
-                                    <thead class="bg-primary ">
-                                    <tr>
-                                        <th>Id</th>
-                                        <th></th>
-                                        <th>Name</th>
-                                        <th>Feedback</th>
-                                        <th>Date</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>2345</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro5.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Ali Saburi</td>
-                                        <td>please check pricing Info </td>
-                                        <td class="text-nowrap">Jan 13, 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4562</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro18.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Sheida Shamkhani</td>
-                                        <td>New stock</td>
-                                        <td class="text-nowrap">Jan 15, 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8765</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro1.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Vida Rahmani</td>
-                                        <td>Daily updates</td>
-                                        <td class="text-nowrap">Jan 8, 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2665</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro13.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Samaneh Rashid</td>
-                                        <td>available item list</td>
-                                        <td class="text-nowrap">Jan 28, 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6854</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro9.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Sobhan Tafreshi</td>
-                                        <td>Provide Best Services</td>
-                                        <td class="text-nowrap">Jan 2, 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1245</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro14.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Bashir Babajanzadeh</td>
-                                        <td>Provide Best Services</td>
-                                        <td class="text-nowrap">Feb 2, 2018</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1245</td>
-                                        <td>
-                                            <div class="avatar-group">
-                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro8.jpg"></span>
-                                            </div>
-                                        </td>
-                                        <td class="text-sm font-weight-600">Samad Moghimi</td>
-                                        <td>Provide Best Services</td>
-                                        <td class="text-nowrap">Feb 2, 2018</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table card-table table-vcenter text-nowrap ">
+                                        <thead class="bg-primary ">
+                                        <tr>
+                                            <th>Id</th>
+                                            <th></th>
+                                            <th>Name</th>
+                                            <th>Feedback</th>
+                                            <th>Date</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>2345</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro5.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Ali Saburi</td>
+                                            <td>please check pricing Info </td>
+                                            <td class="text-nowrap">Jan 13, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4562</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro18.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Sheida Shamkhani</td>
+                                            <td>New stock</td>
+                                            <td class="text-nowrap">Jan 15, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8765</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro1.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Vida Rahmani</td>
+                                            <td>Daily updates</td>
+                                            <td class="text-nowrap">Jan 8, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2665</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro13.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Samaneh Rashid</td>
+                                            <td>available item list</td>
+                                            <td class="text-nowrap">Jan 28, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6854</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro9.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Sobhan Tafreshi</td>
+                                            <td>Provide Best Services</td>
+                                            <td class="text-nowrap">Jan 2, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1245</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro14.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Bashir Babajanzadeh</td>
+                                            <td>Provide Best Services</td>
+                                            <td class="text-nowrap">Feb 2, 2018</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1245</td>
+                                            <td>
+                                                <div class="avatar-group">
+                                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro8.jpg"></span>
+                                                </div>
+                                            </td>
+                                            <td class="text-sm font-weight-600">Samad Moghimi</td>
+                                            <td>Provide Best Services</td>
+                                            <td class="text-nowrap">Feb 2, 2018</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
