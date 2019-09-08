@@ -13,6 +13,56 @@
 <!--page header end-->
 
 <div class="row">
+    <div class="col-xl-3 col-md-12 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="plan-card text-center">
+                    <i class="fas fa-award text-primary plan-icon"></i>
+                    <h6 class="text-drak text-uppercase mt-2">Total Teams</h6>
+                    <h2 class="mb-2">36</h2>
+                    <span class="text-muted">Teams</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-12 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="plan-card text-center">
+                    <i class="fas fa-cannabis plan-icon text-primary"></i>
+                    <h6 class="text-drak text-uppercase mt-2">Ready For Formality</h6>
+                    <h2 class="mb-2">4</h2>
+                    <span class="text-muted">Teams</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-12 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="plan-card text-center">
+                    <i class="fab fa-black-tie plan-icon text-primary"></i>
+                    <h6 class="text-drak text-uppercase mt-2">Ready For Wedding</h6>
+                    <h2 class="mb-2">12</h2>
+                    <span class="text-muted">Teams</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-md-12 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="plan-card text-center">
+                    <i class="fas fa-cloud plan-icon text-primary"></i>
+                    <h6 class="text-drak text-uppercase mt-2">Reserved</h6>
+                    <h2 class="mb-2">20</h2>
+                    <span class="text-muted">Teams</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
             <div class="card-body">
@@ -26,6 +76,7 @@
                             <th class="wd-10p border-bottom-0 text-center">Projects</th>
                             <th class="wd-15p border-bottom-0 text-center">Branch</th>
                             <th class="wd-15p border-bottom-0 text-center">Efficiency</th>
+                            <th class="wd-15p border-bottom-0 text-center">Status</th>
                             <th class="border-bottom-0 text-center">Actions</th>
                         </tr>
                         </thead>
@@ -42,6 +93,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Reserved</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -59,6 +111,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Reserved</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -76,6 +129,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Reserved</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -93,6 +147,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Reserved</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -110,6 +165,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Ready for project</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -127,6 +183,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Ready for project</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -144,6 +201,7 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="text-center">Ready for project</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -158,8 +216,117 @@
         <!-- section-wrapper -->
     </div>
 </div>
-
-
+<div class="row">
+    <div class="col-xl-8 col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4>Teams Efficiency</h4>
+            </div>
+            <div class="card-body">
+                <div id="highchart5"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Recent Activity</h3>
+            </div>
+            <div class="card-body">
+                <div class="activity">
+                    <img src="../assets/images/photos/pro18.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Akram Khoshpoosh</b> Add a new projects <b> <br>Project kick off</b></p>
+                            <small class="text-info">30 mins ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro10.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Design New Films</b></p>
+                            <small class="text-danger">1 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro8.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Jasem Jabari</b> Add a new projects <b>Upload Modified Photos</b></p>
+                            <small class="text-warning">3 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro11.jpg" alt="" class="img-activity">
+                    <div class="time-activity mb-0">
+                        <div class="item-activity mb-0">
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number 6</b></p>
+                            <small class="text-success">5 days ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="media ">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Nasrin Maghami</h4>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro9.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Abolfazl Naseh</h4>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                                eos qui ratione voluptatem sequi nesciunt
+                            </div>
+                        </div>
+                        <div class="media ">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <div class="form-group">
+                            <textarea class="form-control" name="example-textarea-input" rows="3"
+                                      placeholder="text here.."></textarea>
+                                    <div class="row mt-3">
+                                        <div class="col-12 text-right">
+                                            <button class="btn btn-primary ">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Message Modal -->
 <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -474,9 +641,15 @@
 
 <?php
 $scripts = [
-
+    '/assets/plugins/highcharts/highcharts.js',
+    '/assets/plugins/highcharts/highcharts-3d.js',
+    '/assets/plugins/highcharts/exporting.js',
+    '/assets/plugins/highcharts/export-data.js',
+    '/assets/plugins/highcharts/histogram-bellcurve.js',
+    '/assets/js/highcharts.js',
     '/assets/plugins/accordion/accordion.min.js',
     '/assets/plugins/accordion/accor.js',
     '/assets/js/custom.js',
 ];
 ?>
+
