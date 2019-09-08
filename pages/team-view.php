@@ -14,278 +14,682 @@
 </div>
 <!--page header-->
 
-<div class="card">
-    <div class="card-header">
-        <h3 class="card-title font-weight-bold">Team Members</h3>
+<div class="row">
+    <div class="col-xl-3 col-lg-6 col-md-6">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro11.jpg">
+                        <span class="avatar-status bg-red"></span>
+                    </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shahla Sheidaie</a></h5>
+                <span>Team Leader</span>
+                <div >
+                    <span class="badge badge-default">leader</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body dash2">
+                <div class="chart-circle chart-circle-lg float-left" data-value="1" data-thickness="5" data-color="#5C6C7C">
+                    <div class="chart-circle-value fs"><span class="fab fa-hubspot fa-3x text-muted"></span></div>
+                </div>
+                <span class="count-numbers counter font-weight-bold">37</span>
+                <span class="count-name font-weight-bold">Total Projects</span>
+            </div>
+        </div>
     </div>
-    <div class="card-body">
-        <div class="row ">
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+    <div class="col-xl-9 col-lg-12 col-md-12">
+        <div class="row">
+                    <div class="col-md-12">
+                        <div class="card rounded-0  border-primary">
+                            <div class="table-responsive">
+                                <table class="table card-table table-vcenter text-nowrap ">
+                                    <thead class="bg-primary ">
+                                    <tr>
+                                        <th>Id</th>
+                                        <th></th>
+                                        <th>Name</th>
+                                        <th>Feedback</th>
+                                        <th>Date</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>2345</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro5.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Ali Saburi</td>
+                                        <td>please check pricing Info </td>
+                                        <td class="text-nowrap">Jan 13, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4562</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro18.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Sheida Shamkhani</td>
+                                        <td>New stock</td>
+                                        <td class="text-nowrap">Jan 15, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8765</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro1.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Vida Rahmani</td>
+                                        <td>Daily updates</td>
+                                        <td class="text-nowrap">Jan 8, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2665</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro13.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Samaneh Rashid</td>
+                                        <td>available item list</td>
+                                        <td class="text-nowrap">Jan 28, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6854</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro9.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Sobhan Tafreshi</td>
+                                        <td>Provide Best Services</td>
+                                        <td class="text-nowrap">Jan 2, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1245</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro14.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Bashir Babajanzadeh</td>
+                                        <td>Provide Best Services</td>
+                                        <td class="text-nowrap">Feb 2, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1245</td>
+                                        <td>
+                                            <div class="avatar-group">
+                                                <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro8.jpg"></span>
+                                            </div>
+                                        </td>
+                                        <td class="text-sm font-weight-600">Samad Moghimi</td>
+                                        <td>Provide Best Services</td>
+                                        <td class="text-nowrap">Feb 2, 2018</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive ">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                        <thead>
+                        <tr>
+                            <th class="wd-15p border-bottom-0 text-center">Name</th>
+                            <th class="wd-15p border-bottom-0 text-center">Leader</th>
+                            <th class="wd-10p border-bottom-0 text-center">Num Of Members</th>
+                            <th class="wd-10p border-bottom-0 text-center">Projects</th>
+                            <th class="wd-15p border-bottom-0 text-center">Branch</th>
+                            <th class="wd-15p border-bottom-0 text-center">Efficiency</th>
+                            <th class="wd-15p border-bottom-0 text-center">Status</th>
+                            <th class="border-bottom-0 text-center">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">Ajdar</td>
+                            <td class="text-center">Shamim Talaie</td>
+                            <td class="text-center">16</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">Taleghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-30 font-weight-bold ">55%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Reserved</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Rad</td>
+                            <td class="text-center">Safura Hajian</td>
+                            <td class="text-center">29</td>
+                            <td class="text-center">5</td>
+                            <td class="text-center">Velenjak</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-30 font-weight-bold ">60%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Reserved</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Tondar</td>
+                            <td class="text-center">Abbas Rostami</td>
+                            <td class="text-center">9</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">Taleghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-90 font-weight-bold ">90%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Reserved</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Shahin</td>
+                            <td class="text-center">Shapoor Banaie</td>
+                            <td class="text-center">21</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">Saadi</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Reserved</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Oghab</td>
+                            <td class="text-center">Akram Mokaram</td>
+                            <td class="text-center">17</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-60 font-weight-bold ">60%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Ready for project</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Saeghe</td>
+                            <td class="text-center">Zabih Neshat</td>
+                            <td class="text-center">33</td>
+                            <td class="text-center">9</td>
+                            <td class="text-center">Saad Abad</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-90 font-weight-bold ">90%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Ready for project</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Tondar</td>
+                            <td class="text-center">Saber Abar</td>
+                            <td class="text-center">12</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">Saad Abad</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-red w-30 font-weight-bold ">30%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Ready for project</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- table-wrapper -->
+        </div>
+        <!-- section-wrapper -->
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4>Bar Chart</h4>
+            </div>
+            <div class="card-body">
+                <div id="highchart7"></div>
+                <button id="plain" class="btn btn-primary btn-sm">Plain</button>
+                <button id="inverted" class="btn btn-primary btn-sm">Inverted</button>
+                <button id="polar" class="btn btn-primary btn-sm">Polar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Team Members</h3>
+            </div>
+            <div class="card-body">
+                <div class="row ">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro1.jpg">
                             <span class="avatar-status bg-green"></span>
                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Nazanin Bayat</a></h5>
-                        <span>Product Owner</span>
-                        <div >
-                            <span class="badge badge-default">manager</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Nazanin Bayat</a></h5>
+                                <span>Product Owner</span>
+                                <div >
+                                    <span class="badge badge-default">manager</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro14.jpg">
                             <span class="avatar-status bg-green"></span>
                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Ali Hatami</a></h5>
-                        <span>Owner 1</span>
-                        <div >
-                            <span class="badge badge-default">Religious</span>
-                            <span class="badge badge-default">sullen</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Ali Hatami</a></h5>
+                                <span>Owner 1</span>
+                                <div >
+                                    <span class="badge badge-default">Religious</span>
+                                    <span class="badge badge-default">sullen</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro13.jpg">
                             <span class="avatar-status bg-red"></span>
                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sara Nazparvar</a></h5>
-                        <span>Owner 2</span>
-                        <div >
-                            <span class="badge badge-default">religious</span>
-                            <span class="badge badge-default">energetic</span>
-                            <span class="badge badge-default">joyful</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sara Nazparvar</a></h5>
+                                <span>Owner 2</span>
+                                <div >
+                                    <span class="badge badge-default">religious</span>
+                                    <span class="badge badge-default">energetic</span>
+                                    <span class="badge badge-default">joyful</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro9.jpg">
                             <span class="avatar-status bg-green"></span>
                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas Ghaderi</a></h5>
-                        <span>Project Manager</span>
-                        <div >
-                            <span class="badge badge-default">manager</span>
-                            <span class="badge badge-default">supervisor</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas Ghaderi</a></h5>
+                                <span>Project Manager</span>
+                                <div >
+                                    <span class="badge badge-default">manager</span>
+                                    <span class="badge badge-default">supervisor</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro8.jpg">
                                                             <span class="avatar-status bg-green"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hashem Safaie</a></h5>
-                        <span>Photo Designer</span>
-                        <div >
-                            <span class="badge badge-default">photo</span>
-                            <span class="badge badge-default">design</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hashem Safaie</a></h5>
+                                <span>Photo Designer</span>
+                                <div >
+                                    <span class="badge badge-default">photo</span>
+                                    <span class="badge badge-default">design</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro11.jpg">
                                                             <span class="avatar-status bg-red"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Moghadam</a></h5>
-                        <span>Photographer</span>
-                        <div >
-                            <span class="badge badge-default">photo</span>
-                            <span class="badge badge-default">edit</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Moghadam</a></h5>
+                                <span>Photographer</span>
+                                <div >
+                                    <span class="badge badge-default">photo</span>
+                                    <span class="badge badge-default">edit</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro3.jpg">
                                                             <span class="avatar-status bg-green"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sobhan Shafati</a></h5>
-                        <span>Designer</span>
-                        <div >
-                            <span class="badge badge-default">design</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sobhan Shafati</a></h5>
+                                <span>Designer</span>
+                                <div >
+                                    <span class="badge badge-default">design</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro7.jpg">
                                                             <span class="avatar-status bg-red"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Alireza Badran</a></h5>
-                        <span>Quality Supervisor</span>
-                        <div >
-                            <span class="badge badge-default">check</span>
-                            <span class="badge badge-default">supervisor</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Alireza Badran</a></h5>
+                                <span>Quality Supervisor</span>
+                                <div >
+                                    <span class="badge badge-default">check</span>
+                                    <span class="badge badge-default">supervisor</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro15.jpg">
                                                             <span class="avatar-status bg-green"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Baran Azimi</a></h5>
-                        <span>Photo Editor</span>
-                        <div >
-                            <span class="badge badge-default">edit</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Baran Azimi</a></h5>
+                                <span>Photo Editor</span>
+                                <div >
+                                    <span class="badge badge-default">edit</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro10.jpg">
                                                             <span class="avatar-status bg-red"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Saghar Kasiri</a></h5>
-                        <span>Film Editor</span>
-                        <div >
-                            <span class="badge badge-default">edit</span>
-                            <span class="badge badge-default">design</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Saghar Kasiri</a></h5>
+                                <span>Film Editor</span>
+                                <div >
+                                    <span class="badge badge-default">edit</span>
+                                    <span class="badge badge-default">design</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro6.jpg">
                                                             <span class="avatar-status bg-red"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hosein Shojaie</a></h5>
-                        <span>Cameraman</span>
-                        <div >
-                            <span class="badge badge-default">film</span>
-                            <span class="badge badge-default">camera</span>
-                            <span class="badge badge-default">edit</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Hosein Shojaie</a></h5>
+                                <span>Cameraman</span>
+                                <div >
+                                    <span class="badge badge-default">film</span>
+                                    <span class="badge badge-default">camera</span>
+                                    <span class="badge badge-default">edit</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-12">
-                <div class="card ">
-                    <div class="card-body text-center pt-3 ">
-                        <a href="#">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="card ">
+                            <div class="card-body text-center pt-3 ">
+                                <a href="#">
                                                         <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro18.jpg">
                                                             <span class="avatar-status bg-green"></span>
                                                         </span>
-                        </a>
-                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shamim Aghaie</a></h5>
-                        <span>Photo Editor</span>
-                        <div >
-                            <span class="badge badge-default">edit</span>
-                        </div>
-                        <div class="mt-4">
-                            <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                            <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </a>
+                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shamim Aghaie</a></h5>
+                                <span>Photo Editor</span>
+                                <div >
+                                    <span class="badge badge-default">edit</span>
+                                </div>
+                                <div class="mt-4">
+                                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
+<div class="row">
+    <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="media ">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Nasrin Maghami</h4>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro9.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Abolfazl Naseh</h4>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                                eos qui ratione voluptatem sequi nesciunt
+                            </div>
+                        </div>
+                        <div class="media ">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <div class="form-group">
+                            <textarea class="form-control" name="example-textarea-input" rows="3"
+                                      placeholder="text here.."></textarea>
+                                    <div class="row mt-3">
+                                        <div class="col-12 text-right">
+                                            <button class="btn btn-primary ">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Recent Activity</h3>
+            </div>
+            <div class="card-body">
+                <div class="activity">
+                    <img src="../assets/images/photos/pro18.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Akram Khoshpoosh</b> Add a new projects <b> <br>Project kick off</b></p>
+                            <small class="text-info">30 mins ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro10.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Design New Films</b></p>
+                            <small class="text-danger">1 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro8.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Jasem Jabari</b> Add a new projects <b>Upload Modified Photos</b></p>
+                            <small class="text-warning">3 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro11.jpg" alt="" class="img-activity">
+                    <div class="time-activity mb-0">
+                        <div class="item-activity mb-0">
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number 6</b></p>
+                            <small class="text-success">5 days ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!--Modals-->
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -727,6 +1131,14 @@
 
 <?php
 $scripts = [
-
+    '/assets/plugins/highcharts/highcharts.js',
+    '/assets/plugins/highcharts/highcharts-3d.js',
+    '/assets/plugins/highcharts/exporting.js',
+    '/assets/plugins/highcharts/export-data.js',
+    '/assets/plugins/highcharts/histogram-bellcurve.js',
+    '/assets/js/highcharts.js',
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/js/custom.js',
 ];
 ?>
