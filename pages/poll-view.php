@@ -15,7 +15,7 @@
 <!--page header-->
 
 <div class="row">
-    <div class="col-xl-6 col-lg-12 col-md-12 ">
+    <div class="col-xl-4 col-lg-12 col-md-12 ">
         <div class="card">
             <div class="card-header" >
                 <h3 class="card-title">Questionnaire</h3>
@@ -64,8 +64,73 @@
                 <button type="button" class="btn btn-outline-primary btn-sm btn-block"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro18.jpg">
+                    <span class="avatar-status bg-red"></span>
+                </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shahla Sheidaie</a></h5>
+                <span>Creator</span>
+                <div >
+                    <span class="badge badge-default">leader</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body dash2">
+                <div class="chart-circle chart-circle-lg float-left" data-value="1" data-thickness="5" data-color="#5C6C7C">
+                    <div class="chart-circle-value fs"><span class="fas fa-users fa-3x text-muted"></span></div>
+                </div>
+                <span class="count-numbers counter font-weight-bold">37</span>
+                <span class="count-name font-weight-bold">Total Participants</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Recent Activity</h3>
+            </div>
+            <div class="card-body">
+                <div class="activity">
+                    <img src="../assets/images/photos/pro18.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Akram Khoshpoosh</b> Add a new projects <b> <br>Project kick off</b></p>
+                            <small class="text-info">30 mins ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro10.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Design New Films</b></p>
+                            <small class="text-danger">1 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro8.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Jasem Jabari</b> Add a new projects <b>Upload Modified Photos</b></p>
+                            <small class="text-warning">3 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro11.jpg" alt="" class="img-activity">
+                    <div class="time-activity mb-0">
+                        <div class="item-activity mb-0">
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number 6</b></p>
+                            <small class="text-success">5 days ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-xl-6 col-lg-12 col-md-12 ">
+    <div class="col-xl-8 col-lg-12 col-md-12 ">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Question 1</h3>
@@ -102,40 +167,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xl-3 col-lg-6 col-md-6">
-        <div class="card ">
-            <div class="card-body text-center pt-3 ">
-                <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro18.jpg">
-                        <span class="avatar-status bg-red"></span>
-                    </span>
-                </a>
-                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shahla Sheidaie</a></h5>
-                <span>Creator</span>
-                <div >
-                    <span class="badge badge-default">leader</span>
-                </div>
-                <div class="mt-4">
-                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body dash2">
-                <div class="chart-circle chart-circle-lg float-left" data-value="1" data-thickness="5" data-color="#5C6C7C">
-                    <div class="chart-circle-value fs"><span class="fas fa-users fa-3x text-muted"></span></div>
-                </div>
-                <span class="count-numbers counter font-weight-bold">37</span>
-                <span class="count-name font-weight-bold">Total Participants</span>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-9 col-lg-12 col-md-12">
         <div class="row">
             <div class="col-md-12">
                 <div class="card ">
@@ -237,10 +268,14 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title font-weight-bold">Poll Result</h4>
+            </div>
+            <div class="card-body">
+                <div id="highchart3"></div>
+            </div>
+        </div>
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive ">
@@ -390,65 +425,10 @@
             </div>
             <!-- table-wrapper -->
         </div>
-        <!-- section-wrapper -->
     </div>
 </div>
-<div class="row">
-    <div class="col-md-12 col-xl-8 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="card-title font-weight-bold">Poll Result</h4>
-            </div>
-            <div class="card-body">
-                <div id="highchart3"></div>
-            </div>
-        </div>
-
-    </div>
-    <div class="col-xl-4 col-lg-12 col-md-12">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title font-weight-bold">Recent Activity</h3>
-            </div>
-            <div class="card-body">
-                <div class="activity">
-                    <img src="../assets/images/photos/pro18.jpg" alt="" class="img-activity">
-                    <div class="time-activity">
-                        <div class="item-activity">
-                            <p class="mb-0"><b>Akram Khoshpoosh</b> Add a new projects <b> <br>Project kick off</b></p>
-                            <small class="text-info">30 mins ago</small>
-                        </div>
-                    </div>
-                    <img src="../assets/images/photos/pro10.jpg" alt="" class="img-activity">
-                    <div class="time-activity">
-                        <div class="item-activity">
-                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Design New Films</b></p>
-                            <small class="text-danger">1 days ago</small>
-                        </div>
-                    </div>
-                    <img src="../assets/images/photos/pro8.jpg" alt="" class="img-activity">
-                    <div class="time-activity">
-                        <div class="item-activity">
-                            <p class="mb-0"><b>Jasem Jabari</b> Add a new projects <b>Upload Modified Photos</b></p>
-                            <small class="text-warning">3 days ago</small>
-                        </div>
-                    </div>
-                    <img src="../assets/images/photos/pro11.jpg" alt="" class="img-activity">
-                    <div class="time-activity mb-0">
-                        <div class="item-activity mb-0">
-                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number 6</b></p>
-                            <small class="text-success">5 days ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row">
 
 
-</div>
 
 
 <!--Modals-->
