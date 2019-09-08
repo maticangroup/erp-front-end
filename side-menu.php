@@ -50,13 +50,6 @@
             ]
         ],
         [
-            'link' => '/team-overview-add-edit',
-            'title' => 'Teams',
-            'icon' => 'side-menu__icon si si-layers',
-            'drop_down_items' => [
-            ]
-        ],
-        [
             'link' => 'asdasd',
             'title' => 'Templates',
             'icon' => 'side-menu__icon si si-layers',
@@ -135,13 +128,14 @@
             'title' => 'HR',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
-                ['url' => '/top-employees', 'title' => 'Top employees'],
+                ['url' => '/team-overview', 'title' => 'Team'],
                 ['url' => '/employee-overview', 'title' => 'Employees'],
                 ['url' => '/expertises', 'title' => 'Expertises'],
                 ['url' => '/mentalities', 'title' => 'Mentalities'],
                 ['url' => '/roles', 'title' => 'Roles'],
                 ['url' => '/units', 'title' => 'Units'],
                 ['url' => '/duties', 'title' => 'Duties'],
+                ['url' => '/timeoff-overview-view', 'title' => 'Time Off'],
             ]
         ],
         [
