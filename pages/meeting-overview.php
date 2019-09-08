@@ -103,9 +103,7 @@
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#exampleModal3-2"
-                                   class="btn btn-primary btn-sm text-white"><i
-                                            class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#exampleModal3-2" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
