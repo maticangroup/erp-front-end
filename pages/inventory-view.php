@@ -260,7 +260,7 @@
                             <td class="text-center">Digital</td>
                             <td class="text-center">94*56</td>
                             <td class="text-center">0.5</td>
-                            <td class="text-center">In use</td>
+                            <td class="text-center"><span class="tag tag-warning">In use</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/inventory-view" class="btn btn-dark btn-sm"><i
@@ -298,7 +298,7 @@
                             <td class="text-center">Digital</td>
                             <td class="text-center">195*56</td>
                             <td class="text-center">3</td>
-                            <td class="text-center">In use</td>
+                            <td class="text-center"><span class="tag tag-warning">In use</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/inventory-view" class="btn btn-dark btn-sm"><i
