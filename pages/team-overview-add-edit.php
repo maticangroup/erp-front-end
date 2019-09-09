@@ -267,66 +267,6 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-xl-8 col-lg-12 col-md-12">
-        <div class="card">
-            <div class="card-body">
-                <div class="media ">
-                    <div class="media-left">
-                        <a href="#">
-                            <img class="media-object brround"
-                                 src="../assets/images/photos/pro11.jpg" alt="media1">
-                        </a>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Nasrin Maghami</h4>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object brround"
-                                         src="../assets/images/photos/pro9.jpg" alt="media1">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Abolfazl Naseh</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                eos qui ratione voluptatem sequi nesciunt
-                            </div>
-                        </div>
-                        <div class="media ">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object brround"
-                                         src="../assets/images/photos/pro18.jpg" alt="media1">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <div class="form-group">
-                            <textarea class="form-control" name="example-textarea-input" rows="3"
-                                      placeholder="text here.."></textarea>
-                                    <div class="row mt-3">
-                                        <div class="col-12 text-right">
-                                            <button class="btn btn-primary ">Reply</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Message Modal -->
 <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-hidden="true">

@@ -87,7 +87,7 @@
                             <td class="text-center">12</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-5 font-weight-bold ">5%
+                                    <div class="progress-bar w-0 font-weight-bold ">0%
                                     </div>
                                 </div>
                             </td>
@@ -107,7 +107,7 @@
                             <td class="text-center">5</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-10 font-weight-bold ">10%
+                                    <div class="progress-bar w-0 font-weight-bold ">0%
                                     </div>
                                 </div>
                             </td>
@@ -246,7 +246,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">New Team</h5>
+                <h5 class="modal-title" id="example-Modal3-1">New Poll</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -331,14 +331,28 @@
                                                                     data-active-index="false">
                                                                     <!-- Section 1 -->
                                                                     <li>
-                                                                        <div><h3>Employee</h3></div>
+                                                                        <div><h3>Deal</h3></div>
                                                                         <div>
 
                                                                         </div>
                                                                     </li>
                                                                     <!-- Section 2 -->
                                                                     <li>
-                                                                        <div><h3>Unit</h3></div>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 4-->
+                                                                    <li>
+                                                                        <div><h3>Meeting</h3></div>
                                                                         <div>
                                                                             <!-- Your text here. For this demo, the content is generated automatically. -->
                                                                         </div>
@@ -471,52 +485,52 @@
                                                         <div class="card-body">
                                                             <div class="row">
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-success text-center font-weight-bold text-muted">Meeting leader</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
                                                                 </div>
                                                                 <div class="col-3 ">
                                                                     <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
                                                                 </div>
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-secondary text-center font-weight-bold text-muted">Guest</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
                                                                 </div>
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-info text-center font-weight-bold text-muted">Vendor</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
                                                                 </div>
                                                                 <div class="col-3">
-                                                                    <div class="card border-success ">
+                                                                    <div class="card border-warning ">
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
                                                   data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
-                                                                            </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
-                                                                            <span>Person Position</span>
-                                                                            <div>
-                                                                                <span class="badge badge-default">manager</span>
-                                                                            </div>
-                                                                            <div class="mt-4">
+                                                </a>
+                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
+                                                <span>Person Position</span>
+                                                <div>
+                                                    <span class="badge badge-default">manager</span>
+                                                </div>
+                                                <div class="mt-4">
 
-                                                                                <button href="#"
-                                                                                        class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-phone"></i></button>
-                                                                                <button href="#"
-                                                                                        class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-envelope"></i></button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-12 text-center">
-                                                                            <a href="#" class="fas fa-remove text-danger"></a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-3">
-                                                                    <div class="card border-warning ">
-                                                                        <div class="card-body text-center pt-3 ">
-                                                                            <a href="#">
+                                                    <button href="#"
+                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                        <i class="fas fa-phone"></i></button>
+                                                    <button href="#"
+                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                        <i class="fas fa-envelope"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="#" class="fas fa-remove text-danger"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="card border-warning ">
+                                            <div class="card-body text-center pt-3 ">
+                                                <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
                                                   data-image-src="../assets/images/photos/pro14.jpg"
                                                   style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
@@ -547,7 +561,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-3">
-                                                                    <div class="card border-secondary ">
+                                                                    <div class="card border-warning ">
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
@@ -579,7 +593,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-3">
-                                                                    <div class="card border-info">
+                                                                    <div class="card border-warning">
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"

@@ -3,26 +3,81 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Employee Overview</h4>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 </div>
 <!--page header end-->
 
 <div class="row">
+    <div class="col-xl-2 col-lg-4 col-md-6 features">
+        <div class="card feature">
+            <div class="card-body text-center">
+                <h5>Cameraman</h5>
+                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
+                    <i class="fas fa-film text-white"></i>
+                </div>
+                <h2 class="counter">35</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-lg-4 col-md-6 features">
+        <div class="card feature">
+            <div class="card-body text-center">
+                <h5>Phptographer</h5>
+                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
+                    <i class="fas fa-camera-retro text-white"></i>
+                </div>
+                <h2 class="counter">68</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-6 features">
+        <div class="card feature">
+            <div class="card-body text-center">
+                <h5>Total Employee</h5>
+                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
+                    <i class="fas fa-briefcase text-white"></i>
+                </div>
+                <h2 class="counter">313</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-lg-4 col-md-6 features">
+        <div class="card feature">
+            <div class="card-body text-center">
+                <h5>Editor</h5>
+                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
+                    <i class="fas fa-pencil-alt text-white"></i>
+                </div>
+                <h2 class="counter">29</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-2 col-lg-4 col-md-6 features">
+        <div class="card feature">
+            <div class="card-body text-center">
+                <h5>Desiner</h5>
+                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
+                    <i class="fas fa-palette text-white"></i>
+                </div>
+                <h2 class="counter">40</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Employees</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-left">Name</th>
+                            <th class="wd-15p border-bottom-0 text-center">Name</th>
                             <th class="wd-15p border-bottom-0 text-center">Gender</th>
                             <th class="wd-10p border-bottom-0 text-center">Role</th>
                             <th class="wd-10p border-bottom-0 text-center">Unit</th>
@@ -36,7 +91,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Shamim Talaie</td>
+                            <td class="text-center">Shamim Talaie</td>
                             <td class="text-center">Female</td>
                             <td class="text-center">Designer</td>
                             <td class="text-center">Designing</td>
@@ -44,11 +99,10 @@
                             <td class="text-center">1455445</td>
                             <td class="text-center">09028845455</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -59,7 +113,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Safura Hajian</td>
+                            <td class="text-center">Safura Hajian</td>
                             <td class="text-center">Female</td>
                             <td class="text-center">Cameraman</td>
                             <td class="text-center">Operation</td>
@@ -67,11 +121,10 @@
                             <td class="text-center">112548</td>
                             <td class="text-center">09124558523</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -82,7 +135,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Abbas Rostami</td>
+                            <td class="text-center">Abbas Rostami</td>
                             <td class="text-center">Male</td>
                             <td class="text-center">Photographer</td>
                             <td class="text-center">Operation</td>
@@ -90,11 +143,10 @@
                             <td class="text-center">1168855</td>
                             <td class="text-center">09361557895</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -105,7 +157,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Shapoor Banaie</td>
+                            <td class="text-center">Shapoor Banaie</td>
                             <td class="text-center">Male</td>
                             <td class="text-center">Receptionist</td>
                             <td class="text-center">TQM</td>
@@ -113,11 +165,10 @@
                             <td class="text-center">885468</td>
                             <td class="text-center">09124478534</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
@@ -128,7 +179,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Akram Mokaram</td>
+                            <td class="text-center">Akram Mokaram</td>
                             <td class="text-center">Female</td>
                             <td class="text-center">Photo Designer</td>
                             <td class="text-center">Designing</td>
@@ -136,11 +187,10 @@
                             <td class="text-center">2269854</td>
                             <td class="text-center">0914589898</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -151,7 +201,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Zabih Neshat</td>
+                            <td class="text-center">Zabih Neshat</td>
                             <td class="text-center">Male</td>
                             <td class="text-center">Film Designer</td>
                             <td class="text-center">Designing</td>
@@ -159,11 +209,10 @@
                             <td class="text-center">1168954</td>
                             <td class="text-center">09358876512</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
@@ -174,7 +223,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Saber Abar</td>
+                            <td class="text-center">Saber Abar</td>
                             <td class="text-center">Male</td>
                             <td class="text-center">Quality Supervisor</td>
                             <td class="text-center">TQM</td>
@@ -182,11 +231,10 @@
                             <td class="text-center">99458562</td>
                             <td class="text-center">09121245698</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
-                                <span class="text-secondary"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
@@ -197,7 +245,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Soosan Moharami</td>
+                            <td class="text-center">Soosan Moharami</td>
                             <td class="text-center">Female</td>
                             <td class="text-center">Quality Supervisor</td>
                             <td class="text-center">TQM</td>
@@ -205,11 +253,10 @@
                             <td class="text-center">45988542</td>
                             <td class="text-center">09144555652</td>
                             <td class="text-center">
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
-                                <span class="text-warning"><i class="fas fa-star"></i></span>
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    </div>
+                                </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -226,6 +273,322 @@
             <!-- table-wrapper -->
         </div>
         <!-- section-wrapper -->
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <div class="card-title">Salary Per Month</div>
+            </div>
+            <div class="card-body">
+                <div id="chart" class="overflow-hidden chart-dropshadow"></div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="media ">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Nasrin Maghami</h4>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro9.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Abolfazl Naseh</h4>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                                eos qui ratione voluptatem sequi nesciunt
+                            </div>
+                        </div>
+                        <div class="media ">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <div class="form-group">
+                            <textarea class="form-control" name="example-textarea-input" rows="3"
+                                      placeholder="text here.."></textarea>
+                                    <div class="row mt-3">
+                                        <div class="col-12 text-right">
+                                            <button class="btn btn-primary ">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-header">
+                <h4 class="card-title font-weight-bold">Latest time off requests</h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table card-table table-vcenter text-nowrap ">
+                        <thead class="bg-primary ">
+                        <tr>
+                            <th></th>
+                            <th>Employee</th>
+                            <th class="text-center">Unit</th>
+                            <th class="text-center">Role</th>
+                            <th class="text-center">Type</th>
+                            <th class="text-center">From Date</th>
+                            <th class="text-center">To Date</th>
+                            <th class="text-center">Confirm Person</th>
+                            <th class="text-center">Confirmation Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <div class="avatar-group">
+                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro9.jpg"></span>
+                                </div>
+                            </td>
+                            <td class="text-sm font-weight-600">Ali Saburi</td>
+                            <td class="text-center">Designing</td>
+                            <td class="text-center">Editor</td>
+                            <td class="text-center">Paid</td>
+                            <td class="text-center">Jan 13, 2019</td>
+                            <td class="text-center">Feb 13, 2019</td>
+                            <td class="text-center">Reza Ghorbani</td>
+                            <td class="text-center" >Accepted</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="avatar-group">
+                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro18.jpg"></span>
+                                </div>
+                            </td>
+                            <td class="text-sm font-weight-600">Sheida Shamkhani</td>
+                            <td class="text-center">Designing</td>
+                            <td class="text-center">Designer</td>
+                            <td class="text-center">Maternity</td>
+                            <td class="text-center">Feb 13, 2019</td>
+                            <td class="text-center">Jan 13, 2019</td>
+                            <td class="text-center">Reza Ghorbani</td>
+                            <td class="text-center">Rejected</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="avatar-group">
+                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro1.jpg"></span>
+                                </div>
+                            </td>
+                            <td class="text-sm font-weight-600">Vida Rahmani</td>
+                            <td class="text-center">Designing</td>
+                            <td class="text-center">Designer</td>
+                            <td class="text-center">Unpaid</td>
+                            <td class="text-center">Aug 23, 2019</td>
+                            <td class="text-center">Dec 04, 2019</td>
+                            <td class="text-center">Reza Ghorbani</td>
+                            <td class="text-center">Rejected</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="avatar-group">
+                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro13.jpg"></span>
+                                </div>
+                            </td>
+                            <td class="text-sm font-weight-600">Samaneh Rashid</td>
+                            <td class="text-center">TQM</td>
+                            <td class="text-center">Expert</td>
+                            <td class="text-center">Sick</td>
+                            <td class="text-center">Dec 04, 2019</td>
+                            <td class="text-center">Aug 23, 2019</td>
+                            <td class="text-center">Reza Ghorbani</td>
+                            <td class="text-center">Accepted</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-12 col-md-12">
+        <div class="card card-aside">
+            <div class="card-body p-3 ">
+                <h4 class="card-title mb-1">Simin Daneshvar</h4>
+                <div class="text-muted mb-3">Best September Photographer</div>
+                <table class="table card-table ">
+                    <tbody>
+                    <tr>
+                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#ecb403">
+                                <div class="chart-circle-value fs"><span class="fas fa-camera-retro"></span></div>
+                            </div></td>
+                        <td class="mt-6 font-weight-bold">9.1
+                            <div class="progress progress-xs mt-1">
+                                <div class="progress-bar bg-warning w-90"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.5.jpg"></div>
+        </div>
+        <div class="card card-aside">
+            <div class="card-body p-3 ">
+                <h4 class="card-title mb-1">Korosh Jam</h4>
+                <div class="text-muted mb-3">Best September Admission Expert</div>
+                <table class="table card-table ">
+                    <tbody>
+                    <tr>
+                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#f2574c">
+                                <div class="chart-circle-value fs"><span class="fas fa-user-tie"></span></div>
+                            </div></td>
+                        <td class="mt-6 font-weight-bold">8.9
+                            <div class="progress progress-xs mt-1">
+                                <div class="progress-bar bg-red w-90"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.1.jpeg"></div>
+        </div>
+        <div class="card card-aside">
+            <div class="card-body p-3 ">
+                <h4 class="card-title mb-1">Sohrab samie</h4>
+                <div class="text-muted mb-3">Best September Designer</div>
+                <table class="table card-table ">
+                    <tbody>
+                    <tr>
+                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#45aaf2">
+                                <div class="chart-circle-value fs"><span class="fas fa-palette"></span></div>
+                            </div></td>
+                        <td class="mt-6 font-weight-bold">8.3
+                            <div class="progress progress-xs mt-1">
+                                <div class="progress-bar bg-info w-80"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.2.jpeg"></div>
+        </div>
+        <div class="card card-aside">
+            <div class="card-body p-3 ">
+                <h4 class="card-title mb-1">Sara Jabari</h4>
+                <div class="text-muted mb-3">Best September Cameraman</div>
+                <table class="table card-table ">
+                    <tbody>
+                    <tr>
+                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#5C6C7C">
+                                <div class="chart-circle-value fs"><span class="fas fa-film"></span></div>
+                            </div></td>
+                        <td class="mt-6 font-weight-bold">9.2
+                            <div class="progress progress-xs mt-1">
+                                <div class="progress-bar bg-primary w-90"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.4.jpg"></div>
+        </div>
+        <div class="card card-aside">
+            <div class="card-body p-3 ">
+                <h4 class="card-title mb-1">Yasin Gholami</h4>
+                <div class="text-muted mb-3">Best September Editor</div>
+                <table class="table card-table ">
+                    <tbody>
+                    <tr>
+                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#689f38  ">
+                                <div class="chart-circle-value fs"><span class="fas fa-pencil-alt"></span></div>
+                            </div></td>
+                        <td class="mt-6 font-weight-bold">9.1
+                            <div class="progress progress-xs mt-1">
+                                <div class="progress-bar bg-green-dark w-90"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.3.jpg"></div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Recent Activity</h3>
+            </div>
+            <div class="card-body">
+                <div class="activity">
+                    <img src="../assets/images/photos/pro18.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Akram Khoshpoosh</b> Add a new projects <b> <br>Project kick off</b></p>
+                            <small class="text-info">30 mins ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro10.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b>Design New Films</b></p>
+                            <small class="text-danger">1 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro8.jpg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Jasem Jabari</b> Add a new projects <b>Upload Modified Photos</b></p>
+                            <small class="text-warning">3 days ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pro11.jpg" alt="" class="img-activity">
+                    <div class="time-activity mb-0">
+                        <div class="item-activity mb-0">
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number 6</b></p>
+                            <small class="text-success">5 days ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title font-weight-bold">Efficiency Per Month</h4>
+            </div>
+            <div class="card-body">
+                <div id="highchart7"></div>
+                <button id="plain" class="btn btn-primary btn-sm">Plain</button>
+                <button id="inverted" class="btn btn-primary btn-sm">Inverted</button>
+                <button id="polar" class="btn btn-primary btn-sm">Polar</button>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -1304,3 +1667,36 @@
         </div>
     </div>
 </div>
+
+<?php
+$scripts = [
+    '/assets/plugins/peitychart/jquery.peity.min.js',
+    '/assets/js/apexcharts.js',
+    '/assets/plugins/chart/chart.bundle.js',
+    '/assets/plugins/chart/utils.js',
+    '/assets/plugins/input-mask/jquery.mask.min.js',
+    '/assets/plugins/counters/counterup.min.js',
+    '/assets/plugins/counters/waypoints.min.js',
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/js/custom.js',
+    '/assets/js/index3.js',
+    'http://maps.google.com/maps/api/js?key=AIzaSyAykAdIIsNMu0V2wyGOMQcguo8zKngWlyM',
+    '/assets/plugins/maps-google/jquery.googlemap.js',
+    '/assets/plugins/maps-google/map.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
+    '/assets/plugins/jvectormap/gdp-data.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js',
+    '/assets/js/jvectormap.js',
+    '/assets/plugins/highcharts/highcharts.js',
+    '/assets/plugins/highcharts/highcharts-3d.js',
+    '/assets/plugins/highcharts/exporting.js',
+    '/assets/plugins/highcharts/export-data.js',
+    '/assets/plugins/highcharts/histogram-bellcurve.js',
+    '/assets/js/highcharts.js',
+];
+?>

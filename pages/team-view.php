@@ -158,140 +158,201 @@
                         <thead>
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Name</th>
-                            <th class="wd-15p border-bottom-0 text-center">Leader</th>
-                            <th class="wd-10p border-bottom-0 text-center">Num Of Members</th>
-                            <th class="wd-10p border-bottom-0 text-center">Projects</th>
-                            <th class="wd-15p border-bottom-0 text-center">Branch</th>
-                            <th class="wd-15p border-bottom-0 text-center">Efficiency</th>
-                            <th class="wd-15p border-bottom-0 text-center">Status</th>
+                            <th class="wd-15p border-bottom-0 text-center">Owner</th>
+                            <th class="wd-10p border-bottom-0 text-center">Hold Date</th>
+                            <th class="wd-10p border-bottom-0 text-center">Tags</th>
+                            <th class="wd-15p border-bottom-0 text-center">Project Leader</th>
+                            <th class="wd-15p border-bottom-0 text-center">Product Owner</th>
+                            <th class="wd-25p border-bottom-0 text-center">Current milestone</th>
+                            <th class="wd-20p border-bottom-0 text-center">Branch</th>
+                            <th class="wd-25p border-bottom-0 text-center">Progress</th>
+                            <th class="wd-25p border-bottom-0 text-center">Status</th>
                             <th class="border-bottom-0 text-center">Actions</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td class="text-center">Ajdar</td>
+                            <td class="text-center">Portrait</td>
                             <td class="text-center">Shamim Talaie</td>
-                            <td class="text-center">16</td>
-                            <td class="text-center">4</td>
-                            <td class="text-center">Taleghani</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-30 font-weight-bold ">55%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Reserved</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Rad</td>
-                            <td class="text-center">Safura Hajian</td>
-                            <td class="text-center">29</td>
-                            <td class="text-center">5</td>
-                            <td class="text-center">Velenjak</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-30 font-weight-bold ">60%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Reserved</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Tondar</td>
-                            <td class="text-center">Abbas Rostami</td>
-                            <td class="text-center">9</td>
-                            <td class="text-center">2</td>
-                            <td class="text-center">Taleghani</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-90 font-weight-bold ">90%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Reserved</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Shahin</td>
-                            <td class="text-center">Shapoor Banaie</td>
-                            <td class="text-center">21</td>
-                            <td class="text-center">2</td>
-                            <td class="text-center">Saadi</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">Reserved</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Oghab</td>
-                            <td class="text-center">Akram Mokaram</td>
-                            <td class="text-center">17</td>
-                            <td class="text-center">3</td>
+                            <td class="text-center">12 February 2020</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Azam Omidi</td>
+                            <td class="text-center">3 out of 10</td>
                             <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-60 font-weight-bold ">60%
+                                    <div class="progress-bar bg-success w-95 font-weight-bold ">95%
                                     </div>
                                 </div>
                             </td>
-                            <td class="text-center">Ready for project</td>
+                            <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Saeghe</td>
-                            <td class="text-center">Zabih Neshat</td>
-                            <td class="text-center">33</td>
-                            <td class="text-center">9</td>
-                            <td class="text-center">Saad Abad</td>
+                            <td class="text-center">Birthday</td>
+                            <td class="text-center">Safura Hajian</td>
+                            <td class="text-center">29 June 2020</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Pooneh Saber</td>
+                            <td class="text-center">2 out of 15</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-90 font-weight-bold ">90%
+                                    <div class="progress-bar bg-warning w-35 font-weight-bold ">35%
                                     </div>
                                 </div>
                             </td>
-                            <td class="text-center">Ready for project</td>
+                            <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-center">Tondar</td>
+                            <td class="text-center">Wedding</td>
+                            <td class="text-center">Abbas Rostami</td>
+                            <td class="text-center">12 December 2019</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ebrahim Nadim</td>
+                            <td class="text-center">Zahra Soleimani</td>
+                            <td class="text-center">6 out of 9</td>
+                            <td class="text-center">Valiasr</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-40 font-weight-bold ">40%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Wedding</td>
+                            <td class="text-center">Shapoor Banaie</td>
+                            <td class="text-center">22 March 2019</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ebrahim Nadim</td>
+                            <td class="text-center">Shiva Shahed</td>
+                            <td class="text-center">14 out of 14</td>
+                            <td class="text-center">Khaghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-red w-15 font-weight-bold ">15%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Completed</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Engagement</td>
+                            <td class="text-center">Akram Mokaram</td>
+                            <td class="text-center">06 May 2019</td>
+                            <td class="text-center">wedding</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Homa Roosta</td>
+                            <td class="text-center">9 out of 9</td>
+                            <td class="text-center">Khaghani</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-70 font-weight-bold ">70%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Completed</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Maternity</td>
+                            <td class="text-center">Zabih Neshat</td>
+                            <td class="text-center">17 April 2019</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Ali Hashemi</td>
+                            <td class="text-center">Saghar Salami</td>
+                            <td class="text-center">3 out of 21</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-success w-85 font-weight-bold ">85%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">On going</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Newborn</td>
                             <td class="text-center">Saber Abar</td>
-                            <td class="text-center">12</td>
-                            <td class="text-center">3</td>
-                            <td class="text-center">Saad Abad</td>
+                            <td class="text-center">10 July 2019</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Neda Soltan</td>
+                            <td class="text-center">Donya Kazemi</td>
+                            <td class="text-center">9 out of 13</td>
+                            <td class="text-center">valiasr</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
                                     <div class="progress-bar bg-red w-30 font-weight-bold ">30%
                                     </div>
                                 </div>
                             </td>
-                            <td class="text-center">Ready for project</td>
+                            <td class="text-center">Pending</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/team-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Family</td>
+                            <td class="text-center">Soosan Moharami</td>
+                            <td class="text-center">27 October 2019</td>
+                            <td class="text-center">formality</td>
+                            <td class="text-center">Neda Soltan</td>
+                            <td class="text-center">Taha Shafa</td>
+                            <td class="text-center">5 out of 15</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="progress progress-md mb-3">
+                                    <div class="progress-bar bg-warning w-65 font-weight-bold ">65%
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center">Pending</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
