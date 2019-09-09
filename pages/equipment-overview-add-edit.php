@@ -215,7 +215,8 @@
                                                             data-toggle="tab">Basic Info</a></li>
                                             <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Origin</a>
                                             </li>
-                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Size</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Size</a>
+                                            </li>
                                             <li><a href="#tab4-4" class="font-weight-bold" data-toggle="tab">Safety
                                                     Requirement</a></li>
                                         </ul>
@@ -272,21 +273,22 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="purchaseDate">Purchase Date :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                        <div class="form-group clearfix">
+                                                            <div class="row ">
+                                                                <div class="col-lg-3">
+                                                                    <label class="control-label form-label font-weight-bold"">Purchase
+                                                                    Date :</label>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">
+                                                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                            </div>
                                                                         </div>
+                                                                        <input class="form-control required"
+                                                                               name="purchaseDate" type="date">
                                                                     </div>
-                                                                    <input class="form-control fc-datepicker"
-                                                                           id="StartDate" placeholder="MM/DD/YYYY"
-                                                                           type="text">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -709,21 +711,22 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="purchaseDate">Purchase Date :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                        <div class="form-group clearfix">
+                                                            <div class="row ">
+                                                                <div class="col-lg-3">
+                                                                    <label class="control-label form-label font-weight-bold"">Purchase
+                                                                    Date :</label>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">
+                                                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                            </div>
                                                                         </div>
+                                                                        <input class="form-control required"
+                                                                               name="purchaseDate" type="date">
                                                                     </div>
-                                                                    <input class="form-control fc-datepicker"
-                                                                           id="StartDate" placeholder="MM/DD/YYYY"
-                                                                           type="text">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1067,3 +1070,14 @@
         </div>
     </div>
 </div>
+
+
+<?php
+$scripts = [
+    '/assets/plugins/date-picker/spectrum.js',
+    '/assets/plugins/date-picker/jquery-ui.js',
+    '/assets/plugins/input-mask/jquery.maskedinput.js',
+    '/assets/plugins/time-picker/jquery.timepicker.js',
+    '/assets/plugins/time-picker/toggles.min.js',
+];
+?>
