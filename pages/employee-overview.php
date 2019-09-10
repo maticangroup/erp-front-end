@@ -276,6 +276,72 @@
     </div>
 </div>
 <div class="row">
+    <div class="col-12">
+        <div class="card overflow-hidden">
+            <div class="">
+                <div class="row no-gutters">
+                    <div class="col-xl-3 col-lg-6 col-md-12 border-right">
+                        <div class="card-body pb-0">
+                            <div class="float-right">
+                                <span class="mini-stat-icon bg-purple-dark"><i class="fas fa-briefcase"></i></span>
+                            </div>
+                            <div class="dash3">
+                                <h5 class="text-muted">Total Work</h5>
+                                <h4 class="counter text-purple font-weight-extrabold">7920</h4><h6 >hours</h6>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper chart-wraper-absolute">
+                            <canvas id="AreaChart2" class="chart-dropshadow"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12 border-right relative">
+                        <div class="card-body pb-0">
+                            <div class="float-right">
+                                <span class="mini-stat-icon bg-red"><i class="fas fa-times"></i></span>
+                            </div>
+                            <div class="dash3">
+                                <h5 class="text-muted">Lost Work</h5>
+                                <h4 class="counter text-red font-weight-extrabold">2135</h4><h6 >hours</h6>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper chart-wraper-absolute">
+                            <canvas id="AreaChart3" class="chart-dropshadow"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12 border-right">
+                        <div class="card-body pb-0">
+                            <div class="float-right">
+                                <span class="mini-stat-icon bg-success"><i class="fas fa-check"></i></span>
+                            </div>
+                            <div class="dash3">
+                                <h5 class="text-muted">Plan Work</h5>
+                                <h4 class="counter text-green font-weight-extrabold">5785</h4><h6 >hours</h6>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper chart-wraper-absolute">
+                            <canvas id="AreaChart4" class="chart-dropshadow"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12 border-right">
+                        <div class="card-body pb-0">
+                            <div class="float-right">
+                                <span class="mini-stat-icon bg-info"><i class="fas fa-dollar-sign"></i></span>
+                            </div>
+                            <div class="dash3">
+                                <h5 class="text-muted">Total Salary</h5>
+                                <h4 class="counter text-info font-weight-extrabold">96,500,000</h4><h6 >Tomans</h6>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper chart-wraper-absolute">
+                            <canvas id="AreaChart5" class="chart-dropshadow"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="col-xl-8 col-lg-12 col-md-12">
         <div class="card overflow-hidden">
             <div class="card-header">
@@ -1680,7 +1746,6 @@ $scripts = [
     '/assets/plugins/accordion/accordion.min.js',
     '/assets/plugins/accordion/accor.js',
     '/assets/js/custom.js',
-    '/assets/js/index3.js',
     'http://maps.google.com/maps/api/js?key=AIzaSyAykAdIIsNMu0V2wyGOMQcguo8zKngWlyM',
     '/assets/plugins/maps-google/jquery.googlemap.js',
     '/assets/plugins/maps-google/map.js',
@@ -1698,5 +1763,7 @@ $scripts = [
     '/assets/plugins/highcharts/export-data.js',
     '/assets/plugins/highcharts/histogram-bellcurve.js',
     '/assets/js/highcharts.js',
+    '/assets/js/main.js',
+    '/assets/js/index3.js',
 ];
 ?>
