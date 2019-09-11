@@ -21,7 +21,7 @@
                     <h2 class=" mb-0">899</h2>
                 </div>
                 <div class="float-right">
-                    <span class="mini-stat-icon bg-info"><i class="fas fa-users "></i></span>
+                    <span class="mini-stat-icon bg-primary"><i class="fas fa-users "></i></span>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
                     <h2 class=" mb-0">354</h2>
                 </div>
                 <div class="float-right">
-                    <span class="mini-stat-icon bg-danger"><i class="fas fa-male"></i></span>
+                    <span class="mini-stat-icon bg-primary"><i class="fas fa-male"></i></span>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                     <h2 class=" mb-0">354</h2>
                 </div>
                 <div class="float-right">
-                    <span class="mini-stat-icon bg-warning"><i class="fas fa-female"></i></span>
+                    <span class="mini-stat-icon bg-primary"><i class="fas fa-female"></i></span>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                     <h2 class="mb-0">191</h2>
                 </div>
                 <div class="float-right">
-                    <span class="mini-stat-icon bg-success"><i class="fas fa-user-friends"></i></span>
+                    <span class="mini-stat-icon bg-primary"><i class="fas fa-user-friends"></i></span>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Name</th>
                             <th class="wd-15p border-bottom-0 text-center">Family</th>
@@ -80,7 +80,8 @@
                             <th class="wd-10p border-bottom-0 text-center">Birthday</th>
                             <th class="wd-15p border-bottom-0 text-center">Mobile number</th>
                             <th class="wd-15p border-bottom-0 text-center">Static phone</th>
-                            <th class="wd-25p border-bottom-0 text-center">Email</th>
+                            <th class="wd-25p border-bottom-0 text-center">City</th>
+                            <th class="wd-25p border-bottom-0 text-center">Branch</th>
                             <th class="wd-20p border-bottom-0 text-center">Grade</th>
                             <th class="border-bottom-0 text-center">Actions</th>
                         </tr>
@@ -93,7 +94,8 @@
                             <td class="text-center">21/6/1368</td>
                             <td class="text-center">+98 933 944 9756</td>
                             <td class="text-center">021 66706689</td>
-                            <td class="text-center">mohsenafshani@gmail.com</td>
+                            <td class="text-center">Tehran</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-warning"></i></label>
@@ -118,7 +120,8 @@
                             <td class="text-center">12/6/1379</td>
                             <td class="text-center">+98 912 944 9756</td>
                             <td class="text-center">021 11706689</td>
-                            <td class="text-center">minanoori@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-danger"></i></label>
@@ -143,13 +146,14 @@
                             <td class="text-center">7/1/1373</td>
                             <td class="text-center">+98 921 557 9885</td>
                             <td class="text-center">021 44696689</td>
-                            <td class="text-center">ehsanrezaian@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
                                     <label><i class="fa fa-star"></i></label>
                                 </div>
                             </td>
@@ -168,7 +172,8 @@
                             <td class="text-center">21/6/1368</td>
                             <td class="text-center">+98 933 944 9756</td>
                             <td class="text-center">021 66706689</td>
-                            <td class="text-center">mohsenafshani@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-warning"></i></label>
@@ -193,7 +198,8 @@
                             <td class="text-center">21/6/1368</td>
                             <td class="text-center">+98 933 944 9756</td>
                             <td class="text-center">021 66706689</td>
-                            <td class="text-center">mohsenafshani@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-warning"></i></label>
@@ -218,7 +224,8 @@
                             <td class="text-center">12/6/1379</td>
                             <td class="text-center">+98 912 944 9756</td>
                             <td class="text-center">021 11706689</td>
-                            <td class="text-center">minanoori@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-danger"></i></label>
@@ -243,13 +250,14 @@
                             <td class="text-center">7/1/1373</td>
                             <td class="text-center">+98 921 557 9885</td>
                             <td class="text-center">021 44696689</td>
-                            <td class="text-center">ehsanrezaian@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
                                     <label><i class="fa fa-star"></i></label>
                                 </div>
                             </td>
@@ -268,7 +276,8 @@
                             <td class="text-center">21/6/1368</td>
                             <td class="text-center">+98 933 944 9756</td>
                             <td class="text-center">021 66706689</td>
-                            <td class="text-center">mohsenafshani@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-warning"></i></label>
@@ -293,7 +302,8 @@
                             <td class="text-center">21/6/1368</td>
                             <td class="text-center">+98 933 944 9756</td>
                             <td class="text-center">021 66706689</td>
-                            <td class="text-center">mohsenafshani@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-warning"></i></label>
@@ -318,7 +328,8 @@
                             <td class="text-center">12/6/1379</td>
                             <td class="text-center">+98 912 944 9756</td>
                             <td class="text-center">021 11706689</td>
-                            <td class="text-center">minanoori@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-danger"></i></label>
@@ -343,13 +354,14 @@
                             <td class="text-center">7/1/1373</td>
                             <td class="text-center">+98 921 557 9885</td>
                             <td class="text-center">021 44696689</td>
-                            <td class="text-center">ehsanrezaian@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
-                                    <label><i class="fa fa-star text-primary"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
                                     <label><i class="fa fa-star"></i></label>
                                 </div>
                             </td>
@@ -368,7 +380,8 @@
                             <td class="text-center">21/6/1368</td>
                             <td class="text-center">+98 933 944 9756</td>
                             <td class="text-center">021 66706689</td>
-                            <td class="text-center">mohsenafshani@gmail.com</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
                             <td class="text-center">
                                 <div class="rating">
                                     <label><i class="fa fa-star text-warning"></i></label>
@@ -396,7 +409,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-6">
+    <div class="col-12">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Customers per months</h3>
@@ -405,6 +418,496 @@
                 <div id="morrisBar4" class="chartsh"></div>
             </div>
         </div>
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body p-3">
+                <div class="panel panel-primary">
+                    <div class="  ">
+                        <div class="tabs-menu">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                data-toggle="tab">Calls</a></li>
+                                <li class=""><a href="#tab2" class="font-weight-bold"
+                                                data-toggle="tab">Meetings</a></li>
+                                <li class=""><a href="#tab3" class="font-weight-bold"
+                                                data-toggle="tab">Transactions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel-body  tabs-menu-body border-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab1">
+                                <div class="table-responsive ">
+                                    <table id="example-1" class="table table-striped table-bordered nowrap">
+                                        <thead class="bg-primary">
+                                        <tr>
+                                            <th class="wd-15p border-bottom-0 text-center">Topic</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Call Method</th>
+                                            <th class="wd-25p border-bottom-0 text-center">From</th>
+                                            <th class="wd-25p border-bottom-0 text-center">To</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Date</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Time</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Result
+                                            </th>
+                                            <th class="wd-25p border-bottom-0 text-center">Status</th>
+                                            <th class="wd-25p border-bottom-0 text-center"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">Positive</td>
+                                            <td class="text-center">Done</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">-</td>
+                                            <td class="text-center">Waiting to be made</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-dot-circle"></i>Action</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">Positive</td>
+                                            <td class="text-center">Done</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">-</td>
+                                            <td class="text-center">Waiting to be made</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-dot-circle"></i>Action</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">Positive</td>
+                                            <td class="text-center">Done</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">-</td>
+                                            <td class="text-center">Waiting to be made</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-dot-circle"></i>Action</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">Positive</td>
+                                            <td class="text-center">Done</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#view-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Mr. Rezvanian's Wedding</td>
+                                            <td class="text-center">Telephone</td>
+                                            <td class="text-center">Ghobad abbasi</td>
+                                            <td class="text-center">Samir Nasir</td>
+                                            <td class="text-center">12/3/97</td>
+                                            <td class="text-center">11:04</td>
+                                            <td class="text-center">-</td>
+                                            <td class="text-center">Waiting to be made</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-dot-circle"></i>Action</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- table-wrapper -->
+                                </div>
+                                <!-- section-wrapper -->
+                            </div>
+                            <div class="tab-pane" id="tab2">
+                                <div class="table-responsive ">
+                                    <table id="example-3" class="table table-striped table-bordered">
+                                        <thead class="bg-primary">
+                                        <tr>
+                                            <th class="wd-15p border-bottom-0 text-center">Title</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Type</th>
+                                            <th class="wd-10p border-bottom-0 text-center">Date</th>
+                                            <th class="wd-25p border-bottom-0 text-center">From time</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Duration Time</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Meeting Leader</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Place</th>
+                                            <th class="border-bottom-0 text-center">Status</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr class="text-center">
+                                            <td>Mr. Rezvanian's wedding</td>
+                                            <td>Client ordering advice</td>
+                                            <td>2/3/93</td>
+                                            <td>13:00</td>
+                                            <td>2 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Not Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Ahmadi's Formality</td>
+                                            <td>Client ordering advice</td>
+                                            <td>6/4/97</td>
+                                            <td>15:00</td>
+                                            <td>1 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Rezvanian's wedding</td>
+                                            <td>Client ordering advice</td>
+                                            <td>2/3/93</td>
+                                            <td>13:00</td>
+                                            <td>2 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Not Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Ahmadi's Formality</td>
+                                            <td>Client ordering advice</td>
+                                            <td>6/4/97</td>
+                                            <td>15:00</td>
+                                            <td>1 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Rezvanian's wedding</td>
+                                            <td>Client ordering advice</td>
+                                            <td>2/3/93</td>
+                                            <td>13:00</td>
+                                            <td>2 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Not Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Ahmadi's Formality</td>
+                                            <td>Client ordering advice</td>
+                                            <td>6/4/97</td>
+                                            <td>15:00</td>
+                                            <td>1 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Rezvanian's wedding</td>
+                                            <td>Client ordering advice</td>
+                                            <td>2/3/93</td>
+                                            <td>13:00</td>
+                                            <td>2 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Not Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <td>Mr. Ahmadi's Formality</td>
+                                            <td>Client ordering advice</td>
+                                            <td>6/4/97</td>
+                                            <td>15:00</td>
+                                            <td>1 Hours</td>
+                                            <td>Mr. Azimi</td>
+                                            <td>Tehran, Enqelab Square</td>
+                                            <td>Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/meeting-view"
+                                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                    View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a data-toggle="modal" data-target="#meeting-edit-modal"
+                                                   class="btn btn-primary btn-sm text-white"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                    <!-- table-wrapper -->
+                                </div>
+                                <!-- section-wrapper -->
+                            </div>
+                            <div class="tab-pane" id="tab3">
+                                <div class="table-responsive ">
+                                    <table id="example-4" class="table table-striped table-bordered nowrap">
+                                        <thead class="bg-primary">
+                                        <tr>
+                                            <th class="wd-15p border-bottom-0 text-center">Type</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Amount</th>
+                                            <th class="wd-10p border-bottom-0 text-center">Date</th>
+                                            <th class="wd-10p border-bottom-0 text-center">Time</th>
+                                            <th class="wd-10p border-bottom-0 text-center">Payment Request</th>
+                                            <th class="wd-15p border-bottom-0 text-center">From</th>
+                                            <th class="wd-20p border-bottom-0 text-center">To</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Branch</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Status</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">Withdraw</td>
+                                            <td class="text-center">1,200 $</td>
+                                            <td class="text-center">12 February 2020</td>
+                                            <td class="text-center">08:40 PM</td>
+                                            <td class="text-center">54654</td>
+                                            <td class="text-center">Somaieh Gholami</td>
+                                            <td class="text-center">Kosar Naiemi</td>
+                                            <td class="text-center">Shariati</td>
+                                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                    Print</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Withdraw</td>
+                                            <td class="text-center">3,400 $</td>
+                                            <td class="text-center">29 July 2020</td>
+                                            <td class="text-center">00:20 PM</td>
+                                            <td class="text-center">456456</td>
+                                            <td class="text-center">Omid Jahan</td>
+                                            <td class="text-center">Mahdi Alavi</td>
+                                            <td class="text-center">Valiasr</td>
+                                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                                            <td class="text-center">
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                    Print</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Deposit</td>
+                                            <td class="text-center">660 $</td>
+                                            <td class="text-center">08 February 2018</td>
+                                            <td class="text-center">05:35 PM</td>
+                                            <td class="text-center">456456</td>
+                                            <td class="text-center">Hafez Asadi</td>
+                                            <td class="text-center">Nasrin Maghami</td>
+                                            <td class="text-center">Velenjak</td>
+                                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                                            <td class="text-center">
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                    Print</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Withdraw</td>
+                                            <td class="text-center">4,000 $</td>
+                                            <td class="text-center">23 January 2015</td>
+                                            <td class="text-center">10:50 AM</td>
+                                            <td class="text-center">456456</td>
+                                            <td class="text-center">ُShahab Hoseini</td>
+                                            <td class="text-center">Shahla Arasteh</td>
+                                            <td class="text-center">Bazar</td>
+                                            <td class="text-center"><span class="status-icon bg-success"></span></td>
+                                            <td class="text-center">
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                    Print</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Deposit</td>
+                                            <td class="text-center"> 7,300 $</td>
+                                            <td class="text-center">27 January 2019</td>
+                                            <td class="text-center">06:55 AM</td>
+                                            <td class="text-center">456456</td>
+                                            <td class="text-center">Sami Yuosefi</td>
+                                            <td class="text-center">Nasir Bashir</td>
+                                            <td class="text-center">Valiasr</td>
+                                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                                            <td class="text-center">
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                    Print</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- table-wrapper -->
+                                </div>
+                                <!-- section-wrapper -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Recent Activity</h3>
@@ -531,492 +1034,6 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="card">
-        <div class="card-header">
-            <h3 class="card-title">Lists</h3>
-        </div>
-        <div class="card-body p-3">
-            <div class="panel panel-primary">
-                <div class="  ">
-                    <div class="tabs-menu">
-                        <!-- Tabs -->
-                        <ul class="nav panel-tabs">
-                            <li class=""><a href="#tab1" class="active font-weight-bold"
-                                            data-toggle="tab">Calls</a></li>
-                            <li class=""><a href="#tab2" class="font-weight-bold"
-                                            data-toggle="tab">Meetings</a></li>
-                            <li class=""><a href="#tab3" class="font-weight-bold"
-                                            data-toggle="tab">Transactions</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="panel-body  tabs-menu-body border-0">
-                    <div class="tab-content">
-                        <div class="tab-pane active " id="tab1">
-                            <div class="table-responsive ">
-                                <table id="example-1" class="table table-striped table-bordered nowrap">
-                                    <thead>
-                                    <tr>
-                                        <th class="wd-15p border-bottom-0 text-center">Topic</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Call Method</th>
-                                        <th class="wd-25p border-bottom-0 text-center">From</th>
-                                        <th class="wd-25p border-bottom-0 text-center">To</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Date</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Time</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Result
-                                        </th>
-                                        <th class="wd-25p border-bottom-0 text-center">Status</th>
-                                        <th class="wd-25p border-bottom-0 text-center"></th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">Positive</td>
-                                        <td class="text-center">Done</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">-</td>
-                                        <td class="text-center">Waiting to be made</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                        class="fas fa-dot-circle"></i>Action</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">Positive</td>
-                                        <td class="text-center">Done</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">-</td>
-                                        <td class="text-center">Waiting to be made</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                        class="fas fa-dot-circle"></i>Action</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">Positive</td>
-                                        <td class="text-center">Done</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">-</td>
-                                        <td class="text-center">Waiting to be made</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                        class="fas fa-dot-circle"></i>Action</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">Positive</td>
-                                        <td class="text-center">Done</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Mr. Rezvanian's Wedding</td>
-                                        <td class="text-center">Telephone</td>
-                                        <td class="text-center">Ghobad abbasi</td>
-                                        <td class="text-center">Samir Nasir</td>
-                                        <td class="text-center">12/3/97</td>
-                                        <td class="text-center">11:04</td>
-                                        <td class="text-center">-</td>
-                                        <td class="text-center">Waiting to be made</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                        class="fas fa-dot-circle"></i>Action</a>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                                <!-- table-wrapper -->
-                            </div>
-                            <!-- section-wrapper -->
-                        </div>
-                        <div class="tab-pane" id="tab2">
-                            <div class="table-responsive ">
-                                <table id="example-3" class="table table-striped table-bordered">
-                                    <thead>
-                                    <tr>
-                                        <th class="wd-15p border-bottom-0 text-center">Title</th>
-                                        <th class="wd-15p border-bottom-0 text-center">Type</th>
-                                        <th class="wd-10p border-bottom-0 text-center">Date</th>
-                                        <th class="wd-25p border-bottom-0 text-center">From time</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Duration Time</th>
-                                        <th class="wd-15p border-bottom-0 text-center">Meeting Leader</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Place</th>
-                                        <th class="border-bottom-0 text-center">Status</th>
-                                        <th></th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="text-center">
-                                        <td>Mr. Rezvanian's wedding</td>
-                                        <td>Client ordering advice</td>
-                                        <td>2/3/93</td>
-                                        <td>13:00</td>
-                                        <td>2 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Not Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Ahmadi's Formality</td>
-                                        <td>Client ordering advice</td>
-                                        <td>6/4/97</td>
-                                        <td>15:00</td>
-                                        <td>1 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Rezvanian's wedding</td>
-                                        <td>Client ordering advice</td>
-                                        <td>2/3/93</td>
-                                        <td>13:00</td>
-                                        <td>2 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Not Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Ahmadi's Formality</td>
-                                        <td>Client ordering advice</td>
-                                        <td>6/4/97</td>
-                                        <td>15:00</td>
-                                        <td>1 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Rezvanian's wedding</td>
-                                        <td>Client ordering advice</td>
-                                        <td>2/3/93</td>
-                                        <td>13:00</td>
-                                        <td>2 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Not Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Ahmadi's Formality</td>
-                                        <td>Client ordering advice</td>
-                                        <td>6/4/97</td>
-                                        <td>15:00</td>
-                                        <td>1 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Rezvanian's wedding</td>
-                                        <td>Client ordering advice</td>
-                                        <td>2/3/93</td>
-                                        <td>13:00</td>
-                                        <td>2 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Not Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <td>Mr. Ahmadi's Formality</td>
-                                        <td>Client ordering advice</td>
-                                        <td>6/4/97</td>
-                                        <td>15:00</td>
-                                        <td>1 Hours</td>
-                                        <td>Mr. Azimi</td>
-                                        <td>Tehran, Enqelab Square</td>
-                                        <td>Planned</td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="/meeting-view"
-                                               class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
-                                                View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a data-toggle="modal" data-target="#meeting-edit-modal"
-                                               class="btn btn-primary btn-sm text-white"><i
-                                                        class="fas fa-pen"></i> Edit</a>
-                                        </td>
-                                    </tr>
-
-
-                                    </tbody>
-                                </table>
-                                <!-- table-wrapper -->
-                            </div>
-                            <!-- section-wrapper -->
-                        </div>
-                        <div class="tab-pane" id="tab3">
-                            <div class="table-responsive ">
-                                <table id="example-4" class="table table-striped table-bordered nowrap">
-                                    <thead>
-                                    <tr>
-                                        <th class="wd-15p border-bottom-0 text-center">Type</th>
-                                        <th class="wd-15p border-bottom-0 text-center">Amount</th>
-                                        <th class="wd-10p border-bottom-0 text-center">Date</th>
-                                        <th class="wd-10p border-bottom-0 text-center">Time</th>
-                                        <th class="wd-10p border-bottom-0 text-center">Payment Request</th>
-                                        <th class="wd-15p border-bottom-0 text-center">From</th>
-                                        <th class="wd-20p border-bottom-0 text-center">To</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Branch</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Status</th>
-                                        <th class="wd-25p border-bottom-0 text-center">Actions</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="text-center">Withdraw</td>
-                                        <td class="text-center">1,200 $</td>
-                                        <td class="text-center">12 February 2020</td>
-                                        <td class="text-center">08:40 PM</td>
-                                        <td class="text-center">54654</td>
-                                        <td class="text-center">Somaieh Gholami</td>
-                                        <td class="text-center">Kosar Naiemi</td>
-                                        <td class="text-center">Shariati</td>
-                                        <td class="text-center"><span class="status-icon bg-success"></span></td>
-                                        <td class="text-center">
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
-                                                Print</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Withdraw</td>
-                                        <td class="text-center">3,400 $</td>
-                                        <td class="text-center">29 July 2020</td>
-                                        <td class="text-center">00:20 PM</td>
-                                        <td class="text-center">456456</td>
-                                        <td class="text-center">Omid Jahan</td>
-                                        <td class="text-center">Mahdi Alavi</td>
-                                        <td class="text-center">Valiasr</td>
-                                        <td class="text-center"><span class="status-icon bg-danger"></span></td>
-                                        <td class="text-center">
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
-                                                Print</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Deposit</td>
-                                        <td class="text-center">660 $</td>
-                                        <td class="text-center">08 February 2018</td>
-                                        <td class="text-center">05:35 PM</td>
-                                        <td class="text-center">456456</td>
-                                        <td class="text-center">Hafez Asadi</td>
-                                        <td class="text-center">Nasrin Maghami</td>
-                                        <td class="text-center">Velenjak</td>
-                                        <td class="text-center"><span class="status-icon bg-success"></span></td>
-                                        <td class="text-center">
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
-                                                Print</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Withdraw</td>
-                                        <td class="text-center">4,000 $</td>
-                                        <td class="text-center">23 January 2015</td>
-                                        <td class="text-center">10:50 AM</td>
-                                        <td class="text-center">456456</td>
-                                        <td class="text-center">ُShahab Hoseini</td>
-                                        <td class="text-center">Shahla Arasteh</td>
-                                        <td class="text-center">Bazar</td>
-                                        <td class="text-center"><span class="status-icon bg-success"></span></td>
-                                        <td class="text-center">
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
-                                                Print</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center">Deposit</td>
-                                        <td class="text-center"> 7,300 $</td>
-                                        <td class="text-center">27 January 2019</td>
-                                        <td class="text-center">06:55 AM</td>
-                                        <td class="text-center">456456</td>
-                                        <td class="text-center">Sami Yuosefi</td>
-                                        <td class="text-center">Nasir Bashir</td>
-                                        <td class="text-center">Valiasr</td>
-                                        <td class="text-center"><span class="status-icon bg-danger"></span></td>
-                                        <td class="text-center">
-                                            <a href="javascript:void(0)" data-toggle="modal"
-                                               data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                        class="fas fa-eye"></i> View</a>
-                                            <a class="icon" href="javascript:void(0)"></a>
-                                            <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
-                                                Print</a>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                                <!-- table-wrapper -->
-                            </div>
-                            <!-- section-wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <!-- Message Modal -->
 <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1109,7 +1126,7 @@
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
 
-                                                        <select class="form-control custom-select"
+                                                        <select class="form-control "
                                                                 data-placeholder="">
                                                             <option value="1">English</option>
                                                             <option value="2">Persian</option>
@@ -1128,7 +1145,7 @@
                                                         <div class="row gutters-xs">
                                                             <div class="col-5">
                                                                 <select name="user[month]"
-                                                                        class="form-control custom-select">
+                                                                        class="form-control ">
                                                                     <option value="">Month</option>
                                                                     <option value="1">January</option>
                                                                     <option value="2">February</option>
@@ -1146,7 +1163,7 @@
                                                             </div>
                                                             <div class="col-3">
                                                                 <select name="user[day]"
-                                                                        class="form-control custom-select">
+                                                                        class="form-control ">
                                                                     <option value="">Day</option>
                                                                     <option value="1">1</option>
                                                                     <option value="2">2</option>
@@ -1183,7 +1200,7 @@
                                                             </div>
                                                             <div class="col-4">
                                                                 <select name="user[year]"
-                                                                        class="form-control custom-select">
+                                                                        class="form-control ">
                                                                     <option value="">Year</option>
                                                                     <option value="2014">2014</option>
                                                                     <option value="2013">2013</option>
@@ -1407,7 +1424,7 @@
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
 
-                                                        <select class="form-control custom-select"
+                                                        <select class="form-control "
                                                                 data-placeholder="">
                                                             <option value="1">Advertisement</option>
                                                             <option value="2">Website</option>
@@ -1440,7 +1457,7 @@
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
 
-                                                        <select class="form-control custom-select"
+                                                        <select class="form-control "
                                                                 data-placeholder="">
                                                             <option value="1">Ehsan Rezvanian</option>
                                                             <option value="2">Hossein Azimi</option>
@@ -1558,7 +1575,7 @@
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
 
-                                                        <select class="form-control custom-select"
+                                                        <select class="form-control "
                                                                 data-placeholder="">
                                                             <option value="1">English</option>
                                                             <option value="2">Persian</option>
@@ -1577,7 +1594,7 @@
                                                         <div class="row gutters-xs">
                                                             <div class="col-5">
                                                                 <select name="user[month]"
-                                                                        class="form-control custom-select">
+                                                                        class="form-control ">
                                                                     <option value="">Month</option>
                                                                     <option value="1">January</option>
                                                                     <option value="2">February</option>
@@ -1595,7 +1612,7 @@
                                                             </div>
                                                             <div class="col-3">
                                                                 <select name="user[day]"
-                                                                        class="form-control custom-select">
+                                                                        class="form-control ">
                                                                     <option value="">Day</option>
                                                                     <option value="1">1</option>
                                                                     <option value="2">2</option>
@@ -1632,7 +1649,7 @@
                                                             </div>
                                                             <div class="col-4">
                                                                 <select name="user[year]"
-                                                                        class="form-control custom-select">
+                                                                        class="form-control ">
                                                                     <option value="">Year</option>
                                                                     <option value="2014">2014</option>
                                                                     <option value="2013">2013</option>
@@ -1856,7 +1873,7 @@
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
 
-                                                        <select class="form-control custom-select"
+                                                        <select class="form-control "
                                                                 data-placeholder="">
                                                             <option value="1">Advertisement</option>
                                                             <option value="2">Website</option>
@@ -1889,7 +1906,7 @@
                                                 <div class="col-lg-9">
                                                     <div class="form-group ">
 
-                                                        <select class="form-control custom-select"
+                                                        <select class="form-control "
                                                                 data-placeholder="">
                                                             <option value="1">Ehsan Rezvanian</option>
                                                             <option value="2">Hossein Azimi</option>
@@ -1918,9 +1935,6 @@
 </div>
 
 
-
-
-
 <!-- Message Modal -->
 <div class="modal fade bd-example-modal-xl" id="transaction-modal" tabindex="-1" role="dialog"
      aria-hidden="true">
@@ -1940,16 +1954,21 @@
                                 <table class="table card-table table-vcenter text-nowrap table-bordered">
                                     <thead class="border-top">
                                     <tr>
-                                        <td colspan="3" class=" text-center font-weight-bold bg-primary"><strong class="font-weight-bold">#Transaction Number :</strong> 167</td>
+                                        <td colspan="3" class=" text-center font-weight-bold bg-primary"><strong
+                                                    class="font-weight-bold">#Transaction Number :</strong> 167
+                                        </td>
                                         <td colspan="3">
-                                            <div class="border-bottom pb-2"><strong class="font-weight-bold">Date :</strong> 25 December 2019 <br></div>
-                                            <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49 AM</div>
+                                            <div class="border-bottom pb-2"><strong class="font-weight-bold">Date
+                                                    :</strong> 25 December 2019 <br></div>
+                                            <div class="pt-2"><strong class="font-weight-bold">Time :</strong> 09:49 AM
+                                            </div>
                                         </td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td colspan="4"><strong class="font-weight-bold">For :</strong>Monthly Salary</td>
+                                        <td colspan="4"><strong class="font-weight-bold">For :</strong>Monthly Salary
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td colspan="4"><strong class="font-weight-bold">Type :</strong>Withdraw</td>
@@ -2443,7 +2462,7 @@
                                                                     </div>
                                                                     <div class="col-4">
                                                                         <select name="user[day]"
-                                                                                class="form-control custom-select">
+                                                                                class="form-control ">
                                                                             <option value="1">Minutes</option>
                                                                             <option value="2">Hour</option>
                                                                             <option value="3">Day</option>
@@ -2451,7 +2470,7 @@
                                                                     </div>
                                                                     <div class="col-3">
                                                                         <select name="user[year]"
-                                                                                class="form-control custom-select">
+                                                                                class="form-control ">
                                                                             <option value="15">15</option>
                                                                             <option value="30">30</option>
                                                                             <option value="45">45</option>
@@ -2464,7 +2483,10 @@
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4 mt-2 mb-3">
-                                                                        <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
+                                                                        <button type="button"
+                                                                                class="btn-pill btn-outline-secondary mr-auto">
+                                                                            Add Notification
+                                                                        </button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2483,7 +2505,9 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-3 ">
-                                <div class="card border-success text-center font-weight-bold text-muted">Meeting leader</div>
+                                <div class="card border-success text-center font-weight-bold text-muted">Meeting
+                                    leader
+                                </div>
                             </div>
                             <div class="col-3 ">
                                 <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
@@ -2499,7 +2523,8 @@
                                     <div class="card-body text-center pt-3 ">
                                         <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                  data-image-src="../assets/images/photos/pro10.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                         </a>
@@ -2638,6 +2663,7 @@
 
 <?php
 $scripts = [
+    '/assets/js/morris.js',
     '/assets/plugins/morris/morris.min.js',
     '/assets/plugins/morris/raphael.min.js',
     '/assets/plugins/chartist/chartist.js',
