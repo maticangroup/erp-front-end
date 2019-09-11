@@ -107,9 +107,9 @@
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -129,9 +129,9 @@
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -151,9 +151,9 @@
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -173,9 +173,9 @@
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -195,9 +195,9 @@
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -217,9 +217,9 @@
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -239,9 +239,9 @@
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -261,9 +261,9 @@
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Update</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
@@ -1095,7 +1095,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">Edit Project</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Employee</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

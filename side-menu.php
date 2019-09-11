@@ -67,7 +67,6 @@
             'drop_down_items' => [
                 ['url' => '/customers', 'title' => 'Customet'],
                 ['url' => '/customers-group', 'title' => 'Customer Group'],
-                ['url' => '/vendors', 'title' => 'Vendors'],
             ]
         ],
         [
@@ -96,6 +95,7 @@
             'title' => 'Companies',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
+                ['url' => '/vendor-overview-add-edit', 'title' => 'Vendors'],
             ]
         ],
         [
@@ -128,7 +128,7 @@
             'title' => 'HR',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
-                ['url' => '/team-overview', 'title' => 'Team'],
+                ['url' => '/team-overview-add-edit', 'title' => 'Team'],
                 ['url' => '/employee-overview', 'title' => 'Employees'],
                 ['url' => '/expertises', 'title' => 'Expertises'],
                 ['url' => '/mentalities', 'title' => 'Mentalities'],
