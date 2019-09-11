@@ -16,11 +16,11 @@
 
 
 <div class="row">
-    <div class="col-xl-3 col-lg-6 col-md-6">
+    <div class="col-xl-4 col-lg-8 col-md-12">
         <div class="card ">
             <div class="card-body text-center pt-3 ">
                 <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro6.jpg">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro7.jpg">
                         <span class="avatar-status bg-red"></span>
                     </span>
                 </a>
@@ -36,80 +36,8 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Account balance</p>
-                    <h3>750,000 Toman</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Total Projects</p>
-                    <h3>43</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-up text-success mr-1"></i> 3% increase last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Total Task</p>
-                    <h3>459 (1450 hours)</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-up text-success mr-1"></i> 6% increase last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Accepted by TQM</p>
-                    <h3>376 task</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 0.5% decrease last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Rejected by TQM</p>
-                    <h3>83 task</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-up text-success mr-1"></i> 0.5% increase last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Meeting</p>
-                    <h3>38 days</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Time off</p>
-                    <h3>$75,634,578</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease last year</p>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="dash-widget text-center">
-                    <p>Total salary</p>
-                    <h3>45.000.000 Tomans</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease last year</p>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="col-xl-9 col-lg-12 col-md-12">
+    <div class="col-xl-8 col-lg-12 col-md-12">
         <div class="mini-stat clearfix bg-primary rounded">
             <span class="mini-stat-icon"><i class="fas fa-brain text-primary"></i></span>
             <div class="mini-stat-info text-white">
@@ -138,13 +66,66 @@
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Awareness of body language</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Negotiation</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Persuade others</a>
-                    <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Patience with others</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Flexibility</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-xl-4 col-lg-12 col-md-12 ">
+        <div class="card">
+            <div class="card-body">
+                <div class="card-box tilebox-one">
+                    <i class="fas fa-cubes text-primary float-right" aria-hidden="true"></i>
+                    <h6 class="text-drak text-uppercase mt-0">Total Projects</h6>
+                    <h3 class="m-b-20">44</h3>
+                    <span class="badge badge-success"> +1% </span> <span class="text-muted">From previous period</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="card-box tilebox-one">
+                    <i class="fas fa-briefcase text-primary float-right" aria-hidden="true"></i>
+                    <h6 class="text-drak text-uppercase mt-0">Total Tasks</h6>
+                    <h3 class="m-b-20">459</h3>
+                    <span class="badge badge-success"> +2.5% </span> <span class="text-muted">From previous period</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="card bg-info text-white text-center ">
+                    <div class="card-body">
+                        <p class="mb-0 text-white-50 font-weight-bold">Accepted by TQM</p>
+                        <h2 class=" mb-0">376 task</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="card bg-red text-white text-center ">
+                    <div class="card-body">
+                        <p class="mb-0 text-white-50 font-weight-bold">Rejected by TQM</p>
+                        <h2 class=" mb-0">83 task</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Efficiency per month</h3>
+            </div>
+            <div class="card-body">
+                <div id="social" class="overflow-hidden chart-dropshadow"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-md-12 col-xl-12">
         <div class="card">
@@ -1358,6 +1339,124 @@
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Equipments</h3>
+            </div>
+            <div class="table-responsive rounded-bottom">
+                <table class="table card-table table-vcenter table-hover">
+                    <thead >
+                    <tr>
+                        <th></th>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Position</th>
+                        <th class="text-center">Salary</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="bg-pink-lightest">
+                        <th scope="row">1</th>
+                        <td class="text-center">Joan Powell</td>
+                        <td class="text-center">Associate Developer</td>
+                        <td class="text-center">$450,870</td>
+                    </tr>
+                    <tr class="bg-lime-lightest">
+                        <th scope="row">2</th>
+                        <td class="text-center">Gavin Gibson</td>
+                        <td class="text-center">Account manager</td>
+                        <td class="text-center">$230,540</td>
+                    </tr>
+                    <tr class="bg-blue-lighter">
+                        <th scope="row">3</th>
+                        <td class="text-center">Julian Kerr</td>
+                        <td class="text-center">Senior Javascript Developer</td>
+                        <td class="text-center">$55,300</td>
+                    </tr>
+                    <tr class="bg-yellow-lightest">
+                        <th scope="row">4</th>
+                        <td class="text-center">Cedric Kelly</td>
+                        <td class="text-center">Accountant</td>
+                        <td class="text-center">$234,100</td>
+                    </tr>
+                    <tr class="bg-gray-lightest ">
+                        <th scope="row">5</th>
+                        <td class="text-center">Samantha May</td>
+                        <td class="text-center">Junior Technical Author</td>
+                        <td class="text-center">$43,198</td>
+                    </tr>
+                    <tr class="bg-pink-lightest">
+                        <th scope="row">6</th>
+                        <td class="text-center">Joan Powell</td>
+                        <td class="text-center">Associate Developer</td>
+                        <td class="text-center">$450,870</td>
+                    </tr>
+                    <tr class="bg-lime-lightest">
+                        <th scope="row">7</th>
+                        <td class="text-center">Gavin Gibson</td>
+                        <td class="text-center">Account manager</td>
+                        <td class="text-center">$230,540</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- table-responsive -->
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-8 col-md-12">
+        <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="plan-card text-center">
+                            <i class="fas fa-comments plan-icon text-primary"></i>
+                            <h6 class="text-muted text-uppercase mt-2">Total Meetings</h6>
+                            <h3 class="mb-0">49</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="plan-card text-center">
+                            <i class="fas fa-bed plan-icon text-primary"></i>
+                            <h6 class="text-muted text-uppercase mt-2">Time off</h6>
+                            <h3 class="mb-0">38 d</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="plan-card text-center">
+                            <i class="fas fa-wallet plan-icon text-primary"></i>
+                            <h6 class="text-muted text-uppercase mt-2">Account balance</h6>
+                            <h3 class="mb-0">750,000 T</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="plan-card text-center">
+                            <i class="fas fa-dollar-sign plan-icon text-primary"></i>
+                            <h6 class="text-muted text-uppercase mt-2">Total salary</h6>
+                            <h3 class="mb-0">45,000,000 T</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 <div class="row">
     <div class="col-md-12 col-xl-12">
         <div class="card">
@@ -2023,6 +2122,18 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Locations</h3>
+            </div>
+            <div class="card-body">
+                <div id="world-map-markers" class="h-400"></div>
             </div>
         </div>
     </div>
@@ -3144,14 +3255,23 @@
 
 <?php
 $scripts = [
-    '/assets/plugins/highcharts/highcharts.js',
-    '/assets/plugins/highcharts/highcharts-3d.js',
-    '/assets/plugins/highcharts/exporting.js',
-    '/assets/plugins/highcharts/export-data.js',
-    '/assets/plugins/highcharts/histogram-bellcurve.js',
-    '/assets/js/highcharts.js',
+
     '/assets/plugins/accordion/accordion.min.js',
     '/assets/plugins/accordion/accor.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
+    '/assets/plugins/jvectormap/gdp-data.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js',
+    '/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js',
+    '/assets/js/jvectormap.js',
+    '/assets/plugins/peitychart/jquery.peity.min.js',
+    '/assets/plugins/othercharts/jquery.knob.js',
+    '/assets/plugins/othercharts/othercharts.js',
+    '/assets/js/apexcharts.js',
+    '/assets/plugins/chart/chart.bundle.js',
     '/assets/js/custom.js',
-];
+    '/assets/js/index5.js',
+    ];
 ?>

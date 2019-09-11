@@ -27,7 +27,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6 features">
         <div class="card feature">
             <div class="card-body text-center">
-                <h5>Phptographer</h5>
+                <h5>Photographer</h5>
                 <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
                     <i class="fas fa-camera-retro text-white"></i>
                 </div>
@@ -349,7 +349,6 @@
             </div>
             <div class="card-body">
                 <div id="chart" class="overflow-hidden chart-dropshadow"></div>
-
             </div>
         </div>
         <div class="card">
