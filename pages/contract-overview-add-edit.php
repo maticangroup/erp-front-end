@@ -2,21 +2,18 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Contract Overview</h4>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i
+                            class="fas  fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 </div>
 <!--page header end-->
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Contracts</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                            class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered">
@@ -45,18 +42,18 @@
                             <td class="text-center">2/3/93</td>
                             <td class="text-center">Teh, Enqelab Square</td>
                             <td class="text-center">65165</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -68,18 +65,18 @@
                             <td class="text-center">2/5/97</td>
                             <td class="text-center">Teh, Shariati</td>
                             <td class="text-center">98798</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -91,18 +88,18 @@
                             <td class="text-center">21/3/98</td>
                             <td class="text-center">Turkey , Istanbul</td>
                             <td class="text-center">32132</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -114,18 +111,18 @@
                             <td class="text-center">5/5/98</td>
                             <td class="text-center">Teh, Enqelab Square</td>
                             <td class="text-center">11591</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -137,18 +134,18 @@
                             <td class="text-center">6/5/97</td>
                             <td class="text-center">Qom</td>
                             <td class="text-center">25682</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -160,18 +157,18 @@
                             <td class="text-center">6/9/97</td>
                             <td class="text-center">Teh, Enqelab Square</td>
                             <td class="text-center">85213</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -183,18 +180,18 @@
                             <td class="text-center">5/6/94</td>
                             <td class="text-center">Teh, Shariati</td>
                             <td class="text-center">96651</td>
-                            <td class="text-center col-4">
+                            <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                        class="fas fa-eye"></i></a>
+                                            class="fas fa-eye"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-pen"></i></a>
+                                            class="fas fa-pen"></i></a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                        class="fas fa-print"></i></a>
+                                            class="fas fa-print"></i></a>
                             </td>
                         </tr>
                         </tbody>
@@ -217,92 +214,108 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Brand Name"
-                                           class="form-control-label mr-1 font-weight-bold">Title:
-                                    </label>
-                                    <input type="text" class="form-control" id="Brand Name" step="0">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class="">
+                                                <a href="#tab1" class="active font-weight-bold"
+                                                   data-toggle="tab">Basic Info</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type"
-                                           class="form-control-label mr-1 font-weight-bold">Deal:</label>
-                                    <select class="form-control" id="type">
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Branch"
-                                           class="form-control-label mr-1 font-weight-bold">Branch:</label>
-                                    <input type="text" class="form-control " id="Branch">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type"
-                                           class="form-control-label mr-1 font-weight-bold">Meeting:</label>
-                                    <select class="form-control" id="type">
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Capacity"
-                                           class="form-control-label mr-1 font-weight-bold">Owner:</label>
-                                    <input type="text" class="form-control " id="Capacity">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type"
-                                           class="form-control-label mr-1 font-weight-bold">Responsible
-                                        Person:</label>
-                                    <select class="form-control" id="type">
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Date"
-                                           class="form-control-label mr-1 font-weight-bold">Hold
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Title :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Branch
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Tehran , Shariati</option>
+                                                                    <option>Qom</option>
+                                                                    <option>Turkey</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Deal
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Mr. Rezvanian's birthday</option>
+                                                                    <option>deal 2</option>
+                                                                    <option>deal 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Owner
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Company</option>
+                                                                    <option>Customer</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">Hold Date :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <input class="form-control" id="Date" type="date">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -323,92 +336,108 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Brand Name"
-                                           class="form-control-label mr-1 font-weight-bold">Title:
-                                    </label>
-                                    <input type="text" class="form-control" id="Brand Name" step="0">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class="">
+                                                <a href="#tab1" class="active font-weight-bold"
+                                                   data-toggle="tab">Basic Info</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type"
-                                           class="form-control-label mr-1 font-weight-bold">Deal:</label>
-                                    <select class="form-control" id="type">
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Branch"
-                                           class="form-control-label mr-1 font-weight-bold">Branch:</label>
-                                    <input type="text" class="form-control " id="Branch">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type"
-                                           class="form-control-label mr-1 font-weight-bold">Meeting:</label>
-                                    <select class="form-control" id="type">
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Capacity"
-                                           class="form-control-label mr-1 font-weight-bold">Owner:</label>
-                                    <input type="text" class="form-control " id="Capacity">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type"
-                                           class="form-control-label mr-1 font-weight-bold">Responsible
-                                        Person:</label>
-                                    <select class="form-control" id="type">
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                        <option>........</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="Date"
-                                           class="form-control-label mr-1 font-weight-bold">Hold
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Title :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Branch
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Tehran , Shariati</option>
+                                                                    <option>Qom</option>
+                                                                    <option>Turkey</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Deal
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Mr. Rezvanian's birthday</option>
+                                                                    <option>deal 2</option>
+                                                                    <option>deal 3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Owner
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control">
+                                                                    <option>Company</option>
+                                                                    <option>Customer</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">Hold Date :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <input class="form-control" id="Date" type="date">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
