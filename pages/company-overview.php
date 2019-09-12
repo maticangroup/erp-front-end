@@ -2,7 +2,7 @@
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
-        <h4 class="page-title">Employee Overview</h4>
+        <h4 class="page-title">Company Overview</h4>
         <div class="row">
             <div class="col-12">
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
@@ -13,62 +13,53 @@
 <!--page header end-->
 
 <div class="row">
-    <div class="col-xl-2 col-lg-4 col-md-6 features">
-        <div class="card feature">
-            <div class="card-body text-center">
-                <h5>Cameraman</h5>
-                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
-                    <i class="fas fa-film text-white"></i>
+    <div class="col-xl-4 col-md-12">
+        <div class="our-services-wrapper card">
+            <div class="services-inner">
+                <div class="our-services-img">
+                    <div class="icon icon-shape bg-pink-dark rounded-circle text-white">
+                        <i class="fas fa-dollar-sign text-white"></i>
+                    </div>
                 </div>
-                <h2 class="counter">35</h2>
+                <div class="our-services-text">
+                    <h4>Income from companies</h4>
+                    <h5 class="text-muted">1,500,000,000 toman</h5>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-xl-2 col-lg-4 col-md-6 features">
-        <div class="card feature">
-            <div class="card-body text-center">
-                <h5>Photographer</h5>
-                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
-                    <i class="fas fa-camera-retro text-white"></i>
+    <div class="col-xl-4 col-md-12">
+        <div class="our-services-wrapper card">
+            <div class="services-inner c">
+                <div class="our-services-img">
+                    <div class="icon icon-shape bg-warning rounded-circle text-white">
+                        <i class="far fa-handshake text-white"></i>
+                    </div>
                 </div>
-                <h2 class="counter">68</h2>
+                <div class="our-services-text">
+                    <h4>Total deals from companies</h4>
+                    <h5 class="text-muted">186</h5>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-6 features">
-        <div class="card feature">
-            <div class="card-body text-center">
-                <h5>Total Employee</h5>
-                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
-                    <i class="fas fa-briefcase text-white"></i>
+    <div class="col-xl-4 col-md-12">
+        <div class="our-services-wrapper card">
+            <div class="services-inner">
+                <div class="our-services-img">
+                    <div class="icon icon-shape bg-blue-dark rounded-circle text-white">
+                        <i class="fas fa-check text-white"></i>
+                    </div>
                 </div>
-                <h2 class="counter">313</h2>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-2 col-lg-4 col-md-6 features">
-        <div class="card feature">
-            <div class="card-body text-center">
-                <h5>Editor</h5>
-                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
-                    <i class="fas fa-pencil-alt text-white"></i>
+                <div class="our-services-text">
+                    <h4>Success deals from companies</h4>
+                    <h5 class="text-muted">134</h5>
                 </div>
-                <h2 class="counter">29</h2>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-2 col-lg-4 col-md-6 features">
-        <div class="card feature">
-            <div class="card-body text-center">
-                <h5>Desiner</h5>
-                <div class="icon icon-shape bg-primary rounded-circle text-white mb-3">
-                    <i class="fas fa-palette text-white"></i>
-                </div>
-                <h2 class="counter">40</h2>
             </div>
         </div>
     </div>
 </div>
+
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
@@ -77,30 +68,28 @@
                     <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-center">Name</th>
-                            <th class="wd-15p border-bottom-0 text-center">Gender</th>
-                            <th class="wd-10p border-bottom-0 text-center">Role</th>
-                            <th class="wd-10p border-bottom-0 text-center">Unit</th>
-                            <th class="wd-20p border-bottom-0 text-center">Branch</th>
-                            <th class="wd-25p border-bottom-0 text-center">Internal Tel</th>
-                            <th class="wd-25p border-bottom-0 text-center">Mobile</th>
-                            <th class="wd-25p border-bottom-0 text-center">Efficiency</th>
+                            <th class="wd-15p border-bottom-0 text-center">Company name</th>
+                            <th class="wd-15p border-bottom-0 text-center">Type</th>
+                            <th class="wd-10p border-bottom-0 text-center">Responsible</th>
+                            <th class="wd-10p border-bottom-0 text-center">Tel</th>
+                            <th class="wd-20p border-bottom-0 text-center">Num of projects</th>
+                            <th class="wd-25p border-bottom-0 text-center">Place </th>
+                            <th class="wd-25p border-bottom-0 text-center">Rate</th>
                             <th class="wd-25p border-bottom-0 text-center">Status</th>
-                            <th class="border-bottom-0 text-center">Actions</th>
+                            <th class="border-bottom-0 text-center"></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
+                            <td class="text-center">Parvaz</td>
+                            <td class="text-center">Transferring</td>
                             <td class="text-center">Shamim Talaie</td>
-                            <td class="text-center">Female</td>
-                            <td class="text-center">Designer</td>
-                            <td class="text-center">Designing</td>
-                            <td class="text-center">Saad Abad</td>
                             <td class="text-center">1455445</td>
-                            <td class="text-center">09028845455</td>
+                            <td class="text-center">911</td>
+                            <td class="text-center">Karaj</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-success w-95 font-weight-bold ">95%
                                     </div>
                                 </div>
                             </td>
@@ -113,16 +102,15 @@
                             </td>
                         </tr>
                         <tr>
+                            <td class="text-center">Sam</td>
+                            <td class="text-center">Digital</td>
                             <td class="text-center">Safura Hajian</td>
-                            <td class="text-center">Female</td>
-                            <td class="text-center">Cameraman</td>
-                            <td class="text-center">Operation</td>
-                            <td class="text-center">Velenjak</td>
                             <td class="text-center">112548</td>
-                            <td class="text-center">09124558523</td>
+                            <td class="text-center">194</td>
+                            <td class="text-center">Janat</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-red w-35 font-weight-bold ">35%
                                     </div>
                                 </div>
                             </td>
@@ -135,13 +123,12 @@
                             </td>
                         </tr>
                         <tr>
+                            <td class="text-center">Fararo</td>
+                            <td class="text-center">Digital</td>
                             <td class="text-center">Abbas Rostami</td>
-                            <td class="text-center">Male</td>
-                            <td class="text-center">Photographer</td>
-                            <td class="text-center">Operation</td>
-                            <td class="text-center">Ferdosi</td>
                             <td class="text-center">1168855</td>
-                            <td class="text-center">09361557895</td>
+                            <td class="text-center">331</td>
+                            <td class="text-center">Sohrevardi</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
                                     <div class="progress-bar bg-success w-75 font-weight-bold ">75%
@@ -157,16 +144,15 @@
                             </td>
                         </tr>
                         <tr>
+                            <td class="text-center">Shafagh</td>
+                            <td class="text-center">Food</td>
                             <td class="text-center">Shapoor Banaie</td>
-                            <td class="text-center">Male</td>
-                            <td class="text-center">Receptionist</td>
-                            <td class="text-center">TQM</td>
-                            <td class="text-center">Ferdosi</td>
                             <td class="text-center">885468</td>
-                            <td class="text-center">09124478534</td>
+                            <td class="text-center">208</td>
+                            <td class="text-center">Tajrish</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-success w-65 font-weight-bold ">65%
                                     </div>
                                 </div>
                             </td>
@@ -179,13 +165,12 @@
                             </td>
                         </tr>
                         <tr>
+                            <td class="text-center">Beauty</td>
+                            <td class="text-center">Mezon</td>
                             <td class="text-center">Akram Mokaram</td>
-                            <td class="text-center">Female</td>
-                            <td class="text-center">Photo Designer</td>
-                            <td class="text-center">Designing</td>
-                            <td class="text-center">Shariati</td>
                             <td class="text-center">2269854</td>
-                            <td class="text-center">0914589898</td>
+                            <td class="text-center">519</td>
+                            <td class="text-center">Janat Abad</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
                                     <div class="progress-bar bg-success w-75 font-weight-bold ">75%
@@ -201,13 +186,12 @@
                             </td>
                         </tr>
                         <tr>
+                            <td class="text-center">First</td>
+                            <td class="text-center">Digital</td>
                             <td class="text-center">Zabih Neshat</td>
-                            <td class="text-center">Male</td>
-                            <td class="text-center">Film Designer</td>
-                            <td class="text-center">Designing</td>
-                            <td class="text-center">Velenjak</td>
                             <td class="text-center">1168954</td>
-                            <td class="text-center">09358876512</td>
+                            <td class="text-center">453</td>
+                            <td class="text-center">Saadat Abad</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
                                     <div class="progress-bar bg-success w-75 font-weight-bold ">75%
@@ -215,50 +199,6 @@
                                 </div>
                             </td>
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Saber Abar</td>
-                            <td class="text-center">Male</td>
-                            <td class="text-center">Quality Supervisor</td>
-                            <td class="text-center">TQM</td>
-                            <td class="text-center">Saad Abad</td>
-                            <td class="text-center">99458562</td>
-                            <td class="text-center">09121245698</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center"><span class="status-icon bg-danger"></span></td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">Soosan Moharami</td>
-                            <td class="text-center">Female</td>
-                            <td class="text-center">Quality Supervisor</td>
-                            <td class="text-center">TQM</td>
-                            <td class="text-center">Shariati</td>
-                            <td class="text-center">45988542</td>
-                            <td class="text-center">09144555652</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
@@ -275,331 +215,371 @@
         <!-- section-wrapper -->
     </div>
 </div>
+
 <div class="row">
-    <div class="col-12">
-        <div class="card overflow-hidden">
-            <div class="">
-                <div class="row no-gutters">
-                    <div class="col-xl-3 col-lg-6 col-md-12 border-right">
-                        <div class="card-body pb-0">
-                            <div class="float-right">
-                                <span class="mini-stat-icon bg-purple-dark"><i class="fas fa-briefcase"></i></span>
-                            </div>
-                            <div class="dash3">
-                                <h5 class="text-muted">Total Work</h5>
-                                <h4 class="counter text-purple font-weight-extrabold">7920</h4><h6 >hours</h6>
-                            </div>
-                        </div>
-                        <div class="chart-wrapper chart-wraper-absolute">
-                            <canvas id="AreaChart2" class="chart-dropshadow"></canvas>
+    <div class="col-xl-9 col-lg-12 col-md-12">
+        <div class="card box-widget widget-user">
+            <div class="widget-user-header bg-primary text-center pb-0" >
+                <h2 class="widget-user-username">Total Companies</h2>
+                <h3 class="widget-user-desc mt-3 mb-0 font-weight-bold">87 </h3>
+            </div>
+            <div class="box-footer pt-2">
+                <div class="row">
+                    <div class="col-sm-3 border-right">
+                        <div class="description-block">
+                            <h5 class="description-header text">38</h5><span class="text-muted">For wedding</span>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-12 border-right relative">
-                        <div class="card-body pb-0">
-                            <div class="float-right">
-                                <span class="mini-stat-icon bg-red"><i class="fas fa-times"></i></span>
-                            </div>
-                            <div class="dash3">
-                                <h5 class="text-muted">Lost Work</h5>
-                                <h4 class="counter text-red font-weight-extrabold">2135</h4><h6 >hours</h6>
-                            </div>
-                        </div>
-                        <div class="chart-wrapper chart-wraper-absolute">
-                            <canvas id="AreaChart3" class="chart-dropshadow"></canvas>
+                    <div class="col-sm-3 border-right">
+                        <div class="description-block">
+                            <h5 class="description-header">30</h5><span class="text-muted">For wedding reception</span>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-12 border-right">
-                        <div class="card-body pb-0">
-                            <div class="float-right">
-                                <span class="mini-stat-icon bg-success"><i class="fas fa-check"></i></span>
-                            </div>
-                            <div class="dash3">
-                                <h5 class="text-muted">Plan Work</h5>
-                                <h4 class="counter text-green font-weight-extrabold">5785</h4><h6 >hours</h6>
-                            </div>
-                        </div>
-                        <div class="chart-wrapper chart-wraper-absolute">
-                            <canvas id="AreaChart4" class="chart-dropshadow"></canvas>
+                    <div class="col-sm-3 border-right">
+                        <div class="description-block ">
+                            <h5 class="description-header">17  </h5><span class="text-muted">For formality</span>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-6 col-md-12 border-right">
-                        <div class="card-body pb-0">
-                            <div class="float-right">
-                                <span class="mini-stat-icon bg-info"><i class="fas fa-dollar-sign"></i></span>
-                            </div>
-                            <div class="dash3">
-                                <h5 class="text-muted">Total Salary</h5>
-                                <h4 class="counter text-info font-weight-extrabold">96,500,000</h4><h6 >Tomans</h6>
-                            </div>
-                        </div>
-                        <div class="chart-wrapper chart-wraper-absolute">
-                            <canvas id="AreaChart5" class="chart-dropshadow"></canvas>
+                    <div class="col-sm-3">
+                        <div class="description-block">
+                            <h5 class="description-header">2 </h5><span class="text-muted">Equipment suppliers</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xl-8 col-lg-12 col-md-12">
         <div class="card overflow-hidden">
             <div class="card-header">
-                <div class="card-title">Salary Per Month</div>
+                <h3 class="card-title font-weight-bold">Companies locations</h3>
             </div>
             <div class="card-body">
-                <div id="chart" class="overflow-hidden chart-dropshadow"></div>
+                <div id="world-map-markers" class="h-400"></div>
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
-                <div class="media ">
-                    <div class="media-left">
-                        <a href="#">
-                            <img class="media-object brround"
-                                 src="../assets/images/photos/pro11.jpg" alt="media1">
-                        </a>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Nasrin Maghami</h4>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object brround"
-                                         src="../assets/images/photos/pro9.jpg" alt="media1">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Abolfazl Naseh</h4>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                                eos qui ratione voluptatem sequi nesciunt
-                            </div>
-                        </div>
-                        <div class="media ">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object brround"
-                                         src="../assets/images/photos/pro18.jpg" alt="media1">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <div class="form-group">
-                            <textarea class="form-control" name="example-textarea-input" rows="3"
-                                      placeholder="text here.."></textarea>
-                                    <div class="row mt-3">
-                                        <div class="col-12 text-right">
-                                            <button class="btn btn-primary ">Reply</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card ">
             <div class="card-header">
-                <h4 class="card-title font-weight-bold">Latest time off requests</h4>
+                <h3 class="card-title font-weight-bold">
+                    Payment Request</h3>
             </div>
             <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table card-table table-vcenter text-nowrap ">
-                        <thead class="bg-primary ">
+                <div class="table-responsive ">
+                    <table id="example-6" class="table table-striped table-bordered nowrap">
+                        <thead>
                         <tr>
+                            <th class="wd-15p border-bottom-0 text-center">Serial</th>
+                            <th class="wd-15p border-bottom-0 text-center">Type</th>
+                            <th class="wd-15p border-bottom-0 text-center">Requester</th>
+                            <th class="wd-10p border-bottom-0 text-center">Date</th>
+                            <th class="wd-25p border-bottom-0 text-center">Total Price</th>
+                            <th class="wd-25p border-bottom-0 text-center">For</th>
+                            <th class="wd-25p border-bottom-0 text-center">From</th>
+                            <th class="wd-25p border-bottom-0 text-center">To</th>
+                            <th class="wd-25p border-bottom-0 text-center">Relation</th>
+                            <th class="wd-25p border-bottom-0 text-center">Invoice</th>
+                            <th class="border-bottom-0 text-center">Status</th>
                             <th></th>
-                            <th>Employee</th>
-                            <th class="text-center">Unit</th>
-                            <th class="text-center">Role</th>
-                            <th class="text-center">Type</th>
-                            <th class="text-center">From Date</th>
-                            <th class="text-center">To Date</th>
-                            <th class="text-center">Confirm Person</th>
-                            <th class="text-center">Confirmation Status</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>
-                                <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro9.jpg"></span>
-                                </div>
+                        <tr class="text-center">
+                            <td>9856</td>
+                            <td>Withdraw</td>
+                            <td>Mr. Azimi</td>
+                            <td>2/3/97</td>
+                            <td>2,000,000</td>
+                            <td>Project Commission</td>
+                            <td>Ehsan Rezvanian</td>
+                            <td>Farima</td>
+                            <td>Mr. Rezvanian's Formality</td>
+                            <td>687462</td>
+                            <td>Paid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
                             </td>
-                            <td class="text-sm font-weight-600">Ali Saburi</td>
-                            <td class="text-center">Designing</td>
-                            <td class="text-center">Editor</td>
-                            <td class="text-center">Paid</td>
-                            <td class="text-center">Jan 13, 2019</td>
-                            <td class="text-center">Feb 13, 2019</td>
-                            <td class="text-center">Reza Ghorbani</td>
-                            <td class="text-center" >Accepted</td>
                         </tr>
-                        <tr>
-                            <td>
-                                <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro18.jpg"></span>
-                                </div>
+                        <tr class="text-center">
+                            <td>65416</td>
+                            <td>Despoit</td>
+                            <td>Ms. shirzad</td>
+                            <td>10/12/97</td>
+                            <td>4,000,000</td>
+                            <td>Salary</td>
+                            <td>Mohammad Qanati</td>
+                            <td>Farima</td>
+                            <td>Mr.Qanati's Formality</td>
+                            <td>4,000,000</td>
+                            <td>unpaid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
                             </td>
-                            <td class="text-sm font-weight-600">Sheida Shamkhani</td>
-                            <td class="text-center">Designing</td>
-                            <td class="text-center">Designer</td>
-                            <td class="text-center">Maternity</td>
-                            <td class="text-center">Feb 13, 2019</td>
-                            <td class="text-center">Jan 13, 2019</td>
-                            <td class="text-center">Reza Ghorbani</td>
-                            <td class="text-center">Rejected</td>
                         </tr>
-                        <tr>
-                            <td>
-                                <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro1.jpg"></span>
-                                </div>
+
+
+                        <tr class="text-center">
+                            <td>9856</td>
+                            <td>Withdraw</td>
+                            <td>Mr. Azimi</td>
+                            <td>2/3/97</td>
+                            <td>2,000,000</td>
+                            <td>Salary</td>
+                            <td>Ehsan Rezvanian</td>
+                            <td>Farima</td>
+                            <td>Mr. Rezvanian's Formality</td>
+                            <td>687462</td>
+                            <td>Paid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
                             </td>
-                            <td class="text-sm font-weight-600">Vida Rahmani</td>
-                            <td class="text-center">Designing</td>
-                            <td class="text-center">Designer</td>
-                            <td class="text-center">Unpaid</td>
-                            <td class="text-center">Aug 23, 2019</td>
-                            <td class="text-center">Dec 04, 2019</td>
-                            <td class="text-center">Reza Ghorbani</td>
-                            <td class="text-center">Rejected</td>
                         </tr>
-                        <tr>
-                            <td>
-                                <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro13.jpg"></span>
-                                </div>
+                        <tr class="text-center">
+                            <td>65416</td>
+                            <td>Despoit</td>
+                            <td>Ms. shirzad</td>
+                            <td>10/12/97</td>
+                            <td>4,000,000</td>
+                            <td>Project Commission</td>
+                            <td>Mohammad Qanati</td>
+                            <td>Farima</td>
+                            <td>Mr.Qanati's Formality</td>
+                            <td>4,000,000</td>
+                            <td>unpaid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
                             </td>
-                            <td class="text-sm font-weight-600">Samaneh Rashid</td>
-                            <td class="text-center">TQM</td>
-                            <td class="text-center">Expert</td>
-                            <td class="text-center">Sick</td>
-                            <td class="text-center">Dec 04, 2019</td>
-                            <td class="text-center">Aug 23, 2019</td>
-                            <td class="text-center">Reza Ghorbani</td>
-                            <td class="text-center">Accepted</td>
                         </tr>
+                        <tr class="text-center">
+                            <td>9856</td>
+                            <td>Withdraw</td>
+                            <td>Mr. Azimi</td>
+                            <td>2/3/97</td>
+                            <td>2,000,000</td>
+                            <td>Salary</td>
+                            <td>Ehsan Rezvanian</td>
+                            <td>Farima</td>
+                            <td>Mr. Rezvanian's Formality</td>
+                            <td>687462</td>
+                            <td>Paid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr class="text-center">
+                            <td>65416</td>
+                            <td>Despoit</td>
+                            <td>Ms. shirzad</td>
+                            <td>10/12/97</td>
+                            <td>4,000,000</td>
+                            <td>Salary</td>
+                            <td>Mohammad Qanati</td>
+                            <td>Farima</td>
+                            <td>Mr.Qanati's Formality</td>
+                            <td>4,000,000</td>
+                            <td>unpaid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr class="text-center">
+                            <td>9856</td>
+                            <td>Withdraw</td>
+                            <td>Mr. Azimi</td>
+                            <td>2/3/97</td>
+                            <td>2,000,000</td>
+                            <td>Project Commission</td>
+                            <td>Ehsan Rezvanian</td>
+                            <td>Farima</td>
+                            <td>Mr. Rezvanian's Formality</td>
+                            <td>687462</td>
+                            <td>Paid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr class="text-center">
+                            <td>65416</td>
+                            <td>Despoit</td>
+                            <td>Ms. shirzad</td>
+                            <td>10/12/97</td>
+                            <td>4,000,000</td>
+                            <td>Salary</td>
+                            <td>Mohammad Qanati</td>
+                            <td>Farima</td>
+                            <td>Mr.Qanati's Formality</td>
+                            <td>4,000,000</td>
+                            <td>unpaid</td>
+                            <td class="text-center">
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/payment-request-view"
+                                   class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                    View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm text-white"><i
+                                        class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+
                         </tbody>
                     </table>
                 </div>
             </div>
-
+            <!-- table-wrapper -->
         </div>
     </div>
-    <div class="col-xl-4 col-lg-12 col-md-12">
-        <div class="card card-aside">
-            <div class="card-body p-3 ">
-                <h4 class="card-title mb-1">Simin Daneshvar</h4>
-                <div class="text-muted mb-3">Best September Photographer</div>
-                <table class="table card-table ">
-                    <tbody>
-                    <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#ecb403">
-                                <div class="chart-circle-value fs"><span class="fas fa-camera-retro"></span></div>
-                            </div></td>
-                        <td class="mt-6 font-weight-bold">9.1
-                            <div class="progress progress-xs mt-1">
-                                <div class="progress-bar bg-warning w-90"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Emarate Zarrin</h3>
+                    <p class="mt-2">Best September Hall</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#ecb403"><div class="chart-circle-value fs "><span class="fas fa-landmark"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-warning fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-warning fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-warning fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-warning fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.5.jpg"></div>
         </div>
-        <div class="card card-aside">
-            <div class="card-body p-3 ">
-                <h4 class="card-title mb-1">Korosh Jam</h4>
-                <div class="text-muted mb-3">Best September Admission Expert</div>
-                <table class="table card-table ">
-                    <tbody>
-                    <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#f2574c">
-                                <div class="chart-circle-value fs"><span class="fas fa-user-tie"></span></div>
-                            </div></td>
-                        <td class="mt-6 font-weight-bold">8.9
-                            <div class="progress progress-xs mt-1">
-                                <div class="progress-bar bg-red w-90"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                   <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Majnoon wedding accessories</h3>
+                    <p class="mt-2">Best September wedding accessories</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#f2574c"><div class="chart-circle-value fs "><span class="fas fa-anchor"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-danger fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-danger fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-danger fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-danger fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.1.jpeg"></div>
         </div>
-        <div class="card card-aside">
-            <div class="card-body p-3 ">
-                <h4 class="card-title mb-1">Sohrab samie</h4>
-                <div class="text-muted mb-3">Best September Designer</div>
-                <table class="table card-table ">
-                    <tbody>
-                    <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#45aaf2">
-                                <div class="chart-circle-value fs"><span class="fas fa-palette"></span></div>
-                            </div></td>
-                        <td class="mt-6 font-weight-bold">8.3
-                            <div class="progress progress-xs mt-1">
-                                <div class="progress-bar bg-info w-80"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Shadi Mezon</h3>
+                    <p class="mt-2">Best September Mezon</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#45aaf2"><div class="chart-circle-value fs "><span class="fas fa-heart"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-info fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-info fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-info fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-info fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.2.jpeg"></div>
         </div>
-        <div class="card card-aside">
-            <div class="card-body p-3 ">
-                <h4 class="card-title mb-1">Sara Jabari</h4>
-                <div class="text-muted mb-3">Best September Cameraman</div>
-                <table class="table card-table ">
-                    <tbody>
-                    <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#5C6C7C">
-                                <div class="chart-circle-value fs"><span class="fas fa-film"></span></div>
-                            </div></td>
-                        <td class="mt-6 font-weight-bold">9.2
-                            <div class="progress progress-xs mt-1">
-                                <div class="progress-bar bg-primary w-90"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Sheida Hair Salons</h3>
+                    <p class="mt-2">Best September Hair Salon</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#DA70D6"><div class="chart-circle-value fs "><span class="fas fa-cut"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-pink fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-22"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.4.jpg"></div>
         </div>
-        <div class="card card-aside">
-            <div class="card-body p-3 ">
-                <h4 class="card-title mb-1">Yasin Gholami</h4>
-                <div class="text-muted mb-3">Best September Editor</div>
-                <table class="table card-table ">
-                    <tbody>
-                    <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#689f38  ">
-                                <div class="chart-circle-value fs"><span class="fas fa-pencil-alt"></span></div>
-                            </div></td>
-                        <td class="mt-6 font-weight-bold">9.1
-                            <div class="progress progress-xs mt-1">
-                                <div class="progress-bar bg-green-dark w-90"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Top Car Decoration</h3>
+                    <p class="mt-2">Best September Car Decoration</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#32CD32"><div class="chart-circle-value fs "><span class="fas fa-car-alt"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-lime fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-lime fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-lime fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-lime fs-22"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.3.jpg"></div>
         </div>
         <div class="card">
             <div class="card-header">
@@ -641,21 +621,6 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-12 col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="card-title font-weight-bold">Efficiency Per Month</h4>
-            </div>
-            <div class="card-body">
-                <div id="highchart7"></div>
-                <button id="plain" class="btn btn-primary btn-sm">Plain</button>
-                <button id="inverted" class="btn btn-primary btn-sm">Inverted</button>
-                <button id="polar" class="btn btn-primary btn-sm">Polar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Message Modal -->
 
@@ -673,16 +638,12 @@
                     <div class="col-md-12 col-xl-12">
                         <div class="card mb-0">
                             <div class="panel panel-primary ">
-                                <div class="tab-menu-heading border-0 p-0">
+                                <div class="tab-menu-heading border-0">
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
-                                        <ul class="nav panel-tabs p-0">
+                                        <ul class="nav panel-tabs">
                                             <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Graduation</a></li>
-                                            <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
-                                            <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Organization info </a></li>
-                                            <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Salary</a></li>
-                                            <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Work time</a></li>
+                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1010,105 +971,6 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >University :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option>Tehran</option>
-                                                                    <option>Mashhad</option>
-                                                                    <option>Esfahan</option>
-                                                                    <option>Tabriz</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Graduation Degree :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option>Associate</option>
-                                                                    <option>Bachelor</option>
-                                                                    <option>Master</option>
-                                                                    <option>Doctorate</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Field of Graduation degree :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-md-12 col-lg-12">
-                                                            <div class="table-responsive ">
-                                                                <table class="table card-table table-vcenter text-nowrap table-primary border">
-                                                                    <thead class="bg-primary text-white border-dark">
-                                                                    <tr>
-                                                                        <th class="text-white text-center">University</th>
-                                                                        <th class="text-white text-center">Graduation Degree</th>
-                                                                        <th class="text-white text-center">Field</th>
-                                                                        <th></th>
-                                                                    </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                                                    <tr>
-                                                                        <th class="text-center" scope="row">Tehran</th>
-                                                                        <td class="text-center">
-                                                                            Bachelor
-                                                                        </td>
-                                                                        <td class="text-center">
-                                                                            Photography
-                                                                        </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <th class="text-center" scope="row">Esfahan</th>
-                                                                        <td class="text-center">
-                                                                            Bachelor
-                                                                        </td>
-                                                                        <td class="text-center">
-                                                                            Photography
-                                                                        </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="tab3">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="Address">Address :</label>
                                                             </div>
@@ -1173,262 +1035,6 @@
                                                                 <div class="map-header">
                                                                     <div class="map-header-layer" id="map2"></div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="tab4">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >working branch :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Unit  :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Role :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Inform">Mentality :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select"
-                                                                        id="Inform">
-                                                                    <option value="1"></option>
-                                                                    <option value="2"> </option>
-                                                                    <option value="3"> </option>
-                                                                    <option value="4"> </option>
-                                                                    <option value="5"> </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Inform">Skill : </label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select"
-                                                                        id="Inform">
-                                                                    <option value="1"></option>
-                                                                    <option value="2"></option>
-                                                                    <option value="3"></option>
-                                                                    <option value="4"></option>
-                                                                    <option value="5"></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="tab5">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">salary rate per hour :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">overwork rate per hour :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Deal commission method :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option>percentage</option>
-                                                                    <option>fixed</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Amount  :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >project commission method :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option>percentage</option>
-                                                                    <option>fixed</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Amount  :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >contract commission method :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option>percentage</option>
-                                                                    <option>fixed</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Amount  :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="tab6">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Inform">Work days : </label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <select multiple="multiple" class="multi-select"
-                                                                        id="Inform">
-                                                                    <option value="1"></option>
-                                                                    <option value="2"></option>
-                                                                    <option value="3"></option>
-                                                                    <option value="4"></option>
-                                                                    <option value="5"></option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="StartDate">working from :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <div class="wd-150 mg-b-30">
-                                                                    <div class="input-group">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">
-                                                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                            </div>
-                                                                        </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="StartDate">working To :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <div class="wd-150 mg-b-30">
-                                                                    <div class="input-group">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">
-                                                                                <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                            </div>
-                                                                        </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix ">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Regular work time Per month :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2104,8 +1710,6 @@ $scripts = [
     '/assets/plugins/accordion/accordion.min.js',
     '/assets/plugins/accordion/accor.js',
     '/assets/js/custom.js',
-    '/assets/plugins/multipleselect/multiple-select.js',
-    '/assets/plugins/multipleselect/multi-select.js',
     'http://maps.google.com/maps/api/js?key=AIzaSyAykAdIIsNMu0V2wyGOMQcguo8zKngWlyM',
     '/assets/plugins/maps-google/jquery.googlemap.js',
     '/assets/plugins/maps-google/map.js',
@@ -2125,8 +1729,5 @@ $scripts = [
     '/assets/js/highcharts.js',
     '/assets/js/main.js',
     '/assets/js/index3.js',
-    '/assets/plugins/time-picker/jquery.timepicker.js',
-    '/assets/plugins/time-picker/toggles.min.js',
 ];
 ?>
-

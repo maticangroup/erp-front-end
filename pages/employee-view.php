@@ -104,67 +104,13 @@
         </div>
     </div>
     <div class="col-xl-8 col-lg-12 col-md-12">
-        <div class="card">
+        <div class="card overflow-hidden">
             <div class="card-header">
-                <h3 class="card-title font-weight-bold">Equipments</h3>
+                <h3 class="card-title font-weight-bold">Efficiency per month</h3>
             </div>
-            <div class="table-responsive rounded-bottom">
-                <table class="table card-table table-vcenter table-hover">
-                    <thead >
-                    <tr>
-                        <th></th>
-                        <th class="text-center">Name</th>
-                        <th class="text-center">Position</th>
-                        <th class="text-center">Salary</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="bg-pink-lightest">
-                        <th scope="row">1</th>
-                        <td class="text-center">Joan Powell</td>
-                        <td class="text-center">Associate Developer</td>
-                        <td class="text-center">$450,870</td>
-                    </tr>
-                    <tr class="bg-lime-lightest">
-                        <th scope="row">2</th>
-                        <td class="text-center">Gavin Gibson</td>
-                        <td class="text-center">Account manager</td>
-                        <td class="text-center">$230,540</td>
-                    </tr>
-                    <tr class="bg-indigo-lighter">
-                        <th scope="row">3</th>
-                        <td class="text-center">Julian Kerr</td>
-                        <td class="text-center">Senior Javascript Developer</td>
-                        <td class="text-center">$55,300</td>
-                    </tr>
-                    <tr class="bg-yellow-lightest">
-                        <th scope="row">4</th>
-                        <td class="text-center">Cedric Kelly</td>
-                        <td class="text-center">Accountant</td>
-                        <td class="text-center">$234,100</td>
-                    </tr>
-                    <tr class="bg-gray-lightest ">
-                        <th scope="row">5</th>
-                        <td class="text-center">Samantha May</td>
-                        <td class="text-center">Junior Technical Author</td>
-                        <td class="text-center">$43,198</td>
-                    </tr>
-                    <tr class="bg-pink-lightest">
-                        <th scope="row">6</th>
-                        <td class="text-center">Joan Powell</td>
-                        <td class="text-center">Associate Developer</td>
-                        <td class="text-center">$450,870</td>
-                    </tr>
-                    <tr class="bg-lime-lightest">
-                        <th scope="row">7</th>
-                        <td class="text-center">Gavin Gibson</td>
-                        <td class="text-center">Account manager</td>
-                        <td class="text-center">$230,540</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div class="card-body">
+                <div id="social" class="overflow-hidden chart-dropshadow"></div>
             </div>
-            <!-- table-responsive -->
         </div>
     </div>
 </div>
@@ -1385,13 +1331,82 @@
 
 <div class="row">
     <div class="col-xl-8 col-lg-12 col-md-12">
-        <div class="card overflow-hidden">
+        <div class="card">
             <div class="card-header">
-                <h3 class="card-title font-weight-bold">Efficiency per month</h3>
+                <h3 class="card-title font-weight-bold">Equipments</h3>
             </div>
-            <div class="card-body">
-                <div id="social" class="overflow-hidden chart-dropshadow"></div>
+            <div class="table-responsive rounded-bottom">
+                <table class="table card-table table-vcenter table-hover">
+                    <thead >
+                    <tr>
+                        <th></th>
+                        <th class="text-center">Equipment</th>
+                        <th class="text-center">Category</th>
+                        <th class="text-center">From Date</th>
+                        <th class="text-center">Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="bg-pink-lightest">
+                        <th scope="row">1</th>
+                        <td class="text-center">Camera</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">Ready to use</td>
+                    </tr>
+                    <tr class="bg-lime-lightest">
+                        <th scope="row">2</th>
+                        <td class="text-center">Tablet</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">Ready to use</td>
+                    </tr>
+                    <tr class="bg-purple-lightest">
+                        <th scope="row">3</th>
+                        <td class="text-center">Tablet</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">In use</td>
+                    </tr>
+                    <tr class="bg-yellow-lightest">
+                        <th scope="row">4</th>
+                        <td class="text-center">Tablet</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">Ready to use</td>
+                    </tr>
+                    <tr class="bg-gray-lightest ">
+                        <th scope="row">5</th>
+                        <td class="text-center">Camera</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">In use</td>
+                    </tr>
+                    <tr class="bg-pink-lightest">
+                        <th scope="row">6</th>
+                        <td class="text-center">Tablet</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">Ready to use</td>
+                    </tr>
+                    <tr class="bg-lime-lightest">
+                        <th scope="row">7</th>
+                        <td class="text-center">Headphone</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">Ready to use</td>
+                    </tr>
+                    <tr class="bg-purple-lightest">
+                        <th scope="row">8</th>
+                        <td class="text-center">Headphone</td>
+                        <td class="text-center">Digital</td>
+                        <td class="text-center">04 Sep 2019</td>
+                        <td class="text-center">Ready to use</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
+            <!-- table-responsive -->
         </div>
     </div>
     <div class="col-xl-4 col-lg-8 col-md-12">
@@ -2117,6 +2132,16 @@
                     <h6 class="text-drak text-uppercase mt-0">Total salary</h6>
                     <h3 class="m-b-20">45,000,000 T</h3>
                     <span class="badge badge-danger"> -3% </span> <span class="text-muted">From previous period</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="card-box tilebox-one">
+                    <i class="fas fa-money-bill-wave text-primary float-right" aria-hidden="true"></i>
+                    <h6 class="text-drak text-uppercase mt-0">Salary for this month</h6>
+                    <h3 class="m-b-20">3,900,000 T</h3>
+                    <span class="badge badge-danger"> -0.5% </span> <span class="text-muted">From previous period</span>
                 </div>
             </div>
         </div>
@@ -3372,6 +3397,8 @@ $scripts = [
     '/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js',
     '/assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js',
     '/assets/js/jvectormap.js',
+    '/assets/plugins/multipleselect/multiple-select.js',
+    '/assets/plugins/multipleselect/multi-select.js',
     '/assets/plugins/peitychart/jquery.peity.min.js',
     '/assets/plugins/othercharts/jquery.knob.js',
     '/assets/plugins/othercharts/othercharts.js',
