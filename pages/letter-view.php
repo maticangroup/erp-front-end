@@ -11,149 +11,278 @@
 <!--page header-->
 
 <div class="row">
-    <div id="cards" class="col-xl-4 col-md-12 col-lg-12">
-        <div id="card1" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
+    <div class="col-8">
+        <div id="text section">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title font-weight-bold"><i
+                                class="fas fa-feather-alt text-primary text-center"></i> Letter Text
                     </div>
                 </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#">
-                    <span class="avatar avatar-xxl brround cover-image m-2" data-image-src="../assets/images/users/male/20.jpg">
-                        <span class="avatar-status bg-green"></span>
-                    </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">From</a></h5>
-                <span>Saghar Nikpoor</span>
-                <div class="mt-20">
-                    <span class="badge badge-default text-muted">Public Relations Expert</span>
-                </div>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper
+                            feugiat nibh sed. Neque aliquam vestibulum morbi blandit. Ipsum consequat nisl
+                            vel pretium lectus quam id leo in. Quam elementum pulvinar etiam non quam lacus.
+                            Rhoncus dolor purus non enim praesent. Euismod in pellentesque massa placerat
+                            duis. Pellentesque habitant morbi tristique senectus et. Posuere morbi leo urna
+                            molestie. Quam elementum pulvinar etiam non quam lacus. Quam pellentesque nec
+                            nam aliquam. Quam nulla porttitor massa id neque aliquam vestibulum morbi. </p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted font-weight-bold mb-3">
+                                Saghar Nikpoor <cite title="Source Title">public relations expert</cite>
+                            </small>
+                            <div class="dropdown-list-footer bd-t mt-7 mb-7">
+                                <p href="" class="text-primary "><i class="fas fa-angle-down mg-r-5"></i>
+                                    Attached Files</p>
+                            </div>
+                            <div>
+                                <!--
+                                    .
+                                    .
+                                    attached files
+                                    .
+                                    .
+                                    -->
+                            </div>
+                        </footer>
+                    </blockquote>
                 </div>
             </div>
         </div>
-        <div id="card2" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
+        <div id="tasks section">
+            <div class="card pt-3">
+                <div class="card-header">
+                    <h3 class="card-title font-weight-bold">Tasks</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table card-table table-vcenter text-nowrap">
+                            <thead>
+                            <tr>
+                                <th>Task Name</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr>
+                                <td><a href="store.html" class="text-inherit">Untrammelled prevents </a>
+                                </td>
+                                <td>28 May 2018</td>
+                                <td><span class="status-icon bg-success"></span> Completed</td>
+                                <td class="text-right">
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
+                                                class="fas fa-pen"></i> Edit</a>
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
+                                                class="fas fa-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                <td>12 June 2018</td>
+                                <td><span class="status-icon bg-danger"></span> On going</td>
+                                <td class="text-right">
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
+                                                class="fas fa-pen"></i> Edit</a>
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
+                                                class="fas fa-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                <td>12 July 2018</td>
+                                <td><span class="status-icon bg-warning"></span> Pending</td>
+                                <td class="text-right">
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
+                                                class="fas fa-pen"></i> Edit</a>
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
+                                                class="fas fa-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                <td>14 June 2018</td>
+                                <td><span class="status-icon bg-warning"></span> Pending</td>
+                                <td class="text-right">
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
+                                                class="fas fa-pen"></i> Edit</a>
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
+                                                class="fas fa-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                <td>14 June 2018</td>
+                                <td><span class="status-icon bg-warning"></span> Pending</td>
+                                <td class="text-right">
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
+                                                class="fas fa-pen"></i> Edit</a>
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
+                                                class="fas fa-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
+                                <td>25 June 2018</td>
+                                <td><span class="status-icon bg-success"></span> Completed</td>
+                                <td class="text-right">
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
+                                                class="fas fa-pen"></i> Edit</a>
+
+                                    <a class="icon" href="javascript:void(0)"></a>
+                                    <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
+                                                class="fas fa-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
+
             </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#">
-                                <span class="avatar avatar-xxl brround cover-image m-2"
-                                      data-image-src="../assets/images/users/male/20.jpg">
-                                <span class="avatar-status bg-green"></span>
-                                </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">To</a></h5>
-                <span>Mohsen Tanabandeh</span>
-                <div class="mt-20">
-                    <span class="badge badge-default text-muted">Inventory Keeper</span>
-                </div>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
+
         </div>
     </div>
-    <div id="letter Info" class="col-xl-8 col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title font-weight-bold">Letter Info</h3>
+    <div class="col-4">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro7.jpg">
+                        <span class="avatar-status bg-red"></span>
+                    </span>
+                </a>
+                <h3 class="mt-3 mb-0"><a class="hover-primary" href="#">From</a></h3>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Amir Sadat</a></h5>
+                <span>Employee</span>
+                <div>
+                    <span class="badge badge-default">designer</span>
+                </div>
+                <div class="mt-4 mb-5">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
+                </div>
             </div>
-            <div class="card-body p-3">
-                <div class="panel panel-primary">
-                    <div class="  ">
-                        <div class="tabs-menu1 ">
-                            <!-- Tabs -->
-                            <ul class="nav panel-tabs">
-                                <li class=""><a href="#tab1" class="active font-weight-bold"
-                                                data-toggle="tab">Basic Info</a></li>
-                            </ul>
+        </div>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro1.jpg">
+                        <span class="avatar-status bg-red"></span>
+                    </span>
+                </a>
+                <h3 class="mt-3 mb-0"><a class="hover-primary" href="#">To</a></h3>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Saba Nouri</a></h5>
+                <span>Employee</span>
+                <div>
+                    <span class="badge badge-default">designer</span>
+                </div>
+                <div class="mt-4 mb-5">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="letter Info">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title font-weight-bold">Letter Info</h3>
+                </div>
+                <div class="card-body p-3">
+                    <div class="panel panel-primary">
+                        <div class="  ">
+                            <div class="tabs-menu1 ">
+                                <!-- Tabs -->
+                                <ul class="nav panel-tabs">
+                                    <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                    data-toggle="tab">Basic Info</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="panel-body  tabs-menu-body border-0">
-                        <div class="tab-content">
-                            <div class="tab-pane active " id="tab1">
-                                <div id="basic info" class="p-3 text-left">
-                                    <div class="media-list">
-                                        <div class="media mt-1 pb-2">
-                                            <div class="mediaicon">
-                                                <i class="fas fa-hashtag" aria-hidden="true"></i>
+                        <div class="panel-body  tabs-menu-body border-0">
+                            <div class="tab-content">
+                                <div class="tab-pane active " id="tab1">
+                                    <div id="basic info" class="p-3 text-left">
+                                        <div class="media-list">
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-hashtag" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Title</h6><span
+                                                            class="d-block">Equipment Request</span>
+                                                </div>
                                             </div>
-                                            <div class="media-body ml-5 mt-1">
-                                                <h6 class="mediafont text-dark mb-1">Title</h6><span
-                                                        class="d-block">Equipment Request</span>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-map-signs" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Type</h6><span
+                                                            class="d-block">Official</span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="media mt-1 pb-2">
-                                            <div class="mediaicon">
-                                                <i class="fas fa-map-signs" aria-hidden="true"></i>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-link" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Related To</h6>
+                                                    <span class="d-block">Logistic Unit </span>
+                                                </div>
                                             </div>
-                                            <div class="media-body ml-5 mt-1">
-                                                <h6 class="mediafont text-dark mb-1">Type</h6><span
-                                                        class="d-block">Official</span>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">From</h6><span
+                                                            class="d-block">Saghar Nikpoor</span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="media mt-1 pb-2">
-                                            <div class="mediaicon">
-                                                <i class="fas fa-link" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="media-body ml-5 mt-1">
-                                                <h6 class="mediafont text-dark mb-1">Related To</h6>
-                                                <span class="d-block">Logistic Unit </span>
-                                            </div>
-                                        </div>
-                                        <div class="media mt-1 pb-2">
-                                            <div class="mediaicon">
-                                                <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="media-body ml-5 mt-1">
-                                                <h6 class="mediafont text-dark mb-1">From</h6><span
-                                                        class="d-block">Saghar Nikpoor</span>
-                                            </div>
-                                        </div>
-                                        <div class="media mt-1 pb-2">
-                                            <div class="mediaicon">
-                                                <i class="fas fa-tags" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="media-body ml-5 mt-1">
-                                                <h6 class="mediafont text-dark mb-1">From</h6><span
-                                                        class="d-block">Priority</span>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-tags" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">From</h6><span
+                                                            class="d-block">Priority</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -166,166 +295,6 @@
         </div>
     </div>
 </div>
-
-<div class="row">
-    <div id="status section" class="col-xl-4 col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title font-weight-bold">Status</div>
-            </div>
-            <div class="card-body">
-                <!--
-                content
-                -->
-            </div>
-        </div>
-    </div>
-    <div id="text section" class="col-xl-8 col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title font-weight-bold"><i
-                            class="fas fa-feather-alt text-primary text-center"></i> Letter Text
-                </div>
-            </div>
-            <div class="card-body">
-                <blockquote class="blockquote mb-0 card-body">
-                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent semper
-                        feugiat nibh sed. Neque aliquam vestibulum morbi blandit. Ipsum consequat nisl
-                        vel pretium lectus quam id leo in. Quam elementum pulvinar etiam non quam lacus.
-                        Rhoncus dolor purus non enim praesent. Euismod in pellentesque massa placerat
-                        duis. Pellentesque habitant morbi tristique senectus et. Posuere morbi leo urna
-                        molestie. Quam elementum pulvinar etiam non quam lacus. Quam pellentesque nec
-                        nam aliquam. Quam nulla porttitor massa id neque aliquam vestibulum morbi. </p>
-                    <footer class="blockquote-footer">
-                        <small class="text-muted font-weight-bold mb-3">
-                            Saghar Nikpoor <cite title="Source Title">public relations expert</cite>
-                        </small>
-                        <div class="dropdown-list-footer bd-t mt-7 mb-7">
-                            <p href="" class="text-primary "><i class="fas fa-angle-down mg-r-5"></i>
-                                Attached Files</p>
-                        </div>
-                        <div>
-                            <!--
-                                .
-                                .
-                                attached files
-                                .
-                                .
-                                -->
-                        </div>
-                    </footer>
-                </blockquote>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div id="tasks section" class="col-8">
-        <div class="card pt-3">
-            <div class="card-header">
-                <h3 class="card-title font-weight-bold">Tasks</h3>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table card-table table-vcenter text-nowrap">
-                        <thead>
-                        <tr>
-                            <th>Task Name</th>
-                            <th>Date</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-
-                        <tr>
-                            <td><a href="store.html" class="text-inherit">Untrammelled prevents </a>
-                            </td>
-                            <td>28 May 2018</td>
-                            <td><span class="status-icon bg-success"></span> Completed</td>
-                            <td class="text-right">
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
-                                            class="fas fa-trash"></i> Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
-                            <td>12 June 2018</td>
-                            <td><span class="status-icon bg-danger"></span> On going</td>
-                            <td class="text-right">
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
-                                            class="fas fa-trash"></i> Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
-                            <td>12 July 2018</td>
-                            <td><span class="status-icon bg-warning"></span> Pending</td>
-                            <td class="text-right">
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
-                                            class="fas fa-trash"></i> Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
-                            <td>14 June 2018</td>
-                            <td><span class="status-icon bg-warning"></span> Pending</td>
-                            <td class="text-right">
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
-                                            class="fas fa-trash"></i> Delete</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a href="store.html" class="text-inherit">Untrammelled prevents</a></td>
-                            <td>25 June 2018</td>
-                            <td><span class="status-icon bg-success"></span> Completed</td>
-                            <td class="text-right">
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" class="btn btn-secondary btn-sm bg-red "><i
-                                            class="fas fa-trash"></i> Delete</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</div>
-
 <div class="row">
     <div id="tracking status section" class="col-12">
         <div class="card">

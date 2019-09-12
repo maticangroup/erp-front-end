@@ -129,11 +129,7 @@
             'drop_down_items' => [
                 ['url' => '/team-overview-add-edit', 'title' => 'Team'],
                 ['url' => '/employee-overview', 'title' => 'Employees'],
-                ['url' => '/expertises', 'title' => 'Expertises'],
-                ['url' => '/mentalities', 'title' => 'Mentalities'],
-                ['url' => '/roles', 'title' => 'Roles'],
-                ['url' => '/units', 'title' => 'Units'],
-                ['url' => '/duties', 'title' => 'Duties'],
+                ['url' => '/definition-overview', 'title' => 'Definitions'],
                 ['url' => '/timeoff-overview-view', 'title' => 'Time Off'],
             ]
         ],

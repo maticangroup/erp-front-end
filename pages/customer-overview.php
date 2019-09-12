@@ -955,90 +955,127 @@
         </div>
     </div>
     <div class="col-8">
+        <!--        Comment-->
         <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Latest comments</h3>
-            </div>
-            <div class="">
-                <div class="list d-flex align-items-center border-bottom p-3">
-                    <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pexels-photo-2896358.jpeg"></div>
-                    <div class="wrapper w-100 ml-3">
-                        <p class="mb-0 d-flex">
-                            <b>Saber Abar</b>
-                            <small class="text-primary ml-auto">15 mins ago</small>
-                        </p>
-                        <div class="justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <p class="mb-0">Hey You it's me again..attached now</p>
-                            </div>
-                        </div>
-                        <div class="mt-1 text-muted">
-                            <i class="si si-action-undo mr-1"></i>
-                            <i class="si si-settings"></i>
-                        </div>
+            <div class="card-body">
+                <div class="media ">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
+                        </a>
                     </div>
-                </div>
-                <div class="list d-flex align-items-center border-bottom p-3">
-                    <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pexels-photo-2884834.jpeg"></div>
-                    <div class="wrapper w-100 ml-3">
-                        <p class="mb-0 d-flex">
-                            <b>Amirhossein Hajighorbani</b>
-                            <small class="text-danger ml-auto">30 mins ago</small>
-                        </p>
-                        <div class="justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <p class="mb-0">Hey I attached some new PSD files...</p>
+                    <div class="media-body">
+                        <h4 class="media-heading">Nasrin Maghami</h4>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro9.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Abolfazl Naseh</h4>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                                eos qui ratione voluptatem sequi nesciunt
                             </div>
                         </div>
-                        <div class="mt-1 text-muted">
-                            <i class="si si-action-undo mr-1"></i>
-                            <i class="si si-settings"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="list d-flex align-items-center border-bottom p-3">
-                    <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pexels-photo-2896358.jpeg"></div>
-                    <div class="wrapper w-100 ml-3">
-                        <p class="mb-0 d-flex">
-                            <b>Saber Abar</b>
-                            <small class="text-warning ml-auto">2 days ago</small>
-                        </p>
-                        <div class="justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <p class="mb-0">Hi Please Send the Edit File.</p>
+                        <div class="media ">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
+                                </a>
                             </div>
-                        </div>
-                        <div class="mt-1 text-muted">
-                            <i class="si si-action-undo mr-1"></i>
-                            <i class="si si-settings"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="list d-flex align-items-center p-3">
-                    <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pexels-photo-2884834.jpeg"></div>
-                    <div class="wrapper w-100 ml-3">
-                        <p class="mb-0 d-flex">
-                            <b>Amirhossein Hajighorbani </b>
-                            <small class="text-success ml-auto">6 days ago</small>
-                        </p>
-                        <div class="justify-content-between align-items-center">
-                            <div class="d-flex align-items-center">
-                                <p class="mb-0">Hello My new Templates Adding.because those who do not know how to
-                                    pleasure .</p>
+                            <div class="media-body">
+                                <div class="form-group">
+                            <textarea class="form-control" name="example-textarea-input" rows="3"
+                                      placeholder="text here.."></textarea>
+                                    <div class="row mt-3">
+                                        <div class="col-12 text-right">
+                                            <button class="btn btn-primary ">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mt-1 text-muted">
-                            <i class="si si-action-undo mr-1"></i>
-                            <i class="si si-settings"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="media ">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro11.jpg" alt="media1">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Nasrin Maghami</h4>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        <div class="media ">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object brround"
+                                         src="../assets/images/photos/pro18.jpg" alt="media1">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <div class="form-group">
+                            <textarea class="form-control" name="example-textarea-input" rows="3"
+                                      placeholder="text here.."></textarea>
+                                    <div class="row mt-3">
+                                        <div class="col-12 text-right">
+                                            <button class="btn btn-primary ">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="media mt-0">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro18.jpg" alt="media1">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <div class="form-group">
+                            <textarea class="form-control" name="example-textarea-input" rows="3"
+                                      placeholder="text here.."></textarea>
+                            <div class="row mt-3">
+                                <div class="col-12 text-right">
+                                    <button class="btn btn-primary ">Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        Comment-->
+
     </div>
 </div>
 

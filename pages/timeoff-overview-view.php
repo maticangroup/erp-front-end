@@ -1,3 +1,8 @@
+<!--Chartist css-->
+<link rel="stylesheet" href="../assets/plugins/chartist/chartist.css">
+<link rel="stylesheet" href="../assets/plugins/chartist/chartist-plugin-tooltip.css">
+
+
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
@@ -5,17 +10,130 @@
     </div>
 </div>
 <!--page header-->
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">3280 Hours</span>
+                            </h2>
+                            <span>Total Time off request</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
+                                        class="fas fa-arrow-circle-up text-success"></i> 10%</span> Orders Incresed </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">2900 Hours</span>
+                            </h2>
+                            <span>Accepted time off request</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
+                                        class="fas fa-arrow-circle-up text-success"></i> 10%</span> Orders Incresed </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-primary mb-2">$<span class="counter font-weight-extrabold">560 Hours</span>
+                            </h2>
+                            <span>Unpaid time off</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
+                                        class="fas fa-arrow-circle-up text-success"></i> 15%</span> Income Incresed </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-orange mb-2">$<span class="counter font-weight-extrabold">1551 hours</span>
+                            </h2>
+                            <span>Paid time off </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
+                                        class="fas fa-arrow-circle-down text-danger"></i> 5%</span> Expences Decresed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="dash-2">
+                            <h2 class="text-success mb-2">$<span class="counter font-weight-extrabold">789 hours</span>
+                            </h2>
+                            <span>Sick time off</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
+                                        class="fas fa-arrow-circle-up text-success"></i> 13%</span> Net Profit Incresed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Time Offs</div>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
@@ -130,6 +248,61 @@
         <!-- section-wrapper -->
     </div>
 </div>
+<div class="row">
+    <div class="col-12">
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body p-3">
+                <div class="panel panel-primary">
+                    <div class="  ">
+                        <div class="tabs-menu">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                data-toggle="tab">Time Offs per month</a></li>
+                                <li class=""><a href="#tab2" class="font-weight-bold"
+                                                data-toggle="tab">Time Offs per Week</a></li>
+                                <li class=""><a href="#tab3" class="font-weight-bold"
+                                                data-toggle="tab">Branches Time Offs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel-body  tabs-menu-body border-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab1">
+                                <div class="card overflow-hidden">
+                                    <div class="card-body">
+                                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab2">
+                                <div class="card overflow-hidden">
+                                    <div class="card-body">
+                                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab3">
+                                <div class="card overflow-hidden">
+                                    <div class="card-body">
+                                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Message Modal -->
 <div class="modal fade" id="view-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -149,7 +322,7 @@
                             <tr>
                             <tr>
                                 <th colspan="3"
-                                    class="text-center font-weight-bold bg-indigo-lighter">
+                                    class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Requester</strong></th>
 
                             </tr>
@@ -183,7 +356,7 @@
                             <thead>
                             <tr>
                                 <th colspan="3"
-                                    class="text-center font-weight-bold bg-indigo-lighter">
+                                    class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Confirmation Person</strong>
                                 </th>
                             </tr>
@@ -209,8 +382,8 @@
                             <table class="table card-table table-vcenter text-nowrap table-bordered">
                                 <thead class="text-center">
                                 <tr>
-                                    <th class="bg-indigo-lighter" colspan="2">info</th>
-                                    <th class="bg-indigo-lighter" colspan="1">Description</th>
+                                    <th class="bg-primary" colspan="2">info</th>
+                                    <th class="bg-primary" colspan="1">Description</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -261,7 +434,7 @@
 
                                 <tfooter class="d-flex">
                                     <tr>
-                                        <th class="bg-indigo-lighter d-inline-flex">File Attached
+                                        <th class="bg-primary d-inline-flex">File Attached
                                         </th>
                                         <td></td>
                                     </tr>
@@ -272,12 +445,17 @@
                     </div>
                 </div>
             </div>
-
-
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Done</button>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Done</button>
+            </div>
         </div>
     </div>
-</div>
 
+
+    <?php
+    $scripts = [
+        '/assets/plugins/chartist/chartist.js',
+        '/assets/plugins/chartist/chart.chartist.js',
+        '/assets/plugins/chartist/chartist-plugin-tooltip.js'
+    ];
+    ?>
