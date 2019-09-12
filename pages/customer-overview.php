@@ -907,35 +907,35 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-6">
+    <div class="col-4">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Recent Activity</h3>
             </div>
             <div class="card-body">
                 <div class="activity">
-                    <img src="../assets/images/photos/pexels-photo-2888150.jpeg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2379005.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Ali habibi</b> Add a new projects <b><br> Azizi family wedding</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pexels-photo-2888150.jpeg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2379005.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Ali habibi</b> Add a new projects <b><br> Azizi family wedding</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pexels-photo-2890041.jpeg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2823974.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b><br>Project kick off</b></p>
                             <small class="text-danger">1 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pexels-photo-2897502.jpeg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2888636.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saeed Bakhshi</b> Add a new projects <b><br>Internal company meeting</b>
@@ -943,7 +943,7 @@
                             <small class="text-warning">3 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pexels-photo-460237.jpeg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-1898957.jpeg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
                             <p class="mb-0"><b>Elnaz Shakerdoost</b> Add a new projects <b><br>Portfolio demo</b></p>
@@ -954,7 +954,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6">
+    <div class="col-8">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Latest comments</h3>

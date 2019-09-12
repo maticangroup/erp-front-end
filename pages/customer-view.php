@@ -30,7 +30,7 @@
                 <div>
                     <span class="badge badge-default">designer</span>
                 </div>
-                <div class="mt-4">
+                <div class="mt-4 mb-5">
                     <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
                                 class="fas fa-eye"></i></button>
                     <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
@@ -48,7 +48,7 @@
                     <div class="card-body dash2">
                         <i class="fas fa-file-invoice-dollar"></i>
                         <span class="count-numbers counter">5</span>
-                        <span class="count-name">Total Invoice</span>
+                        <span class="count-name">Total Invoices</span>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <div class="card-body dash2">
                         <i class="fas fa-wallet"></i>
                         <span class="count-numbers counter">8,560,000</span>
-                        <span class="count-name">Invoice Value</span>
+                        <span class="count-name">Invoices Value</span>
                     </div>
                 </div>
             </div>
@@ -1205,7 +1205,7 @@
                                     <table id="example-7" class="table table-striped table-bordered nowrap">
                                         <thead class="bg-primary">
                                         <tr>
-                                            <th class="wd-15p border-bottom-0 text-left">Title</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Title</th>
                                             <th class="wd-15p border-bottom-0 text-center">Type</th>
                                             <th class="wd-20p border-bottom-0 text-center">Date</th>
                                             <th class="wd-25p border-bottom-0 text-center">Price</th>
@@ -1217,7 +1217,7 @@
                                             <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                         </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody class="text-center">
                                         <tr>
                                             <td>Number One</td>
                                             <td class="text-center">Purchase</td>
@@ -1332,7 +1332,7 @@
                                     <table id="example-8" class="table table-striped table-bordered nowrap">
                                         <thead class="bg-primary">
                                         <tr>
-                                            <th class="wd-15p border-bottom-0 text-left">Name</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Name</th>
                                             <th class="wd-15p border-bottom-0 text-center">Type</th>
                                             <th class="wd-15p border-bottom-0 text-center">Owner</th>
                                             <th class="wd-20p border-bottom-0 text-center">Rate</th>
@@ -1342,7 +1342,7 @@
                                             <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                         </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody class="text-center">
                                         <tr>
                                             <td>Majnoon wedding accessories</td>
                                             <td class="text-center">Wedding Accessories</td>
@@ -1472,7 +1472,7 @@
                                     <table id="example-9" class="table table-striped table-bordered">
                                         <thead class="bg-primary">
                                         <tr>
-                                            <th class="wd-15p border-bottom-0 text-left">Title</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Title</th>
                                             <th class="wd-15p border-bottom-0 text-center">Service</th>
                                             <th class="wd-15p border-bottom-0 text-center">Owner</th>
                                             <th class="wd-20p border-bottom-0 text-center">Responsible Person
@@ -1485,7 +1485,7 @@
                                             <th></th>
                                         </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody class="text-center">
                                         <tr>
                                             <td>Something</td>
                                             <td class="text-center">Wedding</td>
