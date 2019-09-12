@@ -91,11 +91,10 @@
             ]
         ],
         [
-            'link' => '/companies-overview',
+            'link' => '/company-overview',
             'title' => 'Companies',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
-                ['url' => '/vendor-overview-add-edit', 'title' => 'Vendors'],
             ]
         ],
         [
