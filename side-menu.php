@@ -65,7 +65,7 @@
             'title' => 'Peoples',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
-                ['url' => '/customers', 'title' => 'Customet'],
+                ['url' => '/customer-overview', 'title' => 'Customer'],
                 ['url' => '/customers-group', 'title' => 'Customer Group'],
             ]
         ],
