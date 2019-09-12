@@ -11,15 +11,16 @@
 </div>
 <!--page header-->
 <div class="row">
-    <div class="col">
+
+    <div class="col-2">
         <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <div class="dash-2">
-                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold">3280 Hours</span>
-                            </h2>
-                            <span>Total Time off request</span>
+                            <h4 class="text-white mb-2"><span class="font-weight-extrabold"></span>Accepted time off
+                            </h4>
+                            <h5 class="mt-5"><span class="counter">2900 Hours</span></h5>
                         </div>
                     </div>
                 </div>
@@ -28,51 +29,29 @@
                 <div class="row">
                     <div class="col">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-up text-danger"></i> 10%</span> Time Off Incresed </p>
+                                        class="fas fa-arrow-circle-up text-danger"></i> 10%</span> Time Off Incresed
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col">
+    <div class="col-2">
         <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <div class="dash-2">
-                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold">2900 Hours</span>
-                            </h2>
-                            <span>Accepted time off request</span>
+                            <h4 class="text-white mb-2"><span class="font-weight-extrabold"></span>Unpaid time off
+                            </h4>
+                            <h5 class="mt-5"><span class="counter">560 Hours</span></h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
-                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-up text-danger"></i> 10%</span> Time Off Incresed </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card bg-primary">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col">
-                        <div class="dash-2">
-                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold"> 560 Hours</span>
-                            </h2>
-                            <span>Unpaid time off</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
                                         class="fas fa-arrow-circle-up text-danger"></i> 15%</span>Time Off Incresed </p>
                     </div>
@@ -80,15 +59,16 @@
             </div>
         </div>
     </div>
-    <div class="col">
+    <div class="col-4">
         <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
                     <div class="col text-center">
                         <div class="dash-2">
-                            <h3 class="text-white mb-2"><span class="counter font-weight-extrabold"></span>Paid time off
+                            <h3 class="text-white mb-2"><span class="font-weight-extrabold"></span>Total Time off
+                                request
                             </h3>
-                            <h5 class="mt-4"><span>1551 Hours</span></h5>
+                            <h5 class="mt-4"><span class="counter">3280 Hours</span></h5>
                         </div>
                     </div>
                 </div>
@@ -97,22 +77,46 @@
                 <div class="row">
                     <div class="col text-center">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-down text-success"></i> 5%</span> Time Off Decresed
+                                        class="fas fa-arrow-circle-up text-danger"></i> 10%</span> Time Off Incresed
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col">
+    <div class="col-2">
         <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <div class="dash-2">
-                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold">789 Hours</span>
-                            </h2>
-                            <span>Sick time off</span>
+                            <h3 class="text-white mb-2"><span class="font-weight-extrabold"></span>Paid time off
+                            </h3>
+                            <h5 class="mt-4"><span class="counter">1551 Hours</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <p class="mt-1 mb-1"><span class="font-weight-bold"><i
+                                        class="fas fa-arrow-circle-down text-success"></i> 5%</span>Time Off Decresed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="card bg-primary">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="dash-2">
+                            <h3 class="text-white mb-2"><span class="font-weight-extrabold"></span>Sick time off
+                            </h3>
+                            <h5 class="mt-4"><span class="counter">789 Hours</span></h5>
                         </div>
                     </div>
                 </div>
@@ -129,17 +133,15 @@
         </div>
     </div>
 </div>
-
-
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-left">Requester</th>
+                            <th class="wd-15p border-bottom-0 text-center">Requester</th>
                             <th class="wd-15p border-bottom-0 text-center">Request Date</th>
                             <th class="wd-10p border-bottom-0 text-center">Type</th>
                             <th class="wd-15p border-bottom-0 text-center">From Date</th>
@@ -148,11 +150,11 @@
                             <th class="wd-25p border-bottom-0 text-center">To Time</th>
                             <th class="wd-25p border-bottom-0 text-center">Confirm Person</th>
                             <th class="wd-25p border-bottom-0 text-center">Confirmation Status</th>
-                            <th></th>
+                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
 
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-center">
                         <tr>
                             <td>Mohammad Azimi</td>
                             <td class="text-center">2/5/97</td>
@@ -162,7 +164,7 @@
                             <td class="text-center">8:00</td>
                             <td class="text-center">16:00</td>
                             <td class="text-center">Omid Jahan</td>
-                            <td class="text-center">Accepted</td>
+                            <td class="text-success">Accepted</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -179,7 +181,7 @@
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
                             <td class="text-center">Omid Jahan</td>
-                            <td class="text-center">Rejected</td>
+                            <td class="text-danger">Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -196,7 +198,7 @@
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
                             <td class="text-center">Hossein Azimi</td>
-                            <td class="text-center">Accepted</td>
+                            <td class="text-success">Accepted</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -213,7 +215,7 @@
                             <td class="text-center">8:00</td>
                             <td class="text-center">16:00</td>
                             <td class="text-center">Mohsen Afshani</td>
-                            <td class="text-center">Rejected</td>
+                            <td class="text-danger">Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -230,7 +232,7 @@
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
                             <td class="text-center">Abbas Rezai</td>
-                            <td class="text-center">Accepted</td>
+                            <td class="text-success">Accepted</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -248,54 +250,46 @@
         <!-- section-wrapper -->
     </div>
 </div>
-<div class="row">
-    <div class="col-12">
 
+
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    Number of time off request per month
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="chart" class="overflow-hidden chart-dropshadow"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    Hours of time off request per month
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="chart" class="overflow-hidden chart-dropshadow"></div>
+            </div>
+        </div>
     </div>
 </div>
-
 <div class="row">
     <div class="col-12">
         <div class="card">
-            <div class="card-body p-3">
-                <div class="panel panel-primary">
-                    <div class="  ">
-                        <div class="tabs-menu">
-                            <!-- Tabs -->
-                            <ul class="nav panel-tabs">
-                                <li class=""><a href="#tab1" class="active font-weight-bold"
-                                                data-toggle="tab">Time Offs per month</a></li>
-                                <li class=""><a href="#tab2" class="font-weight-bold"
-                                                data-toggle="tab">Time Offs per Week</a></li>
-                                <li class=""><a href="#tab3" class="font-weight-bold"
-                                                data-toggle="tab">Branches Time Offs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="panel-body  tabs-menu-body border-0">
-                        <div class="tab-content">
-                            <div class="tab-pane active " id="tab1">
-                                <div class="card overflow-hidden">
-                                    <div class="card-body">
-                                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab2">
-                                <div class="card overflow-hidden">
-                                    <div class="card-body">
-                                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab3">
-                                <div class="card overflow-hidden">
-                                    <div class="card-body">
-                                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="card-header">
+                <div class="card-title">
+                    Number of time off request in each branch
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card overflow-hidden">
+                    <div class="card-body">
+                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
                     </div>
                 </div>
             </div>
@@ -452,10 +446,25 @@
     </div>
 
 
-    <?php
-    $scripts = [
-        '/assets/plugins/chartist/chartist.js',
-        '/assets/plugins/chartist/chart.chartist.js',
-        '/assets/plugins/chartist/chartist-plugin-tooltip.js'
-    ];
-    ?>
+<?php
+$scripts = [
+    '/assets/plugins/chartist/chartist.js',
+    '/assets/plugins/chartist/chart.chartist.js',
+    '/assets/plugins/chartist/chartist-plugin-tooltip.js',
+    '/assets/plugins/counters/counterup.min.js',
+    '/assets/plugins/counters/waypoints.min.js',
+    '/assets/plugins/peitychart/jquery.peity.min.js',
+    '/assets/js/apexcharts.js',
+    '/assets/plugins/chart/chart.bundle.js',
+    '/assets/plugins/chart/utils.js',
+    '/assets/plugins/highcharts/highcharts.js',
+    '/assets/plugins/highcharts/highcharts-3d.js',
+    '/assets/plugins/highcharts/exporting.js',
+    '/assets/plugins/highcharts/export-data.js',
+    '/assets/plugins/highcharts/histogram-bellcurve.js',
+    '/assets/js/highcharts.js',
+    '/assets/js/main.js',
+    '/assets/js/index3.js'
+
+];
+?>

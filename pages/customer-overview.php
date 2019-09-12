@@ -13,55 +13,47 @@
 <!--page header end-->
 
 <div class="row">
-    <div class="col-xl-3 col-md-12 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-                <div class="float-left">
-                    <p class="mb-0">Total Customers</p>
-                    <h2 class=" mb-0">899</h2>
+    <div class="col-3 bg-primary">
+        <div class="card bg-primary">
+            <div class="card-body text-center">
+                <h5>Total Customers</h5>
+                <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
+                    <i class="fas fa-users text-primary"></i>
                 </div>
-                <div class="float-right">
-                    <span class="mini-stat-icon bg-primary"><i class="fas fa-users "></i></span>
-                </div>
+                <h2 class="counter">899</h2>
             </div>
         </div>
     </div>
-    <div class="col-xl-3 col-md-12 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-                <div class="float-left">
-                    <p class="mb-0">Groom</p>
-                    <h2 class=" mb-0">354</h2>
+    <div class="col-3">
+        <div class="card bg-primary">
+            <div class="card-body text-center">
+                <h5>Groom</h5>
+                <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
+                    <i class="fas fa-male text-primary"></i>
                 </div>
-                <div class="float-right">
-                    <span class="mini-stat-icon bg-primary"><i class="fas fa-male"></i></span>
-                </div>
+                <h2 class="counter">354</h2>
             </div>
         </div>
     </div>
-    <div class="col-xl-3 col-md-12 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-                <div class="float-left">
-                    <p class="mb-0">Bride</p>
-                    <h2 class=" mb-0">354</h2>
+    <div class="col-3">
+        <div class="card bg-primary">
+            <div class="card-body text-center">
+                <h5>Bride</h5>
+                <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
+                    <i class="fas fa-female text-primary"></i>
                 </div>
-                <div class="float-right">
-                    <span class="mini-stat-icon bg-primary"><i class="fas fa-female"></i></span>
-                </div>
+                <h2 class="counter">354</h2>
             </div>
         </div>
     </div>
-    <div class="col-xl-3 col-md-12 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-                <div class="float-left">
-                    <p class="mb-0">Ordinary Customers</p>
-                    <h2 class="mb-0">191</h2>
+    <div class="col-3">
+        <div class="card bg-primary">
+            <div class="card-body text-center">
+                <h5>Ordinary Customers</h5>
+                <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
+                    <i class="fas fa-user-friends text-primary"></i>
                 </div>
-                <div class="float-right">
-                    <span class="mini-stat-icon bg-primary"><i class="fas fa-user-friends"></i></span>
-                </div>
+                <h2 class="counter">191</h2>
             </div>
         </div>
     </div>
@@ -989,25 +981,6 @@
                                 eos qui ratione voluptatem sequi nesciunt
                             </div>
                         </div>
-                        <div class="media ">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object brround"
-                                         src="../assets/images/photos/pro18.jpg" alt="media1">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <div class="form-group">
-                            <textarea class="form-control" name="example-textarea-input" rows="3"
-                                      placeholder="text here.."></textarea>
-                                    <div class="row mt-3">
-                                        <div class="col-12 text-right">
-                                            <button class="btn btn-primary ">Reply</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1028,48 +1001,6 @@
                         veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
                         ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                         consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
-                        <div class="media ">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object brround"
-                                         src="../assets/images/photos/pro18.jpg" alt="media1">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <div class="form-group">
-                            <textarea class="form-control" name="example-textarea-input" rows="3"
-                                      placeholder="text here.."></textarea>
-                                    <div class="row mt-3">
-                                        <div class="col-12 text-right">
-                                            <button class="btn btn-primary ">Reply</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <div class="media mt-0">
-                    <div class="media-left">
-                        <a href="#">
-                            <img class="media-object brround"
-                                 src="../assets/images/photos/pro18.jpg" alt="media1">
-                        </a>
-                    </div>
-                    <div class="media-body">
-                        <div class="form-group">
-                            <textarea class="form-control" name="example-textarea-input" rows="3"
-                                      placeholder="text here.."></textarea>
-                            <div class="row mt-3">
-                                <div class="col-12 text-right">
-                                    <button class="btn btn-primary ">Reply</button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
