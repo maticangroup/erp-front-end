@@ -444,7 +444,7 @@
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab1">
                                 <div class="table-responsive ">
-                                    <table id="example-1" class="table table-striped table-bordered nowrap">
+                                    <table id="example-12" class="table table-striped table-bordered nowrap">
                                         <thead class="bg-primary">
                                         <tr>
                                             <th class="wd-15p border-bottom-0 text-center">Topic</th>

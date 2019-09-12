@@ -12,12 +12,12 @@
 <!--page header-->
 <div class="row">
     <div class="col">
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
                     <div class="col">
                         <div class="dash-2">
-                            <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">3280 Hours</span>
+                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold">3280 Hours</span>
                             </h2>
                             <span>Total Time off request</span>
                         </div>
@@ -28,19 +28,19 @@
                 <div class="row">
                     <div class="col">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-up text-success"></i> 10%</span> Orders Incresed </p>
+                                        class="fas fa-arrow-circle-up text-danger"></i> 10%</span> Time Off Incresed </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col">
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
                     <div class="col">
                         <div class="dash-2">
-                            <h2 class="text-info mb-2"><span class="counter font-weight-extrabold">2900 Hours</span>
+                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold">2900 Hours</span>
                             </h2>
                             <span>Accepted time off request</span>
                         </div>
@@ -51,19 +51,19 @@
                 <div class="row">
                     <div class="col">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-up text-success"></i> 10%</span> Orders Incresed </p>
+                                        class="fas fa-arrow-circle-up text-danger"></i> 10%</span> Time Off Incresed </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col">
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
                     <div class="col">
                         <div class="dash-2">
-                            <h2 class="text-primary mb-2">$<span class="counter font-weight-extrabold">560 Hours</span>
+                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold"> 560 Hours</span>
                             </h2>
                             <span>Unpaid time off</span>
                         </div>
@@ -74,30 +74,30 @@
                 <div class="row">
                     <div class="col">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-up text-success"></i> 15%</span> Income Incresed </p>
+                                        class="fas fa-arrow-circle-up text-danger"></i> 15%</span>Time Off Incresed </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col">
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <div class="dash-2">
-                            <h2 class="text-orange mb-2">$<span class="counter font-weight-extrabold">1551 hours</span>
-                            </h2>
-                            <span>Paid time off </span>
+                            <h3 class="text-white mb-2"><span class="counter font-weight-extrabold"></span>Paid time off
+                            </h3>
+                            <h5 class="mt-4"><span>1551 Hours</span></h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-down text-danger"></i> 5%</span> Expences Decresed
+                                        class="fas fa-arrow-circle-down text-success"></i> 5%</span> Time Off Decresed
                         </p>
                     </div>
                 </div>
@@ -105,12 +105,12 @@
         </div>
     </div>
     <div class="col">
-        <div class="card">
+        <div class="card bg-primary">
             <div class="card-body">
                 <div class="row">
                     <div class="col">
                         <div class="dash-2">
-                            <h2 class="text-success mb-2">$<span class="counter font-weight-extrabold">789 hours</span>
+                            <h2 class="text-white mb-2"><span class="counter font-weight-extrabold">789 Hours</span>
                             </h2>
                             <span>Sick time off</span>
                         </div>
@@ -121,7 +121,7 @@
                 <div class="row">
                     <div class="col">
                         <p class="mt-1 mb-1"><span class="font-weight-bold"><i
-                                        class="fas fa-arrow-circle-up text-success"></i> 13%</span> Net Profit Incresed
+                                        class="fas fa-arrow-circle-up text-danger"></i> 13%</span> Time Off Incresed
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                         <tr>
                             <td>Hamed Pahlan</td>
                             <td class="text-center">6/10/97</td>
-                            <td class="text-center">Materiry</td>
+                            <td class="text-center">Maternity</td>
                             <td class="text-center">8/10/97</td>
                             <td class="text-center">8/10/97</td>
                             <td class="text-center">8:00</td>

@@ -140,10 +140,9 @@
             'drop_down_items' => [
                 ['url' => '/equipment-overview-add-edit', 'title' => 'Equipment'],
                 ['url' => '/inventory-overview-add-edit', 'title' => 'Inventories'],
-                ['url' => '/transfer-deed', 'title' => 'Transfer Deed'],
-                ['url' => '/supply-deed', 'title' => 'Supply Deed'],
-                ['url' => '/purchase-deed', 'title' => 'Purchase Deed'],
-                ['url' => '/transfer-deed', 'title' => 'Transfer deed'],
+                ['url' => '/equipmenttransferdeed-overview-add-edit', 'title' => 'Transfer Deed'],
+                ['url' => '/equipmentsupplydeed-overview-add-edit', 'title' => 'Supply Deed'],
+                ['url' => '/equipmentpurchasedeed-overview-add-edit', 'title' => 'Purchase Deed'],
             ]
         ],
         [
