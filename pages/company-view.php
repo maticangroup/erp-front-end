@@ -20,7 +20,7 @@
             <div class="price-header bg-primary">
                 <h3 class="title text-white">Wedding Hall</h3>
                 <div class="price text-white">Emarat Zarin</div>
-                <span class="permonth font-weight-extrabold">info  <i class="fas fa-arrow-alt-circle-down text-purple"></i></span>
+                <span class="permonth font-weight-extrabold">info  <i class="fas fa-arrow-alt-circle-down text-info"></i></span>
             </div>
             <div class="price-body">
                 <ul class="mb-7">
@@ -30,7 +30,7 @@
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Org email :</b> emaratezarrin@gmail.com</li>
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Office direct Tel :</b> 021-88501649</li>
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Address :</b> Tehran-SaadatAbad</li>
-                    <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Descriptions :</b><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+                    <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Descriptions :</b><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
                 </ul>
             </div>
         </div>
