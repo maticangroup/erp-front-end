@@ -914,21 +914,28 @@
             </div>
             <div class="card-body">
                 <div class="activity">
-                    <img src="../assets/images/photos/pro3.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2888150.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Ali habibi</b> Add a new projects <b><br> Azizi family wedding</b></p>
                             <small class="text-primary">30 mins ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pro1.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2888150.jpeg" alt="" class="img-activity">
+                    <div class="time-activity">
+                        <div class="item-activity">
+                            <p class="mb-0"><b>Ali habibi</b> Add a new projects <b><br> Azizi family wedding</b></p>
+                            <small class="text-primary">30 mins ago</small>
+                        </div>
+                    </div>
+                    <img src="../assets/images/photos/pexels-photo-2890041.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saba Nouri</b> Add a new projects <b><br>Project kick off</b></p>
                             <small class="text-danger">1 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pro9.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-2897502.jpeg" alt="" class="img-activity">
                     <div class="time-activity">
                         <div class="item-activity">
                             <p class="mb-0"><b>Saeed Bakhshi</b> Add a new projects <b><br>Internal company meeting</b>
@@ -936,7 +943,7 @@
                             <small class="text-warning">3 days ago</small>
                         </div>
                     </div>
-                    <img src="../assets/images/photos/pro15.jpg" alt="" class="img-activity">
+                    <img src="../assets/images/photos/pexels-photo-460237.jpeg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
                             <p class="mb-0"><b>Elnaz Shakerdoost</b> Add a new projects <b><br>Portfolio demo</b></p>
@@ -955,7 +962,7 @@
             <div class="">
                 <div class="list d-flex align-items-center border-bottom p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pro6.jpg"></div>
+                         data-image-src="../assets/images/photos/pexels-photo-2896358.jpeg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Saber Abar</b>
@@ -974,7 +981,7 @@
                 </div>
                 <div class="list d-flex align-items-center border-bottom p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pro7.jpg"></div>
+                         data-image-src="../assets/images/photos/pexels-photo-2884834.jpeg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Amirhossein Hajighorbani</b>
@@ -993,7 +1000,7 @@
                 </div>
                 <div class="list d-flex align-items-center border-bottom p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pro6.jpg"></div>
+                         data-image-src="../assets/images/photos/pexels-photo-2896358.jpeg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Saber Abar</b>
@@ -1012,7 +1019,7 @@
                 </div>
                 <div class="list d-flex align-items-center p-3">
                     <div class="avatar avatar-lg brround d-block cover-image"
-                         data-image-src="../assets/images/photos/pro7.jpg"></div>
+                         data-image-src="../assets/images/photos/pexels-photo-2884834.jpeg"></div>
                     <div class="wrapper w-100 ml-3">
                         <p class="mb-0 d-flex">
                             <b>Amirhossein Hajighorbani </b>
@@ -1332,26 +1339,36 @@
                                                     <label class="form-label font-weight-bold">Mobile Number :</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    <div class="form-group">
-
-                                                        <input type="tel" class="form-control" name="topic"
-                                                               placeholder="">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="fas fa-mobile tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control required"
+                                                               id="ProjectValue" name="length"
+                                                               type="text" placeholder="">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row">
+                                            <div class="row mt-4">
                                                 <div class="col-lg-3">
                                                     <label class="form-label font-weight-bold">Email :</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    <div class="form-group">
-
-                                                        <input type="email" class="form-control" name="topic"
-                                                               placeholder="">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="fas fa-at tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control required"
+                                                               id="ProjectValue" name="length"
+                                                               type="email" placeholder="">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row mb-3">
+                                            <div class="row mb-3 mt-4">
                                                 <div class="col-lg-3">
                                                     <label class="control-label form-label font-weight-bold"
                                                            for="Descriptions">Descriptions :</label>
@@ -1404,10 +1421,15 @@
                                                         :</label>
                                                 </div>
                                                 <div class="col-lg-9">
-                                                    <div class="form-group">
-
-                                                        <input type="tel" class="form-control" name="topic"
-                                                               placeholder="">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <i class="fas fa-phone tx-16 lh-0 op-6"></i>
+                                                            </div>
+                                                        </div>
+                                                        <input class="form-control required"
+                                                               id="ProjectValue" name="length"
+                                                               type="tel" placeholder="">
                                                     </div>
                                                 </div>
                                             </div>
