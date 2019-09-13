@@ -148,6 +148,7 @@
                             <th class="wd-20p border-bottom-0 text-center">To Date</th>
                             <th class="wd-25p border-bottom-0 text-center">From Time</th>
                             <th class="wd-25p border-bottom-0 text-center">To Time</th>
+                            <th class="wd-25p border-bottom-0 text-center">Deputy</th>
                             <th class="wd-25p border-bottom-0 text-center">Confirm Person</th>
                             <th class="wd-25p border-bottom-0 text-center">Confirmation Status</th>
                             <th class="wd-25p border-bottom-0 text-center">Actions</th>
@@ -163,8 +164,9 @@
                             <td class="text-center">4/6/97</td>
                             <td class="text-center">8:00</td>
                             <td class="text-center">16:00</td>
+                            <td class="text-center">Saba Nouri</td>
                             <td class="text-center">Omid Jahan</td>
-                            <td class="text-success">Accepted</td>
+                            <td><span class="tag tag-success">Accepted</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -180,8 +182,9 @@
                             <td class="text-center">10/8/97</td>
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
+                            <td class="text-center">Mohammad Shirzad</td>
                             <td class="text-center">Omid Jahan</td>
-                            <td class="text-danger">Rejected</td>
+                            <td><span class="tag tag-danger">Rejected</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -197,8 +200,9 @@
                             <td class="text-center">7/10/98</td>
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
+                            <td class="text-center">Ali Ranjbar</td>
                             <td class="text-center">Hossein Azimi</td>
-                            <td class="text-success">Accepted</td>
+                            <td><span class="tag tag-success">Accepted</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -214,8 +218,9 @@
                             <td class="text-center">8/10/97</td>
                             <td class="text-center">8:00</td>
                             <td class="text-center">16:00</td>
+                            <td class="text-center">-</td>
                             <td class="text-center">Mohsen Afshani</td>
-                            <td class="text-danger">Rejected</td>
+                            <td><span class="tag tag-danger">Rejected</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -231,8 +236,9 @@
                             <td class="text-center">10/2/97</td>
                             <td class="text-center">-</td>
                             <td class="text-center">-</td>
+                            <td class="text-center">Ahmad Akbari</td>
                             <td class="text-center">Abbas Rezai</td>
-                            <td class="text-success">Accepted</td>
+                            <td><span class="tag tag-success">Accepted</span></td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#view-modal"
@@ -412,7 +418,7 @@
                                 </tr>
                                 <tr>
                                     <th>Deputy</th>
-                                    <td>Azimi Ali</td>
+                                    <td>Milad Mohammadi</td>
 
                                 </tr>
                                 <tr>
