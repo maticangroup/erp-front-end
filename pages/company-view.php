@@ -30,7 +30,7 @@
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Org email :</b> emaratezarrin@gmail.com</li>
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Office direct Tel :</b> 021-88501649</li>
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Address :</b> Tehran-SaadatAbad</li>
-                    <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Descriptions :</b><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatquis nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris. </li>
+                    <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Descriptions :</b><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco . </li>
                 </ul>
             </div>
         </div>
@@ -74,11 +74,12 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-12 col-xl-12">
-                <div class="card ">
-                    <div class="card-body p-1">
-                        <div class="map">
-                            <div class="map-content rounded" id="map5"></div>
-                        </div>
+                <div class="card overflow-hidden">
+                    <div class="card-header">
+                        <h3 class="card-title font-weight-bold">Company location</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="/assets/images/map-example.png" width="100%" alt="#">
                     </div>
                 </div>
             </div>
@@ -100,6 +101,9 @@
                                 <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Polls</a></li>
                                 <li><a href="#tab444" class="font-weight-bold" data-toggle="tab">Customers</a></li>
                                 <li><a href="#tab555" class="font-weight-bold" data-toggle="tab">Meetings</a></li>
+                                <li><a href="#tab666" class="font-weight-bold" data-toggle="tab">Tasks</a></li>
+                                <li><a href="#tab777" class="font-weight-bold" data-toggle="tab">Contracts</a></li>
+                                <li><a href="#tab888" class="font-weight-bold" data-toggle="tab">Deals</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1126,7 +1130,455 @@
                                                         class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab666">
+                                <div class="table-responsive ">
+                                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                                        <thead>
+                                        <tr>
+                                            <th class="wd-15p border-bottom-0 text-center">Title</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Type</th>
+                                            <th class="wd-10p border-bottom-0 text-center">Requester</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Owner</th>
+                                            <th class="wd-20p border-bottom-0 text-center">From Date</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Deadline</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Estimation Time</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Priority</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Progress</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Status</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">Sending attachments</td>
+                                            <td class="text-center">Solo</td>
+                                            <td class="text-center">Majid Salehi</td>
+                                            <td class="text-center">Nikoo Gharib</td>
+                                            <td class="text-center">12 December 2019</td>
+                                            <td class="text-center">04 February 2020</td>
+                                            <td class="text-center">8h 45m</td>
+                                            <td class="text-center"><span class="badge badge-warning">Medium</span></td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-info w-0 font-weight-bold ">0%
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Not Planned</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="/task-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Training Meeting</td>
+                                            <td class="text-center">Meeting</td>
+                                            <td class="text-center">Javad Motala</td>
+                                            <td class="text-center">Yasaman Taghvaie</td>
+                                            <td class="text-center">12 December 2019</td>
+                                            <td class="text-center">04 February 2020</td>
+                                            <td class="text-center">4h</td>
+                                            <td class="text-center"><span class="badge badge-success">Low</span></td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-info w-5 font-weight-bold ">5%
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Accepted</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="/task-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Coordination Meeting</td>
+                                            <td class="text-center">Meeting</td>
+                                            <td class="text-center">Nezam Zaker</td>
+                                            <td class="text-center">Mahdi Ardalan</td>
+                                            <td class="text-center">12 December 2019</td>
+                                            <td class="text-center">04 February 2020</td>
+                                            <td class="text-center">16h 30m</td>
+                                            <td class="text-center">
+                                                <span class="badge badge-danger">High</span>
+                                            </td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-info w-45 font-weight-bold ">45%
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Rejected</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="/task-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Video Editing</td>
+                                            <td class="text-center">Edit</td>
+                                            <td class="text-center">Majid Salehi</td>
+                                            <td class="text-center">Shamsi Saberi</td>
+                                            <td class="text-center">12 December 2019</td>
+                                            <td class="text-center">04 February 2020</td>
+                                            <td class="text-center">7h 15m</td>
+                                            <td class="text-center"><span class="badge badge-warning">Medium</span></td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-info w-100 font-weight-bold ">100%
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Finished</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="/task-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Birthday filming</td>
+                                            <td class="text-center">filming</td>
+                                            <td class="text-center">Alireza Dabir</td>
+                                            <td class="text-center">Motahareh Moalem</td>
+                                            <td class="text-center">12 December 2019</td>
+                                            <td class="text-center">04 February 2020</td>
+                                            <td class="text-center">10h</td>
+                                            <td class="text-center"><span class="badge badge-danger">High</span></td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-info w-25 font-weight-bold ">25%
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Paused</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="/task-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab777">
+                                <div class="table-responsive ">
+                                    <table id="example-2" class="table table-striped table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th class="wd-15p border-bottom-0 text-center bg-primary">Title</th>
+                                            <th class="wd-20p border-bottom-0 text-center bg-primary">Creator</th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Create Date</th>
+                                            <th class="wd-15p border-bottom-0 text-center bg-primary">Owner</th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Tag</th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Hold Date</th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Value</th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Project serial</th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Branch</th>
+                                            <th class=" bg-primary"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">Something</td>
+                                            <td class="text-center"> AhmadAzimi</td>
+                                            <td class="text-center">2/2/91</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center"><span class="tag">Wedding</span></td>
+                                            <td class="text-center">2/3/93</td>
+                                            <td class="text-center">5,000,000 T</td>
+                                            <td class="text-center">65165</td>
+                                            <td class="text-center">Teh, Enqelab Square</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/contract-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Something</td>
+                                            <td class="text-center">Ahmad Azimi</td>
+                                            <td class="text-center">2/6/91</td>
+                                            <td class="text-center">Ali Mansoori</td>
+                                            <td class="text-center"><span class="tag">Birthday</span></td>
+                                            <td class="text-center">2/5/97</td>
+                                            <td class="text-center">15,000,000 T</td>
+                                            <td class="text-center">98798</td>
+                                            <td class="text-center">Teh, Shariati</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/contract-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Something</td>
+                                            <td class="text-center">Shila Khodadad</td>
+                                            <td class="text-center">2/2/97</td>
+                                            <td class="text-center">Saba Noori</td>
+                                            <td class="text-center"><span class="tag">Party</span></td>
+                                            <td class="text-center">21/3/98</td>
+                                            <td class="text-center">15,000,000 T</td>
+                                            <td class="text-center">32132</td>
+                                            <td class="text-center">Turkey , Istanbul</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/contract-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Something</td>
+                                            <td class="text-center">Fatemeh Salehi</td>
+                                            <td class="text-center">4/8/97</td>
+                                            <td class="text-center">Reza Shiri</td>
+                                            <td class="text-center"><span class="tag">Marriage ceremony</span></td>
+                                            <td class="text-center">5/5/98</td>
+                                            <td class="text-center">11,000,000 T</td>
+                                            <td class="text-center">11591</td>
+                                            <td class="text-center">Teh, Enqelab Square</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/contract-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">Something</td>
+                                            <td class="text-center">Meelad Masori</td>
+                                            <td class="text-center">5/8/96</td>
+                                            <td class="text-center">Ahmad Mansori</td>
+                                            <td class="text-center"><span class="tag">Formality</span></td>
+                                            <td class="text-center">6/5/97</td>
+                                            <td class="text-center">41,000,000 T</td>
+                                            <td class="text-center">25682</td>
+                                            <td class="text-center">Qom</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/contract-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab888">
+                                <div class="table-responsive ">
+                                    <table id="example-2" class="table table-striped table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th class="border-bottom-0 text-center">Create Date</th>
+                                            <th class="border-bottom-0 text-center">Title</th>
+                                            <th class="border-bottom-0 text-center">Customer</th>
+                                            <th class="border-bottom-0 text-center">Tag</th>
+                                            <th class="border-bottom-0 text-center">Value</th>
+                                            <th class="border-bottom-0 text-center">Source</th>
+                                            <th class="border-bottom-0 text-center">Responsibile</th>
+                                            <th class="border-bottom-0 text-center">Probability</th>
+                                            <th class="border-bottom-0 text-center">Status</th>
+                                            <th class="border-bottom-0 text-center"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Formality</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Formality</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-red w-10">10%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Contracted</td>
+                                            <td class="text-center">
 
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Marriage ceremony</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Marriage ceremony</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-warning w-35">35%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">New</td>
+                                            <td class="text-center">
+
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+
+
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Wedding</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Wedding</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-success w-100">100%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Success</td>
+                                            <td class="text-center">
+
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+
+
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Party</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Party</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-warning w-50">50%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">New</td>
+                                            <td class="text-center">
+
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+
+
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Wedding</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Newborn</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-red w-30">30%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Meeting scheduled</td>
+                                            <td class="text-center">
+
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+
+
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Formality</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Formality</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-red w-0">0%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">Failed</td>
+                                            <td class="text-center">
+
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="text-center">12/2/97</td>
+                                            <td class="text-center">Marriage ceremony</td>
+                                            <td class="text-center">Mohsen Heshmati</td>
+                                            <td class="text-center">Marriage ceremony</td>
+                                            <td class="text-center">12,000,000 Rial</td>
+                                            <td class="text-center">Website</td>
+                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center">
+                                                <div class="progress progress-md mb-3">
+                                                    <div class="progress-bar bg-success w-85">85%</div>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">New</td>
+                                            <td class="text-center">
+
+                                                <a href="/deal-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+
+
+                                                <a class="btn btn-primary btn-sm mr-3 text-white"
+                                                   data-toggle="modal" data-target="#exampleModal3-2"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+                                            </td>
+                                        </tr>
 
                                         </tbody>
                                     </table>
@@ -1332,6 +1784,7 @@
         <div class="card">
             <div class="card-header">
                 <h4 class="card-title">Gallery</h4>
+                <button type="button" class="btn btn-pink float-right ml-auto" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-upload"></i></button>
             </div>
             <div class="card-body p-5">
                 <div class="panel panel-primary">

@@ -2,6 +2,11 @@
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Equipment Supply Deed Overview</h4>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 </div>
 <!--page header end-->
@@ -9,15 +14,6 @@
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2">Equipment Supply Deeds</div>
-                <button type="button" class="btn btn-outline-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
@@ -246,66 +242,178 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="form-control-label mr-1 font-weight-bold">Related
-                                        to:</label>
-                                    <div class="card-body p-0">
-                                        <div class="panel panel-primary">
-                                            <div class="  ">
-                                                <div class="tabs-menu1 ">
-                                                    <!-- Tabs -->
-                                                    <ul class="nav panel-tabs">
-                                                        <li class=""><a href="#tab1"
-                                                                        class="active text-dark"
-                                                                        data-toggle="tab">Project</a>
-                                                        </li>
-                                                        <li><a href="#tab2" data-toggle="tab"
-                                                               class="text-dark">Deal</a></li>
-                                                        <li><a href="#tab3" data-toggle="tab"
-                                                               class="text-dark">Organization</a></li>
-                                                    </ul>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Time</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Relation</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Inform</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="tab1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">From date : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">To date : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromTime">From time :  </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required"
+                                                                           id="FromTime"
+                                                                           name="FromTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="toTime">To time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required"
+                                                                           id="toTime"
+                                                                           name="toTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="panel-body  tabs-menu-body border-0">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active " id="tab1">
-                                                        <div class="form-group ">
-                                                            <select class="form-control select2-show-search "
-                                                                    data-placeholder="Choose one">
-                                                                <option value="p1">project 1</option>
-                                                                <option value="p2">project 2</option>
-                                                                <option value="p3">project 3</option>
-                                                                <option value="p4">project 4</option>
-                                                                <option value="p5">project 5</option>
-                                                            </select>
+                                        </div>
+                                        <div class="tab-pane" id="tab2-2">
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1</option>
+                                                                                    <option value="p2">Deal 2</option>
+                                                                                    <option value="p3">Deal 3</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="tab-pane " id="tab2">
-                                                        <div class="form-group">
-                                                            <select class="form-control select2-show-search"
-                                                                    data-placeholder="Choose one (with searchbox)">
-                                                                <option value="d1">Deal 1</option>
-                                                                <option value="d2">Deal 2</option>
-                                                                <option value="d3">Deal 3</option>
-                                                                <option value="d4">Deal 4</option>
-                                                                <option value="d5">Deal 5</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tab-pane " id="tab3">
-                                                        <div class="form-group">
-                                                            <select class="form-control select2-show-search"
-                                                                    data-placeholder="Choose one (with searchbox)">
-                                                                <option value="s1">Section 1</option>
-                                                                <option value="s2">Section 2</option>
-                                                                <option value="s3">Section 3</option>
-                                                                <option value="s4">Section 4</option>
-                                                                <option value="s5">Section 5</option>
-                                                            </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab3-3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Inform </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -315,211 +423,199 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Meeting:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Milestone:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Task:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="card p-3 mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="From Date"
-                                           class="form-control-label mr-1 font-weight-bold">From
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="From Date" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="To Date"
-                                           class="form-control-label mr-1 font-weight-bold">To
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="To Date" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4 mb-5">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="From Time"
-                                           class="form-control-label mr-1 font-weight-bold">From
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="From Time" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="To Time"
-                                           class="form-control-label mr-1 font-weight-bold">To
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="To Time" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="font-weight-bold">Inform</label>
-                                    <select multiple="multiple" class="multi-select">
-                                        <option value="1">Ali Javadi</option>
-                                        <option value="2">Mohsen Salami</option>
-                                        <option value="3">Amir Ghane</option>
-                                        <option value="4">Sahar Salimi</option>
-                                        <option value="5">Rima mahan</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
+
     </div>
 </div>
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-2">New Equipment Supply Deed</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Equipment Supply Deed</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="form-control-label mr-1 font-weight-bold">Related
-                                        to:</label>
-                                    <div class="card-body p-0">
-                                        <div class="panel panel-primary">
-                                            <div class="  ">
-                                                <div class="tabs-menu1 ">
-                                                    <!-- Tabs -->
-                                                    <ul class="nav panel-tabs">
-                                                        <li class=""><a href="#tab1-1"
-                                                                        class="active text-dark"
-                                                                        data-toggle="tab">Project</a>
-                                                        </li>
-                                                        <li><a href="#tab2-2" data-toggle="tab"
-                                                               class="text-dark">Deal</a></li>
-                                                        <li><a href="#tab3-3" data-toggle="tab"
-                                                               class="text-dark">Organization</a></li>
-                                                    </ul>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Time</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Relation</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Inform</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="tab1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">From date : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">To date : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromTime">From time :  </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required"
+                                                                           id="FromTime"
+                                                                           name="FromTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="toTime">To time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required"
+                                                                           id="toTime"
+                                                                           name="toTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="panel-body  tabs-menu-body border-0">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active " id="tab1-1">
-                                                        <div class="form-group ">
-                                                            <select class="form-control select2-show-search "
-                                                                    data-placeholder="Choose one">
-                                                                <option value="p1">project 1</option>
-                                                                <option value="p2">project 2</option>
-                                                                <option value="p3">project 3</option>
-                                                                <option value="p4">project 4</option>
-                                                                <option value="p5">project 5</option>
-                                                            </select>
+                                        </div>
+                                        <div class="tab-pane" id="tab2-2">
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1</option>
+                                                                                    <option value="p2">Deal 2</option>
+                                                                                    <option value="p3">Deal 3</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="tab-pane " id="tab2-2">
-                                                        <div class="form-group">
-                                                            <select class="form-control select2-show-search"
-                                                                    data-placeholder="Choose one (with searchbox)">
-                                                                <option value="d1">Deal 1</option>
-                                                                <option value="d2">Deal 2</option>
-                                                                <option value="d3">Deal 3</option>
-                                                                <option value="d4">Deal 4</option>
-                                                                <option value="d5">Deal 5</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tab-pane " id="tab3-3">
-                                                        <div class="form-group">
-                                                            <select class="form-control select2-show-search"
-                                                                    data-placeholder="Choose one (with searchbox)">
-                                                                <option value="s1">Section 1</option>
-                                                                <option value="s2">Section 2</option>
-                                                                <option value="s3">Section 3</option>
-                                                                <option value="s4">Section 4</option>
-                                                                <option value="s5">Section 5</option>
-                                                            </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab3-3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Inform </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -529,138 +625,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Meeting:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Milestone:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Task:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="card p-3 mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="From Date2"
-                                           class="form-control-label mr-1 font-weight-bold">From
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="From Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="To Date2"
-                                           class="form-control-label mr-1 font-weight-bold">To
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="To Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4 mb-5">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="From Time2"
-                                           class="form-control-label mr-1 font-weight-bold">From
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="From Time2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="To Time2"
-                                           class="form-control-label mr-1 font-weight-bold">To
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="To Time2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="font-weight-bold">Inform</label>
-                                    <select multiple="multiple" class="multi-select">
-                                        <option value="1">Ali Javadi</option>
-                                        <option value="2">Mohsen Salami</option>
-                                        <option value="3">Amir Ghane</option>
-                                        <option value="4">Sahar Salimi</option>
-                                        <option value="5">Rima mahan</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
+
     </div>
 </div>
+
+
+<?php
+$scripts = [
+    '/assets/plugins/accordion/accordion.min.js',
+    '/assets/plugins/accordion/accor.js',
+    '/assets/plugins/multipleselect/multiple-select.js',
+    '/assets/plugins/multipleselect/multi-select.js',
+
+];
+?>

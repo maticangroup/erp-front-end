@@ -384,23 +384,29 @@
                                 eos qui ratione voluptatem sequi nesciunt
                             </div>
                         </div>
-                        <div class="media ">
+                    </div>
+                </div>
+                <div class="media ">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object brround"
+                                 src="../assets/images/photos/pro8.jpg" alt="media1">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Sam Derakhshan</h4>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam
+                        <div class="media">
                             <div class="media-left">
                                 <a href="#">
                                     <img class="media-object brround"
-                                         src="../assets/images/photos/pro18.jpg" alt="media1">
+                                         src="../assets/images/photos/pro13.jpg" alt="media1">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <div class="form-group">
-                            <textarea class="form-control" name="example-textarea-input" rows="3"
-                                      placeholder="text here.."></textarea>
-                                    <div class="row mt-3">
-                                        <div class="col-12 text-right">
-                                            <button class="btn btn-primary ">Reply</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                <h4 class="media-heading">Somaieh Asayesh</h4>
+                                Sed ut perspiciatis unde omnis iste natus error sit
                             </div>
                         </div>
                     </div>
@@ -1151,17 +1157,14 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
-                                                        <div class="row">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Descriptions">Map :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="map-header">
-                                                                    <div class="map-header-layer" id="map2"></div>
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-12 mt-1">
+                                                                <img class="border-dark"
+                                                                     src="/assets/images/map-example.png" width="100%"
+                                                                     alt="">
                                                             </div>
                                                         </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -1354,17 +1357,17 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Inform">Work days : </label>
+                                                                <label class="control-label form-label font-weight-bold" >Deal commission method :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <select multiple="multiple" class="multi-select"
-                                                                        id="Inform">
-                                                                    <option value="1"></option>
-                                                                    <option value="2"></option>
-                                                                    <option value="3"></option>
-                                                                    <option value="4"></option>
-                                                                    <option value="5"></option>
+                                                                <select class="form-control" id="ProjectManager">
+                                                                    <option >Saturday</option>
+                                                                    <option >Sunday</option>
+                                                                    <option >Monday</option>
+                                                                    <option >Tuesday</option>
+                                                                    <option >Wednesday</option>
+                                                                    <option >Thursday</option>
+                                                                    <option >Friday</option>
                                                                 </select>
                                                             </div>
                                                         </div>
@@ -1416,6 +1419,54 @@
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-5">
+                                                        <div class="col-md-12 col-lg-12">
+                                                            <div class="table-responsive ">
+                                                                <table class="table card-table table-vcenter text-nowrap table-primary border">
+                                                                    <thead class="bg-primary text-white border-dark">
+                                                                    <tr>
+                                                                        <th class="text-white text-center">Workdays</th>
+                                                                        <th class="text-white text-center">Working From </th>
+                                                                        <th class="text-white text-center">Working To</th>
+                                                                        <th></th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <th class="text-center" scope="row">Saturday</th>
+                                                                        <td class="text-center">
+                                                                            09:00 AM
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            16:30 PM
+                                                                        </td>
+                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="text-center" scope="row">Sunday</th>
+                                                                        <td class="text-center">
+                                                                            11:00 AM
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            17:00 PM
+                                                                        </td>
+                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th class="text-center" scope="row">Monday</th>
+                                                                        <td class="text-center">
+                                                                            08:00 AM
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            10:00 AM
+                                                                        </td>
+                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
                                                             </div>
                                                         </div>
                                                     </div>

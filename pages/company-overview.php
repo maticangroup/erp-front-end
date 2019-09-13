@@ -628,7 +628,7 @@
                 <h3 class="card-title font-weight-bold">Companies locations</h3>
             </div>
             <div class="card-body">
-                <div id="world-map-markers" class="h-400"></div>
+                <img src="/assets/images/map-example.png" width="100%" alt="#">
             </div>
         </div>
     </div>
@@ -698,7 +698,8 @@
                                             <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
                                             <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
                                             <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Detailing</a></li>
-                                            <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Other Info</a></li>
+                                            <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Financial</a></li>
+                                            <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Other Info</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -783,17 +784,14 @@
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
-                                                        <div class="row">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Descriptions">Map :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="map-header">
-                                                                    <div class="map-header-layer" id="map2"></div>
-                                                                </div>
+                                                        <div class="row ">
+                                                            <div class="col-12 mt-1">
+                                                                <img class="border-dark"
+                                                                     src="/assets/images/map-example.png" width="100%"
+                                                                     alt="">
                                                             </div>
                                                         </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -922,24 +920,10 @@
                                         <div class="tab-pane" id="tab4">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="form-group clearfix  mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Rate :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Financial method :</label>
+                                                                <label class="control-label form-label font-weight-bold" >Deal commission method :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select class="form-control" id="ProjectManager">
@@ -956,6 +940,62 @@
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold" >contract commission methot :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <select class="form-control" id="ProjectManager">
+                                                                    <option>commission (percentage)</option>
+                                                                    <option>Fixed (constant amount)</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold">Amount :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold" >project commission method :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <select class="form-control" id="ProjectManager">
+                                                                    <option>commission (percentage)</option>
+                                                                    <option>Fixed (constant amount)</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab5">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix  mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold" >Rate :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
                                                             </div>
                                                         </div>
                                                     </div>
