@@ -1040,7 +1040,7 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Field of Graduation degree :</label>
+                                                                <label class="control-label form-label font-weight-bold" >Field of Graduation :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1062,6 +1062,12 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <button class="btn-primary float-right ml-auto mr-3 rounded">Add To List <span class="fas fa-arrow-alt-circle-down"></span></button>
+                                                        </div>
+                                                    </div>
+
                                                     <div class="row mt-5">
                                                         <div class="col-md-12 col-lg-12">
                                                             <div class="table-responsive ">
@@ -1136,25 +1142,6 @@
                                                                     <div class="input-group-prepend">
                                                                         <div class="input-group-text">
                                                                             <i class="fas fa-phone tx-16 lh-0 op-6"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                    <input class="form-control fc-datepicker"
-                                                                           id="Location" type="text">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Location">Location :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i class="fas fa-map-marker-alt tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
                                                                     <input class="form-control fc-datepicker"

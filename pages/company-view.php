@@ -30,7 +30,7 @@
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Org email :</b> emaratezarrin@gmail.com</li>
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Office direct Tel :</b> 021-88501649</li>
                     <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Address :</b> Tehran-SaadatAbad</li>
-                    <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Descriptions :</b><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+                    <li  class="font-weight-bold text-muted"><b class="font-weight-extrabold text-dark">Descriptions :</b><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatquis nostrud exercitation ullamco laborisquis nostrud exercitation ullamco laboris. </li>
                 </ul>
             </div>
         </div>
@@ -1144,7 +1144,7 @@
     <div class="col-xl-8 col-lg-12 col-md-12">
         <div class="card overflow-hidden">
             <div class="card-header">
-                <div class="card-title">Chart</div>
+                <div class="card-title">Projects per month</div>
             </div>
             <div class="card-body">
                 <div id="chart" class="overflow-hidden chart-dropshadow"></div>
@@ -1164,8 +1164,7 @@
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                         doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
                         veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugitde
                         <div class="media">
                             <div class="media-left">
                                 <a href="#">
@@ -1286,40 +1285,40 @@
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="card box-widget widget-user">
-            <div class="widget-user-header bg-primary text-center pb-0" >
+            <div class="py-6 rounded-top bg-primary text-center pb-0" >
                 <h2 class="widget-user-username">Capacity</h2>
                 <h3 class="widget-user-desc mt-3 mb-0 font-weight-bold">500 people </h3>
             </div>
-            <div class="box-footer pt-3 pb-1">
+            <div class="box-footer py-4">
                 <div class="row">
                     <div class="col-sm-2 border-right">
                         <div class="description-block">
-                            <h5 class="description-header text">Grade B</h5><span class="text-muted">Professional Staff</span>
+                            <h5 class="description-header text">Grade B</h5><span class="text-muted font-weight-bold">Professional Staff</span>
                         </div>
                     </div>
                     <div class="col-sm-2 border-right">
                         <div class="description-block">
-                            <h5 class="description-header">Grade A</h5><span class="text-muted">Decoration</span>
+                            <h5 class="description-header">Grade A</h5><span class="text-muted font-weight-bold">Decoration</span>
                         </div>
                     </div>
                     <div class="col-sm-2 border-right">
                         <div class="description-block ">
-                            <h5 class="description-header">Grade C</h5><span class="text-muted">Cleaning & Maintenance  </span>
+                            <h5 class="description-header">Grade C</h5><span class="text-muted font-weight-bold">Cleaning & Maintenance  </span>
                         </div>
                     </div>
                     <div class="col-sm-2 border-right">
                         <div class="description-block">
-                            <h5 class="description-header">Grade A</h5><span class="text-muted">Easy Catering Service </span>
+                            <h5 class="description-header">Grade A</h5><span class="text-muted font-weight-bold">Easy Catering Service </span>
                         </div>
                     </div>
                     <div class="col-sm-2 border-right">
                         <div class="description-block">
-                            <h5 class="description-header">Grade A</h5><span class="text-muted">Workflow Of Management </span>
+                            <h5 class="description-header">Grade A</h5><span class="text-muted font-weight-bold">Workflow Of Management </span>
                         </div>
                     </div>
                     <div class="col-sm-2 ">
                         <div class="description-block">
-                            <h5 class="description-header">Grade B</h5><span class="text-muted">Convenient Location & Parking</span>
+                            <h5 class="description-header">Grade B</h5><span class="text-muted font-weight-bold">Convenient Location & Parking</span>
                         </div>
                     </div>
                 </div>

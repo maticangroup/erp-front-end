@@ -88,10 +88,11 @@
                             <td class="text-center">911</td>
                             <td class="text-center">Karaj</td>
                             <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-95 font-weight-bold ">95%
-                                    </div>
-                                </div>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-secondary fs-14"><i class="fas fa-star"></i></span>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -109,10 +110,11 @@
                             <td class="text-center">194</td>
                             <td class="text-center">Janat</td>
                             <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-35 font-weight-bold ">35%
-                                    </div>
-                                </div>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-secondary fs-14"><i class="fas fa-star"></i></span>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -130,10 +132,11 @@
                             <td class="text-center">331</td>
                             <td class="text-center">Sohrevardi</td>
                             <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
-                                    </div>
-                                </div>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-secondary fs-14"><i class="fas fa-star"></i></span>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -151,10 +154,11 @@
                             <td class="text-center">208</td>
                             <td class="text-center">Tajrish</td>
                             <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-65 font-weight-bold ">65%
-                                    </div>
-                                </div>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-secondary fs-14"><i class="fas fa-star"></i></span>
                             </td>
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
@@ -172,10 +176,11 @@
                             <td class="text-center">519</td>
                             <td class="text-center">Janat Abad</td>
                             <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
-                                    </div>
-                                </div>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-secondary fs-14"><i class="fas fa-star"></i></span>
                             </td>
                             <td class="text-center"><span class="status-icon bg-success"></span></td>
                             <td class="text-center">
@@ -193,10 +198,11 @@
                             <td class="text-center">453</td>
                             <td class="text-center">Saadat Abad</td>
                             <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
-                                    </div>
-                                </div>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-warning fs-14"><i class="fas fa-star"></i></span>
+                                <span class="text-secondary fs-14"><i class="fas fa-star"></i></span>
                             </td>
                             <td class="text-center"><span class="status-icon bg-danger"></span></td>
                             <td class="text-center">
@@ -217,45 +223,183 @@
 </div>
 
 <div class="row">
-    <div class="col-xl-9 col-lg-12 col-md-12">
+    <div class="col-12">
         <div class="card box-widget widget-user">
-            <div class="widget-user-header bg-primary text-center pb-0" >
+            <div class=" bg-primary text-center py-5 rounded-top" >
                 <h2 class="widget-user-username">Total Companies</h2>
                 <h3 class="widget-user-desc mt-3 mb-0 font-weight-bold">87 </h3>
             </div>
-            <div class="box-footer pt-2">
+            <div class="box-footer py-3 ">
                 <div class="row">
                     <div class="col-sm-3 border-right">
                         <div class="description-block">
-                            <h5 class="description-header text">38</h5><span class="text-muted">For wedding</span>
+                            <h5 class="description-header text">38</h5><span class="text-muted font-weight-bold">For wedding</span>
                         </div>
                     </div>
                     <div class="col-sm-3 border-right">
                         <div class="description-block">
-                            <h5 class="description-header">30</h5><span class="text-muted">For wedding reception</span>
+                            <h5 class="description-header">30</h5><span class="text-muted font-weight-bold">For wedding reception</span>
                         </div>
                     </div>
                     <div class="col-sm-3 border-right">
                         <div class="description-block ">
-                            <h5 class="description-header">17  </h5><span class="text-muted">For formality</span>
+                            <h5 class="description-header">17  </h5><span class="text-muted font-weight-bold">For formality</span>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="description-block">
-                            <h5 class="description-header">2 </h5><span class="text-muted">Equipment suppliers</span>
+                            <h5 class="description-header">2 </h5><span class="text-muted font-weight-bold">Equipment suppliers</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card overflow-hidden">
-            <div class="card-header">
-                <h3 class="card-title font-weight-bold">Companies locations</h3>
-            </div>
-            <div class="card-body">
-                <div id="world-map-markers" class="h-400"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/photos/logo/download.png">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Emarate Zarrin</h3>
+                    <p class="mt-2">Best September Hall</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#ecb403"><div class="chart-circle-value fs "><span class="fas fa-landmark"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/photos/logo/ring.png">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Majnoon wedding accessories</h3>
+                    <p class="mt-2">Best September wedding accessories</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#f2574c"><div class="chart-circle-value fs "><span class="fas fa-anchor"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/photos/logo/mezon.jpg">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Shadi Mezon</h3>
+                    <p class="mt-2">Best September Mezon</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#45aaf2"><div class="chart-circle-value fs "><span class="fas fa-heart"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/photos/logo/images.png">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Sheida Hair Salons</h3>
+                    <p class="mt-2">Best September Hair Salon</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#DA70D6"><div class="chart-circle-value fs "><span class="fas fa-cut"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/photos/logo/sports-car-logo-1.png">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Top Car Decoration</h3>
+                    <p class="mt-2">Best September Car Decoration</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#32CD32"><div class="chart-circle-value fs "><span class="fas fa-car-alt"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="box">
+            <div class="icon">
+                <div class="image ">
+                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/photos/logo/cake.png">
+                </div>
+                <div class="info card pb-2">
+                    <h3 class="title mb-0">Sigol cake</h3>
+                    <p class="mt-2">Best September Confectionery</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#FF7F50"><div class="chart-circle-value fs "><span class="fas fa-birthday-cake"></span></div></div>
+                        <div class="mt-3">
+                            <span class="text-orange fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-orange fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-orange fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-orange fs-18"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title font-weight-bold">
@@ -266,18 +410,18 @@
                     <table id="example-6" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-center">Serial</th>
-                            <th class="wd-15p border-bottom-0 text-center">Type</th>
-                            <th class="wd-15p border-bottom-0 text-center">Requester</th>
-                            <th class="wd-10p border-bottom-0 text-center">Date</th>
-                            <th class="wd-25p border-bottom-0 text-center">Total Price</th>
-                            <th class="wd-25p border-bottom-0 text-center">For</th>
-                            <th class="wd-25p border-bottom-0 text-center">From</th>
-                            <th class="wd-25p border-bottom-0 text-center">To</th>
-                            <th class="wd-25p border-bottom-0 text-center">Relation</th>
-                            <th class="wd-25p border-bottom-0 text-center">Invoice</th>
-                            <th class="border-bottom-0 text-center">Status</th>
-                            <th></th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">Serial</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">Type</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">Requester</th>
+                            <th class="wd-10p border-bottom-0 text-center bg-primary">Date</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Total Price</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">For</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">From</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">To</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Relation</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Invoice</th>
+                            <th class="border-bottom-0 text-center bg-primary">Status</th>
+                            <th class=" bg-primary"></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -301,7 +445,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -324,7 +468,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
 
@@ -349,7 +493,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -372,7 +516,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -395,7 +539,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -418,7 +562,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -441,7 +585,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -464,7 +608,7 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm text-white"><i
-                                        class="fas fa-pen"></i> Edit</a>
+                                            class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
 
@@ -475,112 +619,20 @@
             <!-- table-wrapper -->
         </div>
     </div>
-    <div class="col-xl-3 col-lg-12 col-md-12">
-        <div class="box">
-            <div class="icon">
-                <div class="image ">
-                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
-                </div>
-                <div class="info card pb-2">
-                    <h3 class="title mb-0">Emarate Zarrin</h3>
-                    <p class="mt-2">Best September Hall</p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#ecb403"><div class="chart-circle-value fs "><span class="fas fa-landmark"></span></div></div>
-                        <div class="mt-3">
-                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-warning fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
-                        </div>
-                    </div>
-                </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Companies locations</h3>
+            </div>
+            <div class="card-body">
+                <div id="world-map-markers" class="h-400"></div>
             </div>
         </div>
-        <div class="box">
-            <div class="icon">
-                <div class="image ">
-                   <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
-                </div>
-                <div class="info card pb-2">
-                    <h3 class="title mb-0">Majnoon wedding accessories</h3>
-                    <p class="mt-2">Best September wedding accessories</p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#f2574c"><div class="chart-circle-value fs "><span class="fas fa-anchor"></span></div></div>
-                        <div class="mt-3">
-                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-danger fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icon">
-                <div class="image ">
-                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
-                </div>
-                <div class="info card pb-2">
-                    <h3 class="title mb-0">Shadi Mezon</h3>
-                    <p class="mt-2">Best September Mezon</p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#45aaf2"><div class="chart-circle-value fs "><span class="fas fa-heart"></span></div></div>
-                        <div class="mt-3">
-                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-info fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icon">
-                <div class="image ">
-                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
-                </div>
-                <div class="info card pb-2">
-                    <h3 class="title mb-0">Sheida Hair Salons</h3>
-                    <p class="mt-2">Best September Hair Salon</p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#DA70D6"><div class="chart-circle-value fs "><span class="fas fa-cut"></span></div></div>
-                        <div class="mt-3">
-                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-pink fs-18"><i class="fas fa-star"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icon">
-                <div class="image ">
-                    <img alt="User Avatar" class="rounded-circle mb-5" src="../assets/images/users/male/20.jpg">
-                </div>
-                <div class="info card pb-2">
-                    <h3 class="title mb-0">Top Car Decoration</h3>
-                    <p class="mt-2">Best September Car Decoration</p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <div class="chart-circle chart-circle-sm  mx-2" data-value="1" data-thickness="4" data-color="#32CD32"><div class="chart-circle-value fs "><span class="fas fa-car-alt"></span></div></div>
-                        <div class="mt-3">
-                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-lime fs-18"><i class="fas fa-star"></i></span>
-                            <span class="text-secondary fs-18"><i class="fas fa-star"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+    <div class="col-xl-4 col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title font-weight-bold">Recent Activity</h3>
@@ -620,6 +672,7 @@
         </div>
     </div>
 </div>
+
 
 
 <!-- Message Modal -->
@@ -875,12 +928,11 @@
                                                                 <label class="control-label form-label font-weight-bold" >Rate :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <select class="form-control" id="ProjectManager">
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                    <option></option>
-                                                                </select>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -894,6 +946,16 @@
                                                                     <option>commission (percentage)</option>
                                                                     <option>Fixed (constant amount)</option>
                                                                 </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold">Amount :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>

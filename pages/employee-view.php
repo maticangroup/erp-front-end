@@ -1339,11 +1339,11 @@
                 <table class="table card-table table-vcenter table-hover">
                     <thead >
                     <tr>
-                        <th></th>
-                        <th class="text-center">Equipment</th>
-                        <th class="text-center">Category</th>
-                        <th class="text-center">From Date</th>
-                        <th class="text-center">Status</th>
+                        <th class=" bg-primary"></th>
+                        <th class="text-center bg-primary">Equipment</th>
+                        <th class="text-center bg-primary">Category</th>
+                        <th class="text-center bg-primary">From Date</th>
+                        <th class="text-center bg-primary">Status</th>
                     </tr>
                     </thead>
                     <tbody>
