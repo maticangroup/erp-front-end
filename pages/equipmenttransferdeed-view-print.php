@@ -5,15 +5,102 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+               class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="javascript:void(0)" data-toggle="modal" data-target="#print-modal"
-               class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+               class="btn btn-dark "><i class="fas fa-print"></i> Print</a>
         </div>
     </div>
 </div>
 <!--page header-->
+<div class="row">
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro11.jpg">
+                        <span class="avatar-status bg-red"></span>
+                    </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shahla Sheidaie</a></h5>
+                <span> Requester</span>
+                <div >
+                    <span class="badge badge-default">leader</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro6.jpg">
+                        <span class="avatar-status bg-success"></span>
+                    </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Heshmat Heidari</a></h5>
+                <span>From</span>
+                <div >
+                    <span class="badge badge-default">Designer</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro18.jpg">
+                        <span class="avatar-status bg-success"></span>
+                    </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Rana Mansoor</a></h5>
+                <span>To</span>
+                <div >
+                    <span class="badge badge-default">Designer</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro3.jpg">
+                        <span class="avatar-status bg-success"></span>
+                    </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Rahmat Saboor</a></h5>
+                <span>Transfer Officer</span>
+                <div >
+                    <span class="badge badge-default">Transfer</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-xl-4 col-lg-12 col-md-12">
         <div id="transfer deed Info" class="card">
@@ -176,158 +263,11 @@
             </div>
         </div>
     </div>
-    <div class="col-xl-4 col-lg-12 col-md-12">
-        <div id="card1" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                    <span class="avatar-status bg-green"></span>
-                                </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Requester</a></h5>
-                <span>Simin Behbahani</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
-        </div>
-        <div id="card3" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                    <span class="avatar-status bg-red"></span>
-                                </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">To</a></h5>
-                <span>Hosein Azimi</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-4 col-lg-12 col-md-12">
-        <div id="card2" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#">
-                                <span class="avatar avatar-xxl brround cover-image m-2"
-                                      data-image-src="../assets/images/users/male/20.jpg">
-                                <span class="avatar-status bg-green"></span>
-                                </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">From</a></h5>
-                <span>Bahram Radan</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
-        </div>
-        <div id="card4" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                    <span class="avatar-status bg-red"></span>
-                                </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Transfer Officer</a></h5>
-                <span>Ehsan Rezvanian</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row mt-5">
-    <div class="col-md-12 col-lg-12">
+    <div class="col-md-12 col-lg-12 col-xl-8">
         <div class="card">
             <div class="card-header">
                 <div class="card-title mr-2 font-weight-bold">Equipment List</div>
-                <button type="button" class="btn btn-outline-primary float-right" data-toggle="modal"
+                <button type="button" class="btn btn-success ml-auto float-right" data-toggle="modal"
                         data-target="#eqlist-modal"><i class="fas  fa-plus"></i></button>
             </div>
             <div class="card-body">
@@ -335,12 +275,12 @@
                     <table id="example-5" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-left"></th>
-                            <th class="wd-15p border-bottom-0 text-center">EQUIPMENT</th>
-                            <th class="wd-15p border-bottom-0 text-center">SIZE RANG</th>
-                            <th class="wd-10p border-bottom-0 text-center">WEIGHT</th>
-                            <th class="wd-15p border-bottom-0 text-center">SAFETY REQUIREMENT</th>
-                            <th class="wd-25p border-bottom-0 text-center">Options</th>
+                            <th class="wd-15p border-bottom-0 text-left bg-primary"></th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">EQUIPMENT</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">SIZE RANG</th>
+                            <th class="wd-10p border-bottom-0 text-center bg-primary">WEIGHT</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">SAFETY REQUIREMENT</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Options</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -349,7 +289,7 @@
                             <td class="text-center">Heli shot NI370</td>
                             <td class="text-center">M</td>
                             <td class="text-center">2 Kg</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">GE097</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -364,7 +304,7 @@
                             <td class="text-center">Heli shot NI400</td>
                             <td class="text-center">M</td>
                             <td class="text-center">2.3 Kg</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">GE097</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -379,7 +319,7 @@
                             <td class="text-center">Camera Nikon D3400</td>
                             <td class="text-center">M</td>
                             <td class="text-center">2.7 Kg</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">FD097</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -394,7 +334,7 @@
                             <td class="text-center">Camera Nikon Z6</td>
                             <td class="text-center">L</td>
                             <td class="text-center">5 Kg</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">GF191</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -409,7 +349,7 @@
                             <td class="text-center">Tripod stand F50</td>
                             <td class="text-center">XL</td>
                             <td class="text-center">1.5 KG</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">GE097</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -424,7 +364,7 @@
                             <td class="text-center">Crane 0200</td>
                             <td class="text-center">XXXL</td>
                             <td class="text-center">90 KG</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">VD125</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -751,9 +691,6 @@
             </div>
             <div class="modal-body">
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">Equipment Transfer Deed</h3>
-                    </div>
                     <div class="card-body table-responsive border-bottom-0 mb-5">
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <thead class="border-top">
@@ -773,15 +710,15 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="3" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Requester</strong></th>
-                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="3" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Related To</strong></th>
                             </tr>
                             <tr>
                                 <td colspan="3" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe1.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro10.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold ">Simin Behbahani</div>
                                     <div><span class="font-weight-bold">Org Code :</span> EM 001233
@@ -807,17 +744,17 @@
                             <tr></tr>
                             <tr></tr>
                             <tr>
-                                <td colspan="6" class="text-center bg-indigo-lighter"><strong
+                                <td colspan="6" class="text-center bg-primary"><strong
                                             class="font-weight-bold ">Equipment list </strong></td>
                             </tr>
                             <tr>
-                                <th class="text-center bg-indigo-lighter font-weight-bold"></th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Equipment
+                                <th class="text-center bg-primary  font-weight-bold"></th>
+                                <th class="text-center bg-primary font-weight-bold">Equipment
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Size Rang
+                                <th class="text-center bg-primary  font-weight-bold">Size Rang
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">weight</th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Safety
+                                <th class="text-center bg-primary font-weight-bold">weight</th>
+                                <th class="text-center bg-primary font-weight-bold">Safety
                                     Requirement
                                 </th>
                             </tr>
@@ -826,42 +763,42 @@
                                 <td class="text-center">Heli shot NI370</td>
                                 <td class="text-center">M</td>
                                 <td class="text-center">2 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">2</td>
                                 <td class="text-center">Heli shot NI400</td>
                                 <td class="text-center">M</td>
                                 <td class="text-center">2.3 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">3</td>
                                 <td class="text-center">Camera Nikon D3400</td>
                                 <td class="text-center">M</td>
                                 <td class="text-center">2.7 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">4</td>
                                 <td class="text-center">Camera Nikon Z6</td>
                                 <td class="text-center">L</td>
                                 <td class="text-center">5 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">5</td>
                                 <td class="text-center">Tripod stand F50</td>
                                 <td class="text-center">XXXL</td>
                                 <td class="text-center">90 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">6</td>
                                 <td class="text-center">Crane 0200</td>
                                 <td class="text-center">XXL</td>
                                 <td class="text-center">5 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             </tbody>
                         </table>
@@ -870,17 +807,17 @@
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <tbody>
                             <tr>
-                                <th colspan="2" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">From</strong></th>
-                                <th colspan="2" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">To</strong></th>
-                                <th colspan="2" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Transfer Officer </strong></th>
                             </tr>
                             <tr>
                                 <td colspan="2" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe2.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro7.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold ">Bahram Radan</div>
                                     <div><span class="font-weight-bold">Org code :</span> EM 0010506
@@ -893,7 +830,7 @@
                                 </td>
                                 <td colspan="2" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe3.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro9.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold ">Hossein Azimi</div>
                                     <div><span class="font-weight-bold">Org code :</span> EM 0010506
@@ -905,7 +842,7 @@
                                 </td>
                                 <td colspan="2" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe4.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro3.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold "> Ehsan Rezvanian</div>
                                     <div><span class="font-weight-bold">Org code :</span> EM 0010506
@@ -923,28 +860,28 @@
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <tbody>
                             <tr>
-                                <th colspan="2" class="text-center bg-indigo-lighter font-weight-bold ">
+                                <th colspan="2" class="text-center bg-primary font-weight-bold ">
                                     <strong class="font-weight-bold">Transfer Info</strong></th>
-                                <th colspan="4" class="text-center bg-indigo-lighter font-weight-bold ">
+                                <th colspan="4" class="text-center bg-primary font-weight-bold ">
                                     <strong class="font-weight-bold">Address & Location </strong></th>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Transfer date</th>
+                                <th class="bg-primary font-weight-bold ">Transfer date</th>
                                 <td class="text-center">23/08/2019</td>
                                 <td rowspan="4" class="pb-0">
                                     <img src="../assets/images/photos/exe5.png" class="float-right">
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Transfer time</th>
+                                <th class="bg-primary font-weight-bold ">Transfer time</th>
                                 <td class="text-center">10:00:00 AM</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Delivery time</th>
+                                <th class="bg-primary font-weight-bold ">Delivery time</th>
                                 <td class="text-center">11:30:00 PM</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Delivery method</th>
+                                <th class="bg-primary font-weight-bold ">Delivery method</th>
                                 <td class="text-center">Pickup truck</td>
                             </tr>
                             </tbody>

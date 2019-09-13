@@ -7,12 +7,12 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal3-2"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+               class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
-            <a href="#" class="btn btn-primary btn-sm bg-red"><i
+            <a href="#" class="btn btn-primary  bg-red"><i
                         class="fas fa-trash mr-1"></i>Delete</a>
-            <a href="#" class="btn btn-primary btn-sm bg-info"><i
+            <a href="#" class="btn btn-primary  bg-info"><i
                         class="fas fa-print mr-1"></i>Preview & Print</a>
 
         </div>
