@@ -691,9 +691,6 @@
             </div>
             <div class="modal-body">
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">Equipment Transfer Deed</h3>
-                    </div>
                     <div class="card-body table-responsive border-bottom-0 mb-5">
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <thead class="border-top">
@@ -713,9 +710,9 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="3" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Requester</strong></th>
-                                <th colspan="3" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="3" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Related To</strong></th>
                             </tr>
                             <tr>
@@ -747,17 +744,17 @@
                             <tr></tr>
                             <tr></tr>
                             <tr>
-                                <td colspan="6" class="text-center bg-indigo-lighter"><strong
+                                <td colspan="6" class="text-center bg-primary"><strong
                                             class="font-weight-bold ">Equipment list </strong></td>
                             </tr>
                             <tr>
-                                <th class="text-center bg-indigo-lighter font-weight-bold"></th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Equipment
+                                <th class="text-center bg-primary  font-weight-bold"></th>
+                                <th class="text-center bg-primary font-weight-bold">Equipment
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Size Rang
+                                <th class="text-center bg-primary  font-weight-bold">Size Rang
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">weight</th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Safety
+                                <th class="text-center bg-primary font-weight-bold">weight</th>
+                                <th class="text-center bg-primary font-weight-bold">Safety
                                     Requirement
                                 </th>
                             </tr>
@@ -766,42 +763,42 @@
                                 <td class="text-center">Heli shot NI370</td>
                                 <td class="text-center">M</td>
                                 <td class="text-center">2 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">2</td>
                                 <td class="text-center">Heli shot NI400</td>
                                 <td class="text-center">M</td>
                                 <td class="text-center">2.3 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">3</td>
                                 <td class="text-center">Camera Nikon D3400</td>
                                 <td class="text-center">M</td>
                                 <td class="text-center">2.7 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">4</td>
                                 <td class="text-center">Camera Nikon Z6</td>
                                 <td class="text-center">L</td>
                                 <td class="text-center">5 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">5</td>
                                 <td class="text-center">Tripod stand F50</td>
                                 <td class="text-center">XXXL</td>
                                 <td class="text-center">90 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             <tr>
                                 <td class="text-center">6</td>
                                 <td class="text-center">Crane 0200</td>
                                 <td class="text-center">XXL</td>
                                 <td class="text-center">5 Kg</td>
-                                <td class="text-center"></td>
+                                <td class="text-center">CD056</td>
                             </tr>
                             </tbody>
                         </table>
@@ -810,11 +807,11 @@
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <tbody>
                             <tr>
-                                <th colspan="2" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">From</strong></th>
-                                <th colspan="2" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">To</strong></th>
-                                <th colspan="2" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Transfer Officer </strong></th>
                             </tr>
                             <tr>
@@ -863,28 +860,28 @@
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <tbody>
                             <tr>
-                                <th colspan="2" class="text-center bg-indigo-lighter font-weight-bold ">
+                                <th colspan="2" class="text-center bg-primary font-weight-bold ">
                                     <strong class="font-weight-bold">Transfer Info</strong></th>
-                                <th colspan="4" class="text-center bg-indigo-lighter font-weight-bold ">
+                                <th colspan="4" class="text-center bg-primary font-weight-bold ">
                                     <strong class="font-weight-bold">Address & Location </strong></th>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Transfer date</th>
+                                <th class="bg-primary font-weight-bold ">Transfer date</th>
                                 <td class="text-center">23/08/2019</td>
                                 <td rowspan="4" class="pb-0">
                                     <img src="../assets/images/photos/exe5.png" class="float-right">
                                 </td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Transfer time</th>
+                                <th class="bg-primary font-weight-bold ">Transfer time</th>
                                 <td class="text-center">10:00:00 AM</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Delivery time</th>
+                                <th class="bg-primary font-weight-bold ">Delivery time</th>
                                 <td class="text-center">11:30:00 PM</td>
                             </tr>
                             <tr>
-                                <th class="bg-indigo-lighter font-weight-bold ">Delivery method</th>
+                                <th class="bg-primary font-weight-bold ">Delivery method</th>
                                 <td class="text-center">Pickup truck</td>
                             </tr>
                             </tbody>
