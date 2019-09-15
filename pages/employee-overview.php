@@ -1070,7 +1070,7 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button class="btn btn-dark float-right ml-auto p-1 mr-3  ">Add to list</button>
+                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">Add to list</button>
                                                         </div>
                                                     </div>
 
@@ -1424,7 +1424,7 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button class="btn btn-dark float-right ml-auto p-1 mr-3  ">Add to list</button>
+                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">Add to list</button>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
