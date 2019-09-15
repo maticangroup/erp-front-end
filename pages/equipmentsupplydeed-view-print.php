@@ -155,8 +155,31 @@
                 </div>
             </div>
         </div>
+        <div class="card text-center border-info">
+            <div class="card-body">
+                <p class="mb-0 ">Ready for deliver</p>
+                <h2 class=" mb-0">4</h2>
+            </div>
+        </div>
     </div>
-
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="hero-widget card ">
+            <i class="fas fa-cog text-primary fa-3x mb-4"></i>
+            <div class="text">
+                <var>5</var>
+                <label class="text-muted">Total equipment for supply</label>
+            </div>
+            <div class="options">
+                <a href="javascript:;" class="btn btn-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit</a>
+            </div>
+        </div>
+        <div class="card text-center border-success">
+            <div class="card-body">
+                <p class="mb-0 ">Accept by TQM</p>
+                <h2 class=" mb-0">2</h2>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="row mt-5">
@@ -538,15 +561,15 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th colspan="4" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="4" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Requester</strong></th>
-                                <th colspan="4" class="text-center font-weight-bold bg-indigo-lighter">
+                                <th colspan="4" class="text-center font-weight-bold bg-primary">
                                     <strong class="font-weight-bold">Related To</strong></th>
                             </tr>
                             <tr>
                                 <td colspan="4" rowspan="4" class="text-center">
                                     <div><span class="avatar avatar-xxl brround cover-image m-4"
-                                               data-image-src="../assets/images/photos/exe1.jpg"></span>
+                                               data-image-src="../assets/images/photos/pro1.jpg"></span>
                                     </div>
                                     <div class="font-weight-bold ">Simin Behbahani</div>
                                     <div><span class="font-weight-bold">Org Code :</span> EM 001233
@@ -570,21 +593,21 @@
                             <tr></tr>
                             <tr></tr>
                             <tr>
-                                <td colspan="8" class="text-center bg-indigo-lighter"><strong
+                                <td colspan="8" class="text-center bg-primary"><strong
                                             class="font-weight-bold text-b">Equipment list </strong></td>
                             </tr>
                             <tr>
-                                <th class="text-center bg-indigo-lighter font-weight-bold"></th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Equipment
+                                <th class="text-center bg-primary font-weight-bold"></th>
+                                <th class="text-center bg-primary font-weight-bold">Equipment
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Category</th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">From Date
+                                <th class="text-center bg-primary font-weight-bold">Category</th>
+                                <th class="text-center bg-primary font-weight-bold">From Date
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">To Date</th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">From Time
+                                <th class="text-center bg-primary font-weight-bold">To Date</th>
+                                <th class="text-center bg-primary font-weight-bold">From Time
                                 </th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">To Time</th>
-                                <th class="text-center bg-indigo-lighter font-weight-bold">Status</th>
+                                <th class="text-center bg-primary font-weight-bold">To Time</th>
+                                <th class="text-center bg-primary font-weight-bold">Status</th>
                             </tr>
                             <tr>
                                 <td class="text-center">1</td>

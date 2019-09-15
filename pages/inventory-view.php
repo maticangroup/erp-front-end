@@ -18,38 +18,22 @@
 
 <div class="row">
     <div class="col-xl-4 col-md-12 col-lg-12">
-        <div id="card" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                <span class="avatar-status bg-green"></span>
-                            </span>
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro6.jpg">
+                        <span class="avatar-status bg-red"></span>
+                    </span>
                 </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Inventory Keeper</a></h5>
-                <span>Abbas Amiri</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shahin Samadi</a></h5>
+                <span>Responsible</span>
+                <div >
+                    <span class="badge badge-default">keeper</span>
                 </div>
                 <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
@@ -185,418 +169,417 @@
     </div>
 </div>
 
-<div id="equipment table" class="row mt-5">
-    <div class="col-md-12 col-lg-12">
+
+<div class="row">
+    <div class="col-md-12 col-xl-12">
         <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2 font-weight-bold">Equipment</div>
-                <button type="button" class="btn btn-outline-primary float-right" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
+            <div class="card-body p-5">
+                <div class="panel panel-primary">
+                    <div class="  p-3 ">
+                        <div class="tabs-menu ">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Equipments</a></li>
+                                <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab"> Shelves</a></li>
+                                <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Zones</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel-body  tabs-menu-body border-0 ">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab1-1">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-title mr-2 font-weight-bold">Equipment</div>
+                                        <button type="button" class="btn btn-success float-right ml-auto" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive ">
+                                            <table id="example-5" class="table table-striped table-bordered">
+                                                <thead>
+                                                <tr>
+                                                    <th class="border-bottom-0">Name</th>
+                                                    <th class="border-bottom-0 text-center">Label</th>
+                                                    <th class="border-bottom-0 text-center">Zone</th>
+                                                    <th class="border-bottom-0 text-center">Shelf</th>
+                                                    <th class="border-bottom-0 text-center">Category</th>
+                                                    <th class="border-bottom-0 text-center">Size(Cm)</th>
+                                                    <th class="border-bottom-0 text-center">Weight(Kg)</th>
+                                                    <th class="border-bottom-0 text-center">Status</th>
+                                                    <th class="border-bottom-0 text-center">Actions</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Camera</td>
+                                                    <td class="text-center">12</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">03</td>
+                                                    <td class="text-center">Digital</td>
+                                                    <td class="text-center">65*85</td>
+                                                    <td class="text-center">1.2</td>
+                                                   <td class="text-center"><span class="tag tag-danger">Broken</span></td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tv</td>
+                                                    <td class="text-center">69</td>
+                                                    <td class="text-center">D</td>
+                                                    <td class="text-center">06</td>
+                                                    <td class="text-center">Digital</td>
+                                                    <td class="text-center">15*76</td>
+                                                    <td class="text-center">9</td>
+                                                    <td class="text-center"><span class="tag tag-success">Available</span></td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Tablet</td>
+                                                    <td class="text-center">119</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">01</td>
+                                                    <td class="text-center">Digital</td>
+                                                    <td class="text-center">94*56</td>
+                                                    <td class="text-center">0.5</td>
+                                                    <td class="text-center"><span class="tag tag-warning">In use</span></td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Video camera</td>
+                                                    <td class="text-center">51</td>
+                                                    <td class="text-center">C</td>
+                                                    <td class="text-center">13</td>
+                                                    <td class="text-center">Digital</td>
+                                                    <td class="text-center">40*12</td>
+                                                    <td class="text-center">1.5</td>
+                                                    <td class="text-center"><span class="tag tag-success">Available</span></td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Camera Stand</td>
+                                                    <td class="text-center">88</td>
+                                                    <td class="text-center">B</td>
+                                                    <td class="text-center">09</td>
+                                                    <td class="text-center">Digital</td>
+                                                    <td class="text-center">195*56</td>
+                                                    <td class="text-center">3</td>
+                                                    <td class="text-center"><span class="tag tag-warning">In use</span></td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!-- table-wrapper -->
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab2-2">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-title mr-2 font-weight-bold">Shelves</div>
+                                        <button type="button" class="btn btn-success float-right ml-auto" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive ">
+                                            <table id="example-3" class="table table-striped table-bordered">
+                                                <thead>
+                                                <tr>
+                                                    <th class="border-bottom-0">Name</th>
+                                                    <th class="border-bottom-0 text-center">Inventory</th>
+                                                    <th class="border-bottom-0 text-center">Zone</th>
+                                                    <th class="border-bottom-0 text-center">Length (cm)</th>
+                                                    <th class="border-bottom-0 text-center">Width (cm)</th>
+                                                    <th class="border-bottom-0 text-center">Height (cm)</th>
+                                                    <th class="border-bottom-0 text-center">Capacity</th>
+                                                    <th class="border-bottom-0 text-center">Actions</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>01</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">300</td>
+                                                    <td class="text-center">30</td>
+                                                    <td class="text-center">50</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-warning w-35 font-weight-bold">35%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>02</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">120</td>
+                                                    <td class="text-center">30</td>
+                                                    <td class="text-center">60</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-danger w-90 font-weight-bold ">90%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>03</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">800</td>
+                                                    <td class="text-center">50</td>
+                                                    <td class="text-center">120</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-danger w-70 font-weight-bold">70%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>04</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">500</td>
+                                                    <td class="text-center">30</td>
+                                                    <td class="text-center">100</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-warning w-50 font-weight-bold">50%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>05</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">A</td>
+                                                    <td class="text-center">180</td>
+                                                    <td class="text-center">80</td>
+                                                    <td class="text-center">150</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-success w-20 font-weight-bold">20%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!-- table-wrapper -->
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab3-3">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-title mr-2 font-weight-bold">Zones</div>
+                                        <button type="button" class="btn btn-success float-right ml-auto" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive ">
+                                            <table id="example-2" class="table table-striped table-bordered">
+                                                <thead>
+                                                <tr>
+                                                    <th class="border-bottom-0">Name</th>
+                                                    <th class="border-bottom-0 text-center">Inventory</th>
+                                                    <th class="border-bottom-0 text-center">Num of Shelves</th>
+                                                    <th class="border-bottom-0 text-center">Capacity</th>
+                                                    <th class="border-bottom-0 text-center">Actions</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>A</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">13</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-success w-30 font-weight-bold">30%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>B</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">42</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-success w-5 font-weight-bold">5%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>C</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">69</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-red w-20 font-weight-bold">85%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>D</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">32</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-warning w-60 font-weight-bold">60%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>E</td>
+                                                    <td class="text-center">Number Five</td>
+                                                    <td class="text-center">113</td>
+                                                    <td class="text-center">
+                                                        <div class="progress progress-md mb-3">
+                                                            <div class="progress-bar bg-red w-70 font-weight-bold">70%</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="/inventory-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
+                                                        <a class="icon" href="javascript:void(0)"></a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!-- table-wrapper -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card-body">
-                <div class="table-responsive ">
-                    <table id="example-5" class="table table-striped table-bordered">
-                        <thead>
-                        <tr>
-                            <th class="border-bottom-0">Name</th>
-                            <th class="border-bottom-0 text-center">Label</th>
-                            <th class="border-bottom-0 text-center">Zone</th>
-                            <th class="border-bottom-0 text-center">Shelf</th>
-                            <th class="border-bottom-0 text-center">Category</th>
-                            <th class="border-bottom-0 text-center">Size(Cm)</th>
-                            <th class="border-bottom-0 text-center">Weight(Kg)</th>
-                            <th class="border-bottom-0 text-center">Status</th>
-                            <th class="border-bottom-0 text-center">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Camera</td>
-                            <td class="text-center">12</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">03</td>
-                            <td class="text-center">Digital</td>
-                            <td class="text-center">65*85</td>
-                            <td class="text-center">1.2</td>
-                            <td class="text-center">Broken</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Tv</td>
-                            <td class="text-center">69</td>
-                            <td class="text-center">D</td>
-                            <td class="text-center">06</td>
-                            <td class="text-center">Digital</td>
-                            <td class="text-center">15*76</td>
-                            <td class="text-center">9</td>
-                            <td class="text-center">Available</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Tablet</td>
-                            <td class="text-center">119</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">01</td>
-                            <td class="text-center">Digital</td>
-                            <td class="text-center">94*56</td>
-                            <td class="text-center">0.5</td>
-                            <td class="text-center"><span class="tag tag-warning">In use</span></td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Video camera</td>
-                            <td class="text-center">51</td>
-                            <td class="text-center">C</td>
-                            <td class="text-center">13</td>
-                            <td class="text-center">Digital</td>
-                            <td class="text-center">40*12</td>
-                            <td class="text-center">1.5</td>
-                            <td class="text-center">Available</td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Camera Stand</td>
-                            <td class="text-center">88</td>
-                            <td class="text-center">B</td>
-                            <td class="text-center">09</td>
-                            <td class="text-center">Digital</td>
-                            <td class="text-center">195*56</td>
-                            <td class="text-center">3</td>
-                            <td class="text-center"><span class="tag tag-warning">In use</span></td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- table-wrapper -->
         </div>
-        <!-- section-wrapper -->
     </div>
 </div>
-
-<div id="Shelves table" class="row mt-5">
-    <div class="col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2 font-weight-bold">Shelves</div>
-                <button type="button" class="btn btn-outline-primary float-right" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive ">
-                    <table id="example-3" class="table table-striped table-bordered">
-                        <thead>
-                        <tr>
-                            <th class="border-bottom-0">Name</th>
-                            <th class="border-bottom-0 text-center">Inventory</th>
-                            <th class="border-bottom-0 text-center">Zone</th>
-                            <th class="border-bottom-0 text-center">Length (cm)</th>
-                            <th class="border-bottom-0 text-center">Width (cm)</th>
-                            <th class="border-bottom-0 text-center">Height (cm)</th>
-                            <th class="border-bottom-0 text-center">Capacity</th>
-                            <th class="border-bottom-0 text-center">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>01</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">300</td>
-                            <td class="text-center">30</td>
-                            <td class="text-center">50</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-35 font-weight-bold">35%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>02</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">120</td>
-                            <td class="text-center">30</td>
-                            <td class="text-center">60</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-danger w-90 font-weight-bold ">90%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>03</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">800</td>
-                            <td class="text-center">50</td>
-                            <td class="text-center">120</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-danger w-70 font-weight-bold">70%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>04</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">500</td>
-                            <td class="text-center">30</td>
-                            <td class="text-center">100</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-50 font-weight-bold">50%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>05</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">A</td>
-                            <td class="text-center">180</td>
-                            <td class="text-center">80</td>
-                            <td class="text-center">150</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-20 font-weight-bold">20%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- table-wrapper -->
-        </div>
-        <!-- section-wrapper -->
-    </div>
-</div>
-
-<div id="Zones table" class="row mt-5">
-    <div class="col-md-12 col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title mr-2 font-weight-bold">Zones</div>
-                <button type="button" class="btn btn-outline-primary float-right" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas  fa-plus"></i></button>
-                <div class="card-options d-none d-sm-block mr-1">
-                    <a href="#" class="btn btn-outline-primary">Export <i
-                                class="fas fa-file-export"></i></a>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive ">
-                    <table id="example-2" class="table table-striped table-bordered">
-                        <thead>
-                        <tr>
-                            <th class="border-bottom-0">Name</th>
-                            <th class="border-bottom-0 text-center">Inventory</th>
-                            <th class="border-bottom-0 text-center">Num of Shelves</th>
-                            <th class="border-bottom-0 text-center">Capacity</th>
-                            <th class="border-bottom-0 text-center">Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>A</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">13</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-30 font-weight-bold">30%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>B</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">42</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-5 font-weight-bold">5%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>C</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">69</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-20 font-weight-bold">85%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>D</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">32</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-warning w-60 font-weight-bold">60%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>E</td>
-                            <td class="text-center">Number Five</td>
-                            <td class="text-center">113</td>
-                            <td class="text-center">
-                                <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-red w-70 font-weight-bold">70%</div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/inventory-view" class="btn btn-dark btn-sm"><i
-                                            class="fas fa-eye"></i> View</a>
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal"
-                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                            class="fas fa-pen"></i> Edit</a>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- table-wrapper -->
-        </div>
-        <!-- section-wrapper -->
-    </div>
-</div>
-
 
 <!--Modals-->
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">

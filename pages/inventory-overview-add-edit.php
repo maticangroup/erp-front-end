@@ -237,23 +237,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Choose Purchase Deed :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control">
-                                                                    <option>......</option>
-                                                                    <option>......</option>
-                                                                    <option>......</option>
-                                                                    <option>......</option>
-                                                                    <option>......</option>
-                                                                    <option>......</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
