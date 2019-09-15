@@ -33,7 +33,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>1354v18</td>
+                            <td class="text-center">1354v18</td>
                             <td class="text-center">2</td>
                             <td class="text-center">12 February 2019</td>
                             <td class="text-center">Majid Moghadam</td>
@@ -53,7 +53,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>243sx235</td>
+                            <td class="text-center">243sx235</td>
                             <td class="text-center">11</td>
                             <td class="text-center">26 March 2020</td>
                             <td class="text-center">Salehe Rafie</td>
@@ -73,7 +73,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>23adc4544</td>
+                            <td class="text-center">23adc4544</td>
                             <td class="text-center">12</td>
                             <td class="text-center">03 June 2018</td>
                             <td class="text-center">Mohsen Foruzan</td>
@@ -93,7 +93,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>2134as235</td>
+                            <td class="text-center">2134as235</td>
                             <td class="text-center">5</td>
                             <td class="text-center">11 April 2019</td>
                             <td class="text-center">Saba Sabaghi</td>
@@ -113,7 +113,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>2134r23</td>
+                            <td class="text-center">2134r23</td>
                             <td class="text-center">2</td>
                             <td class="text-center">19 April 2017</td>
                             <td class="text-center">Nastaran Yavari</td>
@@ -133,7 +133,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>1354v18</td>
+                            <td class="text-center">1354v18</td>
                             <td class="text-center">2</td>
                             <td class="text-center">12 February 2019</td>
                             <td class="text-center">Majid Moghadam</td>
@@ -153,7 +153,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>243sx235</td>
+                            <td class="text-center">243sx235</td>
                             <td class="text-center">11</td>
                             <td class="text-center">26 March 2020</td>
                             <td class="text-center">Salehe Rafie</td>
@@ -173,7 +173,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>23adc4544</td>
+                            <td class="text-center">23adc4544</td>
                             <td class="text-center">12</td>
                             <td class="text-center">03 June 2018</td>
                             <td class="text-center">Mohsen Foruzan</td>
@@ -193,7 +193,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>2134as235</td>
+                            <td class="text-center">2134as235</td>
                             <td class="text-center">5</td>
                             <td class="text-center">11 April 2019</td>
                             <td class="text-center">Saba Sabaghi</td>
@@ -213,7 +213,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>2134r23</td>
+                            <td class="text-center">2134r23</td>
                             <td class="text-center">2</td>
                             <td class="text-center">19 April 2017</td>
                             <td class="text-center">Nastaran Yavari</td>
@@ -856,7 +856,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">New Equipment Transfer Deed</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Equipment Transfer Deed</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

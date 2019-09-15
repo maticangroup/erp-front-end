@@ -5,11 +5,11 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+               class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="javascript:void(0)" data-toggle="modal" data-target="#print-modal"
-               class="btn btn-indigo btn-sm"><i class="fas fa-print"></i> Print</a>
+               class="btn btn-dark "><i class="fas fa-print"></i> Print</a>
         </div>
     </div>
 </div>
@@ -17,66 +17,24 @@
 
 
 <div class="row">
-    <div class="col-xl-4 col-lg-12 col-md-12">
-        <div id="card1" class="card pb-5">
-            <div class="flexbox align-items-center px-20 pt-20">
-                <div class="dropdown">
-                    <a aria-expanded="false" data-toggle="dropdown" href="#"><i
-                                class="fas fa-ellipsis-h rotate-90 text-muted"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#"><i class="fa fa-fw fa-comments"></i>
-                            Message</a> <a class="dropdown-item" href="#"><i
-                                    class="fa fa-fw fa-phone"></i> Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body text-center pt-1 ">
-                <a href="#"><span class="avatar avatar-xxl brround cover-image m-2"
-                                  data-image-src="../assets/images/users/male/20.jpg">
-                                    <span class="avatar-status bg-green"></span>
-                                </span>
-                </a>
-                <h5 class="mt-2 mb-0"><a class="hover-primary" href="#">Requester</a></h5>
-                <span>Simin Behbahani</span>
-                <div class="mt-3">
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-warning"><i class="fas fa-star"></i></span>
-                    <span class="text-secondary"><i class="fas fa-star"></i></span>
-                </div>
-                <div class="mt-4">
-                    <a href="#" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn btn-lime btn-sm"><i class="fas fa-phone"></i> Call</a>
-                    <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-envelope"></i>
-                        Massage</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-8 col-lg-12 col-md-12">
+    <div class="col-xl-6 col-lg-12 col-md-12">
         <div id="transfer deed Info" class="card">
             <div class="card-header">
                 <h3 class="card-title font-weight-bold">Supply Deed Info</h3>
             </div>
             <div class="card-body p-3">
                 <div class="panel panel-primary">
-                    <div class="  ">
-                        <div class="tabs-menu1 ">
-                            <!-- Tabs -->
-                            <ul class="nav panel-tabs">
-                                <li class=""><a href="#tab1.1" class="active font-weight-bold"
-                                                data-toggle="tab">Basic Info</a></li>
-                                <li><a href="#tab2.2" class="font-weight-bold"
-                                       data-toggle="tab">Times</a></li>
-                                <li><a href="#tab3.3" class="font-weight-bold" data-toggle="tab">Activities</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="tabs-menu ">
+                        <!-- Tabs -->
+                        <ul class="nav panel-tabs">
+                            <li class=""><a href="#tab11-11" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                            <li><a href="#tab22-22" class="font-weight-bold" data-toggle="tab">Times</a></li>
+                            <li><a href="#tab33-33" class="font-weight-bold" data-toggle="tab">Activities</a></li>
+                        </ul>
                     </div>
                     <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
-                            <div class="tab-pane active " id="tab1.1">
+                            <div class="tab-pane active " id="tab11-11">
                                 <div id="basic info" class="p-3 text-left">
                                     <div class="media-list">
                                         <div class="media mt-1 pb-2">
@@ -108,7 +66,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane " id="tab2.2">
+                            <div class="tab-pane " id="tab22-22">
                                 <div id="task time" class="p-3 text-left">
                                     <div class="media-list">
                                         <div class="media mt-1 pb-2">
@@ -141,7 +99,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane " id="tab3.3">
+                            <div class="tab-pane " id="tab33-33">
                                 <!--  <div id="task time" class="p-3 text-left">
                                        <div class="media-list">
                                            <div class="media mt-1 pb-2">
@@ -177,6 +135,28 @@
             </div>
         </div>
     </div>
+    <div class="col-xl-3 col-lg-12 col-md-12">
+        <div class="card ">
+            <div class="card-body text-center pt-3 ">
+                <a href="#">
+                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro11.jpg">
+                        <span class="avatar-status bg-red"></span>
+                    </span>
+                </a>
+                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shahla Sheidaie</a></h5>
+                <span> Requester</span>
+                <div >
+                    <span class="badge badge-default">leader</span>
+                </div>
+                <div class="mt-4">
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <div class="row mt-5">
@@ -184,7 +164,7 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-title mr-2 font-weight-bold">Equipment List</div>
-                <button type="button" class="btn btn-outline-primary float-right" data-toggle="modal"
+                <button type="button" class="btn btn-success float-right ml-auto" data-toggle="modal"
                         data-target="#eqlist-modal"><i class="fas  fa-plus"></i></button>
             </div>
             <div class="card-body">
@@ -192,15 +172,15 @@
                     <table id="example-5" class="table table-striped table-bordered">
                         <thead>
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-left"></th>
-                            <th class="wd-15p border-bottom-0 text-center">EQUIPMENT</th>
-                            <th class="wd-15p border-bottom-0 text-center">Category</th>
-                            <th class="wd-15p border-bottom-0 text-center">From Date</th>
-                            <th class="wd-10p border-bottom-0 text-center">To Date</th>
-                            <th class="wd-15p border-bottom-0 text-center">From time</th>
-                            <th class="wd-15p border-bottom-0 text-center">To Time</th>
-                            <th class="wd-15p border-bottom-0 text-center">Status</th>
-                            <th class="wd-25p border-bottom-0 text-center">Options</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary"></th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">EQUIPMENT</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">Category</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">From Date</th>
+                            <th class="wd-10p border-bottom-0 text-center bg-primary">To Date</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">From time</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">To Time</th>
+                            <th class="wd-15p border-bottom-0 text-center bg-primary">Status</th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Options</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -212,7 +192,7 @@
                             <td class="text-center">26/08/2019</td>
                             <td class="text-center">12:00:00 AM</td>
                             <td class="text-center">10:00:00 PM</td>
-                            <td class="text-center">Requested</td>
+                            <td class="text-center"><span class="status-icon bg-pink"></span>Requested</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -230,7 +210,7 @@
                             <td class="text-center">26/08/2019</td>
                             <td class="text-center">12:00:00 AM</td>
                             <td class="text-center">10:00:00 PM</td>
-                            <td class="text-center">Requested</td>
+                            <td class="text-center"><span class="status-icon bg-pink"></span>Requested</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -248,7 +228,7 @@
                             <td class="text-center">26/08/2019</td>
                             <td class="text-center">12:00:00 AM</td>
                             <td class="text-center">10:00:00 PM</td>
-                            <td class="text-center">Rejected</td>
+                            <td class="text-center"><span class="status-icon bg-red"></span>Rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -266,7 +246,7 @@
                             <td class="text-center">26/08/2019</td>
                             <td class="text-center">12:00:00 AM</td>
                             <td class="text-center">10:00:00 PM</td>
-                            <td class="text-center">Ready To Delivery</td>
+                            <td class="text-center"><span class="status-icon bg-warning"></span>Ready To Delivery</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -284,7 +264,7 @@
                             <td class="text-center">26/08/2019</td>
                             <td class="text-center">12:00:00 AM</td>
                             <td class="text-center">10:00:00 PM</td>
-                            <td class="text-center">Supply Inventory</td>
+                            <td class="text-center"><span class="status-icon bg-success"></span>Supply Inventory</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -302,7 +282,7 @@
                             <td class="text-center">26/08/2019</td>
                             <td class="text-center">12:00:00 AM</td>
                             <td class="text-center">10:00:00 PM</td>
-                            <td class="text-center">Ready To Delivery</td>
+                            <td class="text-center"><span class="status-icon bg-warning"></span>Ready To Delivery</td>
                             <td class="text-center">
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal"
@@ -328,67 +308,184 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">New Equipment Supply Deed</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Equipment Supply Deed</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="form-control-label mr-1 font-weight-bold">Related
-                                        to:</label>
-                                    <div class="card-body p-0">
-                                        <div class="panel panel-primary">
-                                            <div class="  ">
-                                                <div class="tabs-menu1 ">
-                                                    <!-- Tabs -->
-                                                    <ul class="nav panel-tabs">
-                                                        <li class=""><a href="#tab1-1" class="active text-dark" data-toggle="tab">Project</a></li>
-                                                        <li><a href="#tab2-2" data-toggle="tab" class="text-dark">Deal</a></li>
-                                                        <li><a href="#tab3-3" data-toggle="tab" class="text-dark">Organization</a></li>
-                                                    </ul>
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Time</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Relation</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">Inform</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="tab1-1">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">From date : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">To date : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromTime">From time :  </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required"
+                                                                           id="FromTime"
+                                                                           name="FromTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="toTime">To time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control required"
+                                                                           id="toTime"
+                                                                           name="toTime" type="time">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="panel-body  tabs-menu-body border-0">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active " id="tab1-1">
-                                                        <div class="form-group ">
-                                                            <select class="form-control select2-show-search "
-                                                                    data-placeholder="Choose one">
-                                                                <option value="p1">project 1</option>
-                                                                <option value="p2">project 2</option>
-                                                                <option value="p3">project 3</option>
-                                                                <option value="p4">project 4</option>
-                                                                <option value="p5">project 5</option>
-                                                            </select>
+                                        </div>
+                                        <div class="tab-pane" id="tab2-2">
+                                            <div class="row mt-3">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="relation">Related To </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <!-- Accordion begin -->
+                                                                <ul class="demo-accordion accordionjs m-0"
+                                                                    data-active-index="false">
+                                                                    <!-- Section 1 -->
+                                                                    <li>
+                                                                        <div><h3 id="">Deal</h3></div>
+                                                                        <div>
+                                                                            <div class="form-group ">
+                                                                                <select class="form-control select2-show-search "
+                                                                                        id="relation"
+                                                                                        data-placeholder="Choose one">
+                                                                                    <option value="p1">Deal 1</option>
+                                                                                    <option value="p2">Deal 2</option>
+                                                                                    <option value="p3">Deal 3</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 2 -->
+                                                                    <li>
+                                                                        <div><h3>Project</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                    <!-- Section 3 -->
+                                                                    <li>
+                                                                        <div><h3>Organization</h3></div>
+                                                                        <div>
+                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="tab-pane " id="tab2-2">
-                                                        <div class="form-group">
-                                                            <select class="form-control select2-show-search"
-                                                                    data-placeholder="Choose one (with searchbox)">
-                                                                <option value="d1">Deal 1</option>
-                                                                <option value="d2">Deal 2</option>
-                                                                <option value="d3">Deal 3</option>
-                                                                <option value="d4">Deal 4</option>
-                                                                <option value="d5">Deal 5</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tab-pane " id="tab3-3">
-                                                        <div class="form-group">
-                                                            <select class="form-control select2-show-search"
-                                                                    data-placeholder="Choose one (with searchbox)">
-                                                                <option value="s1">Section 1</option>
-                                                                <option value="s2">Section 2</option>
-                                                                <option value="s3">Section 3</option>
-                                                                <option value="s4">Section 4</option>
-                                                                <option value="s5">Section 5</option>
-                                                            </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab3-3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Inform </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Ali Javadi</option>
+                                                                    <option value="2">Mohsen Salami</option>
+                                                                    <option value="3">Amir Ghane</option>
+                                                                    <option value="4">Sahar Salimi</option>
+                                                                    <option value="5">Rima mahan</option>
+                                                                </select>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -398,139 +495,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Meeting:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Milestone:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-label font-weight-bold"> Task:</label>
-                                    <select class="form-control select2-show-search"
-                                            data-placeholder="Choose one (with searchbox)">
-                                        <optgroup>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="card p-3 mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="From Date2"
-                                           class="form-control-label mr-1 font-weight-bold">From
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="From Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="To Date2"
-                                           class="form-control-label mr-1 font-weight-bold">To
-                                        Date:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="To Date2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4 mb-5">
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="From Time2"
-                                           class="form-control-label mr-1 font-weight-bold">From
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="From Time2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="wd-200">
-                                    <label for="To Time2"
-                                           class="form-control-label mr-1 font-weight-bold">To
-                                        Time:</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                            </div>
-                                        </div>
-                                        <input class="form-control" id="To Time2" type="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="font-weight-bold">Inform</label>
-                                    <select multiple="multiple" class="multi-select">
-                                        <option value="1">Ali Javadi</option>
-                                        <option value="2">Mohsen Salami</option>
-                                        <option value="3">Amir Ghane</option>
-                                        <option value="4">Sahar Salimi</option>
-                                        <option value="5">Rima mahan</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
+
     </div>
 </div>
 <div class="modal fade" id="print-modal" tabindex="-1" role="dialog" aria-hidden="true">
