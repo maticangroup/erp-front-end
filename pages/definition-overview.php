@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="float-right">
                                     <span class="avatar avatar-xxl brround"
-                                          style="background-image: url(../assets/images/photos/depositphotos_113815276-stock-illustration-initial-letter-hr-silver-gold.jpg)"></span>
+                                          style="background-image: url(../assets/images/photos/1843.png)"></span>
                                 </div>
                             </div>
                         </div>
