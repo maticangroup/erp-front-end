@@ -1070,7 +1070,7 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button class="btn-primary float-right ml-auto mr-3 rounded">Add To List <span class="fas fa-arrow-alt-circle-down"></span></button>
+                                                            <button class="btn btn-dark float-right ml-auto p-1 mr-3  ">Add to list</button>
                                                         </div>
                                                     </div>
 
@@ -1357,7 +1357,17 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Deal commission method :</label>
+                                                                <label class="control-label form-label font-weight-bold">Regular work time Per month :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold" >Work days :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1412,14 +1422,9 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix ">
+                                                    <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Regular work time Per month :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
+                                                            <button class="btn btn-dark float-right ml-auto p-1 mr-3  ">Add to list</button>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">

@@ -979,6 +979,16 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold">Amount :</label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
