@@ -157,7 +157,7 @@
                                         <div class="tab-pane active " id="tab1">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="form-group  clearfix">
+                                                    <div class="form-group  clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
@@ -337,8 +337,8 @@
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab2">
-                                            <div class="row">
-                                                <textarea class="content" name="example"></textarea>
+                                            <div class="row m-1">
+                                                <textarea class="content " name="example"></textarea>
 
                                             </div>
                                             <div class="row mt-4">
@@ -408,7 +408,7 @@
                                         <div class="tab-pane" id="tab4">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="form-group clearfix">
+                                                    <div class="form-group clearfix ">
                                                         <div class="row mt-3">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"

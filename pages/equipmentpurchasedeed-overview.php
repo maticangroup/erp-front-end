@@ -47,7 +47,7 @@
                             <td class="text-center"> Delivered</td>
                             <td class="text-center">
                                 <a class="icon" href="javascriptvoid(0)"></a>
-                                <a href="/purchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/equipmentpurchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascriptvoid(0)"></a>
                                 <a href="javascriptvoid(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -67,7 +67,7 @@
                             <td class="text-center">rejected</td>
                             <td class="text-center">
                                 <a class="icon" href="javascriptvoid(0)"></a>
-                                <a href="/purchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/equipmentpurchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascriptvoid(0)"></a>
                                 <a href="javascriptvoid(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -87,7 +87,7 @@
                             <td class="text-center">accepted</td>
                             <td class="text-center">
                                 <a class="icon" href="javascriptvoid(0)"></a>
-                                <a href="/purchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/equipmentpurchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascriptvoid(0)"></a>
                                 <a href="javascriptvoid(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -107,7 +107,7 @@
                             <td class="text-center">Initialized</td>
                             <td class="text-center">
                                 <a class="icon" href="javascriptvoid(0)"></a>
-                                <a href="/purchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/equipmentpurchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascriptvoid(0)"></a>
                                 <a href="javascriptvoid(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -127,7 +127,7 @@
                             <td class="text-center">Purchased</td>
                             <td class="text-center">
                                 <a class="icon" href="javascriptvoid(0)"></a>
-                                <a href="/purchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="/equipmentpurchasedeed-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascriptvoid(0)"></a>
                                 <a href="javascriptvoid(0)" data-toggle="modal"
                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i

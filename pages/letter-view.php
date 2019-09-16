@@ -3,7 +3,7 @@
     <div class="page-header  mb-0">
         <h4 class="page-title">Letter View</h4>
         <div class="float-right ml-auto">
-            <a href="#" class="btn btn-primary btn-sm bg-red"><i
+            <a href="#" class="btn btn-primary  bg-red"><i
                         class="fas fa-trash mr-1"></i>Delete</a>
         </div>
     </div>

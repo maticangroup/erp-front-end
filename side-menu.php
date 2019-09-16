@@ -142,7 +142,7 @@
                 ['url' => '/inventory-overview-add-edit', 'title' => 'Inventories'],
                 ['url' => '/equipmenttransferdeed-overview-add-edit', 'title' => 'Transfer Deed'],
                 ['url' => '/equipmentsupplydeed-overview-add-edit', 'title' => 'Supply Deed'],
-                ['url' => '/equipmentpurchasedeed-overview-add-edit', 'title' => 'Purchase Deed'],
+                ['url' => '/equipmentpurchasedeed-overview', 'title' => 'Purchase Deed'],
             ]
         ],
         [

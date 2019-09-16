@@ -307,37 +307,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Location">Location :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i class="fas fa-map-marker-alt tx-16 lh-0 op-6"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                    <input class="form-control fc-datepicker"
-                                                                           id="Location" type="text">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="Descriptions">Map :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="map-header">
-                                                                    <div class="map-header-layer" id="map2"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="col-12 mt-1">
+                                                        <img class="border-dark"
+                                                             src="/assets/images/map-example.png" width="100%"
+                                                             alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -518,205 +491,348 @@
         </div>
     </div>
 </div>
-
-<div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">New Inventory</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Brand Name"
-                                           class="form-control-label mr-1 font-weight-bold">Name: </label>
-                                    <input type="text" class="form-control" id="Brand Name" step="0">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                    <select class="form-control" id="type">
-                                        <option>Office Equipment</option>
-                                        <option>Foodstuffs</option>
-                                        <option>Paper & Cardboard</option>
-                                        <option>Digital</option>
-                                        <option>Operating Equipment</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Branch"
-                                           class="form-control-label mr-1 font-weight-bold">Branch:</label>
-                                    <select class="form-control" id="Branch">
-                                        <option>Velenjak</option>
-                                        <option>Saadi</option>
-                                        <option>Valiasr</option>
-                                        <option>Bazar</option>
-                                        <option>Mokhaberat</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Inventory Keeper"
-                                           class="form-control-label mr-1 font-weight-bold">Inventory
-                                        Keeper:</label>
-                                    <select class="form-control" id="Inventory Keeper">
-                                        <option>Abbas Amiri</option>
-                                        <option>Simin Najm</option>
-                                        <option>Ali Motlagh</option>
-                                        <option>Soheil Arab</option>
-                                        <option>Saman Monzam</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Capacity"
-                                           class="form-control-label mr-1 font-weight-bold">Capacity:</label>
-                                    <input type="text" class="form-control " id="Capacity"
-                                           placeholder="In cubic meters">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Number Of Zone"
-                                           class="form-control-label mr-1 font-weight-bold">Number Of
-                                        Zone:</label>
-                                    <input type="text" class="form-control " id="Number Of Zone">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-control-label mr-1 font-weight-bold">Safety
-                                        Requirement:</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-2">New Inventory</h5>
+                <h5 class="modal-title" id="add-modal">Edit Inventory</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form autocomplete="off">
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Brand Name2"
-                                           class="form-control-label mr-1 font-weight-bold">Name: </label>
-                                    <input type="text" class="form-control" id="Brand Name2" step="0">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-11" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2-22" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
+                                            <li><a href="#tab3-33" class="font-weight-bold" data-toggle="tab">Safety Requirement</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="type2" class="form-control-label mr-1 font-weight-bold">Type:</label>
-                                    <select class="form-control" id="type2">
-                                        <option>Office Equipment</option>
-                                        <option>Foodstuffs</option>
-                                        <option>Paper & Cardboard</option>
-                                        <option>Digital</option>
-                                        <option>Operating Equipment</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Branch2"
-                                           class="form-control-label mr-1 font-weight-bold">Branch:</label>
-                                    <select class="form-control" id="Branch2">
-                                        <option>Velenjak</option>
-                                        <option>Saadi</option>
-                                        <option>Valiasr</option>
-                                        <option>Bazar</option>
-                                        <option>Mokhaberat</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Inventory Keeper2"
-                                           class="form-control-label mr-1 font-weight-bold">Inventory
-                                        Keeper:</label>
-                                    <select class="form-control" id="Inventory Keeper2">
-                                        <option>Abbas Amiri</option>
-                                        <option>Simin Najm</option>
-                                        <option>Ali Motlagh</option>
-                                        <option>Soheil Arab</option>
-                                        <option>Saman Monzam</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Capacity2"
-                                           class="form-control-label mr-1 font-weight-bold">Capacity:</label>
-                                    <input type="text" class="form-control " id="Capacity2"
-                                           placeholder="In cubic meters">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label for="Number Of Zone2"
-                                           class="form-control-label mr-1 font-weight-bold">Number Of
-                                        Zone:</label>
-                                    <input type="text" class="form-control " id="Number Of Zone2">
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1-11">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Name">Name :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="branch">Branch :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control" id="branch">
+                                                                    <option>Pasdaran</option>
+                                                                    <option>Shariati</option>
+                                                                    <option>Shoosh</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Category">Type :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control" id="contract">
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Category">inventory keeper :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control" id="contract">
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                    <option>......</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Name">Capacity :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="Name" placeholder="in cubic meter"
+                                                                       name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab2-22">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Address">Address :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-map-signs tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="Address" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Location">Static Phone :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-phone tx-16 lh-0 op-6"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="Location" type="text">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 mt-1">
+                                                        <img class="border-dark"
+                                                             src="/assets/images/map-example.png" width="100%"
+                                                             alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab3-33">
+                                            <div class="form-group clearfix mt-3">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="title">Safety Requirement :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="row">
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    CD421
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    FD984
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    GE097
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    GE097
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    GE097
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    GE097
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    GE097
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-6 col-md-12 mt-2 mb-2">
+                                                                <button type="button" class="btn btn-outline-primary"
+                                                                        data-container="body" data-toggle="popover"
+                                                                        data-popover-color="default"
+                                                                        data-placement="bottom"
+                                                                        title="Safety glasses"
+                                                                        data-content="Used for protecting eye from being hurt.">
+                                                                    GE097
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row mt-5">
+                                                            <div class="col-md-12 col-lg-12">
+                                                                <div class="table-responsive ">
+                                                                    <table class="table card-table table-vcenter text-nowrap table-primary border">
+                                                                        <thead class="bg-primary text-white border-dark">
+                                                                        <tr>
+                                                                            <th class="text-white">Code</th>
+                                                                            <th class="text-white text-center">
+                                                                                Item
+                                                                            </th>
+                                                                            <th class="text-white text-center">
+                                                                                Description
+                                                                            </th>
+                                                                            <th></th>
+                                                                        </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <th scope="row">GE097</th>
+                                                                            <td class="text-center">
+                                                                                Safety glasses
+                                                                            </td>
+                                                                            <td class="text-center">
+                                                                                Used for protecting eye from being hurt.
+                                                                            </td>
+                                                                            <td><a href="#"><i class="fas fa-times"></i></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">GE097</th>
+                                                                            <td class="text-center">
+                                                                                Safety glasses
+                                                                            </td>
+                                                                            <td class="text-center">
+                                                                                Used for protecting eye from being hurt.
+                                                                            </td>
+                                                                            <td><a href="#"><i class="fas fa-times"></i></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">GE097</th>
+                                                                            <td class="text-center">
+                                                                                Safety glasses
+                                                                            </td>
+                                                                            <td class="text-center">
+                                                                                Used for protecting eye from being hurt.
+                                                                            </td>
+                                                                            <td><a href="#"><i class="fas fa-times"></i></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <th scope="row">GE097</th>
+                                                                            <td class="text-center">
+                                                                                Safety glasses
+                                                                            </td>
+                                                                            <td class="text-center">
+                                                                                Used for protecting eye from being hurt.
+                                                                            </td>
+                                                                            <td><a href="#"><i class="fas fa-times"></i></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card p-3  mb-1 ">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <label class="form-control-label mr-1 font-weight-bold">Safety
-                                        Requirement:</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </form>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>Save</button>
             </div>
         </div>
     </div>
