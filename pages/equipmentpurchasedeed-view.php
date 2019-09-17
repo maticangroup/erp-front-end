@@ -7,6 +7,10 @@
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
         </div>
+        <div class="float-right ml-1">
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#print-modal"
+               class="btn btn-dark "><i class="fas fa-print"></i> Print</a>
+        </div>
     </div>
 </div>
 <!--page header-->
@@ -773,5 +777,187 @@
             </div>
         </div>
 
+    </div>
+</div>
+
+<div class="modal fade" id="print-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="example-Modal3-2">Print Equipment Transfer Deed</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-body table-responsive border-bottom-0 mb-3">
+                        <table class="table card-table table-vcenter text-nowrap table-bordered">
+                            <thead class="border-top">
+                            <tr>
+                                <td colspan="4" class="text-center font-weight-bold "><strong
+                                            class="font-weight-bold">#Equipment purchase deed serial : </strong> EPDS 555
+                                </td>
+                                <td colspan="4">
+                                    <div class="border-bottom pb-2"><strong class="font-weight-bold">Create date :</strong> 25 December 2019 <br></div>
+                                    <div class="border-bottom py-2"><strong class="font-weight-bold">Time :</strong> 09:49:20 PM <br></div>
+                                    <div class="pt-2"><strong class="font-weight-bold">Invoice serial :</strong> -</div>
+                                </td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td colspan="8" class="text-center bg-primary"><strong
+                                            class="font-weight-bold ">Equipment list </strong></td>
+                            </tr>
+                            <tr>
+                                <th class="text-center bg-primary  font-weight-bold"></th>
+                                <th class="text-center bg-primary font-weight-bold">Equipment</th>
+                                <th class="text-center bg-primary  font-weight-bold">Category</th>
+                                <th class="text-center bg-primary font-weight-bold">Purchase Date</th>
+                                <th class="text-center bg-primary font-weight-bold">price</th>
+                                <th class="text-center bg-primary font-weight-bold">Status</th>
+                            </tr>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td class="text-center">Heli shot NI370</td>
+                                <td class="text-center">Digital</td>
+                                <td class="text-center">25 December 2019 </td>
+                                <td class="text-center">12 MT</td>
+                                <td class="text-center">Purchased</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2</td>
+                                <td class="text-center">Heli shot NI400</td>
+                                <td class="text-center">Digital</td>
+                                <td class="text-center">25 December 2019 </td>
+                                <td class="text-center">4 MT</td>
+                                <td class="text-center">Purchased</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">3</td>
+                                <td class="text-center">Camera Nikon D3400</td>
+                                <td class="text-center">Digital</td>
+                                <td class="text-center">25 December 2019 </td>
+                                <td class="text-center">6 MT</td>
+                                <td class="text-center">Purchased</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">4</td>
+                                <td class="text-center">Camera Nikon Z6</td>
+                                <td class="text-center">Digital</td>
+                                <td class="text-center">25 December 2019 </td>
+                                <td class="text-center">41 MT</td>
+                                <td class="text-center">Purchased</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-body table-responsive border-top-0 border-bottom-0 mb-3">
+                        <table class="table card-table table-vcenter  table-bordered">
+                            <tbody >
+                            <tr >
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
+                                    <strong class="font-weight-bold">Requester</strong></th>
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
+                                    <strong class="font-weight-bold">Confirmation</strong></th>
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
+                                    <strong class="font-weight-bold">Purchasing officer </strong></th>
+                                <th colspan="2" class="text-center font-weight-bold bg-primary">
+                                    <strong class="font-weight-bold">Deliver to</strong></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2" rowspan="4" class="text-center">
+                                    <div><span class="avatar avatar-xxl brround cover-image m-4"
+                                               data-image-src="../assets/images/photos/pro7.jpg"></span>
+                                    </div>
+                                    <div class="font-weight-bold ">Bahram Radan</div><br>
+                                    <div><span class="font-weight-bold">Org code :</span><br> EM 0010506
+                                    </div>
+                                    <div><span class="font-weight-bold">Role :</span><br> inventory keeper
+                                    </div>
+                                    <div class="mb-3"><span class="font-weight-bold">Inventory : </span><br>East
+                                        of Tehran
+                                    </div>
+                                </td>
+                                <td colspan="2" rowspan="4" class="text-center">
+                                    <div><span class="avatar avatar-xxl brround cover-image m-4"
+                                               data-image-src="../assets/images/photos/pro9.jpg"></span>
+                                    </div>
+                                    <div class="font-weight-bold ">Hossein Azimi</div><br>
+                                    <div><span class="font-weight-bold">Org code :</span><br> EM 0010506
+                                    </div>
+                                    <div><span class="font-weight-bold">Role :</span><br> camera man</div>
+                                    <div class="mb-3"><span class="font-weight-bold">Branch :</span><br>
+                                        Saadat Abad
+                                    </div>
+                                </td>
+                                <td colspan="2" rowspan="4" class="text-center">
+                                <div><span class="avatar avatar-xxl brround cover-image m-4"
+                                           data-image-src="../assets/images/photos/pro3.jpg"></span>
+                                </div>
+                                <div class="font-weight-bold "> Ehsan Rezvanian</div><br>
+                                <div><span class="font-weight-bold">Org code :</span><br> EM 0010506
+                                </div>
+                                <div><span class="font-weight-bold">Role :</span><br> driver</div>
+                                <div class="mb-3"><span class="font-weight-bold">Inventory :</span><br>
+                                    pasdaran
+                                </div>
+                                </td>
+                                <td colspan="2" rowspan="4" class="text-center">
+                                    <div><span class="avatar avatar-xxl brround cover-image m-4"
+                                               data-image-src="../assets/images/photos/pro11.jpg"></span>
+                                    </div>
+                                    <div class="font-weight-bold ">Ziba Borufeh</div><br>
+                                    <div><span class="font-weight-bold">Org code :</span><br> EM 0010506
+                                    </div>
+                                    <div><span class="font-weight-bold">Role :</span><br> TQM expert unit</div>
+                                    <div class="mb-3"><span class="font-weight-bold">Inventory :</span><br>
+                                        pasdaran
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-body table-responsive border-top-0 mb-5">
+                        <table class="table card-table table-vcenter text-nowrap table-bordered">
+                            <tbody >
+                            <tr>
+                                <th colspan="2" class="text-center bg-primary font-weight-bold ">
+                                    <strong class="font-weight-bold">Origin & deliver info</strong></th>
+                                <th colspan="6" class="text-center bg-primary font-weight-bold ">
+                                    <strong class="font-weight-bold">Address & Location deliver place </strong></th>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary font-weight-bold ">Branch </th>
+                                <td class="text-center">Pasdaran</td>
+                                <td rowspan="4" class="pb-0">
+                                    <img src="../assets/images/photos/exe5.png" class="float-right">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary font-weight-bold ">Inventory </th>
+                                <td class="text-center">Num 1</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary font-weight-bold ">Delivery time</th>
+                                <td class="text-center">11:30:00 PM</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary font-weight-bold ">Delivery method</th>
+                                <td class="text-center">Pickup truck</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-print"></i> Print
+                </button>
+            </div>
+        </div>
     </div>
 </div>

@@ -540,9 +540,6 @@
             </div>
             <div class="modal-body">
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">Equipment Supply Deed</h3>
-                    </div>
                     <div class="card-body table-responsive border-bottom-0 mb-5">
                         <table class="table card-table table-vcenter text-nowrap table-bordered">
                             <thead class="border-top">
