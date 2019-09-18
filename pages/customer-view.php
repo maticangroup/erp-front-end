@@ -103,6 +103,7 @@
         </div>
     </div>
 </div>
+
 <div class="row">
     <div class="col-12">
         <div class="card">
@@ -1869,219 +1870,698 @@
         </div>
     </div>
 </div>
+
 <div class="row">
-    <div class="card">
-        <div class="card-body">
-            <div class="row img-gallery">
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-587741.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/tree-736877_1280.jpg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-265730.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded"
-                             src="../assets/images/photos/pexels-photo-265854.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-410398.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo.jpg" alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-2306281.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-794254.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-1021075.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-1393478.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-2875180.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="javascript:void(0)" class="d-block link-overlay">
-                        <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-916344.jpeg"
-                             alt="">
-                        <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </a>
-                </div>
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Folders & Files</h3>
             </div>
-            <div class="row mt-5 border-top">
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+            <div class="card-body">
+                <div class="panel panel-primary">
+                    <div class="tabs-menu mb-5">
+                        <!-- Tabs -->
+                        <ul class="nav panel-tabs">
+                            <li class=""><a href="#tab11" class="active font-weight-bold" data-toggle="tab">formality projects </a></li>
+                            <li class=""><a href="#tab22" class="font-weight-bold" data-toggle="tab">wedding reception projects</a></li>
+                            <li class=""><a href="#tab33" class="font-weight-bold" data-toggle="tab">wedding projects</a></li>
+                            <li class=""><a href="#tab44" class="font-weight-bold" data-toggle="tab">Atelier projects </a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-body  tabs-menu-body border-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab11">
+                                <div class="mb-9">
+                                    <h5 class="text-muted font-weight-extrabold">Folders</h5>
+                                    <hr class="mt-0">
+                                    <div class="d-flex justify-content-start">
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  raw pictures</button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  edited pictures</button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  accepted by TQM </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <h4 class="text-muted font-weight-extrabold">Files</h4>
+                                        <div class="dropdown float-right ">
+                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">View</button>
+                                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 39px, 0px);">
+                                                <a class="dropdown-item" href="javascript:void(0)">Small icons</a>
+                                                <a class="dropdown-item" href="javascript:void(0)">Large icons</a>
+                                                <a class="dropdown-item" href="javascript:void(0)">Extra large icons</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mt-0 ">
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic1</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic2</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic3</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic4</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic5</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic6</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic7</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic8</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic9</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor1</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor2</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor3</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor4</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-pdf  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pdf1</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted align-baseline">arc1</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">arc2</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">arc3</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab22">
+
+                            </div>
+                            <div class="tab-pane" id="tab33">
+
+                            </div>
+                            <div class="tab-pane" id="tab44">
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
-            <div class="row border-top">
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Folders & Files</h3>
+            </div>
+            <div class="card-body">
+                <div class="panel panel-primary">
+                    <div class="tabs-menu mb-5">
+                        <!-- Tabs -->
+                        <ul class="nav panel-tabs">
+                            <li class=""><a href="#tab11" class="active font-weight-bold" data-toggle="tab">formality projects </a></li>
+                            <li class=""><a href="#tab22" class="font-weight-bold" data-toggle="tab">wedding reception projects</a></li>
+                            <li class=""><a href="#tab33" class="font-weight-bold" data-toggle="tab">wedding projects</a></li>
+                            <li class=""><a href="#tab44" class="font-weight-bold" data-toggle="tab">Atelier projects </a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-body  tabs-menu-body border-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab11">
+                                <ol class="breadcrumb1 bg-primary  mb-7">
+                                    <li class="breadcrumb-item1 active text-white font-weight-extrabold">formality projects </li>
+                                    <li class="breadcrumb-item1 active text-white font-weight-extrabold">raw pictures</li>
+                                </ol>
+                                <div class="mb-7 mt-5">
+                                    <h5 class="text-muted font-weight-extrabold">Folders</h5>
+                                    <hr class="mt-0">
+                                    <div class="d-flex justify-content-start">
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  photographer favorit pictures</button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  editor favorit pictures </button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  customer favorit picture for edit </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <h4 class="text-muted font-weight-extrabold">Files</h4>
+                                        <div class="dropdown float-right ">
+                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">View</button>
+                                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 39px, 0px);">
+                                                <a class="dropdown-item" href="javascript:void(0)">Small icons</a>
+                                                <a class="dropdown-item" href="javascript:void(0)">Large icons</a>
+                                                <a class="dropdown-item" href="javascript:void(0)">Extra large icons</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mt-0 ">
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic1</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic2</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic3</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic4</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic5</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic6</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic7</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic8</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pic9</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor1</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor2</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor3</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">wor4</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-pdf  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">pdf1</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start ">
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted align-baseline">arc1</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">arc2</label>
+                                            </div>
+                                        </div>
+                                        <div class="hero-widget mr-6">
+                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                            <div class="text">
+                                                <label class="text-muted ">arc3</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab22">
+
+                            </div>
+                            <div class="tab-pane" id="tab33">
+
+                            </div>
+                            <div class="tab-pane" id="tab44">
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Folders & Files</h3>
+            </div>
+            <div class="card-body">
+                <div>
+                    <ol class="breadcrumb1 bg-primary mb-7">
+                        <li class="breadcrumb-item1 active text-white font-weight-extrabold">formality projects </li>
+                        <li class="breadcrumb-item1 active text-white font-weight-extrabold">raw pictures</li>
+                        <li class="breadcrumb-item1 active text-white font-weight-extrabold">photographer favorit pictures</li>
+                    </ol>
+                    <div class="mb-7 ">
+                        <h5 class="text-muted font-weight-extrabold">Folders</h5>
+                        <hr class="mt-0">
+                        <div class="d-flex justify-content-start">
+                            <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  something number1</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h4 class="text-muted font-weight-extrabold">Files</h4>
+                            <div class="dropdown float-right ">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">View</button>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 39px, 0px);">
+                                    <a class="dropdown-item" href="javascript:void(0)">Small icons</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Large icons</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Extra large icons</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-0 ">
+                        <div class="d-flex justify-content-start ">
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic1</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic2</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic3</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic4</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic5</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic6</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic7</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic8</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">pic9</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start ">
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">wor1</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start ">
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted align-baseline">arc1</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">arc2</label>
+                                </div>
+                            </div>
+                            <div class="hero-widget mr-6">
+                                <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
+                                <div class="text">
+                                    <label class="text-muted ">arc3</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row img-gallery">
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-587741.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/tree-736877_1280.jpg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-265730.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded"
+                                 src="../assets/images/photos/pexels-photo-265854.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-410398.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo.jpg" alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-2306281.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-794254.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-1021075.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-1393478.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-2875180.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="javascript:void(0)" class="d-block link-overlay">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-916344.jpeg"
+                                 alt="">
+                            <span class="link-overlay-bg rounded">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mt-5 border-top">
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+                <div class="row border-top">
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="hero-widget">
-                        <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
-                        <div class="text">
-                            <label class="text-muted">file name</label>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="hero-widget">
+                            <i class="fas fa-file-pdf  fa-3x mb-4 text-primary"></i>
+                            <div class="text">
+                                <label class="text-muted">file name</label>
+                            </div>
                         </div>
                     </div>
                 </div>

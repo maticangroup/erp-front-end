@@ -290,19 +290,7 @@
                                         <div class="tab-pane active " id="tab11">
                                             <div class="row ">
                                                 <div class="col-12">
-                                                    <div class="form-group clearfix mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Equipment name : </label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <input class="form-control required" id="title"
-                                                                       name="title" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group  clearfix ">
+                                                    <div class="form-group  clearfix  mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold">Category :</label>
@@ -318,6 +306,19 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Equipment name : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       name="title" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
@@ -332,7 +333,7 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">Add to list</button>
+                                                            <button type="button" class="btn btn-outline-info float-right ml-auto p-1 mr-3 font-weight-bold">ADD TO LIST</button>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
@@ -341,17 +342,17 @@
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white">
                                                                     <tr>
-                                                                        <th class="text-white">ID</th>
                                                                         <th class="text-white">Name</th>
-                                                                        <th class="text-white">Status</th>
+                                                                        <th class="text-white">Category</th>
+                                                                        <th class="text-white">Rough price</th>
                                                                         <th class="text-white"></th>
                                                                     </tr>
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
-                                                                        <th scope="row">1</th>
                                                                         <td>Heli shot NI370</td>
-                                                                        <td>Intact</td>
+                                                                        <td>Digital</td>
+                                                                        <td>5,000,000 T</td>
                                                                         <td>
                                                                             <button href="#"
                                                                                     class="btn-pill btn-outline-danger btn-sm">
@@ -360,9 +361,9 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row">2</th>
                                                                         <td>Camera Nikon D3400</td>
-                                                                        <td>Destroyed</td>
+                                                                        <td>Digital</td>
+                                                                        <td>5,000,000 T</td>
                                                                         <td>
                                                                             <button href="#"
                                                                                     class="btn-pill btn-outline-danger btn-sm">
@@ -371,9 +372,9 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row">3</th>
                                                                         <td>Tripod stand F50</td>
-                                                                        <td>Ready to use</td>
+                                                                        <td>Digital</td>
+                                                                        <td>5,000,000 T</td>
                                                                         <td>
                                                                             <button href="#"
                                                                                     class="btn-pill btn-outline-danger btn-sm">
@@ -426,7 +427,7 @@
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Price : </label>
+                                                                       for="title">Total Price : </label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <input class="form-control required" id="title"
@@ -779,7 +780,6 @@
 
     </div>
 </div>
-
 <div class="modal fade" id="print-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
