@@ -107,9 +107,9 @@
 <div class="row">
     <div class="col-12">
         <div class="card">
-            <div class="card-body p-3">
+            <div class="card-body p-5">
                 <div class="panel panel-primary">
-                    <div class="  ">
+                    <div class="p-3  ">
                         <div class="tabs-menu">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
@@ -1875,11 +1875,11 @@
     <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title font-weight-bold">Folders & Files</h3>
+                <h3 class="card-title font-weight-bold">Order lists</h3>
             </div>
             <div class="card-body">
                 <div class="panel panel-primary">
-                    <div class="tabs-menu1 mx-4 mb-3">
+                    <div class="tabs-menu mx-4 mb-0">
                         <!-- Tabs -->
                         <ul class="nav panel-tabs">
                             <li class=""><a href="#tab11" class="active font-weight-bold" data-toggle="tab">Formality Projects </a></li>
@@ -1891,9 +1891,182 @@
                     <div class="panel-body  tabs-menu-body border-0">
                         <div class="tab-content">
                             <div class="tab-pane active " id="tab11">
-                                <ol class="breadcrumb1 bg-primary  mb-7">
-                                    <li class="breadcrumb-item1 active text-white font-weight-extrabold ml-1">Formality Projects  </li>
-                                </ol>
+                                <div class="table-responsive">
+                                    <table class="table card-table table-vcenter  border text-nowrap">
+                                        <thead class="bg-primary font-weight-bold">
+                                        <tr>
+                                            <th class="text-center">products</th>
+                                            <th class="text-center">size</th>
+                                            <th class="text-center">Print type</th>
+                                            <th class="text-center">Price</th>
+                                            <th class="text-center w-15">Quantity</th>
+                                            <th class="text-center">Delivery date</th>
+                                            <th class="text-center"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="text-center">magazine style</td>
+                                            <td class="text-center">1300*800</td>
+                                            <td class="text-center">luster</td>
+                                            <td class="text-center">1,000,000 T</td>
+                                            <td class="text-center">
+                                                <div class="input-group input-indec">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-light btn-number"  data-type="minus" data-field="">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </span>
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">02 Sep 2020</td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-icon btn-primary btn-purple"><i class="fas fa-upload text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-warning"><i class="fas fa-exchange-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="text-center">flush mount</td>
+                                            <td class="text-center">1300*800</td>
+                                            <td class="text-center">water glass</td>
+                                            <td class="text-center">4,000,000 T</td>
+                                            <td class="text-center">
+                                                <div class="input-group input-indec">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-light btn-number"  data-type="minus" data-field="">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </span>
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">02 Sep 2020</td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-icon btn-primary btn-purple"><i class="fas fa-upload text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-warning"><i class="fas fa-exchange-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <<td class="text-center">glass frame</td>
+                                            <td class="text-center">1300*800</td>
+                                            <td class="text-center">silk</td>
+                                            <td class="text-center">2,000,000 T</td>
+                                            <td class="text-center">
+                                                <div class="input-group input-indec">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-light btn-number"  data-type="minus" data-field="">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </span>
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">02 Sep 2020</td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-icon btn-primary btn-purple"><i class="fas fa-upload text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-warning"><i class="fas fa-exchange-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="text-center">canvas</td>
+                                            <td class="text-center">1300*800</td>
+                                            <td class="text-center">metallic</td>
+                                            <td class="text-center">6,000,000 T</td>
+                                            <td class="text-center">
+                                                <div class="input-group input-indec">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-light btn-number"  data-type="minus" data-field="">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                    </span>
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </span>
+                                                </div>
+                                            </td>
+                                            <td class="text-center">02 Sep 2020</td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-icon btn-primary btn-purple"><i class="fas fa-upload text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-warning"><i class="fas fa-exchange-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab22">
+
+                            </div>
+                            <div class="tab-pane" id="tab33">
+
+                            </div>
+                            <div class="tab-pane" id="tab44">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title font-weight-bold">Folders & Files</h3>
+            </div>
+            <div class="card-body">
+                <div class="panel panel-primary">
+                    <div class="tabs-menu1 mx-4 mb-0">
+                        <!-- Tabs -->
+                        <ul class="nav panel-tabs">
+                            <li class=""><a href="#tab11" class="active font-weight-bold" data-toggle="tab">Formality Projects </a></li>
+                            <li class=""><a href="#tab22" class="font-weight-bold" data-toggle="tab">Wedding Reception Projects</a></li>
+                            <li class=""><a href="#tab33" class="font-weight-bold" data-toggle="tab">Wedding Projects</a></li>
+                            <li class=""><a href="#tab44" class="font-weight-bold" data-toggle="tab">Atelier Projects </a></li>
+                            <button type="button" class="btn btn-icon btn-primary  btn-pinterest float-right ml-auto px-3 mb-0"><i class="fas fa-undo-alt text-white"></i></button>
+                        </ul>
+                    </div>
+                    <div class="panel-body  tabs-menu-body border-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active " id="tab11">
+
+
+                                    <ol class="breadcrumb1 bg-primary  mb-7">
+                                        <li class="breadcrumb-item1 active text-white font-weight-extrabold ml-1">Formality Projects  </li>
+                                    </ol>
+
+
                                 <div class="mb-9">
                                     <h5 class="text-muted font-weight-extrabold">Folders</h5>
                                     <hr class="mt-0">
@@ -1901,6 +2074,7 @@
                                         <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  raw pictures</button>
                                         <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  edited pictures</button>
                                         <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  accepted by TQM </button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  videos </button>
                                     </div>
                                 </div>
                                 <div>
@@ -2105,187 +2279,6 @@
         </div>
     </div>
 </div>
-
-<!--
-<div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12">
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title font-weight-bold">Folders & Files</h3>
-            </div>
-            <div class="card-body">
-                <div class="panel panel-primary">
-                    <div class="tabs-menu mb-5">
-
-                        <ul class="nav panel-tabs">
-                            <li class=""><a href="#tab11" class="active font-weight-bold" data-toggle="tab">formality projects </a></li>
-                            <li class=""><a href="#tab22" class="font-weight-bold" data-toggle="tab">wedding reception projects</a></li>
-                            <li class=""><a href="#tab33" class="font-weight-bold" data-toggle="tab">wedding projects</a></li>
-                            <li class=""><a href="#tab44" class="font-weight-bold" data-toggle="tab">Atelier projects </a></li>
-                        </ul>
-                    </div>
-                    <div class="panel-body  tabs-menu-body border-0">
-                        <div class="tab-content">
-                            <div class="tab-pane active " id="tab11">
-                                <ol class="breadcrumb1 bg-primary  mb-7">
-                                    <li class="breadcrumb-item1 active text-white font-weight-extrabold">formality projects </li>
-                                    <li class="breadcrumb-item1 active text-white font-weight-extrabold">raw pictures</li>
-                                </ol>
-                                <div class="mb-7 mt-5">
-                                    <h5 class="text-muted font-weight-extrabold">Folders</h5>
-                                    <hr class="mt-0">
-                                    <div class="d-flex justify-content-start">
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  photographer favorit pictures</button>
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  editor favorit pictures </button>
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  customer favorit picture for edit </button>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div>
-                                        <h4 class="text-muted font-weight-extrabold">Files</h4>
-                                        <div class="dropdown float-right ">
-                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">View</button>
-                                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 39px, 0px);">
-                                                <a class="dropdown-item" href="javascript:void(0)">Small icons</a>
-                                                <a class="dropdown-item" href="javascript:void(0)">Large icons</a>
-                                                <a class="dropdown-item" href="javascript:void(0)">Extra large icons</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr class="mt-0 ">
-                                    <div class="d-flex justify-content-start ">
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic1</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic2</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic3</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic4</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic5</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic6</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic7</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic8</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-image  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pic9</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-start ">
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">wor1</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">wor2</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">wor3</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-word  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">wor4</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-start ">
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-pdf  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">pdf1</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-start ">
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted align-baseline">arc1</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">arc2</label>
-                                            </div>
-                                        </div>
-                                        <div class="hero-widget mr-6">
-                                            <i class="fas fa-file-archive  fa-3x mb-2 text-primary"></i>
-                                            <div class="text">
-                                                <label class="text-muted ">arc3</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab22">
-
-                            </div>
-                            <div class="tab-pane" id="tab33">
-
-                            </div>
-                            <div class="tab-pane" id="tab44">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</div>
--->
-
-
 
 <!-- small Modal -->
 <div id="information-modal" class="modal fade">
