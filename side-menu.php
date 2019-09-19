@@ -111,6 +111,13 @@
             'drop_down_items' => [
             ]
         ],
+        [
+            'link' => '/products-view',
+            'title' => 'Products',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
 
         [
             'link' => '',
