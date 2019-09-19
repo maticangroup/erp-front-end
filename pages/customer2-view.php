@@ -5,12 +5,12 @@
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#information-modal" class="btn btn-warning"><i
-                        class="fas fa-eye"></i> Information</a>
+                    class="fas fa-eye"></i> Information</a>
         </div>
         <div class="float-right ml-1">
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary"><i
-                        class="fas fa-pen"></i> Edit</a>
+                    class="fas fa-pen"></i> Edit</a>
         </div>
     </div>
 </div>
@@ -32,11 +32,11 @@
                 </div>
                 <div class="mt-4 mb-5">
                     <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
-                                class="fas fa-eye"></i></button>
+                            class="fas fa-eye"></i></button>
                     <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
-                                class="fas fa-phone"></i></button>
+                            class="fas fa-phone"></i></button>
                     <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
-                                class="fas fa-envelope"></i></button>
+                            class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
@@ -170,7 +170,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -186,7 +186,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-dot-circle"></i>Action</a>
+                                                        class="fas fa-dot-circle"></i>Action</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -202,7 +202,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -218,7 +218,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-dot-circle"></i>Action</a>
+                                                        class="fas fa-dot-circle"></i>Action</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -234,7 +234,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -250,7 +250,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-dot-circle"></i>Action</a>
+                                                        class="fas fa-dot-circle"></i>Action</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -266,7 +266,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#view-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -282,7 +282,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-dot-circle"></i>Action</a>
+                                                        class="fas fa-dot-circle"></i>Action</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -325,7 +325,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -345,7 +345,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -365,7 +365,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -385,7 +385,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -405,7 +405,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -425,7 +425,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -445,7 +445,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -465,7 +465,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#meeting-edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
 
@@ -508,7 +508,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
                                                     Print</a>
@@ -527,7 +527,7 @@
                                             <td class="text-center">
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
                                                     Print</a>
@@ -546,7 +546,7 @@
                                             <td class="text-center">
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
                                                     Print</a>
@@ -565,7 +565,7 @@
                                             <td class="text-center">
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
                                                     Print</a>
@@ -584,7 +584,7 @@
                                             <td class="text-center">
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
                                                     Print</a>
@@ -634,11 +634,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -660,11 +660,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -686,11 +686,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -712,11 +712,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -738,11 +738,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -764,11 +764,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -790,11 +790,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -816,11 +816,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/project-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -862,10 +862,10 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -885,12 +885,12 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
 
 
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -910,12 +910,12 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
 
 
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -935,12 +935,12 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
 
 
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -960,12 +960,12 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
 
 
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -985,10 +985,10 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1008,12 +1008,12 @@
                                             <td class="text-center">
 
                                                 <a href="/deal-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
 
 
                                                 <a class="btn btn-primary btn-sm mr-3 text-white"
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
 
@@ -1053,7 +1053,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1076,7 +1076,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1099,7 +1099,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1122,7 +1122,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1145,7 +1145,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1168,7 +1168,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1191,7 +1191,7 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#add-modal"
                                                    class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i>
@@ -1233,11 +1233,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/invoice-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
 
                                             </td>
                                         </tr>
@@ -1254,11 +1254,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/invoice-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
 
                                             </td>
                                         </tr>
@@ -1275,11 +1275,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/invoice-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
 
                                             </td>
                                         </tr>
@@ -1296,11 +1296,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/invoice-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
 
                                             </td>
                                         </tr>
@@ -1317,11 +1317,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/invoice-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
 
                                             </td>
                                         </tr>
@@ -1362,11 +1362,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/vendor-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1386,11 +1386,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/vendor-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1410,11 +1410,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/vendor-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1434,11 +1434,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/vendor-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1458,11 +1458,11 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/vendor-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i> View</a>
+                                                        class="fas fa-eye"></i> View</a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -1500,15 +1500,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1523,15 +1523,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1546,15 +1546,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1569,15 +1569,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1592,15 +1592,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1615,15 +1615,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -1638,15 +1638,15 @@
                                             <td class="text-center">
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="/contract-view" class="btn btn-dark btn-sm"><i
-                                                            class="fas fa-eye"></i></a>
+                                                        class="fas fa-eye"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-pen"></i></a>
+                                                        class="fas fa-pen"></i></a>
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a href="javascript:void(0)" data-toggle="modal"
                                                    data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                            class="fas fa-print"></i></a>
+                                                        class="fas fa-print"></i></a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -1693,7 +1693,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -1716,7 +1716,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
 
@@ -1741,7 +1741,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -1764,7 +1764,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -1787,7 +1787,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -1810,7 +1810,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -1833,7 +1833,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
                                         <tr class="text-center">
@@ -1856,7 +1856,7 @@
                                                 <a class="icon" href="javascript:void(0)"></a>
                                                 <a data-toggle="modal" data-target="#edit-modal"
                                                    class="btn btn-primary btn-sm text-white"><i
-                                                            class="fas fa-pen"></i> Edit</a>
+                                                        class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
 
@@ -1918,8 +1918,8 @@
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
-                                                                    <span class="input-group-btn">
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
                                                         <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
@@ -1946,8 +1946,8 @@
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
-                                                                    <span class="input-group-btn">
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
                                                         <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
@@ -1974,8 +1974,8 @@
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
-                                                                    <span class="input-group-btn">
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
                                                         <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
@@ -2002,8 +2002,8 @@
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
-                                                                    <span class="input-group-btn">
+                                                    <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                                    <span class="input-group-btn">
                                                         <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
@@ -2065,6 +2065,7 @@
                                     <button type="button" class="btn btn-icon btn-primary  btn-pinterest float-left ml-auto px-3 py-2 mb-0 mr-1"><i class="fas fa-undo-alt text-white"></i></button>                                    <div>
                                         <ol class="breadcrumb1 bg-primary  mb-7">
                                             <li class="breadcrumb-item1 active text-white font-weight-extrabold ml-1">Formality Projects  </li>
+                                            <li class="breadcrumb-item1 active text-white font-weight-extrabold ml-1">raw pictures </li>
                                         </ol>
                                     </div>
                                 </div>
@@ -2072,10 +2073,9 @@
                                     <h5 class="text-muted font-weight-extrabold">Folders</h5>
                                     <hr class="mt-0">
                                     <div class="d-flex justify-content-start">
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  raw pictures</button>
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  edited pictures</button>
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  accepted by TQM </button>
-                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  videos </button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  photographer favorit pictures</button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  editor favorit pictures</button>
+                                        <button type="button" class="btn btn-outline-secondary mr-3" data-toggle="dropdown" aria-expanded="false"> <i class="fas fa-folder"></i>  customer favorit picture for edit </button>
                                     </div>
                                 </div>
                                 <div>
@@ -2103,7 +2103,7 @@
                                         </div>
                                         <div class="col-4">
                                             <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/tree-736877_1280.jpg"
+                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-1405528.jpeg"
                                                      alt="">
                                                 <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
@@ -2113,62 +2113,6 @@
                                         <div class="col-4">
                                             <a href="javascript:void(0)" class="d-block link-overlay">
                                                 <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-265730.jpeg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded"
-                                                     src="../assets/images/photos/pexels-photo-265854.jpeg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo.jpg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-1393478.jpeg" alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-2306281.jpeg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-794254.jpeg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-1021075.jpeg"
                                                      alt="">
                                                 <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
@@ -2232,33 +2176,6 @@
                                             </a>
                                         </div>
 
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-169190.jpeg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-1405528.jpeg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="d-block link-overlay">
-                                                <img class="d-block img-fluid rounded" src="../assets/images/photos/shish-kebab-417994_1280.jpg"
-                                                     alt="">
-                                                <span class="link-overlay-bg rounded">
-                                <i class="fas fa-search"></i>
-                            </span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -2299,7 +2216,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Name & family</h6><span
-                                    class="d-block">Ehsan Rezvanian</span>
+                                class="d-block">Ehsan Rezvanian</span>
                         </div>
                     </div>
                     <div class="media mt-1 pb-2">
@@ -2308,7 +2225,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Gender</h6><span
-                                    class="d-block">Male</span>
+                                class="d-block">Male</span>
                         </div>
                     </div>
                     <div class="media mt-1 pb-2">
@@ -2326,7 +2243,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Date of birth</h6><span
-                                    class="d-block">12/5/1365</span>
+                                class="d-block">12/5/1365</span>
                         </div>
                     </div>
                     <div class="media mt-1 pb-2">
@@ -2335,7 +2252,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Email</h6><span
-                                    class="d-block">ehsanrezvanian@gmail.com</span>
+                                class="d-block">ehsanrezvanian@gmail.com</span>
                         </div>
                     </div>
                     <div class="media mt-1 pb-2">
@@ -2344,7 +2261,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Mobile number</h6><span
-                                    class="d-block">+98 933 488 4816</span>
+                                class="d-block">+98 933 488 4816</span>
                         </div>
                     </div>
                     <div class="media mt-1 pb-2">
@@ -2353,7 +2270,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Address</h6><span
-                                    class="d-block">Tehran, Shariati, First St.</span>
+                                class="d-block">Tehran, Shariati, First St.</span>
                         </div>
                     </div>
                     <div class="media mt-1 pb-2">
@@ -2362,7 +2279,7 @@
                         </div>
                         <div class="media-body ml-5 mt-1">
                             <h6 class="mediafont text-dark mb-1">Static phone</h6><span
-                                    class="d-block">021 66859652</span>
+                                class="d-block">021 66859652</span>
                         </div>
                     </div>
                     <div class="col-12 mt-1">

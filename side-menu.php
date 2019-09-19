@@ -66,6 +66,7 @@
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
                 ['url' => '/customer-overview', 'title' => 'Customer'],
+                ['url' => '/customer2-view', 'title' => 'Customer2'],
                 ['url' => '/customers-group', 'title' => 'Customer Group'],
             ]
         ],
