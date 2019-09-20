@@ -67,7 +67,7 @@
             'drop_down_items' => [
                 ['url' => '/customer-overview', 'title' => 'Customer'],
                 ['url' => '/customer2-view', 'title' => 'Customer2'],
-                ['url' => '/customers-group', 'title' => 'Customer Group'],
+                ['url' => '/customergroup-overview', 'title' => 'Customer Group'],
             ]
         ],
         [
