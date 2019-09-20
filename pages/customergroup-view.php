@@ -48,349 +48,587 @@
 </div>
 
 <div class="row">
-<div class="col-md-12 col-lg-12">
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">All customers</div>
-        </div>
-        <div class="card-body">
-            <div class="table-responsive ">
-                <table id="example-2" class="table table-striped table-bordered nowrap">
-                    <thead class="bg-primary">
-                    <tr>
-                        <th class="wd-15p border-bottom-0 text-center">Name</th>
-                        <th class="wd-15p border-bottom-0 text-center">Family</th>
-                        <th class="wd-10p border-bottom-0 text-center">Gender</th>
-                        <th class="wd-10p border-bottom-0 text-center">Birthday</th>
-                        <th class="wd-15p border-bottom-0 text-center">Mobile number</th>
-                        <th class="wd-15p border-bottom-0 text-center">Static phone</th>
-                        <th class="wd-25p border-bottom-0 text-center">City</th>
-                        <th class="wd-25p border-bottom-0 text-center">Branch</th>
-                        <th class="wd-20p border-bottom-0 text-center">Grade</th>
-                        <th class="border-bottom-0 text-center">Actions</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td class="text-center">Mohsen</td>
-                        <td class="text-center">Afsharzade</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">21/6/1368</td>
-                        <td class="text-center">+98 933 944 9756</td>
-                        <td class="text-center">021 66706689</td>
-                        <td class="text-center">Tehran</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mina</td>
-                        <td class="text-center">Noori</td>
-                        <td class="text-center">Female</td>
-                        <td class="text-center">12/6/1379</td>
-                        <td class="text-center">+98 912 944 9756</td>
-                        <td class="text-center">021 11706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-danger"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Ehsan</td>
-                        <td class="text-center">Rezaian</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">7/1/1373</td>
-                        <td class="text-center">+98 921 557 9885</td>
-                        <td class="text-center">021 44696689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mohsen</td>
-                        <td class="text-center">Afsharzade</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">21/6/1368</td>
-                        <td class="text-center">+98 933 944 9756</td>
-                        <td class="text-center">021 66706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mohsen</td>
-                        <td class="text-center">Afsharzade</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">21/6/1368</td>
-                        <td class="text-center">+98 933 944 9756</td>
-                        <td class="text-center">021 66706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mina</td>
-                        <td class="text-center">Noori</td>
-                        <td class="text-center">Female</td>
-                        <td class="text-center">12/6/1379</td>
-                        <td class="text-center">+98 912 944 9756</td>
-                        <td class="text-center">021 11706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-danger"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Ehsan</td>
-                        <td class="text-center">Rezaian</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">7/1/1373</td>
-                        <td class="text-center">+98 921 557 9885</td>
-                        <td class="text-center">021 44696689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mohsen</td>
-                        <td class="text-center">Afsharzade</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">21/6/1368</td>
-                        <td class="text-center">+98 933 944 9756</td>
-                        <td class="text-center">021 66706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mohsen</td>
-                        <td class="text-center">Afsharzade</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">21/6/1368</td>
-                        <td class="text-center">+98 933 944 9756</td>
-                        <td class="text-center">021 66706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mina</td>
-                        <td class="text-center">Noori</td>
-                        <td class="text-center">Female</td>
-                        <td class="text-center">12/6/1379</td>
-                        <td class="text-center">+98 912 944 9756</td>
-                        <td class="text-center">021 11706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-danger"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Ehsan</td>
-                        <td class="text-center">Rezaian</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">7/1/1373</td>
-                        <td class="text-center">+98 921 557 9885</td>
-                        <td class="text-center">021 44696689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star text-gray"></i></label>
-                                <label><i class="fa fa-star"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">Mohsen</td>
-                        <td class="text-center">Afsharzade</td>
-                        <td class="text-center">Male</td>
-                        <td class="text-center">21/6/1368</td>
-                        <td class="text-center">+98 933 944 9756</td>
-                        <td class="text-center">021 66706689</td>
-                        <td class="text-center">Qom</td>
-                        <td class="text-center">Shariati</td>
-                        <td class="text-center">
-                            <div class="rating">
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                                <label><i class="fa fa-star text-warning"></i></label>
-                            </div>
-                        </td>
-                        <td class="text-center">
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
-                            <a class="icon" href="javascript:void(0)"></a>
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">All customers</div>
             </div>
+            <div class="card-body">
+                <div class="table-responsive ">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                        <thead class="bg-primary">
+                        <tr>
+                            <th class="wd-15p border-bottom-0 text-center">Name</th>
+                            <th class="wd-15p border-bottom-0 text-center">Family</th>
+                            <th class="wd-10p border-bottom-0 text-center">Gender</th>
+                            <th class="wd-10p border-bottom-0 text-center">Birthday</th>
+                            <th class="wd-15p border-bottom-0 text-center">Mobile number</th>
+                            <th class="wd-15p border-bottom-0 text-center">Static phone</th>
+                            <th class="wd-25p border-bottom-0 text-center">City</th>
+                            <th class="wd-25p border-bottom-0 text-center">Branch</th>
+                            <th class="wd-20p border-bottom-0 text-center">Grade</th>
+                            <th class="border-bottom-0 text-center">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Tehran</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mina</td>
+                            <td class="text-center">Noori</td>
+                            <td class="text-center">Female</td>
+                            <td class="text-center">12/6/1379</td>
+                            <td class="text-center">+98 912 944 9756</td>
+                            <td class="text-center">021 11706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-danger"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Ehsan</td>
+                            <td class="text-center">Rezaian</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">7/1/1373</td>
+                            <td class="text-center">+98 921 557 9885</td>
+                            <td class="text-center">021 44696689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mina</td>
+                            <td class="text-center">Noori</td>
+                            <td class="text-center">Female</td>
+                            <td class="text-center">12/6/1379</td>
+                            <td class="text-center">+98 912 944 9756</td>
+                            <td class="text-center">021 11706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-danger"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Ehsan</td>
+                            <td class="text-center">Rezaian</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">7/1/1373</td>
+                            <td class="text-center">+98 921 557 9885</td>
+                            <td class="text-center">021 44696689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mina</td>
+                            <td class="text-center">Noori</td>
+                            <td class="text-center">Female</td>
+                            <td class="text-center">12/6/1379</td>
+                            <td class="text-center">+98 912 944 9756</td>
+                            <td class="text-center">021 11706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-danger"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Ehsan</td>
+                            <td class="text-center">Rezaian</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">7/1/1373</td>
+                            <td class="text-center">+98 921 557 9885</td>
+                            <td class="text-center">021 44696689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- table-wrapper -->
         </div>
-        <!-- table-wrapper -->
+        <!-- section-wrapper -->
     </div>
-    <!-- section-wrapper -->
 </div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Customer Group Number 1</div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive ">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                        <thead class="bg-primary">
+                        <tr>
+                            <th class="wd-15p border-bottom-0 text-center">Name</th>
+                            <th class="wd-15p border-bottom-0 text-center">Family</th>
+                            <th class="wd-10p border-bottom-0 text-center">Gender</th>
+                            <th class="wd-10p border-bottom-0 text-center">Birthday</th>
+                            <th class="wd-15p border-bottom-0 text-center">Mobile number</th>
+                            <th class="wd-15p border-bottom-0 text-center">Static phone</th>
+                            <th class="wd-25p border-bottom-0 text-center">City</th>
+                            <th class="wd-25p border-bottom-0 text-center">Branch</th>
+                            <th class="wd-20p border-bottom-0 text-center">Grade</th>
+                            <th class="border-bottom-0 text-center">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Tehran</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mina</td>
+                            <td class="text-center">Noori</td>
+                            <td class="text-center">Female</td>
+                            <td class="text-center">12/6/1379</td>
+                            <td class="text-center">+98 912 944 9756</td>
+                            <td class="text-center">021 11706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-danger"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Ehsan</td>
+                            <td class="text-center">Rezaian</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">7/1/1373</td>
+                            <td class="text-center">+98 921 557 9885</td>
+                            <td class="text-center">021 44696689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center">Ehsan</td>
+                            <td class="text-center">Rezaian</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">7/1/1373</td>
+                            <td class="text-center">+98 921 557 9885</td>
+                            <td class="text-center">021 44696689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star text-gray"></i></label>
+                                    <label><i class="fa fa-star"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mohsen</td>
+                            <td class="text-center">Afsharzade</td>
+                            <td class="text-center">Male</td>
+                            <td class="text-center">21/6/1368</td>
+                            <td class="text-center">+98 933 944 9756</td>
+                            <td class="text-center">021 66706689</td>
+                            <td class="text-center">Qom</td>
+                            <td class="text-center">Shariati</td>
+                            <td class="text-center">
+                                <div class="rating">
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                    <label><i class="fa fa-star text-warning"></i></label>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a class="icon" href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- table-wrapper -->
+        </div>
+        <!-- section-wrapper -->
+    </div>
 </div>
 
 <!-- Message Modal -->

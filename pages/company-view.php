@@ -1413,14 +1413,14 @@
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
+                                        <tr >
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Formality</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Formality</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-red w-10">10%</div>
@@ -1435,14 +1435,15 @@
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
                                                             class="fas fa-pen"></i> Edit</a>
                                             </td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr>
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Marriage ceremony</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Marriage ceremony</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-warning w-35">35%</div>
@@ -1459,14 +1460,15 @@
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
                                                             class="fas fa-pen"></i> Edit</a>
                                             </td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr >
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Wedding</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Wedding</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-blue-lighter">Shams Tabrizi</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-success w-100">100%</div>
@@ -1483,14 +1485,15 @@
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
                                                             class="fas fa-pen"></i> Edit</a>
                                             </td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr>
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Party</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Party</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-blue-lighter">Shams Tabrizi</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-warning w-50">50%</div>
@@ -1507,14 +1510,15 @@
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
                                                             class="fas fa-pen"></i> Edit</a>
                                             </td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr>
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Wedding</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Newborn</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-red w-30">30%</div>
@@ -1532,14 +1536,14 @@
                                                             class="fas fa-pen"></i> Edit</a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr >
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Formality</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Formality</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-blue-lighter">Shams Tabrizi</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-red w-0">0%</div>
@@ -1554,14 +1558,15 @@
                                                    data-toggle="modal" data-target="#exampleModal3-2"><i
                                                             class="fas fa-pen"></i> Edit</a>
                                             </td>
-                                        </tr><tr>
+                                        </tr>
+                                        <tr>
                                             <td class="text-center">12/2/97</td>
                                             <td class="text-center">Marriage ceremony</td>
                                             <td class="text-center">Mohsen Heshmati</td>
                                             <td class="text-center">Marriage ceremony</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-success w-85">85%</div>
