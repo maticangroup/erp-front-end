@@ -51,8 +51,8 @@
                         <div class="card ">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table card-table table-vcenter text-nowrap ">
-                                        <thead class="bg-primary ">
+                                    <table class="table card-table table-vcenter text-nowrap text-center">
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th>Id</th>
                                             <th></th>
@@ -152,10 +152,15 @@
 <div class="row">
     <div class="col-md-12 col-lg-12">
         <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    Projects
+                </div>
+            </div>
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Name</th>
                             <th class="wd-15p border-bottom-0 text-center">Owner</th>
@@ -368,7 +373,7 @@
     <div class="col-12 col-md-12 col-lg-12">
         <div class="card">
             <div class="card-header">
-                <h4>Bar Chart</h4>
+                <h4>Monthly Efficiency</h4>
             </div>
             <div class="card-body">
                 <div id="highchart7"></div>

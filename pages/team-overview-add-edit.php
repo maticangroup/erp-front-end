@@ -68,7 +68,7 @@
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Name</th>
                             <th class="wd-15p border-bottom-0 text-center">Leader</th>

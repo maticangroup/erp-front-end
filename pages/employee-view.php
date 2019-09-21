@@ -141,7 +141,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-2" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -300,7 +300,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-8" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Call Method</th>
@@ -455,7 +455,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-3" class="table table-striped table-bordered">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -641,7 +641,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-4" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Name</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Owner</th>
@@ -853,7 +853,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-5" class="table table-striped table-bordered">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="border-bottom-0 text-center">Create Date</th>
                                                     <th class="border-bottom-0 text-center">Title</th>
@@ -1047,7 +1047,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-7" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-left">Requester</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Request Date</th>
@@ -1161,7 +1161,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-6" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Creator</th>
@@ -1337,7 +1337,7 @@
             </div>
             <div class="table-responsive rounded-bottom">
                 <table class="table card-table table-vcenter table-hover">
-                    <thead >
+                    <thead class="bg-primary">
                     <tr>
                         <th class=" bg-primary"></th>
                         <th class="text-center bg-primary">Equipment</th>
@@ -1467,7 +1467,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-9" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-left">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -1599,7 +1599,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-11" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Amount</th>
@@ -1722,7 +1722,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-12" class="table table-striped table-bordered">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -1941,7 +1941,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-13" class="table table-striped table-bordered">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-center">Employee</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Bank</th>
@@ -2180,7 +2180,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-10" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Supplier</th>
@@ -2395,7 +2395,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-3" class="table table-striped table-bordered nowrap">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
                                                     <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Num Of Equipment</th>
@@ -2408,7 +2408,7 @@
                                                     <th class="wd-25p border-bottom-0 text-center">Status</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                                 </tr>
-                                                </thead>
+                                                </thead class="bg-primary">
                                                 <tbody>
                                                 <tr>
                                                     <td>1354v18</td>

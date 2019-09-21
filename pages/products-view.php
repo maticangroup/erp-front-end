@@ -355,7 +355,7 @@
         <div class="card bg-primary text-white">
             <div class="card-header">
                 <div class="card-title">
-                    Shopping Card
+                    Shopping Cart
                 </div>
             </div>
             <div class="card-body">
