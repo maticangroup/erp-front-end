@@ -1368,6 +1368,35 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <div class="form-group clearfix ">
+                                                            <div class="row ">
+                                                                <div class="col-lg-3">
+                                                                    <label class="control-label form-label font-weight-bold pt-3"
+                                                                           for="Inform">Grade :</label>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <div class="rating-stars block" id="more-rating">
+                                                                        <div class="rating-stars-container text-left">
+                                                                            <div class="rating-star p-0 is--active is--hover">
+                                                                                <i class="fas fa-star fa-1x"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1819,6 +1848,35 @@
                                                                         <option value="3">Arrogant</option>
                                                                         <option value="4">Luxuries</option>
                                                                     </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group clearfix ">
+                                                            <div class="row ">
+                                                                <div class="col-lg-3">
+                                                                    <label class="control-label form-label font-weight-bold pt-3"
+                                                                           for="Inform">Grade :</label>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <div class="rating-stars block" id="more-rating">
+                                                                        <div class="rating-stars-container text-left">
+                                                                            <div class="rating-star p-0 is--active is--hover">
+                                                                                <i class="fas fa-star fa-1x"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                            <div class="rating-star p-0 is--no-hover">
+                                                                                <i class="fas fa-star"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>

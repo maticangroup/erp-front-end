@@ -87,12 +87,11 @@
                             <td class="text-center">100*200 cm</td>
                             <td class="text-center">5 kg</td>
                             <td class="text-center">16</td>
-                            <td class="text-center">something</td>
+                            <td class="text-center">5</td>
                             <td class="text-center">500,000 T</td>
                             <td class="text-center">available</td>
                             <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -105,12 +104,11 @@
                             <td class="text-center">90*20 cm</td>
                             <td class="text-center">3 kg</td>
                             <td class="text-center">9</td>
-                            <td class="text-center">something</td>
+                            <td class="text-center">11</td>
                             <td class="text-center">200,000 T</td>
                             <td class="text-center">available</td>
                             <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -123,12 +121,11 @@
                             <td class="text-center">200*100 cm</td>
                             <td class="text-center">2.5 kg</td>
                             <td class="text-center">6</td>
-                            <td class="text-center">something</td>
+                            <td class="text-center">7</td>
                             <td class="text-center">700,000 T</td>
                             <td class="text-center">unavailable</td>
                             <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -141,12 +138,11 @@
                             <td class="text-center">20*50 cm</td>
                             <td class="text-center">15 kg</td>
                             <td class="text-center">21</td>
-                            <td class="text-center">something</td>
+                            <td class="text-center">9</td>
                             <td class="text-center">1,000,000 T</td>
                             <td class="text-center">available</td>
                             <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -159,12 +155,11 @@
                             <td class="text-center">50*150 cm</td>
                             <td class="text-center">3.5 kg</td>
                             <td class="text-center">16</td>
-                            <td class="text-center">something</td>
+                            <td class="text-center">2</td>
                             <td class="text-center">100,000 T</td>
                             <td class="text-center">unavailable</td>
                             <td class="text-center">
-                                <a class="icon" href="javascript:void(0)"></a>
-                                <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -232,7 +227,7 @@
         <div class="card overflow-hidden">
             <div class="card-body">
                 <div class="dash4">
-                    <h3>Monthly Projects <span class="btn btn-outline-primary float-right d-none d-sm-block">View Details</span></h3>
+                    <h3>Monthly Sale <span class="btn btn-outline-primary float-right d-none d-sm-block">View Details</span></h3>
                     <p><i class="fas fa-arrow-up text-green mr-1"></i>15% increase in last Month</p>
                 </div>
                 <div class="chart-wrapper ">
@@ -430,11 +425,11 @@
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title"> Purchase price :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <input class="form-control required" id="title"
                                                                        type="text">
                                                             </div>
@@ -442,11 +437,11 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title"> Sale price :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <input class="form-control required" id="title"
                                                                        type="text">
                                                             </div>
@@ -454,44 +449,46 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Toggle :</label>
+                                                                       for="title">Apply discount :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
-                                                                <input class="form-control required" id="title"
-                                                                       type="text">
+                                                            <div class="col-lg-8">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Discount percent :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <input class="form-control required" id="title" placeholder="%" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Sale price after apply discount :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <input class="form-control required" id="title"  type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold" for="HoldDate">From date :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <div class="input-group">
                                                                     <div class="input-group-prepend">
                                                                         <div class="input-group-text">
@@ -505,10 +502,10 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold" for="HoldDate">To date :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <div class="input-group">
                                                                     <div class="input-group-prepend">
                                                                         <div class="input-group-text">
@@ -571,17 +568,32 @@
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3 mb-0">
                                                         <div class="row justify-content-start">
-                                                            <div class="col-lg-5 ">
-                                                                <div class="thumbnail border-0 mb-0">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/photos/19.jpg" alt="thumb1" class="thumbimg ">
-                                                                    </a>
-                                                                    <div class="caption">
-                                                                        <div class="text-center">
-                                                                            <button href="#" class="btn-pill btn-outline-secondary mt-1 " role="button">Upload <i class="fas fa-cloud-upload-alt"></i></button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                                                            <div class="col-4">
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#comment-modal" class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "  src="../assets/images/photos/19.jpg" alt="">
+                                                                    <span class="link-overlay-bg rounded">
+                                                                        <span class="text-muted font-weight-extrabold"><i class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#portfolio-modal" class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload <i class="fas fa-cloud-upload-alt"></i></a>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#comment-modal" class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "  src="../assets/images/photos/19.jpg" alt="">
+                                                                    <span class="link-overlay-bg rounded">
+                                                                        <span class="text-muted font-weight-extrabold"><i class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#portfolio-modal" class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload <i class="fas fa-cloud-upload-alt"></i></a>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#comment-modal" class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "  src="../assets/images/photos/19.jpg" alt="">
+                                                                    <span class="link-overlay-bg rounded">
+                                                                        <span class="text-muted font-weight-extrabold"><i class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#portfolio-modal" class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload <i class="fas fa-cloud-upload-alt"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -596,8 +608,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
+                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
                     Save
                 </button>
             </div>

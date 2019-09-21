@@ -90,13 +90,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mina</td>
@@ -117,13 +116,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Ehsan</td>
@@ -144,13 +142,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mohsen</td>
@@ -171,13 +168,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mohsen</td>
@@ -198,13 +194,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mina</td>
@@ -225,13 +220,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Ehsan</td>
@@ -252,13 +246,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mohsen</td>
@@ -279,13 +272,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mohsen</td>
@@ -306,13 +298,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mina</td>
@@ -333,13 +324,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Ehsan</td>
@@ -360,13 +350,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-                            </td>
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a></td>
                         </tr>
                         <tr>
                             <td class="text-center">Mohsen</td>
@@ -387,13 +376,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                <a href="#" class="btn btn-sm btn-info "><i class="fas fa-plus mr-1"></i>Add to list</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-
+                                   class="btn btn-teal btn-sm"><i class="fas fa-users"></i> Add to group</a>
                             </td>
                         </tr>
                         </tbody>
@@ -449,12 +437,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
                         <tr>
@@ -476,12 +464,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
                         <tr>
@@ -503,12 +491,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
                         <tr>
@@ -530,12 +518,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
 
@@ -558,12 +546,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
                         <tr>
@@ -585,12 +573,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
                         <tr>
@@ -612,12 +600,12 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/customer-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="#" class="btn btn-sm btn-danger "><i class="fas fa-trash mr-1"></i>Delete</a>
                             </td>
                         </tr>
 

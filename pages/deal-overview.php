@@ -16,7 +16,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive ">
-                    <table id="example-2" class="table table-striped table-bordered">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
                             <th class="border-bottom-0 text-center">Create Date</th>
@@ -229,11 +229,9 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1" class="active font-weight-bold"
-                                                            data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2" class="font-weight-bold"
-                                                   data-toggle="tab"> company activity</a>
-                                            </li>
+                                            <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab"> company activity</a></li>
+                                            <li><a href="#tab3" class="font-weight-bold" data-toggle="tab"> Other info</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -360,6 +358,115 @@
                                                                 <option> Funeral</option>
                                                                 <option> Family party</option>
                                                             </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tab3">
+                                            <div class="form-group clearfix mt-3">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="form-label font-weight-bold">Hold date :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">
+                                                                    <i class="far fa-calendar tx-16 lh-0 op-6"></i>
+                                                                </div>
+                                                            </div>
+                                                            <input class="form-control fc-datepicker" id="FromDate" placeholder="MM/DD/YYYY" type="date">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group clearfix ">
+                                                <div class="row ">
+                                                    <div class="col-lg-3">
+                                                        <label class="control-label form-label font-weight-bold"
+                                                               for="Inform">Choose companies :</label>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <select multiple="multiple" class="multi-select" id="Inform">
+                                                            <option value="1"></option>
+                                                            <option value="2"></option>
+                                                            <option value="3"></option>
+                                                            <option value="4"></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-5">
+                                                <div class="col-md-12 col-lg-12">
+                                                    <div class="card table-responsive ">
+                                                        <div class="card-header py-0 bg-gradient-primary">
+                                                            <p class="font-weight-bold text-white">Company info</p>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <table class="table card-table table-vcenter text-nowrap table-primary border">
+                                                                <thead class="bg-primary text-white">
+                                                                <tr>
+                                                                    <th class="text-white">Company name</th>
+                                                                    <th class="text-white">Type</th>
+                                                                    <th class="text-white ">Rate</th>
+                                                                    <th class="text-white"></th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>company 1</td>
+                                                                    <td>type 1</td>
+                                                                    <td>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-secondary fs-15"><i class="fas fa-star"></i></span>
+                                                                    </td>
+                                                                    <td>
+                                                                        <button href="#"
+                                                                                class="btn-pill btn-outline-danger btn-sm">
+                                                                            Delete
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>company 3</td>
+                                                                    <td>type 3</td>
+                                                                    <td>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-secondary fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-secondary fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-secondary fs-15"><i class="fas fa-star"></i></span>
+                                                                    </td>
+                                                                    <td>
+                                                                        <button href="#"
+                                                                                class="btn-pill btn-outline-danger btn-sm">
+                                                                            Delete
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>company 2</td>
+                                                                    <td>type 2</td>
+                                                                    <td>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                        <span class="text-warning fs-15"><i class="fas fa-star"></i></span>
+                                                                    </td>
+                                                                    <td>
+                                                                        <button href="#"
+                                                                                class="btn-pill btn-outline-danger btn-sm">
+                                                                            Delete
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
                                                         </div>
                                                     </div>
                                                 </div>

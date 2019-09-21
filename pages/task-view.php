@@ -13,11 +13,11 @@
         <h4 class="page-title">Task View</h4>
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
-            <a href="#" class="btn btn-primary btn-sm bg-secondary"><i
+            <a href="#" class="btn btn-primary  bg-secondary"><i
                         class="fas fa-calendar mr-1"></i>Schedule</a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
-               class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
-            <a href="#" class="btn btn-primary btn-sm bg-red"><i
+               class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
+            <a href="#" class="btn btn-primary  bg-red"><i
                         class="fas fa-trash mr-1"></i>Delete</a>
 
         </div>
@@ -783,7 +783,7 @@
                                         <ul class="nav panel-tabs">
                                             <li class=""><a href="#tab111" class="active font-weight-bold"
                                                             data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing</a>
+                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing & Financial</a>
                                             </li>
                                             <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Execution
                                                     Place</a></li>
@@ -920,118 +920,170 @@
                                         <div class="tab-pane" id="tab222">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <div class="form-group clearfix">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-3">
-                                                                        <label class="control-label form-label font-weight-bold"
-                                                                               for="FromDate">From Date </label>
-                                                                    </div>
-                                                                    <div class="col-lg-9">
-                                                                        <div class="input-group">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">
-                                                                                    <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <input class="form-control fc-datepicker"
-                                                                                   id="FromDate"
-                                                                                   placeholder="MM/DD/YYYY"
-                                                                                   type="date">
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromDate">From Date :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
+                                                                    <input class="form-control fc-datepicker"
+                                                                           id="FromDate"
+                                                                           placeholder="MM/DD/YYYY"
+                                                                           type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group clearfix">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-3">
-                                                                        <label class="control-label form-label font-weight-bold"
-                                                                               for="DeadlineDate">Deadline Date </label>
-                                                                    </div>
-                                                                    <div class="col-lg-9">
-                                                                        <div class="input-group">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">
-                                                                                    <i class="far fa-calendar-check tx-16 lh-0 op-6"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <input class="form-control required"
-                                                                                   id="DeadlineDate" name="DeadlineDate"
-                                                                                   type="date">
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="DeadlineDate">Deadline Date :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-calendar-check tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
+                                                                    <input class="form-control required"
+                                                                           id="DeadlineDate" name="DeadlineDate"
+                                                                           type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group clearfix">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-3">
-                                                                        <label class="control-label form-label font-weight-bold"
-                                                                               for="FromTime">From Time </label>
-                                                                    </div>
-                                                                    <div class="col-lg-9">
-                                                                        <div class="input-group">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">
-                                                                                    <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <input class="form-control required"
-                                                                                   id="FromTime"
-                                                                                   name="FromTime" type="time">
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="FromTime">From Time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
+                                                                    <input class="form-control required"
+                                                                           id="FromTime"
+                                                                           name="FromTime" type="time">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group clearfix">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-3">
-                                                                        <label class="control-label form-label font-weight-bold"
-                                                                               for="toTime">To Time </label>
-                                                                    </div>
-                                                                    <div class="col-lg-9">
-                                                                        <div class="input-group">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">
-                                                                                    <i class="far fa-clock tx-16 lh-0 op-6"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <input class="form-control required"
-                                                                                   id="toTime"
-                                                                                   name="toTime" type="time">
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="toTime">To Time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="far fa-clock tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
+                                                                    <input class="form-control required"
+                                                                           id="toTime"
+                                                                           name="toTime" type="time">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group clearfix">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-3">
-                                                                        <label class="control-label form-label font-weight-bold"
-                                                                               for="EstimationTime">Estimation
-                                                                            Time </label>
-                                                                    </div>
-                                                                    <div class="col-lg-9">
-                                                                        <div class="input-group">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">
-                                                                                    <i class="fas fa-clock tx-16 lh-0 op-6"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <input class="form-control required"
-                                                                                   id="EstimationTime"
-                                                                                   name="EstimationTime"
-                                                                                   type="text">
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="EstimationTime">Estimation
+                                                                    Time :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">
+                                                                            <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
+                                                                    <input class="form-control required"
+                                                                           id="EstimationTime"
+                                                                           name="EstimationTime"
+                                                                           type="text">
                                                                 </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Actual cost : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       name="title" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix mb-4 ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Apply custom cost : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group  clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="branch">Cost method </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select class="form-control" id="branch">
+                                                                    <option>fixed</option>
+                                                                    <option>per hour</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Amount : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       name="title" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Total cost : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       name="title" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
