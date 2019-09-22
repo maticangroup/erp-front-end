@@ -14,14 +14,14 @@
 
 <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 d-flex justify-content-center">
-            <img class="d-block img-fluid mr-2 mb-3 rounded-left shadow" src="../assets/images/photos/z1- Copy.jpg" alt="">
+            <img class="d-block img-fluid mr-2 mb-3  shadow" src="../assets/images/photos/z1- Copy.jpg" alt="">
             <img class="d-block img-fluid mr-1 mt-3  shadow" src="../assets/images/photos/z2 - Copy.jpg" alt="">
             <img class="d-block img-fluid mr-2 mb-4  shadow" src="../assets/images/photos/z3 - Copy.jpg" alt="">
             <img class="d-block img-fluid mr-1 mb-1 mt-3  shadow" src="../assets/images/photos/z4 - Copy.jpg" alt="">
             <img class="d-block img-fluid mr-2 mt-4 shadow" src="../assets/images/photos/z5 - Copy.jpg" alt="">
             <img class="d-block img-fluid mr-1 mt-2  shadow" src="../assets/images/photos/z6 - Copy.jpg" alt="">
             <img class="d-block img-fluid mr-2 mb-3 shadow" src="../assets/images/photos/z7 - Copy.jpg" alt="">
-            <img class="d-block img-fluid mr-1 mt-3 rounded-right shadow" src="../assets/images/photos/z8 - Copy.jpg" alt="">
+            <img class="d-block img-fluid mr-1 mt-3  shadow" src="../assets/images/photos/z8 - Copy.jpg" alt="">
     </div>
 </div>
 
@@ -41,12 +41,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -68,12 +69,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -95,12 +97,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -122,12 +125,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -149,12 +153,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -176,12 +181,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -203,12 +209,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -230,12 +237,13 @@
                 <div class="row">
                     <div class="col-sm-6 border-right ">
                         <div class="description-block">
-                            <a href="/customergroup-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
+                            <a href="/portfolio-view" class=" btn btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-eye mr-1"></i>View</a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="description-block">
-                            <a href="#" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
+                            <a href="javascript:void(0)" data-toggle="modal"
+                               data-target="#edit-modal" class="btn  btn-sm btn-block font-weight-extrabold text-white"><i class="fas fa-pen mr-1"></i>Edit</a>
                         </div>
                     </div>
                 </div>
@@ -249,7 +257,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">New Customer Group</h5>
+                <h5 class="modal-title" id="example-Modal3-1">New Box</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -272,7 +280,7 @@
                                         <div class="tab-pane active " id="tab1-1">
                                             <div class="row mt-3">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label font-weight-bold">Group name :</label>
+                                                    <label class="form-label font-weight-bold">Box name :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
@@ -291,15 +299,68 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
+                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
                     Save
                 </button>
             </div>
         </div>
     </div>
 </div>
+<div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="example-Modal3-1">Edit Box</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card mb-0">
+                            <div class="panel panel-primary ">
+                                <div class="  border-0">
+                                    <div class="tabs-menu ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab1-2" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body  border-left-0 border-right-0 border-bottom-0">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab1-2">
+                                            <div class="row mt-3">
+                                                <div class="col-lg-3">
+                                                    <label class="form-label font-weight-bold">Box name :</label>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="form-group">
 
+                                                        <input type="text" class="form-control" name="topic"
+                                                               placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
+                    Save
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php
