@@ -1,11 +1,11 @@
-
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Employee View</h4>
         <div class="float-right ml-auto">
             <a class="icon" href="javascript:void(0)"></a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary"><i class="fas fa-pen"></i> Edit</a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary"><i
+                        class="fas fa-pen"></i> Edit</a>
         </div>
         <div class="float-right ml-1">
             <a href="#" class="btn btn-primary bg-red"><i class="fas fa-trash mr-1"></i>Delete</a>
@@ -20,19 +20,23 @@
         <div class="card ">
             <div class="card-body text-center pt-3 ">
                 <a href="#">
-                    <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro7.jpg">
+                    <span class="avatar avatar-xl brround cover-image m-2"
+                          data-image-src="../assets/images/photos/pro7.jpg">
                         <span class="avatar-status bg-red"></span>
                     </span>
                 </a>
                 <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Amir Sadat</a></h5>
                 <span>Employee</span>
-                <div >
+                <div>
                     <span class="badge badge-default">designer</span>
                 </div>
                 <div class="mt-4">
-                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
-                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
-                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i
+                                class="fas fa-eye"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i
+                                class="fas fa-phone"></i></button>
+                    <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i
+                                class="fas fa-envelope"></i></button>
                 </div>
             </div>
         </div>
@@ -124,11 +128,12 @@
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
                                 <li><a href="#tab11" class="active font-weight-bold" data-toggle="tab">Task</a></li>
-                                <li ><a href="#tab22" class=" font-weight-bold" data-toggle="tab">Call</a></li>
+                                <li><a href="#tab22" class=" font-weight-bold" data-toggle="tab">Call</a></li>
                                 <li><a href="#tab33" class="font-weight-bold" data-toggle="tab">Meeting</a></li>
                                 <li><a href="#tab44" class="font-weight-bold" data-toggle="tab">Project</a></li>
                                 <li><a href="#tab55" class="font-weight-bold" data-toggle="tab">Deal</a></li>
-                                <li><a href="#tab66" class="font-weight-bold" data-toggle="tab">Time off request</a></li>
+                                <li><a href="#tab66" class="font-weight-bold" data-toggle="tab">Time off request</a>
+                                </li>
                                 <li><a href="#tab77" class="font-weight-bold" data-toggle="tab">Poll</a></li>
                             </ul>
                         </div>
@@ -140,7 +145,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-2" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -164,7 +169,8 @@
                                                     <td class="text-center">12 December 2019</td>
                                                     <td class="text-center">04 February 2020</td>
                                                     <td class="text-center">8h 45m</td>
-                                                    <td class="text-center"><span class="badge badge-warning">Medium</span></td>
+                                                    <td class="text-center"><span
+                                                                class="badge badge-warning">Medium</span></td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
                                                             <div class="progress-bar bg-info w-0 font-weight-bold ">0%
@@ -174,7 +180,8 @@
                                                     <td class="text-center">Not Planned</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascriptvoid(0)"></a>
-                                                        <a href="/task-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/task-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascriptvoid(0)"></a>
                                                         <a href="javascriptvoid(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -189,7 +196,8 @@
                                                     <td class="text-center">12 December 2019</td>
                                                     <td class="text-center">04 February 2020</td>
                                                     <td class="text-center">4h</td>
-                                                    <td class="text-center"><span class="badge badge-success">Low</span></td>
+                                                    <td class="text-center"><span class="badge badge-success">Low</span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
                                                             <div class="progress-bar bg-info w-5 font-weight-bold ">5%
@@ -243,10 +251,12 @@
                                                     <td class="text-center">12 December 2019</td>
                                                     <td class="text-center">04 February 2020</td>
                                                     <td class="text-center">7h 15m</td>
-                                                    <td class="text-center"><span class="badge badge-warning">Medium</span></td>
+                                                    <td class="text-center"><span
+                                                                class="badge badge-warning">Medium</span></td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-info w-100 font-weight-bold ">100%
+                                                            <div class="progress-bar bg-info w-100 font-weight-bold ">
+                                                                100%
                                                             </div>
                                                         </div>
                                                     </td>
@@ -269,7 +279,8 @@
                                                     <td class="text-center">12 December 2019</td>
                                                     <td class="text-center">04 February 2020</td>
                                                     <td class="text-center">10h</td>
-                                                    <td class="text-center"><span class="badge badge-danger">High</span></td>
+                                                    <td class="text-center"><span class="badge badge-danger">High</span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
                                                             <div class="progress-bar bg-info w-25 font-weight-bold ">25%
@@ -299,7 +310,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-8" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Call Method</th>
@@ -310,7 +321,7 @@
                                                     <th class="wd-25p border-bottom-0 text-center">Result
                                                     </th>
                                                     <th class="wd-25p border-bottom-0 text-center">Status</th>
-                                                    <th class="wd-25p border-bottom-0 text-center"></th>
+                                                    <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -343,7 +354,7 @@
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    class="fas fa-dot-circle"></i>Actions</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -375,7 +386,7 @@
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    class="fas fa-dot-circle"></i>Actions</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -407,7 +418,7 @@
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
-                                                                    class="fas fa-dot-circle"></i>Action</a>
+                                                                    class="fas fa-dot-circle"></i>Actions</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -454,7 +465,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-3" class="table table-striped table-bordered">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -464,7 +475,8 @@
                                                     <th class="wd-15p border-bottom-0 text-center">Meeting Leader</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Place</th>
                                                     <th class="border-bottom-0 text-center">Status</th>
-                                                    <th></th>
+                                                    <th class="border-bottom-0 text-center">Actions</th>
+
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -483,7 +495,9 @@
                                                            class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                                             View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#exampleModal3-2" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#exampleModal3-2"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -640,7 +654,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-4" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Name</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Owner</th>
@@ -648,7 +662,8 @@
                                                     <th class="wd-10p border-bottom-0 text-center">Tags</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Project Leader</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Product Owner</th>
-                                                    <th class="wd-25p border-bottom-0 text-center">Current milestone</th>
+                                                    <th class="wd-25p border-bottom-0 text-center">Current milestone
+                                                    </th>
                                                     <th class="wd-20p border-bottom-0 text-center">Branch</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Progress</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Status</th>
@@ -667,16 +682,20 @@
                                                     <td class="text-center">Shariati</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-success w-95 font-weight-bold ">95%
+                                                            <div class="progress-bar bg-success w-95 font-weight-bold ">
+                                                                95%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Pending</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -690,16 +709,20 @@
                                                     <td class="text-center">Shariati</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-warning w-35 font-weight-bold ">35%
+                                                            <div class="progress-bar bg-warning w-35 font-weight-bold ">
+                                                                35%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Pending</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -713,16 +736,20 @@
                                                     <td class="text-center">Valiasr</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-warning w-40 font-weight-bold ">40%
+                                                            <div class="progress-bar bg-warning w-40 font-weight-bold ">
+                                                                40%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Pending</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -743,9 +770,12 @@
                                                     <td class="text-center">Completed</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -759,16 +789,20 @@
                                                     <td class="text-center">Khaghani</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-success w-70 font-weight-bold ">70%
+                                                            <div class="progress-bar bg-success w-70 font-weight-bold ">
+                                                                70%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Completed</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -782,16 +816,20 @@
                                                     <td class="text-center">Shariati</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-success w-85 font-weight-bold ">85%
+                                                            <div class="progress-bar bg-success w-85 font-weight-bold ">
+                                                                85%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">On going</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -812,9 +850,12 @@
                                                     <td class="text-center">Pending</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -828,16 +869,20 @@
                                                     <td class="text-center">Shariati</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-warning w-65 font-weight-bold ">65%
+                                                            <div class="progress-bar bg-warning w-65 font-weight-bold ">
+                                                                65%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Pending</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/project-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a href="javascript:void(0)" data-toggle="modal"
+                                                           data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 </tbody>
@@ -852,7 +897,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-5" class="table table-striped table-bordered">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="border-bottom-0 text-center">Create Date</th>
                                                     <th class="border-bottom-0 text-center">Title</th>
@@ -863,7 +908,7 @@
                                                     <th class="border-bottom-0 text-center">Responsibile</th>
                                                     <th class="border-bottom-0 text-center">Probability</th>
                                                     <th class="border-bottom-0 text-center">Status</th>
-                                                    <th class="border-bottom-0 text-center"></th>
+                                                    <th class="border-bottom-0 text-center">Actions</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -889,7 +934,8 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr class="text-center">
+                                                </tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Marriage ceremony</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -913,7 +959,8 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr class="text-center">
+                                                </tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Wedding</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -937,7 +984,8 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr class="text-center">
+                                                </tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Party</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -961,7 +1009,8 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr class="text-center">
+                                                </tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Wedding</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -1008,7 +1057,8 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr class="text-center">
+                                                </tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Marriage ceremony</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -1046,9 +1096,9 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-7" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
-                                                      <th class="wd-15p border-bottom-0 text-center">Requester</th>
+                                                    <th class="wd-15p border-bottom-0 text-center">Requester</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Request Date</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-15p border-bottom-0 text-center">From Date</th>
@@ -1056,8 +1106,10 @@
                                                     <th class="wd-25p border-bottom-0 text-center">From Time</th>
                                                     <th class="wd-25p border-bottom-0 text-center">To Time</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Confirm Person</th>
-                                                    <th class="wd-25p border-bottom-0 text-center">Confirmation Status</th>
-                                                    <th></th>
+                                                    <th class="wd-25p border-bottom-0 text-center">Confirmation Status
+                                                    </th>
+                                                    <th class="wd-25p border-bottom-0 text-center">Actions</th>
+
 
                                                 </tr>
                                                 </thead>
@@ -1075,7 +1127,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a data-toggle="modal" data-target="#view-modal"
-                                                           class="btn btn-dark btn-sm text-white"><i class="fas fa-eye"></i>
+                                                           class="btn btn-dark btn-sm text-white"><i
+                                                                    class="fas fa-eye"></i>
                                                             View</a>
                                                     </td>
                                                 </tr>
@@ -1092,7 +1145,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a data-toggle="modal" data-target="#view-modal"
-                                                           class="btn btn-dark btn-sm text-white"><i class="fas fa-eye"></i>
+                                                           class="btn btn-dark btn-sm text-white"><i
+                                                                    class="fas fa-eye"></i>
                                                             View</a>
                                                     </td>
                                                 </tr>
@@ -1109,7 +1163,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a data-toggle="modal" data-target="#view-modal"
-                                                           class="btn btn-dark btn-sm text-white"><i class="fas fa-eye"></i>
+                                                           class="btn btn-dark btn-sm text-white"><i
+                                                                    class="fas fa-eye"></i>
                                                             View</a>
                                                     </td>
                                                 </tr>
@@ -1126,7 +1181,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a data-toggle="modal" data-target="#view-modal"
-                                                           class="btn btn-dark btn-sm text-white"><i class="fas fa-eye"></i>
+                                                           class="btn btn-dark btn-sm text-white"><i
+                                                                    class="fas fa-eye"></i>
                                                             View</a>
                                                     </td>
                                                 </tr>
@@ -1143,7 +1199,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a data-toggle="modal" data-target="#view-modal"
-                                                           class="btn btn-dark btn-sm text-white"><i class="fas fa-eye"></i>
+                                                           class="btn btn-dark btn-sm text-white"><i
+                                                                    class="fas fa-eye"></i>
                                                             View</a>
                                                     </td>
                                                 </tr>
@@ -1160,13 +1217,14 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-6" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Creator</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Poll For</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Due Date</th>
-                                                    <th class="wd-15p border-bottom-0 text-center">Num Of Participants</th>
+                                                    <th class="wd-15p border-bottom-0 text-center">Num Of Participants
+                                                    </th>
                                                     <th class="wd-15p border-bottom-0 text-center">Progress</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Status</th>
                                                     <th class="border-bottom-0 text-center">Actions</th>
@@ -1188,9 +1246,12 @@
                                                     <td class="text-center">Plan</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -1208,9 +1269,12 @@
                                                     <td class="text-center">Scheduled</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -1221,16 +1285,20 @@
                                                     <td class="text-center">9</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-success w-90 font-weight-bold ">90%
+                                                            <div class="progress-bar bg-success w-90 font-weight-bold ">
+                                                                90%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Doing</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -1241,16 +1309,20 @@
                                                     <td class="text-center">11</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-success w-100 font-weight-bold ">100%
+                                                            <div class="progress-bar bg-success w-100 font-weight-bold ">
+                                                                100%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Finished</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -1261,16 +1333,20 @@
                                                     <td class="text-center">22</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-warning w-60 font-weight-bold ">60%
+                                                            <div class="progress-bar bg-warning w-60 font-weight-bold ">
+                                                                60%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Doing</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -1281,16 +1357,20 @@
                                                     <td class="text-center">8</td>
                                                     <td class="text-center">
                                                         <div class="progress progress-md mb-3">
-                                                            <div class="progress-bar bg-success w-100 font-weight-bold ">100%
+                                                            <div class="progress-bar bg-success w-100 font-weight-bold ">
+                                                                100%
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td class="text-center">Finished</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 <tr class="text-center">
@@ -1308,9 +1388,12 @@
                                                     <td class="text-center">Doing</td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                        <a href="/poll-view" class="btn btn-dark btn-sm"><i
+                                                                    class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                                        <a data-toggle="modal" data-target="#add-modal"
+                                                           class="btn btn-primary btn-sm text-white"><i
+                                                                    class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
                                                 </tbody>
@@ -1336,7 +1419,7 @@
             </div>
             <div class="table-responsive rounded-bottom">
                 <table class="table card-table table-vcenter table-hover">
-                     <thead class="bg-primary text-center">
+                    <thead class="bg-primary text-center">
                     <tr class="text-center">
                         <th class=" bg-primary"></th>
                         <th class="text-center bg-primary">Equipment</th>
@@ -1452,8 +1535,9 @@
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
                                 <li><a href="#tab111" class="active font-weight-bold" data-toggle="tab">Invoice</a></li>
-                                <li ><a href="#tab222" class=" font-weight-bold" data-toggle="tab">Transaction</a></li>
-                                <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Payment request</a></li>
+                                <li><a href="#tab222" class=" font-weight-bold" data-toggle="tab">Transaction</a></li>
+                                <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Payment request</a>
+                                </li>
                                 <li><a href="#tab444" class="font-weight-bold" data-toggle="tab">Fund</a></li>
                                 <li><a href="#tab555" class="font-weight-bold" data-toggle="tab">Bank account</a></li>
                             </ul>
@@ -1466,16 +1550,17 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-9" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
-                                                      <th class="wd-15p border-bottom-0 text-center">Title</th>
+                                                    <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-20p border-bottom-0 text-center">Date</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Price</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Creator</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Owner</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Related To</th>
-                                                    <th class="wd-25p border-bottom-0 text-center">Payment Request Num</th>
+                                                    <th class="wd-25p border-bottom-0 text-center">Payment Request Num
+                                                    </th>
                                                     <th class="wd-25p border-bottom-0 text-center">Branch</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                                 </tr>
@@ -1598,7 +1683,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-11" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Amount</th>
@@ -1622,14 +1707,16 @@
                                                     <td class="text-center">Somaieh Gholami</td>
                                                     <td class="text-center">Kosar Naiemi</td>
                                                     <td class="text-center">Shariati</td>
-                                                    <td class="text-center"><span class="status-icon bg-success"></span></td>
+                                                    <td class="text-center"><span class="status-icon bg-success"></span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
                                                                     class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                        <a href="#" class="btn btn-indigo btn-sm"><i
+                                                                    class="fas fa-print"></i>
                                                             Print</a>
                                                     </td>
                                                 </tr>
@@ -1642,13 +1729,15 @@
                                                     <td class="text-center">Omid Jahan</td>
                                                     <td class="text-center">Mahdi Alavi</td>
                                                     <td class="text-center">Valiasr</td>
-                                                    <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                                                    <td class="text-center"><span class="status-icon bg-danger"></span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
                                                                     class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                        <a href="#" class="btn btn-indigo btn-sm"><i
+                                                                    class="fas fa-print"></i>
                                                             Print</a>
                                                     </td>
                                                 </tr>
@@ -1661,13 +1750,15 @@
                                                     <td class="text-center">Hafez Asadi</td>
                                                     <td class="text-center">Nasrin Maghami</td>
                                                     <td class="text-center">Velenjak</td>
-                                                    <td class="text-center"><span class="status-icon bg-success"></span></td>
+                                                    <td class="text-center"><span class="status-icon bg-success"></span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
                                                                     class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                        <a href="#" class="btn btn-indigo btn-sm"><i
+                                                                    class="fas fa-print"></i>
                                                             Print</a>
                                                     </td>
                                                 </tr>
@@ -1680,17 +1771,19 @@
                                                     <td class="text-center">ُShahab Hoseini</td>
                                                     <td class="text-center">Shahla Arasteh</td>
                                                     <td class="text-center">Bazar</td>
-                                                    <td class="text-center"><span class="status-icon bg-success"></span></td>
+                                                    <td class="text-center"><span class="status-icon bg-success"></span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
                                                                     class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                        <a href="#" class="btn btn-indigo btn-sm"><i
+                                                                    class="fas fa-print"></i>
                                                             Print</a>
                                                     </td>
                                                 </tr>
-                                                <tr >
+                                                <tr>
                                                     <td class="text-center">Deposit</td>
                                                     <td class="text-center"> 7,300 $</td>
                                                     <td class="text-center">27 January 2019</td>
@@ -1699,13 +1792,15 @@
                                                     <td class="text-center">Sami Yuosefi</td>
                                                     <td class="text-center">Nasir Bashir</td>
                                                     <td class="text-center">Valiasr</td>
-                                                    <td class="text-center"><span class="status-icon bg-danger"></span></td>
+                                                    <td class="text-center"><span class="status-icon bg-danger"></span>
+                                                    </td>
                                                     <td class="text-center">
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#transaction-modal" class="btn btn-dark btn-sm"><i
                                                                     class="fas fa-eye"></i> View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
-                                                        <a href="#" class="btn btn-indigo btn-sm"><i class="fas fa-print"></i>
+                                                        <a href="#" class="btn btn-indigo btn-sm"><i
+                                                                    class="fas fa-print"></i>
                                                             Print</a>
                                                     </td>
                                                 </tr>
@@ -1721,7 +1816,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-12" class="table table-striped table-bordered">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -1734,7 +1829,8 @@
                                                     <th class="wd-25p border-bottom-0 text-center">Relation</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Invoice</th>
                                                     <th class="border-bottom-0 text-center">Status</th>
-                                                    <th></th>
+                                                    <th class="border-bottom-0 text-center">Actions</th>
+
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -1940,7 +2036,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-13" class="table table-striped table-bordered">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Employee</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Bank</th>
@@ -1948,7 +2044,8 @@
                                                     <th class="wd-15p border-bottom-0 text-center">Account Number</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Credit Card Num.</th>
                                                     <th class="wd-25p border-bottom-0 text-center">IBAN</th>
-                                                    <th></th>
+                                                    <th class="wd-25p border-bottom-0 text-center">Actions</th>
+
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -2166,8 +2263,10 @@
                         <div class="tabs-menu ">
                             <!-- Tabs -->
                             <ul class="nav panel-tabs">
-                                <li><a href="#tab1111" class="active font-weight-bold" data-toggle="tab">Supply deed</a></li>
-                                <li ><a href="#tab2222" class=" font-weight-bold" data-toggle="tab">Transfer deed</a></li>
+                                <li><a href="#tab1111" class="active font-weight-bold" data-toggle="tab">Supply deed</a>
+                                </li>
+                                <li><a href="#tab2222" class=" font-weight-bold" data-toggle="tab">Transfer deed</a>
+                                </li>
                                 <li><a href="#tab3333" class="font-weight-bold" data-toggle="tab">Purchase deed</a></li>
                             </ul>
                         </div>
@@ -2179,7 +2278,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-10" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Supplier</th>
@@ -2205,7 +2304,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2224,7 +2324,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2243,7 +2344,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2262,7 +2364,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2281,7 +2384,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2300,7 +2404,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2319,7 +2424,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2338,7 +2444,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2357,7 +2464,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2376,7 +2484,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmentsupplydeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2394,7 +2503,7 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-3" class="table table-striped table-bordered nowrap">
-                                                 <thead class="bg-primary text-center">
+                                                <thead class="bg-primary text-center">
                                                 <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Num Of Equipment</th>
@@ -2422,7 +2531,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2442,7 +2552,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2462,7 +2573,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2482,7 +2594,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2502,7 +2615,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2522,7 +2636,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2542,7 +2657,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2562,7 +2678,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2582,7 +2699,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2602,7 +2720,8 @@
                                                     <td class="text-center">
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="/equipmenttransferdeed-view-print"
-                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
+                                                           class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
+                                                            View</a>
                                                         <a class="icon" href="javascript:void(0)"></a>
                                                         <a href="javascript:void(0)" data-toggle="modal"
                                                            data-target="#edit-modal" class="btn btn-primary btn-sm"><i
@@ -2616,7 +2735,175 @@
                                 </div>
                             </div>
                             <div class="tab-pane " id="tab3333">
-
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-responsive ">
+                                                    <table id="example-2"
+                                                           class="table table-striped table-bordered nowrap">
+                                                        <thead>
+                                                        <tr>
+                                                            <th class="wd-15p border-bottom-0 text-center bg-primary">
+                                                                Num of Equipment
+                                                            </th>
+                                                            <th class="wd-15p border-bottom-0 text-center bg-primary">
+                                                                Category
+                                                            </th>
+                                                            <th class="wd-10p border-bottom-0 text-center bg-primary">
+                                                                Requester
+                                                            </th>
+                                                            <th class="wd-15p border-bottom-0 text-center bg-primary">
+                                                                Confirmation person
+                                                            </th>
+                                                            <th class="wd-20p border-bottom-0 text-center bg-primary">
+                                                                Purchasing officer
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center bg-primary">
+                                                                Purchase date
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center bg-primary">
+                                                                Invoices
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center bg-primary">
+                                                                Branches
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center bg-primary">
+                                                                Settled inventory
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center bg-primary">
+                                                                Status
+                                                            </th>
+                                                            <th class="wd-25p border-bottom-0 text-center bg-primary">
+                                                                Actions
+                                                            </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td class="text-center">2</td>
+                                                            <td class="text-center">Digital</td>
+                                                            <td class="text-center">Majid Salehi</td>
+                                                            <td class="text-center">Nikoo Gharib</td>
+                                                            <td class="text-center">Shamim Nuri</td>
+                                                            <td class="text-center">12 December 2019</td>
+                                                            <td class="text-center"></td>
+                                                            <td class="text-center">Shariati</td>
+                                                            <td class="text-center">Number 3</td>
+                                                            <td class="text-center"> Delivered</td>
+                                                            <td class="text-center">
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="/equipmentpurchasedeed-view"
+                                                                   class="btn btn-dark btn-sm"><i
+                                                                            class="fas fa-eye"></i> View</a>
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                                   data-target="#edit-modal"
+                                                                   class="btn btn-primary btn-sm"><i
+                                                                            class="fas fa-pen"></i> Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">1</td>
+                                                            <td class="text-center">Digital</td>
+                                                            <td class="text-center">Javad Motala</td>
+                                                            <td class="text-center">Yasaman Taghvaie</td>
+                                                            <td class="text-center">Shamim Nuri</td>
+                                                            <td class="text-center">12 December 2019</td>
+                                                            <td class="text-center"></td>
+                                                            <td class="text-center">Shariati</td>
+                                                            <td class="text-center">Number 1</td>
+                                                            <td class="text-center">rejected</td>
+                                                            <td class="text-center">
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="/equipmentpurchasedeed-view"
+                                                                   class="btn btn-dark btn-sm"><i
+                                                                            class="fas fa-eye"></i> View</a>
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                                   data-target="#edit-modal"
+                                                                   class="btn btn-primary btn-sm"><i
+                                                                            class="fas fa-pen"></i> Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">5</td>
+                                                            <td class="text-center">Digital</td>
+                                                            <td class="text-center">Nezam Zaker</td>
+                                                            <td class="text-center">Mahdi Ardalan</td>
+                                                            <td class="text-center">Shamim Nuri</td>
+                                                            <td class="text-center">12 December 2019</td>
+                                                            <td class="text-center"></td>
+                                                            <td class="text-center">Shariati</td>
+                                                            <td class="text-center">Number 3</td>
+                                                            <td class="text-center">accepted</td>
+                                                            <td class="text-center">
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="/equipmentpurchasedeed-view"
+                                                                   class="btn btn-dark btn-sm"><i
+                                                                            class="fas fa-eye"></i> View</a>
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                                   data-target="#edit-modal"
+                                                                   class="btn btn-primary btn-sm"><i
+                                                                            class="fas fa-pen"></i> Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">3</td>
+                                                            <td class="text-center">Digital</td>
+                                                            <td class="text-center">Majid Salehi</td>
+                                                            <td class="text-center">Shamsi Saberi</td>
+                                                            <td class="text-center">Ghobad Hajian</td>
+                                                            <td class="text-center">12 December 2019</td>
+                                                            <td class="text-center"></td>
+                                                            <td class="text-center">Shariati</td>
+                                                            <td class="text-center">Number 5</td>
+                                                            <td class="text-center">Initialized</td>
+                                                            <td class="text-center">
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="/equipmentpurchasedeed-view"
+                                                                   class="btn btn-dark btn-sm"><i
+                                                                            class="fas fa-eye"></i> View</a>
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                                   data-target="#edit-modal"
+                                                                   class="btn btn-primary btn-sm"><i
+                                                                            class="fas fa-pen"></i> Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center">1</td>
+                                                            <td class="text-center">Digital</td>
+                                                            <td class="text-center">Alireza Dabir</td>
+                                                            <td class="text-center">Motahareh Moalem</td>
+                                                            <td class="text-center">Ghobad Hajian</td>
+                                                            <td class="text-center">12 December 2019</td>
+                                                            <td class="text-center"></td>
+                                                            <td class="text-center">Shariati</td>
+                                                            <td class="text-center">Number 3</td>
+                                                            <td class="text-center">Purchased</td>
+                                                            <td class="text-center">
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="/equipmentpurchasedeed-view"
+                                                                   class="btn btn-dark btn-sm"><i
+                                                                            class="fas fa-eye"></i> View</a>
+                                                                <a class="icon" href="javascriptvoid(0)"></a>
+                                                                <a href="javascriptvoid(0)" data-toggle="modal"
+                                                                   data-target="#edit-modal"
+                                                                   class="btn btn-primary btn-sm"><i
+                                                                            class="fas fa-pen"></i> Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <!-- table-wrapper -->
+                                        </div>
+                                        <!-- section-wrapper -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2636,7 +2923,8 @@
                 <div class="row img-gallery">
                     <div class="col-4">
                         <a href="javascript:void(0)" class="d-block link-overlay">
-                            <img class="d-block img-fluid rounded" src="../assets/images/photos/tree-736877_1280.jpg" alt="">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/tree-736877_1280.jpg"
+                                 alt="">
                             <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -2644,7 +2932,8 @@
                     </div>
                     <div class="col-4">
                         <a href="javascript:void(0)" class="d-block link-overlay">
-                            <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-787961.jpeg" alt="">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-787961.jpeg"
+                                 alt="">
                             <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -2652,7 +2941,8 @@
                     </div>
                     <div class="col-4">
                         <a href="javascript:void(0)" class="d-block link-overlay">
-                            <img class="d-block img-fluid rounded" src="../assets/images/photos/pexels-photo-2613458.jpeg" alt="">
+                            <img class="d-block img-fluid rounded"
+                                 src="../assets/images/photos/pexels-photo-2613458.jpeg" alt="">
                             <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -2660,7 +2950,8 @@
                     </div>
                     <div class="col-4">
                         <a href="javascript:void(0)" class="d-block link-overlay">
-                            <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-1405528.jpeg" alt="">
+                            <img class="d-block img-fluid rounded" src="../assets/images/photos/photo-1405528.jpeg"
+                                 alt="">
                             <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -2668,7 +2959,8 @@
                     </div>
                     <div class="col-4">
                         <a href="javascript:void(0)" class="d-block link-overlay">
-                            <img class="d-block img-fluid rounded" src="../assets/images/photos/shish-kebab-417994_1280.jpg" alt="">
+                            <img class="d-block img-fluid rounded"
+                                 src="../assets/images/photos/shish-kebab-417994_1280.jpg" alt="">
                             <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -2676,7 +2968,8 @@
                     </div>
                     <div class="col-4">
                         <a href="javascript:void(0)" class="d-block link-overlay">
-                            <img class="d-block img-fluid rounded" src="../assets/images/photos/sparkler-677774_1280.jpg" alt="">
+                            <img class="d-block img-fluid rounded"
+                                 src="../assets/images/photos/sparkler-677774_1280.jpg" alt="">
                             <span class="link-overlay-bg rounded">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -2757,12 +3050,18 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
-                                            <li><a href="#tab3-3" class="font-weight-bold"  data-toggle="tab">ORG Information</a></li>
-                                            <li><a href="#tab4-4" class="font-weight-bold"  data-toggle="tab">Working Time</a></li>
-                                            <li><a href="#tab5-5" class="font-weight-bold"  data-toggle="tab">Salary</a></li>
-                                            <li><a href="#tab6-6" class="font-weight-bold"  data-toggle="tab">Authentication</a></li>
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Place &
+                                                    Location</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">ORG
+                                                    Information</a></li>
+                                            <li><a href="#tab4-4" class="font-weight-bold" data-toggle="tab">Working
+                                                    Time</a></li>
+                                            <li><a href="#tab5-5" class="font-weight-bold" data-toggle="tab">Salary</a>
+                                            </li>
+                                            <li><a href="#tab6-6" class="font-weight-bold" data-toggle="tab">Authentication</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -2774,35 +3073,43 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Name :</label>
+                                                                <label class="control-label form-label font-weight-bold">Name
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Family :</label>
+                                                                <label class="control-label form-label font-weight-bold">Family
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Gender :</label>
+                                                                <label class="control-label form-label font-weight-bold">Gender
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9 d-flex">
                                                                 <label class="custom-control custom-radio mr-5">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios1" value="option1" checked>
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios1" value="option1"
+                                                                           checked>
                                                                     <span class="custom-control-label font-weight-bold">Male</span>
                                                                 </label>
                                                                 <label class="custom-control custom-radio">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios1" value="option2">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios1" value="option2">
                                                                     <span class="custom-control-label font-weight-bold">Female</span>
                                                                 </label>
                                                             </div>
@@ -2811,29 +3118,34 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Passport Number :</label>
+                                                                <label class="control-label form-label font-weight-bold">Passport
+                                                                    Number :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Date Of Birth :</label>
+                                                                <label class="control-label form-label font-weight-bold">Date
+                                                                    Of Birth :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="row gutters-xs">
                                                                     <div class="col-5">
-                                                                        <select name="user[month]" class="form-control custom-select">
+                                                                        <select name="user[month]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Month</option>
                                                                             <option value="1">January</option>
                                                                             <option value="2">February</option>
                                                                             <option value="3">March</option>
                                                                             <option value="4">April</option>
                                                                             <option value="5">May</option>
-                                                                            <option selected="selected" value="6">June</option>
+                                                                            <option selected="selected" value="6">June
+                                                                            </option>
                                                                             <option value="7">July</option>
                                                                             <option value="8">August</option>
                                                                             <option value="9">September</option>
@@ -2843,7 +3155,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-3">
-                                                                        <select name="user[day]" class="form-control custom-select">
+                                                                        <select name="user[day]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Day</option>
                                                                             <option value="1">1</option>
                                                                             <option value="2">2</option>
@@ -2864,7 +3177,8 @@
                                                                             <option value="17">17</option>
                                                                             <option value="18">18</option>
                                                                             <option value="19">19</option>
-                                                                            <option selected="selected" value="20">20</option>
+                                                                            <option selected="selected" value="20">20
+                                                                            </option>
                                                                             <option value="21">21</option>
                                                                             <option value="22">22</option>
                                                                             <option value="23">23</option>
@@ -2879,7 +3193,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-4">
-                                                                        <select name="user[year]" class="form-control custom-select">
+                                                                        <select name="user[year]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Year</option>
                                                                             <option value="2014">2014</option>
                                                                             <option value="2013">2013</option>
@@ -2906,7 +3221,9 @@
                                                                             <option value="1992">1992</option>
                                                                             <option value="1991">1991</option>
                                                                             <option value="1990">1990</option>
-                                                                            <option selected="selected" value="1989">1989</option>
+                                                                            <option selected="selected" value="1989">
+                                                                                1989
+                                                                            </option>
                                                                             <option value="1988">1988</option>
                                                                             <option value="1987">1987</option>
                                                                             <option value="1986">1986</option>
@@ -3008,10 +3325,12 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Inform">Languages :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Languages :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select" id="Inform">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
                                                                     <option>English</option>
                                                                     <option>Persian</option>
                                                                     <option>Arabic</option>
@@ -3023,15 +3342,19 @@
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Marriage Status :</label>
+                                                                <label class="control-label form-label font-weight-bold">Marriage
+                                                                    Status :</label>
                                                             </div>
                                                             <div class="col-lg-9 d-flex">
-                                                                <label class="custom-control custom-radio mr-5" >
-                                                                    <input type="radio" class="custom-control-input" name="example-radios" value="option1" checked>
+                                                                <label class="custom-control custom-radio mr-5">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios" value="option1"
+                                                                           checked>
                                                                     <span class="custom-control-label font-weight-bold">Bachelor</span>
                                                                 </label>
                                                                 <label class="custom-control custom-radio">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios" value="option2">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios" value="option2">
                                                                     <span class="custom-control-label font-weight-bold">Married</span>
                                                                 </label>
                                                             </div>
@@ -3040,7 +3363,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Military Service Status :</label>
+                                                                <label class="control-label form-label font-weight-bold">Military
+                                                                    Service Status :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -3054,30 +3378,39 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Mobile Number :</label>
+                                                                <label class="control-label form-label font-weight-bold">Mobile
+                                                                    Number :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="tel" >
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="tel">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Email :</label>
+                                                                <label class="control-label form-label font-weight-bold">Email
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="email" placeholder="..........@example.com">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="email"
+                                                                       placeholder="..........@example.com">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions (bio) :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions (bio) :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3166,7 +3499,8 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Working Branch :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    Branch :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -3181,7 +3515,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Unit :</label>
+                                                                <label class="control-label form-label font-weight-bold">Unit
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -3195,7 +3530,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Role :</label>
+                                                                <label class="control-label form-label font-weight-bold">Role
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -3210,10 +3546,11 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Skills :</label>
+                                                                <label class="control-label form-label font-weight-bold">Skills
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select" >
+                                                                <select multiple="multiple" class="multi-select">
                                                                     <option value="1"></option>
                                                                     <option value="2"></option>
                                                                     <option value="3"></option>
@@ -3232,7 +3569,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Working Days :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    Days :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select multiple="multiple" class="multi-select">
@@ -3250,7 +3588,8 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Working From :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    From :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <div class="wd-150 mg-b-30">
@@ -3260,7 +3599,8 @@
                                                                                 <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
+                                                                        <input class="form-control" id="tpBasic"
+                                                                               placeholder="Set time" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -3269,7 +3609,8 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Working To :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    To :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <div class="wd-150 mg-b-30">
@@ -3279,7 +3620,8 @@
                                                                                 <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
+                                                                        <input class="form-control" id="tpBasic"
+                                                                               placeholder="Set time" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -3288,10 +3630,12 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Regular Time Work Per Month :</label>
+                                                                <label class="control-label form-label font-weight-bold">Regular
+                                                                    Time Work Per Month :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3304,40 +3648,50 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Salary Per Hour :</label>
+                                                                <label class="control-label form-label font-weight-bold">Salary
+                                                                    Per Hour :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text" placeholder="$ 000,000,000">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text"
+                                                                       placeholder="$ 000,000,000">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Over Work Per Hour :</label>
+                                                                <label class="control-label form-label font-weight-bold">Over
+                                                                    Work Per Hour :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text" placeholder="$ 000,000,000">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text"
+                                                                       placeholder="$ 000,000,000">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Deal :</label>
+                                                                <label class="control-label form-label font-weight-bold">Deal
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Project :</label>
+                                                                <label class="control-label form-label font-weight-bold">Project
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3352,12 +3706,18 @@
                                                             <div class="col-lg-5 ">
                                                                 <div class="thumbnail border-0">
                                                                     <a href="#">
-                                                                        <img src="../assets/images/photos/19.jpg" alt="thumb1" class="thumbimg ">
+                                                                        <img src="../assets/images/photos/19.jpg"
+                                                                             alt="thumb1" class="thumbimg ">
                                                                     </a>
                                                                     <div class="caption">
-                                                                        <h4 class="text-center mt-3"><strong>Profile Picture</strong></h4>
+                                                                        <h4 class="text-center mt-3"><strong>Profile
+                                                                                Picture</strong></h4>
                                                                         <div class="text-center">
-                                                                            <button href="#" class="btn-pill btn-outline-secondary mt-1 " role="button">Upload <i class="fas fa-cloud-upload-alt"></i></button>
+                                                                            <button href="#"
+                                                                                    class="btn-pill btn-outline-secondary mt-1 "
+                                                                                    role="button">Upload <i
+                                                                                        class="fas fa-cloud-upload-alt"></i>
+                                                                            </button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -3405,5 +3765,5 @@ $scripts = [
     '/assets/plugins/chart/chart.bundle.js',
     '/assets/js/custom.js',
     '/assets/js/index5.js',
-    ];
+];
 ?>

@@ -28,7 +28,7 @@
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Transfer Date</th>
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Related To</th>
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Status</th>
-                            <th class="wd-25p border-bottom-0 text-center bg-primary"></th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Actions</th>
                         </tr>
                         </thead>
                         <tbody>

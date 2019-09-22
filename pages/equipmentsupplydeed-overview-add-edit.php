@@ -17,9 +17,9 @@
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
-                            <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
+                            <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                             <th class="wd-15p border-bottom-0 text-center">Supplier</th>
                             <th class="wd-20p border-bottom-0 text-center">Num of equipment</th>
                             <th class="wd-25p border-bottom-0 text-center">Request date</th>
@@ -30,7 +30,7 @@
                             <th class="wd-25p border-bottom-0 text-center">Actions</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-center">
                         <tr>
                             <td>1354v18</td>
                             <td class="text-center">Jahan Shop</td>

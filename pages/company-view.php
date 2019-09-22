@@ -123,7 +123,7 @@
                                             <th class="wd-15p border-bottom-0 text-center bg-primary">Meeting Leader</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Place</th>
                                             <th class="border-bottom-0 text-center bg-primary">Status</th>
-                                            <th class=" bg-primary"></th>
+                                            <th class=" bg-primary">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -292,7 +292,7 @@
                             <div class="tab-pane " id="tab222">
                                 <div class="table-responsive ">
                                     <table id="example-4" class="table table-striped table-bordered">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th class="wd-15p border-bottom-0 text-center">Name</th>
                                             <th class="wd-15p border-bottom-0 text-center">Category</th>
@@ -300,7 +300,7 @@
                                             <th class="wd-15p border-bottom-0 text-center">Size</th>
                                             <th class="wd-20p border-bottom-0 text-center">Weight</th>
                                             <th class="wd-25p border-bottom-0 text-center">Status</th>
-                                            <th class="wd-25p border-bottom-0 text-center"></th>
+                                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -465,7 +465,7 @@
                             <div class="tab-pane " id="tab333">
                                 <div class="table-responsive ">
                                     <table id="example-5" class="table table-striped table-bordered nowrap">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                             <th class="wd-15p border-bottom-0 text-center">Creator</th>
@@ -959,7 +959,7 @@
                             <div class="tab-pane " id="tab555">
                                 <div class="table-responsive ">
                                     <table id="example-7" class="table table-striped table-bordered">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th class="wd-15p border-bottom-0 text-center">Title</th>
                                             <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -969,7 +969,8 @@
                                             <th class="wd-15p border-bottom-0 text-center">Meeting Leader</th>
                                             <th class="wd-25p border-bottom-0 text-center">Place</th>
                                             <th class="border-bottom-0 text-center">Status</th>
-                                            <th></th>
+                                            <th class="border-bottom-0 text-center">Actions</th>
+
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -1138,7 +1139,7 @@
                             <div class="tab-pane " id="tab666">
                                 <div class="table-responsive ">
                                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th class="wd-15p border-bottom-0 text-center">Title</th>
                                             <th class="wd-15p border-bottom-0 text-center">Type</th>
@@ -1303,7 +1304,7 @@
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Value</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Project serial</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Branch</th>
-                                            <th class=" bg-primary"></th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -1399,7 +1400,7 @@
                             <div class="tab-pane " id="tab888">
                                 <div class="table-responsive ">
                                     <table id="example-2" class="table table-striped table-bordered">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th class="border-bottom-0 text-center">Create Date</th>
                                             <th class="border-bottom-0 text-center">Title</th>
@@ -1410,7 +1411,7 @@
                                             <th class="border-bottom-0 text-center">Responsibile</th>
                                             <th class="border-bottom-0 text-center">Probability</th>
                                             <th class="border-bottom-0 text-center">Status</th>
-                                            <th class="border-bottom-0 text-center"></th>
+                                            <th class="border-bottom-0 text-center">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -1421,7 +1422,7 @@
                                             <td class="text-center">Formality</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-green-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-red w-10">10%</div>
@@ -1444,7 +1445,7 @@
                                             <td class="text-center">Marriage ceremony</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-green-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-warning w-35">35%</div>
@@ -1469,7 +1470,7 @@
                                             <td class="text-center">Wedding</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-blue-lighter">Shams Tabrizi</td>
+                                            <td class="text-center bg-gray-lighter">Shams Tabrizi</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-success w-100">100%</div>
@@ -1494,7 +1495,7 @@
                                             <td class="text-center">Party</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-blue-lighter">Shams Tabrizi</td>
+                                            <td class="text-center bg-gray-lighter">Shams Tabrizi</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-warning w-50">50%</div>
@@ -1519,7 +1520,7 @@
                                             <td class="text-center">Newborn</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-green-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-red w-30">30%</div>
@@ -1544,7 +1545,7 @@
                                             <td class="text-center">Formality</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-blue-lighter">Shams Tabrizi</td>
+                                            <td class="text-center bg-gray-lighter">Shams Tabrizi</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-red w-0">0%</div>
@@ -1567,7 +1568,7 @@
                                             <td class="text-center">Marriage ceremony</td>
                                             <td class="text-center">12,000,000 Rial</td>
                                             <td class="text-center">Website</td>
-                                            <td class="text-center bg-red-lighter">Ehsan Rezvanian</td>
+                                            <td class="text-center bg-green-lighter">Ehsan Rezvanian</td>
                                             <td class="text-center">
                                                 <div class="progress progress-md mb-3">
                                                     <div class="progress-bar bg-success w-85">85%</div>
@@ -1593,7 +1594,7 @@
                             <div class="tab-pane " id="tab999">
                                 <div class="table-responsive ">
                                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th class="wd-15p border-bottom-0 text-left">Title</th>
                                             <th class="wd-15p border-bottom-0 text-center">Type</th>

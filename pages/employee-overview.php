@@ -75,7 +75,7 @@
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Name</th>
                             <th class="wd-15p border-bottom-0 text-center">Gender</th>
@@ -100,7 +100,7 @@
                             <td class="text-center">09028845455</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-warning w-60 font-weight-bold ">60%
                                     </div>
                                 </div>
                             </td>
@@ -122,7 +122,7 @@
                             <td class="text-center">09124558523</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-danger w-10 font-weight-bold ">10%
                                     </div>
                                 </div>
                             </td>
@@ -144,7 +144,7 @@
                             <td class="text-center">09361557895</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-success w-95 font-weight-bold ">95%
                                     </div>
                                 </div>
                             </td>
@@ -166,7 +166,7 @@
                             <td class="text-center">09124478534</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-warning w-40 font-weight-bold ">40%
                                     </div>
                                 </div>
                             </td>
@@ -188,7 +188,7 @@
                             <td class="text-center">0914589898</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-danger w-25 font-weight-bold ">25%
                                     </div>
                                 </div>
                             </td>
@@ -210,7 +210,7 @@
                             <td class="text-center">09358876512</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-warning w-55 font-weight-bold ">55%
                                     </div>
                                 </div>
                             </td>
@@ -254,7 +254,7 @@
                             <td class="text-center">09144555652</td>
                             <td class="text-center">
                                 <div class="progress progress-md mb-3">
-                                    <div class="progress-bar bg-success w-75 font-weight-bold ">75%
+                                    <div class="progress-bar bg-danger w-15 font-weight-bold ">15%
                                     </div>
                                 </div>
                             </td>
@@ -423,7 +423,7 @@
                         <thead class="bg-primary ">
                         <tr>
                             <th></th>
-                            <th>Employee</th>
+                            <th class="text-center">Employee</th>
                             <th class="text-center">Unit</th>
                             <th class="text-center">Role</th>
                             <th class="text-center">Type</th>
@@ -433,7 +433,7 @@
                             <th class="text-center">Confirmation Status</th>
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-center">
                         <tr>
                             <td>
                                 <div class="avatar-group">

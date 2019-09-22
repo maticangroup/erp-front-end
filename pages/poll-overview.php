@@ -66,7 +66,7 @@
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Topic</th>
                             <th class="wd-15p border-bottom-0 text-center">Creator</th>
@@ -428,16 +428,16 @@
                                                 <div class="col-12">
                                                     <div class="row mt-5">
                                                         <div class="col-md-12 col-lg-12">
-                                                            <div class="table-responsive rounded-bottom">
+                                                            <div class="table-responsive rounded">
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
-                                                                        <th class="text-white">Name</th>
+                                                                        <th class="text-white text-center">Name</th>
                                                                         <th class="text-white text-center">Unit</th>
                                                                         <th class="text-white text-center">Role</th>
                                                                     </tr>
                                                                     </thead>
-                                                                    <tbody>
+                                                                    <tbody class="text-center">
                                                                     <tr>
                                                                         <th scope="row">Ehsan Rezvanian</th>
                                                                         <td class="text-center">

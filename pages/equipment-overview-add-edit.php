@@ -17,7 +17,7 @@
             <div class="card-body">
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered">
-                        <thead>
+                        <thead class="bg-primary">
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center">Name</th>
                             <th class="wd-15p border-bottom-0 text-center">Category</th>
@@ -25,7 +25,7 @@
                             <th class="wd-15p border-bottom-0 text-center">Size</th>
                             <th class="wd-20p border-bottom-0 text-center">Weight</th>
                             <th class="wd-25p border-bottom-0 text-center">Status</th>
-                            <th class="wd-25p border-bottom-0 text-center"></th>
+                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
                         </tr>
                         </thead>
                         <tbody>
