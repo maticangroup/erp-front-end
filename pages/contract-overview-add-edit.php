@@ -27,7 +27,7 @@
             <span class="mini-stat-icon"><i class="fas fa-heart text-primary"></i></span>
             <div class="mini-stat-info text-white">
                 <span>180</span>
-                For wedding
+                Wedding
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
             <span class="mini-stat-icon"><i class="fas fa-gift text-primary"></i></span>
             <div class="mini-stat-info text-white">
                 <span>135 </span>
-                For formality
+                Formality
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
             <span class="mini-stat-icon"><i class="far fa-lemon text-primary"></i></span>
             <div class="mini-stat-info text-white">
                 <span>175</span>
-                For wedding reception
+                Wedding reception
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@
             <span class="mini-stat-icon"><i class="fas fa-birthday-cake text-primary"></i></span>
             <div class="mini-stat-info text-white">
                 <span>18</span>
-                For birthday
+                Birthday
             </div>
         </div>
     </div>
