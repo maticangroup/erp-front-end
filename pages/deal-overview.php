@@ -397,16 +397,22 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="form-group clearfix ">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <button class="btn btn-pill btn-dribbble btn-block btn-sm">Open Calendar</button>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <button class="btn btn-pill btn-facebook btn-block btn-sm">Open Time.ir</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="row mt-5">
                                                 <div class="col-md-12 col-lg-12">
                                                     <div class="card table-responsive ">
-                                                        <div class="card-header py-0 bg-gradient-primary">
-                                                            <p class="font-weight-bold text-white">Company info</p>
-                                                        </div>
-                                                        <div class="card-body">
-                                                            <table class="table card-table table-vcenter text-nowrap table-primary border">
+                                                        <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                 <thead class="bg-primary text-white">
-                                                                <tr>
+                                                                <tr class="text-center">
                                                                     <th class="text-white">Company name</th>
                                                                     <th class="text-white">Type</th>
                                                                     <th class="text-white ">Rate</th>
@@ -414,7 +420,7 @@
                                                                 </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                <tr>
+                                                                <tr  class="text-center">
                                                                     <td>company 1</td>
                                                                     <td>type 1</td>
                                                                     <td>
@@ -431,7 +437,7 @@
                                                                         </button>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr  class="text-center">
                                                                     <td>company 3</td>
                                                                     <td>type 3</td>
                                                                     <td>
@@ -448,7 +454,7 @@
                                                                         </button>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr  class="text-center">
                                                                     <td>company 2</td>
                                                                     <td>type 2</td>
                                                                     <td>
@@ -467,7 +473,6 @@
                                                                 </tr>
                                                                 </tbody>
                                                             </table>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

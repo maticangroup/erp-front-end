@@ -221,7 +221,19 @@
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Title </label>
+                                                                       for="title">Title :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="title"
+                                                                       name="title" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Task type :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <input class="form-control required" id="title"
@@ -233,7 +245,7 @@
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="Descriptions">Descriptions </label>
+                                                                       for="Descriptions">Descriptions :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <textarea class="form-control"
@@ -247,7 +259,7 @@
                                                         <div class="row ">
                                                             <div class="col-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="Priority">Priority </label>
+                                                                       for="Priority">Priority :</label>
                                                             </div>
                                                             <div class="col-9">
                                                                 <div class="row">
@@ -277,7 +289,7 @@
                                                         <div class="row">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="Owner">Owner </label>
+                                                                       for="Owner">Owner :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <!-- Accordion begin -->
@@ -285,20 +297,20 @@
                                                                     data-active-index="false">
                                                                     <!-- Section 1 -->
                                                                     <li>
-                                                                        <div><h3 id="">Customer</h3></div>
+                                                                        <div><h3 id="">Employee</h3></div>
                                                                         <div>
                                                                             <div class="form-group ">
                                                                                 <select class="form-control select2-show-search "
                                                                                         data-placeholder="Choose one">
-                                                                                    <option value="p1">project 1
+                                                                                    <option value="p1">Employee 1
                                                                                     </option>
-                                                                                    <option value="p2">project 2
+                                                                                    <option value="p2">Employee 2
                                                                                     </option>
-                                                                                    <option value="p3">project 3
+                                                                                    <option value="p3">Employee 3
                                                                                     </option>
-                                                                                    <option value="p4">project 4
+                                                                                    <option value="p4">Employee 4
                                                                                     </option>
-                                                                                    <option value="p5">project 5
+                                                                                    <option value="p5">Employee 5
                                                                                     </option>
                                                                                 </select>
                                                                             </div>
@@ -306,27 +318,33 @@
                                                                     </li>
                                                                     <!-- Section 2 -->
                                                                     <li>
-                                                                        <div><h3>Employee</h3></div>
+                                                                        <div><h3>Branch</h3></div>
                                                                         <div>
                                                                             <!-- Your text here. For this demo, the content is generated automatically. -->
                                                                         </div>
                                                                     </li>
                                                                     <!-- Section 3 -->
                                                                     <li>
-                                                                        <div><h3>Branch</h3></div>
-                                                                        <div>
-                                                                            <!-- Your text here. For this demo, the content is generated automatically. -->
-                                                                        </div>
-                                                                    </li>
-                                                                    <!-- Section 4 -->
-                                                                    <li>
                                                                         <div><h3>Companies</h3></div>
                                                                         <div>
                                                                             <!-- Your text here. For this demo, the content is generated automatically. -->
                                                                         </div>
                                                                     </li>
-
                                                                 </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix my-3 ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Assign automatically : </label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -595,21 +613,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group  clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="branch">Branch </label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control" id="branch">
-                                                                    <option>Pasdaran</option>
-                                                                    <option>Shariati</option>
-                                                                    <option>Shoosh</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -797,10 +800,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-2 mb-0">
-                    <div class="card-body">
-                        <div class="row ">
-                            <div class="col-4">
+                <div class="row justify-content-center mt-2 mb-0">
+                            <div class="col-6">
                                 <div class="card  ">
                                     <div class="card-body text-center pt-3 ">
                                         <a href="#">
@@ -831,73 +832,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="card">
-                                    <div class="card-body text-center pt-3 ">
-                                        <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro11.jpg"
-                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
-                                        </a>
-                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
-                                        <span>Person Position</span>
-                                        <div>
-                                            <span class="badge badge-default">designer</span>
-                                        </div>
-                                        <div class="mt-4">
-
-                                            <button href="#"
-                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                <i class="fas fa-phone"></i></button>
-                                            <button href="#"
-                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                <i class="fas fa-envelope"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 text-center">
-                                        <a href="#" class="fas fa-remove text-danger"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="card">
-                                    <div class="card-body text-center pt-3 ">
-                                        <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro7.jpg"
-                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
-                                        </a>
-                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
-                                        <span>Person Position</span>
-                                        <div>
-                                            <span class="badge badge-default">cameraman</span>
-                                        </div>
-                                        <div class="mt-4">
-
-                                            <button href="#"
-                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                <i class="fas fa-phone"></i></button>
-                                            <button href="#"
-                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                <i class="fas fa-envelope"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 text-center">
-                                        <a href="#" class="fas fa-remove text-danger"></a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>

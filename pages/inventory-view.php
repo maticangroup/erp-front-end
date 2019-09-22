@@ -17,7 +17,7 @@
 
 <div class="row">
     <div class="col-xl-4 col-md-12 col-lg-12">
-        <div class="card ">
+        <div class="card">
             <div class="card-body text-center pt-3 ">
                 <a href="#">
                     <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro6.jpg">
@@ -36,79 +36,78 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-body p-5">
-                <div class="panel panel-primary">
-                    <div class="  p-3 ">
-                        <div class="tabs-menu ">
-                            <!-- Tabs -->
-                            <ul class="nav panel-tabs">
-                                <li><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="panel-body  tabs-menu-body border-0 ">
-                        <div class="tab-content">
-                            <div class="tab-pane active " id="tab1-1">
-                                <div class="media-list mt-3">
-                                    <div class="media mt-1 pb-2">
-                                        <div class="mediaicon">
-                                            <i class="fas fa-font" aria-hidden="true"></i>
+    </div>
+    <div class="col-xl-8 col-md-12 col-lg-12">
+            <div class="card ">
+                <div class="card-header">
+                    <p class="card-title font-weight-bold">Inventory info</p>
+                </div>
+                <div class="card-body p-3">
+                    <div class="panel panel-primary">
+                        <div class="row">
+                                        <div class="col-6">
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-font" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Name</h6><span
+                                                            class="d-block">Number Five</span>
+                                                </div>
+                                            </div>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-code-branch" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Branch</h6><span
+                                                            class="d-block">Saadi</span>
+                                                </div>
+                                            </div>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-boxes" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Stock</h6><span
+                                                            class="d-block">
+                                                                    <div class="progress progress-md mb-3">
+                                                                        <div class="progress-bar bg-success w-20 font-weight-bold">20%</div>
+                                                                    </div>
+                                                                </span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="media-body ml-5 mt-1">
-                                            <h6 class="mediafont text-dark mb-1">Name</h6><span
-                                                    class="d-block">Number Five</span>
+                                        <div class="col-6">
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-map-signs" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Type</h6><span
+                                                            class="d-block">Office Equipment</span>
+                                                </div>
+                                            </div>
+                                            <div class="media mt-1 pb-2">
+                                                <div class="mediaicon">
+                                                    <i class="fas fa-people-carry" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="media-body ml-5 mt-1">
+                                                    <h6 class="mediafont text-dark mb-1">Inventory
+                                                        Keeper</h6><span class="d-block">Abbas Amiri</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="media mt-1 pb-2">
-                                        <div class="mediaicon">
-                                            <i class="fas fa-map-signs" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="media-body ml-5 mt-1">
-                                            <h6 class="mediafont text-dark mb-1">Type</h6><span
-                                                    class="d-block">Office Equipment</span>
-                                        </div>
-                                    </div>
-                                    <div class="media mt-1 pb-2">
-                                        <div class="mediaicon">
-                                            <i class="fas fa-code-branch" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="media-body ml-5 mt-1">
-                                            <h6 class="mediafont text-dark mb-1">Branch</h6><span
-                                                    class="d-block">Saadi</span>
-                                        </div>
-                                    </div>
-                                    <div class="media mt-1 pb-2">
-                                        <div class="mediaicon">
-                                            <i class="fas fa-people-carry" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="media-body ml-5 mt-1">
-                                            <h6 class="mediafont text-dark mb-1">Inventory
-                                                Keeper</h6><span class="d-block">Abbas Amiri</span>
-                                        </div>
-                                    </div>
-                                    <div class="media mt-1 pb-2">
-                                        <div class="mediaicon">
-                                            <i class="fas fa-boxes" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="media-body ml-5 mt-1">
-                                            <h6 class="mediafont text-dark mb-1">Stock</h6><span
-                                                    class="d-block">
-                                                                <div class="progress progress-md mb-3">
-                                                                    <div class="progress-bar bg-success w-20 font-weight-bold">20%</div>
-                                                                </div>
-                                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-xl-8 col-md-12 col-lg-12">
+
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-md-12 col-lg-12">
         <div class="card">
             <div class="card-body p-5">
                 <div class="panel panel-primary">
@@ -751,7 +750,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 <div class="row">

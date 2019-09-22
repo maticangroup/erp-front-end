@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="col-3">
-        <div class="card ">
+        <div class="card bg-primary ">
             <div class="card-body text-center">
                 <h5>Album</h5>
                 <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="col-3">
-        <div class="card ">
+        <div class="card bg-primary ">
             <div class="card-body text-center">
                 <h5>Canvas</h5>
                 <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="col-3">
-        <div class="card ">
+        <div class="card bg-primary">
             <div class="card-body text-center">
                 <h5>Photo size</h5>
                 <div class="icon icon-shape bg-white rounded-circle text-white mb-3">
@@ -530,28 +530,28 @@
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
-                                                                        <th class="text-white">From</th>
-                                                                        <th class="text-white text-center">To</th>
+                                                                        <th class="text-white text-center">From Date</th>
+                                                                        <th class="text-white text-center">To Date</th>
                                                                         <th class="text-white text-center">Discount</th>
                                                                         <th class="text-white text-center">Status</th>
                                                                     </tr>
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
-                                                                        <th scope="row">something</th>
-                                                                        <td class="text-center">something</td>
+                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">10%</td>
                                                                         <td class="text-center">doing</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row">something</th>
-                                                                        <td class="text-center">something</td>
+                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">20%</td>
                                                                         <td class="text-center">done</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row">something</th>
-                                                                        <td class="text-center">something</td>
+                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">15%</td>
                                                                         <td class="text-center">planed</td>
                                                                     </tr>
@@ -870,28 +870,28 @@
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
-                                                                        <th class="text-white">From</th>
-                                                                        <th class="text-white text-center">To</th>
+                                                                        <th class="text-white text-center">From Date</th>
+                                                                        <th class="text-white text-center">To Date</th>
                                                                         <th class="text-white text-center">Discount</th>
                                                                         <th class="text-white text-center">Status</th>
                                                                     </tr>
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
-                                                                        <th scope="row">something</th>
-                                                                        <td class="text-center">something</td>
+                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">10%</td>
                                                                         <td class="text-center">doing</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row">something</th>
-                                                                        <td class="text-center">something</td>
+                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">20%</td>
                                                                         <td class="text-center">done</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row">something</th>
-                                                                        <td class="text-center">something</td>
+                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">15%</td>
                                                                         <td class="text-center">planed</td>
                                                                     </tr>

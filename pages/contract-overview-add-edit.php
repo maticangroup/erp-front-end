@@ -65,7 +65,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive ">
-                    <table id="example-2" class="table table-striped table-bordered">
+                    <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
                         <tr>
                             <th class="wd-15p border-bottom-0 text-center bg-primary">Title</th>
@@ -188,7 +188,7 @@
                     <tr>
                         <td class="w-1 pt-0">
                             <div class="chart-circle chart-circle-sm float-left mb-1" data-value="1" data-thickness="4" data-color="#ecb403">
-                                <div class="chart-circle-value fs"><span class="font-weight-bold text-muted">1</span></div>
+                                <div class="chart-circle-value fs"><i class="zmdi zmdi-collection-item-1"></i></div>
                             </div>
                         </td>
                         <td class="pt-2">Wedding Contract
@@ -201,7 +201,7 @@
                     <tr class="pt-4">
                         <td class="w-1 ">
                             <div class="chart-circle chart-circle-sm float-left mb-1" data-value="1" data-thickness="4" data-color="#f2574c">
-                                <div class="chart-circle-value fs"><span class="font-weight-bold text-muted">2</span></div>
+                                <div class="chart-circle-value fs"><i class="zmdi zmdi-collection-item-2"></i></div>
                             </div>
                         </td>
                         <td class="pt-5">Formality Contract
@@ -214,7 +214,7 @@
                     <tr class="pt-4">
                         <td class="w-1 ">
                             <div class="chart-circle chart-circle-sm float-left mb-1" data-value="1" data-thickness="4" data-color="#45aaf2">
-                                <div class="chart-circle-value fs"><span class="font-weight-bold text-muted">3</span></div>
+                                <div class="chart-circle-value fs"><i class="zmdi zmdi-collection-item-3"></i></div>
                             </div>
                         </td>
                         <td class="pt-5">Wedding Contract
@@ -227,7 +227,7 @@
                     <tr class="pt-4">
                         <td class="w-1 ">
                             <div class="chart-circle chart-circle-sm float-left mb-1" data-value="1" data-thickness="4" data-color="#DA70D6">
-                                <div class="chart-circle-value fs"><span class="font-weight-bold text-muted">4</span></div>
+                                <div class="chart-circle-value fs"><i class="zmdi zmdi-collection-item-4"></i></div>
                             </div>
                         </td>
                         <td class="pt-5">Birthday Contract
@@ -240,7 +240,7 @@
                     <tr class="pt-4">
                         <td class="w-1 ">
                             <div class="chart-circle chart-circle-sm float-left mb-1" data-value="1" data-thickness="4" data-color="#689f38  ">
-                                <div class="chart-circle-value fs"><span class="font-weight-bold text-muted">5</span></div>
+                                <div class="chart-circle-value fs"><i class="zmdi zmdi-collection-item-5"></i></div>
                             </div>
                         </td>
                         <td class="pt-5">Party Contract
@@ -324,28 +324,44 @@
                             <td class="text-center">Something</td>
                             <td class="text-center"><span class="tag">Party</span></td>
                             <td class="text-center">1,000,000 T</td>
-                            <td class="text-center"><span class="status-icon bg-warning "></span></td>
+                            <td class="text-center">
+                                <div class="progress progress-md">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-green w-95 font-weight-extrabold">95%</div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">Jan 13, 2019</td>
                             <td class="text-center">Something</td>
                             <td class="text-center"><span class="tag">Wedding</span></td>
                             <td class="text-center">41,000,000 T</td>
-                            <td class="text-center"><span class="status-icon bg-success "></span></td>
+                            <td class="text-center">
+                                <div class="progress progress-md">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-green w-80 font-weight-extrabold">80%</div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">Jan 13, 2019</td>
                             <td class="text-center">Something</td>
                             <td class="text-center"><span class="tag">Birthday</span></td>
                             <td class="text-center">2,000,000 T</td>
-                            <td class="text-center"><span class="status-icon bg-warning "></span></td>
+                            <td class="text-center">
+                                <div class="progress progress-md">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-green w-90 font-weight-extrabold">90%</div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">Jan 13, 2019</td>
                             <td class="text-center">Something</td>
                             <td class="text-center"><span class="tag">Wedding</span></td>
                             <td class="text-center">61,000,000 T</td>
-                            <td class="text-center"><span class="status-icon bg-success "></span></td>
+                            <td class="text-center">
+                                <div class="progress progress-md">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-green w-80 font-weight-extrabold">80%</div>
+                                </div>
+                            </td>
                         </tr>
                         </tbody>
                     </table>
@@ -436,37 +452,6 @@
                                                                     <option>deal 2</option>
                                                                     <option>deal 3</option>
                                                                 </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group  clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Owner
-                                                                    :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <select class="form-control">
-                                                                    <option>Company</option>
-                                                                    <option>Customer</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">Hold Date :</label>
-                                                            </div>
-                                                            <div class="col-lg-9">
-                                                                <div class="input-group">
-                                                                    <div class="input-group-prepend">
-                                                                        <div class="input-group-text">
-                                                                            <i class="far fa-calendar tx-16 lh-0 op-6"></i>
-                                                                        </div>
-                                                                    </div>
-                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
-                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>

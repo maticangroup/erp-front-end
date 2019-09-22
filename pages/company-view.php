@@ -104,6 +104,7 @@
                                 <li><a href="#tab666" class="font-weight-bold" data-toggle="tab">Tasks</a></li>
                                 <li><a href="#tab777" class="font-weight-bold" data-toggle="tab">Contracts</a></li>
                                 <li><a href="#tab888" class="font-weight-bold" data-toggle="tab">Deals</a></li>
+                                <li><a href="#tab999" class="font-weight-bold" data-toggle="tab">Invoices</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1585,6 +1586,133 @@
                                             </td>
                                         </tr>
 
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="tab999">
+                                <div class="table-responsive ">
+                                    <table id="example-2" class="table table-striped table-bordered nowrap">
+                                        <thead>
+                                        <tr>
+                                            <th class="wd-15p border-bottom-0 text-left">Title</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Type</th>
+                                            <th class="wd-20p border-bottom-0 text-center">Date</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Price</th>
+                                            <th class="wd-10p border-bottom-0 text-center">Creator</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Owner</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Related To</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Payment Request Num</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Branch</th>
+                                            <th class="wd-25p border-bottom-0 text-center">Actions</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Number One</td>
+                                            <td class="text-center">Purchase</td>
+                                            <td class="text-center">06 April 2020</td>
+                                            <td class="text-center">$ 1,200</td>
+                                            <td class="text-center">Hooshang Banan</td>
+                                            <td class="text-center">Javad Javid</td>
+                                            <td class="text-center">Equipment</td>
+                                            <td class="text-center">151315</td>
+                                            <td class="text-center">Shariati</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Number Two</td>
+                                            <td class="text-center">Sale</td>
+                                            <td class="text-center">15 March 2019</td>
+                                            <td class="text-center">$ 5,000</td>
+                                            <td class="text-center">Nadia Shafie</td>
+                                            <td class="text-center">Nazgol Taranom</td>
+                                            <td class="text-center">Salaries</td>
+                                            <td class="text-center">31843416</td>
+                                            <td class="text-center">Valiasr</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Number Three</td>
+                                            <td class="text-center">Purchase</td>
+                                            <td class="text-center">29 December 2021</td>
+                                            <td class="text-center">$ 4,100</td>
+                                            <td class="text-center">Asghar Shahbazi</td>
+                                            <td class="text-center">Soheil Arabi</td>
+                                            <td class="text-center">Catering</td>
+                                            <td class="text-center">13815525</td>
+                                            <td class="text-center">Velenjak</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Number Four</td>
+                                            <td class="text-center">Purchase</td>
+                                            <td class="text-center">11 October 2018</td>
+                                            <td class="text-center">$ 2,000</td>
+                                            <td class="text-center">Sedigh Sazesh</td>
+                                            <td class="text-center">Nasrin Mobasher</td>
+                                            <td class="text-center">Equipment</td>
+                                            <td class="text-center">1351555</td>
+                                            <td class="text-center">Valiasr</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Number Five</td>
+                                            <td class="text-center">Sale</td>
+                                            <td class="text-center">06 March 2020</td>
+                                            <td class="text-center">$ 5,500</td>
+                                            <td class="text-center">Jamshid Sabaghi</td>
+                                            <td class="text-center">Saba Azarpeyk</td>
+                                            <td class="text-center">Transportation</td>
+                                            <td class="text-center">11224456</td>
+                                            <td class="text-center">Shariati</td>
+                                            <td class="text-center">
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="/invoice-view" class="btn btn-dark btn-sm"><i
+                                                            class="fas fa-eye"></i> View</a>
+                                                <a class="icon" href="javascript:void(0)"></a>
+                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                   data-target="#edit-modal" class="btn btn-primary btn-sm"><i
+                                                            class="fas fa-pen"></i> Edit</a>
+
+                                            </td>
+                                        </tr>
                                         </tbody>
                                     </table>
                                 </div>

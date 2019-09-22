@@ -62,7 +62,6 @@
                 <div>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Good judgment</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Leadership</a>
-                    <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Support and motivate others</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Awareness of body language</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Negotiation</a>
                     <a class="btn btn-xs fs-10 btn-bold btn-outline-info mr-1" href="#">Persuade others</a>
@@ -141,8 +140,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-2" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Requester</th>
@@ -157,7 +156,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Sending attachments</td>
                                                     <td class="text-center">Solo</td>
                                                     <td class="text-center">Majid Salehi</td>
@@ -182,7 +181,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Training Meeting</td>
                                                     <td class="text-center">Meeting</td>
                                                     <td class="text-center">Javad Motala</td>
@@ -208,7 +207,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Coordination Meeting</td>
                                                     <td class="text-center">Meeting</td>
                                                     <td class="text-center">Nezam Zaker</td>
@@ -236,7 +235,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Video Editing</td>
                                                     <td class="text-center">Edit</td>
                                                     <td class="text-center">Majid Salehi</td>
@@ -262,7 +261,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Birthday filming</td>
                                                     <td class="text-center">filming</td>
                                                     <td class="text-center">Alireza Dabir</td>
@@ -300,8 +299,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-8" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Call Method</th>
                                                     <th class="wd-25p border-bottom-0 text-center">From</th>
@@ -315,7 +314,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -331,7 +330,7 @@
                                                                     class="fas fa-eye"></i> View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -347,7 +346,7 @@
                                                                     class="fas fa-dot-circle"></i>Action</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -363,7 +362,7 @@
                                                                     class="fas fa-eye"></i> View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -379,7 +378,7 @@
                                                                     class="fas fa-dot-circle"></i>Action</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -395,7 +394,7 @@
                                                                     class="fas fa-eye"></i> View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -411,7 +410,7 @@
                                                                     class="fas fa-dot-circle"></i>Action</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -427,7 +426,7 @@
                                                                     class="fas fa-eye"></i> View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mr. Rezvanian's Wedding</td>
                                                     <td class="text-center">Telephone</td>
                                                     <td class="text-center">Ghobad abbasi</td>
@@ -455,8 +454,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-3" class="table table-striped table-bordered">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Date</th>
@@ -641,8 +640,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-4" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Name</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Owner</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Hold Date</th>
@@ -657,7 +656,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Portrait</td>
                                                     <td class="text-center">Shamim Talaie</td>
                                                     <td class="text-center">12 February 2020</td>
@@ -680,7 +679,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Birthday</td>
                                                     <td class="text-center">Safura Hajian</td>
                                                     <td class="text-center">29 June 2020</td>
@@ -703,7 +702,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Wedding</td>
                                                     <td class="text-center">Abbas Rostami</td>
                                                     <td class="text-center">12 December 2019</td>
@@ -726,7 +725,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Wedding</td>
                                                     <td class="text-center">Shapoor Banaie</td>
                                                     <td class="text-center">22 March 2019</td>
@@ -749,7 +748,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Engagement</td>
                                                     <td class="text-center">Akram Mokaram</td>
                                                     <td class="text-center">06 May 2019</td>
@@ -772,7 +771,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Maternity</td>
                                                     <td class="text-center">Zabih Neshat</td>
                                                     <td class="text-center">17 April 2019</td>
@@ -795,7 +794,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Newborn</td>
                                                     <td class="text-center">Saber Abar</td>
                                                     <td class="text-center">10 July 2019</td>
@@ -818,7 +817,7 @@
                                                         <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Family</td>
                                                     <td class="text-center">Soosan Moharami</td>
                                                     <td class="text-center">27 October 2019</td>
@@ -853,8 +852,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-5" class="table table-striped table-bordered">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="border-bottom-0 text-center">Create Date</th>
                                                     <th class="border-bottom-0 text-center">Title</th>
                                                     <th class="border-bottom-0 text-center">Customer</th>
@@ -868,7 +867,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Formality</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -890,7 +889,7 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr>
+                                                </tr><tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Marriage ceremony</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -914,7 +913,7 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr>
+                                                </tr><tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Wedding</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -938,7 +937,7 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr>
+                                                </tr><tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Party</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -962,7 +961,7 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr>
+                                                </tr><tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Wedding</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -987,7 +986,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Formality</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -1009,7 +1008,7 @@
                                                            data-toggle="modal" data-target="#exampleModal3-2"><i
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
-                                                </tr><tr>
+                                                </tr><tr class="text-center">
                                                     <td class="text-center">12/2/97</td>
                                                     <td class="text-center">Marriage ceremony</td>
                                                     <td class="text-center">Mohsen Heshmati</td>
@@ -1047,9 +1046,9 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-7" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
-                                                    <th class="wd-15p border-bottom-0 text-left">Requester</th>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
+                                                      <th class="wd-15p border-bottom-0 text-center">Requester</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Request Date</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-15p border-bottom-0 text-center">From Date</th>
@@ -1063,7 +1062,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Mohammad Azimi</td>
                                                     <td class="text-center">2/5/97</td>
                                                     <td class="text-center">Paid</td>
@@ -1080,7 +1079,7 @@
                                                             View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Xaniar Khosravi</td>
                                                     <td class="text-center">6/8/97</td>
                                                     <td class="text-center">Unpaid</td>
@@ -1097,7 +1096,7 @@
                                                             View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Sirvan Khosravi</td>
                                                     <td class="text-center">4/8/98</td>
                                                     <td class="text-center">Sick</td>
@@ -1114,7 +1113,7 @@
                                                             View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Hamed Pahlan</td>
                                                     <td class="text-center">6/10/97</td>
                                                     <td class="text-center">Materiry</td>
@@ -1131,7 +1130,7 @@
                                                             View</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Ehsan Rezvanian</td>
                                                     <td class="text-center">2/5/97</td>
                                                     <td class="text-center">Unpaid</td>
@@ -1161,8 +1160,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-6" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Topic</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Creator</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Poll For</th>
@@ -1174,7 +1173,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Ajdar</td>
                                                     <td class="text-center">Shamim Talaie</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1194,7 +1193,7 @@
                                                         <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Rad</td>
                                                     <td class="text-center">Safura Hajian</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1214,7 +1213,7 @@
                                                         <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Tondar</td>
                                                     <td class="text-center">Abbas Rostami</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1234,7 +1233,7 @@
                                                         <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Shahin</td>
                                                     <td class="text-center">Shapoor Banaie</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1254,7 +1253,7 @@
                                                         <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Oghab</td>
                                                     <td class="text-center">Akram Mokaram</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1274,7 +1273,7 @@
                                                         <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Saeghe</td>
                                                     <td class="text-center">Zabih Neshat</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1294,7 +1293,7 @@
                                                         <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Tondar</td>
                                                     <td class="text-center">Saber Abar</td>
                                                     <td class="text-center">Portrait Photography</td>
@@ -1337,8 +1336,8 @@
             </div>
             <div class="table-responsive rounded-bottom">
                 <table class="table card-table table-vcenter table-hover">
-                    <thead class="bg-primary">
-                    <tr>
+                     <thead class="bg-primary text-center">
+                    <tr class="text-center">
                         <th class=" bg-primary"></th>
                         <th class="text-center bg-primary">Equipment</th>
                         <th class="text-center bg-primary">Category</th>
@@ -1467,9 +1466,9 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-9" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
-                                                    <th class="wd-15p border-bottom-0 text-left">Title</th>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
+                                                      <th class="wd-15p border-bottom-0 text-center">Title</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-20p border-bottom-0 text-center">Date</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Price</th>
@@ -1482,7 +1481,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Number One</td>
                                                     <td class="text-center">Purchase</td>
                                                     <td class="text-center">06 April 2020</td>
@@ -1503,7 +1502,7 @@
 
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Number Two</td>
                                                     <td class="text-center">Sale</td>
                                                     <td class="text-center">15 March 2019</td>
@@ -1524,7 +1523,7 @@
 
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Number Three</td>
                                                     <td class="text-center">Purchase</td>
                                                     <td class="text-center">29 December 2021</td>
@@ -1545,7 +1544,7 @@
 
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Number Four</td>
                                                     <td class="text-center">Purchase</td>
                                                     <td class="text-center">11 October 2018</td>
@@ -1566,7 +1565,7 @@
 
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>Number Five</td>
                                                     <td class="text-center">Sale</td>
                                                     <td class="text-center">06 March 2020</td>
@@ -1599,8 +1598,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-11" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Amount</th>
                                                     <th class="wd-10p border-bottom-0 text-center">Date</th>
@@ -1614,7 +1613,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Withdraw</td>
                                                     <td class="text-center">1,200 $</td>
                                                     <td class="text-center">12 February 2020</td>
@@ -1634,7 +1633,7 @@
                                                             Print</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Withdraw</td>
                                                     <td class="text-center">3,400 $</td>
                                                     <td class="text-center">29 July 2020</td>
@@ -1653,7 +1652,7 @@
                                                             Print</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Deposit</td>
                                                     <td class="text-center">660 $</td>
                                                     <td class="text-center">08 February 2018</td>
@@ -1672,7 +1671,7 @@
                                                             Print</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Withdraw</td>
                                                     <td class="text-center">4,000 $</td>
                                                     <td class="text-center">23 January 2015</td>
@@ -1722,8 +1721,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-12" class="table table-striped table-bordered">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Type</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Requester</th>
@@ -1941,8 +1940,8 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-13" class="table table-striped table-bordered">
-                                                <thead class="bg-primary">
-                                                <tr>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
                                                     <th class="wd-15p border-bottom-0 text-center">Employee</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Bank</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Account Type</th>
@@ -1953,7 +1952,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mohsen Heshmati</td>
                                                     <td class="text-center">Pasargad</td>
                                                     <td class="text-center">Saving Account</td>
@@ -1972,7 +1971,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Ali Nabavi</td>
                                                     <td class="text-center">Melli</td>
                                                     <td class="text-center">Checking Account</td>
@@ -1990,7 +1989,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Mohamad Nikzad</td>
                                                     <td class="text-center">Melat</td>
                                                     <td class="text-center">Checking Account</td>
@@ -2008,7 +2007,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Zahra Banihashem</td>
                                                     <td class="text-center">Ayande</td>
                                                     <td class="text-center">Saving Account</td>
@@ -2026,7 +2025,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Zhila Khodadad</td>
                                                     <td class="text-center">Sepah</td>
                                                     <td class="text-center">Checking Account</td>
@@ -2044,7 +2043,7 @@
                                                                     class="si si-pencil"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Kamran Hosseini</td>
                                                     <td class="text-center">eqtesade Novin</td>
                                                     <td class="text-center">Saving Account</td>
@@ -2062,7 +2061,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Hamzeh Noori</td>
                                                     <td class="text-center">Melli</td>
                                                     <td class="text-center">Checking Account</td>
@@ -2080,7 +2079,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td class="text-center">Hanieh Shahlayee</td>
                                                     <td class="text-center">Ghavamin</td>
                                                     <td class="text-center">Checking Account</td>
@@ -2180,9 +2179,9 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-10" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
-                                                    <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
+                                                    <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Supplier</th>
                                                     <th class="wd-20p border-bottom-0 text-center">Num of equipment</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Request date</th>
@@ -2194,7 +2193,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>1354v18</td>
                                                     <td class="text-center">Jahan Shop</td>
                                                     <td class="text-center">03</td>
@@ -2213,7 +2212,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>243sx235</td>
                                                     <td class="text-center">Novin Shop</td>
                                                     <td class="text-center">23</td>
@@ -2232,7 +2231,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>23adc4544</td>
                                                     <td class="text-center">Bartar Company</td>
                                                     <td class="text-center">13</td>
@@ -2251,7 +2250,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134as235</td>
                                                     <td class="text-center">First Shop</td>
                                                     <td class="text-center">09</td>
@@ -2270,7 +2269,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134r23</td>
                                                     <td class="text-center">Sadid Company</td>
                                                     <td class="text-center">44</td>
@@ -2289,7 +2288,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>1354v18</td>
                                                     <td class="text-center">Jahan Shop</td>
                                                     <td class="text-center">03</td>
@@ -2308,7 +2307,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>243sx235</td>
                                                     <td class="text-center">Novin Shop</td>
                                                     <td class="text-center">23</td>
@@ -2327,7 +2326,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>23adc4544</td>
                                                     <td class="text-center">Bartar Company</td>
                                                     <td class="text-center">13</td>
@@ -2346,7 +2345,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134as235</td>
                                                     <td class="text-center">First Shop</td>
                                                     <td class="text-center">09</td>
@@ -2365,7 +2364,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134r23</td>
                                                     <td class="text-center">Sadid Company</td>
                                                     <td class="text-center">44</td>
@@ -2395,9 +2394,9 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-3" class="table table-striped table-bordered nowrap">
-                                                <thead class="bg-primary">
-                                                <tr>
-                                                    <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
+                                                 <thead class="bg-primary text-center">
+                                                <tr class="text-center">
+                                                    <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                                     <th class="wd-15p border-bottom-0 text-center">Num Of Equipment</th>
                                                     <th class="wd-20p border-bottom-0 text-center">Create Date</th>
                                                     <th class="wd-25p border-bottom-0 text-center">Requester</th>
@@ -2410,7 +2409,7 @@
                                                 </tr>
                                                 </thead class="bg-primary">
                                                 <tbody>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>1354v18</td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">12 February 2019</td>
@@ -2430,7 +2429,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>243sx235</td>
                                                     <td class="text-center">11</td>
                                                     <td class="text-center">26 March 2020</td>
@@ -2450,7 +2449,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>23adc4544</td>
                                                     <td class="text-center">12</td>
                                                     <td class="text-center">03 June 2018</td>
@@ -2470,7 +2469,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134as235</td>
                                                     <td class="text-center">5</td>
                                                     <td class="text-center">11 April 2019</td>
@@ -2490,7 +2489,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134r23</td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">19 April 2017</td>
@@ -2510,7 +2509,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>1354v18</td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">12 February 2019</td>
@@ -2530,7 +2529,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>243sx235</td>
                                                     <td class="text-center">11</td>
                                                     <td class="text-center">26 March 2020</td>
@@ -2550,7 +2549,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>23adc4544</td>
                                                     <td class="text-center">12</td>
                                                     <td class="text-center">03 June 2018</td>
@@ -2570,7 +2569,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134as235</td>
                                                     <td class="text-center">5</td>
                                                     <td class="text-center">11 April 2019</td>
@@ -2590,7 +2589,7 @@
                                                                     class="fas fa-pen"></i> Edit</a>
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                <tr class="text-center">
                                                     <td>2134r23</td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">19 April 2017</td>

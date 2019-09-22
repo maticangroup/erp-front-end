@@ -147,6 +147,15 @@
                 ['url' => '/timeoff-overview-view', 'title' => 'Time Off'],
             ]
         ],
+
+        [
+            'link' => '/Portfolio-overview',
+            'title' => 'Portfolio',
+            'icon' => 'side-menu__icon si si-layers',
+            'drop_down_items' => [
+            ]
+        ],
+
         [
             'link' => '',
             'title' => 'Warehouse',

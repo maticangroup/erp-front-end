@@ -699,7 +699,6 @@
                                             <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
                                             <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Detailing</a></li>
                                             <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Financial</a></li>
-                                            <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Other Info</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -718,10 +717,30 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Executive manager :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold">Responsible person :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold">Office direct tel :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <input class="form-control required" id="Name" name="userName" type="text">
@@ -745,6 +764,20 @@
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <input class="form-control required" id="Name" name="userName" type="email" placeholder="..........@example.com">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group clearfix ">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold" >Rate :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -983,46 +1016,6 @@
                                                         <div class="row ">
                                                             <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold">Amount :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="tab5">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="form-group clearfix  mt-3">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Rate :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Executive manager :</label>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Office direct tel :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <input class="form-control required" id="Name" name="userName" type="text">
