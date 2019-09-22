@@ -722,3 +722,4 @@ $scripts = [
     '/assets/plugins/multipleselect/multi-select.js'
 ];
 ?>
+
