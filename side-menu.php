@@ -149,10 +149,13 @@
         ],
 
         [
-            'link' => '/portfolio-overview',
+            'link' => '/',
             'title' => 'Portfolio',
             'icon' => 'side-menu__icon si si-layers',
             'drop_down_items' => [
+                ['url' => '/portfolio-overview', 'title' => 'Portfolio1'],
+                ['url' => '/portfolio-overview2', 'title' => 'Portfolio2'],
+                ['url' => '/portfolio-overview3', 'title' => 'Portfolio3'],
             ]
         ],
 
