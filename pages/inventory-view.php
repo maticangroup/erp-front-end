@@ -18,7 +18,7 @@
 <div class="row">
     <div class="col-xl-4 col-md-12 col-lg-12">
         <div class="card">
-            <div class="card-body text-center pt-3 ">
+            <div class="card-body text-center pt-3 pb-5">
                 <a href="#">
                     <span class="avatar avatar-xl brround cover-image m-2" data-image-src="../assets/images/photos/pro6.jpg">
                         <span class="avatar-status bg-red"></span>
@@ -29,7 +29,7 @@
                 <div >
                     <span class="badge badge-default">keeper</span>
                 </div>
-                <div class="mt-4">
+                <div class="mt-4 mb-5">
                     <button href="#" class="btn-pill  btn-outline-dark btn-sm font-weight-bold "><i class="fas fa-eye"></i></button>
                     <button href="#" class="btn-pill  btn-outline-success btn-sm font-weight-bold"><i class="fas fa-phone"></i></button>
                     <button href="#" class="btn-pill  btn-outline-warning btn-sm font-weight-bold"><i class="fas fa-envelope"></i></button>
@@ -138,7 +138,7 @@
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Transfer Date</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Related To</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Status</th>
-                                            <th class="wd-25p border-bottom-0 text-center bg-primary"></th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -349,9 +349,9 @@
                             <div class="tab-pane " id="tab2222">
                                 <div class="table-responsive mt-3">
                                     <table id="example-3" class="table table-striped table-bordered nowrap">
-                                        <thead>
+                                        <thead class="bg-primary">
                                         <tr>
-                                            <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
+                                            <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                             <th class="wd-15p border-bottom-0 text-center">Supplier</th>
                                             <th class="wd-20p border-bottom-0 text-center">Num of equipment</th>
                                             <th class="wd-25p border-bottom-0 text-center">Request date</th>
@@ -361,7 +361,7 @@
                                             <th class="wd-25p border-bottom-0 text-center">Status</th>
                                             <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                         </tr>
-                                        </thead>
+                                        </thead class=text-center>
                                         <tbody>
                                         <tr>
                                             <td>1354v18</td>
@@ -572,7 +572,7 @@
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Branches</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Settled inventory</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Status</th>
-                                            <th class="wd-25p border-bottom-0 text-center bg-primary"></th>
+                                            <th class="wd-25p border-bottom-0 text-center bg-primary">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -685,7 +685,7 @@
                                     <table class="table card-table table-vcenter text-nowrap table-primary border">
                                         <thead class="bg-primary text-white border-dark">
                                         <tr>
-                                            <th class="text-white">Code</th>
+                                            <th class="text-white text-center">Code</th>
                                             <th class="text-white text-center">
                                                 Item
                                             </th>
@@ -694,7 +694,7 @@
                                             </th>
                                             <th></th>
                                         </tr>
-                                        </thead>
+                                        </thead class=text-center>
                                         <tbody>
                                         <tr>
                                             <th scope="row">GE097</th>
@@ -1043,16 +1043,16 @@
                                     <div class="card-body">
                                         <div class="table-responsive ">
                                             <table id="example-7" class="table table-striped table-bordered">
-                                                <thead>
+                                                <thead class="bg-primary">
                                                 <tr>
-                                                    <th class="border-bottom-0">Name</th>
+                                                    <th class="border-bottom-0 text-center">Name</th>
                                                     <th class="border-bottom-0 text-center">Inventory</th>
                                                     <th class="border-bottom-0 text-center">Num of Shelves</th>
                                                     <th class="border-bottom-0 text-center">Capacity</th>
                                                     <th class="border-bottom-0 text-center">Actions</th>
                                                 </tr>
                                                 </thead>
-                                                <tbody>
+                                                <tbody class="bg-primary">
                                                 <tr>
                                                     <td>A</td>
                                                     <td class="text-center">Number Five</td>

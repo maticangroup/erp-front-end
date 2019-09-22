@@ -133,7 +133,7 @@
                                 <li class=""><a href="#tab9" class="font-weight-bold"
                                                 data-toggle="tab">Contracts</a></li>
                                 <li class=""><a href="#tab10" class="font-weight-bold"
-                                                data-toggle="tab">Payment Methods</a></li>
+                                                data-toggle="tab">Payment Request</a></li>
                             </ul>
                         </div>
                     </div>

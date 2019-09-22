@@ -4,8 +4,11 @@
         <h4 class="page-title">Meeting Overview</h4>
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-modal"><i class="fas fa-play"></i> Ready to use meetings</button>
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-modal"><i
+                            class="fas fa-play"></i> Ready to use meetings
+                </button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i
+                            class="fas  fa-plus"></i></button>
             </div>
         </div>
     </div>
@@ -103,7 +106,8 @@
                                    class="btn btn-dark btn-sm"><i class="fas fa-eye"></i>
                                     View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#exampleModal3-2" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#exampleModal3-2"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr class="text-center">
@@ -452,13 +456,14 @@
                                                 </div>
                                                 <div class="col-12">
                                                     <label class="control-label form-label font-weight-bold"
-                                                           for="type">People in meeting :</label>
+                                                           for="type">People in meeting</label>
                                                     <div class="row mt-5">
                                                         <div class="col-md-12 col-lg-12">
                                                             <div class="table-responsive ">
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
+                                                                        <th class="text-white"></th>
                                                                         <th class="text-white">Name</th>
                                                                         <th class="text-white text-center">Unit</th>
                                                                         <th class="text-white text-center">Role</th>
@@ -466,6 +471,9 @@
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
+                                                                        <th><span class="avatar avatar-lg brround"
+                                                                                  style="background-image: url(../assets/images/photos/pro7.jpg)"></span>
+                                                                        </th>
                                                                         <th scope="row">Ehsan Rezvanian</th>
                                                                         <td class="text-center">
                                                                             TQM
@@ -475,6 +483,9 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
+                                                                        <th><span class="avatar avatar-lg brround"
+                                                                                  style="background-image: url(../assets/images/photos/pro8.jpg)"></span>
+                                                                        </th>
                                                                         <th scope="row">Hossein Azimi</th>
                                                                         <td class="text-center">
                                                                             Finance
@@ -484,6 +495,9 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
+                                                                        <th><span class="avatar avatar-lg brround"
+                                                                                  style="background-image: url(../assets/images/photos/pro9.jpg)"></span>
+                                                                        </th>
                                                                         <th scope="row">Milad Ahmadi</th>
                                                                         <td class="text-center">
                                                                             IT
@@ -567,15 +581,18 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix my-4">
+                                                </div>
+                                                <div class="col-12 pr-0 pl-0">
+                                                    <div class="form-group clearfix bg-primary pt-3 pb-2 rounded">
                                                         <div class="row ">
-                                                            <div class="col-lg-4">
+                                                            <div class="col-lg-3 pl-5">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Automatic scheduling :</label>
+                                                                       for="title">Automatic Scheduling : </label>
                                                             </div>
-                                                            <div class="col-lg-8">
+                                                            <div class="col-lg-9 pl-5">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
                                                             </div>
@@ -593,14 +610,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro10.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Mojgan
+                                                                                    Tabesh</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -612,14 +634,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro11.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro11.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Shamim Niri</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Shamim
+                                                                                    Niri</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -631,14 +658,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro3.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro3.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Saber Abar</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Saber
+                                                                                    Abar</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -650,14 +682,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro9.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro9.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Kamran Human</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Kamran
+                                                                                    Human</a></h5>
                                                                             <span>TQM Manager</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -669,14 +706,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro13.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro13.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Sedigh Zhaleh</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Sedigh
+                                                                                    Zhaleh</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -688,14 +730,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro14.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro14.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Akbar Abdi</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Akbar
+                                                                                    Abdi</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -707,14 +754,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro18.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro18.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Taraneh Monajem</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Taraneh
+                                                                                    Monajem</a></h5>
                                                                             <span>Designer</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -726,14 +778,19 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro5.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro5.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Amir Aghayee</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Amir
+                                                                                    Aghayee</a></h5>
                                                                             <span>Photographer</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
@@ -745,19 +802,32 @@
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                                                                 <span class="avatar avatar-xl brround cover-image m-2"
-                                                                                      data-image-src="../assets/images/photos/pro7.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                                                      data-image-src="../assets/images/photos/pro7.jpg"
+                                                                                      style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                                                 </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Maleki</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Naser
+                                                                                    Maleki</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div class="mt-4">
                                                                                 <label class="custom-switch">
-                                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                                    <input type="checkbox"
+                                                                                           name="custom-switch-checkbox"
+                                                                                           class="custom-switch-input">
                                                                                     <span class="custom-switch-indicator"></span>
                                                                                 </label>
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-4"></div>
+                                                                <div class="col-4"></div>
+                                                                <div class="col-4">
+                                                                        <a href="#" class="btn btn-pill btn-primary ml-5">Find
+                                                                            the best time</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -774,8 +844,12 @@
                                                                             <thead class="bg-primary text-white border-dark">
                                                                             <tr>
                                                                                 <th class="text-white">day</th>
-                                                                                <th class="text-white text-center">from time</th>
-                                                                                <th class="text-white text-center">to time</th>
+                                                                                <th class="text-white text-center">from
+                                                                                    time
+                                                                                </th>
+                                                                                <th class="text-white text-center">to
+                                                                                    time
+                                                                                </th>
                                                                                 <th class=" text-center"></th>
                                                                             </tr>
                                                                             </thead>
@@ -783,13 +857,15 @@
                                                                             <tr>
                                                                                 <th scope="row">Tuesday</th>
                                                                                 <td class="text-center">
-                                                                                   08:00 AM
+                                                                                    08:00 AM
                                                                                 </td>
                                                                                 <td class="text-center">
-                                                                                   10:00 AM
+                                                                                    10:00 AM
                                                                                 </td>
                                                                                 <td class="text-center">
-                                                                                    <button class="btn-pill btn-outline-secondary btn-sm ">select</button>
+                                                                                    <button class="btn-pill btn-outline-secondary btn-sm ">
+                                                                                        select
+                                                                                    </button>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
@@ -801,7 +877,9 @@
                                                                                     12:30 PM
                                                                                 </td>
                                                                                 <td class="text-center">
-                                                                                    <button class="btn-pill btn-outline-secondary btn-sm ">select</button>
+                                                                                    <button class="btn-pill btn-outline-secondary btn-sm ">
+                                                                                        select
+                                                                                    </button>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
@@ -813,7 +891,9 @@
                                                                                     04:00 PM
                                                                                 </td>
                                                                                 <td class="text-center">
-                                                                                    <button class="btn-pill btn-outline-secondary btn-sm ">select</button>
+                                                                                    <button class="btn-pill btn-outline-secondary btn-sm ">
+                                                                                        select
+                                                                                    </button>
                                                                                 </td>
                                                                             </tr>
                                                                             </tbody>
@@ -969,7 +1049,10 @@
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4 mt-2 mb-3">
-                                                                        <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
+                                                                        <button type="button"
+                                                                                class="btn-pill btn-outline-secondary mr-auto">
+                                                                            Add Notification
+                                                                        </button>
                                                                     </div>
                                                                 </div>
                                                             </div>

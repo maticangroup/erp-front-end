@@ -30,7 +30,7 @@
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Branches</th>
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Settled inventory</th>
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Status</th>
-                            <th class="wd-25p border-bottom-0 text-center bg-primary"></th>
+                            <th class="wd-25p border-bottom-0 text-center bg-primary">Actions</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -41,7 +41,7 @@
                             <td class="text-center">Nikoo Gharib</td>
                             <td class="text-center">Shamim Nuri</td>
                             <td class="text-center">12 December 2019</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">6549</td>
                             <td class="text-center">Shariati</td>
                             <td class="text-center">Number 3</td>
                             <td class="text-center"> Delivered</td>
@@ -61,7 +61,7 @@
                             <td class="text-center">Yasaman Taghvaie</td>
                             <td class="text-center">Shamim Nuri</td>
                             <td class="text-center">12 December 2019</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">75675</td>
                             <td class="text-center">Shariati</td>
                             <td class="text-center">Number 1</td>
                             <td class="text-center">rejected</td>
@@ -81,7 +81,7 @@
                             <td class="text-center">Mahdi Ardalan</td>
                             <td class="text-center">Shamim Nuri</td>
                             <td class="text-center">12 December 2019</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">55674</td>
                             <td class="text-center">Shariati</td>
                             <td class="text-center">Number 3</td>
                             <td class="text-center">accepted</td>
@@ -101,7 +101,7 @@
                             <td class="text-center">Shamsi Saberi</td>
                             <td class="text-center">Ghobad Hajian</td>
                             <td class="text-center">12 December 2019</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">785645</td>
                             <td class="text-center">Shariati</td>
                             <td class="text-center">Number 5</td>
                             <td class="text-center">Initialized</td>
@@ -119,7 +119,7 @@
                             <td class="text-center">Motahareh Moalem</td>
                             <td class="text-center">Ghobad Hajian</td>
                             <td class="text-center">12 December 2019</td>
-                            <td class="text-center"></td>
+                            <td class="text-center">45644</td>
                             <td class="text-center">Shariati</td>
                             <td class="text-center">Number 3</td>
                             <td class="text-center">Purchased</td>
@@ -221,9 +221,9 @@
                                                     </div>
                                                     <div class="row mt-5">
                                                         <div class="col-md-12 col-lg-12">
-                                                            <div class="table-responsive ">
+                                                            <div class="table-responsive rounded">
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
-                                                                    <thead class="bg-primary text-white">
+                                                                    <thead class="bg-primary text-white text-center">
                                                                     <tr>
                                                                         <th class="text-white">Name</th>
                                                                         <th class="text-white">Category</th>
@@ -231,7 +231,7 @@
                                                                         <th class="text-white"></th>
                                                                     </tr>
                                                                     </thead>
-                                                                    <tbody>
+                                                                    <tbody class="text-center">
                                                                     <tr>
                                                                         <td>Heli shot NI370</td>
                                                                         <td>Digital</td>

@@ -5,7 +5,8 @@
         <div class="row">
             <div class="col-12">
                 <button type="button" class="btn btn-primary" data-toggle="modal"
-                        data-target="#add-modal"><i class="fas fa-play"></i> Ready to use tasks</button>
+                        data-target="#add-modal"><i class="fas fa-play"></i> Ready to use tasks
+                </button>
                 <button type="button" class="btn btn-success" data-toggle="modal"
                         data-target="#add-modal"><i class="fas  fa-plus"></i></button>
             </div>
@@ -199,7 +200,8 @@
                                         <ul class="nav panel-tabs">
                                             <li class=""><a href="#tab1" class="active font-weight-bold"
                                                             data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Timing & Financial</a>
+                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Timing &
+                                                    Financial</a>
                                             </li>
                                             <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Execution
                                                     Place</a></li>
@@ -334,15 +336,18 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix my-3 ">
+                                                </div>
+                                                <div class="col-12 pr-0 pl-0">
+                                                    <div class="form-group clearfix bg-primary pt-3 pb-2 rounded">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-3 pl-5">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Assign automatically : </label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-9 pl-5">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
                                                             </div>
@@ -470,15 +475,18 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group clearfix mb-4 ">
-                                                        <div class="row ">
+                                                        <div class="row bg-primary rounded pt-3 pb-2">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Apply custom cost : </label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
                                                             </div>
@@ -785,7 +793,10 @@
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4 mt-2 mb-3">
-                                                                        <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
+                                                                        <button type="button"
+                                                                                class="btn-pill btn-outline-secondary mr-auto">
+                                                                            Add Notification
+                                                                        </button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -801,38 +812,43 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mt-2 mb-0">
-                            <div class="col-6">
-                                <div class="card  ">
-                                    <div class="card-body text-center pt-3 ">
-                                        <a href="#">
-                                            <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
-                                                <span class="avatar-status bg-green"></span>
-                                            </span>
-                                        </a>
-                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
-                                        <span>Person Position</span>
-                                        <div>
-                                            <span class="badge badge-default">manager</span>
-                                        </div>
-                                        <div class="mt-4">
-
-                                            <button href="#"
-                                                    class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                <i class="fas fa-phone"></i></button>
-                                            <button href="#"
-                                                    class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                <i class="fas fa-envelope"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 text-center">
-                                        <a href="#" class="fas fa-remove text-danger"></a>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="table-responsive rounded">
+                            <table class="table card-table table-vcenter text-nowrap table-primary border text-center">
+                                <thead class="bg-primary text-white">
+                                <tr>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Role</th>
+                                    <th>Skills</th>
+                                    <th>Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th><span class="avatar avatar-xxl brround"
+                                              style="background-image: url(../assets/images/photos/pro13.jpg)"></span>
+                                    </th>
+                                    <td>Mojgan Qanem</td>
+                                    <td>Photographer</td>
+                                    <td><span class="badge badge-default mr-1">Photographer</span><span
+                                                class="badge badge-default">Manager</span></td>
+                                    <td>
+                                        <button href="#"
+                                                class="btn-pill btn-outline-secondary btn-sm">
+                                            Call
+                                        </button>
+                                        <button href="#"
+                                                class="btn-pill btn-outline-success btn-sm">
+                                            Message
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -862,11 +878,13 @@
                                         <ul class="nav panel-tabs">
                                             <li class=""><a href="#tab111" class="active font-weight-bold"
                                                             data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing & Financial</a>
+                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing &
+                                                    Financial</a>
                                             </li>
                                             <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Execution
                                                     Place</a></li>
-                                            <li><a href="#tab444" class="font-weight-bold" data-toggle="tab">Relation</a>
+                                            <li><a href="#tab444" class="font-weight-bold"
+                                                   data-toggle="tab">Relation</a>
                                             </li>
                                             <li><a href="#tab555" class="font-weight-bold"
                                                    data-toggle="tab">Requirements</a></li>
@@ -1114,20 +1132,25 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group clearfix mb-4 ">
+                                                </div>
+                                                <div class="col-12 pr-0 pl-0">
+                                                    <div class="form-group clearfix bg-primary pt-3 pb-2 rounded">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-3 pl-5">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Apply custom cost : </label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-9 pl-5">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
@@ -1441,7 +1464,10 @@
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4"></div>
                                                                     <div class="col-4 mt-2 mb-3">
-                                                                        <button type="button" class="btn-pill btn-outline-secondary mr-auto">Add Notification</button>
+                                                                        <button type="button"
+                                                                                class="btn-pill btn-outline-secondary mr-auto">
+                                                                            Add Notification
+                                                                        </button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1464,7 +1490,8 @@
                                     <div class="card-body text-center pt-3 ">
                                         <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                  data-image-src="../assets/images/photos/pro10.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                         </a>

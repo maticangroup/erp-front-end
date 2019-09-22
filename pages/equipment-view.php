@@ -242,7 +242,7 @@
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table card-table table-vcenter text-nowrap">
-                        <thead>
+                        <thead class="text-center bg-primary">
                         <tr>
                             <th>Issue</th>
                             <th>Date</th>
@@ -250,7 +250,7 @@
 
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-center">
 
                         <tr>
                             <td><a href="store.html" class="text-inherit">Untrammelled prevents
@@ -406,9 +406,9 @@
                         <div class="tab-pane active " id="tab5-5">
                             <div class="table-responsive ">
                                 <table id="example-2" class="table table-striped table-bordered nowrap">
-                                    <thead>
+                                    <thead class="bg-primary">
                                     <tr>
-                                        <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
+                                        <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                         <th class="wd-15p border-bottom-0 text-center">Supplier</th>
                                         <th class="wd-20p border-bottom-0 text-center">Num of equipment</th>
                                         <th class="wd-25p border-bottom-0 text-center">Request date</th>
@@ -419,7 +419,7 @@
                                         <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                     </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody class="text-center">
                                     <tr>
                                         <td>1354v18</td>
                                         <td class="text-center">Jahan Shop</td>
@@ -617,9 +617,9 @@
                         <div class="tab-pane" id="tab6-6">
                             <div class="table-responsive ">
                                 <table id="example-3" class="table table-striped table-bordered nowrap">
-                                    <thead>
+                                    <thead class="bg-primary">
                                     <tr>
-                                        <th class="wd-15p border-bottom-0 text-left">Deed Serial</th>
+                                        <th class="wd-15p border-bottom-0 text-center">Deed Serial</th>
                                         <th class="wd-15p border-bottom-0 text-center">Num Of Equipment</th>
                                         <th class="wd-20p border-bottom-0 text-center">Create Date</th>
                                         <th class="wd-25p border-bottom-0 text-center">Requester</th>
@@ -631,7 +631,7 @@
                                         <th class="wd-25p border-bottom-0 text-center">Actions</th>
                                     </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody class="text-center">
                                     <tr>
                                         <td>1354v18</td>
                                         <td class="text-center">2</td>
