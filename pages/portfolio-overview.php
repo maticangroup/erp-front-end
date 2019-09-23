@@ -257,7 +257,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">New Box</h5>
+                <h5 class="modal-title" id="example-Modal3-1">New Portfolio</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -280,7 +280,7 @@
                                         <div class="tab-pane active " id="tab1-1">
                                             <div class="row mt-3">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label font-weight-bold">Box name :</label>
+                                                    <label class="form-label font-weight-bold">Portfolio Name :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
@@ -299,10 +299,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
-                    Save
-                </button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
     </div>
@@ -311,7 +309,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="example-Modal3-1">Edit Box</h5>
+                <h5 class="modal-title" id="example-Modal3-1">Edit Portfolio</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -334,7 +332,7 @@
                                         <div class="tab-pane active " id="tab1-2">
                                             <div class="row mt-3">
                                                 <div class="col-lg-3">
-                                                    <label class="form-label font-weight-bold">Box name :</label>
+                                                    <label class="form-label font-weight-bold">Portfolio Name :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
@@ -353,10 +351,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
-                    Save
-                </button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
     </div>

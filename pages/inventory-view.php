@@ -695,7 +695,7 @@
                                             <th></th>
                                         </tr>
                                         </thead class=text-center>
-                                        <tbody>
+                                        <tbody class="text-center">
                                         <tr>
                                             <th scope="row">GE097</th>
                                             <td class="text-center">
@@ -1052,7 +1052,7 @@
                                                     <th class="border-bottom-0 text-center">Actions</th>
                                                 </tr>
                                                 </thead>
-                                                <tbody class="bg-primary">
+                                                <tbody>
                                                 <tr>
                                                     <td>A</td>
                                                     <td class="text-center">Number Five</td>

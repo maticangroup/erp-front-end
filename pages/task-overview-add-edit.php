@@ -287,6 +287,26 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12 pr-0 pl-0">
+                                                    <div class="form-group clearfix bg-primary pt-3 pb-2 rounded">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3 pl-5">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Assign automatically : </label>
+                                                            </div>
+                                                            <div class="col-lg-9 pl-5">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox"
+                                                                           name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group clearfix">
                                                         <div class="row">
                                                             <div class="col-lg-3">
@@ -337,25 +357,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-12 pr-0 pl-0">
-                                                    <div class="form-group clearfix bg-primary pt-3 pb-2 rounded">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3 pl-5">
-                                                                <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Assign automatically : </label>
-                                                            </div>
-                                                            <div class="col-lg-9 pl-5">
-                                                                <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox"
-                                                                           class="custom-switch-input">
-                                                                    <span class="custom-switch-indicator"></span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
-
                                         </div>
                                         <div class="tab-pane" id="tab2">
                                             <div class="row">
@@ -385,7 +387,8 @@
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="DeadlineDate">Deadline Date :</label>
+                                                                       for="DeadlineDate">Deadline Date
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -485,7 +488,8 @@
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                    <input type="checkbox"
+                                                                           name="custom-switch-checkbox"
                                                                            class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
@@ -559,7 +563,8 @@
                                                         <div class="row ">
                                                             <div class="col-12 mt-1">
                                                                 <img class="border-dark"
-                                                                     src="/assets/images/map-example.png" width="100%"
+                                                                     src="/assets/images/map-example.png"
+                                                                     width="100%"
                                                                      alt="">
                                                             </div>
                                                         </div>
@@ -589,9 +594,12 @@
                                                                                 <select class="form-control select2-show-search "
                                                                                         id="relation"
                                                                                         data-placeholder="Choose one">
-                                                                                    <option value="p1">Deal 1</option>
-                                                                                    <option value="p2">Deal 2</option>
-                                                                                    <option value="p3">Deal 3</option>
+                                                                                    <option value="p1">Deal 1
+                                                                                    </option>
+                                                                                    <option value="p2">Deal 2
+                                                                                    </option>
+                                                                                    <option value="p3">Deal 3
+                                                                                    </option>
                                                                                 </select>
                                                                             </div>
                                                                         </div>
@@ -721,7 +729,8 @@
                                                                 <div class="custom-file">
                                                                     <input type="file" class="custom-file-input"
                                                                            name="example-file-input-custom">
-                                                                    <label class="custom-file-label">Choose file</label>
+                                                                    <label class="custom-file-label">Choose
+                                                                        file</label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -765,7 +774,8 @@
                                                                     <div class="col-5">
                                                                         <select multiple="multiple"
                                                                                 class="multi-select">
-                                                                            <option value="1">Notification</option>
+                                                                            <option value="1">Notification
+                                                                            </option>
                                                                             <option value="2">SMS</option>
                                                                             <option value="3">Email</option>
                                                                         </select>
@@ -878,7 +888,8 @@
                                         <ul class="nav panel-tabs">
                                             <li class=""><a href="#tab111" class="active font-weight-bold"
                                                             data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing &
+                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Timing
+                                                    &
                                                     Financial</a>
                                             </li>
                                             <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Execution
@@ -933,20 +944,26 @@
                                                             <div class="col-9">
                                                                 <div class="row">
                                                                     <label class="custom-control custom-radio col-4">
-                                                                        <input type="radio" class="custom-control-input"
-                                                                               name="example-radios" value="option1"
+                                                                        <input type="radio"
+                                                                               class="custom-control-input"
+                                                                               name="example-radios"
+                                                                               value="option1"
                                                                                checked="">
                                                                         <span class="custom-control-label font-weight-bold">High</span>
                                                                     </label>
                                                                     <label class="custom-control custom-radio col-4">
-                                                                        <input type="radio" class="custom-control-input"
-                                                                               name="example-radios" value="option1"
+                                                                        <input type="radio"
+                                                                               class="custom-control-input"
+                                                                               name="example-radios"
+                                                                               value="option1"
                                                                                checked="">
                                                                         <span class="custom-control-label font-weight-bold">Medium</span>
                                                                     </label>
                                                                     <label class="custom-control custom-radio col-4">
-                                                                        <input type="radio" class="custom-control-input"
-                                                                               name="example-radios" value="option1"
+                                                                        <input type="radio"
+                                                                               class="custom-control-input"
+                                                                               name="example-radios"
+                                                                               value="option1"
                                                                                checked="">
                                                                         <span class="custom-control-label font-weight-bold">Low</span>
                                                                     </label>
@@ -1042,7 +1059,8 @@
                                                         <div class="row ">
                                                             <div class="col-lg-3">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="DeadlineDate">Deadline Date :</label>
+                                                                       for="DeadlineDate">Deadline Date
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="input-group">
@@ -1142,7 +1160,8 @@
                                                             </div>
                                                             <div class="col-lg-9 pl-5">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                    <input type="checkbox"
+                                                                           name="custom-switch-checkbox"
                                                                            class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
@@ -1222,7 +1241,8 @@
                                                             </div>
                                                             <div class="col-12 mt-1">
                                                                 <img class="border-dark"
-                                                                     src="/assets/images/map-example.png" width="100%"
+                                                                     src="/assets/images/map-example.png"
+                                                                     width="100%"
                                                                      alt="">
                                                             </div>
                                                         </div>
@@ -1252,9 +1272,12 @@
                                                                                 <select class="form-control select2-show-search "
                                                                                         id="relation"
                                                                                         data-placeholder="Choose one">
-                                                                                    <option value="p1">Deal 1</option>
-                                                                                    <option value="p2">Deal 2</option>
-                                                                                    <option value="p3">Deal 3</option>
+                                                                                    <option value="p1">Deal 1
+                                                                                    </option>
+                                                                                    <option value="p2">Deal 2
+                                                                                    </option>
+                                                                                    <option value="p3">Deal 3
+                                                                                    </option>
                                                                                 </select>
                                                                             </div>
                                                                         </div>
@@ -1392,7 +1415,8 @@
                                                                 <div class="custom-file">
                                                                     <input type="file" class="custom-file-input"
                                                                            name="example-file-input-custom">
-                                                                    <label class="custom-file-label">Choose file</label>
+                                                                    <label class="custom-file-label">Choose
+                                                                        file</label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1436,7 +1460,8 @@
                                                                     <div class="col-5">
                                                                         <select multiple="multiple"
                                                                                 class="multi-select">
-                                                                            <option value="1">Notification</option>
+                                                                            <option value="1">Notification
+                                                                            </option>
                                                                             <option value="2">SMS</option>
                                                                             <option value="3">Email</option>
                                                                         </select>
@@ -1495,7 +1520,9 @@
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                         </a>
-                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan
+                                                Tabesh</a>
+                                        </h5>
                                         <span>Person Position</span>
                                         <div>
                                             <span class="badge badge-default">manager</span>
@@ -1527,7 +1554,9 @@
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                         </a>
-                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal
+                                                Nasirtash</a>
+                                        </h5>
                                         <span>Person Position</span>
                                         <div>
                                             <span class="badge badge-default">designer</span>
@@ -1559,7 +1588,9 @@
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                         </a>
-                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
+                                        <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser
+                                                Chashmi</a>
+                                        </h5>
                                         <span>Person Position</span>
                                         <div>
                                             <span class="badge badge-default">cameraman</span>
