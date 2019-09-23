@@ -143,6 +143,7 @@
             <div class="card-header border-danger">
                 <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit text-danger  fs-22"></i> Objects of
                     contract </h3>
+                <a href="#" class="btn btn-azure ml-auto">Make orders in shop</a>
             </div>
             <div class="card-body">
                 <div class="panel panel-primary">
@@ -344,10 +345,12 @@
                                     <thead class="bg-primary text-white">
                                     <tr class="text-center">
                                         <td class="text-white border-bottom p-2">
-                                            <button href="#" class="btn btn-success btn-sm"><i class="fas fa-plus"></i>
+                                            <button href="#" class="btn btn-success btn-sm" data-toggle="modal"
+                                                    data-target="#plus-modal"><i class="fas fa-plus"></i>
                                             </button>
                                         </td>
-                                        <th class="text-white">subservice</th>
+                                        <th class="text-white">subservice Title</th>
+                                        <th class="text-white">Grade</th>
                                         <th class="text-white">price</th>
                                         <th class="text-white">Actions</th>
                                     </tr>
@@ -356,6 +359,7 @@
                                     <tr class="text-center">
                                         <td>1</td>
                                         <td>Heli shot NI370</td>
+                                        <td>A</td>
                                         <td>800,000 T</td>
                                         <td>
                                             <button type="button" class="btn btn-icon btn-primary btn-danger"><i
@@ -367,6 +371,7 @@
                                     <tr class="text-center">
                                         <td>2</td>
                                         <td>Camera Nikon D3400</td>
+                                        <td>C</td>
                                         <td>1,000,000 T</td>
                                         <td>
                                             <button type="button" class="btn btn-icon btn-primary btn-danger"><i
@@ -378,6 +383,7 @@
                                     <tr class="text-center">
                                         <td>3</td>
                                         <td>Tripod stand F50</td>
+                                        <td>C</td>
                                         <td>5,000,000 T</td>
                                         <td>
                                             <button type="button" class="btn btn-icon btn-primary btn-danger"><i
@@ -1133,6 +1139,97 @@
     </div>
 </div>
 
+<!-- Message Modal -->
+
+<div class="modal fade" id="plus-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="example-Modal3-1">Choose Subservice</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group clearfix  mt-3">
+                            <div class="row ">
+                                <div class="col-lg-4">
+                                    <label class="control-label form-label font-weight-bold">Select Company Activity
+                                        :</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <select class="form-control" id="ProjectManager">
+                                        <option>Video</option>
+                                        <option>Photography</option>
+                                        <option>Design & Editing</option>
+                                        <option>Professional editing</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="table-responsive rounded">
+                            <table class="table card-table table-vcenter text-nowrap table-primary border">
+                                <thead class="bg-primary text-white text-center">
+                                <tr>
+                                    <th class="text-white">Subservice</th>
+                                    <th class="text-white">Grade</th>
+                                    <th class="text-white">Price</th>
+                                    <th class="text-white">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                <tr>
+                                    <th scope="row">Subservice 1</th>
+                                    <td>A</td>
+                                    <td>$56</td>
+                                    <td>
+                                        <button href="#"
+                                                class="btn-pill btn-outline-secondary btn-sm">
+                                            Select
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Subservice 2</th>
+                                    <td>B</td>
+                                    <td>$789</td>
+                                    <td>
+                                        <button href="#"
+                                                class="btn-pill btn-outline-secondary btn-sm">
+                                            Select
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Subservice 3</th>
+                                    <td>C</td>
+                                    <td>$685</td>
+                                    <td>
+                                        <button href="#"
+                                                class="btn-pill btn-outline-secondary btn-sm">
+                                            Select
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
+            </div>
+        </div>
+    </div>
+</div>
 <?php
 
 $scripts = [
