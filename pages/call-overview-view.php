@@ -18,7 +18,7 @@
                 <div class="table-responsive ">
                     <table id="example-2" class="table table-striped table-bordered nowrap">
                         <thead>
-                        <tr>
+                        <tr class="bg-primary">
                             <th class="wd-15p border-bottom-0 text-center">Topic</th>
                             <th class="wd-25p border-bottom-0 text-center">Call Method</th>
                             <th class="wd-25p border-bottom-0 text-center">From</th>
