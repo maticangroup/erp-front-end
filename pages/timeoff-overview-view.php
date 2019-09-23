@@ -270,6 +270,20 @@
                 <div id="chart" class="overflow-hidden chart-dropshadow"></div>
             </div>
         </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    Number of time off request in each branch
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card overflow-hidden">
+                    <div class="card-body">
+                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="col-6">
         <div class="card overflow-hidden">
@@ -311,24 +325,7 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">
-                    Number of time off request in each branch
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="card overflow-hidden">
-                    <div class="card-body">
-                        <div id="chartBar5" class="w-100 overflow-hidden"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
 
