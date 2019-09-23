@@ -1993,7 +1993,7 @@
                                         </tr>
 
                                         <tr>
-                                            <<td class="text-center">glass frame</td>
+                                            <td class="text-center">glass frame</td>
                                             <td class="text-center">1300*800</td>
                                             <td class="text-center">silk</td>
                                             <td class="text-center">2,000,000 T</td>
@@ -2109,7 +2109,7 @@
                                         </tr>
 
                                         <tr>
-                                            <<td class="text-center">glass frame</td>
+                                            <td class="text-center">glass frame</td>
                                             <td class="text-center">1300*800</td>
                                             <td class="text-center">silk</td>
                                             <td class="text-center">2,000,000 T</td>
