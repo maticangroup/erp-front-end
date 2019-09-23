@@ -8,6 +8,9 @@
             <a class="icon" href="javascript:void(0)"></a>
             <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal3-2"
                class="btn btn-primary "><i class="fas fa-pen"></i> Edit</a>
+            <a href="javascript:void(0)"
+               data-toggle="modal"
+               data-target="#sign-modal" class="btn btn-dark "><i class="fas fa-check"></i> Sign</a>
         </div>
         <div class="float-right ml-1">
             <a href="#" class="btn btn-primary  bg-red"><i
@@ -23,7 +26,8 @@
     <div class="col-6 ">
         <div class="card">
             <div class="card-header border-danger">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit text-danger  fs-22"></i>  Basic info </h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit text-danger  fs-22"></i> Basic info
+                </h3>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -100,21 +104,30 @@
     <div class="col-6 ">
         <div class="card">
             <div class="card-header border-info">
-                <h3 class="card-title font-weight-extrabold"> <i class="fas fa-check-circle fs-24 text-info"></i>  Basic info</h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-24 text-info"></i> Basic
+                    info</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12">
                         <div class="price-body">
                             <ul class="text-center">
-                                <li><b class="font-weight-bold">From company :</b> Arshia Digital</li><hr class="my-4">
-                                <li><b class="font-weight-bold">To company :</b> Arad Mobile</li><hr class="my-4">
-                                <li><b class="font-weight-bold">From person :</b> Jamshid Baghban</li><hr class="my-4">
-                                <li><b class="font-weight-bold">To person :</b> Sara Izadi</li><hr class="my-4">
-                                <li><b class="font-weight-bold">Descriptions :</b><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. </li>
+                                <li><b class="font-weight-bold">From company :</b> Arshia Digital</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">To company :</b> Arad Mobile</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">From person :</b> Jamshid Baghban</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">To person :</b> Sara Izadi</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">Descriptions :</b><br><br> Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
+                                    dolor in reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -128,7 +141,8 @@
     <div class="col-12 ">
         <div class="card">
             <div class="card-header border-danger">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit text-danger  fs-22"></i>  Objects of contract </h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit text-danger  fs-22"></i> Objects of
+                    contract </h3>
             </div>
             <div class="card-body">
                 <div class="panel panel-primary">
@@ -143,7 +157,7 @@
                                 <th class="text-center w-15">Quantity</th>
                                 <th class="text-center">Delivery date</th>
                                 <th class="text-center">Status</th>
-                                <th class="text-center"></th>
+                                <th class="text-center">Actions</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -155,23 +169,30 @@
                                 <td class="text-center">
                                     <div class="input-group input-indec">
                                                     <span class="input-group-btn">
-                                                        <button type="button" class="quantity-left-minus btn btn-light btn-number btn-sm"  data-type="minus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-left-minus btn btn-light btn-number btn-sm"
+                                                                data-type="minus" data-field="">
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                        <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                        <input type="text" name="quantity"
+                                               class="form-control input-number text-center quantity" value="1">
                                         <span class="input-group-btn">
-                                                        <button type="button" class="quantity-right-plus btn btn-light btn-number btn-sm" data-type="plus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-right-plus btn btn-light btn-number btn-sm"
+                                                                data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
                                                     </span>
                                     </div>
                                 </td>
                                 <td class="text-center">02 Sep 2020</td>
-                                <td class="text-center">Registrated </td>
+                                <td class="text-center">Registrated</td>
                                 <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                    <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                class="fas fa-trash-alt text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary "><i
+                                                class="fas fa-pen text-white"></i></button>
                                 </td>
                             </tr>
 
@@ -183,23 +204,30 @@
                                 <td class="text-center">
                                     <div class="input-group input-indec">
                                                     <span class="input-group-btn">
-                                                        <button type="button" class="quantity-left-minus btn btn-light btn-number btn-sm"  data-type="minus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-left-minus btn btn-light btn-number btn-sm"
+                                                                data-type="minus" data-field="">
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                        <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                        <input type="text" name="quantity"
+                                               class="form-control input-number text-center quantity" value="1">
                                         <span class="input-group-btn">
-                                                        <button type="button" class="quantity-right-plus btn btn-light btn-number btn-sm" data-type="plus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-right-plus btn btn-light btn-number btn-sm"
+                                                                data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
                                                     </span>
                                     </div>
                                 </td>
                                 <td class="text-center">02 Sep 2020</td>
-                                <td class="text-center">Paid </td>
+                                <td class="text-center">Paid</td>
                                 <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                    <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                class="fas fa-trash-alt text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary "><i
+                                                class="fas fa-pen text-white"></i></button>
                                 </td>
                             </tr>
 
@@ -211,13 +239,18 @@
                                 <td class="text-center">
                                     <div class="input-group input-indec">
                                                     <span class="input-group-btn">
-                                                        <button type="button" class="quantity-left-minus btn btn-light btn-number btn-sm"  data-type="minus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-left-minus btn btn-light btn-number btn-sm"
+                                                                data-type="minus" data-field="">
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                        <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                        <input type="text" name="quantity"
+                                               class="form-control input-number text-center quantity" value="1">
                                         <span class="input-group-btn">
-                                                        <button type="button" class="quantity-right-plus btn btn-light btn-number btn-sm" data-type="plus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-right-plus btn btn-light btn-number btn-sm"
+                                                                data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
                                                     </span>
@@ -226,8 +259,10 @@
                                 <td class="text-center">02 Sep 2020</td>
                                 <td class="text-center">Choose photo</td>
                                 <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                    <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                class="fas fa-trash-alt text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary "><i
+                                                class="fas fa-pen text-white"></i></button>
                                 </td>
                             </tr>
 
@@ -239,23 +274,30 @@
                                 <td class="text-center">
                                     <div class="input-group input-indec">
                                                     <span class="input-group-btn">
-                                                        <button type="button" class="quantity-left-minus btn btn-light btn-number btn-sm"  data-type="minus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-left-minus btn btn-light btn-number btn-sm"
+                                                                data-type="minus" data-field="">
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                        <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                        <input type="text" name="quantity"
+                                               class="form-control input-number text-center quantity" value="1">
                                         <span class="input-group-btn">
-                                                        <button type="button" class="quantity-right-plus btn btn-light btn-number btn-sm" data-type="plus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-right-plus btn btn-light btn-number btn-sm"
+                                                                data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
                                                     </span>
                                     </div>
                                 </td>
                                 <td class="text-center">02 Sep 2020</td>
-                                <td class="text-center">Send to editor </td>
+                                <td class="text-center">Send to editor</td>
                                 <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                    <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                class="fas fa-trash-alt text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary "><i
+                                                class="fas fa-pen text-white"></i></button>
                                 </td>
                             </tr>
                             <tr>
@@ -266,13 +308,18 @@
                                 <td class="text-center">
                                     <div class="input-group input-indec">
                                                     <span class="input-group-btn">
-                                                        <button type="button" class="quantity-left-minus btn btn-light btn-number btn-sm"  data-type="minus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-left-minus btn btn-light btn-number btn-sm"
+                                                                data-type="minus" data-field="">
                                                             <i class="fas fa-minus"></i>
                                                         </button>
                                                     </span>
-                                        <input type="text" name="quantity" class="form-control input-number text-center quantity" value="1" >
+                                        <input type="text" name="quantity"
+                                               class="form-control input-number text-center quantity" value="1">
                                         <span class="input-group-btn">
-                                                        <button type="button" class="quantity-right-plus btn btn-light btn-number btn-sm" data-type="plus" data-field="">
+                                                        <button type="button"
+                                                                class="quantity-right-plus btn btn-light btn-number btn-sm"
+                                                                data-type="plus" data-field="">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
                                                     </span>
@@ -281,8 +328,10 @@
                                 <td class="text-center">02 Sep 2020</td>
                                 <td class="text-center">Ready for print</td>
                                 <td class="text-center">
-                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                    <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                class="fas fa-trash-alt text-white"></i></button>
+                                    <button type="button" class="btn btn-icon btn-primary "><i
+                                                class="fas fa-pen text-white"></i></button>
                                 </td>
                             </tr>
                             </tbody>
@@ -294,10 +343,13 @@
                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                     <thead class="bg-primary text-white">
                                     <tr class="text-center">
-                                        <td class="text-white border-bottom p-2"><button href="#" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button></td>
-                                        <th class="text-white">subservice </th>
-                                        <th class="text-white">price </th>
-                                        <th class="text-white"></th>
+                                        <td class="text-white border-bottom p-2">
+                                            <button href="#" class="btn btn-success btn-sm"><i class="fas fa-plus"></i>
+                                            </button>
+                                        </td>
+                                        <th class="text-white">subservice</th>
+                                        <th class="text-white">price</th>
+                                        <th class="text-white">Actions</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -306,8 +358,10 @@
                                         <td>Heli shot NI370</td>
                                         <td>800,000 T</td>
                                         <td>
-                                            <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                            <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                            <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                        class="fas fa-trash-alt text-white"></i></button>
+                                            <button type="button" class="btn btn-icon btn-primary "><i
+                                                        class="fas fa-pen text-white"></i></button>
                                         </td>
                                     </tr>
                                     <tr class="text-center">
@@ -315,8 +369,10 @@
                                         <td>Camera Nikon D3400</td>
                                         <td>1,000,000 T</td>
                                         <td>
-                                           <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                            <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                            <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                        class="fas fa-trash-alt text-white"></i></button>
+                                            <button type="button" class="btn btn-icon btn-primary "><i
+                                                        class="fas fa-pen text-white"></i></button>
                                         </td>
                                     </tr>
                                     <tr class="text-center">
@@ -324,8 +380,10 @@
                                         <td>Tripod stand F50</td>
                                         <td>5,000,000 T</td>
                                         <td>
-                                           <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
-                                            <button type="button" class="btn btn-icon btn-primary "><i class="fas fa-pen text-white"></i></button>
+                                            <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                        class="fas fa-trash-alt text-white"></i></button>
+                                            <button type="button" class="btn btn-icon btn-primary "><i
+                                                        class="fas fa-pen text-white"></i></button>
                                         </td>
                                     </tr>
                                     </tbody>
@@ -333,30 +391,30 @@
                             </div>
                         </div>
                     </div>
-                    <ul  class="list-group mt-5">
+                    <ul class="list-group mt-5">
                         <li class="list-group-item">
-                           1. Nam libero tempore, cum soluta
+                            1. Nam libero tempore, cum soluta
                             <a class="text-danger float-right"
                                href="#">
                                 <i class="fas fa-times"></i>
                             </a>
                         </li>
                         <li class="list-group-item">
-                           2. Nam libero tempore, cum soluta
+                            2. Nam libero tempore, cum soluta
                             <a class="text-danger float-right"
                                href="#">
                                 <i class="fas fa-times"></i>
                             </a>
                         </li>
                         <li class="list-group-item">
-                           3. Nam libero tempore, cum soluta
+                            3. Nam libero tempore, cum soluta
                             <a class="text-danger float-right"
                                href="#">
                                 <i class="fas fa-times"></i>
                             </a>
                         </li>
                         <li class="list-group-item">
-                           4. Nam libero tempore, cum soluta
+                            4. Nam libero tempore, cum soluta
                             <a class="text-danger float-right"
                                href="#">
                                 <i class="fas fa-times"></i>
@@ -368,7 +426,8 @@
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Note & Exception here">
                             <span class="input-group-append ">
-                                <button class="btn btn-outline-secondary btn-sm font-weight-bold" type="button"><i class="fas fa-plus  "></i>  New object</button>
+                                <button class="btn btn-outline-secondary btn-sm font-weight-bold" type="button"><i
+                                            class="fas fa-plus  "></i>  New object</button>
                             </span>
                         </div>
                     </div>
@@ -379,7 +438,8 @@
     <div class="col-12 ">
         <div class="card">
             <div class="card-header border-info">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-24 text-info "></i>  Objects of contract </h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-24 text-info "></i>
+                    Objects of contract </h3>
             </div>
             <div class="card-body">
                 <div class="panel panel-primary">
@@ -404,7 +464,7 @@
                                 <td class="text-center">1,000,000 T</td>
                                 <td class="text-center">2</td>
                                 <td class="text-center">02 Sep 2020</td>
-                                <td class="text-center">Registrated </td>
+                                <td class="text-center">Registrated</td>
                             </tr>
                             <tr>
                                 <td class="text-center">flush mount</td>
@@ -413,7 +473,7 @@
                                 <td class="text-center">4,000,000 T</td>
                                 <td class="text-center">1</td>
                                 <td class="text-center">02 Sep 2020</td>
-                                <td class="text-center">Paid </td>
+                                <td class="text-center">Paid</td>
                             </tr>
                             <tr>
                                 <td class="text-center">glass frame</td>
@@ -431,7 +491,7 @@
                                 <td class="text-center">6,000,000 T</td>
                                 <td class="text-center">1</td>
                                 <td class="text-center">02 Sep 2020</td>
-                                <td class="text-center">Send to editor </td>
+                                <td class="text-center">Send to editor</td>
                             </tr>
                             <tr>
                                 <td class="text-center">flush mount</td>
@@ -452,8 +512,8 @@
                                     <thead class="bg-primary text-white">
                                     <tr class="text-center">
                                         <td class="text-white "></td>
-                                        <th class="text-white">subservice </th>
-                                        <th class="text-white">price </th>
+                                        <th class="text-white">subservice</th>
+                                        <th class="text-white">price</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -477,7 +537,7 @@
                             </div>
                         </div>
                     </div>
-                    <ul  class="list-group mt-5 ">
+                    <ul class="list-group mt-5 ">
                         <li class="list-group-item">
                             1. Nam libero tempore, cum soluta
                         </li>
@@ -501,7 +561,7 @@
     <div class="col-6 ">
         <div class="card">
             <div class="card-header border-danger">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit fs-24 text-danger"></i>  Timing</h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit fs-24 text-danger"></i> Timing</h3>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -541,16 +601,21 @@
     <div class="col-6 ">
         <div class="card">
             <div class="card-header border-info">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-26 text-info"></i>  Timing</h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-26 text-info"></i> Timing
+                </h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12">
                         <div class="price-body">
                             <ul class="text-center">
-                                <li><b class="font-weight-bold">Start date :</b> 11 Jan 2019</li><hr class="my-4">
-                                <li><b class="font-weight-bold">Deadline date :</b> 20 Feb 2019</li><hr class="my-4">
-                                <li><b class="font-weight-bold">Working days :</b> 24 Jan 2019 - 29 Jan 2019 - 16 Feb 2019</li>
+                                <li><b class="font-weight-bold">Start date :</b> 11 Jan 2019</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">Deadline date :</b> 20 Feb 2019</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">Working days :</b> 24 Jan 2019 - 29 Jan 2019 - 16 Feb
+                                    2019
+                                </li>
 
                             </ul>
                         </div>
@@ -565,7 +630,8 @@
     <div class="col-6 ">
         <div class="card">
             <div class="card-header border-danger">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit fs-24 text-danger "></i>  Financial</h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-edit fs-24 text-danger "></i> Financial
+                </h3>
                 <div class="card-options d-none d-sm-block">
                     <a href="#" class="btn btn-secondary btn-sm" data-target="#modal_save_as_template"
                        data-toggle="modal">Make invoice</a>
@@ -589,7 +655,9 @@
                         <div class="card mb-0">
                             <div class="card-header ">
                                 <h5 class="mb-0 text-muted">Payment steps</h5>
-                                <button href="javascript:void(0)" data-toggle="modal" data-target="#payment-modal" class="btn btn-success float-right ml-auto btn-sm"><i class="fas fa-plus mr-1"></i></button>
+                                <button href="javascript:void(0)" data-toggle="modal" data-target="#payment-modal"
+                                        class="btn btn-success float-right ml-auto btn-sm"><i
+                                            class="fas fa-plus mr-1"></i></button>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -605,14 +673,15 @@
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <tr >
+                                        <tr>
                                             <th scope="row">1</th>
                                             <td class="text-center">Joan Powell</td>
                                             <td class="text-center">12-12-12</td>
                                             <td class="text-center">Cache</td>
                                             <td class="text-center">$450,870</td>
                                             <td class="text-center">
-                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                            class="fas fa-trash-alt text-white"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -622,17 +691,19 @@
                                             <td class="text-center">Cheque</td>
                                             <td class="text-center">$230,540</td>
                                             <td class="text-center">
-                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                            class="fas fa-trash-alt text-white"></i></button>
                                             </td>
                                         </tr>
-                                        <tr >
+                                        <tr>
                                             <th scope="row">3</th>
                                             <td class="text-center">Julian Kerr</td>
                                             <td class="text-center">12-12-12</td>
                                             <td class="text-center">POS</td>
                                             <td class="text-center">$55,300</td>
                                             <td class="text-center">
-                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                            class="fas fa-trash-alt text-white"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -642,7 +713,8 @@
                                             <td class="text-center">Cheque</td>
                                             <td class="text-center">$234,100</td>
                                             <td class="text-center">
-                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i class="fas fa-trash-alt text-white"></i></button>
+                                                <button type="button" class="btn btn-icon btn-primary btn-danger"><i
+                                                            class="fas fa-trash-alt text-white"></i></button>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -658,15 +730,18 @@
     <div class="col-6 ">
         <div class="card">
             <div class="card-header border-info">
-                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-24 text-info "></i>  Financial</h3>
+                <h3 class="card-title font-weight-extrabold"><i class="fas fa-check-circle fs-24 text-info "></i>
+                    Financial</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-12">
                         <div class="price-body">
                             <ul class="text-center">
-                                <li><b class="font-weight-bold">Total Price :</b> 13,500,000 T</li><hr class="my-4">
-                                <li><b class="font-weight-bold">Unscheduled amount :</b> 2,500,000 T</li><hr class="my-4">
+                                <li><b class="font-weight-bold">Total Price :</b> 13,500,000 T</li>
+                                <hr class="my-4">
+                                <li><b class="font-weight-bold">Unscheduled amount :</b> 2,500,000 T</li>
+                                <hr class="my-4">
                             </ul>
                         </div>
                         <div class="row mt-6 mb-8">
@@ -688,7 +763,7 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr >
+                                                <tr>
                                                     <th scope="row">1</th>
                                                     <td class="text-center">Joan Powell</td>
                                                     <td class="text-center">12-12-12</td>
@@ -702,7 +777,7 @@
                                                     <td class="text-center">Cheque</td>
                                                     <td class="text-center">$230,540</td>
                                                 </tr>
-                                                <tr >
+                                                <tr>
                                                     <th scope="row">3</th>
                                                     <td class="text-center">Julian Kerr</td>
                                                     <td class="text-center">12-12-12</td>
@@ -729,8 +804,6 @@
         </div>
     </div>
 </div>
-
-
 
 
 <div class="row">
@@ -945,11 +1018,12 @@
                                             <div class="row ">
                                                 <div class="col-lg-3">
                                                     <label class="control-label form-label font-weight-bold"
-                                                           for="ProjectManager">step name  :</label>
+                                                           for="ProjectManager">step name :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" name="topic" placeholder="">
+                                                        <input type="text" class="form-control" name="topic"
+                                                               placeholder="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -958,11 +1032,12 @@
                                             <div class="row ">
                                                 <div class="col-lg-3">
                                                     <label class="control-label form-label font-weight-bold"
-                                                           for="ProjectManager">payment date  :</label>
+                                                           for="ProjectManager">payment date :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
-                                                        <input type="date" class="form-control" name="topic" placeholder="">
+                                                        <input type="date" class="form-control" name="topic"
+                                                               placeholder="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -971,7 +1046,7 @@
                                             <div class="row ">
                                                 <div class="col-lg-3">
                                                     <label class="control-label form-label font-weight-bold"
-                                                           for="ProjectManager">payment method  :</label>
+                                                           for="ProjectManager">payment method :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <select class="form-control" id="ProjectManager">
@@ -985,11 +1060,12 @@
                                             <div class="row ">
                                                 <div class="col-lg-3">
                                                     <label class="control-label form-label font-weight-bold"
-                                                           for="ProjectManager">price  :</label>
+                                                           for="ProjectManager">price :</label>
                                                 </div>
                                                 <div class="col-lg-9">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" name="topic" placeholder="">
+                                                        <input type="text" class="form-control" name="topic"
+                                                               placeholder="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1006,6 +1082,52 @@
                 <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
                     Save
                 </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="sign-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="example-Modal3">Sign Contract</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row bg-primary rounded pt-4 mb-3">
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <div class="form-label">Women's Executive Team :</div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <label class="custom-switch">
+                            <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                            <span class="custom-switch-indicator"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="row bg-primary rounded pt-4">
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <div class="form-label">Allowed to use as portfolio :</div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <label class="custom-switch">
+                            <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                            <span class="custom-switch-indicator"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Sign Contract</button>
             </div>
         </div>
     </div>

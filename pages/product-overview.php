@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i
-                        class="fas  fa-plus"></i></button>
+                            class="fas  fa-plus"></i></button>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                             <th class="wd-25p border-bottom-0 text-center">Sold</th>
                             <th class="wd-25p border-bottom-0 text-center">Price</th>
                             <th class="wd-20p border-bottom-0 text-center">status</th>
-                            <th class="border-bottom-0 text-center"></th>
+                            <th class="border-bottom-0 text-center">Actions</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -91,7 +91,7 @@
                             <td class="text-center">500,000 T</td>
                             <td class="text-center">available</td>
                             <td class="text-center">
-                                
+
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -108,7 +108,7 @@
                             <td class="text-center">200,000 T</td>
                             <td class="text-center">available</td>
                             <td class="text-center">
-                                
+
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -125,7 +125,7 @@
                             <td class="text-center">700,000 T</td>
                             <td class="text-center">unavailable</td>
                             <td class="text-center">
-                                
+
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -142,7 +142,7 @@
                             <td class="text-center">1,000,000 T</td>
                             <td class="text-center">available</td>
                             <td class="text-center">
-                                
+
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -159,7 +159,7 @@
                             <td class="text-center">100,000 T</td>
                             <td class="text-center">unavailable</td>
                             <td class="text-center">
-                                
+
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
                                    class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
@@ -181,8 +181,9 @@
             <div class="card-body">
                 <div class="dash-widget text-center">
                     <p>Total Income for this month</p>
-                    <h3>14.700.000  T</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease last year</p>
+                    <h3>14.700.000 T</h3>
+                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease
+                        last year</p>
                 </div>
             </div>
         </div>
@@ -193,7 +194,8 @@
                 <div class="dash-widget text-center">
                     <p>Total balance</p>
                     <h3>6.540.000 T</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease last year</p>
+                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 2% decrease
+                        last year</p>
                 </div>
             </div>
         </div>
@@ -204,7 +206,8 @@
                 <div class="dash-widget text-center">
                     <p>Total orders</p>
                     <h3>895</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-up text-success mr-1"></i> 2% increase last year</p>
+                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-up text-success mr-1"></i> 2% increase
+                        last year</p>
                 </div>
             </div>
         </div>
@@ -215,7 +218,8 @@
                 <div class="dash-widget text-center">
                     <p>Net profit</p>
                     <h3> 9.239.000 T</h3>
-                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 0.5% decrease last year</p>
+                    <p class="mb-0 text-muted"><i class="fas fa-arrow-alt-circle-down text-red mr-1"></i> 0.5% decrease
+                        last year</p>
                 </div>
             </div>
         </div>
@@ -227,7 +231,8 @@
         <div class="card overflow-hidden">
             <div class="card-body">
                 <div class="dash4">
-                    <h3>Monthly Sale <span class="btn btn-outline-primary float-right d-none d-sm-block">View Details</span></h3>
+                    <h3>Monthly Sale <span
+                                class="btn btn-outline-primary float-right d-none d-sm-block">View Details</span></h3>
                     <p><i class="fas fa-arrow-up text-green mr-1"></i>15% increase in last Month</p>
                 </div>
                 <div class="chart-wrapper ">
@@ -292,9 +297,12 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab11" class="active font-weight-bold" data-toggle="tab">Product information</a></li>
-                                            <li><a href="#tab22" class="font-weight-bold" data-toggle="tab">Price</a></li>
-                                            <li><a href="#tab33" class="font-weight-bold" data-toggle="tab">Image</a></li>
+                                            <li class=""><a href="#tab11" class="active font-weight-bold"
+                                                            data-toggle="tab">Product information</a></li>
+                                            <li><a href="#tab22" class="font-weight-bold" data-toggle="tab">Price</a>
+                                            </li>
+                                            <li><a href="#tab33" class="font-weight-bold" data-toggle="tab">Image</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -358,14 +366,20 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Rate :</label>
+                                                                <label class="control-label form-label font-weight-bold">Rate
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -383,25 +397,32 @@
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row">
-                                                        <div class="col-lg-3">
-                                                            <label class="form-label font-weight-bold">Size :</label>
-                                                        </div>
-                                                        <div class="col-lg-9">
-                                                            <div class="form-group m-0">
-                                                                <div class="row gutters-xs">
-                                                                    <div class="col-4">
-                                                                        <input class="form-control required" id="title" placeholder="Height" type="text">
-                                                                    </div>
-                                                                    <div class="col-4">
-                                                                        <input class="form-control required" id="title" placeholder="Width" type="text">
-                                                                    </div>
-                                                                    <div class="col-4">
-                                                                        <input class="form-control required" id="title" placeholder="Length" type="text">
+                                                            <div class="col-lg-3">
+                                                                <label class="form-label font-weight-bold">Size
+                                                                    :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <div class="form-group m-0">
+                                                                    <div class="row gutters-xs">
+                                                                        <div class="col-4">
+                                                                            <input class="form-control required"
+                                                                                   id="title" placeholder="Height"
+                                                                                   type="text">
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input class="form-control required"
+                                                                                   id="title" placeholder="Width"
+                                                                                   type="text">
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input class="form-control required"
+                                                                                   id="title" placeholder="Length"
+                                                                                   type="text">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
@@ -447,20 +468,25 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group clearfix">
-                                                        <div class="row ">
+                                                        <div class="row bg-primary rounded pt-3 pb-2">
                                                             <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Apply discount :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <label class="custom-switch">
-                                                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
                                                                     <span class="custom-switch-indicator"></span>
                                                                 </label>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
@@ -468,7 +494,8 @@
                                                                        for="title">Discount percent :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="title" placeholder="%" type="text">
+                                                                <input class="form-control required" id="title"
+                                                                       placeholder="%" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -476,17 +503,20 @@
                                                         <div class="row ">
                                                             <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Sale price after apply discount :</label>
+                                                                       for="title">Sale price after apply discount
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="title"  type="text">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">From date :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="HoldDate">From date :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <div class="input-group">
@@ -495,7 +525,8 @@
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
+                                                                    <input class="form-control required" id="HoldDate"
+                                                                           name="HoldDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -503,7 +534,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">To date :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="HoldDate">To date :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <div class="input-group">
@@ -512,14 +544,18 @@
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
+                                                                    <input class="form-control required" id="HoldDate"
+                                                                           name="HoldDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button type="button" class="btn btn-outline-info float-right ml-auto p-1 mr-3 font-weight-bold">ADD TO LIST</button>
+                                                            <button type="button"
+                                                                    class="btn btn-outline-info float-right ml-auto p-1 mr-3 font-weight-bold">
+                                                                ADD TO LIST
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -530,7 +566,8 @@
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
-                                                                        <th class="text-white text-center">From Date</th>
+                                                                        <th class="text-white text-center">From Date
+                                                                        </th>
                                                                         <th class="text-white text-center">To Date</th>
                                                                         <th class="text-white text-center">Discount</th>
                                                                         <th class="text-white text-center">Status</th>
@@ -538,19 +575,19 @@
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
-                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <th class="text-center">06 Sep 2019</th>
                                                                         <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">10%</td>
                                                                         <td class="text-center">doing</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <th class="text-center">06 Sep 2019</th>
                                                                         <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">20%</td>
                                                                         <td class="text-center">done</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <th class="text-center">06 Sep 2019</th>
                                                                         <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">15%</td>
                                                                         <td class="text-center">planed</td>
@@ -569,31 +606,52 @@
                                                     <div class="form-group clearfix mt-3 mb-0">
                                                         <div class="row justify-content-start">
                                                             <div class="col-4">
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#comment-modal" class="d-block link-overlay">
-                                                                    <img class="d-block img-fluid rounded "  src="../assets/images/photos/19.jpg" alt="">
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#comment-modal"
+                                                                   class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "
+                                                                         src="../assets/images/photos/19.jpg" alt="">
                                                                     <span class="link-overlay-bg rounded">
-                                                                        <span class="text-muted font-weight-extrabold"><i class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                        <span class="text-muted font-weight-extrabold"><i
+                                                                                    class="fas fa-trash text-muted"></i>  Delete</span>
                                                                     </span>
                                                                 </a>
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#portfolio-modal" class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload <i class="fas fa-cloud-upload-alt"></i></a>
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#portfolio-modal"
+                                                                   class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload
+                                                                    <i class="fas fa-cloud-upload-alt"></i></a>
                                                             </div>
                                                             <div class="col-4">
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#comment-modal" class="d-block link-overlay">
-                                                                    <img class="d-block img-fluid rounded "  src="../assets/images/photos/19.jpg" alt="">
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#comment-modal"
+                                                                   class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "
+                                                                         src="../assets/images/photos/19.jpg" alt="">
                                                                     <span class="link-overlay-bg rounded">
-                                                                        <span class="text-muted font-weight-extrabold"><i class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                        <span class="text-muted font-weight-extrabold"><i
+                                                                                    class="fas fa-trash text-muted"></i>  Delete</span>
                                                                     </span>
                                                                 </a>
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#portfolio-modal" class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload <i class="fas fa-cloud-upload-alt"></i></a>
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#portfolio-modal"
+                                                                   class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload
+                                                                    <i class="fas fa-cloud-upload-alt"></i></a>
                                                             </div>
                                                             <div class="col-4">
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#comment-modal" class="d-block link-overlay">
-                                                                    <img class="d-block img-fluid rounded "  src="../assets/images/photos/19.jpg" alt="">
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#comment-modal"
+                                                                   class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "
+                                                                         src="../assets/images/photos/19.jpg" alt="">
                                                                     <span class="link-overlay-bg rounded">
-                                                                        <span class="text-muted font-weight-extrabold"><i class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                        <span class="text-muted font-weight-extrabold"><i
+                                                                                    class="fas fa-trash text-muted"></i>  Delete</span>
                                                                     </span>
                                                                 </a>
-                                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#portfolio-modal" class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload <i class="fas fa-cloud-upload-alt"></i></a>
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#portfolio-modal"
+                                                                   class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload
+                                                                    <i class="fas fa-cloud-upload-alt"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -608,10 +666,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary btn-sm"><i class="fas fa-check"></i>
-                    Save
-                </button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
     </div>
@@ -634,9 +690,12 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab111" class="active font-weight-bold" data-toggle="tab">Product information</a></li>
-                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Price</a></li>
-                                            <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Image</a></li>
+                                            <li class=""><a href="#tab111" class="active font-weight-bold"
+                                                            data-toggle="tab">Product information</a></li>
+                                            <li><a href="#tab222" class="font-weight-bold" data-toggle="tab">Price</a>
+                                            </li>
+                                            <li><a href="#tab333" class="font-weight-bold" data-toggle="tab">Image</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -700,14 +759,20 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Rate :</label>
+                                                                <label class="control-label form-label font-weight-bold">Rate
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
-                                                                <span class="text-secondary fs-22"><i class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
+                                                                <span class="text-secondary fs-22"><i
+                                                                            class="fas fa-star"></i></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -726,19 +791,26 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row">
                                                             <div class="col-lg-3">
-                                                                <label class="form-label font-weight-bold">Size :</label>
+                                                                <label class="form-label font-weight-bold">Size
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="form-group m-0">
                                                                     <div class="row gutters-xs">
                                                                         <div class="col-4">
-                                                                            <input class="form-control required" id="title" placeholder="Height" type="text">
+                                                                            <input class="form-control required"
+                                                                                   id="title" placeholder="Height"
+                                                                                   type="text">
                                                                         </div>
                                                                         <div class="col-4">
-                                                                            <input class="form-control required" id="title" placeholder="Width" type="text">
+                                                                            <input class="form-control required"
+                                                                                   id="title" placeholder="Width"
+                                                                                   type="text">
                                                                         </div>
                                                                         <div class="col-4">
-                                                                            <input class="form-control required" id="title" placeholder="Length" type="text">
+                                                                            <input class="form-control required"
+                                                                                   id="title" placeholder="Length"
+                                                                                   type="text">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -767,11 +839,11 @@
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title"> Purchase price :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <input class="form-control required" id="title"
                                                                        type="text">
                                                             </div>
@@ -779,87 +851,104 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title"> Sale price :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <input class="form-control required" id="title"
                                                                        type="text">
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group clearfix">
-                                                        <div class="row ">
-                                                            <div class="col-lg-3">
+                                                        <div class="row bg-primary rounded pt-3 pb-2">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Toggle :</label>
+                                                                       for="title">Apply discount :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
-                                                                <input class="form-control required" id="title"
-                                                                       type="text">
+                                                            <div class="col-lg-8">
+                                                                <label class="custom-switch">
+                                                                    <input type="checkbox" name="custom-switch-checkbox"
+                                                                           class="custom-switch-input">
+                                                                    <span class="custom-switch-indicator"></span>
+                                                                </label>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
                                                                        for="title">Discount percent :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
-                                                                <input class="form-control required" id="title" placeholder="%" type="text">
+                                                            <div class="col-lg-8">
+                                                                <input class="form-control required" id="title"
+                                                                       placeholder="%" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <label class="control-label form-label font-weight-bold"
-                                                                       for="title">Sale price after apply discount :</label>
+                                                                       for="title">Sale price after apply discount
+                                                                    :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
-                                                                <input class="form-control required" id="title"  type="text">
+                                                            <div class="col-lg-8">
+                                                                <input class="form-control required" id="title"
+                                                                       type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">From date :</label>
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="HoldDate">From date :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <div class="input-group">
                                                                     <div class="input-group-prepend">
                                                                         <div class="input-group-text">
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
+                                                                    <input class="form-control required" id="HoldDate"
+                                                                           name="HoldDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="HoldDate">To date :</label>
+                                                            <div class="col-lg-4">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="HoldDate">To date :</label>
                                                             </div>
-                                                            <div class="col-lg-9">
+                                                            <div class="col-lg-8">
                                                                 <div class="input-group">
                                                                     <div class="input-group-prepend">
                                                                         <div class="input-group-text">
                                                                             <i class="far fa-calendar tx-16 lh-0 op-6"></i>
                                                                         </div>
                                                                     </div>
-                                                                    <input class="form-control required" id="HoldDate" name="HoldDate" type="date">
+                                                                    <input class="form-control required" id="HoldDate"
+                                                                           name="HoldDate" type="date">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button type="button" class="btn btn-outline-info float-right ml-auto p-1 mr-3 font-weight-bold">ADD TO LIST</button>
+                                                            <button type="button"
+                                                                    class="btn btn-outline-info float-right ml-auto p-1 mr-3 font-weight-bold">
+                                                                ADD TO LIST
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -870,7 +959,8 @@
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
-                                                                        <th class="text-white text-center">From Date</th>
+                                                                        <th class="text-white text-center">From Date
+                                                                        </th>
                                                                         <th class="text-white text-center">To Date</th>
                                                                         <th class="text-white text-center">Discount</th>
                                                                         <th class="text-white text-center">Status</th>
@@ -878,19 +968,19 @@
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
-                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <th class="text-center">06 Sep 2019</th>
                                                                         <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">10%</td>
                                                                         <td class="text-center">doing</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <th class="text-center">06 Sep 2019</th>
                                                                         <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">20%</td>
                                                                         <td class="text-center">done</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th class="text-center" >06 Sep 2019</th>
+                                                                        <th class="text-center">06 Sep 2019</th>
                                                                         <td class="text-center">14 Jun 2020</td>
                                                                         <td class="text-center">15%</td>
                                                                         <td class="text-center">planed</td>
@@ -908,17 +998,53 @@
                                                 <div class="col-12">
                                                     <div class="form-group clearfix mt-3 mb-0">
                                                         <div class="row justify-content-start">
-                                                            <div class="col-lg-5 ">
-                                                                <div class="thumbnail border-0 mb-0">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/photos/19.jpg" alt="thumb1" class="thumbimg ">
-                                                                    </a>
-                                                                    <div class="caption">
-                                                                        <div class="text-center">
-                                                                            <button href="#" class="btn-pill btn-outline-secondary mt-1 " role="button">Upload <i class="fas fa-cloud-upload-alt"></i></button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                                                            <div class="col-4">
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#comment-modal"
+                                                                   class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "
+                                                                         src="../assets/images/photos/19.jpg" alt="">
+                                                                    <span class="link-overlay-bg rounded">
+                                                                        <span class="text-muted font-weight-extrabold"><i
+                                                                                    class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#portfolio-modal"
+                                                                   class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload
+                                                                    <i class="fas fa-cloud-upload-alt"></i></a>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#comment-modal"
+                                                                   class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "
+                                                                         src="../assets/images/photos/19.jpg" alt="">
+                                                                    <span class="link-overlay-bg rounded">
+                                                                        <span class="text-muted font-weight-extrabold"><i
+                                                                                    class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#portfolio-modal"
+                                                                   class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload
+                                                                    <i class="fas fa-cloud-upload-alt"></i></a>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#comment-modal"
+                                                                   class="d-block link-overlay">
+                                                                    <img class="d-block img-fluid rounded "
+                                                                         src="../assets/images/photos/19.jpg" alt="">
+                                                                    <span class="link-overlay-bg rounded">
+                                                                        <span class="text-muted font-weight-extrabold"><i
+                                                                                    class="fas fa-trash text-muted"></i>  Delete</span>
+                                                                    </span>
+                                                                </a>
+                                                                <a href="javascript:void(0)" data-toggle="modal"
+                                                                   data-target="#portfolio-modal"
+                                                                   class="btn btn-pill btn-outline-secondary btn-block  mt-2 btn-sm font-weight-extrabold">Upload
+                                                                    <i class="fas fa-cloud-upload-alt"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -934,9 +1060,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i>
-                    Save
-                </button>
+                <button type="button" class="btn btn-primary"><i class="fas fa-check"></i> Save</button>
             </div>
         </div>
     </div>

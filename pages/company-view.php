@@ -123,7 +123,8 @@
                                             <th class="wd-15p border-bottom-0 text-center bg-primary">Meeting Leader</th>
                                             <th class="wd-25p border-bottom-0 text-center bg-primary">Place</th>
                                             <th class="border-bottom-0 text-center bg-primary">Status</th>
-                                            <th class=" bg-primary">Actions</th>
+                                            <th class="border-bottom-0 text-center bg-primary">Actions</th>
+
                                         </tr>
                                         </thead>
                                         <tbody>
