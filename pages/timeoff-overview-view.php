@@ -272,14 +272,43 @@
         </div>
     </div>
     <div class="col-6">
-        <div class="card">
+        <div class="card overflow-hidden">
             <div class="card-header">
-                <div class="card-title">
-                    Hours of time off request per month
+                <h3 class="card-title">Website Activities</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card-body overflow-hidden">
+                            <canvas id="lineChart" class="chart-dropshadow h-350 overflow-hidden"></canvas>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card-body">
-                <div id="chart" class="overflow-hidden chart-dropshadow"></div>
+                <div class="row website-section">
+                    <div class="col-4 text-center mb-5 mb-lg-0">
+                        <p class="mb-1">paid time off</p>
+                        <h2 class="text-success mb-3 font-weight-extrabold">6,254</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success w-70"></div>
+                        </div>
+                    </div>
+                    <div class="col-4 text-center border-left mb-5 mb-lg-0">
+                        <p class="mb-1">unpaid time off</p>
+                        <h2 class="text-danger mb-3 font-weight-extrabold">1254</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger w-70"></div>
+                        </div>
+                    </div>
+                    <div class="col-4 text-center border-left mb-5 mb-lg-0">
+                        <p class="mb-1">sick time off</p>
+                        <h2 class="text-primary mb-3 font-weight-extrabold">24,325</h2>
+                        <div class="progress progress-md h-1">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary w-70"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -470,7 +499,8 @@ $scripts = [
     '/assets/plugins/highcharts/histogram-bellcurve.js',
     '/assets/js/highcharts.js',
     '/assets/js/main.js',
-    '/assets/js/index3.js'
+    '/assets/js/index3.js',
+    '/assets/js/index2.js',
 
 ];
 ?>
