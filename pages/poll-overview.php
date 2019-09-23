@@ -1,12 +1,11 @@
-
-
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Poll Overview</h4>
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i
+                            class="fas  fa-plus"></i></button>
             </div>
         </div>
     </div>
@@ -96,7 +95,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -116,7 +116,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -136,7 +137,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -156,7 +158,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -176,7 +179,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -196,7 +200,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -216,7 +221,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/poll-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a data-toggle="modal" data-target="#add-modal" class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
+                                <a data-toggle="modal" data-target="#add-modal"
+                                   class="btn btn-primary btn-sm text-white"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
@@ -229,13 +235,13 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-12 col-md-12">
+    <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Poll View</h4>
+                <h3 class="card-title">Poll view</h3>
             </div>
             <div class="card-body">
-                <div id="index" class="chartsh overflow-hidden"></div>
+                <canvas id="barChart" class="h-300"></canvas>
             </div>
         </div>
     </div>
@@ -260,8 +266,10 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                            <li class=""><a href="#tab2" class=" font-weight-bold" data-toggle="tab">Participants</a></li>
+                                            <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                            <li class=""><a href="#tab2" class=" font-weight-bold" data-toggle="tab">Participants</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -273,7 +281,8 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="title">Topic :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="title">Topic :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <input class="form-control required" id="title"
@@ -485,59 +494,74 @@
                                                         <div class="card-body">
                                                             <div class="row">
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">
+                                                                        Employee
+                                                                    </div>
                                                                 </div>
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">
+                                                                        Employee
+                                                                    </div>
                                                                 </div>
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">
+                                                                        Employee
+                                                                    </div>
                                                                 </div>
                                                                 <div class="col-3 ">
-                                                                    <div class="card border-warning text-center font-weight-bold text-muted">Employee</div>
+                                                                    <div class="card border-warning text-center font-weight-bold text-muted">
+                                                                        Employee
+                                                                    </div>
                                                                 </div>
                                                                 <div class="col-3">
                                                                     <div class="card border-warning ">
                                                                         <div class="card-body text-center pt-3 ">
                                                                             <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
-                                                  data-image-src="../assets/images/photos/pro10.jpg" style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
+                                                  data-image-src="../assets/images/photos/pro10.jpg"
+                                                  style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
-                                                </a>
-                                                <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Mojgan Tabesh</a></h5>
-                                                <span>Person Position</span>
-                                                <div>
-                                                    <span class="badge badge-default">manager</span>
-                                                </div>
-                                                <div class="mt-4">
+                                                                            </a>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Mojgan
+                                                                                    Tabesh</a></h5>
+                                                                            <span>Person Position</span>
+                                                                            <div>
+                                                                                <span class="badge badge-default">manager</span>
+                                                                            </div>
+                                                                            <div class="mt-4">
 
-                                                    <button href="#"
-                                                            class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                        <i class="fas fa-phone"></i></button>
-                                                    <button href="#"
-                                                            class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                        <i class="fas fa-envelope"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 text-center">
-                                                <a href="#" class="fas fa-remove text-danger"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="card border-warning ">
-                                            <div class="card-body text-center pt-3 ">
-                                                <a href="#">
+                                                                                <button href="#"
+                                                                                        class="btn-pill  btn-outline-success btn-sm font-weight-bold">
+                                                                                    <i class="fas fa-phone"></i>
+                                                                                </button>
+                                                                                <button href="#"
+                                                                                        class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
+                                                                                    <i class="fas fa-envelope"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-12 text-center">
+                                                                            <a href="#"
+                                                                               class="fas fa-remove text-danger"></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="card border-warning ">
+                                                                        <div class="card-body text-center pt-3 ">
+                                                                            <a href="#">
                                             <span class="avatar avatar-xl brround cover-image m-2"
                                                   data-image-src="../assets/images/photos/pro14.jpg"
                                                   style="background: url(&quot;../assets/images/photos/pro9.jpg&quot;) center center;">
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Abbas
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Abbas
                                                                                     Ghaderi</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div>
@@ -547,16 +571,19 @@
 
                                                                                 <button href="#"
                                                                                         class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-phone"></i></button>
+                                                                                    <i class="fas fa-phone"></i>
+                                                                                </button>
                                                                                 <button href="#"
                                                                                         class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-envelope"></i></button>
+                                                                                    <i class="fas fa-envelope"></i>
+                                                                                </button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row">
                                                                         <div class="col-12 text-center">
-                                                                            <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            <a href="#"
+                                                                               class="fas fa-remove text-danger"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -570,7 +597,9 @@
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Asal Nasirtash</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Asal
+                                                                                    Nasirtash</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div>
                                                                                 <span class="badge badge-default">designer</span>
@@ -579,16 +608,19 @@
 
                                                                                 <button href="#"
                                                                                         class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-phone"></i></button>
+                                                                                    <i class="fas fa-phone"></i>
+                                                                                </button>
                                                                                 <button href="#"
                                                                                         class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-envelope"></i></button>
+                                                                                    <i class="fas fa-envelope"></i>
+                                                                                </button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row">
                                                                         <div class="col-12 text-center">
-                                                                            <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            <a href="#"
+                                                                               class="fas fa-remove text-danger"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -602,7 +634,9 @@
                                                 <span class="avatar-status bg-green"></span>
                                             </span>
                                                                             </a>
-                                                                            <h5 class="mt-3 mb-0"><a class="hover-primary" href="#">Naser Chashmi</a></h5>
+                                                                            <h5 class="mt-3 mb-0"><a
+                                                                                        class="hover-primary" href="#">Naser
+                                                                                    Chashmi</a></h5>
                                                                             <span>Person Position</span>
                                                                             <div>
                                                                                 <span class="badge badge-default">cameraman</span>
@@ -611,16 +645,19 @@
 
                                                                                 <button href="#"
                                                                                         class="btn-pill  btn-outline-success btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-phone"></i></button>
+                                                                                    <i class="fas fa-phone"></i>
+                                                                                </button>
                                                                                 <button href="#"
                                                                                         class="btn-pill  btn-outline-warning btn-sm font-weight-bold">
-                                                                                    <i class="fas fa-envelope"></i></button>
+                                                                                    <i class="fas fa-envelope"></i>
+                                                                                </button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row">
                                                                         <div class="col-12 text-center">
-                                                                            <a href="#" class="fas fa-remove text-danger"></a>
+                                                                            <a href="#"
+                                                                               class="fas fa-remove text-danger"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -646,7 +683,6 @@
 </div>
 
 
-
 <?php
 $scripts = [
     '/assets/plugins/peitychart/jquery.peity.min.js',
@@ -658,5 +694,7 @@ $scripts = [
     '/assets/plugins/accordion/accordion.min.js',
     '/assets/plugins/accordion/accor.js',
     '/assets/js/custom.js',
+    '/assets/plugins/chart/chart.bundle.js',
+    '/assets/js/chart.js',
 ];
 ?>

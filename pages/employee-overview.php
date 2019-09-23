@@ -1,11 +1,11 @@
-
 <!--Page Header-->
 <div class="mb-5">
     <div class="page-header  mb-0">
         <h4 class="page-title">Employee Overview</h4>
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i class="fas  fa-plus"></i></button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-modal"><i
+                            class="fas  fa-plus"></i></button>
             </div>
         </div>
     </div>
@@ -109,7 +109,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -131,7 +132,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -153,7 +155,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -175,7 +178,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -197,7 +201,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -219,7 +224,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -241,7 +247,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         <tr>
@@ -263,7 +270,8 @@
                                 <a class="icon" href="javascript:void(0)"></a>
                                 <a href="/employee-view" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i> View</a>
                                 <a class="icon" href="javascript:void(0)"></a>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal" class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#edit-modal"
+                                   class="btn btn-primary btn-sm"><i class="fas fa-pen"></i> Edit</a>
                             </td>
                         </tr>
                         </tbody>
@@ -287,7 +295,7 @@
                             </div>
                             <div class="dash3">
                                 <h5 class="text-muted">Total Work</h5>
-                                <h4 class="counter text-purple font-weight-extrabold">7920</h4><h6 >hours</h6>
+                                <h4 class="counter text-purple font-weight-extrabold">7920</h4><h6>hours</h6>
                             </div>
                         </div>
                         <div class="chart-wrapper chart-wraper-absolute">
@@ -301,7 +309,7 @@
                             </div>
                             <div class="dash3">
                                 <h5 class="text-muted">Lost Work</h5>
-                                <h4 class="counter text-red font-weight-extrabold">2135</h4><h6 >hours</h6>
+                                <h4 class="counter text-red font-weight-extrabold">2135</h4><h6>hours</h6>
                             </div>
                         </div>
                         <div class="chart-wrapper chart-wraper-absolute">
@@ -315,7 +323,7 @@
                             </div>
                             <div class="dash3">
                                 <h5 class="text-muted">Plan Work</h5>
-                                <h4 class="counter text-green font-weight-extrabold">5785</h4><h6 >hours</h6>
+                                <h4 class="counter text-green font-weight-extrabold">5785</h4><h6>hours</h6>
                             </div>
                         </div>
                         <div class="chart-wrapper chart-wraper-absolute">
@@ -329,7 +337,7 @@
                             </div>
                             <div class="dash3">
                                 <h5 class="text-muted">Total Salary</h5>
-                                <h4 class="counter text-info font-weight-extrabold">96,500,000</h4><h6 >Tomans</h6>
+                                <h4 class="counter text-info font-weight-extrabold">96,500,000</h4><h6>Tomans</h6>
                             </div>
                         </div>
                         <div class="chart-wrapper chart-wraper-absolute">
@@ -437,7 +445,8 @@
                         <tr>
                             <td>
                                 <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro9.jpg"></span>
+                                    <span class="avatar brround cover-image"
+                                          data-image-src="../assets/images/photos/pro9.jpg"></span>
                                 </div>
                             </td>
                             <td class="text-sm font-weight-600">Ali Saburi</td>
@@ -447,12 +456,13 @@
                             <td class="text-center">Jan 13, 2019</td>
                             <td class="text-center">Feb 13, 2019</td>
                             <td class="text-center">Reza Ghorbani</td>
-                            <td class="text-center" >Accepted</td>
+                            <td class="text-center">Accepted</td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro18.jpg"></span>
+                                    <span class="avatar brround cover-image"
+                                          data-image-src="../assets/images/photos/pro18.jpg"></span>
                                 </div>
                             </td>
                             <td class="text-sm font-weight-600">Sheida Shamkhani</td>
@@ -467,7 +477,8 @@
                         <tr>
                             <td>
                                 <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro1.jpg"></span>
+                                    <span class="avatar brround cover-image"
+                                          data-image-src="../assets/images/photos/pro1.jpg"></span>
                                 </div>
                             </td>
                             <td class="text-sm font-weight-600">Vida Rahmani</td>
@@ -482,7 +493,8 @@
                         <tr>
                             <td>
                                 <div class="avatar-group">
-                                    <span class="avatar brround cover-image" data-image-src="../assets/images/photos/pro13.jpg"></span>
+                                    <span class="avatar brround cover-image"
+                                          data-image-src="../assets/images/photos/pro13.jpg"></span>
                                 </div>
                             </td>
                             <td class="text-sm font-weight-600">Samaneh Rashid</td>
@@ -509,9 +521,12 @@
                 <table class="table card-table ">
                     <tbody>
                     <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#ecb403">
+                        <td class="w-1 p-0 ">
+                            <div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4"
+                                 data-color="#ecb403">
                                 <div class="chart-circle-value fs"><span class="fas fa-camera-retro"></span></div>
-                            </div></td>
+                            </div>
+                        </td>
                         <td class="mt-6 font-weight-bold">9.1
                             <div class="progress progress-xs mt-1">
                                 <div class="progress-bar bg-warning w-90"></div>
@@ -521,7 +536,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.5.jpg"></div>
+            <div class="card-aside-column cover-image rounded-right"
+                 data-image-src="../assets/images/photos/pro1.5.jpg"></div>
         </div>
         <div class="card card-aside">
             <div class="card-body p-3 ">
@@ -530,9 +546,12 @@
                 <table class="table card-table ">
                     <tbody>
                     <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#f2574c">
+                        <td class="w-1 p-0 ">
+                            <div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4"
+                                 data-color="#f2574c">
                                 <div class="chart-circle-value fs"><span class="fas fa-user-tie"></span></div>
-                            </div></td>
+                            </div>
+                        </td>
                         <td class="mt-6 font-weight-bold">8.9
                             <div class="progress progress-xs mt-1">
                                 <div class="progress-bar bg-red w-90"></div>
@@ -542,7 +561,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.1.jpeg"></div>
+            <div class="card-aside-column cover-image rounded-right"
+                 data-image-src="../assets/images/photos/pro1.1.jpeg"></div>
         </div>
         <div class="card card-aside">
             <div class="card-body p-3 ">
@@ -551,9 +571,12 @@
                 <table class="table card-table ">
                     <tbody>
                     <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#45aaf2">
+                        <td class="w-1 p-0 ">
+                            <div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4"
+                                 data-color="#45aaf2">
                                 <div class="chart-circle-value fs"><span class="fas fa-palette"></span></div>
-                            </div></td>
+                            </div>
+                        </td>
                         <td class="mt-6 font-weight-bold">8.3
                             <div class="progress progress-xs mt-1">
                                 <div class="progress-bar bg-info w-80"></div>
@@ -563,7 +586,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.2.jpeg"></div>
+            <div class="card-aside-column cover-image rounded-right"
+                 data-image-src="../assets/images/photos/pro1.2.jpeg"></div>
         </div>
         <div class="card card-aside">
             <div class="card-body p-3 ">
@@ -572,9 +596,12 @@
                 <table class="table card-table ">
                     <tbody>
                     <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#5C6C7C">
+                        <td class="w-1 p-0 ">
+                            <div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4"
+                                 data-color="#5C6C7C">
                                 <div class="chart-circle-value fs"><span class="fas fa-film"></span></div>
-                            </div></td>
+                            </div>
+                        </td>
                         <td class="mt-6 font-weight-bold">9.2
                             <div class="progress progress-xs mt-1">
                                 <div class="progress-bar bg-primary w-90"></div>
@@ -584,7 +611,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.4.jpg"></div>
+            <div class="card-aside-column cover-image rounded-right"
+                 data-image-src="../assets/images/photos/pro1.4.jpg"></div>
         </div>
         <div class="card card-aside">
             <div class="card-body p-3 ">
@@ -593,9 +621,12 @@
                 <table class="table card-table ">
                     <tbody>
                     <tr>
-                        <td class="w-1 p-0 "><div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4" data-color="#689f38  ">
+                        <td class="w-1 p-0 ">
+                            <div class="chart-circle chart-circle-sm float-left" data-value="1" data-thickness="4"
+                                 data-color="#689f38  ">
                                 <div class="chart-circle-value fs"><span class="fas fa-pencil-alt"></span></div>
-                            </div></td>
+                            </div>
+                        </td>
                         <td class="mt-6 font-weight-bold">9.1
                             <div class="progress progress-xs mt-1">
                                 <div class="progress-bar bg-green-dark w-90"></div>
@@ -605,7 +636,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-aside-column cover-image rounded-right" data-image-src="../assets/images/photos/pro1.3.jpg"></div>
+            <div class="card-aside-column cover-image rounded-right"
+                 data-image-src="../assets/images/photos/pro1.3.jpg"></div>
         </div>
         <div class="card">
             <div class="card-header">
@@ -637,7 +669,8 @@
                     <img src="../assets/images/photos/pro11.jpg" alt="" class="img-activity">
                     <div class="time-activity mb-0">
                         <div class="item-activity mb-0">
-                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number 6</b></p>
+                            <p class="mb-0"><b>Elnaz Shakerdoost</b><b> Hold The Coordination Meeting At Room Number
+                                    6</b></p>
                             <small class="text-success">5 days ago</small>
                         </div>
                     </div>
@@ -683,12 +716,18 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs p-0">
-                                            <li class=""><a href="#tab1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2" class="font-weight-bold" data-toggle="tab">Graduation</a></li>
-                                            <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
-                                            <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Organization info </a></li>
-                                            <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Salary</a></li>
-                                            <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Work time</a></li>
+                                            <li class=""><a href="#tab1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2" class="font-weight-bold"
+                                                   data-toggle="tab">Graduation</a></li>
+                                            <li><a href="#tab3" class="font-weight-bold" data-toggle="tab">Place &
+                                                    Location</a></li>
+                                            <li><a href="#tab4" class="font-weight-bold" data-toggle="tab">Organization
+                                                    info </a></li>
+                                            <li><a href="#tab5" class="font-weight-bold" data-toggle="tab">Salary</a>
+                                            </li>
+                                            <li><a href="#tab6" class="font-weight-bold" data-toggle="tab">Work time</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -700,35 +739,43 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Name :</label>
+                                                                <label class="control-label form-label font-weight-bold">Name
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Family :</label>
+                                                                <label class="control-label form-label font-weight-bold">Family
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Gender :</label>
+                                                                <label class="control-label form-label font-weight-bold">Gender
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9 d-flex">
                                                                 <label class="custom-control custom-radio mr-5">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios1" value="option1" checked>
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios1" value="option1"
+                                                                           checked>
                                                                     <span class="custom-control-label font-weight-bold">Male</span>
                                                                 </label>
                                                                 <label class="custom-control custom-radio">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios1" value="option2">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios1" value="option2">
                                                                     <span class="custom-control-label font-weight-bold">Female</span>
                                                                 </label>
                                                             </div>
@@ -737,29 +784,34 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Passport Number :</label>
+                                                                <label class="control-label form-label font-weight-bold">Passport
+                                                                    Number :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Date Of Birth :</label>
+                                                                <label class="control-label form-label font-weight-bold">Date
+                                                                    Of Birth :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="row gutters-xs">
                                                                     <div class="col-5">
-                                                                        <select name="user[month]" class="form-control custom-select">
+                                                                        <select name="user[month]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Month</option>
                                                                             <option value="1">January</option>
                                                                             <option value="2">February</option>
                                                                             <option value="3">March</option>
                                                                             <option value="4">April</option>
                                                                             <option value="5">May</option>
-                                                                            <option selected="selected" value="6">June</option>
+                                                                            <option selected="selected" value="6">June
+                                                                            </option>
                                                                             <option value="7">July</option>
                                                                             <option value="8">August</option>
                                                                             <option value="9">September</option>
@@ -769,7 +821,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-3">
-                                                                        <select name="user[day]" class="form-control custom-select">
+                                                                        <select name="user[day]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Day</option>
                                                                             <option value="1">1</option>
                                                                             <option value="2">2</option>
@@ -790,7 +843,8 @@
                                                                             <option value="17">17</option>
                                                                             <option value="18">18</option>
                                                                             <option value="19">19</option>
-                                                                            <option selected="selected" value="20">20</option>
+                                                                            <option selected="selected" value="20">20
+                                                                            </option>
                                                                             <option value="21">21</option>
                                                                             <option value="22">22</option>
                                                                             <option value="23">23</option>
@@ -805,7 +859,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-4">
-                                                                        <select name="user[year]" class="form-control custom-select">
+                                                                        <select name="user[year]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Year</option>
                                                                             <option value="2014">2014</option>
                                                                             <option value="2013">2013</option>
@@ -832,7 +887,9 @@
                                                                             <option value="1992">1992</option>
                                                                             <option value="1991">1991</option>
                                                                             <option value="1990">1990</option>
-                                                                            <option selected="selected" value="1989">1989</option>
+                                                                            <option selected="selected" value="1989">
+                                                                                1989
+                                                                            </option>
                                                                             <option value="1988">1988</option>
                                                                             <option value="1987">1987</option>
                                                                             <option value="1986">1986</option>
@@ -934,7 +991,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Languages :</label>
+                                                                <label class="control-label form-label font-weight-bold">Native
+                                                                    Languages :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -946,18 +1004,40 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="form-group clearfix mt-3">
+                                                        <div class="row ">
+                                                            <div class="col-lg-3">
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Other Language :</label>
+                                                            </div>
+                                                            <div class="col-lg-9">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
+                                                                    <option value="1">Arabic</option>
+                                                                    <option value="2">English</option>
+                                                                    <option value="3">Prsian</option>
+                                                                    <option value="4">Turkey</option>
+                                                                    <option value="5">French</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Marriage Status :</label>
+                                                                <label class="control-label form-label font-weight-bold">Marriage
+                                                                    Status :</label>
                                                             </div>
                                                             <div class="col-lg-9 d-flex">
-                                                                <label class="custom-control custom-radio mr-5" >
-                                                                    <input type="radio" class="custom-control-input" name="example-radios" value="option1" checked>
+                                                                <label class="custom-control custom-radio mr-5">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios" value="option1"
+                                                                           checked>
                                                                     <span class="custom-control-label font-weight-bold">Bachelor</span>
                                                                 </label>
                                                                 <label class="custom-control custom-radio">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios" value="option2">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios" value="option2">
                                                                     <span class="custom-control-label font-weight-bold">Married</span>
                                                                 </label>
                                                             </div>
@@ -966,7 +1046,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Military Service Status :</label>
+                                                                <label class="control-label form-label font-weight-bold">Military
+                                                                    Service Status :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -980,30 +1061,39 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Mobile Number :</label>
+                                                                <label class="control-label form-label font-weight-bold">Mobile
+                                                                    Number :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="tel" >
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="tel">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Email :</label>
+                                                                <label class="control-label form-label font-weight-bold">Email
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="email" placeholder="..........@example.com">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="email"
+                                                                       placeholder="..........@example.com">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions (bio) :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions (bio) :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1016,7 +1106,8 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >University :</label>
+                                                                <label class="control-label form-label font-weight-bold">University
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1031,7 +1122,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Graduation Degree :</label>
+                                                                <label class="control-label form-label font-weight-bold">Graduation
+                                                                    Degree :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1046,7 +1138,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Field of Graduation :</label>
+                                                                <label class="control-label form-label font-weight-bold">Field
+                                                                    of Graduation :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1061,16 +1154,22 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">Add to list</button>
+                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">
+                                                                Add to list
+                                                            </button>
                                                         </div>
                                                     </div>
 
@@ -1080,8 +1179,11 @@
                                                                 <table class="table card-table table-vcenter text-nowrap table-primary border">
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
-                                                                        <th class="text-white text-center">University</th>
-                                                                        <th class="text-white text-center">Graduation Degree</th>
+                                                                        <th class="text-white text-center">University
+                                                                        </th>
+                                                                        <th class="text-white text-center">Graduation
+                                                                            Degree
+                                                                        </th>
                                                                         <th class="text-white text-center">Field</th>
                                                                         <th></th>
                                                                     </tr>
@@ -1095,7 +1197,11 @@
                                                                         <td class="text-center">
                                                                             Photography
                                                                         </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                        <td class="text-center">
+                                                                            <button class="btn-pill btn-outline-danger">
+                                                                                Delete
+                                                                            </button>
+                                                                        </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th class="text-center" scope="row">Esfahan</th>
@@ -1105,7 +1211,11 @@
                                                                         <td class="text-center">
                                                                             Photography
                                                                         </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                        <td class="text-center">
+                                                                            <button class="btn-pill btn-outline-danger">
+                                                                                Delete
+                                                                            </button>
+                                                                        </td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
@@ -1175,7 +1285,8 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >working branch :</label>
+                                                                <label class="control-label form-label font-weight-bold">working
+                                                                    branch :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1190,7 +1301,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Unit  :</label>
+                                                                <label class="control-label form-label font-weight-bold">Unit
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1205,7 +1317,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Role :</label>
+                                                                <label class="control-label form-label font-weight-bold">Role
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1227,10 +1340,10 @@
                                                                 <select multiple="multiple" class="multi-select"
                                                                         id="Inform">
                                                                     <option value="1"></option>
-                                                                    <option value="2"> </option>
-                                                                    <option value="3"> </option>
-                                                                    <option value="4"> </option>
-                                                                    <option value="5"> </option>
+                                                                    <option value="2"></option>
+                                                                    <option value="3"></option>
+                                                                    <option value="4"></option>
+                                                                    <option value="5"></option>
                                                                 </select>
                                                             </div>
                                                         </div>
@@ -1262,27 +1375,32 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">salary rate per hour :</label>
+                                                                <label class="control-label form-label font-weight-bold">salary
+                                                                    rate per hour :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">overwork rate per hour :</label>
+                                                                <label class="control-label form-label font-weight-bold">overwork
+                                                                    rate per hour :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Deal commission method :</label>
+                                                                <label class="control-label form-label font-weight-bold">Deal
+                                                                    commission method :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1295,17 +1413,20 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Amount  :</label>
+                                                                <label class="control-label form-label font-weight-bold">Amount
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >project commission method :</label>
+                                                                <label class="control-label form-label font-weight-bold">project
+                                                                    commission method :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1318,17 +1439,20 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Amount  :</label>
+                                                                <label class="control-label form-label font-weight-bold">Amount
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >contract commission method :</label>
+                                                                <label class="control-label form-label font-weight-bold">contract
+                                                                    commission method :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1341,10 +1465,12 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Amount  :</label>
+                                                                <label class="control-label form-label font-weight-bold">Amount
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1357,27 +1483,30 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Regular work time Per month :</label>
+                                                                <label class="control-label form-label font-weight-bold">Regular
+                                                                    work time Per month :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold" >Work days :</label>
+                                                                <label class="control-label form-label font-weight-bold">Work
+                                                                    days :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select class="form-control" id="ProjectManager">
-                                                                    <option >Saturday</option>
-                                                                    <option >Sunday</option>
-                                                                    <option >Monday</option>
-                                                                    <option >Tuesday</option>
-                                                                    <option >Wednesday</option>
-                                                                    <option >Thursday</option>
-                                                                    <option >Friday</option>
+                                                                    <option>Saturday</option>
+                                                                    <option>Sunday</option>
+                                                                    <option>Monday</option>
+                                                                    <option>Tuesday</option>
+                                                                    <option>Wednesday</option>
+                                                                    <option>Thursday</option>
+                                                                    <option>Friday</option>
                                                                 </select>
                                                             </div>
                                                         </div>
@@ -1396,7 +1525,8 @@
                                                                                 <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
+                                                                        <input class="form-control" id="tpBasic"
+                                                                               placeholder="Set time" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1416,7 +1546,8 @@
                                                                                 <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
+                                                                        <input class="form-control" id="tpBasic"
+                                                                               placeholder="Set time" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1424,7 +1555,9 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
-                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">Add to list</button>
+                                                            <button class=" btn-pill btn-outline-secondary  float-right ml-auto p-1 mr-3  ">
+                                                                Add to list
+                                                            </button>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
@@ -1434,21 +1567,29 @@
                                                                     <thead class="bg-primary text-white border-dark">
                                                                     <tr>
                                                                         <th class="text-white text-center">Workdays</th>
-                                                                        <th class="text-white text-center">Working From </th>
-                                                                        <th class="text-white text-center">Working To</th>
+                                                                        <th class="text-white text-center">Working
+                                                                            From
+                                                                        </th>
+                                                                        <th class="text-white text-center">Working To
+                                                                        </th>
                                                                         <th></th>
                                                                     </tr>
                                                                     </thead>
                                                                     <tbody>
                                                                     <tr>
-                                                                        <th class="text-center" scope="row">Saturday</th>
+                                                                        <th class="text-center" scope="row">Saturday
+                                                                        </th>
                                                                         <td class="text-center">
                                                                             09:00 AM
                                                                         </td>
                                                                         <td class="text-center">
                                                                             16:30 PM
                                                                         </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                        <td class="text-center">
+                                                                            <button class="btn-pill btn-outline-danger">
+                                                                                Delete
+                                                                            </button>
+                                                                        </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th class="text-center" scope="row">Sunday</th>
@@ -1458,7 +1599,11 @@
                                                                         <td class="text-center">
                                                                             17:00 PM
                                                                         </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                        <td class="text-center">
+                                                                            <button class="btn-pill btn-outline-danger">
+                                                                                Delete
+                                                                            </button>
+                                                                        </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th class="text-center" scope="row">Monday</th>
@@ -1468,7 +1613,11 @@
                                                                         <td class="text-center">
                                                                             10:00 AM
                                                                         </td>
-                                                                        <td class="text-center"><button class="btn-pill btn-outline-danger">Delete</button></td>
+                                                                        <td class="text-center">
+                                                                            <button class="btn-pill btn-outline-danger">
+                                                                                Delete
+                                                                            </button>
+                                                                        </td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
@@ -1510,12 +1659,18 @@
                                     <div class="tabs-menu ">
                                         <!-- Tabs -->
                                         <ul class="nav panel-tabs">
-                                            <li class=""><a href="#tab1-1" class="active font-weight-bold" data-toggle="tab">Basic Info</a></li>
-                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Place & Location</a></li>
-                                            <li><a href="#tab3-3" class="font-weight-bold"  data-toggle="tab">ORG Information</a></li>
-                                            <li><a href="#tab4-4" class="font-weight-bold"  data-toggle="tab">Working Time</a></li>
-                                            <li><a href="#tab5-5" class="font-weight-bold"  data-toggle="tab">Salary</a></li>
-                                            <li><a href="#tab6-6" class="font-weight-bold"  data-toggle="tab">Authentication</a></li>
+                                            <li class=""><a href="#tab1-1" class="active font-weight-bold"
+                                                            data-toggle="tab">Basic Info</a></li>
+                                            <li><a href="#tab2-2" class="font-weight-bold" data-toggle="tab">Place &
+                                                    Location</a></li>
+                                            <li><a href="#tab3-3" class="font-weight-bold" data-toggle="tab">ORG
+                                                    Information</a></li>
+                                            <li><a href="#tab4-4" class="font-weight-bold" data-toggle="tab">Working
+                                                    Time</a></li>
+                                            <li><a href="#tab5-5" class="font-weight-bold" data-toggle="tab">Salary</a>
+                                            </li>
+                                            <li><a href="#tab6-6" class="font-weight-bold" data-toggle="tab">Authentication</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1527,35 +1682,43 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Name :</label>
+                                                                <label class="control-label form-label font-weight-bold">Name
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Family :</label>
+                                                                <label class="control-label form-label font-weight-bold">Family
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Gender :</label>
+                                                                <label class="control-label form-label font-weight-bold">Gender
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9 d-flex">
                                                                 <label class="custom-control custom-radio mr-5">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios1" value="option1" checked>
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios1" value="option1"
+                                                                           checked>
                                                                     <span class="custom-control-label font-weight-bold">Male</span>
                                                                 </label>
                                                                 <label class="custom-control custom-radio">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios1" value="option2">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios1" value="option2">
                                                                     <span class="custom-control-label font-weight-bold">Female</span>
                                                                 </label>
                                                             </div>
@@ -1564,29 +1727,34 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Passport Number :</label>
+                                                                <label class="control-label form-label font-weight-bold">Passport
+                                                                    Number :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Date Of Birth :</label>
+                                                                <label class="control-label form-label font-weight-bold">Date
+                                                                    Of Birth :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <div class="row gutters-xs">
                                                                     <div class="col-5">
-                                                                        <select name="user[month]" class="form-control custom-select">
+                                                                        <select name="user[month]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Month</option>
                                                                             <option value="1">January</option>
                                                                             <option value="2">February</option>
                                                                             <option value="3">March</option>
                                                                             <option value="4">April</option>
                                                                             <option value="5">May</option>
-                                                                            <option selected="selected" value="6">June</option>
+                                                                            <option selected="selected" value="6">June
+                                                                            </option>
                                                                             <option value="7">July</option>
                                                                             <option value="8">August</option>
                                                                             <option value="9">September</option>
@@ -1596,7 +1764,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-3">
-                                                                        <select name="user[day]" class="form-control custom-select">
+                                                                        <select name="user[day]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Day</option>
                                                                             <option value="1">1</option>
                                                                             <option value="2">2</option>
@@ -1617,7 +1786,8 @@
                                                                             <option value="17">17</option>
                                                                             <option value="18">18</option>
                                                                             <option value="19">19</option>
-                                                                            <option selected="selected" value="20">20</option>
+                                                                            <option selected="selected" value="20">20
+                                                                            </option>
                                                                             <option value="21">21</option>
                                                                             <option value="22">22</option>
                                                                             <option value="23">23</option>
@@ -1632,7 +1802,8 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-4">
-                                                                        <select name="user[year]" class="form-control custom-select">
+                                                                        <select name="user[year]"
+                                                                                class="form-control custom-select">
                                                                             <option value="">Year</option>
                                                                             <option value="2014">2014</option>
                                                                             <option value="2013">2013</option>
@@ -1659,7 +1830,9 @@
                                                                             <option value="1992">1992</option>
                                                                             <option value="1991">1991</option>
                                                                             <option value="1990">1990</option>
-                                                                            <option selected="selected" value="1989">1989</option>
+                                                                            <option selected="selected" value="1989">
+                                                                                1989
+                                                                            </option>
                                                                             <option value="1988">1988</option>
                                                                             <option value="1987">1987</option>
                                                                             <option value="1986">1986</option>
@@ -1761,10 +1934,12 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Inform">Languages :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Inform">Languages :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select" id="Inform">
+                                                                <select multiple="multiple" class="multi-select"
+                                                                        id="Inform">
                                                                     <option>English</option>
                                                                     <option>Persian</option>
                                                                     <option>Arabic</option>
@@ -1776,15 +1951,19 @@
                                                     <div class="form-group  clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Marriage Status :</label>
+                                                                <label class="control-label form-label font-weight-bold">Marriage
+                                                                    Status :</label>
                                                             </div>
                                                             <div class="col-lg-9 d-flex">
-                                                                <label class="custom-control custom-radio mr-5" >
-                                                                    <input type="radio" class="custom-control-input" name="example-radios" value="option1" checked>
+                                                                <label class="custom-control custom-radio mr-5">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios" value="option1"
+                                                                           checked>
                                                                     <span class="custom-control-label font-weight-bold">Bachelor</span>
                                                                 </label>
                                                                 <label class="custom-control custom-radio">
-                                                                    <input type="radio" class="custom-control-input" name="example-radios" value="option2">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                           name="example-radios" value="option2">
                                                                     <span class="custom-control-label font-weight-bold">Married</span>
                                                                 </label>
                                                             </div>
@@ -1793,7 +1972,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Military Service Status :</label>
+                                                                <label class="control-label form-label font-weight-bold">Military
+                                                                    Service Status :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1807,30 +1987,39 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Mobile Number :</label>
+                                                                <label class="control-label form-label font-weight-bold">Mobile
+                                                                    Number :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="tel" >
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="tel">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Email :</label>
+                                                                <label class="control-label form-label font-weight-bold">Email
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="email" placeholder="..........@example.com">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="email"
+                                                                       placeholder="..........@example.com">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" for="Descriptions">Descriptions (bio) :</label>
+                                                                <label class="control-label form-label font-weight-bold"
+                                                                       for="Descriptions">Descriptions (bio) :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <textarea class="form-control" name="example-textarea-input" rows="6" placeholder="text here.." id="Descriptions"></textarea>
+                                                                <textarea class="form-control"
+                                                                          name="example-textarea-input" rows="6"
+                                                                          placeholder="text here.."
+                                                                          id="Descriptions"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1919,7 +2108,8 @@
                                                     <div class="form-group clearfix mt-3">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Working Branch :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    Branch :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1934,7 +2124,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Unit :</label>
+                                                                <label class="control-label form-label font-weight-bold">Unit
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1948,7 +2139,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Role :</label>
+                                                                <label class="control-label form-label font-weight-bold">Role
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
                                                                 <select class="form-control" id="ProjectManager">
@@ -1963,10 +2155,11 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold" >Skills :</label>
+                                                                <label class="control-label form-label font-weight-bold">Skills
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <select multiple="multiple" class="multi-select" >
+                                                                <select multiple="multiple" class="multi-select">
                                                                     <option value="1"></option>
                                                                     <option value="2"></option>
                                                                     <option value="3"></option>
@@ -1985,7 +2178,8 @@
                                                     <div class="form-group clearfix">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Working Days :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    Days :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <select multiple="multiple" class="multi-select">
@@ -2003,7 +2197,8 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Working From :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    From :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <div class="wd-150 mg-b-30">
@@ -2013,7 +2208,8 @@
                                                                                 <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
+                                                                        <input class="form-control" id="tpBasic"
+                                                                               placeholder="Set time" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2022,7 +2218,8 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Working To :</label>
+                                                                <label class="control-label form-label font-weight-bold">Working
+                                                                    To :</label>
                                                             </div>
                                                             <div class="col-lg-8">
                                                                 <div class="wd-150 mg-b-30">
@@ -2032,7 +2229,8 @@
                                                                                 <i class="fas fa-clock tx-16 lh-0 op-6"></i>
                                                                             </div>
                                                                         </div><!-- input-group-prepend -->
-                                                                        <input class="form-control" id="tpBasic" placeholder="Set time" type="text">
+                                                                        <input class="form-control" id="tpBasic"
+                                                                               placeholder="Set time" type="text">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2041,10 +2239,12 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-4">
-                                                                <label class="control-label form-label font-weight-bold">Regular Time Work Per Month :</label>
+                                                                <label class="control-label form-label font-weight-bold">Regular
+                                                                    Time Work Per Month :</label>
                                                             </div>
                                                             <div class="col-lg-8">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2057,40 +2257,50 @@
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Salary Per Hour :</label>
+                                                                <label class="control-label form-label font-weight-bold">Salary
+                                                                    Per Hour :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text" placeholder="$ 000,000,000">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text"
+                                                                       placeholder="$ 000,000,000">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Over Work Per Hour :</label>
+                                                                <label class="control-label form-label font-weight-bold">Over
+                                                                    Work Per Hour :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text" placeholder="$ 000,000,000">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text"
+                                                                       placeholder="$ 000,000,000">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Deal :</label>
+                                                                <label class="control-label form-label font-weight-bold">Deal
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="form-group clearfix ">
                                                         <div class="row ">
                                                             <div class="col-lg-3">
-                                                                <label class="control-label form-label font-weight-bold">Project :</label>
+                                                                <label class="control-label form-label font-weight-bold">Project
+                                                                    :</label>
                                                             </div>
                                                             <div class="col-lg-9">
-                                                                <input class="form-control required" id="Name" name="userName" type="text">
+                                                                <input class="form-control required" id="Name"
+                                                                       name="userName" type="text">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2105,12 +2315,18 @@
                                                             <div class="col-lg-5 ">
                                                                 <div class="thumbnail border-0">
                                                                     <a href="#">
-                                                                        <img src="../assets/images/photos/19.jpg" alt="thumb1" class="thumbimg ">
+                                                                        <img src="../assets/images/photos/19.jpg"
+                                                                             alt="thumb1" class="thumbimg ">
                                                                     </a>
                                                                     <div class="caption">
-                                                                        <h4 class="text-center mt-3"><strong>Profile Picture</strong></h4>
+                                                                        <h4 class="text-center mt-3"><strong>Profile
+                                                                                Picture</strong></h4>
                                                                         <div class="text-center">
-                                                                            <button href="#" class="btn-pill btn-outline-secondary mt-1 " role="button">Upload <i class="fas fa-cloud-upload-alt"></i></button>
+                                                                            <button href="#"
+                                                                                    class="btn-pill btn-outline-secondary mt-1 "
+                                                                                    role="button">Upload <i
+                                                                                        class="fas fa-cloud-upload-alt"></i>
+                                                                            </button>
                                                                         </div>
                                                                     </div>
                                                                 </div>

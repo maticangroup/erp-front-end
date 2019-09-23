@@ -400,6 +400,7 @@
         <!-- section-wrapper -->
     </div>
 </div>
+
 <div class="row">
     <div class="col-12">
         <div class="card">
@@ -407,12 +408,10 @@
                 <h3 class="card-title">Customers per months</h3>
             </div>
             <div class="card-body">
-                <div id="morrisBar4" class="chartsh"></div>
+                <canvas id="singelBarChart" class="h-300"></canvas>
             </div>
         </div>
-
     </div>
-
 </div>
 <div class="row">
     <div class="col-12">
@@ -2720,5 +2719,7 @@ $scripts = [
     '/assets/plugins/multipleselect/multiple-select.js',
     '/assets/plugins/multipleselect/multi-select.js',
     '/assets/plugins/select2/select2.full.min.js',
+    '/assets/plugins/chart/chart.bundle.js',
+    '/assets/js/chart.js',
 ];
 ?>

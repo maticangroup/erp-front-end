@@ -224,14 +224,14 @@
                 labels: ["January", "February", "March", "April", "May", "June", "July"],
                 datasets: [
                     {
-                        label: "My First dataset",
+                        label: "Asked from customers",
                         data: [65, 59, 80, 81, 56, 55, 40],
                         borderColor: "rgba(83,18,127, 0.9)",
                         borderWidth: "0",
                         backgroundColor: "rgba(83,18,127, 0.7)"
                     },
                     {
-                        label: "My Second dataset",
+                        label: "Asked in projects",
                         data: [28, 48, 40, 19, 86, 27, 90],
                         borderColor: "rgba(242,87,76,0.9)",
                         borderWidth: "0",
@@ -402,10 +402,10 @@
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ["Sun", "Mon", "Tu", "Wed", "Th", "Fri", "Sat"],
+                labels: ["Jan", "Feb", "Apr", "Mar", "Dec", "Oct", "Sep"],
                 datasets: [
                     {
-                        label: "My First dataset",
+                        label: "Customers entry in months",
                         data: [40, 55, 75, 81, 56, 55, 40],
                         borderColor: "rgba(83,18,127, 0.9)",
                         borderWidth: "0",
