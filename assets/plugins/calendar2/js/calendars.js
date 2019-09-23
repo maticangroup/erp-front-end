@@ -47,7 +47,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'My Calendar';
+    calendar.name = 'Majid Salehi';
     calendar.color = '#ffffff';
     calendar.bgColor = '#9e5fff';
     calendar.dragBgColor = '#9e5fff';
@@ -57,7 +57,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Company';
+    calendar.name = 'Room 1';
     calendar.color = '#ffffff';
     calendar.bgColor = '#32cafe';
     calendar.dragBgColor = '#32cafe';
@@ -67,7 +67,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Family';
+    calendar.name = 'Room 2';
     calendar.color = '#ffffff';
     calendar.bgColor = '#f44982';
     calendar.dragBgColor = '#f44982';
@@ -77,7 +77,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Friend';
+    calendar.name = 'Projects';
     calendar.color = '#ffffff';
     calendar.bgColor = '#5ed84f';
     calendar.dragBgColor = '#5ed84f';
@@ -87,7 +87,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Travel';
+    calendar.name = 'Meetings';
     calendar.color = '#ffffff';
     calendar.bgColor = '#fc7303';
     calendar.dragBgColor = '#fc7303';
@@ -97,7 +97,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'etc';
+    calendar.name = 'Employee 1';
     calendar.color = '#ffffff';
     calendar.bgColor = '#0063dc';
     calendar.dragBgColor = '#0063dc';
@@ -107,7 +107,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Birthdays';
+    calendar.name = 'Employee 2';
     calendar.color = '#ffffff';
     calendar.bgColor = '#fdb901';
     calendar.dragBgColor = '#fdb901';

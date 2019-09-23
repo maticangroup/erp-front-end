@@ -421,7 +421,7 @@
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Relation</th>
                             <th class="wd-25p border-bottom-0 text-center bg-primary">Invoice</th>
                             <th class="border-bottom-0 text-center bg-primary">Status</th>
-                            <th class=" bg-primary"></th>
+                            <th class=" bg-primary">Actions</th>
                         </tr>
                         </thead>
                         <tbody>

@@ -264,7 +264,7 @@ $(function (e) {
                 text: ''
             },
             xAxis: {
-                categories: ['growth', 'sales', 'profit', 'Emloyes'],
+                categories: ['Team 1', 'Team 2', 'Team 3', 'Team 4'],
                 title: {
                     text: null
                 }
@@ -406,7 +406,7 @@ $(function (e) {
             },
 
             subtitle: {
-                text: 'Plain'
+                text: 'Branch 1'
             },
             exporting: {enabled: false},
             credits: {
@@ -434,7 +434,7 @@ $(function (e) {
                 polar: false
             },
             subtitle: {
-                text: 'Plain'
+                text: 'Branch 1'
             }
         });
     });
@@ -446,7 +446,7 @@ $(function (e) {
                 polar: false
             },
             subtitle: {
-                text: 'Inverted'
+                text: 'Branch 2'
             }
         });
     });
@@ -458,7 +458,7 @@ $(function (e) {
                 polar: true
             },
             subtitle: {
-                text: 'Polar'
+                text: 'Branch 3'
             }
         });
     });
