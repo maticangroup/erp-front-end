@@ -274,7 +274,7 @@
     <div class="col-6">
         <div class="card overflow-hidden">
             <div class="card-header">
-                <h3 class="card-title">Website Activities</h3>
+                <h3 class="card-title">Time offs</h3>
             </div>
             <div class="card-body">
                 <div class="row">
