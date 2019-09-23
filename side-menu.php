@@ -58,6 +58,7 @@
                 ['url' => '/calls-temp', 'title' => 'Calls'],
                 ['url' => '/tasks-temp', 'title' => 'Tasks'],
                 ['url' => '/letters-temp', 'title' => 'Letters'],
+                ['url' => '/project-template-view', 'title' => 'Project'],
             ]
         ],
         [
