@@ -62,7 +62,6 @@
     </div>
 </div>
 
-
 <div class="row">
     <div class="col-xl-12 col-md-12">
         <div class="pricing-table active rounded">
@@ -141,6 +140,276 @@
                                         <span class="dollar">$</span>1000
                                     </div>
                                     <a><i class="fas fa-2x fa-info-circle text-purple"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-md-12">
+        <div class="pricing-table active rounded">
+            <div class="price-header bg-gradient-teal">
+                <div class="arrow-ribbon bg-primary font-weight-extrabold mt-3">Second Company Activity</div>
+                <div class="price text-white mt-5">Farima</div>
+                <h4 class="title text-white mb-5">Video</h4>
+                <span class="permonth font-weight-extrabold w-25">info  <i class="fas fa-arrow-alt-circle-down text-info"></i></span>
+            </div>
+            <div class="price-body ">
+                <div class="row mx-3 ">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-teal">
+                                    <i class="zmdi zmdi-collection-item-1"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Aerial video</h3>
+                                    <h1 class="pricing-card-title mt-5">B <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>600
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-teal"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-teal">
+                                    <i class="zmdi zmdi-collection-item-2"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Aerial video</h3>
+                                    <h1 class="pricing-card-title mt-5">A <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>1200
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-teal"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-teal">
+                                    <i class="zmdi zmdi-collection-item-3"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Aerial video</h3>
+                                    <h1 class="pricing-card-title mt-5">C <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>350
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-teal"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-teal">
+                                    <i class="zmdi zmdi-collection-item-4"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Aerial video</h3>
+                                    <h1 class="pricing-card-title mt-5">A <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>1000
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-teal"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-md-12">
+        <div class="pricing-table active rounded">
+            <div class="price-header bg-gradient-orange">
+                <div class="arrow-ribbon bg-primary font-weight-extrabold mt-3">Third Company Activity</div>
+                <div class="price text-white mt-5">Farima</div>
+                <h4 class="title text-white mb-5">Design & Editing</h4>
+                <span class="permonth font-weight-extrabold w-25">info  <i class="fas fa-arrow-alt-circle-down text-info"></i></span>
+            </div>
+            <div class="price-body ">
+                <div class="row mx-3 ">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-orange">
+                                    <i class="zmdi zmdi-collection-item-1"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Sharp design</h3>
+                                    <h1 class="pricing-card-title mt-5">B <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>600
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-orange"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-orange">
+                                    <i class="zmdi zmdi-collection-item-2"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Intelligent editing</h3>
+                                    <h1 class="pricing-card-title mt-5">A <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>1200
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-orange"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-orange">
+                                    <i class="zmdi zmdi-collection-item-3"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Efficient design</h3>
+                                    <h1 class="pricing-card-title mt-5">C <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>350
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-orange"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-orange">
+                                    <i class="zmdi zmdi-collection-item-4"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Cool design</h3>
+                                    <h1 class="pricing-card-title mt-5">A <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>1000
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-orange"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-md-12">
+        <div class="pricing-table active rounded">
+            <div class="price-header bg-gradient-blue">
+                <div class="arrow-ribbon bg-primary font-weight-extrabold mt-3">Fourth Company Activity</div>
+                <div class="price text-white mt-5">Farima</div>
+                <h4 class="title text-white mb-5">Professional Printing</h4>
+                <span class="permonth font-weight-extrabold w-25">info  <i class="fas fa-arrow-alt-circle-down text-info"></i></span>
+            </div>
+            <div class="price-body ">
+                <div class="row mx-3 ">
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-blue">
+                                    <i class="zmdi zmdi-collection-item-1"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">3D print</h3>
+                                    <h1 class="pricing-card-title mt-5">B <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>600
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-blue"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-blue">
+                                    <i class="zmdi zmdi-collection-item-2"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">High print</h3>
+                                    <h1 class="pricing-card-title mt-5">A <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>1200
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-blue"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-blue">
+                                    <i class="zmdi zmdi-collection-item-3"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Medium print</h3>
+                                    <h1 class="pricing-card-title mt-5">C <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>350
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-blue"></i></a>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-12">
+                        <div class="box mt-8">
+                            <div class="icon">
+                                <div class="image bg-gradient-blue">
+                                    <i class="zmdi zmdi-collection-item-4"></i>
+                                </div>
+                                <div class="info card pb-6">
+                                    <h3 class="title mb-0">Colorful print</h3>
+                                    <h1 class="pricing-card-title mt-5">A <small class="fs-16">/ grade</small></h1>
+                                    <div class="price">
+                                        <span class="dollar">$</span>1000
+                                    </div>
+                                    <a><i class="fas fa-2x fa-info-circle text-blue"></i></a>
                                 </div>
                             </div>
                             <div class="space"></div>
